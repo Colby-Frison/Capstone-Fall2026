@@ -183,8 +183,8 @@ The React + Next.js frontend is not scaffolded yet. Setup steps will be added he
 | Role | Name |
 | --- | --- |
 | Group ID | Group F |
-| Team members | *[add names]* |
-| Mentor / Client | *[add when confirmed]* |
+| Team members | James Cunningham, Colby Frison, Shone George Kutty Renjan, Patrick Ha, Alan Vo |
+| Mentor / Client | Micheal Coffman, Rebecca Mauldin, Jesus J Viramontes |
 
 ---
 
