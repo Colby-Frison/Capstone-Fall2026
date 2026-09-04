@@ -10,8 +10,7 @@ Research and identify learning resources for the selected technologies. Set a pe
 Identify a key feature in your project and document it.
 •Prepare your GitHub README file, including: A clear description of the project, Identified technologies and tools, and The group’s goals and progress plan.
 
-## d. 
-Write Unit Tests (Group Work: 2 hours):
+## d. Write Unit Tests (Group Work: 2 hours):
 focus on writing ONE unit tests for the identified feature using 3 different programming languages. Ensure that the tests follow best practices for clarity and maintainability.
 
 ## e. 
