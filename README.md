@@ -82,7 +82,7 @@ flowchart LR
     STORE -->|"restore on return"| NEXT
 ```
 
-See [Step 1.a technology document](Assignments/Group/Ticket_2/src/Step1a_Identify_Technologies.md) for full rationale.
+See [Step 1.a technology document](Assignments/Ticket_2/src/Step1a_Identify_Technologies.md) for full rationale.
 
 ---
 
