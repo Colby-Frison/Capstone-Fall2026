@@ -162,7 +162,7 @@ Not scaffolded yet. Setup steps will be added here when the frontend lands.
 | Role | Name |
 | --- | --- |
 | Group ID | Group F |
-| Team members | James Cunningham, Colby Frison, Shone George Kutty Renjan, Patrick Ha, Alan Vo |
+| Team members | James Cunningham, Colby Frison (product owner), Shone George Kutty Renjan, Patrick Ha, Alan Vo (sprint master) |
 | Mentor / Client | Micheal Coffman, Rebecca Mauldin, Jesus J Viramontes |
 
 ---
