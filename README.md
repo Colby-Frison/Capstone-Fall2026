@@ -174,7 +174,8 @@ Not scaffolded yet. Setup steps will be added here when the frontend lands.
 - [MedXPress](https://medxpress.faa.gov/)
 - [AOPA — Preflight your medical](https://www.aopa.org/news-and-media/all-news/2025/december/pilot/flight-md-preflight-your-medical)
 - [Project info](Documentation/Resources/Project%20info.md)
-- [Capstone project proposal](Documentation/Resources/Capstone%20project%20proposal.pdf)
+- [Capstone project proposal (prior PDF)](Documentation/Resources/Capstone%20project%20proposal.pdf)
+- [Formal project proposal (Fall 2026)](Documentation/Resources/Project_Proposal.md)
 - [Project context & requirements](Documentation/Resources/Project_Context_and_Requirements.md)
 - [Ticket 2 artifact](Assignments/Ticket_2/src/Ticket2_Artifact.md)
 
