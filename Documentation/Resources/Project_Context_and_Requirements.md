@@ -134,6 +134,12 @@ Tone and stance stay the same as the original brief: accurate, easy to find, eas
 
 ## Success criteria
 
+1.  Can the pilot get a medical certification with any known conditions (this does not account for what may be discovered during the exam)   
+2.  What does the pilot need to bring with them to the AME appointment (medical records, etc..)
+Information should be accurate and deterministic.
+
+Website fully adheres to FAA website requirements
+
 - A pilot can search a known condition or medication and reach a usable answer in a few interactions.
 - For a deferral-prone path, the UI lists concrete paperwork/tests rather than only naming “deferral.”
 - Mentors can verify sample results against the PDF sources.

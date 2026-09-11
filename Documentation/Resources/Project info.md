@@ -73,7 +73,10 @@ Make sure pilots know they should first get healthy, take care of their health, 
 ---
 
 # Project Requirements 
-> [define the business (why project is happening), solution (functional & non-functional), design specifications, and/or stakeholder requirements that align with the project's resources and objectives]
+> define the business (why project is happening)
+> solution (functional & non-functional)
+> design specifications
+> stakeholder requirements that align with the project's resources and objectives
 
 Increase in pilot medical certificate applications over past 2 years. They often have medical conditions including mental health issuesand think their pilot career is over before it starts.
 
@@ -85,6 +88,12 @@ Continue the work that occurred in the fall 2025 and spring 2026 semesters with 
 
 ## Stakeholder requirements: 
 Content should be accurate, easy to find, easy to understand and encouraging.
+
+## Primary System requirements
+1.  Can the pilot get a medical certification with any known conditions (this does not account for what may be discovered during the exam)   
+2.  What does the pilot need to bring with them to the AME appointment (medical records, etc..)
+
+Information should be accurate and deterministic.
 
 ---
 
