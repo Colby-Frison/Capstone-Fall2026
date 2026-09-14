@@ -117,8 +117,9 @@ Capstone-Fall2026/
 │           ├── run_all_tests.py             # Run all three language suites
 │           ├── AMEParser.py / AMESubset.py  # Pipeline copies for Ticket 2
 │           └── CMakeLists.txt
-└── src/
-    └── old/                       # Prior-semester Python pipeline (kept intact)
+├── src/
+│   └── old/                       # Prior-semester Python pipeline (kept intact)
+└── web/                           # Next.js (App Router, TypeScript) frontend
 ```
 
 ---
@@ -140,7 +141,15 @@ Parser copies live under `Assignments/Ticket_2/src/` and `src/old/`. Place the A
 
 ### Next.js app
 
-Not scaffolded yet. Setup steps will be added here when the frontend lands.
+Boilerplate lives in `web/` (App Router, TypeScript, Jest + React Testing Library).
+Currently just an index page.
+
+```bash
+cd web
+npm install
+npm run dev    # http://localhost:3000
+npm test       # Jest + React Testing Library
+```
 
 ---
 
