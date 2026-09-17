@@ -135,9 +135,21 @@ cd Assignments/Ticket_2/src
 python run_all_tests.py
 ```
 
-### Content pipeline (prior-semester tools)
+### Content pipeline
 
-Parser copies live under `Assignments/Ticket_2/src/` and `src/old/`. Place the AME Guide PDF where the scripts expect it, install dependencies (`pdfplumber`, `pypdf`), then run `AMEParser.py` on a PDF subset. Details remain in those scripts and the Ticket 2 artifact.
+The production parser lives under `src/ame_parser/`; the prior-semester
+implementation remains unchanged under `src/old/` as a comparison baseline.
+
+```bash
+python -m pip install -e ".[dev]"
+python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-72 --diagnostic
+python -m pytest
+```
+
+The parser emits versioned, deterministic JSON containing conditions,
+dispositions, appointment requirements, medication notes, warnings, and PDF
+source references. See [AME Parser documentation](Documentation/AME_Parser.md)
+for architecture, schema, tests, and limitations.
 
 ### Next.js app
 
