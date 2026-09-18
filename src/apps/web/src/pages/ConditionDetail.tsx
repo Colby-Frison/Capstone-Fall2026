@@ -14,7 +14,9 @@ interface Props {
 
 export default function ConditionDetail({ conditionId, onNavigate }: Props) {
   const condition = getConditionById(conditionId);
-  const [selectedSubId, setSelectedSubId] = useState<string | null>(null);
+  const [selectedSubId, setSelectedSubId] = useState<string | null>(
+    condition?.subConditions[0]?.id ?? null,
+  );
   const [checkedDocs, setCheckedDocs] = useState<Set<string>>(new Set());
 
   if (!condition) {
@@ -28,10 +30,19 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
     );
   }
 
-  const selectedSub: SubCondition | null = condition.subConditions.find((s) => s.id === selectedSubId) ?? null;
+  const selectedSub: SubCondition | null =
+    condition.subConditions.find((s) => s.id === selectedSubId) ??
+    condition.subConditions[0] ??
+    null;
   const activeDisposition = selectedSub ? selectedSub.disposition : condition.disposition;
-  const activeDocuments = selectedSub ? selectedSub.documents : condition.subConditions[0]?.documents ?? [];
+  const activeDocuments = selectedSub?.documents ?? [];
   const activeCertNote = selectedSub ? selectedSub.certificationNote : condition.certificationNote;
+  const activeSummary = selectedSub?.summary ?? condition.summary;
+  const activeMedNotes =
+    (selectedSub?.medicationNotes?.length
+      ? selectedSub.medicationNotes
+      : condition.medicationNotes) ?? [];
+  const activeTimeConstraints = selectedSub?.timeConstraints ?? [];
 
   function toggleDoc(id: string) {
     setCheckedDocs((prev) => {
@@ -164,6 +175,33 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
             <div style={{ padding: '24px 28px' }}>
               <DispositionBlock disposition={activeDisposition} />
 
+              {activeSummary && (
+                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6, margin: '16px 0 0' }}>
+                  {activeSummary}
+                </p>
+              )}
+
+              {activeTimeConstraints.length > 0 && (
+                <div style={{ marginTop: 12, display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  {activeTimeConstraints.map((constraint) => (
+                    <span
+                      key={constraint}
+                      style={{
+                        background: '#eef2ff',
+                        border: '1px solid #c7d2fe',
+                        borderRadius: 999,
+                        padding: '4px 10px',
+                        fontFamily: "'Inter', sans-serif",
+                        fontSize: '0.75rem',
+                        color: '#3730a3',
+                      }}
+                    >
+                      {constraint}
+                    </span>
+                  ))}
+                </div>
+              )}
+
               <div style={{ marginTop: 20, padding: '18px 20px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8 }}>
                 <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', marginBottom: 8 }}>
                   Published guidance note
@@ -199,8 +237,10 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
 
             <div style={{ padding: '24px 28px' }}>
               {activeDocuments.length === 0 ? (
-                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#6b7a99' }}>
-                  Select a sub-condition above to see the document checklist for that specific presentation.
+                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#6b7a99', lineHeight: 1.6 }}>
+                  {activeDisposition === 'issue'
+                    ? 'Published guidance for this pathway does not list additional paperwork to bring beyond what the AME reviews at the exam. Follow the certification note above.'
+                    : 'No discrete “bring this” checklist items were extracted for this pathway. Use the certification note above and confirm requirements with your AME.'}
                 </p>
               ) : (
                 <>
@@ -266,17 +306,13 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           </section>
 
           {/* E. Medication notes from source guidance */}
-          {((selectedSub?.medicationNotes?.length
-            ? selectedSub.medicationNotes
-            : condition.medicationNotes) ?? []).length > 0 && (
+          {activeMedNotes.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', margin: '0 0 12px' }}>
                 Medication Notes from Source Guidance
               </h2>
               <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
-                {((selectedSub?.medicationNotes?.length
-                  ? selectedSub.medicationNotes
-                  : condition.medicationNotes) ?? []).map((note, index) => (
+                {activeMedNotes.map((note, index) => (
                   <li key={`${index}-${note.slice(0, 24)}`} style={{ marginBottom: 8 }}>
                     {note}
                   </li>
@@ -346,7 +382,15 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
   );
 }
 
-function DocItem({ doc, checked, onToggle }: { doc: { id: string; label: string; required: boolean }; checked: boolean; onToggle: (id: string) => void }) {
+function DocItem({
+  doc,
+  checked,
+  onToggle,
+}: {
+  doc: { id: string; label: string; required: boolean; description?: string };
+  checked: boolean;
+  onToggle: (id: string) => void;
+}) {
   return (
     <button
       onClick={() => onToggle(doc.id)}
@@ -385,18 +429,33 @@ function DocItem({ doc, checked, onToggle }: { doc: { id: string; label: string;
           </svg>
         )}
       </div>
-      <span
-        style={{
-          fontFamily: "'Inter', sans-serif",
-          fontSize: '0.875rem',
-          color: checked ? '#14532d' : '#334155',
-          lineHeight: 1.5,
-          textDecoration: checked ? 'line-through' : 'none',
-          transition: 'color 0.15s',
-        }}
-      >
-        {doc.label}
-      </span>
+      <div style={{ flex: 1 }}>
+        <div
+          style={{
+            fontFamily: "'Inter', sans-serif",
+            fontSize: '0.875rem',
+            color: checked ? '#14532d' : '#334155',
+            lineHeight: 1.5,
+            textDecoration: checked ? 'line-through' : 'none',
+            transition: 'color 0.15s',
+          }}
+        >
+          {doc.label}
+        </div>
+        {doc.description && (
+          <div
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontSize: '0.78rem',
+              color: '#64748b',
+              lineHeight: 1.5,
+              marginTop: 6,
+            }}
+          >
+            {doc.description}
+          </div>
+        )}
+      </div>
     </button>
   );
 }

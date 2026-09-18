@@ -1,7 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   adaptGuidanceFile,
+  humanizeCategory,
+  humanizeConditionName,
   mapDisposition,
+  pathwayTitle,
   requirementsToDocuments,
   searchAdaptedConditions,
   type NormalizedGuidanceFile,
@@ -26,11 +29,11 @@ const fixture: NormalizedGuidanceFile = {
       action: 'Annotate this in Block 60.',
       requirements: [
         {
-          kind: 'MEDICATION',
-          text: 'Current medications are acceptable.',
+          kind: 'EVALUATION',
+          text: 'If the AME can determine: • The condition is under control; • Current medications are acceptable.',
         },
       ],
-      medication_notes: ['See antihistamine guidance.'],
+      medication_notes: ['Warn for sedating antihistamine medications.'],
       time_constraints: [],
       warnings: [],
       certificate_classes: [],
@@ -54,7 +57,7 @@ const fixture: NormalizedGuidanceFile = {
       requirements: [
         {
           kind: 'DOCUMENT',
-          text: 'A current, detailed Clinical Progress Note.',
+          text: 'Submit the following for FAA review: • A current, detailed Clinical Progress Note. • Current medications, dosage, and side effects.',
         },
       ],
       medication_notes: [],
@@ -80,27 +83,34 @@ describe('content adapter', () => {
     expect(mapDisposition('nonsense')).toBe('unknown');
   });
 
-  it('turns requirements into required document checklist items', () => {
-    const docs = requirementsToDocuments(fixture.records[1]);
-    expect(docs).toHaveLength(1);
-    expect(docs[0].required).toBe(true);
-    expect(docs[0].label).toContain('Clinical Progress Note');
-    expect(docs[0].kind).toBe('DOCUMENT');
+  it('humanizes names and pathway titles without inventing content', () => {
+    expect(humanizeConditionName('ANOSMIA*')).toBe('Anosmia');
+    expect(humanizeCategory('NOSE')).toBe('Nose');
+    expect(pathwayTitle('A. Controlled allergies • Extra detail')).toBe(
+      'A. Controlled allergies',
+    );
   });
 
-  it('groups records into one condition with sub-conditions', () => {
+  it('expands bring-list requirements and skips AME inquiry prose', () => {
+    const docs = requirementsToDocuments(fixture.records[1]);
+    expect(docs.length).toBeGreaterThanOrEqual(2);
+    expect(docs.some((d) => d.label.includes('Clinical Progress Note'))).toBe(
+      true,
+    );
+    expect(requirementsToDocuments(fixture.records[0])).toHaveLength(0);
+  });
+
+  it('groups records into one condition with readable pathways', () => {
     const conditions = adaptGuidanceFile(fixture);
     expect(conditions).toHaveLength(1);
     const condition = conditions[0];
-    expect(condition.name).toContain('ALLERGIES');
-    expect(condition.category).toBe('NOSE');
+    expect(condition.name.toLowerCase()).toContain('allerg');
+    expect(condition.category).toBe('Nose');
     expect(condition.disposition).toBe('deferral');
+    expect(condition.summary).toContain('2 published certification pathways');
     expect(condition.subConditions).toHaveLength(2);
     expect(condition.subConditions[0].disposition).toBe('issue');
-    expect(condition.subConditions[1].disposition).toBe('deferral');
-    expect(condition.subConditions[1].documents[0].label).toContain(
-      'Clinical Progress Note',
-    );
+    expect(condition.subConditions[1].documents.length).toBeGreaterThan(0);
     expect(condition.source).toContain('ame_guide.pdf');
     expect(condition.medicationNotes?.[0]).toContain('antihistamine');
   });

@@ -82,9 +82,16 @@ comparable.
 The Vite app loads `src/data/guidance/ame_guide.normalized.json` through
 `src/packages/content`, which groups records by condition into sub-condition
 pathways, maps dispositions to UI badges, and turns requirements into the
-“what to bring” checklist. Medication catalog entries remain curated until a
-dedicated medication parse exists; parser `medication_notes` still appear on
-condition detail pages.
+“what to bring” checklist. The adapter:
+
+- humanizes condition and category labels for display;
+- keeps pathway titles short and lettered (`A.`, `B.`, …);
+- expands bulleted evaluation text into checklist items;
+- excludes AME inquiry prose from the bring-list;
+- surfaces only short medication notes from action text.
+
+Medication catalog entries remain curated until a dedicated medication parse
+exists.
 
 ## Tests
 
