@@ -22,13 +22,15 @@ dev = [
 ame-parser = "ame_parser.cli:main"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = {"" = "src/packages"}
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["src/packages"]
+include = ["ame_parser*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src/packages"]
 addopts = "-ra"
 markers = [
   "integration: parses targeted pages from supplied FAA PDFs",
