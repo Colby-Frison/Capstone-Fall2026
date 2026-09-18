@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 from typing import Protocol, Sequence
 
-from .models import GuidanceRecord, SourceReference
+from .models import Disposition, GuidanceRecord, SourceReference
 from .pdf import PageData, Table
 from .text import (
     classify_disposition,
@@ -14,6 +14,8 @@ from .text import (
     extract_medication_notes,
     extract_requirements,
     extract_time_constraints,
+    normalize_condition_name,
+    normalize_scenario_title,
     printed_page,
     slug,
 )
@@ -45,17 +47,45 @@ def _append_unique(original: str, extra: str) -> str:
     return f"{original}\n{extra}".strip()
 
 
-def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord:
-    scenario = clean(str(draft["scenario"]))
-    evaluation = clean(str(draft.get("evaluation", "")))
-    action = clean(str(draft.get("action", "")))
-    raw_disposition = clean(str(draft.get("raw_disposition", "")))
-    disposition, warnings = classify_disposition(raw_disposition)
+def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
+    scenario_raw = str(draft["scenario"] or "")
+    evaluation_raw = str(draft.get("evaluation", "") or "")
+    action_raw = str(draft.get("action", "") or "")
+    disposition_raw = str(draft.get("raw_disposition", "") or "")
+
+    scenario = normalize_scenario_title(scenario_raw) or clean(scenario_raw)
+    if not scenario or scenario.lower().startswith("submit the following"):
+        return None
+
+    evaluation = clean(evaluation_raw)
+    action = clean(action_raw)
+    raw_disposition = clean(disposition_raw)
+    disposition, warnings = classify_disposition(raw_disposition or action)
+    # Keep raw_disposition as the keyword label when classification succeeded.
+    if disposition is not Disposition.UNKNOWN:
+        if (
+            not action
+            and raw_disposition
+            and len(raw_disposition) > 24
+            and disposition.value.replace("_", " ").lower()
+            not in raw_disposition.lower()[:20]
+        ):
+            # Disposition cell mixed keyword + instructions into one string.
+            action = raw_disposition
+        if disposition is Disposition.SPECIAL_ISSUANCE:
+            raw_disposition = "SPECIAL ISSUANCE"
+        elif disposition is Disposition.DEFER and "FAA DECISION" in raw_disposition.upper():
+            raw_disposition = "Requires FAA Decision"
+        else:
+            raw_disposition = disposition.value.replace("_", " ")
+
     all_warnings = tuple(dict.fromkeys((*draft.get("warnings", ()), *warnings)))
-    condition = clean(str(draft["condition"]))
+    condition = normalize_condition_name(str(draft["condition"]))
     page = int(draft["page"])
     category = clean(str(draft.get("category", ""))) or None
     class_text = clean(str(draft.get("classes", "")))
+    requirements = extract_requirements(evaluation_raw)
+    medication_notes = extract_medication_notes(action_raw)
     return GuidanceRecord(
         record_id=f"{slug(source.stem, condition, scenario, class_text)}-p{page}",
         category=category,
@@ -67,11 +97,13 @@ def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord:
             for part in re.split(r"\s*(?:&|,|/)\s*", class_text)
             if part.strip()
         ),
-        time_constraints=extract_time_constraints(scenario, evaluation, action),
+        time_constraints=extract_time_constraints(
+            scenario_raw, evaluation_raw, action_raw
+        ),
         disposition=disposition,
         raw_disposition=raw_disposition,
-        requirements=extract_requirements(evaluation),
-        medication_notes=extract_medication_notes(scenario, evaluation, action),
+        requirements=requirements,
+        medication_notes=medication_notes,
         action=action,
         source=SourceReference(
             document=source.name,
@@ -225,7 +257,11 @@ class AmeGuideExtractor:
                             str(draft.get("action", "")), action
                         )
 
-        return tuple(_finish(draft, source) for draft in drafts)
+        return tuple(
+            record
+            for draft in drafts
+            if (record := _finish(draft, source)) is not None
+        )
 
     @staticmethod
     def _stacked_pathways(
@@ -419,7 +455,11 @@ class OneGuideExtractor:
                                 str(active.get("action", "")), ame_action
                             )
 
-        return tuple(_finish(draft, source) for draft in drafts)
+        return tuple(
+            record
+            for draft in drafts
+            if (record := _finish(draft, source)) is not None
+        )
 
     @staticmethod
     def _pilot_rows(table: Table) -> tuple[Sequence[tuple[str | None, ...]], int | None]:

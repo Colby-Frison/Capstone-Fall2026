@@ -1,7 +1,8 @@
 # AME Parser
 
-The production parser is in `src/ame_parser/`. The prior-semester
-implementation remains unchanged in `src/old/` for characterization tests.
+The production parser is in `src/packages/ame_parser/`. The prior-semester
+implementation remains unchanged in `src/legacy/old/` for characterization tests.
+App-facing normalized JSON is written to `src/data/guidance/` for the Vite UI.
 
 ## Purpose and safety boundary
 
@@ -18,15 +19,16 @@ transformation remains visible.
 
 ```powershell
 python -m pip install -e ".[dev]"
+python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-72
 python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-72 `
-  --output ame-pages-64-72.json --diagnostic
+  --output src/data/guidance/ame_guide.normalized.json --diagnostic
 ```
 
 For OneGuide:
 
 ```powershell
 python -m ame_parser Documentation/Resources/OneGuide_Neurology.pdf --pages 5-14 `
-  --output neurology-pages-5-14.json --diagnostic
+  --output src/data/guidance/OneGuide_Neurology.normalized.json --diagnostic
 ```
 
 Use `--strict` in validation jobs where any parser warning must fail the run.
@@ -74,6 +76,22 @@ Each record contains:
 
 Stable ordering and sorted JSON keys make repeated runs byte-for-byte
 comparable.
+
+## UI consumption
+
+The Vite app loads `src/data/guidance/ame_guide.normalized.json` through
+`src/packages/content`, which groups records by condition into sub-condition
+pathways, maps dispositions to UI badges, and turns requirements into the
+“what to bring” checklist. The adapter:
+
+- humanizes condition and category labels for display;
+- keeps pathway titles short and lettered (`A.`, `B.`, …);
+- expands bulleted evaluation text into checklist items;
+- excludes AME inquiry prose from the bring-list;
+- surfaces only short medication notes from action text.
+
+Medication catalog entries remain curated until a dedicated medication parse
+exists.
 
 ## Tests
 
