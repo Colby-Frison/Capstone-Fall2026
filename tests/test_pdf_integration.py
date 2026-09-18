@@ -61,7 +61,7 @@ def test_oneguide_pages_match_human_reviewed_goldens() -> None:
 
 
 def _load_legacy_parser() -> ModuleType:
-    path = ROOT / "src" / "old" / "AMEParser.py"
+    path = ROOT / "src" / "legacy" / "old" / "AMEParser.py"
     spec = importlib.util.spec_from_file_location("legacy_ame_parser", path)
     assert spec and spec.loader
     module = importlib.util.module_from_spec(spec)

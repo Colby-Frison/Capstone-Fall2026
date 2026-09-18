@@ -1,0 +1,10 @@
+{
+  "description": "Enables users to upload markdown and PDF files to generate detailed, context-aware prompts for enhanced content creation and analysis.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

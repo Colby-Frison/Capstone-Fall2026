@@ -60,13 +60,14 @@ Documented with unit tests in Python, JavaScript, and C++:
 
 | Technology | Role |
 | --- | --- |
-| **Python** | PDF parsing, content pipeline, disposition logic, pytest |
-| **JavaScript** | Web interactivity; disposition helper + Node tests |
-| **C++** | Ticket 2 third-language unit tests (GoogleTest) |
-| **JSON** | Structured conditions, dispositions, deferral docs, medication notes |
-| **HTML / CSS** | Web UI foundation and responsive layout |
-| **React + Next.js** | Searchable, accessible presentation layer (planned) |
-| **Figma** | Wireframes and stakeholder review |
+| **Python** | PDF parsing, content pipeline, disposition logic, pytest, Capstone CLI |
+| **React + Vite** | Product frontend (from Figma Make mockup) |
+| **TypeScript** | Frontend and content adapter |
+| **JSON** | Normalized guidance consumed by the UI |
+| **Tailwind CSS** | Presentation styling |
+| **Figma** | Design / mockup source |
+
+FAA policy does **not** mandate a specific JavaScript framework. Capstone compatibility focuses on Section 508 / WCAG-oriented structure, deterministic source-backed content, and a static-hostable React build suitable for later Office of Communication review. This SPA is **not** an officially AOC-approved FAA site.
 
 ### How they fit together
 
@@ -78,20 +79,20 @@ flowchart LR
 
     subgraph content[Content pipeline]
         PDF["AME Guide / OneGuide PDFs"]
-        PY["Python parser"]
-        DATA["Structured data"]
+        PY["ame_parser"]
+        DATA["src/data/guidance"]
+        ADAPTER["packages/content"]
     end
 
     subgraph app[Web application]
-        NEXT["React + Next.js"]
+        WEB["apps/web Vite React"]
         SEARCH["Search"]
         DISP["Disposition labels"]
     end
 
-    FIG --> NEXT
-    PDF --> PY --> DATA
-    DATA --> NEXT
-    NEXT --> SEARCH
+    FIG --> WEB
+    PDF --> PY --> DATA --> ADAPTER --> WEB
+    WEB --> SEARCH
     SEARCH --> DISP
 ```
 
@@ -104,63 +105,70 @@ See [Step 1.a — Identify Technologies](Assignments/Ticket_2/src/Step1a_Identif
 ```
 Capstone-Fall2026/
 ├── README.md
-├── Documentation/
-│   └── Resources/                 # Briefs, proposals, AME Guide PDFs, requirements
-├── Assignments/
-│   ├── Ticket_1/                  # Domain understanding
-│   └── Ticket_2/
-│       ├── instructions/
-│       └── src/
-│           ├── Ticket2_Artifact.md          # Key feature + unit test write-up
-│           ├── Step1a_Identify_Technologies.md
-│           ├── AMEParserTest.py / .js / .cpp
-│           ├── run_all_tests.py             # Run all three language suites
-│           ├── AMEParser.py / AMESubset.py  # Pipeline copies for Ticket 2
-│           └── CMakeLists.txt
-├── src/
-│   └── old/                       # Prior-semester Python pipeline (kept intact)
-└── web/                           # Next.js (App Router, TypeScript) frontend
+├── pyproject.toml
+├── Documentation/                 # proposals, resources, parser docs
+├── Assignments/                   # Ticket deliverables (separate from product code)
+├── tests/                         # Python pytest suite
+├── schemas/                       # ame-parser JSON Schema
+└── src/                           # all product code
+    ├── apps/
+    │   └── web/                   # Vite + React product UI
+    ├── packages/
+    │   ├── ame_parser/            # PDF extraction package
+    │   └── content/               # normalized JSON → UI models
+    ├── data/
+    │   └── guidance/              # ame_guide.normalized.json for the app
+    ├── legacy/
+    │   ├── old/                   # prior-semester parser baseline
+    │   └── web-next/              # archived Next.js boilerplate
+    └── scripts/
+        └── capstone.py            # sectional tests + dev server
 ```
 
 ---
 
 ## Getting started
 
-### Run Ticket 2 unit tests
+### Capstone CLI (recommended)
 
-Requires Python 3.10+, Node.js 18+, and CMake (for C++).
+Requires Python 3.10+ and Node.js 18+ (pnpm or npm).
 
-```bash
-cd Assignments/Ticket_2/src
-python run_all_tests.py
+```powershell
+python -m pip install -e ".[dev]"
+python src/scripts/capstone.py test --section parser
+python src/scripts/capstone.py test --section content
+python src/scripts/capstone.py test --section web
+python src/scripts/capstone.py test
+python src/scripts/capstone.py dev
 ```
+
+`dev` starts the Vite app (default http://127.0.0.1:5173).
 
 ### Content pipeline
 
-The production parser lives under `src/ame_parser/`; the prior-semester
-implementation remains unchanged under `src/old/` as a comparison baseline.
-
-```bash
+```powershell
 python -m pip install -e ".[dev]"
-python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-72 --diagnostic
+python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-72
 python -m pytest
 ```
 
-The parser emits versioned, deterministic JSON containing conditions,
-dispositions, appointment requirements, medication notes, warnings, and PDF
-source references. See [AME Parser documentation](Documentation/AME_Parser.md)
-for architecture, schema, tests, and limitations.
+Normalized JSON for the website lives in [`src/data/guidance/`](src/data/guidance/). PDF source artifacts remain under [`Documentation/Resources/`](Documentation/Resources/). See [AME Parser documentation](Documentation/AME_Parser.md).
 
-### Next.js app
+### Web app (direct)
 
-Boilerplate lives in `web/` (App Router, TypeScript, Jest + React Testing Library).
-Currently just an index page.
+```powershell
+cd src/apps/web
+pnpm install   # or: npm install
+pnpm dev
+pnpm test
+pnpm build
+```
 
-```bash
-cd web
-npm install
-npm run dev    # http://localhost:3000
-npm test       # Jest + React Testing Library
+### Ticket 2 unit tests
+
+```powershell
+cd Assignments/Ticket_2/src
+python run_all_tests.py
 ```
 
 ---
@@ -172,7 +180,7 @@ npm test       # Jest + React Testing Library
 | **1. Domain & stack** | Weeks 1–2 | Ticket 1 domain work; technology selection; README; Ticket 2 unit tests |
 | **2. Design** | Weeks 2–4 | Figma wireframes for search and result views; mentor feedback |
 | **3. Content pipeline** | Weeks 2–5 | Extend PDF parsing; structure conditions, outcomes, deferral docs, medications |
-| **4. Frontend prototype** | Weeks 4–8 | Next.js app with search, disposition labels, deferral and medication info |
+| **4. Frontend prototype** | Weeks 4–8 | Vite React app with search, disposition labels, deferral and medication info |
 | **5. Testing & refinement** | Weeks 8–10 | Broader unit tests; accessibility review; content accuracy checks |
 | **6. Demo & handoff** | Weeks 11–15 | Presentation, user guide, report; prepare for FAA stakeholder review |
 
@@ -199,9 +207,10 @@ npm test       # Jest + React Testing Library
 - [Formal project proposal (Fall 2026)](Documentation/Resources/Project_Proposal.md)
 - [Project context & requirements](Documentation/Resources/Project_Context_and_Requirements.md)
 - [Ticket 2 artifact](Assignments/Ticket_2/src/Ticket2_Artifact.md)
+- [AME Parser](Documentation/AME_Parser.md)
 
 ---
 
 ## Disclaimer
 
-Educational prototype for CS-4273 Capstone. **Not** an official FAA product. Medical content must be verified against current FAA guidance and mentor-approved sources. The prototype does not collect real personally identifiable information (PII).
+Educational prototype for CS-4273 Capstone. **Not** an official FAA product and **not** AOC-approved FAA.gov content. Medical content must be verified against current FAA guidance and mentor-approved sources. The prototype does not collect real personally identifiable information (PII).
