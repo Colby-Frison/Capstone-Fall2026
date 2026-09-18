@@ -11,7 +11,10 @@ export type {
 
 export {
   adaptGuidanceFile,
+  humanizeCategory,
+  humanizeConditionName,
   mapDisposition,
+  pathwayTitle,
   requirementsToDocuments,
   searchAdaptedConditions,
   slugify,

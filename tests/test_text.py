@@ -46,6 +46,29 @@ def test_requirements_are_typed_without_removing_source_wording() -> None:
     assert requirements[0].text == "Current Clinical Progress Note"
 
 
+def test_normalize_scenario_and_condition_titles() -> None:
+    from ame_parser.text import normalize_condition_name, normalize_scenario_title
+
+    assert normalize_condition_name("ANOSMIA*") == "ANOSMIA"
+    assert normalize_condition_name("SINUSITIS(Acute)") == "SINUSITIS (Acute)"
+    assert normalize_scenario_title(
+        "A. Allergies controlled by acceptable medications\nAllergy shots/SLIT"
+    ).startswith("A. Allergies controlled")
+
+
+def test_medication_notes_ignore_evaluation_blobs() -> None:
+    from ame_parser.text import extract_medication_notes
+
+    notes = extract_medication_notes(
+        "Submit the following for FAA review: A current Clinical Progress Note "
+        "including current medications, dosage, and side effects.",
+        "Warn for any required no fly time for sedating antihistamine medications.",
+    )
+    assert notes == (
+        "Warn for any required no fly time for sedating antihistamine medications.",
+    )
+
+
 def test_printed_page_supports_both_document_footer_styles() -> None:
     assert printed_page("content\n64") == "64"
     assert printed_page("content\n-- 5 of 369 --") == "5"
