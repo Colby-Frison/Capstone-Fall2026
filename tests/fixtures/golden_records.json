@@ -1,0 +1,86 @@
+{
+  "ame_guide": [
+    {
+      "pdf_page": 64,
+      "condition_contains": "HEAD, FACE, NECK, AND SCALP",
+      "scenario_contains": "Active fistula of neck",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
+      "pdf_page": 64,
+      "condition_contains": "HEAD, FACE, NECK, AND SCALP",
+      "scenario_contains": "Deformities of the face",
+      "certificate_class": "1st",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
+      "pdf_page": 64,
+      "condition_contains": "HEAD, FACE, NECK, AND SCALP",
+      "scenario_contains": "Deformities of the face",
+      "certificate_class": "3rd",
+      "disposition": "ISSUE",
+      "requirement_contains": "medical information"
+    },
+    {
+      "pdf_page": 65,
+      "condition_contains": "ALLERGIES or ANAPHYLAXIS",
+      "scenario_contains": "Allergies indicated",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
+      "pdf_page": 67,
+      "condition_contains": "ANOSMIA",
+      "scenario_contains": "KNOWN etiology",
+      "disposition": "ISSUE",
+      "requirement_contains": "condition is benign"
+    },
+    {
+      "pdf_page": 71,
+      "condition_contains": "COCHLEAR IMPLANT",
+      "scenario_contains": "Implant was placed",
+      "disposition": "DEFER",
+      "requirement_contains": "Audiogram"
+    },
+    {
+      "pdf_page": 69,
+      "condition_contains": "SINUSITIS",
+      "scenario_contains": "Extensive adhesion of the soft palate",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
+      "pdf_page": 72,
+      "condition_contains": "ACOUSTIC NEUROMA",
+      "scenario_contains": "Treated less than 5 years",
+      "disposition": "DEFER",
+      "requirement_contains": "current status report",
+      "time_constraint": "less than 5 years"
+    }
+  ],
+  "oneguide": [
+    {
+      "pdf_page": 5,
+      "condition_contains": "Amyotrophic Lateral Sclerosis",
+      "scenario_contains": "Any history",
+      "disposition": "DEFER",
+      "requirement_contains": "neurological evaluation"
+    },
+    {
+      "pdf_page": 12,
+      "condition_contains": "Arteriovenous Malformation",
+      "scenario_contains": "Not requiring treatment",
+      "disposition": "DEFER",
+      "requirement_contains": "Imaging studies"
+    },
+    {
+      "pdf_page": 13,
+      "condition_contains": "Arteriovenous Malformation",
+      "scenario_contains": "Treated with embolization",
+      "disposition": "DEFER",
+      "requirement_contains": "Hospital records"
+    }
+  ]
+}
