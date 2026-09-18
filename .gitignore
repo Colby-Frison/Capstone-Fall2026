@@ -3,6 +3,10 @@ build/
 .pytest_cache/
 .coverage
 *.egg-info/
+node_modules/
+dist/
+.next/
+.vite/
 /Documentation/local/
 /.vscode/
 /.cursor/

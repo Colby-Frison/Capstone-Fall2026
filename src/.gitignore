@@ -1,0 +1,12 @@
+# Generated / local artifacts for the Capstone product tree
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+*.egg-info/
+.venv/
+node_modules/
+dist/
+.next/
+.vite/
+*.tsbuildinfo

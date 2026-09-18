@@ -1,6 +1,6 @@
 # AME Parser Baseline Comparison
 
-This report compares the unchanged `src/old/AMEParser.py` with the production
+This report compares the unchanged `src/legacy/old/AMEParser.py` with the production
 package on the human-reviewed ranges used by the automated tests.
 
 ## AME Guide PDF pages 64–72

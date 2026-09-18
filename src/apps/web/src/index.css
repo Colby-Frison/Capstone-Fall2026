@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-navy: #1b2d4f;
+  --color-navy-dark: #0f1e35;
+  --color-navy-light: #243e6b;
+  --color-sky: #3b7fc4;
+  --color-sky-light: #e8f2fb;
+  --color-sky-mid: #b8d4ef;
+  --color-surface: #f5f7fa;
+  --color-border: #d1d9e6;
+  --color-muted: #6b7a99;
+
+  --color-issue-bg: #f0fdf4;
+  --color-issue-text: #14532d;
+  --color-issue-border: #bbf7d0;
+  --color-issue-dot: #16a34a;
+
+  --color-deferral-bg: #fffbeb;
+  --color-deferral-text: #78350f;
+  --color-deferral-border: #fde68a;
+  --color-deferral-dot: #d97706;
+
+  --color-denial-bg: #fef2f2;
+  --color-denial-text: #7f1d1d;
+  --color-denial-border: #fecaca;
+  --color-denial-dot: #dc2626;
+
+  --color-special-bg: #eff6ff;
+  --color-special-text: #1e3a8a;
+  --color-special-border: #bfdbfe;
+  --color-special-dot: #3b82f6;
+
+  --color-unknown-bg: #f8fafc;
+  --color-unknown-text: #374151;
+  --color-unknown-border: #e2e8f0;
+  --color-unknown-dot: #94a3b8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'DM Sans', system-ui, sans-serif;
+  color: #1e293b;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+:focus-visible {
+  outline: 2px solid #3b7fc4;
+  outline-offset: 2px;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Disposition badge base */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 3px 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.badge-issue {
+  background: var(--color-issue-bg);
+  color: var(--color-issue-text);
+  border-color: var(--color-issue-border);
+}
+.badge-deferral {
+  background: var(--color-deferral-bg);
+  color: var(--color-deferral-text);
+  border-color: var(--color-deferral-border);
+}
+.badge-denial {
+  background: var(--color-denial-bg);
+  color: var(--color-denial-text);
+  border-color: var(--color-denial-border);
+}
+.badge-special {
+  background: var(--color-special-bg);
+  color: var(--color-special-text);
+  border-color: var(--color-special-border);
+}
+.badge-unknown {
+  background: var(--color-unknown-bg);
+  color: var(--color-unknown-text);
+  border-color: var(--color-unknown-border);
+}

@@ -1,0 +1,1225 @@
+{
+  "pages_processed": 22,
+  "parser_version": "0.1.0",
+  "records": [
+    {
+      "action": "Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA.",
+      "category": "NOSE",
+      "certificate_classes": [],
+      "condition": "ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+      "disposition": "ISSUE",
+      "medication_notes": [
+        "A. Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed",
+        "The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine: • The condition is under control; • Current medications are acceptable; See the Pharmaceuticals Section, o Allergy - Antihistamine & Immunotherapy Medication. • Any no fly time is discussed with the individual; AND • No symptoms that would interfere with flight or safety related duties:",
+        "Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA."
+      ],
+      "raw_disposition": "ISSUE Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA.",
+      "raw_text": "A. Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine: • The condition is under control; • Current medications are acceptable; See the Pharmaceuticals Section, o Allergy - Antihistamine & Immunotherapy Medication. • Any no fly time is discussed with the individual; AND • No symptoms that would interfere with flight or safety related duties: ISSUE Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA. Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA.",
+      "record_id": "ame-guide-allergies-or-anaphylaxis-allergic-rhinitis-seasonal-allergic-rhinitis-hay-fever-a-allergies-controlled-by-acceptable-medications-single-or-in-combination-allergy-shots-sublingual-immunotherapy-slit-epi-pen-is-prescribed-p65",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine: • The condition is under control; • Current medications are acceptable; See the Pharmaceuticals Section, o Allergy - Antihistamine & Immunotherapy Medication. • Any no fly time is discussed with the individual; AND • No symptoms that would interfere with flight or safety related duties:"
+        }
+      ],
+      "scenario": "A. Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 65,
+        "printed_page": "65",
+        "section": "NOSE"
+      },
+      "subcondition": "A. Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance.",
+      "category": "NOSE",
+      "certificate_classes": [],
+      "condition": "ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; results of any testing performed; • diagnosis; • assessment and plan; • prognosis; and follow-up."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Allergies indicated by; • Chronic or repeated steroid treatment or • Reaction requiring urgent medical intervention • airway closure • urticaria requiring treatment Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; results of any testing performed; • diagnosis; • assessment and plan; • prognosis; and follow-up. DEFER Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-allergies-or-anaphylaxis-allergic-rhinitis-seasonal-allergic-rhinitis-hay-fever-b-allergies-indicated-by-chronic-or-repeated-steroid-treatment-or-reaction-requiring-urgent-medical-intervention-airway-closure-urticaria-requiring-treatment-p65",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; results of any testing performed; • diagnosis; • assessment and plan; • prognosis; and follow-up."
+        }
+      ],
+      "scenario": "B. Allergies indicated by; • Chronic or repeated steroid treatment or • Reaction requiring urgent medical intervention • airway closure • urticaria requiring treatment",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 65,
+        "printed_page": "65",
+        "section": "NOSE"
+      },
+      "subcondition": "B. Allergies indicated by; • Chronic or repeated steroid treatment or • Reaction requiring urgent medical intervention • airway closure • urticaria requiring treatment",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance.",
+      "category": "NOSE",
+      "certificate_classes": [],
+      "condition": "ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. History of anaphylaxis or allergic reactions requiring use of epi-pen After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety related duties. Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist. It should verify the cause of the anaphylaxis or allergic reaction, likelihood it will re-occur and if it were to re-occur, how severe. DEFER Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-allergies-or-anaphylaxis-allergic-rhinitis-seasonal-allergic-rhinitis-hay-fever-c-history-of-anaphylaxis-or-allergic-reactions-requiring-use-of-epi-pen-p65",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety related duties. Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist. It should verify the cause of the anaphylaxis or allergic reaction, likelihood it will re-occur and if it were to re-occur, how severe."
+        }
+      ],
+      "scenario": "C. History of anaphylaxis or allergic reactions requiring use of epi-pen",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 65,
+        "printed_page": "65",
+        "section": "NOSE"
+      },
+      "subcondition": "C. History of anaphylaxis or allergic reactions requiring use of epi-pen",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60. For any identified underling condition(s), see that section.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "ANOSMIA*",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods. No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties: ***************************************** *** Discuss with the pilot: • This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke). • Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine. • CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight. ISSUE Annotate this information in Block 60. For any identified underling condition(s), see that section.",
+      "record_id": "ame-guide-anosmia-a-known-etiology-including-covid-19-infection-if-due-to-trauma-associated-with-traumatic-brain-injury-tumor-removal-etc-review-that-section-for-additional-information-or-required-recovery-periods-p67",
+      "requirements": [
+        {
+          "kind": "EVALUATION",
+          "text": "No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties: ***************************************** *** Discuss with the pilot: • This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke). • Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine. • CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight."
+        }
+      ],
+      "scenario": "A. KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 67,
+        "printed_page": "67",
+        "section": null
+      },
+      "subcondition": "A. KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the airman’s authorization letter.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "ANOSMIA*",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following to the FAA for review: • The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT). • It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. • It must specifically include etiology, if found."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. UNKNOWN (or uncertain) etiology For ANY duration. Submit the following to the FAA for review: • The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT). • It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. • It must specifically include etiology, if found. DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the airman’s authorization letter.",
+      "record_id": "ame-guide-anosmia-b-unknown-or-uncertain-etiology-for-any-duration-p67",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following to the FAA for review: • The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT). • It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. • It must specifically include etiology, if found."
+        }
+      ],
+      "scenario": "B. UNKNOWN (or uncertain) etiology For ANY duration.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 67,
+        "printed_page": "67",
+        "section": null
+      },
+      "subcondition": "B. UNKNOWN (or uncertain) etiology For ANY duration.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60.",
+      "category": "SINUS CONDITIONS",
+      "certificate_classes": [],
+      "condition": "SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+      "disposition": "ISSUE",
+      "medication_notes": [
+        "A. Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not Note: Recurrent, isolated infections which clear can be followed under Row A.",
+        "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+      ],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not Note: Recurrent, isolated infections which clear can be followed under Row A. If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis. ISSUE Annotate this information in Block 60.",
+      "record_id": "ame-guide-sinusitis-acute-or-chronic-infection-deviated-nasal-septum-sinus-obstruction-nasal-cysts-nasal-polyps-or-sinus-tumor-a-acute-infection-s-from-any-cause-requiring-medication-s-or-not-or-deviated-nasal-septum-not-causing-obstruction-corrected-or-not-note-recurrent-isolated-infections-which-clear-can-be-followed-under-row-a-p68",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+        }
+      ],
+      "scenario": "A. Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not Note: Recurrent, isolated infections which clear can be followed under Row A.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 68,
+        "printed_page": "68",
+        "section": "SINUS CONDITIONS"
+      },
+      "subcondition": "A. Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not Note: Recurrent, isolated infections which clear can be followed under Row A.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance.",
+      "category": "SINUS CONDITIONS",
+      "certificate_classes": [],
+      "condition": "SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition. • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. If the AME history and physical exam 2. Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma. 3. Sinus CT imaging (report) already performed; 4. Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities; Pilots should NOT fly with a \"cold\" or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Chronic or severe (hospitalized for infection) OR Affected by barometric changes OR Sinus Obstruction from nasal polyps or cysts, tumor, anatomic (deviated nasal septum) If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition. • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. If the AME history and physical exam 2. Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma. 3. Sinus CT imaging (report) already performed; 4. Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities; Pilots should NOT fly with a \"cold\" or viral upper respiratory tract infection, or with the condition of rhinosinusitis. DEFER Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-sinusitis-acute-or-chronic-infection-deviated-nasal-septum-sinus-obstruction-nasal-cysts-nasal-polyps-or-sinus-tumor-b-chronic-or-severe-hospitalized-for-infection-or-affected-by-barometric-changes-or-sinus-obstruction-from-nasal-polyps-or-cysts-tumor-anatomic-deviated-nasal-septum-p68",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition. • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. If the AME history and physical exam 2. Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma. 3. Sinus CT imaging (report) already performed; 4. Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities; Pilots should NOT fly with a \"cold\" or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+        }
+      ],
+      "scenario": "B. Chronic or severe (hospitalized for infection) OR Affected by barometric changes OR Sinus Obstruction from nasal polyps or cysts, tumor, anatomic (deviated nasal septum)",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 68,
+        "printed_page": "68",
+        "section": "SINUS CONDITIONS"
+      },
+      "subcondition": "B. Chronic or severe (hospitalized for infection) OR Affected by barometric changes OR Sinus Obstruction from nasal polyps or cysts, tumor, anatomic (deviated nasal septum)",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": "SINUS CONDITIONS",
+      "certificate_classes": [],
+      "condition": "SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "Requires FAA Decision",
+      "raw_text": "Palate: Extensive adhesion of the soft palate to the pharynx Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea Requires FAA Decision",
+      "record_id": "ame-guide-sinusitis-acute-or-chronic-infection-deviated-nasal-septum-sinus-obstruction-nasal-cysts-nasal-polyps-or-sinus-tumor-palate-extensive-adhesion-of-the-soft-palate-to-the-pharynx-p69",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea"
+        }
+      ],
+      "scenario": "Palate: Extensive adhesion of the soft palate to the pharynx",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 69,
+        "printed_page": "69",
+        "section": "SINUS CONDITIONS"
+      },
+      "subcondition": "Palate: Extensive adhesion of the soft palate to the pharynx",
+      "time_constraints": [],
+      "warnings": [
+        "requires_faa_decision_mapped_to_defer"
+      ]
+    },
+    {
+      "action": "Annotate this information in Block 60.",
+      "category": "SPEECH IMPEDIMENT,",
+      "certificate_classes": [],
+      "condition": "STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Resolved OR Does not impair voice communication. If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: • Communication needed for flight (emergency procedures; • Effective communication with air traffic control; and • Crew-cockpit communication). ISSUE Annotate this information in Block 60.",
+      "record_id": "ame-guide-stuttering-or-mechanical-conditions-from-surgery-or-trauma-a-resolved-or-does-not-impair-voice-communication-p70",
+      "requirements": [
+        {
+          "kind": "OTHER",
+          "text": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: • Communication needed for flight (emergency procedures; • Effective communication with air traffic control; and • Crew-cockpit communication)."
+        }
+      ],
+      "scenario": "A. Resolved OR Does not impair voice communication.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 70,
+        "printed_page": "70",
+        "section": "SPEECH IMPEDIMENT,"
+      },
+      "subcondition": "A. Resolved OR Does not impair voice communication.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "AME should comment on how well they can communicate. Submit the information to the FAA for a possible Special Issuance.",
+      "category": "SPEECH IMPEDIMENT,",
+      "certificate_classes": [],
+      "condition": "STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include: • Detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment; • Plan (prognosis); and • Follow-up. 2. It must specifically include the cause for stuttering and the intelligible their speech is. • Stuttering Severity Index for those who stutter; • Speech Fluency/Intelligibility test for those with mechanical problems; 3. Any testing deemed necessary or already performed by the treating provider. The speech-language pathologist or AME should describe any functional limitations that could affect the pilot's ability to operate aircraft controls or communicate with other pilots or ATCS."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Condition, including stuttering, that would impair voice communication Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include: • Detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment; • Plan (prognosis); and • Follow-up. 2. It must specifically include the cause for stuttering and the intelligible their speech is. • Stuttering Severity Index for those who stutter; • Speech Fluency/Intelligibility test for those with mechanical problems; 3. Any testing deemed necessary or already performed by the treating provider. The speech-language pathologist or AME should describe any functional limitations that could affect the pilot's ability to operate aircraft controls or communicate with other pilots or ATCS. DEFER AME should comment on how well they can communicate. Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-stuttering-or-mechanical-conditions-from-surgery-or-trauma-b-condition-including-stuttering-that-would-impair-voice-communication-p70",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include: • Detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment; • Plan (prognosis); and • Follow-up. 2. It must specifically include the cause for stuttering and the intelligible their speech is. • Stuttering Severity Index for those who stutter; • Speech Fluency/Intelligibility test for those with mechanical problems; 3. Any testing deemed necessary or already performed by the treating provider. The speech-language pathologist or AME should describe any functional limitations that could affect the pilot's ability to operate aircraft controls or communicate with other pilots or ATCS."
+        }
+      ],
+      "scenario": "B. Condition, including stuttering, that would impair voice communication",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 70,
+        "printed_page": "70",
+        "section": "SPEECH IMPEDIMENT,"
+      },
+      "subcondition": "B. Condition, including stuttering, that would impair voice communication",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60 AND List the age the CI was placed and reason. Specify if they passed the hearing test with the CI turned on or off. This does NOT require a hearing limitation or MFT.",
+      "category": "ITEM 29. Ears, General",
+      "certificate_classes": [],
+      "condition": "COCHLEAR IMPLANT (CI)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. If the CI was placed in an adult to improve speech discrimination and sound localization (usually seen in older adults) OR Single Sided Deafness (SSD) Note: Pilots with a CI should fly with a spare processor and extra batteries. If the AME can determine: • The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and • No symptoms or current problems that would interfere with flight duties: (If unable to pass hearing tests with CI turned off, go to Row B.) ISSUE Annotate this information in Block 60 AND List the age the CI was placed and reason. Specify if they passed the hearing test with the CI turned on or off. This does NOT require a hearing limitation or MFT.",
+      "record_id": "ame-guide-cochlear-implant-ci-a-if-the-ci-was-placed-in-an-adult-to-improve-speech-discrimination-and-sound-localization-usually-seen-in-older-adults-or-single-sided-deafness-ssd-note-pilots-with-a-ci-should-fly-with-a-spare-processor-and-extra-batteries-p71",
+      "requirements": [
+        {
+          "kind": "TEST",
+          "text": "If the AME can determine: • The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and • No symptoms or current problems that would interfere with flight duties: (If unable to pass hearing tests with CI turned off, go to Row B.)"
+        }
+      ],
+      "scenario": "A. If the CI was placed in an adult to improve speech discrimination and sound localization (usually seen in older adults) OR Single Sided Deafness (SSD) Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 71,
+        "printed_page": "71",
+        "section": "ITEM 29. Ears, General"
+      },
+      "subcondition": "A. If the CI was placed in an adult to improve speech discrimination and sound localization (usually seen in older adults) OR Single Sided Deafness (SSD) Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Even if they pass the hearing test in the AME office. Annotate elements or findings in Block 60.",
+      "category": "ITEM 29. Ears, General",
+      "certificate_classes": [],
+      "condition": "COCHLEAR IMPLANT (CI)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Prognosis; and follow-up. 2. The Clinical Progress Note must specifically include: • Reason for the implant; • Date of implant; • How the individual functions with the device; • Ability to hear in noisy environment; and • Word discrimination 3. Audiogram performed no more than 90 days prior to the AME exam."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Implant was placed for hearing loss as a child/teen Note: Pilots with a CI should fly with a spare processor and extra batteries. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Prognosis; and follow-up. 2. The Clinical Progress Note must specifically include: • Reason for the implant; • Date of implant; • How the individual functions with the device; • Ability to hear in noisy environment; and • Word discrimination 3. Audiogram performed no more than 90 days prior to the AME exam. DEFER Submit the information to the FAA for a possible Special Issuance. Even if they pass the hearing test in the AME office. Annotate elements or findings in Block 60.",
+      "record_id": "ame-guide-cochlear-implant-ci-b-implant-was-placed-for-hearing-loss-as-a-child-teen-note-pilots-with-a-ci-should-fly-with-a-spare-processor-and-extra-batteries-p71",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Prognosis; and follow-up. 2. The Clinical Progress Note must specifically include: • Reason for the implant; • Date of implant; • How the individual functions with the device; • Ability to hear in noisy environment; and • Word discrimination 3. Audiogram performed no more than 90 days prior to the AME exam."
+        }
+      ],
+      "scenario": "B. Implant was placed for hearing loss as a child/teen Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 71,
+        "printed_page": "71",
+        "section": "ITEM 29. Ears, General"
+      },
+      "subcondition": "B. Implant was placed for hearing loss as a child/teen Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Summarize history in Block 60. Submit documents to the FAA for retention in the file.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "ACOUSTIC NEUROMA",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Treated 5 or more years ago With • Surgery OR • Stereotactic radiation The AME should review a current status report from the treating physician. If no symptoms or current problems, no ongoing treatment or surveillance needed: ISSUE Summarize history in Block 60. Submit documents to the FAA for retention in the file.",
+      "record_id": "ame-guide-acoustic-neuroma-a-treated-5-or-more-years-ago-with-surgery-or-stereotactic-radiation-p72",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "The AME should review a current status report from the treating physician. If no symptoms or current problems, no ongoing treatment or surveillance needed:"
+        }
+      ],
+      "scenario": "A. Treated 5 or more years ago With • Surgery OR • Stereotactic radiation",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 72,
+        "printed_page": "72",
+        "section": null
+      },
+      "subcondition": "A. Treated 5 or more years ago With • Surgery OR • Stereotactic radiation",
+      "time_constraints": [
+        "5 or more years"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "ACOUSTIC NEUROMA",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following to the FAA for review: Current status report from the treating physician with treatment plan and prognosis; It should identify all treatment used, o size of the tumor at diagnosis, and current size; List of medications and side effects, if any; Operative notes and discharge summary, if applicable; and Copies of most recent imaging report(s) (MRI)."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Treated 5 or more years ago With • Observation ONLY Submit the following to the FAA for review: Current status report from the treating physician with treatment plan and prognosis; It should identify all treatment used, o size of the tumor at diagnosis, and current size; List of medications and side effects, if any; Operative notes and discharge summary, if applicable; and Copies of most recent imaging report(s) (MRI). DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+      "record_id": "ame-guide-acoustic-neuroma-b-treated-5-or-more-years-ago-with-observation-only-p72",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following to the FAA for review: Current status report from the treating physician with treatment plan and prognosis; It should identify all treatment used, o size of the tumor at diagnosis, and current size; List of medications and side effects, if any; Operative notes and discharge summary, if applicable; and Copies of most recent imaging report(s) (MRI)."
+        }
+      ],
+      "scenario": "B. Treated 5 or more years ago With • Observation ONLY",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 72,
+        "printed_page": "72",
+        "section": null
+      },
+      "subcondition": "B. Treated 5 or more years ago With • Observation ONLY",
+      "time_constraints": [
+        "5 or more years"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "ACOUSTIC NEUROMA",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following to the FAA for review: Current status report from the treating physician (ENT or neurosurgeon) with Treatment plan, prognosis, and o adherence to treatment; It should indicate the presence or o absence of any residual tumor and any complications; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); SEE NEXT PAGE Copies of initial and most recent imaging reports (MRI) and lab; Current audiogram (pure tone and speech discrimination); and If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. Treated less than 5 years ago With ANY of the following: • Observation, • Surgery, OR • Stereotactic radiation Submit the following to the FAA for review: Current status report from the treating physician (ENT or neurosurgeon) with Treatment plan, prognosis, and o adherence to treatment; It should indicate the presence or o absence of any residual tumor and any complications; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); SEE NEXT PAGE Copies of initial and most recent imaging reports (MRI) and lab; Current audiogram (pure tone and speech discrimination); and If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted. DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+      "record_id": "ame-guide-acoustic-neuroma-c-treated-less-than-5-years-ago-with-any-of-the-following-observation-surgery-or-stereotactic-radiation-p72",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following to the FAA for review: Current status report from the treating physician (ENT or neurosurgeon) with Treatment plan, prognosis, and o adherence to treatment; It should indicate the presence or o absence of any residual tumor and any complications; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); SEE NEXT PAGE Copies of initial and most recent imaging reports (MRI) and lab; Current audiogram (pure tone and speech discrimination); and If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted."
+        }
+      ],
+      "scenario": "C. Treated less than 5 years ago With ANY of the following: • Observation, • Surgery, OR • Stereotactic radiation",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 72,
+        "printed_page": "72",
+        "section": null
+      },
+      "subcondition": "C. Treated less than 5 years ago With ANY of the following: • Observation, • Surgery, OR • Stereotactic radiation",
+      "time_constraints": [
+        "less than 5 years"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": "INNER EAR:",
+      "certificate_classes": [],
+      "condition": "ACUTE OR CHRONIC DISEASE",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "If no physiologic effects - Issue",
+      "raw_text": "Acute or chronic disease without disturbance of equilibrium and successful miringotomy, if applicable Submit all pertinent medical information If no physiologic effects - Issue",
+      "record_id": "ame-guide-acute-or-chronic-disease-acute-or-chronic-disease-without-disturbance-of-equilibrium-and-successful-miringotomy-if-applicable-p73",
+      "requirements": [
+        {
+          "kind": "OTHER",
+          "text": "Submit all pertinent medical information"
+        }
+      ],
+      "scenario": "Acute or chronic disease without disturbance of equilibrium and successful miringotomy, if applicable",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 73,
+        "printed_page": "73",
+        "section": "INNER EAR:"
+      },
+      "subcondition": "Acute or chronic disease without disturbance of equilibrium and successful miringotomy, if applicable",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": "INNER EAR:",
+      "certificate_classes": [],
+      "condition": "ACUTE OR CHRONIC DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "Requires FAA Decision",
+      "raw_text": "Acute or chronic disease that may disturb equilibrium Submit all pertinent medical information and current status report Requires FAA Decision",
+      "record_id": "ame-guide-acute-or-chronic-disease-acute-or-chronic-disease-that-may-disturb-equilibrium-p73",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "Submit all pertinent medical information and current status report"
+        }
+      ],
+      "scenario": "Acute or chronic disease that may disturb equilibrium",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 73,
+        "printed_page": "73",
+        "section": "INNER EAR:"
+      },
+      "subcondition": "Acute or chronic disease that may disturb equilibrium",
+      "time_constraints": [],
+      "warnings": [
+        "requires_faa_decision_mapped_to_defer"
+      ]
+    },
+    {
+      "action": "Annotate this information in Block 60.",
+      "category": "INNER EAR:",
+      "certificate_classes": [],
+      "condition": "ACUTE OR CHRONIC DISEASE",
+      "disposition": "ISSUE",
+      "medication_notes": [
+        "If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT); • No symptoms or current problems that would interfere with flight duties; • Medications, if any, are discontinued; and • No hearing loss: Note: Symptoms should be brief, mild, not disabling, and respond to repositioning."
+      ],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. RESOLVED AND symptoms lasted 1 year or less in total. (This may have been single or multiple episode[s]). If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT); • No symptoms or current problems that would interfere with flight duties; • Medications, if any, are discontinued; and • No hearing loss: Note: Symptoms should be brief, mild, not disabling, and respond to repositioning. ISSUE Annotate this information in Block 60.",
+      "record_id": "ame-guide-acute-or-chronic-disease-a-resolved-and-symptoms-lasted-1-year-or-less-in-total-this-may-have-been-single-or-multiple-episode-s-p73",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT); • No symptoms or current problems that would interfere with flight duties; • Medications, if any, are discontinued; and • No hearing loss: Note: Symptoms should be brief, mild, not disabling, and respond to repositioning."
+        }
+      ],
+      "scenario": "A. RESOLVED AND symptoms lasted 1 year or less in total. (This may have been single or multiple episode[s]).",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 73,
+        "printed_page": "73",
+        "section": "INNER EAR:"
+      },
+      "subcondition": "A. RESOLVED AND symptoms lasted 1 year or less in total. (This may have been single or multiple episode[s]).",
+      "time_constraints": [
+        "1 year"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Annotate elements or findings in Block 60.",
+      "category": "INNER EAR:",
+      "certificate_classes": [],
+      "condition": "ACUTE OR CHRONIC DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Follow-up; and • It must specifically include any underling pathology, if found. 2. Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Multiple/intermittent episodes for which the combined time of symptoms/sickness lasted 1 year or more. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Follow-up; and • It must specifically include any underling pathology, if found. 2. Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. DEFER Submit the information to the FAA for a possible Special Issuance. Annotate elements or findings in Block 60.",
+      "record_id": "ame-guide-acute-or-chronic-disease-b-multiple-intermittent-episodes-for-which-the-combined-time-of-symptoms-sickness-lasted-1-year-or-more-p73",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); • Follow-up; and • It must specifically include any underling pathology, if found. 2. Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated."
+        }
+      ],
+      "scenario": "B. Multiple/intermittent episodes for which the combined time of symptoms/sickness lasted 1 year or more.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 73,
+        "printed_page": "73",
+        "section": "INNER EAR:"
+      },
+      "subcondition": "B. Multiple/intermittent episodes for which the combined time of symptoms/sickness lasted 1 year or more.",
+      "time_constraints": [
+        "1 year",
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance.",
+      "category": "INNER EAR:",
+      "certificate_classes": [],
+      "condition": "ACUTE OR CHRONIC DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub- specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. If surgery was performed, copies of all clinic records including: • Operative notes; • Hospital admission H&P; • Discharge summary; and • Copies of any testing performed including CT/MRI/imaging."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. Severe/persistent recurrent/refractory to treatment OR Requiring surgery at any time Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub- specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. If surgery was performed, copies of all clinic records including: • Operative notes; • Hospital admission H&P; • Discharge summary; and • Copies of any testing performed including CT/MRI/imaging. DEFER Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-acute-or-chronic-disease-c-severe-persistent-recurrent-refractory-to-treatment-or-requiring-surgery-at-any-time-p74",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub- specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. If surgery was performed, copies of all clinic records including: • Operative notes; • Hospital admission H&P; • Discharge summary; and • Copies of any testing performed including CT/MRI/imaging."
+        }
+      ],
+      "scenario": "C. Severe/persistent recurrent/refractory to treatment OR Requiring surgery at any time",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 74,
+        "printed_page": "74",
+        "section": "INNER EAR:"
+      },
+      "subcondition": "C. Severe/persistent recurrent/refractory to treatment OR Requiring surgery at any time",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60.",
+      "category": "LABYRINTHITIS",
+      "certificate_classes": [],
+      "condition": "(Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+      "disposition": "ISSUE",
+      "medication_notes": [
+        "If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP or ENT if recent event); • No symptoms or current problems that would interfere with flight duties; • No medication needed; and • No hearing loss Note: This condition usually takes approximately one month before fully recovered."
+      ],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Single episode now completely resolved If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP or ENT if recent event); • No symptoms or current problems that would interfere with flight duties; • No medication needed; and • No hearing loss Note: This condition usually takes approximately one month before fully recovered. ISSUE Annotate this information in Block 60.",
+      "record_id": "ame-guide-vestibular-neuritis-viral-labyrinthitis-epidemic-vertigo-acute-vestibulopathy-a-single-episode-now-completely-resolved-p75",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP or ENT if recent event); • No symptoms or current problems that would interfere with flight duties; • No medication needed; and • No hearing loss Note: This condition usually takes approximately one month before fully recovered."
+        }
+      ],
+      "scenario": "A. Single episode now completely resolved",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 75,
+        "printed_page": "75",
+        "section": "LABYRINTHITIS"
+      },
+      "subcondition": "A. Single episode now completely resolved",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA. Annotate (elements or findings) Block 60.",
+      "category": "LABYRINTHITIS",
+      "certificate_classes": [],
+      "condition": "(Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "The AME should not issue if there are current symptoms. Both the condition and medication to treat are of aeromedical concern. Once resolved, go to Row A. If recurrent symptoms, go to Row C."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. Current symptoms The AME should not issue if there are current symptoms. Both the condition and medication to treat are of aeromedical concern. Once resolved, go to Row A. If recurrent symptoms, go to Row C. DEFER Submit the information to the FAA. Annotate (elements or findings) Block 60.",
+      "record_id": "ame-guide-vestibular-neuritis-viral-labyrinthitis-epidemic-vertigo-acute-vestibulopathy-b-current-symptoms-p75",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "The AME should not issue if there are current symptoms. Both the condition and medication to treat are of aeromedical concern. Once resolved, go to Row A. If recurrent symptoms, go to Row C."
+        }
+      ],
+      "scenario": "B. Current symptoms",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 75,
+        "printed_page": "75",
+        "section": "LABYRINTHITIS"
+      },
+      "subcondition": "B. Current symptoms",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Block 60.",
+      "category": "LABYRINTHITIS",
+      "certificate_classes": [],
+      "condition": "(Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. It must specifically include if: • Any underlying pathology is found • Any hearing loss is noted. 3. Treatment notes 4. Vestibular testing already performed. 5. Current (performed within the past 90 days) clinical audiogram with Air-Conduction/ Bone-Conduction (AC/BC) and Speech Discrimination (SD). 6. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • Episodes of hearing loss over the last year; • The number of episodes with approximates dates and how long each lasted; • A description of the severity of the attacks with type of symptoms; • Any history of Migraine or drop attacks (collapsing suddenly without fainting), • Medication used for control/treatment; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. If any underlying condition is found, see that page."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. Multiple episodes separated by weeks to months Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. It must specifically include if: • Any underlying pathology is found • Any hearing loss is noted. 3. Treatment notes 4. Vestibular testing already performed. 5. Current (performed within the past 90 days) clinical audiogram with Air-Conduction/ Bone-Conduction (AC/BC) and Speech Discrimination (SD). 6. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • Episodes of hearing loss over the last year; • The number of episodes with approximates dates and how long each lasted; • A description of the severity of the attacks with type of symptoms; • Any history of Migraine or drop attacks (collapsing suddenly without fainting), • Medication used for control/treatment; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. If any underlying condition is found, see that page. DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Block 60.",
+      "record_id": "ame-guide-vestibular-neuritis-viral-labyrinthitis-epidemic-vertigo-acute-vestibulopathy-c-multiple-episodes-separated-by-weeks-to-months-p75",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. It must specifically include if: • Any underlying pathology is found • Any hearing loss is noted. 3. Treatment notes 4. Vestibular testing already performed. 5. Current (performed within the past 90 days) clinical audiogram with Air-Conduction/ Bone-Conduction (AC/BC) and Speech Discrimination (SD). 6. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • Episodes of hearing loss over the last year; • The number of episodes with approximates dates and how long each lasted; • A description of the severity of the attacks with type of symptoms; • Any history of Migraine or drop attacks (collapsing suddenly without fainting), • Medication used for control/treatment; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. If any underlying condition is found, see that page."
+        }
+      ],
+      "scenario": "C. Multiple episodes separated by weeks to months",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 75,
+        "printed_page": "75",
+        "section": "LABYRINTHITIS"
+      },
+      "subcondition": "C. Multiple episodes separated by weeks to months",
+      "time_constraints": [
+        "no more than 90 days",
+        "90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "If continued asymptomatic, annotate this information in Block 60. If return of symptoms, DEFER and submit the most recent ENT evaluation.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MENIERE’S DISEASE",
+      "disposition": "ISSUE",
+      "medication_notes": [
+        "If the AME can determine there have been no further symptoms or episodes of vertigo: Note: The medical certificate should not be issued for any class until condition is fully resolved and reviewed by the FAA. Pilot duties must be discontinued while symptomatic or on medication for vertigo."
+      ],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Previously reviewed and warned by the FAA. If the AME can determine there have been no further symptoms or episodes of vertigo: Note: The medical certificate should not be issued for any class until condition is fully resolved and reviewed by the FAA. Pilot duties must be discontinued while symptomatic or on medication for vertigo. ISSUE If continued asymptomatic, annotate this information in Block 60. If return of symptoms, DEFER and submit the most recent ENT evaluation.",
+      "record_id": "ame-guide-meniere-s-disease-a-previously-reviewed-and-warned-by-the-faa-p77",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "If the AME can determine there have been no further symptoms or episodes of vertigo: Note: The medical certificate should not be issued for any class until condition is fully resolved and reviewed by the FAA. Pilot duties must be discontinued while symptomatic or on medication for vertigo."
+        }
+      ],
+      "scenario": "A. Previously reviewed and warned by the FAA.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 77,
+        "printed_page": "77",
+        "section": null
+      },
+      "subcondition": "A. Previously reviewed and warned by the FAA.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MENIERE’S DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "After a recovery period of six (6) months showing: • Control of vertigo; • No further vertiginous attacks: AND • Hearing remains within standards. Submit the following for FAA review: 1. Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence. 2. Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD). 3. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • If single side or bilateral; • Episodes of hearing loss over the last year; • The number of attacks; • A description of the severity of the attacks with type of symptoms; • Any history of migraine or drop attacks (collapsing suddenly without fainting); • Medication used for control/treatment given; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. 4. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 5. All treatment records associated with diagnosis. Note: Pilot and safety related duties (SRD) duties must be discontinued while on medication for vertigo. 14 CFR 61.53 applies. Medication: Betahistine (Serc, Beta-Serc) is NOT allowed."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. The FIRST time the condition is reported to the FAA. After a recovery period of six (6) months showing: • Control of vertigo; • No further vertiginous attacks: AND • Hearing remains within standards. Submit the following for FAA review: 1. Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence. 2. Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD). 3. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • If single side or bilateral; • Episodes of hearing loss over the last year; • The number of attacks; • A description of the severity of the attacks with type of symptoms; • Any history of migraine or drop attacks (collapsing suddenly without fainting); • Medication used for control/treatment given; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. 4. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 5. All treatment records associated with diagnosis. Note: Pilot and safety related duties (SRD) duties must be discontinued while on medication for vertigo. 14 CFR 61.53 applies. Medication: Betahistine (Serc, Beta-Serc) is NOT allowed. DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "record_id": "ame-guide-meniere-s-disease-b-the-first-time-the-condition-is-reported-to-the-faa-p77",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "After a recovery period of six (6) months showing: • Control of vertigo; • No further vertiginous attacks: AND • Hearing remains within standards. Submit the following for FAA review: 1. Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence. 2. Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD). 3. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • If single side or bilateral; • Episodes of hearing loss over the last year; • The number of attacks; • A description of the severity of the attacks with type of symptoms; • Any history of migraine or drop attacks (collapsing suddenly without fainting); • Medication used for control/treatment given; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. 4. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 5. All treatment records associated with diagnosis. Note: Pilot and safety related duties (SRD) duties must be discontinued while on medication for vertigo. 14 CFR 61.53 applies. Medication: Betahistine (Serc, Beta-Serc) is NOT allowed."
+        }
+      ],
+      "scenario": "B. The FIRST time the condition is reported to the FAA.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 77,
+        "printed_page": "77",
+        "section": null
+      },
+      "subcondition": "B. The FIRST time the condition is reported to the FAA.",
+      "time_constraints": [
+        "90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MENIERE’S DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. With associated hearing loss. If there is associated hearing loss, the individual should be evaluated to determine if they meet hearing standards. See Item 49. Hearing. DEFER Submit the information to the FAA",
+      "record_id": "ame-guide-meniere-s-disease-c-with-associated-hearing-loss-p78",
+      "requirements": [
+        {
+          "kind": "OTHER",
+          "text": "If there is associated hearing loss, the individual should be evaluated to determine if they meet hearing standards. See Item 49. Hearing."
+        }
+      ],
+      "scenario": "C. With associated hearing loss.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 78,
+        "printed_page": "78",
+        "section": null
+      },
+      "subcondition": "C. With associated hearing loss.",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MENIERE’S DISEASE",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "If occurred during flight training and resolved - Issue If condition requires medication - Requires FAA Decision",
+      "raw_text": "Motion Sickness Submit all pertinent medical information and current status report If occurred during flight training and resolved - Issue If condition requires medication - Requires FAA Decision",
+      "record_id": "ame-guide-meniere-s-disease-motion-sickness-p78",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "Submit all pertinent medical information and current status report"
+        }
+      ],
+      "scenario": "Motion Sickness",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 78,
+        "printed_page": "78",
+        "section": null
+      },
+      "subcondition": "Motion Sickness",
+      "time_constraints": [],
+      "warnings": [
+        "requires_faa_decision_mapped_to_defer"
+      ]
+    },
+    {
+      "action": "Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "PERILYMPH FISTULA (PLF)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Resolved 5 or more years ago. The AME should review the most recent detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist. If it verifies the treatment has been completed (surgical or medical) and no further episodes: ISSUE Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+      "record_id": "ame-guide-perilymph-fistula-plf-a-resolved-5-or-more-years-ago-p79",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "The AME should review the most recent detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist. If it verifies the treatment has been completed (surgical or medical) and no further episodes:"
+        }
+      ],
+      "scenario": "A. Resolved 5 or more years ago.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 79,
+        "printed_page": "79",
+        "section": null
+      },
+      "subcondition": "A. Resolved 5 or more years ago.",
+      "time_constraints": [
+        "5 or more years"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "PERILYMPH FISTULA (PLF)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Once resolved and recovery period of: 3. It must specifically include: • If active disease exists. • If in remission, when did remission commence. • If active disease exists. 4. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days). 5. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 6. All Office treatment records. 7. Copy of Operative report if surgery performed. 8. Personal statement (typed) stating: • Number of attacks; • Severity; • Type of symptoms; • Episodes of hearing loss over the last year; • What type of therapy or medication(s) are used for control; and • How did the episode occur? (e.g., childbirth, straining, weightlifting, lightning strike, etc.)."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. FIRST time the condition is reported to the FAA OR A new episode Within the last 5 years. Once resolved and recovery period of: 3. It must specifically include: • If active disease exists. • If in remission, when did remission commence. • If active disease exists. 4. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days). 5. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 6. All Office treatment records. 7. Copy of Operative report if surgery performed. 8. Personal statement (typed) stating: • Number of attacks; • Severity; • Type of symptoms; • Episodes of hearing loss over the last year; • What type of therapy or medication(s) are used for control; and • How did the episode occur? (e.g., childbirth, straining, weightlifting, lightning strike, etc.). DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "record_id": "ame-guide-perilymph-fistula-plf-b-first-time-the-condition-is-reported-to-the-faa-or-a-new-episode-within-the-last-5-years-p79",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Once resolved and recovery period of: 3. It must specifically include: • If active disease exists. • If in remission, when did remission commence. • If active disease exists. 4. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days). 5. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 6. All Office treatment records. 7. Copy of Operative report if surgery performed. 8. Personal statement (typed) stating: • Number of attacks; • Severity; • Type of symptoms; • Episodes of hearing loss over the last year; • What type of therapy or medication(s) are used for control; and • How did the episode occur? (e.g., childbirth, straining, weightlifting, lightning strike, etc.)."
+        }
+      ],
+      "scenario": "B. FIRST time the condition is reported to the FAA OR A new episode Within the last 5 years.",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 79,
+        "printed_page": "79",
+        "section": null
+      },
+      "subcondition": "B. FIRST time the condition is reported to the FAA OR A new episode Within the last 5 years.",
+      "time_constraints": [
+        "5 years",
+        "90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "After the condition has fully resolved; • No symptoms remain; and • Medication is no longer needed for suppression of the vertigo: Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up 4. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 5. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days). 6. Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated. 7. All Office treatment records. 8. Pharmacy Records for the last 3 years from all Pharmacies used. 9. Copies of any Vestibular Rehab progress notes (if performed)."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "A. Any history • After the condition has fully resolved; • No symptoms remain; and • Medication is no longer needed for suppression of the vertigo: Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up 4. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 5. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days). 6. Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated. 7. All Office treatment records. 8. Pharmacy Records for the last 3 years from all Pharmacies used. 9. Copies of any Vestibular Rehab progress notes (if performed). DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "record_id": "ame-guide-persistent-postural-perceptual-dizziness-pppd-or-3pd-a-any-history-p81",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "After the condition has fully resolved; • No symptoms remain; and • Medication is no longer needed for suppression of the vertigo: Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up 4. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 5. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days). 6. Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated. 7. All Office treatment records. 8. Pharmacy Records for the last 3 years from all Pharmacies used. 9. Copies of any Vestibular Rehab progress notes (if performed)."
+        }
+      ],
+      "scenario": "A. Any history",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 81,
+        "printed_page": "81",
+        "section": null
+      },
+      "subcondition": "A. Any history",
+      "time_constraints": [
+        "no more than 90 days",
+        "90 days",
+        "3 years"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)",
+      "disposition": "UNKNOWN",
+      "medication_notes": [],
+      "raw_disposition": "",
+      "raw_text": "Submit the following for FAA review:",
+      "record_id": "ame-guide-persistent-postural-perceptual-dizziness-pppd-or-3pd-submit-the-following-for-faa-review-p81",
+      "requirements": [],
+      "scenario": "Submit the following for FAA review:",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 81,
+        "printed_page": "81",
+        "section": null
+      },
+      "subcondition": "Submit the following for FAA review:",
+      "time_constraints": [],
+      "warnings": [
+        "missing_disposition"
+      ]
+    },
+    {
+      "action": "Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Incidental finding on imaging AND NO symptoms The AME should obtain why the imaging was performed. Review a detailed, Clinical Progress Note from ENT (otolaryngology) performed any time after identification on imaging. If the ENT evaluation verifies: • An incidental finding on imaging; • The individual never had symptoms*; and • No required treatment AND The AME verifies no symptoms since diagnosis and there is no other condition found (which warranted imaging): If ANY symptoms, go to Row B. *Symptoms may include vertigo induced by a loud noise, autophonia, chronic imbalance, tinnitus, and hyperacusis. If another condition is found, see that page. ISSUE Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+      "record_id": "ame-guide-superior-semicircular-canal-dehiscence-syndrome-sscds-a-incidental-finding-on-imaging-and-no-symptoms-p82",
+      "requirements": [
+        {
+          "kind": "TEST",
+          "text": "The AME should obtain why the imaging was performed. Review a detailed, Clinical Progress Note from ENT (otolaryngology) performed any time after identification on imaging. If the ENT evaluation verifies: • An incidental finding on imaging; • The individual never had symptoms*; and • No required treatment AND The AME verifies no symptoms since diagnosis and there is no other condition found (which warranted imaging): If ANY symptoms, go to Row B. *Symptoms may include vertigo induced by a loud noise, autophonia, chronic imbalance, tinnitus, and hyperacusis. If another condition is found, see that page."
+        }
+      ],
+      "scenario": "A. Incidental finding on imaging AND NO symptoms",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 82,
+        "printed_page": "82",
+        "section": null
+      },
+      "subcondition": "A. Incidental finding on imaging AND NO symptoms",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "After: • One (1) month after surgery; and • Released to full duties by the treating physician; and • No further vertiginous attacks; and • Hearing remains within standards. Submit the following for FAA review: 10. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 11. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 12. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days). 13. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 14. All Office treatment records. 15. Copy of Operative report (if surgery performed)."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. History of symptoms After: • One (1) month after surgery; and • Released to full duties by the treating physician; and • No further vertiginous attacks; and • Hearing remains within standards. Submit the following for FAA review: 10. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 11. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 12. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days). 13. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 14. All Office treatment records. 15. Copy of Operative report (if surgery performed). DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+      "record_id": "ame-guide-superior-semicircular-canal-dehiscence-syndrome-sscds-b-history-of-symptoms-p82",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "After: • One (1) month after surgery; and • Released to full duties by the treating physician; and • No further vertiginous attacks; and • Hearing remains within standards. Submit the following for FAA review: 10. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 11. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 12. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days). 13. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 14. All Office treatment records. 15. Copy of Operative report (if surgery performed)."
+        }
+      ],
+      "scenario": "B. History of symptoms",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 82,
+        "printed_page": "82",
+        "section": null
+      },
+      "subcondition": "B. History of symptoms",
+      "time_constraints": [
+        "no more than 90 days",
+        "90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MASTOIDS",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "Requires FAA Decision",
+      "raw_text": "Mastoid fistula Submit all pertinent medical information and current status report Requires FAA Decision",
+      "record_id": "ame-guide-mastoids-mastoid-fistula-p84",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "Submit all pertinent medical information and current status report"
+        }
+      ],
+      "scenario": "Mastoid fistula",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 84,
+        "printed_page": "84",
+        "section": null
+      },
+      "subcondition": "Mastoid fistula",
+      "time_constraints": [],
+      "warnings": [
+        "requires_faa_decision_mapped_to_defer"
+      ]
+    },
+    {
+      "action": "",
+      "category": null,
+      "certificate_classes": [],
+      "condition": "MASTOIDS",
+      "disposition": "DEFER",
+      "medication_notes": [],
+      "raw_disposition": "Requires FAA Decision",
+      "raw_text": "Mastoiditis, acute or chronic Submit all pertinent medical information and current status report Requires FAA Decision",
+      "record_id": "ame-guide-mastoids-mastoiditis-acute-or-chronic-p84",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "Submit all pertinent medical information and current status report"
+        }
+      ],
+      "scenario": "Mastoiditis, acute or chronic",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 84,
+        "printed_page": "84",
+        "section": null
+      },
+      "subcondition": "Mastoiditis, acute or chronic",
+      "time_constraints": [],
+      "warnings": [
+        "requires_faa_decision_mapped_to_defer"
+      ]
+    },
+    {
+      "action": "Annotate this information in Block 60",
+      "category": "MIDDLE EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Otitis Media, Serous Otitis Media, Eardrum Abnormalities, Tympanic Membrane Perforation, Myringotomy, Ear Tubes, PE Tubes, Eustachian Tube Dysfunction)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Myringotomy, Ear tubes, Tympanostomy tubes, Pressure equalizing tubes (PE tubes) (single or bilateral) No matter how many sets If the AME can determine the condition is under control and no symptoms that would interfere with flight or safety-related duties: Note: There is no mandatory recovery period after PE tubes are placed other than wait time for General anesthesia (if used). ISSUE Annotate this information in Block 60",
+      "record_id": "ame-guide-otitis-media-serous-otitis-media-eardrum-abnormalities-tympanic-membrane-perforation-myringotomy-ear-tubes-pe-tubes-eustachian-tube-dysfunction-a-myringotomy-ear-tubes-tympanostomy-tubes-pressure-equalizing-tubes-pe-tubes-single-or-bilateral-no-matter-how-many-sets-p85",
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "text": "If the AME can determine the condition is under control and no symptoms that would interfere with flight or safety-related duties: Note: There is no mandatory recovery period after PE tubes are placed other than wait time for General anesthesia (if used)."
+        }
+      ],
+      "scenario": "A. Myringotomy, Ear tubes, Tympanostomy tubes, Pressure equalizing tubes (PE tubes) (single or bilateral) No matter how many sets",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 85,
+        "printed_page": "85",
+        "section": "MIDDLE EAR ABNORMALITIES"
+      },
+      "subcondition": "A. Myringotomy, Ear tubes, Tympanostomy tubes, Pressure equalizing tubes (PE tubes) (single or bilateral) No matter how many sets",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60",
+      "category": "MIDDLE EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Otitis Media, Serous Otitis Media, Eardrum Abnormalities, Tympanic Membrane Perforation, Myringotomy, Ear Tubes, PE Tubes, Eustachian Tube Dysfunction)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "B. RESOLVED Otitis media/ ear infection Tympanic membrane perforation (dry) OR Serous Otitis Media If the AME can determine the condition has resolved without sequelae or no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests: ISSUE Annotate this information in Block 60",
+      "record_id": "ame-guide-otitis-media-serous-otitis-media-eardrum-abnormalities-tympanic-membrane-perforation-myringotomy-ear-tubes-pe-tubes-eustachian-tube-dysfunction-b-resolved-otitis-media-ear-infection-tympanic-membrane-perforation-dry-or-serous-otitis-media-p85",
+      "requirements": [
+        {
+          "kind": "TEST",
+          "text": "If the AME can determine the condition has resolved without sequelae or no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:"
+        }
+      ],
+      "scenario": "B. RESOLVED Otitis media/ ear infection Tympanic membrane perforation (dry) OR Serous Otitis Media",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 85,
+        "printed_page": "85",
+        "section": "MIDDLE EAR ABNORMALITIES"
+      },
+      "subcondition": "B. RESOLVED Otitis media/ ear infection Tympanic membrane perforation (dry) OR Serous Otitis Media",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance",
+      "category": "MIDDLE EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Otitis Media, Serous Otitis Media, Eardrum Abnormalities, Tympanic Membrane Perforation, Myringotomy, Ear Tubes, PE Tubes, Eustachian Tube Dysfunction)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "C. ALL OTHERS Active acute Otitis Media/ear infection Chronic Otitis Media Chronic tympanic membrane perforation Eustachian Tube Dysfunction (ETD) Recurrent Acute Otitis Media Wet tympanic membrane perforation Any of the above with associated pathology Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. DEFER Submit the information to the FAA for a possible Special Issuance",
+      "record_id": "ame-guide-otitis-media-serous-otitis-media-eardrum-abnormalities-tympanic-membrane-perforation-myringotomy-ear-tubes-pe-tubes-eustachian-tube-dysfunction-c-all-others-active-acute-otitis-media-ear-infection-chronic-otitis-media-chronic-tympanic-membrane-perforation-eustachian-tube-dysfunction-etd-recurrent-acute-otitis-media-wet-tympanic-membrane-perforation-any-of-the-above-with-associated-pathology-p85",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up."
+        }
+      ],
+      "scenario": "C. ALL OTHERS Active acute Otitis Media/ear infection Chronic Otitis Media Chronic tympanic membrane perforation Eustachian Tube Dysfunction (ETD) Recurrent Acute Otitis Media Wet tympanic membrane perforation Any of the above with associated pathology",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 85,
+        "printed_page": "85",
+        "section": "MIDDLE EAR ABNORMALITIES"
+      },
+      "subcondition": "C. ALL OTHERS Active acute Otitis Media/ear infection Chronic Otitis Media Chronic tympanic membrane perforation Eustachian Tube Dysfunction (ETD) Recurrent Acute Otitis Media Wet tympanic membrane perforation Any of the above with associated pathology",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60.",
+      "category": "OUTER EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Cerumen Impaction, Otitis Externa, Microtia)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "A. Impacted cerumen not affecting hearing OR Otitis Externa (resolved) or not affect flying/safety-related duties If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests: ISSUE Annotate this information in Block 60.",
+      "record_id": "ame-guide-cerumen-impaction-otitis-externa-microtia-a-impacted-cerumen-not-affecting-hearing-or-otitis-externa-resolved-or-not-affect-flying-safety-related-duties-p86",
+      "requirements": [
+        {
+          "kind": "TEST",
+          "text": "If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:"
+        }
+      ],
+      "scenario": "A. Impacted cerumen not affecting hearing OR Otitis Externa (resolved) or not affect flying/safety-related duties",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 86,
+        "printed_page": "86",
+        "section": "OUTER EAR ABNORMALITIES"
+      },
+      "subcondition": "A. Impacted cerumen not affecting hearing OR Otitis Externa (resolved) or not affect flying/safety-related duties",
+      "time_constraints": [],
+      "warnings": []
+    },
+    {
+      "action": "Submit the information to the FAA for a possible Special Issuance.",
+      "category": "OUTER EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Cerumen Impaction, Otitis Externa, Microtia)",
+      "disposition": "DEFER",
+      "medication_notes": [
+        "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. All audiograms already performed."
+      ],
+      "raw_disposition": "DEFER",
+      "raw_text": "B. With complications OR Incapacitating OR Affecting hearing (Unable to pass any of the acceptable hearing tests or the AME has concerns) Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. All audiograms already performed. DEFER Submit the information to the FAA for a possible Special Issuance.",
+      "record_id": "ame-guide-cerumen-impaction-otitis-externa-microtia-b-with-complications-or-incapacitating-or-affecting-hearing-unable-to-pass-any-of-the-acceptable-hearing-tests-or-the-ame-has-concerns-p86",
+      "requirements": [
+        {
+          "kind": "MEDICATION",
+          "text": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. All audiograms already performed."
+        }
+      ],
+      "scenario": "B. With complications OR Incapacitating OR Affecting hearing (Unable to pass any of the acceptable hearing tests or the AME has concerns)",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 86,
+        "printed_page": "86",
+        "section": "OUTER EAR ABNORMALITIES"
+      },
+      "subcondition": "B. With complications OR Incapacitating OR Affecting hearing (Unable to pass any of the acceptable hearing tests or the AME has concerns)",
+      "time_constraints": [
+        "no more than 90 days"
+      ],
+      "warnings": []
+    },
+    {
+      "action": "Annotate this information in Block 60. Note: If the applicant is unable to pass any of the acceptable hearing tests or the AME has concerns, the AME should annotate this in Block 60 and DEFER.",
+      "category": "OUTER EAR ABNORMALITIES",
+      "certificate_classes": [],
+      "condition": "(Cerumen Impaction, Otitis Externa, Microtia)",
+      "disposition": "ISSUE",
+      "medication_notes": [],
+      "raw_disposition": "ISSUE",
+      "raw_text": "C. Outer ear/external pinna abnormality (such as Microtia) The AME should look closely at the affected ear for other visible signs of pathology such as pre auricular pits or brachial cleft cyst or other evidence of a syndromic nature. If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests: ISSUE Annotate this information in Block 60. Note: If the applicant is unable to pass any of the acceptable hearing tests or the AME has concerns, the AME should annotate this in Block 60 and DEFER.",
+      "record_id": "ame-guide-cerumen-impaction-otitis-externa-microtia-c-outer-ear-external-pinna-abnormality-such-as-microtia-p86",
+      "requirements": [
+        {
+          "kind": "TEST",
+          "text": "The AME should look closely at the affected ear for other visible signs of pathology such as pre auricular pits or brachial cleft cyst or other evidence of a syndromic nature. If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:"
+        }
+      ],
+      "scenario": "C. Outer ear/external pinna abnormality (such as Microtia)",
+      "source": {
+        "document": "ame_guide.pdf",
+        "pdf_page": 86,
+        "printed_page": "86",
+        "section": "OUTER EAR ABNORMALITIES"
+      },
+      "subcondition": "C. Outer ear/external pinna abnormality (such as Microtia)",
+      "time_constraints": [],
+      "warnings": []
+    }
+  ],
+  "schema_version": "1.0",
+  "source_document": "ame_guide.pdf",
+  "summary": {
+    "pages_processed": 22,
+    "records_extracted": 41,
+    "records_with_warnings": 6,
+    "unknown_dispositions": 1
+  },
+  "warnings": [
+    "ame-guide-sinusitis-acute-or-chronic-infection-deviated-nasal-septum-sinus-obstruction-nasal-cysts-nasal-polyps-or-sinus-tumor-palate-extensive-adhesion-of-the-soft-palate-to-the-pharynx-p69:requires_faa_decision_mapped_to_defer",
+    "ame-guide-acute-or-chronic-disease-acute-or-chronic-disease-that-may-disturb-equilibrium-p73:requires_faa_decision_mapped_to_defer",
+    "ame-guide-meniere-s-disease-motion-sickness-p78:requires_faa_decision_mapped_to_defer",
+    "ame-guide-persistent-postural-perceptual-dizziness-pppd-or-3pd-submit-the-following-for-faa-review-p81:missing_disposition",
+    "ame-guide-mastoids-mastoid-fistula-p84:requires_faa_decision_mapped_to_defer",
+    "ame-guide-mastoids-mastoiditis-acute-or-chronic-p84:requires_faa_decision_mapped_to_defer"
+  ]
+}
