@@ -179,7 +179,7 @@ export default function Browse({ onNavigate }: Props) {
                           lineHeight: 1.5,
                         }}
                       >
-                        {c.subConditions.length} sub-condition{c.subConditions.length !== 1 ? 's' : ''}
+                        {c.subConditions.length} pathway{c.subConditions.length !== 1 ? 's' : ''}
                       </p>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>

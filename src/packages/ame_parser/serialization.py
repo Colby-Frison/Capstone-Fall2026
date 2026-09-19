@@ -6,11 +6,16 @@ import json
 from pathlib import Path
 
 from .models import ParseResult
+from .text import normalize_record_dict
 
 
 def dumps(result: ParseResult) -> str:
+    payload = result.to_dict()
+    payload["records"] = [
+        normalize_record_dict(record) for record in payload.get("records") or []
+    ]
     return json.dumps(
-        result.to_dict(),
+        payload,
         ensure_ascii=False,
         indent=2,
         sort_keys=True,

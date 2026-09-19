@@ -177,8 +177,221 @@ def test_oneguide_reads_only_pilot_columns_and_appends_evaluation() -> None:
     assert "internal AAM" not in record.raw_text
 
 
-def test_format_signatures_are_content_based() -> None:
-    ame = PageData(1, "Guide for Aviation Medical Examiners")
-    oneguide = PageData(1, "Office of Aerospace Medicine\nOneGuide")
-    assert AmeGuideExtractor().supports((ame,))
-    assert OneGuideExtractor().supports((oneguide,))
+def test_ame_guide_merges_fragmented_tables_into_pathways() -> None:
+    page = PageData(
+        number=65,
+        text=(
+            "Guide for Aviation Medical Examiners\nNOSE\nALLERGIES or ANAPHYLAXIS;\n"
+            "(Allergic Rhinitis; Hay fever)\nAll Classes\n"
+            "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n65"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "EVALUATION DATA", None, None, "DISPOSITION"),
+                (
+                    "A. Allergies controlled by acceptable medications",
+                    "If the AME can determine the condition is controlled.",
+                    None,
+                    None,
+                    "ISSUE\nAnnotate Block 60.",
+                ),
+                (
+                    "B. Allergies indicated by steroid treatment",
+                    "Submit the following for FAA review:",
+                    None,
+                    None,
+                    "DEFER\nSubmit the information to the FAA.",
+                ),
+            ),
+            (
+                ("• A current, detailed Clinical Progress Note",),
+                ("• Current medications, dosage, and side effects",),
+            ),
+        ),
+    )
+
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 2
+    assert records[0].disposition is Disposition.ISSUE
+    assert records[1].disposition is Disposition.DEFER
+    assert "Clinical Progress Note" in records[1].raw_text
+    assert all(r.condition.startswith("ALLERGIES") for r in records)
+
+
+def test_ame_guide_skips_non_disposition_pages() -> None:
+    checklist = PageData(
+        number=88,
+        text=(
+            "Guide for Aviation Medical Examiners\nITEM 31. Eyes\n"
+            "CHECK EACH ITEM IN APPROPRIATE COLUMN\nNormal Abnormal\n88"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+                ("Should not extract", "Fake eval", "DEFER"),
+            ),
+        ),
+    )
+    # Checklist signal wins even if a fake disease header appears in a table.
+    assert AmeGuideExtractor().extract((checklist,), SOURCE) == ()
+
+
+def test_heading_treats_all_classes_as_scope_not_condition() -> None:
+    text = (
+        "Guide for Aviation Medical Examiners – Version X\n"
+        "CEREBRAL PALSY\n"
+        "(All classes)\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n308"
+    )
+    heading = AmeGuideExtractor._heading(text)
+    assert heading is not None
+    _category, condition = heading
+    assert condition == "CEREBRAL PALSY"
+    assert "(All classes)" not in condition
+
+
+def test_heading_joins_synonym_and_skips_updates_banner() -> None:
+    epilepsy = AmeGuideExtractor._heading(
+        "EPILEPSY\n"
+        "(Seizure Disorder)\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert epilepsy == ("", "EPILEPSY (Seizure Disorder)")
+
+    procedures = AmeGuideExtractor._heading(
+        "EYES - PROCEDURES\n"
+        "(Updates 09/27/2017 see: www.faa.gov)\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert procedures is not None
+    assert procedures[1] == "EYES - PROCEDURES"
+    assert "Updates" not in procedures[1]
+
+
+def test_heading_uses_system_label_as_category_and_skips_criteria() -> None:
+    allergies = AmeGuideExtractor._heading(
+        "NOSE\n"
+        "ALLERGIES; RHINITIS\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert allergies == ("NOSE", "ALLERGIES; RHINITIS")
+
+    chd = AmeGuideExtractor._heading(
+        "CORONARY HEART DISEASE\n"
+        "1 vessel disease - 50% or less stenosis\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert chd is not None
+    assert chd[1] == "CORONARY HEART DISEASE"
+    assert "stenosis" not in chd[1].lower()
+
+
+def test_heading_skips_all_classes_continued_banner() -> None:
+    heading = AmeGuideExtractor._heading(
+        "ARRHYTHMIAS\n"
+        "All Classes\n"
+        "(Continued)\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert heading is not None
+    assert heading[1] == "ARRHYTHMIAS"
+    assert "Continued" not in heading[1]
+    assert "All Classes" not in heading[1]
+
+
+def test_heading_rejects_intro_prose_as_condition() -> None:
+    heading = AmeGuideExtractor._heading(
+        "VASCULAR CONDITIONS\n"
+        "The following table lists the more common conditions of aeromedical "
+        "significance, and is not intended to be all-inclusive.\n"
+        "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n"
+    )
+    assert heading is not None
+    assert heading[1] == "VASCULAR CONDITIONS"
+    assert "following table" not in heading[1].lower()
+
+
+def test_ame_guide_cerebral_palsy_page_maps_condition_not_all_classes() -> None:
+    page = PageData(
+        number=308,
+        text=(
+            "Guide for Aviation Medical Examiners – Version X\n"
+            "CEREBRAL PALSY\n"
+            "(All classes)\n"
+            "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n308"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+                (
+                    "Cerebral Palsy",
+                    "See Item 43. Spine and Other Musculoskeletal, "
+                    "Cerebral Palsy Disposition Table.",
+                    "Requires FAA\nDecision",
+                ),
+            ),
+        ),
+    )
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 1
+    assert records[0].condition == "CEREBRAL PALSY"
+    assert records[0].scenario == "Cerebral Palsy"
+    assert records[0].disposition.value == "DEFER"
+    assert records[0].certificate_classes == ("All",)
+    assert records[0].category != "CEREBRAL PALSY"
+
+
+def test_see_protocol_disposition_becomes_unknown_with_cross_reference() -> None:
+    page = PageData(
+        number=120,
+        text=(
+            "Guide for Aviation Medical Examiners\nEYES\n"
+            "DISEASE/CONDITION CLASS EVALUATION DATA DISPOSITION\n120"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "CLASS", "EVALUATION DATA", "DISPOSITION"),
+                (
+                    "Binocular diplopia",
+                    "All",
+                    "Follow published protocol.",
+                    "See ophthalmology disposition table",
+                ),
+            ),
+        ),
+    )
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 1
+    record = records[0]
+    assert record.disposition is Disposition.UNKNOWN
+    assert "cross_reference" in record.warnings
+    assert "See ophthalmology" in record.action
+
+
+def test_duplicate_pathway_ids_are_disambiguated() -> None:
+    page = PageData(
+        number=99,
+        text=(
+            "Guide for Aviation Medical Examiners\nNOSE\nALLERGIES\n"
+            "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n99"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+                (
+                    "A. Controlled",
+                    "First evaluation path.",
+                    "ISSUE\nAnnotate Block 60.",
+                ),
+                (
+                    "A. Controlled",
+                    "Second evaluation path with more detail for FAA review.",
+                    "DEFER\nSubmit the information to the FAA.",
+                ),
+            ),
+        ),
+    )
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 2
+    ids = [record.record_id for record in records]
+    assert len(ids) == len(set(ids))

@@ -1,13 +1,18 @@
 import { describe, expect, it } from 'vitest';
 import {
   adaptGuidanceFile,
+  adaptGuidanceFiles,
+  dedupeNormalizedRecords,
   humanizeCategory,
   humanizeConditionName,
   mapDisposition,
+  mergeGuidanceFiles,
   pathwayTitle,
+  requirementsToAmeReviewNotes,
   requirementsToDocuments,
   searchAdaptedConditions,
   type NormalizedGuidanceFile,
+  type NormalizedRecord,
 } from '@content/index';
 
 const fixture: NormalizedGuidanceFile = {
@@ -87,7 +92,7 @@ describe('content adapter', () => {
     expect(humanizeConditionName('ANOSMIA*')).toBe('Anosmia');
     expect(humanizeCategory('NOSE')).toBe('Nose');
     expect(pathwayTitle('A. Controlled allergies • Extra detail')).toBe(
-      'A. Controlled allergies',
+      'Controlled allergies',
     );
   });
 
@@ -105,7 +110,7 @@ describe('content adapter', () => {
     expect(conditions).toHaveLength(1);
     const condition = conditions[0];
     expect(condition.name.toLowerCase()).toContain('allerg');
-    expect(condition.category).toBe('Nose');
+    expect(condition.category).toBe('Nose and Sinuses');
     expect(condition.disposition).toBe('deferral');
     expect(condition.summary).toContain('2 published certification pathways');
     expect(condition.subConditions).toHaveLength(2);
@@ -119,5 +124,145 @@ describe('content adapter', () => {
     const conditions = adaptGuidanceFile(fixture);
     expect(searchAdaptedConditions(conditions, 'steroid')).toHaveLength(1);
     expect(searchAdaptedConditions(conditions, 'zzz')).toHaveLength(0);
+  });
+
+  it('merges guidance files and de-duplicates identical pathways', () => {
+    const duplicate: NormalizedRecord = {
+      ...fixture.records[0],
+      record_id: 'other-doc-allergies-a-p1',
+      action: 'Annotate this in Block 60. Extra detail that makes this richer.',
+      source: {
+        ...fixture.records[0].source,
+        document: 'OneGuide_Nose.pdf',
+        pdf_page: 1,
+      },
+    };
+    const neurology: NormalizedGuidanceFile = {
+      schema_version: '1.0',
+      parser_version: '0.1.0',
+      source_document: 'OneGuide_Neurology.pdf',
+      pages_processed: 1,
+      warnings: [],
+      summary: { records_extracted: 1 },
+      records: [
+        {
+          record_id: 'oneguide-neurology-als-p5',
+          condition: 'ALS - Amyotrophic Lateral Sclerosis',
+          category: 'Neurology',
+          scenario: 'A. All classes Any history',
+          subcondition: 'A. All classes Any history',
+          disposition: 'DEFER',
+          raw_disposition: 'DEFER',
+          action: '',
+          requirements: [
+            {
+              kind: 'DOCUMENT',
+              text: 'Submit a current neurological evaluation.',
+            },
+          ],
+          medication_notes: [],
+          time_constraints: [],
+          warnings: [],
+          certificate_classes: [],
+          raw_text: 'A. All classes DEFER',
+          source: {
+            document: 'OneGuide_Neurology.pdf',
+            pdf_page: 5,
+            printed_page: null,
+            section: 'Neurology',
+          },
+        },
+      ],
+    };
+    const merged = mergeGuidanceFiles([
+      fixture,
+      { ...fixture, source_document: 'OneGuide_Nose.pdf', records: [duplicate] },
+      neurology,
+    ]);
+    expect(dedupeNormalizedRecords(merged.records)).toHaveLength(3);
+    expect(merged.records).toHaveLength(3);
+    expect(merged.source_document).toContain('ame_guide.pdf');
+    expect(merged.source_document).toContain('OneGuide_Neurology.pdf');
+
+    const conditions = adaptGuidanceFiles([
+      fixture,
+      { ...fixture, source_document: 'OneGuide_Nose.pdf', records: [duplicate] },
+      neurology,
+    ]);
+    expect(conditions).toHaveLength(2);
+    const allergies = conditions.find((c) =>
+      c.name.toLowerCase().includes('allerg'),
+    );
+    expect(allergies?.subConditions).toHaveLength(2);
+    expect(
+      allergies?.subConditions.find((s) => s.disposition === 'issue')
+        ?.certificationNote,
+    ).toContain('Extra detail');
+  });
+
+  it('maps role/required into bring-list docs and AME review notes', () => {
+    const record: NormalizedRecord = {
+      ...fixture.records[1],
+      certificate_classes: ['All'],
+      warnings: ['cross_reference'],
+      requirements: [
+        {
+          kind: 'DOCUMENT',
+          text: 'Clinical Progress Note',
+          role: 'bring_list',
+          required: true,
+        },
+        {
+          kind: 'TEST',
+          text: 'MRI if already performed',
+          role: 'bring_list',
+          required: false,
+        },
+        {
+          kind: 'EVALUATION',
+          text: 'The AME must review a neurological evaluation.',
+          role: 'ame_review',
+          required: false,
+        },
+      ],
+      action: 'See CAD protocol',
+      disposition: 'UNKNOWN',
+      raw_disposition: 'See CAD protocol',
+    };
+    const docs = requirementsToDocuments(record);
+    expect(docs).toHaveLength(2);
+    expect(docs.find((d) => d.label.includes('Clinical'))?.required).toBe(true);
+    expect(docs.find((d) => d.label.includes('MRI'))?.required).toBe(false);
+    expect(docs.every((d) => d.kind)).toBeTruthy();
+
+    const notes = requirementsToAmeReviewNotes(record);
+    expect(notes.some((n) => n.includes('AME must'))).toBe(true);
+
+    const conditions = adaptGuidanceFile({
+      ...fixture,
+      records: [record],
+    });
+    expect(conditions).toHaveLength(1);
+    const sub = conditions[0].subConditions[0];
+    expect(sub.certificateClasses).toEqual(['All']);
+    expect(sub.warnings).toContain('cross_reference');
+    expect(sub.ameReviewNotes?.length).toBeGreaterThan(0);
+    expect(sub.documents.some((d) => !d.required)).toBe(true);
+  });
+
+  it('filters section-label conditions from browseable catalog', () => {
+    const neurologyLabel: NormalizedGuidanceFile = {
+      ...fixture,
+      records: [
+        {
+          ...fixture.records[0],
+          record_id: 'ame-guide-neurology-misfile',
+          condition: 'Neurology',
+          category: 'Neurology',
+          scenario: 'All classes',
+        },
+      ],
+    };
+    expect(adaptGuidanceFile(neurologyLabel)).toHaveLength(0);
   });
 });

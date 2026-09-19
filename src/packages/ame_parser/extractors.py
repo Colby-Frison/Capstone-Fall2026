@@ -3,20 +3,38 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from pathlib import Path
 from typing import Protocol, Sequence
 
 from .models import Disposition, GuidanceRecord, SourceReference
+from .page_types import (
+    PageRole,
+    classify_ame_page,
+    is_browse_section_label,
+    is_class_scope_line,
+    is_criteria_subtitle_line,
+    is_disposition_role,
+    is_heading_noise_line,
+    is_section_label_line,
+    is_synonym_paren_line,
+    is_valid_condition_title,
+    is_valid_scenario,
+)
 from .pdf import PageData, Table
+from .table_assemble import ColumnMap, LogicalRow, assemble_page_rows
 from .text import (
     classify_disposition,
     clean,
     extract_medication_notes,
     extract_requirements,
     extract_time_constraints,
+    is_cross_reference_disposition,
+    normalize_action,
     normalize_condition_name,
     normalize_scenario_title,
     printed_page,
+    promote_section_label_condition,
     slug,
 )
 
@@ -35,16 +53,30 @@ class Extractor(Protocol):
     ) -> tuple[GuidanceRecord, ...]: ...
 
 
-def _join_cells(row: Sequence[str | None], first: int, last: int) -> str:
-    return "\n".join(cell for cell in row[first:last] if clean(cell))
-
-
 def _append_unique(original: str, extra: str) -> str:
     original_clean = clean(original)
     extra_clean = clean(extra)
     if not extra_clean or extra_clean in original_clean:
         return original
     return f"{original}\n{extra}".strip()
+
+
+def _assign_unique_record_ids(
+    records: tuple[GuidanceRecord, ...],
+) -> tuple[GuidanceRecord, ...]:
+    """Ensure record_id uniqueness when pathways collide on the same page."""
+
+    seen: dict[str, int] = {}
+    unique: list[GuidanceRecord] = []
+    for record in records:
+        base = record.record_id
+        count = seen.get(base, 0)
+        seen[base] = count + 1
+        if count == 0:
+            unique.append(record)
+            continue
+        unique.append(replace(record, record_id=f"{base}-{count + 1}"))
+    return tuple(unique)
 
 
 def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
@@ -56,13 +88,25 @@ def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
     scenario = normalize_scenario_title(scenario_raw) or clean(scenario_raw)
     if not scenario or scenario.lower().startswith("submit the following"):
         return None
+    if not is_valid_scenario(scenario):
+        return None
 
     evaluation = clean(evaluation_raw)
-    action = clean(action_raw)
+    action = normalize_action(action_raw)
     raw_disposition = clean(disposition_raw)
     disposition, warnings = classify_disposition(raw_disposition or action)
+    warning_list = list(warnings)
+
+    if is_cross_reference_disposition(raw_disposition or action):
+        xref = clean(raw_disposition or action)
+        if xref and (not action or action.upper() in {"DEFER", "ISSUE", "DENY", "UNKNOWN"}):
+            action = xref
+        warning_list.append("cross_reference")
+        disposition = Disposition.UNKNOWN
+        raw_disposition = xref
+
     # Keep raw_disposition as the keyword label when classification succeeded.
-    if disposition is not Disposition.UNKNOWN:
+    elif disposition is not Disposition.UNKNOWN:
         if (
             not action
             and raw_disposition
@@ -79,10 +123,18 @@ def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
         else:
             raw_disposition = disposition.value.replace("_", " ")
 
-    all_warnings = tuple(dict.fromkeys((*draft.get("warnings", ()), *warnings)))
+    all_warnings = tuple(dict.fromkeys((*draft.get("warnings", ()), *warning_list)))
     condition = normalize_condition_name(str(draft["condition"]))
-    page = int(draft["page"])
     category = clean(str(draft.get("category", ""))) or None
+    condition, scenario, category = promote_section_label_condition(
+        condition, scenario, category
+    )
+    if not condition or condition == "UNKNOWN" or is_browse_section_label(condition):
+        return None
+    if not scenario or not is_valid_scenario(scenario):
+        return None
+
+    page = int(draft["page"])
     class_text = clean(str(draft.get("classes", "")))
     requirements = extract_requirements(evaluation_raw)
     medication_notes = extract_medication_notes(action_raw)
@@ -138,130 +190,144 @@ class AmeGuideExtractor:
         drafts: list[dict[str, object]] = []
         condition = ""
         category = ""
-        last_roles: tuple[int, int | None, int, int, int] | None = None
+        last_columns: ColumnMap | None = None
 
         for page in pages:
+            role = classify_ame_page(page)
+            if not is_disposition_role(role):
+                # Drop carried geometry so revision/AASI pages cannot reuse it.
+                last_columns = None
+                continue
+
             heading = self._heading(page.text)
-            if heading:
+            if role is PageRole.DISPOSITION_TABLE and heading:
+                if is_valid_condition_title(heading[1]):
+                    category, condition = heading
+                else:
+                    # Invalid title block — do not pollute carried state.
+                    category, condition = "", ""
+            elif role is PageRole.CONTINUATION_DISPOSITION:
+                if heading and is_valid_condition_title(heading[1]) and not condition:
+                    category, condition = heading
+            elif heading and is_valid_condition_title(heading[1]):
                 category, condition = heading
 
-            for table in page.tables:
-                roles = self._roles(table)
-                if roles is None:
-                    if (
-                        last_roles is None
-                        or not table
-                        or max((len(row) for row in table), default=0)
-                        <= last_roles[3]
-                    ):
-                        continue
-                    roles = (*last_roles[:4], -1)
-                else:
-                    last_roles = roles
-                (
-                    disease_idx,
-                    class_idx,
-                    evaluation_idx,
-                    disposition_idx,
-                    header_idx,
-                ) = roles
-                for row in table[header_idx + 1 :]:
-                    scenario = _join_cells(row, disease_idx, disease_idx + 1)
-                    classes = (
-                        _join_cells(row, class_idx, class_idx + 1)
-                        if class_idx is not None
-                        else ""
-                    )
-                    evaluation = _join_cells(row, evaluation_idx, disposition_idx)
-                    raw_action = _join_cells(row, disposition_idx, len(row))
-                    if not any(
-                        clean(value)
-                        for value in (scenario, classes, evaluation, raw_action)
-                    ):
-                        continue
-                    if (
-                        scenario.upper().startswith("NOTE:")
-                        and not evaluation
-                        and not raw_action
-                    ):
-                        continue
+            if not is_valid_condition_title(condition):
+                # Continuations without a known condition are unsafe after skips.
+                continue
 
-                    if scenario:
-                        stacked = self._stacked_pathways(
-                            classes, evaluation, raw_action
-                        )
-                        if stacked:
-                            for class_value, evaluation_value, disposition_value in stacked:
-                                raw_disposition, action = self._split_disposition(
-                                    disposition_value
-                                )
-                                drafts.append(
-                                    {
-                                        "category": category,
-                                        "condition": condition or "UNKNOWN",
-                                        "scenario": scenario,
-                                        "classes": class_value,
-                                        "evaluation": evaluation_value,
-                                        "raw_disposition": raw_disposition,
-                                        "action": action,
-                                        "page": page.number,
-                                        "printed_page": printed_page(page.text),
-                                        "warnings": ("stacked_table_row_split",),
-                                    }
-                                )
-                            continue
-                        raw_disposition, action = self._split_disposition(raw_action)
-                        drafts.append(
-                            {
-                                "category": category,
-                                "condition": condition or "UNKNOWN",
-                                "scenario": scenario,
-                                "classes": classes,
-                                "evaluation": evaluation,
-                                "raw_disposition": raw_disposition,
-                                "action": action,
-                                "page": page.number,
-                                "printed_page": printed_page(page.text),
-                                "warnings": ()
-                                if condition
-                                else ("missing_condition_heading",),
-                            }
-                        )
-                    elif classes and drafts and raw_action:
-                        raw_disposition, action = self._split_disposition(raw_action)
-                        previous = drafts[-1]
-                        drafts.append(
-                            {
-                                "category": category,
-                                "condition": condition or previous["condition"],
-                                "scenario": previous["scenario"],
-                                "classes": classes,
-                                "evaluation": evaluation,
-                                "raw_disposition": raw_disposition,
-                                "action": action,
-                                "page": page.number,
-                                "printed_page": printed_page(page.text),
-                                "warnings": (),
-                            }
-                        )
-                    elif drafts:
-                        draft = drafts[-1]
-                        draft["evaluation"] = _append_unique(
-                            str(draft.get("evaluation", "")), evaluation
-                        )
-                        disposition, action = self._split_disposition(raw_action)
-                        draft["raw_disposition"] = _append_unique(
-                            str(draft.get("raw_disposition", "")), disposition
-                        )
-                        draft["action"] = _append_unique(
-                            str(draft.get("action", "")), action
-                        )
+            page_classes = ""
+            for line in page.text.splitlines():
+                if is_class_scope_line(line):
+                    page_classes = "All"
+                    break
 
-        return tuple(
-            record
-            for draft in drafts
-            if (record := _finish(draft, source)) is not None
+            rows, last_columns = assemble_page_rows(page.tables, last_columns)
+            for logical in rows:
+                if logical.scenario and not is_valid_scenario(logical.scenario):
+                    continue
+                self._ingest_logical_row(
+                    drafts,
+                    logical,
+                    category=category,
+                    condition=condition,
+                    page=page,
+                    default_classes=page_classes,
+                )
+
+        return _assign_unique_record_ids(
+            tuple(
+                record
+                for draft in drafts
+                if (record := _finish(draft, source)) is not None
+            )
         )
+
+    def _ingest_logical_row(
+        self,
+        drafts: list[dict[str, object]],
+        logical: LogicalRow,
+        *,
+        category: str,
+        condition: str,
+        page: PageData,
+        default_classes: str = "",
+    ) -> None:
+        scenario = logical.scenario
+        evaluation = logical.evaluation
+        raw_action = logical.disposition
+        # Page-level "All Classes" only applies to real pathway rows, not
+        # empty-scenario fragment shreds (which would mint duplicate drafts).
+        classes = logical.classes or (default_classes if scenario else "")
+
+        if scenario:
+            stacked = self._stacked_pathways(classes, evaluation, raw_action)
+            if stacked:
+                for class_value, evaluation_value, disposition_value in stacked:
+                    raw_disposition, action = self._split_disposition(
+                        disposition_value
+                    )
+                    drafts.append(
+                        {
+                            "category": category,
+                            "condition": condition or "UNKNOWN",
+                            "scenario": scenario,
+                            "classes": class_value,
+                            "evaluation": evaluation_value,
+                            "raw_disposition": raw_disposition,
+                            "action": action,
+                            "page": page.number,
+                            "printed_page": printed_page(page.text),
+                            "warnings": ("stacked_table_row_split",),
+                        }
+                    )
+                return
+            raw_disposition, action = self._split_disposition(raw_action)
+            drafts.append(
+                {
+                    "category": category,
+                    "condition": condition or "UNKNOWN",
+                    "scenario": scenario,
+                    "classes": classes,
+                    "evaluation": evaluation,
+                    "raw_disposition": raw_disposition,
+                    "action": action,
+                    "page": page.number,
+                    "printed_page": printed_page(page.text),
+                    "warnings": () if condition else ("missing_condition_heading",),
+                }
+            )
+            return
+
+        if classes and drafts and raw_action:
+            raw_disposition, action = self._split_disposition(raw_action)
+            previous = drafts[-1]
+            drafts.append(
+                {
+                    "category": category,
+                    "condition": condition or previous["condition"],
+                    "scenario": previous["scenario"],
+                    "classes": classes,
+                    "evaluation": evaluation,
+                    "raw_disposition": raw_disposition,
+                    "action": action,
+                    "page": page.number,
+                    "printed_page": printed_page(page.text),
+                    "warnings": (),
+                }
+            )
+            return
+
+        if drafts:
+            draft = drafts[-1]
+            draft["evaluation"] = _append_unique(
+                str(draft.get("evaluation", "")), evaluation
+            )
+            disposition, action = self._split_disposition(raw_action)
+            draft["raw_disposition"] = _append_unique(
+                str(draft.get("raw_disposition", "")), disposition
+            )
+            draft["action"] = _append_unique(str(draft.get("action", "")), action)
 
     @staticmethod
     def _stacked_pathways(
@@ -282,7 +348,9 @@ class AmeGuideExtractor:
             for part in re.split(r"(?=\bSubmit\b)", clean(evaluation))
             if clean(part)
         ]
-        if len(decisions) != len(class_lines) or len(evaluation_parts) != len(class_lines):
+        if len(decisions) != len(class_lines) or len(evaluation_parts) != len(
+            class_lines
+        ):
             return ()
 
         disposition_clean = clean(disposition)
@@ -299,36 +367,6 @@ class AmeGuideExtractor:
             (class_lines[0], evaluation_parts[0], first),
             (class_lines[1], evaluation_parts[1], remaining),
         )
-
-    @staticmethod
-    def _roles(
-        table: Table,
-    ) -> tuple[int, int | None, int, int, int] | None:
-        for header_idx, row in enumerate(table[:3]):
-            headers = [clean(cell).upper() for cell in row]
-            disease = next(
-                (index for index, value in enumerate(headers) if "DISEASE" in value),
-                None,
-            )
-            evaluation = next(
-                (index for index, value in enumerate(headers) if "EVALUATION" in value),
-                None,
-            )
-            disposition = next(
-                (index for index, value in enumerate(headers) if "DISPOSITION" in value),
-                None,
-            )
-            if None not in (disease, evaluation, disposition):
-                class_idx = next(
-                    (
-                        index
-                        for index, value in enumerate(headers)
-                        if value == "CLASS"
-                    ),
-                    None,
-                )
-                return disease, class_idx, evaluation, disposition, header_idx
-        return None
 
     @staticmethod
     def _split_disposition(text: str) -> tuple[str, str]:
@@ -358,6 +396,8 @@ class AmeGuideExtractor:
 
     @staticmethod
     def _heading(text: str) -> tuple[str, str] | None:
+        """Parse ITEM / category / condition title block before the table."""
+
         lines = [clean(line) for line in text.splitlines() if clean(line)]
         try:
             end = next(
@@ -367,20 +407,88 @@ class AmeGuideExtractor:
             )
         except StopIteration:
             return None
+
+        start = 0
+        while start < end and re.match(
+            r"^(Guide for Aviation|Version|--\s*\d)",
+            lines[start],
+            re.I,
+        ):
+            start += 1
+
         candidates = [
             line
-            for line in lines[1:end]
-            if not re.match(r"^(All Classes|Updated|\(Updated)", line, re.I)
+            for line in lines[start:end]
+            if not is_heading_noise_line(line) and not re.fullmatch(r"\d{1,4}", line)
         ]
         if not candidates:
             return None
-        item = next((line for line in candidates if line.upper().startswith("ITEM ")), "")
+
+        item = next(
+            (line for line in candidates if line.upper().startswith("ITEM ")),
+            "",
+        )
         names = [line for line in candidates if line != item]
+        if not names:
+            return None
+
         category = item
-        if len(names) > 1 and names[0].isupper() and not names[0].startswith("("):
-            category = names.pop(0)
-        condition = clean(" ".join(names))
-        return category, condition
+        primary_parts: list[str] = []
+        synonyms: list[str] = []
+
+        for index, line in enumerate(names):
+            if is_synonym_paren_line(line):
+                inner = line.strip()[1:-1].strip()
+                # Instructional parentheticals are not disease synonyms.
+                if inner.lower().startswith("use for"):
+                    continue
+                synonyms.append(inner)
+                continue
+            # Broken OCR/title fragment: "COGNITIVE DISORDER)"
+            if line.endswith(")") and "(" not in line and len(line) < 60:
+                synonyms.append(line.rstrip(")").strip())
+                continue
+            if is_criteria_subtitle_line(line):
+                continue
+            if (
+                not primary_parts
+                and is_section_label_line(line)
+                and any(
+                    not is_synonym_paren_line(other)
+                    and not is_criteria_subtitle_line(other)
+                    and other != line
+                    for other in names[index + 1 :]
+                )
+            ):
+                # Short system label (NOSE, EYES - PROCEDURES) before disease title.
+                category = line
+                continue
+            primary_parts.append(line)
+
+        condition = clean(" ".join(primary_parts))
+        if synonyms:
+            syn = synonyms[0]
+            if syn and syn.lower() not in condition.lower():
+                condition = f"{condition} ({syn})" if condition else syn
+
+        if not is_valid_condition_title(condition):
+            # Fall back to section label when it is the real disease title.
+            if category and not category.upper().startswith("ITEM "):
+                if is_valid_condition_title(category):
+                    condition = category
+                    category = item
+            elif names:
+                for candidate in names:
+                    repaired = candidate.rstrip(")") if candidate.endswith(")") and "(" not in candidate else candidate
+                    if is_valid_condition_title(repaired):
+                        condition = repaired
+                        break
+
+        if not condition or not is_valid_condition_title(condition):
+            return None
+        if category == condition:
+            category = item
+        return category or item, condition
 
 
 class OneGuideExtractor:
@@ -455,14 +563,18 @@ class OneGuideExtractor:
                                 str(active.get("action", "")), ame_action
                             )
 
-        return tuple(
-            record
-            for draft in drafts
-            if (record := _finish(draft, source)) is not None
+        return _assign_unique_record_ids(
+            tuple(
+                record
+                for draft in drafts
+                if (record := _finish(draft, source)) is not None
+            )
         )
 
     @staticmethod
-    def _pilot_rows(table: Table) -> tuple[Sequence[tuple[str | None, ...]], int | None]:
+    def _pilot_rows(
+        table: Table,
+    ) -> tuple[Sequence[tuple[str | None, ...]], int | None]:
         for index, row in enumerate(table[:3]):
             headers = [clean(cell).upper() for cell in row]
             if (
@@ -481,12 +593,18 @@ class OneGuideExtractor:
         lines = [clean(line) for line in text.splitlines() if clean(line)]
         for index, line in enumerate(lines):
             if re.fullmatch(r"18[lI]\.\s*Neurology", line, re.I):
-                title: list[str] = []
                 for candidate in lines[index + 1 :]:
                     if candidate.upper().startswith("DISCLAIMER"):
                         break
-                    title.append(candidate)
-                return clean(" ".join(title)) or None
+                    if is_browse_section_label(candidate) or is_class_scope_line(
+                        candidate
+                    ):
+                        continue
+                    if is_heading_noise_line(candidate):
+                        continue
+                    if is_valid_condition_title(candidate):
+                        return candidate
+                return None
         return None
 
 

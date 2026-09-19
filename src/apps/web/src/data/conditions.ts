@@ -1,9 +1,9 @@
 /**
- * Condition catalog backed by AME parser normalized JSON.
+ * Condition catalog backed by every normalized guidance JSON under
+ * src/data/guidance. Files are merged and de-duplicated before adaptation.
  */
-import guidance from '@guidance/ame_guide.normalized.json';
 import {
-  adaptGuidanceFile,
+  adaptGuidanceFiles,
   searchAdaptedConditions,
   type Condition,
   type NormalizedGuidanceFile,
@@ -11,12 +11,23 @@ import {
 
 export type { Condition } from '@content/types';
 
-export const conditions: Condition[] = adaptGuidanceFile(
-  guidance as NormalizedGuidanceFile,
-);
+const guidanceModules = import.meta.glob('@guidance/*.normalized.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, NormalizedGuidanceFile>;
+
+const guidanceFiles = Object.keys(guidanceModules)
+  .sort()
+  .map((path) => guidanceModules[path]);
+
+export const conditions: Condition[] = adaptGuidanceFiles(guidanceFiles);
 
 export const categories = [
-  ...new Set(conditions.map((condition) => condition.category)),
+  ...new Set(
+    conditions
+      .map((condition) => condition.category)
+      .filter((category) => category && category !== 'General'),
+  ),
 ].sort();
 
 export function getConditionById(id: string): Condition | undefined {
