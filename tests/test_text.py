@@ -34,6 +34,19 @@ def test_split_items_reconstructs_wrapped_numbered_requirements() -> None:
     )
 
 
+def test_extract_requirements_drops_headers_and_keeps_items() -> None:
+    requirements = extract_requirements(
+        "Submit the following for FAA review:\n"
+        "1. Current neurological evaluation.\n"
+        "2. MRI performed within 90 days.\n"
+        "Note(s): See seizure section."
+    )
+    assert [item.text for item in requirements] == [
+        "Current neurological evaluation.",
+        "MRI performed within 90 days.",
+    ]
+
+
 def test_requirements_are_typed_without_removing_source_wording() -> None:
     requirements = extract_requirements(
         "1. Current Clinical Progress Note\n2. MRI brain imaging\n3. Medication list"
@@ -51,9 +64,45 @@ def test_normalize_scenario_and_condition_titles() -> None:
 
     assert normalize_condition_name("ANOSMIA*") == "ANOSMIA"
     assert normalize_condition_name("SINUSITIS(Acute)") == "SINUSITIS (Acute)"
-    assert normalize_scenario_title(
-        "A. Allergies controlled by acceptable medications\nAllergy shots/SLIT"
-    ).startswith("A. Allergies controlled")
+    assert (
+        normalize_scenario_title(
+            "A. Allergies controlled by acceptable medications\nAllergy shots/SLIT"
+        )
+        == "Allergies controlled by acceptable medications"
+    )
+
+
+def test_repair_condition_category_joins_synonyms() -> None:
+    from ame_parser.text import repair_condition_category
+
+    assert repair_condition_category("(Seizure Disorder)", "EPILEPSY") == (
+        "EPILEPSY (Seizure Disorder)",
+        "",
+    )
+    assert repair_condition_category("(Updates 08/27/2025)", "EYES - PROCEDURES") == (
+        "EYES - PROCEDURES",
+        "",
+    )
+    assert repair_condition_category(
+        "50% stenosis or higher; intervention (Stent)",
+        "CORONARY HEART DISEASE",
+    ) == ("CORONARY HEART DISEASE", "")
+
+
+def test_resolve_category_uses_dictionary() -> None:
+    from ame_parser.categories import resolve_category
+
+    assert resolve_category("EPILEPSY (Seizure Disorder)") == "Neurology"
+    assert resolve_category("ARRHYTHMIAS") == "Cardiovascular"
+    assert resolve_category("ALLERGIES", "NOSE") == "Nose and Sinuses"
+    assert resolve_category("PUPILS", "ITEM 33. Pupils") == "Eyes"
+    assert resolve_category(
+        "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)"
+    ) == "Ears"
+    assert (
+        resolve_category("WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions")
+        == "Cardiovascular"
+    )
 
 
 def test_medication_notes_ignore_evaluation_blobs() -> None:

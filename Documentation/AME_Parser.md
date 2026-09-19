@@ -19,8 +19,8 @@ transformation remains visible.
 
 ```powershell
 python -m pip install -e ".[dev]"
-python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-72
-python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-72 `
+python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-100
+python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-100 `
   --output src/data/guidance/ame_guide.normalized.json --diagnostic
 ```
 
@@ -47,11 +47,35 @@ The parser uses a staged pipeline:
 
 1. `PdfPlumberReader` adapts PDF pages to framework-independent `PageData`.
 2. `AmeParser` selects an extractor from deterministic content signatures.
-3. `AmeGuideExtractor` and `OneGuideExtractor` map their distinct table
-   layouts to common typed models.
-4. Shared text functions normalize whitespace, reconstruct list items, and
-   classify only reviewed disposition wording.
-5. Contract validation and stable JSON serialization complete the pipeline.
+3. **AME Guide path** (`AmeGuideExtractor`):
+   - `page_types.classify_ame_page` labels each page (`DISPOSITION_TABLE`,
+     `CONTINUATION_DISPOSITION`, `CHECKLIST_EXAM`, `CACI_WORKSHEET`,
+     `STATUS_FORM`, prose, etc.).
+   - Only disposition roles are extracted; checklists, CACI worksheets, forms,
+     and admin prose are skipped.
+   - `table_assemble` maps headers by **label** (not physical column count),
+     selects the primary table on fragmented pages, and merges ghost
+     fragment tables into the active pathway’s evaluation text.
+   - A page-to-page state machine carries `condition` / `category` across
+     continuation pages and flushes new condition blocks from `ITEM` /
+     ALL-CAPS title lines.
+4. **OneGuide path** (`OneGuideExtractor`) still targets the pilot trio
+   (`Disease/Condition`, `Evaluation Data`, `AME Actions`) and ignores
+   AAM/VHT/ATCS/DOC columns. It can later reuse the same page-classifier
+   utilities; it is a separate layout family (landscape, multi-audience).
+5. Shared `text` helpers normalize lists, strip ordering markers, and classify
+   only reviewed disposition wording.
+6. Contract validation and stable JSON serialization complete the pipeline.
+
+```mermaid
+flowchart TD
+  PDF[PdfPlumberReader] --> Classify[PageClassifier]
+  Classify -->|skip| Skip[PROSE / CACI / CHECKLIST / FORM]
+  Classify -->|disposition| Assemble[TableAssembler]
+  Assemble --> State[PathwayStateMachine]
+  State --> Finish["_finish + text.py"]
+  Finish --> JSON[schema v1 JSON]
+```
 
 The extractor registry is a Strategy pattern. The PDF reader is an injected
 port/adapter, allowing tests to exercise extraction without loading PDFs.
@@ -79,16 +103,34 @@ comparable.
 
 ## UI consumption
 
-The Vite app loads `src/data/guidance/ame_guide.normalized.json` through
-`src/packages/content`, which groups records by condition into sub-condition
-pathways, maps dispositions to UI badges, and turns requirements into the
-“what to bring” checklist. The adapter:
+The Vite app loads **every** `*.json` file under `src/data/guidance/` at
+startup (via `import.meta.glob`), merges them through `src/packages/content`,
+and de-duplicates pathways before grouping into conditions. Records that share
+the same condition + pathway + disposition (or the same `record_id`) collapse
+to the richer copy.
 
-- humanizes condition and category labels for display;
-- keeps pathway titles short and lettered (`A.`, `B.`, …);
+Repeating source phrases are treated as classifiers, not checklist content:
+
+- `Submit the following for FAA review` / `It must include` → section headers (dropped)
+- Trailing `DEFER` / `ISSUE` tokens → disposition field only
+- Leading `A.` / `B.` / `1.` / bullets → ordering only (stripped for display)
+
+Numbered and lettered lists are expanded into separate requirement rows with
+markers removed so the UI shows plain checklist language. The adapter then:
+
+- assigns browse categories from `src/data/guidance/category_dictionary.json`
+  (exact titles, ITEM numbers, aliases, then keyword patterns);
+- humanizes condition labels for display;
+- keeps pathway titles short **without** letter prefixes;
 - expands bulleted evaluation text into checklist items;
 - excludes AME inquiry prose from the bring-list;
 - surfaces only short medication notes from action text.
+
+Edit `category_dictionary.json` to change browse buckets without re-tuning the
+PDF heading heuristics. Exact `condition_map` entries win over patterns.
+
+Drop a new `*.normalized.json` into `src/data/guidance/` and restart the
+dev server — no code change is required to pick it up.
 
 Medication catalog entries remain curated until a dedicated medication parse
 exists.
@@ -110,12 +152,24 @@ characterization tests.
 - The production strategies currently target AME Guide disposition tables and
   OneGuide initial pilot certification columns. Internal AAM, VHT, ATCS, and
   DOC workflow columns are intentionally excluded from pilot-facing records.
+- Non-disposition AME pages (exam checklists, CACI worksheets, status forms,
+  FAQs, revision history) are classified and skipped; they are not pathway
+  sources.
 - Image-only/scanned PDFs require OCR before parsing.
 - Requirement typing is keyword-based; raw evaluation wording is retained so
   a reviewer can correct or extend classification rules safely.
-- Headerless AME rows can be parsed when they retain the active table's column
-  geometry; unrelated narrow tables are ignored.
+- Headerless AME continuation rows reuse the prior page’s logical column map;
+  unrelated narrow fragment tables are merged into evaluation text when
+  possible.
 - Starting a page range in the middle of a multi-page condition can omit the
   heading or earlier requirement text. Include the condition's title page.
 - FAA layout or wording changes can produce warnings or golden-test failures
   and require a reviewed extractor update.
+
+## OneGuide follow-on
+
+OneGuide Neurology remains a separate Strategy. A later migration can route
+OneGuide pages through shared `page_types` helpers (condition-start vs
+continuation vs notes) while keeping the pilot-column projection. Do not
+force OneGuide’s 6–7 column landscape grids through the AME logical 3/4-col
+assembler.

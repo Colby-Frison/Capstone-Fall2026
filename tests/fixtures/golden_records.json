@@ -31,6 +31,13 @@
       "requirement_contains": "Clinical Progress Note"
     },
     {
+      "pdf_page": 65,
+      "condition_contains": "ALLERGIES or ANAPHYLAXIS",
+      "scenario_contains": "History of anaphylaxis",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
       "pdf_page": 67,
       "condition_contains": "ANOSMIA",
       "scenario_contains": "KNOWN etiology",
@@ -58,6 +65,37 @@
       "disposition": "DEFER",
       "requirement_contains": "current status report",
       "time_constraint": "less than 5 years"
+    }
+  ],
+  "ame_guide_expanded": [
+    {
+      "pdf_page": 95,
+      "condition_contains": "AMBLYOPIA",
+      "scenario_contains": "Amblyopia or decreased distant vision",
+      "disposition": "DEFER",
+      "requirement_contains": "Amblyopia Status Summary"
+    },
+    {
+      "pdf_page": 99,
+      "condition_contains": "CATARACT",
+      "scenario_contains": "Cataract(s) present",
+      "disposition": "ISSUE",
+      "requirement_contains": "AME can determine"
+    },
+    {
+      "pdf_page": 100,
+      "condition_contains": "DIPLOPIA",
+      "scenario_contains": "Any history",
+      "disposition": "DEFER",
+      "requirement_contains": "Clinical Progress Note"
+    },
+    {
+      "pdf_page": 198,
+      "condition_contains": "VASCULAR CONDITIONS",
+      "scenario_contains": "Phlebothrombosis",
+      "certificate_class": "1st",
+      "disposition": "DEFER",
+      "requirement_contains": "Thrombophlebitis Protocol"
     }
   ],
   "oneguide": [

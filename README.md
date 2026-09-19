@@ -117,7 +117,7 @@ Capstone-Fall2026/
     │   ├── ame_parser/            # PDF extraction package
     │   └── content/               # normalized JSON → UI models
     ├── data/
-    │   └── guidance/              # ame_guide.normalized.json for the app
+    │   └── guidance/              # all *.normalized.json loaded by the app
     ├── legacy/
     │   ├── old/                   # prior-semester parser baseline
     │   └── web-next/              # archived Next.js boilerplate

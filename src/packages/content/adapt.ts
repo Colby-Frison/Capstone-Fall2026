@@ -12,6 +12,7 @@ import type {
   NormalizedRequirement,
   SubCondition,
 } from './types';
+import { resolveCategory } from './categories';
 
 const DISPOSITION_MAP: Record<string, Disposition> = {
   ISSUE: 'issue',
@@ -71,6 +72,9 @@ function titleCaseWords(text: string): string {
 export function humanizeConditionName(name: string): string {
   let value = cleanText(name).replace(/\*+$/, '');
   value = value.replace(/([A-Za-z])\(/g, '$1 (');
+  if (value.endsWith(')') && !value.includes('(')) {
+    value = value.replace(/\)+$/, '').trim();
+  }
   const letters = value.replace(/[^A-Za-z]/g, '');
   const upperLetters = letters.replace(/[^A-Z]/g, '');
   if (letters.length > 4 && upperLetters.length / letters.length >= 0.7) {
@@ -81,24 +85,78 @@ export function humanizeConditionName(name: string): string {
 
 export function humanizeCategory(category: string | null | undefined): string {
   const value = cleanText(category || 'General');
-  if (value.toUpperCase() === value && value.length <= 24) {
-    return titleCaseWords(value);
+  if (!value || /^unknown$/i.test(value)) {
+    return 'General';
+  }
+  if (/^ITEM\s+\d+/i.test(value) || (value.toUpperCase() === value && value.length <= 40)) {
+    return titleCaseWords(value.toLowerCase());
   }
   return value;
 }
 
 export function pathwayTitle(scenario: string): string {
-  const cleaned = cleanText(scenario);
-  const match = cleaned.match(/^([A-Z]\.)\s*(.+)$/i);
-  if (!match) {
-    return cleaned.length > 100 ? `${cleaned.slice(0, 97).trim()}…` : cleaned;
-  }
-  let rest = match[2];
+  const cleaned = stripOrderingMarker(cleanText(scenario));
+  const withoutLetter = cleaned.replace(/^[A-Z]\.\s+/i, '').trim();
+  let rest = withoutLetter || cleaned;
   rest = rest.split(/\s+[•·●]\s+/)[0];
+  rest = stripOrderingMarker(rest);
   if (rest.length > 90) {
     rest = `${rest.slice(0, 87).replace(/\s+\S*$/, '')}…`;
   }
-  return `${match[1].toUpperCase()} ${rest}`.trim();
+  return rest;
+}
+
+/** Remove A./B./1./bullet prefixes used only for source ordering. */
+export function stripOrderingMarker(text: string): string {
+  let value = cleanText(text);
+  let previous = '';
+  while (value !== previous) {
+    previous = value;
+    value = value
+      .replace(/^[A-Z]\.\s*/i, '')
+      .replace(/^\d+[.)]\s*/, '')
+      .replace(/^[-•·●]+\s*/, '')
+      .replace(/(?:\s*;\s*(?:and)?|,)\s*$/i, '')
+      .trim();
+  }
+  return value;
+}
+
+function isBoilerplateHeader(text: string): boolean {
+  const lower = cleanText(text).toLowerCase().replace(/:$/, '');
+  if (
+    [
+      'submit the following',
+      'submit the following for faa review',
+      'submit the following to the faa for review',
+      'submit the following for review',
+  'it must include',
+  'it must specifically include',
+  'standard follow up would include',
+  'standard follow-up would include',
+].includes(lower)
+  ) {
+    return true;
+  }
+  if (lower.startsWith('submit the following') && lower.length <= 64) return true;
+  return /^it must(?:\s+specifically)?\s+include$/.test(lower);
+}
+
+function peelRequirementPrefix(text: string): string {
+  return cleanText(text)
+    .replace(
+      /^(?:Submit the following(?:\s+for(?:\s+FAA)?\s+review)?|It must(?:\s+specifically)?\s+include)\s*:?\s*/i,
+      '',
+    )
+    .replace(/\s+Note(?:\(s\))?\s*:.*$/i, '')
+    .trim();
+}
+
+function stripTrailingDisposition(text: string): string {
+  return cleanText(text)
+    .replace(/(?:\s+|^)\b(?:DEFER|ISSUE|DENY|SPECIAL\s+ISSUANCE)\s*\.?$/i, '')
+    .replace(/[;\s.]+$/, '')
+    .trim();
 }
 
 function firstSentence(text: string, max = 180): string {
@@ -110,35 +168,50 @@ function firstSentence(text: string, max = 180): string {
 }
 
 function expandRequirementText(text: string): string[] {
-  const cleaned = cleanText(text);
-  if (!cleaned) return [];
+  let cleaned = peelRequirementPrefix(cleanText(text));
+  cleaned = stripOrderingMarker(cleaned);
+  if (!cleaned || isBoilerplateHeader(cleaned)) return [];
+  if (/^note(?:\(s\))?\s*:/i.test(cleaned)) return [];
+
   if (/[•·●]/.test(cleaned)) {
     return cleaned
       .split(/\s*[•·●]\s*/)
-      .map((part) => cleanText(part))
-      .filter((part) => part.length >= 8);
+      .map((part) => stripOrderingMarker(peelRequirementPrefix(part)))
+      .filter((part) => part.length >= 8 && !isBoilerplateHeader(part));
   }
-  // Numbered lists flattened onto one line: "1. Foo 2. Bar"
-  if (/\b\d+\.\s+\S/.test(cleaned) && (cleaned.match(/\b\d+\.\s+/g) || []).length > 1) {
+
+  // Numbered lists flattened onto one line: "1. Foo 2. Bar" (skip Block 60.)
+  const numberedHits = cleaned.match(
+    /(?<!Block\s)(?<!Item\s)\b\d{1,2}\.\s*[A-Za-z]/g,
+  );
+  if (numberedHits && numberedHits.length > 1) {
     return cleaned
-      .split(/\s(?=\d+\.\s+)/)
-      .map((part) => cleanText(part.replace(/^\d+\.\s*/, '')))
-      .filter((part) => part.length >= 8);
+      .split(/(?:(?<=\s)|^)(?=\d{1,2}\.\s*[A-Za-z("])/)
+      .map((part) => stripOrderingMarker(peelRequirementPrefix(part)))
+      .filter(
+        (part) =>
+          part.length >= 8 &&
+          !isBoilerplateHeader(part) &&
+          !/^Block\s+\d+$/i.test(part),
+      );
   }
+
   return [cleaned];
 }
 
 function isBringListItem(text: string, kind?: string): boolean {
   const lower = text.toLowerCase();
+  if (isBoilerplateHeader(text)) return false;
   if (lower.startsWith('if the ame can determine')) return false;
   if (lower.startsWith('the ame should inquire')) return false;
   if (lower.startsWith('no evaluations or follow-up needed')) return false;
   if (lower.startsWith('discuss with the pilot')) return false;
+  if (lower.startsWith('note:') || lower.startsWith('note(s):')) return false;
   if (kind === 'EVALUATION' && !/submit|progress note|report|record|imaging|test/i.test(text)) {
     return false;
   }
   return (
-    /submit|progress note|report|record|imaging|mri|audiogram|test|documentation|statement|medication list|hospital/i.test(
+    /submit|progress note|report|record|imaging|mri|audiogram|test|documentation|statement|medication list|hospital|neurolog|evaluation/i.test(
       text,
     ) || kind === 'DOCUMENT' || kind === 'TEST'
   );
@@ -161,8 +234,9 @@ export function requirementsToDocuments(
         item.text.length <= 140 ? item.text : firstSentence(item.text, 120);
       return {
         id: `${record.record_id}-req-${index}`,
-        label,
-        description: item.text === label ? undefined : item.text,
+        label: stripOrderingMarker(label),
+        description:
+          item.text === label ? undefined : stripOrderingMarker(item.text),
         required: true,
         kind: item.kind,
       } satisfies DocumentItem;
@@ -180,18 +254,23 @@ export function requirementsToDocuments(
 
 function evaluationSummary(record: NormalizedRecord): string {
   const evaluationBits = (record.requirements ?? [])
-    .map((item: NormalizedRequirement) => item.text)
-    .filter(Boolean);
+    .map((item: NormalizedRequirement) =>
+      stripOrderingMarker(peelRequirementPrefix(item.text)),
+    )
+    .filter((text) => text && !isBoilerplateHeader(text));
   if (evaluationBits.length) {
     return firstSentence(evaluationBits[0], 220);
   }
-  return firstSentence(record.scenario || record.raw_text || '', 220);
+  return firstSentence(
+    pathwayTitle(record.scenario || record.raw_text || ''),
+    220,
+  );
 }
 
 function cleanMedicationNotes(notes: string[] | undefined): string[] {
   const out: string[] = [];
   for (const note of notes ?? []) {
-    const cleaned = cleanText(note);
+    const cleaned = stripOrderingMarker(cleanText(note));
     if (!cleaned || cleaned.length > 220) continue;
     const lower = cleaned.toLowerCase();
     if (!/(medication|antihistamine|dosage|sedating|drug)/.test(lower)) continue;
@@ -204,11 +283,15 @@ function cleanMedicationNotes(notes: string[] | undefined): string[] {
 function recordToSubCondition(record: NormalizedRecord): SubCondition {
   const name = pathwayTitle(record.subcondition || record.scenario || 'General pathway');
   const disposition = mapDisposition(record.disposition);
-  const action = cleanText(record.action);
+  const action = stripTrailingDisposition(record.action);
   const summary = evaluationSummary(record);
   const certificationNote =
     action ||
-    cleanText(record.raw_disposition) ||
+    (() => {
+      const raw = cleanText(record.raw_disposition);
+      if (/^(DEFER|ISSUE|DENY|SPECIAL ISSUANCE|UNKNOWN)$/i.test(raw)) return '';
+      return raw;
+    })() ||
     'See the published FAA guidance for this pathway.';
 
   return {
@@ -216,7 +299,7 @@ function recordToSubCondition(record: NormalizedRecord): SubCondition {
     name,
     disposition,
     summary,
-    certificationNote,
+    certificationNote: stripOrderingMarker(certificationNote),
     documents: requirementsToDocuments(record),
     medicationNotes: cleanMedicationNotes(record.medication_notes),
     timeConstraints: record.time_constraints ?? [],
@@ -235,26 +318,196 @@ function pickPrimaryDisposition(subs: SubCondition[]): Disposition {
   return 'unknown';
 }
 
+/** Stable key for presentation dedupe across guidance JSON files. */
+export function recordDedupeKey(record: NormalizedRecord): string {
+  const condition = slugify(humanizeConditionName(record.condition || ''));
+  const pathway = slugify(
+    pathwayTitle(record.subcondition || record.scenario || ''),
+  );
+  const disposition = cleanText(record.disposition || 'UNKNOWN').toUpperCase();
+  return `${condition}|${pathway}|${disposition}`;
+}
+
+function recordRichness(record: NormalizedRecord): number {
+  const reqChars = (record.requirements ?? []).reduce(
+    (sum, item) => sum + (item.text?.length ?? 0),
+    0,
+  );
+  return (
+    (record.requirements?.length ?? 0) * 100 +
+    (record.medication_notes?.length ?? 0) * 20 +
+    (record.action?.length ?? 0) +
+    (record.raw_text?.length ?? 0) +
+    reqChars
+  );
+}
+
+/**
+ * Drop duplicate pathways before UI adaptation.
+ * Same record_id wins once; otherwise condition+pathway+disposition collapses
+ * to the richer record (more requirements / longer source text).
+ */
+export function dedupeNormalizedRecords(
+  records: NormalizedRecord[],
+): NormalizedRecord[] {
+  const byId = new Map<string, NormalizedRecord>();
+  const withoutId: NormalizedRecord[] = [];
+
+  for (const record of records) {
+    const id = cleanText(record.record_id);
+    if (!id) {
+      withoutId.push(record);
+      continue;
+    }
+    const existing = byId.get(id);
+    if (!existing || recordRichness(record) > recordRichness(existing)) {
+      byId.set(id, record);
+    }
+  }
+
+  const byContent = new Map<string, NormalizedRecord>();
+  for (const record of [...byId.values(), ...withoutId]) {
+    const key = recordDedupeKey(record);
+    if (!key.startsWith('|') && key !== '||UNKNOWN') {
+      const existing = byContent.get(key);
+      if (!existing || recordRichness(record) > recordRichness(existing)) {
+        byContent.set(key, record);
+      }
+    } else if (!byContent.has(key)) {
+      byContent.set(key, record);
+    }
+  }
+
+  return [...byContent.values()];
+}
+
+export function mergeGuidanceFiles(
+  files: NormalizedGuidanceFile[],
+): NormalizedGuidanceFile {
+  const ordered = [...files].sort((a, b) =>
+    cleanText(a.source_document).localeCompare(cleanText(b.source_document)),
+  );
+  const mergedRecords = dedupeNormalizedRecords(
+    ordered.flatMap((file) => file.records ?? []),
+  );
+  const sourceDocuments = ordered
+    .map((file) => cleanText(file.source_document))
+    .filter(Boolean);
+
+  return {
+    schema_version: ordered[0]?.schema_version || '1.0',
+    parser_version: ordered[0]?.parser_version || '0.1.0',
+    source_document: sourceDocuments.join(', ') || 'guidance',
+    pages_processed: ordered.reduce(
+      (sum, file) => sum + (file.pages_processed || 0),
+      0,
+    ),
+    records: mergedRecords,
+    warnings: ordered.flatMap((file) => file.warnings ?? []),
+    summary: {
+      records_extracted: mergedRecords.length,
+      source_files: ordered.length,
+    },
+  };
+}
+
+function dedupeSubConditions(subs: SubCondition[]): SubCondition[] {
+  const byKey = new Map<string, SubCondition>();
+  for (const sub of subs) {
+    const key = `${slugify(sub.name)}|${sub.disposition}`;
+    const existing = byKey.get(key);
+    if (
+      !existing ||
+      sub.documents.length > existing.documents.length ||
+      sub.summary.length > existing.summary.length
+    ) {
+      byKey.set(key, sub);
+    }
+  }
+  return [...byKey.values()];
+}
+
+export function adaptGuidanceFiles(
+  files: NormalizedGuidanceFile[],
+): Condition[] {
+  if (!files.length) return [];
+  return adaptGuidanceFile(mergeGuidanceFiles(files));
+}
+
+function isDisplayableConditionName(name: string): boolean {
+  const value = cleanText(name);
+  if (!value || value.toUpperCase() === 'UNKNOWN') return false;
+  const upper = value.toUpperCase();
+  if (upper.startsWith('AASI') || upper.includes('AME ASSISTED SPECIAL ISSUANCE')) {
+    return false;
+  }
+  if (upper.includes('REVISION DESCRIPTION') || upper.includes('REASON FOR UPDATE')) {
+    return false;
+  }
+  if (/^\(\d{2}\/\d{2}\/\d{4}\)$/.test(value)) return false;
+  if (/^\(?\s*All\s+Classes?\s*\)?$/i.test(value)) return false;
+  if (
+    value.startsWith('III.') ||
+    upper.includes('AEROSPACE MEDICAL DISPOSITION THE FOLLOWING')
+  ) {
+    return false;
+  }
+  if (upper.includes('DISPOSITION TABLE LISTS')) return false;
+  if (value.length > 160) return false;
+  return true;
+}
+
+function isDisplayableScenario(name: string): boolean {
+  const value = cleanText(name);
+  if (!value || value.length < 6) return false;
+  const upper = value.toUpperCase();
+  if (
+    /^(OR|AND|C\.|CD\.|MONTHS?\.?|10\.|GUIDE VERSION|\d{4}|SUBMITTED\.?)$/i.test(
+      value,
+    )
+  ) {
+    return false;
+  }
+  if (
+    /^(SUBMITTED|SUBMIT FOR|REASON FOR UPDATE|GUIDE VERSION|IN ITEM |REVISE |UPDATE |THE FOLLOWING|A DETAILED|A CURRENT|COPIES OF|GENERATED FROM|PROGRESS NOTE|REPORT)/i.test(
+      value,
+    )
+  ) {
+    return false;
+  }
+  if (/^[a-z]/.test(value)) return false;
+  return true;
+}
+
 export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
   const groups = new Map<string, NormalizedRecord[]>();
 
-  for (const record of data.records ?? []) {
+  for (const record of dedupeNormalizedRecords(data.records ?? [])) {
     const key = humanizeConditionName(record.condition || 'UNKNOWN');
-    if (!key || key.toUpperCase() === 'UNKNOWN') continue;
+    if (!isDisplayableConditionName(key)) continue;
+    const scenario = record.subcondition || record.scenario || '';
+    if (scenario && !isDisplayableScenario(pathwayTitle(scenario))) {
+      // Keep records with empty scenario only if they somehow appear; otherwise skip junk.
+      if (cleanText(scenario)) continue;
+    }
     const bucket = groups.get(key) ?? [];
     bucket.push(record);
     groups.set(key, bucket);
   }
 
   const conditions: Condition[] = [];
+  const usedIds = new Set<string>();
 
   for (const [conditionName, records] of groups) {
-    const subConditions = records.map(recordToSubCondition);
+    let subConditions = dedupeSubConditions(records.map(recordToSubCondition));
+    subConditions = subConditions.filter((sub) => isDisplayableScenario(sub.name));
     if (!subConditions.length) continue;
 
     const first = records[0];
-    const category = humanizeCategory(
-      first.category || first.source?.section || 'General',
+    const category = resolveCategory(
+      first.condition,
+      first.category,
+      first.source?.section,
     );
     const medicationNotes = Array.from(
       new Set(subConditions.flatMap((sub) => sub.medicationNotes ?? [])),
@@ -263,7 +516,7 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
     const pathwayCount = subConditions.length;
     const summary = `${pathwayCount} published certification pathway${
       pathwayCount === 1 ? '' : 's'
-    } from the AME Guide. Select a pathway below for disposition and what to bring.`;
+    } from FAA guidance. Select a pathway below for disposition and what to bring.`;
     const certificationNote =
       'Pathway-specific notes appear after you select a sub-condition. Outcomes reflect published guidance only.';
 
@@ -275,8 +528,15 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
         ? `p. ${Math.min(...pages)}${pages.length > 1 ? `–${Math.max(...pages)}` : ''}`
         : '';
 
+    let id = slugify(conditionName) || 'condition';
+    if (usedIds.has(id)) {
+      const pageHint = pages.length ? String(Math.min(...pages)) : String(usedIds.size);
+      id = slugify(`${conditionName}-${pageHint}`) || `${id}-${usedIds.size}`;
+    }
+    usedIds.add(id);
+
     conditions.push({
-      id: slugify(conditionName),
+      id,
       name: conditionName,
       category,
       disposition,
@@ -285,7 +545,7 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
       subConditions,
       relatedMedicationIds: [],
       source: `${first.source?.document || data.source_document}${pageRange ? ` (${pageRange})` : ''}`,
-      sourceSection: humanizeCategory(first.source?.section || category),
+      sourceSection: first.source?.section || category,
       medicationNotes,
     });
   }
