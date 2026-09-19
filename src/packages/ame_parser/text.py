@@ -9,13 +9,17 @@ from .models import Disposition, Requirement, RequirementKind
 
 _DECORATIVE = re.compile(r"^[\s\*]+$")
 _ORDERING_PREFIX = re.compile(
-    r"^(?:[A-Z]\.|[-•·●]+|\d+[.)])\s*",
+    r"^(?:[A-Za-z]\.|[-•·●]+|\d+[.)])\s*",
 )
 _INLINE_NUMBER_SPLIT = re.compile(
     r"(?<!Block )(?<!Item )(?:(?<=\s)|^)(?=\d{1,2}\.\s*[A-Za-z(\"•])",
 )
 _HEADER_PREFIX = re.compile(
-    r"^(?:Submit the following(?:\s+for(?:\s+FAA)?\s+review)?|"
+    r"^(?:(?:After\s+[^.]{0,80},\s*)?"
+    r"(?:The\s+pilot\s+should\s+)?"
+    r"Submit the following"
+    r"(?:\s+(?:to\s+the\s+FAA\s+for\s+review|for(?:\s+FAA)?\s+review))?"
+    r"|"
     r"It must(?:\s+specifically)?\s+include)\s*:?\s*",
     re.I,
 )
@@ -32,6 +36,7 @@ _BOILERPLATE_HEADERS = {
     "submit the following for faa review",
     "submit the following to the faa for review",
     "submit the following for review",
+    "the pilot should submit the following for faa review",
     "it must include",
     "it must specifically include",
     "standard follow up would include",
@@ -200,6 +205,175 @@ def _split_numbered_flat(text: str) -> list[str]:
     return [strip_ordering_marker(flattened)]
 
 
+_CLASS_PREFIX = re.compile(
+    r"^(?:All(?:\s+Classes?)?|1st(?:\s+class)?|2nd(?:\s+class)?|3rd(?:\s+class)?|"
+    r"First(?:\s+class)?|Second(?:\s+class)?|Third(?:\s+class)?|ATCS)\s+",
+    re.I,
+)
+_OCR_LIST_MARKER = re.compile(r"(?:^|\s)o\s+(?=[A-Za-z(])")
+_SPECIFICALLY_INCLUDE = re.compile(
+    r"\bIt must\s+specifically\s+include\s*:?\s*",
+    re.I,
+)
+_MUST_INCLUDE = re.compile(
+    r"\bIt must\s+include\s*:?\s*",
+    re.I,
+)
+_GLUED_DOC_LABEL = re.compile(
+    r"(?<=[a-z0-9.)])\s+(?=(?:Medication list|Operative notes|Copies of)\b)",
+    re.I,
+)
+_LETTERED_SPLIT = re.compile(r"(?:(?<=\s)|^)(?=[a-z]\.\s+[A-Za-z(\"'])", re.I)
+_DISPOSITION_ACTION_TAIL = re.compile(
+    r"(?::\s*)?\b(?:DEFER|ISSUE|DENY|SPECIAL\s+ISSUANCE)\b.*$",
+    re.I,
+)
+_ACTION_TAIL = re.compile(
+    r"\s+(?:"
+    r"Submit the information to the FAA\b.*|"
+    r"Summarize this history in Block 60\b.*|"
+    r"Note in Block 60\b.*|"
+    r"Follow up Issuance\b.*"
+    r")$",
+    re.I,
+)
+_AME_MUST_SPLIT = re.compile(r"(?=\bThe AME must\b)")
+
+
+def strip_leading_class_token(text: str | None) -> str:
+    """Remove class-scope tokens glued onto evaluation/requirement cells."""
+
+    value = clean(text)
+    while True:
+        updated = _CLASS_PREFIX.sub("", value, count=1).strip()
+        if updated == value:
+            return value
+        value = updated
+
+
+def clean_ocr_list_markers(text: str | None) -> str:
+    """Drop OCR 'o' stand-ins for bullets inside flattened PDF cells."""
+
+    value = clean(text)
+    value = _OCR_LIST_MARKER.sub(" ", value)
+    return clean(value)
+
+
+def strip_requirement_disposition_tail(text: str | None) -> str:
+    """Cut disposition keywords and AME action prose glued onto evaluation text."""
+
+    value = clean(text)
+    value = _DISPOSITION_ACTION_TAIL.sub("", value).strip(" ;:")
+    value = _ACTION_TAIL.sub("", value).strip(" ;:")
+    return value
+
+
+def _split_semicolon_parts(text: str, *, min_len: int = 4) -> list[str]:
+    parts: list[str] = []
+    for raw_part in re.split(r"\s*;\s*", text):
+        part = clean_ocr_list_markers(raw_part)
+        part = re.sub(r"^(?:and\s+)", "", part, flags=re.I).strip(" ;:")
+        part = strip_ordering_marker(part)
+        if len(part) >= min_len:
+            parts.append(part)
+    return parts
+
+
+def _split_lettered_parts(text: str, *, min_len: int = 4) -> list[str]:
+    parts = [
+        strip_ordering_marker(clean(part))
+        for part in _LETTERED_SPLIT.split(text)
+        if clean(part)
+    ]
+    cleaned: list[str] = []
+    for part in parts:
+        part = re.sub(r",?\s+and$", "", part, flags=re.I).strip(" ;:")
+        if len(part) >= min_len:
+            cleaned.append(part)
+    return cleaned
+
+
+def _split_include_tail(tail: str) -> list[str]:
+    """Split an 'include …' checklist by lettered markers or semicolons."""
+
+    tail = clean_ocr_list_markers(tail)
+    lettered = _split_lettered_parts(tail)
+    if len(lettered) > 1:
+        return lettered
+    if tail.count(";") >= 1:
+        return _split_semicolon_parts(tail)
+    return [tail] if tail else []
+
+
+def expand_requirement_fragments(text: str | None) -> tuple[str, ...]:
+    """Split evaluation blobs into discrete checklist / evaluation fragments."""
+
+    value = strip_leading_class_token(text)
+    value = strip_requirement_disposition_tail(value)
+    value = peel_requirement_prefix(value)
+    value = strip_ordering_marker(value)
+    value = clean_ocr_list_markers(value)
+    # Insert separators when PDF dropped the semicolon before a new list label.
+    value = _GLUED_DOC_LABEL.sub("; ", value)
+    if not value or is_boilerplate_header(value):
+        return ()
+
+    fragments: list[str] = []
+
+    # Keep AME-review sentences as their own fragments.
+    ame_chunks = [chunk.strip() for chunk in _AME_MUST_SPLIT.split(value) if chunk.strip()]
+    for chunk in ame_chunks:
+        chunk = strip_requirement_disposition_tail(chunk)
+        if not chunk:
+            continue
+        if chunk.lower().startswith("the ame must"):
+            # Keep the AME instruction; drop duplicated checklist tails.
+            first_sentence = re.split(r"(?<=\.)\s+", chunk, maxsplit=1)[0].strip()
+            if first_sentence:
+                fragments.append(first_sentence)
+            continue
+        specifically = _SPECIFICALLY_INCLUDE.search(chunk)
+        include = None if specifically else _MUST_INCLUDE.search(chunk)
+        marker = specifically or include
+        if marker:
+            head = clean(chunk[: marker.start()].rstrip(" ;:"))
+            tail = clean(chunk[marker.end() :])
+            if head and not is_boilerplate_header(head):
+                if head.count(";") >= 2:
+                    fragments.extend(_split_semicolon_parts(head))
+                elif len(_split_lettered_parts(head)) > 1:
+                    fragments.extend(_split_lettered_parts(head))
+                else:
+                    fragments.append(head)
+            if tail:
+                fragments.extend(_split_include_tail(tail))
+            continue
+        lettered = _split_lettered_parts(chunk)
+        if len(lettered) > 1:
+            fragments.extend(lettered)
+            continue
+        if chunk.count(";") >= 2:
+            fragments.extend(_split_semicolon_parts(chunk))
+        else:
+            fragments.append(chunk)
+
+    # De-dupe while preserving order.
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for fragment in fragments:
+        fragment = strip_leading_class_token(fragment)
+        fragment = strip_requirement_disposition_tail(fragment)
+        fragment = clean(fragment).rstrip(" ;:")
+        if len(fragment) < 4 or is_boilerplate_header(fragment):
+            continue
+        key = fragment.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        ordered.append(fragment)
+    return tuple(ordered)
+
+
 def split_items(text: str | None) -> tuple[str, ...]:
     """Reconstruct bullet and numbered items from PDF cell line breaks."""
 
@@ -293,6 +467,8 @@ def requirement_kind(text: str) -> RequirementKind:
             "ultrasound",
             "cta",
             "mra",
+            "pathology",
+            "tumor marker",
         )
     ):
         return RequirementKind.TEST
@@ -307,6 +483,7 @@ def requirement_kind(text: str) -> RequirementKind:
             "letter",
             "documentation",
             "statement",
+            "copies of",
         )
     ):
         return RequirementKind.DOCUMENT
@@ -314,45 +491,39 @@ def requirement_kind(text: str) -> RequirementKind:
         return RequirementKind.EVALUATION
     if lower.startswith("note"):
         return RequirementKind.OTHER
+    # Short semicolon-list fragments from "it must include" are document fields.
+    if len(text) <= 80 and re.search(
+        r"\b(staging|treatment|treatments used|remission|recurrence|surveillance|prognosis|"
+        r"medication|operative|imaging|lab)\b",
+        lower,
+    ):
+        return RequirementKind.DOCUMENT
     return RequirementKind.OTHER
 
 
 def extract_requirements(text: str | None) -> tuple[Requirement, ...]:
     items = split_items(text)
+    if not items and clean(text):
+        items = (clean(text),)
+
     requirements: list[Requirement] = []
+    seen: set[str] = set()
     for raw_item in items:
-        item = peel_requirement_prefix(raw_item)
-        item = strip_ordering_marker(item)
-        if len(item) < 8:
+        if _NOTE_PREFIX.match(clean(raw_item)):
             continue
-        if is_boilerplate_header(item):
-            continue
-        # Notes are sidecars, not bring-list rows.
-        if _NOTE_PREFIX.match(item):
-            continue
-        if item.lower().startswith("if the ame can determine"):
-            requirements.append(
-                Requirement(text=item, kind=RequirementKind.EVALUATION)
-            )
-            continue
-        # A peeled header may leave a numbered blob — split again.
-        nested = (
-            split_items(item)
-            if re.search(r"\b\d{1,2}\.\s+[A-Za-z]", item)
-            else (item,)
-        )
-        if len(nested) > 1:
-            for part in nested:
-                part = peel_requirement_prefix(strip_ordering_marker(part))
-                if len(part) < 8 or is_boilerplate_header(part):
-                    continue
-                if _NOTE_PREFIX.match(part):
-                    continue
-                requirements.append(
-                    Requirement(text=part, kind=requirement_kind(part))
-                )
-            continue
-        requirements.append(Requirement(text=item, kind=requirement_kind(item)))
+        for fragment in expand_requirement_fragments(raw_item):
+            if fragment.lower().startswith("if the ame can determine"):
+                kind = RequirementKind.EVALUATION
+            else:
+                kind = requirement_kind(fragment)
+            # Keep very short fragments only when they came from list splitting.
+            if len(fragment) < 8 and kind is RequirementKind.OTHER:
+                continue
+            key = fragment.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            requirements.append(Requirement(text=fragment, kind=kind))
     return tuple(requirements)
 
 
@@ -525,18 +696,36 @@ def normalize_record_dict(record: dict) -> dict:
     requirements: list[dict] = []
     seen: set[str] = set()
 
-    # Prefer re-splitting from raw_text when it still holds the full list blob.
+    # Prefer existing requirement text (or cleaned raw evaluation), not the full
+    # raw_text mash that also contains scenario / disposition / action.
     raw_text = strip_trailing_disposition(record.get("raw_text") or "")
     joined_reqs = "\n".join(
         str(req.get("text") or "") for req in record.get("requirements") or []
     )
-    source_blobs = []
-    if raw_text and len(raw_text) >= len(joined_reqs):
-        source_blobs.append(raw_text)
-    if joined_reqs:
-        source_blobs.append(joined_reqs)
+    evaluation_blob = raw_text
+    if scenario and evaluation_blob.lower().startswith(scenario.lower()):
+        evaluation_blob = evaluation_blob[len(scenario) :].lstrip(" :-")
+    evaluation_blob = strip_leading_class_token(evaluation_blob)
+    evaluation_blob = strip_requirement_disposition_tail(evaluation_blob)
+
+    def _source_score(text: str) -> int:
+        lower = text.lower()
+        return (
+            text.count(";") * 4
+            + text.count("•") * 4
+            + len(re.findall(r"\b[a-z]\.\s+[A-Za-z]", text, re.I)) * 3
+            + (8 if "specifically include" in lower else 0)
+            + (4 if "submit the following" in lower else 0)
+            + min(len(text), 2000) // 100
+        )
+
+    source_blobs = sorted(
+        [blob for blob in (joined_reqs, evaluation_blob) if blob],
+        key=_source_score,
+        reverse=True,
+    )
     if not source_blobs:
-        source_blobs.append("")
+        source_blobs = [""]
 
     for blob in source_blobs:
         extracted = extract_requirements(blob)
@@ -548,9 +737,12 @@ def normalize_record_dict(record: dict) -> dict:
                     if remainder:
                         text = peel_requirement_prefix(remainder)
                         text = strip_ordering_marker(text)
+                        text = strip_leading_class_token(text)
                     else:
                         continue
-                if len(text) < 8 or is_boilerplate_header(text):
+                if len(text) < 4 or is_boilerplate_header(text):
+                    continue
+                if len(text) < 8 and item.kind.value == "OTHER":
                     continue
                 key = text.lower()
                 if key in seen:
@@ -565,21 +757,19 @@ def normalize_record_dict(record: dict) -> dict:
                 break
     else:
         for req in record.get("requirements") or []:
-            text = strip_ordering_marker(
-                peel_requirement_prefix(str(req.get("text") or ""))
-            )
-            if (
-                len(text) < 8
-                or is_boilerplate_header(text)
-                or _NOTE_PREFIX.match(text)
-            ):
-                continue
-            key = text.lower()
-            if key in seen:
-                continue
-            seen.add(key)
-            kind = str(req.get("kind") or requirement_kind(text).value)
-            requirements.append({"kind": kind, "text": text})
+            for fragment in expand_requirement_fragments(str(req.get("text") or "")):
+                if len(fragment) < 4 or is_boilerplate_header(fragment):
+                    continue
+                key = fragment.lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                requirements.append(
+                    {
+                        "kind": requirement_kind(fragment).value,
+                        "text": fragment,
+                    }
+                )
 
     medication_notes = [
         strip_ordering_marker(note)

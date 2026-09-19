@@ -43,7 +43,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Not requiring treatment Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. Imaging studies. Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or images as a safeguard if lost in the mail. • MRI brain to include sequences sensitive to the presence of hemosiderin performed no more than 12 months before the AME exam. • CTA (preferred) or MRA head performed no more than 12 months before the AME exam. • Previous Imaging (such as CT, MRI, CTA, MRA or catheter angiography of the head) performed at any time after the symptoms occurred. 3. Any other testing performed or deemed necessary by the treating physician.",
+      "raw_text": "Not requiring treatment Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. Imaging studies. Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or images as a safeguard if lost in the mail. • MRI brain to include sequences sensitive to the presence of hemosiderin performed no more than 12 months before the AME exam. • CTA (preferred) or MRA head performed no more than 12 months before the AME exam. • Previous Imaging (such as CT, MRI, CTA, MRA or catheter angiography of the head) performed at any time after the symptoms occurred. 3. Any other testing performed or deemed necessary by the treating physician",
       "record_id": "oneguide-neurology-avm-arteriovenous-malformation-of-the-nervous-system-brain-not-requiring-treatment-p12",
       "requirements": [
         {
@@ -52,7 +52,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Imaging studies. Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or images as a safeguard if lost in the mail."
+          "text": "Imaging studies. Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain; copies of all CDs or images as a safeguard if lost in the mail."
         },
         {
           "kind": "TEST",
@@ -68,7 +68,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Any other testing performed or deemed necessary by the treating physician."
+          "text": "Any other testing performed or deemed necessary by the treating physician"
         }
       ],
       "scenario": "Not requiring treatment",
@@ -98,7 +98,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "All items in row A."
+          "text": "items in row A."
         },
         {
           "kind": "TEST",
@@ -110,7 +110,11 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures such as embolization."
+          "text": "Hospital records for each hospitalization related to this condition."
+        },
+        {
+          "kind": "OTHER",
+          "text": "information on surgeries and procedures such as embolization."
         },
         {
           "kind": "OTHER",
@@ -137,7 +141,7 @@
           "text": "Operative/procedure report(s)"
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)"
         },
         {
@@ -169,7 +173,35 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "Annual current, detailed Clinical Progress Note generated from a clinic visit with the pilot's treating neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow- up"
+          "text": "Annual current, detailed Clinical Progress Note generated from a clinic visit with the pilot's treating neurologist no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of all testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow- up"
         }
       ],
       "scenario": "Not requiring treatment",
@@ -200,7 +232,35 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "The most recent detailed Clinical Progress Note performed by the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. In most cases, this condition is"
+          "text": "The most recent detailed Clinical Progress Note performed by the treating physician or neurologist."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up. In most cases, this condition is"
         }
       ],
       "scenario": "Alzheimer's disease OR Mild Cognitive Impairment (MCI) OR Dementia from:",
@@ -227,19 +287,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "Frontotemp oral dementia"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Lewy body dementia"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Mixed dementia"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Normal Pressure… incompatible with aviation safety"
+          "text": "Frontotemp oral dementia Lewy body dementia Mixed dementia Normal Pressure… incompatible with aviation safety"
         }
       ],
       "scenario": "disease; • Frontotemp oral dementia; • Lewy body dementia; • Mixed dementia; • Normal Pressure…",
@@ -263,7 +311,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Pre-clinical Alzheimer's conditi on Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam 3. Brain MRI. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). • Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. Other testing: Already performed by the treating neurologist.",
+      "raw_text": "Pre-clinical Alzheimer's conditi on Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam 3. Brain MRI. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). • Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. Other testing: Already performed by the treating neurologist",
       "record_id": "oneguide-neurology-alzheimer-s-disease-or-mild-cognitive-impairment-mci-or-dementia-pre-clinical-alzheimer-s-conditi-on-p23",
       "requirements": [
         {
@@ -288,7 +336,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Other testing: Already performed by the treating neurologist."
+          "text": "Other testing: Already performed by the treating neurologist"
         }
       ],
       "scenario": "Pre-clinical Alzheimer's conditi on",
@@ -317,7 +365,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "See Authorization letter. Follow up Issuance will be per Authorization letter"
+          "text": "See Authorization letter."
         }
       ],
       "scenario": "Pre-clinical Alzheimer's condition",
@@ -434,24 +482,8 @@
       "record_id": "oneguide-neurology-bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy-single-episode-completely-resolved-less-than-5-years-ago-p40",
       "requirements": [
         {
-          "kind": "OTHER",
-          "text": "If the AME is able to determine ALL of the following are true:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "The condition/symptoms lasted between 1 week and 3 months (fully resolved by 3 months)."
-        },
-        {
-          "kind": "OTHER",
-          "text": "There is no other history of a neurologic condition or neurologic symptoms (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved)."
-        },
-        {
-          "kind": "OTHER",
-          "text": "There are no current eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness)."
-        },
-        {
           "kind": "TEST",
-          "text": "No surgery was needed to correct the condition. If the AME is unable to determine above, request the treatment records or a current neurological, ENT, or ophthalmology evaluation. Annotate Block 60 and submit any evaluation(s) to the FAA for retention in the file. If any underlying cause found, see that section. All others, go to row C"
+          "text": "If the AME is able to determine ALL of the following are true: The condition/symptoms lasted between 1 week and 3 months (fully resolved by 3 months). There is no other history of a neurologic condition or neurologic symptoms (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved). There are no current eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness). No surgery was needed to correct the condition. If the AME is unable to determine above, request the treatment records or a current neurological, ENT, or ophthalmology evaluation. Annotate Block 60 and submit any evaluation(s) to the FAA for retention in the file. If any underlying cause found, see that section. All others, go to row C"
         }
       ],
       "scenario": "Single episode Completely resolved Less than 5 years ago",
@@ -484,7 +516,35 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up."
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "OTHER",
@@ -533,7 +593,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After appropriate recovery period* Submit the following for FAA review:"
+          "text": "After appropriate recovery period* Submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -699,7 +759,7 @@
       "requirements": [
         {
           "kind": "TEST",
-          "text": "MRA or cerebral catheter angiography/cath angio of the head performed at any time after the symptoms occurred. *Submit BOTH the report and a copy of the images on compact disc (CD)in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or images as a safeguard if lost in the mail"
+          "text": "MRA or cerebral catheter angiography/cath angio of the head performed at any time after the symptoms occurred. *Submit BOTH the report and a copy of the images on compact disc (CD)in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain; copies of all CDs or images as a safeguard if lost in the mail"
         }
       ],
       "scenario": "period may apply. If ruptured and/or repaired, refer to Brain Bleed/Intracranial hemorrhage section.",
@@ -728,7 +788,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "Required recovery periods :"
+          "text": "Required recovery periods"
         },
         {
           "kind": "OTHER",
@@ -736,7 +796,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Subarachnoid hemorrhage: One (1)year After any required recovery period, submit the following for FAA review:"
+          "text": "Subarachnoid hemorrhage: One (1)year After any required recovery period, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -762,7 +822,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "AVM, Subarachnoid hemorrhage (SAH) , Subdural or epidural hemorrhage] (*If due to TRAUMA, See -… Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (vascular neurologist preferred) no more than 90 days before the AME exam. 2. Brain imaging to verify bleed has resolved, performed no more than 12 months before the AME exam. If not already performed, a current test is required. 3. MRI brain to include sequences sensitive to the presence of hemosiderin. 4. CT angiography (CTA) or MRA or angiography. (Head required. Neck if clinically necessary) • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 5. Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures. • Admission History and Physical (H&P); • Emergency Medical Services (EMS)/ambulance run sheet (if applicable); • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); • Lab report(s) including all drug or alcohol testing performed; • Operative/procedure report(s); • Pathology report(s); and • Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X- ray, ultrasound, or others) performed. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.",
+      "raw_text": "AVM, Subarachnoid hemorrhage (SAH) , Subdural or epidural hemorrhage] (*If due to TRAUMA, See -… Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (vascular neurologist preferred) no more than 90 days before the AME exam. 2. Brain imaging to verify bleed has resolved, performed no more than 12 months before the AME exam. If not already performed, a current test is required. 3. MRI brain to include sequences sensitive to the presence of hemosiderin. 4. CT angiography (CTA) or MRA or angiography. (Head required. Neck if clinically necessary) • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 5. Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures. • Admission History and Physical (H&P); • Emergency Medical Services (EMS)/ambulance run sheet (if applicable); • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); • Lab report(s) including all drug or alcohol testing performed; • Operative/procedure report(s); • Pathology report(s); and • Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X- ray, ultrasound, or others) performed. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records",
       "record_id": "oneguide-neurology-brain-bleed-cerebral-hemorrhage-intracranial-hemorrhage-ruptured-aneurysm-subarachnoid-hemorrhage-sah-subdural-avm-subarachnoid-hemorrhage-sah-subdural-or-epidural-hemorrhage-if-due-to-trauma-see-p61",
       "requirements": [
         {
@@ -787,7 +847,11 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures."
+          "text": "Hospital records for each hospitalization related to this condition."
+        },
+        {
+          "kind": "OTHER",
+          "text": "information on surgeries and procedures."
         },
         {
           "kind": "OTHER",
@@ -814,7 +878,7 @@
           "text": "Operative/procedure report(s)"
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)"
         },
         {
@@ -823,7 +887,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
+          "text": "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records"
         }
       ],
       "scenario": "AVM, Subarachnoid hemorrhage (SAH) , Subdural or epidural hemorrhage] (*If due to TRAUMA, See -…",
@@ -879,7 +943,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Benign Brain Tumor (meningioma, gliomas, etc) not surgically treated Will consider once… Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. MRI brain performed no more than 12 months before the AME exam. Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD- ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or image as a safeguard if lost in the mail. 3. If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition: • Admission History and Physical. • Hospital discharge summary. • Emergency Medical Services (EMS)/ambulance run sheet. • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists). • Lab report(s) including all drug or alcohol testing performed. • Operative/procedure report(s). • Pathology report(s). • Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records. 4. After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required.",
+      "raw_text": "Benign Brain Tumor (meningioma, gliomas, etc) not surgically treated Will consider once… Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. MRI brain performed no more than 12 months before the AME exam. Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD- ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or image as a safeguard if lost in the mail. 3. If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition: • Admission History and Physical. • Hospital discharge summary. • Emergency Medical Services (EMS)/ambulance run sheet. • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists). • Lab report(s) including all drug or alcohol testing performed. • Operative/procedure report(s). • Pathology report(s). • Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records. 4. After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required",
       "record_id": "oneguide-neurology-brain-tumor-intracranial-tumor-or-brain-cancer-benign-brain-tumor-meningioma-gliomas-etc-not-surgically-treated-will-consider-once-p67",
       "requirements": [
         {
@@ -888,11 +952,11 @@
         },
         {
           "kind": "TEST",
-          "text": "MRI brain performed no more than 12 months before the AME exam. Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD- ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or image as a safeguard if lost in the mail."
+          "text": "MRI brain performed no more than 12 months before the AME exam. Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD- ROM). Please verify the CD will display the images before sending. You may wish to retain; copies of all CDs or image as a safeguard if lost in the mail."
         },
         {
           "kind": "DOCUMENT",
-          "text": "If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition:"
+          "text": "If hospitalized or radiation treatment was performed, submit; copies of the following Hospital reports for each hospitalization related to this condition"
         },
         {
           "kind": "OTHER",
@@ -919,7 +983,7 @@
           "text": "Operative/procedure report(s)."
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)."
         },
         {
@@ -932,7 +996,7 @@
         },
         {
           "kind": "EVALUATION",
-          "text": "After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required."
+          "text": "After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required"
         }
       ],
       "scenario": "Benign Brain Tumor (meningioma, gliomas, etc) not surgically treated Will consider once…",
@@ -962,11 +1026,11 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a two-year (2) recovery period, the obtain and submit the following for FAA review:"
+          "text": "After a two-year (2) recovery period, the obtain and submit the following for FAA review"
         },
         {
           "kind": "OTHER",
-          "text": "All information in Row A"
+          "text": "information in Row A"
         },
         {
           "kind": "TEST",
@@ -997,11 +1061,11 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a five-year (5) recovery period following completion of chemotherapy, radiation or surgery. (Maintenance biologic medication does not add to the above recovery time.) Submit the following for FAA review:"
+          "text": "After a five-year (5) recovery period following completion of chemotherapy, radiation or surgery. (Maintenance biologic medication does not add to the above recovery time.) Submit the following for FAA review"
         },
         {
           "kind": "OTHER",
-          "text": "All information in Row A"
+          "text": "information in Row A"
         },
         {
           "kind": "EVALUATION",
@@ -1063,7 +1127,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "The AME should review the following:"
+          "text": "The AME should review the following"
         },
         {
           "kind": "TEST",
@@ -1100,15 +1164,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "no symptoms"
-        },
-        {
-          "kind": "OTHER",
-          "text": "no ongoing treatment with DOAC/NOAC or coumadin"
-        },
-        {
-          "kind": "OTHER",
-          "text": "no current problems that would interfere with flight duties:"
+          "text": "no symptoms • no ongoing treatment with DOAC/NOAC or coumadin • no current problems that would interfere with flight duties"
         }
       ],
       "scenario": "CVA (use row for highest % stenosis from either left or right side)",
@@ -1161,7 +1217,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "criteria and is otherwise qualified, with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file. If no AME explanatio n, the individual may be asked to provide documentation.",
-      "raw_text": "AND No history of TIA or CVA AND NOAC/DOAC/coum adin or surgery not recommended by treating… This will require a detailed Clinical Progress Note and vascular imaging (ultrasound, CTA, angiogram) performed within the previous one year.",
+      "raw_text": "AND No history of TIA or CVA AND NOAC/DOAC/coum adin or surgery not recommended by treating… This will require a detailed Clinical Progress Note and vascular imaging (ultrasound, CTA, angiogram) performed within the previous one year",
       "record_id": "oneguide-neurology-brain-tumor-intracranial-tumor-or-brain-cancer-and-no-history-of-tia-or-cva-and-noac-doac-coum-adin-or-surgery-not-recommended-by-treating-p78",
       "requirements": [
         {
@@ -1190,7 +1246,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coum adin OR Surgery is recommended Submit the following for FAA review: 1. A detailed Clinical Progress Note performed within 90 days of exam from the treating physician (cardiologist, neurologist, or PCP). It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up. 2. It must specifically include if there has been any clinically significant increase in stenosis that would prompt a change in treatment or surveillance. 3. Carotid Ultrasound or other vascular imaging report (e.g. CTA, MRA, angiogram) performed no more than 90 days prior to AME exam. 4. Other testing: Any deemed clinically necessary by the treating physician 5. Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)].",
+      "raw_text": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coum adin OR Surgery is recommended Submit the following for FAA review: 1. A detailed Clinical Progress Note performed within 90 days of exam from the treating physician (cardiologist, neurologist, or PCP). It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up. 2. It must specifically include if there has been any clinically significant increase in stenosis that would prompt a change in treatment or surveillance. 3. Carotid Ultrasound or other vascular imaging report (e.g. CTA, MRA, angiogram) performed no more than 90 days prior to AME exam. 4. Other testing: Any deemed clinically necessary by the treating physician 5. Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]",
       "record_id": "oneguide-neurology-brain-tumor-intracranial-tumor-or-brain-cancer-all-others-including-80-stenosis-or-higher-or-taking-noac-doac-coum-adin-or-surgery-is-recommended-p80",
       "requirements": [
         {
@@ -1211,7 +1267,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]."
+          "text": "Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]"
         }
       ],
       "scenario": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coum adin OR Surgery is recommended",
@@ -1241,7 +1297,7 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "Standard Follow-up would usually include the following performed within 90 days of exam:"
+          "text": "Standard Follow-up would usually include the following performed within 90 days of exam"
         },
         {
           "kind": "DOCUMENT",
@@ -1284,7 +1340,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If the AME can determine:"
+          "text": "If the AME can determine"
         },
         {
           "kind": "OTHER",
@@ -1292,7 +1348,7 @@
         },
         {
           "kind": "OTHER",
-          "text": "The sleep study apnea/hypopnea indices show:"
+          "text": "The sleep study apnea/hypopnea indices show"
         },
         {
           "kind": "OTHER",
@@ -1303,7 +1359,7 @@
           "text": "Less than 25% of total apnea and hypopnea episodes are listed as central"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "The individual takes no medication for this condition"
         },
         {
@@ -1337,18 +1393,46 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating neurologist or sleep specialist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. The evaluator should comment on any cardiovascular or psychological abnormalities and provide the results of any tests deemed necessary."
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating neurologist or sleep specialist no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "TEST",
+          "text": "follow-up. The evaluator should comment on any cardiovascular or psychological abnormalities and provide the results of any tests deemed necessary."
         },
         {
           "kind": "OTHER",
           "text": "If there is excessive daytime sleepiness"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "If treatment is successful, and"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "If the individual is compliant with treatment."
         },
         {
@@ -1381,7 +1465,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Any history Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft. 3. All school/academic records: Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports.",
+      "raw_text": "Any history Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft. 3. All school/academic records: Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports",
       "record_id": "oneguide-neurology-cerebral-palsy-any-history-p94",
       "requirements": [
         {
@@ -1394,7 +1478,7 @@
         },
         {
           "kind": "TEST",
-          "text": "All school/academic records: Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports."
+          "text": "school/academic records: Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports"
         }
       ],
       "scenario": "Any history",
@@ -1423,7 +1507,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "The AME should review:"
+          "text": "The AME should review"
         },
         {
           "kind": "DOCUMENT",
@@ -1462,7 +1546,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "Chiari Malformation is:"
+          "text": "Chiari Malformation is"
         },
         {
           "kind": "TEST",
@@ -1477,7 +1561,7 @@
           "text": "asymptomatic"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "no additional treatment recommended, and"
         },
         {
@@ -1513,7 +1597,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "There is no mandatory recovery period after decompression surgery. If no complications, can consider once the treating neurosurgeon has determined recovered, no symptoms and stable. Submit the following for FAA review:"
+          "text": "There is no mandatory recovery period after decompression surgery. If no complications, can consider once the treating neurosurgeon has determined recovered, no symptoms and stable. Submit the following for FAA review"
         },
         {
           "kind": "DOCUMENT",
@@ -1529,7 +1613,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the provider managing the Chiari I finding no more than 90 days prior to the AME exam. It must include:"
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the provider managing the Chiari I finding no more than 90 days prior to the AME exam."
         },
         {
           "kind": "DOCUMENT",
@@ -1548,12 +1632,24 @@
           "text": "results of any testing performed"
         },
         {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
           "kind": "EVALUATION",
-          "text": "diagnosis; assessment and plan; prognosis; and follow- up."
+          "text": "assessment and plan"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "prognosis"
         },
         {
           "kind": "OTHER",
-          "text": "Is should specifically include:"
+          "text": "follow- up."
+        },
+        {
+          "kind": "OTHER",
+          "text": "Is should specifically include"
         },
         {
           "kind": "OTHER",
@@ -1595,7 +1691,7 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. It must specifically include:"
+          "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
         },
         {
           "kind": "OTHER",
@@ -1606,7 +1702,7 @@
           "text": "Consider Syringomyelia---and supply spinal cord imaging if deemed clinically necessary."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Any f/u or treatment needed"
         },
         {
@@ -1623,7 +1719,7 @@
         },
         {
           "kind": "TEST",
-          "text": "For Chiari Type II----submit copies of most recent spinal cord imaging for syringomyelia"
+          "text": "For Chiari Type II----submit; copies of most recent spinal cord imaging for syringomyelia"
         }
       ],
       "scenario": "Currently symptomatic OR ANY Chiari type II, III, IV",
@@ -1681,16 +1777,12 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "Summarize findings in Item 60.",
-      "raw_text": "Mental impairment/dys function Confusion Delirium Encephalopath y OR When the cause of the… for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3. Any other testing already performed or deemed necessary by the treating physician.",
+      "raw_text": "Mental impairment/dys function Confusion Delirium Encephalopath y OR When the cause of the… for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3. Any other testing already performed or deemed necessary by the treating physician",
       "record_id": "oneguide-neurology-cognitive-or-mental-impairment-or-dysfunction-cognitive-disorder-nos-mild-cognitive-impairment-mci-mental-impairment-dys-function-confusion-delirium-encephalopath-y-or-when-the-cause-of-the-p109",
       "requirements": [
         {
-          "kind": "EVALUATION",
-          "text": "for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam."
-        },
-        {
           "kind": "TEST",
-          "text": "Any other testing already performed or deemed necessary by the treating physician."
+          "text": "for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. Any other testing already performed or deemed necessary by the treating physician."
         }
       ],
       "scenario": "Mental impairment/dys function Confusion Delirium Encephalopath y OR When the cause of the…",
@@ -1804,7 +1896,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Current or historical diagnosis single episode Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically include if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred. 3. MRI and/or CT of the brain (the most recent test). Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. An electroencephalogram (EEG) if already performed, OR if any history of seizures. The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g. hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.",
+      "raw_text": "Current or historical diagnosis single episode Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically include if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred. 3. MRI and/or CT of the brain (the most recent test). Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. An electroencephalogram (EEG) if already performed, OR if any history of seizures. The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g. hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10",
       "record_id": "oneguide-neurology-encephalitis-current-or-historical-diagnosis-single-episode-p123",
       "requirements": [
         {
@@ -1821,7 +1913,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "An electroencephalogram (EEG) if already performed, OR if any history of seizures. The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g. hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows"
+          "text": "An electroencephalogram (EEG) if already performed, OR if any history of seizures. The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g. hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10"
         }
       ],
       "scenario": "Current or historical diagnosis single episode",
@@ -1850,7 +1942,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "All information required in Row A PLUS"
+          "text": "information required in Row A PLUS"
         },
         {
           "kind": "OTHER",
@@ -1885,7 +1977,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "Follow up Issuance will be per the pilot's Authorization letter. Follow up Issuance will be per the Authorization letter"
+          "text": "Follow up Issuance will be per the pilot's Authorization letter."
         }
       ],
       "scenario": "Current or historical diagnosis",
@@ -1914,14 +2006,14 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "After a ten (10)-year seizure-free recovery period, obtain the following and submit for FAA review:"
+          "text": "After a ten (10)-year seizure-free recovery period, obtain the following and submit for FAA review"
         },
         {
           "kind": "EVALUATION",
           "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (Epileptologist preferred), no more than 90 days before the AME exam."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "the date of last seizure activity and dates medication discontinued."
         },
         {
@@ -1981,7 +2073,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If the AME can determine this was a single episode, fully resolved for six (6) months or longer with no complications or sequelae:"
+          "text": "If the AME can determine this was a single episode, fully resolved for six (6) months or longer with no complications or sequelae"
         }
       ],
       "scenario": "Single episode, no complications, fully resolved and recovered, with a minimum of six months of…",
@@ -2041,16 +2133,12 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "OR complications OR Two or more episodes in a lifetime of stability without symptoms. 3. Other testing already performed or deemed necessary by the pilot's physician.",
+      "raw_text": "OR complications OR Two or more episodes in a lifetime of stability without symptoms. 3. Other testing already performed or deemed necessary by the pilot's physician",
       "record_id": "oneguide-neurology-guillain-barre-syndrome-or-complications-or-two-or-more-episodes-in-a-lifetime-p137",
       "requirements": [
         {
-          "kind": "OTHER",
-          "text": "of stability without symptoms."
-        },
-        {
           "kind": "TEST",
-          "text": "Other testing already performed or deemed necessary by the pilot's physician."
+          "text": "of stability without symptoms. Other testing already performed or deemed necessary by the pilot's physician."
         }
       ],
       "scenario": "OR complications OR Two or more episodes in a lifetime",
@@ -2108,7 +2196,7 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or REMOTE BRAIN INJURY page ********************************** After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review:"
+          "text": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or REMOTE BRAIN INJURY page ********************************** After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review"
         }
       ],
       "scenario": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or…",
@@ -2136,20 +2224,32 @@
       "record_id": "oneguide-neurology-head-injury-or-brain-injuryconcussion-closed-head-injury-chi-open-head-injury-traumatic-brain-injury-tbi-b2-brain-injury-within-the-past-5-years-this-includes-concussion-mild-brain-injury-loss-p142",
       "requirements": [
         {
-          "kind": "OTHER",
-          "text": "B2. Brain injury Within the past 5 years This includes:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Concussion"
-        },
-        {
-          "kind": "OTHER",
-          "text": "MILD brain Injury"
-        },
-        {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow- up."
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow- up. 2."
         },
         {
           "kind": "OTHER",
@@ -2157,11 +2257,7 @@
         },
         {
           "kind": "OTHER",
-          "text": "Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.)"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Any post-concussive symptoms such as headaches, dizziness, irritability"
+          "text": "Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.) • Any post-concussive symptoms such as headaches, dizziness, irritability"
         },
         {
           "kind": "OTHER",
@@ -2177,15 +2273,11 @@
         },
         {
           "kind": "TEST",
-          "text": "Any clinical indication for further brain imaging; initial CT head/face negative."
+          "text": "Any clinical indication for further brain imaging"
         },
         {
-          "kind": "DOCUMENT",
-          "text": "Records from any hospitalization(s) for this condition to include:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Admission History and Physical"
+          "kind": "TEST",
+          "text": "initial CT head/face negative. 3. Records from any hospitalization(s) for this condition to include: • Admission History and Physical"
         },
         {
           "kind": "DOCUMENT",
@@ -2216,7 +2308,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed… record are NOT sufficient for pilot medical certification purposes.); • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Operative/procedure report(s); • Pathology report(s); • Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others); • Lab report(s) including all drug or alcohol testing performed; and • Emergency Medical Services EMS)/ambulance run sheet. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+      "raw_text": "No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed… record are NOT sufficient for pilot medical certification purposes.); • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Operative/procedure report(s); • Pathology report(s); • Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others); • Lab report(s) including all drug or alcohol testing performed; and • Emergency Medical Services EMS)/ambulance run sheet. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail",
       "record_id": "oneguide-neurology-head-injury-or-brain-injuryconcussion-closed-head-injury-chi-open-head-injury-traumatic-brain-injury-tbi-no-seizure-exception-an-immediate-impact-seizure-within-24-hours-of-injury-can-be-reviewed-p143",
       "requirements": [
         {
@@ -2232,7 +2324,7 @@
           "text": "Operative/procedure report(s)"
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)"
         },
         {
@@ -2253,7 +2345,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+          "text": "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail"
         }
       ],
       "scenario": "No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed…",
@@ -2282,7 +2374,7 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "After a 12-month recovery period obtain the following evaluation(s) and submit for FAA review:"
+          "text": "After a 12-month recovery period obtain the following evaluation(s) and submit for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -2318,12 +2410,12 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "MRI) • Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin deposition,… procedures (with provocation) performed at the time of event or later. 4. A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 5. MRI brain with hemosiderin- sensitive sequences (with contrast as clinically appropriate) performed any time after the event. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 6. Records from any hospitalization(s) for this condition to include: • Admission History and Physical. • Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.). • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists). • Operative/procedure report(s). • Pathology report(s). • Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format. • Lab report(s) including all drug or alcohol testing performed. • Emergency Medical Services (EMS)/ambulance run sheet. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. 7. Progress notes from ALL clinic follow-up visits related to this condition. 8. Other tests already performed or clinically indicated.",
+      "raw_text": "MRI) • Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin deposition,… procedures (with provocation) performed at the time of event or later. 4. A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 5. MRI brain with hemosiderin- sensitive sequences (with contrast as clinically appropriate) performed any time after the event. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 6. Records from any hospitalization(s) for this condition to include: • Admission History and Physical. • Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.). • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists). • Operative/procedure report(s). • Pathology report(s). • Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format. • Lab report(s) including all drug or alcohol testing performed. • Emergency Medical Services (EMS)/ambulance run sheet. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. 7. Progress notes from ALL clinic follow-up visits related to this condition. 8. Other tests already performed or clinically indicated",
       "record_id": "oneguide-neurology-head-injury-or-brain-injuryconcussion-closed-head-injury-chi-open-head-injury-traumatic-brain-injury-tbi-mri-any-hemorrhage-must-be-resolved-on-mri-if-the-mri-shows-signs-of-hemosiderin-deposition-p146",
       "requirements": [
         {
-          "kind": "TEST",
-          "text": "Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin deposition,… procedures (with provocation) performed at the time of event or later."
+          "kind": "OTHER",
+          "text": "procedures (with provocation) performed at the time of event or later."
         },
         {
           "kind": "EVALUATION",
@@ -2339,7 +2431,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Records from any hospitalization(s) for this condition to include:"
+          "text": "Records from any hospitalization(s) for this condition to include"
         },
         {
           "kind": "OTHER",
@@ -2358,7 +2450,7 @@
           "text": "Operative/procedure report(s)."
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)."
         },
         {
@@ -2383,7 +2475,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Other tests already performed or clinically indicated."
+          "text": "Other tests already performed or clinically indicated"
         }
       ],
       "scenario": "MRI) • Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin deposition,…",
@@ -2415,11 +2507,11 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "After a five (5)-year recovery period submit for FAA review:"
+          "text": "After a five (5)-year recovery period submit for FAA review"
         },
         {
           "kind": "OTHER",
-          "text": "All items in Row C"
+          "text": "items in Row C"
         }
       ],
       "scenario": "Severe BRAIN Injury This includes:",
@@ -2446,15 +2538,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "AOC, PTA: 24 hours or more"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Depressed skull fracture"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Penetrating head injury"
+          "text": "AOC, PTA: 24 hours or more Depressed skull fracture Penetrating head injury"
         }
       ],
       "scenario": "AOC, PTA: 24 hours or more • Depressed skull fracture • Penetrating head injury",
@@ -2532,7 +2616,7 @@
         },
         {
           "kind": "OTHER",
-          "text": "Has completely resolved and the individual has been released to full activity by the treating physician:"
+          "text": "Has completely resolved and the individual has been released to full activity by the treating physician"
         }
       ],
       "scenario": "DO NOT use this row if the individual had any items listed in Row B, C, or D (e.g., brain…",
@@ -2561,11 +2645,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "B1. Brain injury 5 or more years ago This includes:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Concussion The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL the questions on the Brain Injury Decision Tool for the AME. Summarize this history, diagnosis, and annotate Block 60: “Discussed"
+          "text": "B1. Brain injury 5 or more years ago This includes: Concussion The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL the questions on the Brain Injury Decision Tool for the AME. Summarize this history, diagnosis, and annotate Block 60: “Discussed"
         }
       ],
       "scenario": "B1. Brain injury 5 or more years ago This includes: • Concussion",
@@ -2596,11 +2676,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "(a type of mild brain injury)"
-        },
-        {
-          "kind": "OTHER",
-          "text": "MILD brain Injury As long as NO seizure* *Exception: An… If all items on the decision tool are in the clear, “NO column, the AME may:"
+          "text": "(a type of mild brain injury) MILD brain Injury As long as NO seizure* *Exception: An… If all items on the decision tool are in the clear, “NO column, the AME may"
         }
       ],
       "scenario": "(a type of mild brain injury) • MILD brain Injury As long as NO seizure* *Exception: An…",
@@ -2764,7 +2840,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine (This type spreads across… neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist. • • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 3. Number of headache days per month per the applicant. 4. Other testing completed or deemed necessary by the treating physician.",
+      "raw_text": "Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine (This type spreads across… neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist. • • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 3. Number of headache days per month per the applicant. 4. Other testing completed or deemed necessary by the treating physician",
       "record_id": "oneguide-neurology-head-injury-or-remote-brain-injury-complicated-migraine-or-post-traumatic-headaches-or-retinal-migraine-this-type-spreads-across-p168",
       "requirements": [
         {
@@ -2781,7 +2857,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Other testing completed or deemed necessary by the treating physician."
+          "text": "Other testing completed or deemed necessary by the treating physician"
         }
       ],
       "scenario": "Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine (This type spreads across…",
@@ -2810,19 +2886,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A detailed Clinical Progress Note* performed within 90 days of exam from the treating neurologist. It should include a detailed interim summary, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up."
-        },
-        {
-          "kind": "TEST",
-          "text": "Any other testing deemed necessary by the treating physician or required per the FAA Authorization letter. If placed on an AASI, the AME must defer the AASI recertification when:"
-        },
-        {
-          "kind": "DOCUMENT",
-          "text": "The frequency of headaches and/or other symptoms increase since the last follow-up report; or"
-        },
-        {
-          "kind": "OTHER",
-          "text": "The applicant is placed on Unacceptable medication(s), such SPECIAL ISSUANCE With the time limitation specified on the pilot's AASI Authorization for Special Issuance. Summarize findings in Item 60. Submit all information for FAA review"
+          "text": "A detailed Clinical Progress Note* performed within 90 days of exam from the treating neurologist. It should include a detailed interim summary, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up. Any other testing deemed necessary by the treating physician or required per the FAA Authorization letter. If placed on an AASI, the AME must"
         }
       ],
       "scenario": "Migraine with aura (Classic migraine/ Common Migraine) OR Chronic tension OR Chronic daily OR…",
@@ -2846,7 +2910,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Huntington's Disease Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3. Any other testing deemed clinically necessary or already performed for this condition by the treating physician.",
+      "raw_text": "Huntington's Disease Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3. Any other testing deemed clinically necessary or already performed for this condition by the treating physician",
       "record_id": "oneguide-neurology-huntington-s-disease-huntington-s-disease-p178",
       "requirements": [
         {
@@ -2859,7 +2923,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Any other testing deemed clinically necessary or already performed for this condition by the treating physician."
+          "text": "Any other testing deemed clinically necessary or already performed for this condition by the treating physician"
         }
       ],
       "scenario": "Huntington's Disease",
@@ -2917,7 +2981,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a two (2) year symptom-free recovery period, submit the following for FAA review:"
+          "text": "After a two (2) year symptom-free recovery period, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -2933,7 +2997,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Include both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or image as a safeguard if lost in the mail. Notes:"
+          "text": "Include both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain; copies of all CDs or image as a safeguard if lost in the mail. Notes"
         },
         {
           "kind": "EVALUATION",
@@ -3038,7 +3102,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "Summarize findings in Item 60 including approximate date.",
-      "raw_text": "Single episode no complications, fully resolved and recovered AND No hospitalization OR… If the AME can determine the condition has resolved with no complications and the the individual has no symptoms that would interfere with flight duties/SRD: If within the past one year, provide the AME with the most recent detailed, Clinical Progress Note from the treating physician describing the clinical course and resolution without complications.",
+      "raw_text": "Single episode no complications, fully resolved and recovered AND No hospitalization OR… If the AME can determine the condition has resolved with no complications and the the individual has no symptoms that would interfere with flight duties/SRD: If within the past one year, provide the AME with the most recent detailed, Clinical Progress Note from the treating physician describing the clinical course and resolution without complications",
       "record_id": "oneguide-neurology-meningitis-single-episode-no-complications-fully-resolved-and-recovered-and-no-hospitalization-or-p206",
       "requirements": [
         {
@@ -3069,16 +3133,48 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "If the AME can determine the condition has resolved with no residual symptoms, MR I and EEG (if performed) are negative, and the pilot has no symptoms that would interfere with flight duties. Summarize",
-      "raw_text": "Single episode requiring hospitalization less than 5 years ago Submit the following for AME and FAA review: 1. The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. 2. It must specifically include if the condition has resolved and if any residual side effects remain. 3. Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS). 4.MRI and/or CT brain imaging report (if already performed). 5. EEG - electroencephalogram report (if already performed).",
+      "raw_text": "Single episode requiring hospitalization less than 5 years ago Submit the following for AME and FAA review: 1. The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. 2. It must specifically include if the condition has resolved and if any residual side effects remain. 3. Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS). 4.MRI and/or CT brain imaging report (if already performed). 5. EEG - electroencephalogram report (if already performed)",
       "record_id": "oneguide-neurology-meningitis-single-episode-requiring-hospitalization-less-than-5-years-ago-p207",
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "for AME and FAA review:"
+          "text": "for AME and FAA review"
         },
         {
           "kind": "DOCUMENT",
-          "text": "The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+          "text": "The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "OTHER",
@@ -3094,7 +3190,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "EEG - electroencephalogram report (if already performed)."
+          "text": "EEG - electroencephalogram report (if already performed)"
         }
       ],
       "scenario": "Single episode requiring hospitalization less than 5 years ago",
@@ -3194,7 +3290,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a minimum of 6 (six) months of clinical and radiological stability, submit the following for FAA review:"
+          "text": "After a minimum of 6 (six) months of clinical and radiological stability, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -3214,7 +3310,35 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Eye evaluation. A current detailed Clinical Progress Note generated from a clinic visit with your treating ophthalmologist no more than 90 days prior to your AME exam. It must include a detailed summary of the history of any eye condition(s); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow- up."
+          "text": "Eye evaluation. A current detailed Clinical Progress Note generated from a clinic visit with your treating ophthalmologist no more than 90 days prior to your AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of any eye condition(s)"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow- up."
         },
         {
           "kind": "TEST",
@@ -3234,7 +3358,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Lab. The following testing if already performed or clinically indicated:"
+          "text": "Lab. The following testing if already performed or clinically indicated"
         },
         {
           "kind": "OTHER",
@@ -3246,7 +3370,7 @@
         },
         {
           "kind": "TEST",
-          "text": "All evoked potential testing"
+          "text": "evoked potential testing"
         },
         {
           "kind": "TEST",
@@ -3284,7 +3408,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a minimum of 6 (six) months of clinical and radiological stability, submit the following for FAA review:"
+          "text": "After a minimum of 6 (six) months of clinical and radiological stability, submit the following for FAA review"
         }
       ],
       "scenario": "Neuromyelitis Optica Spectrum Disorder (NMOSD)",
@@ -3310,12 +3434,8 @@
       "record_id": "oneguide-neurology-multiple-sclerosis-ms-neuromyelitis-optica-spectrum-disorder-nmosd-myelin-oligodendrocyte-glycoprotein-antibody-disorder-mogad-clinically-isolated-syndrome-cis-or-myelin-oligodendrocyte-glycoprotein-antibody-disorder-mogad-p218",
       "requirements": [
         {
-          "kind": "OTHER",
-          "text": "All information listed above for MS Row A"
-        },
-        {
           "kind": "TEST",
-          "text": "On #6 Lab. NMO and anti-MOG antibody panel are required. (submit most recent test result). SPECIAL ISSUANCE Submit the information to the FAA for a possible"
+          "text": "information listed above for MS Row A • On #6 Lab. NMO and anti-MOG antibody panel are required. (submit most recent test result)."
         }
       ],
       "scenario": "OR Myelin Oligodendrocyte Glycoprotein Antibody Disorder (MOGAD)",
@@ -3350,7 +3470,39 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Annual Eye Evaluation if any concerns for visual involvement (any visual symptoms or visual field involvement). A current detailed Clinical Progress Note generated from a clinic visit with your treating ophthalmologist no more than 90 days prior to your AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+          "text": "Annual Eye Evaluation if any concerns for visual involvement (any visual symptoms or visual field involvement). A current detailed Clinical Progress Note generated from a clinic visit with your treating ophthalmologist no more than 90 days prior to your AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "TEST",
@@ -3391,7 +3543,11 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician, musculoskeletal specialist, neurologist or PMR no more than 90 days before the AME exam. It must include a detailed summary of the condition"
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician, musculoskeletal specialist, neurologist or PMR no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the condition"
         },
         {
           "kind": "MEDICATION",
@@ -3414,7 +3570,7 @@
           "text": "assessment and plan"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "prognosis; and follow up."
         },
         {
@@ -3448,7 +3604,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "Requires one (1)-year recovery period after diagnosis. After 1-year recovery, submit the following for FAA review:"
+          "text": "Requires one (1)-year recovery period after diagnosis. After 1-year recovery, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -3472,11 +3628,11 @@
         },
         {
           "kind": "OTHER",
-          "text": "Any evidence of ocular myasthenia. If yes, also address:"
+          "text": "Any evidence of ocular myasthenia. If yes, also address"
         },
         {
           "kind": "EVALUATION",
-          "text": "Presence or absence of eye exam findings:"
+          "text": "Presence or absence of eye exam findings"
         },
         {
           "kind": "OTHER",
@@ -3487,7 +3643,7 @@
           "text": "Any clinically significant ptosis."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Lab studies already performed."
         },
         {
@@ -3500,7 +3656,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain copies of all CDs or images as a safeguard if lost in the mail"
+          "text": "Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain; copies of all CDs or images as a safeguard if lost in the mail"
         }
       ],
       "scenario": "Generalized Myasthenia Gravis",
@@ -3529,7 +3685,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "All items listed in Row A above"
+          "text": "items listed in Row A above"
         },
         {
           "kind": "EVALUATION",
@@ -3560,18 +3716,46 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "The most recent detailed Clinical Progress Note, generated from a clinic visit with the physician who treats or diagnosed this condition (narcolepsy or idiopathic hypersomnia). It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up."
+          "text": "The most recent detailed Clinical Progress Note, generated from a clinic visit with the physician who treats or diagnosed this condition (narcolepsy or idiopathic hypersomnia)."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "TEST",
           "text": "The evaluator should comment on any cardiovascular or psychological abnormalities and provide the results of any tests deemed necessary."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Copies of the most recent"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Sleep study (sleep lab polysomnography)"
         },
         {
@@ -3607,7 +3791,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "If additional testing, evaluation(s), or documentation verifies the diagnosis of Narcolepsy was rescinded, no longer requires treatment, or has resolved, submit the following for FAA review:"
+          "text": "If additional testing, evaluation(s), or documentation verifies the diagnosis of Narcolepsy was rescinded, no longer requires treatment, or has resolved, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -3627,7 +3811,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Results of any additional testing already performed for this condition (e.g. Maintenance of Wakefulness Test [MWT]). Standard follow up would include:"
+          "text": "Results of any additional testing already performed for this condition (e.g. Maintenance of Wakefulness Test [MWT]). Standard follow up would include"
         },
         {
           "kind": "DOCUMENT",
@@ -3709,7 +3893,7 @@
           "text": "Fully resolved 5 or more years ago"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Does not require any medication"
         },
         {
@@ -3718,7 +3902,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Individual has no symptoms that would interfere with flight or safety related duties: If the AME is unable to determine the above, request a current, detailed Clinical Progress Note from the treating physician. If medications are currently used, the AME should check with the Do Not Issue - Do Not Fly list"
+          "text": "Individual has no symptoms that would interfere with flight or safety related duties: If the AME is unable to determine the above, request a current, detailed Clinical Progress Note from the treating physician. If medications are currently used, the AME should check with the Do Not"
         }
       ],
       "scenario": "A2. Trigeminal Neuralgia symptom free and treatment completed 5 or more years ago AND did NOT…",
@@ -3777,7 +3961,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
-      "raw_text": "requiring treatment within the past 5 years condition. Include start and stop dates; dosages, and side effects (if any). 3. Imaging performed at any time after symptoms started: • MRI brain • MRA head • Any other imaging (such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) already performed. • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail.",
+      "raw_text": "requiring treatment within the past 5 years condition. Include start and stop dates; dosages, and side effects (if any). 3. Imaging performed at any time after symptoms started: • MRI brain • MRA head • Any other imaging (such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) already performed. • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail",
       "record_id": "oneguide-neurology-neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia-requiring-treatment-within-the-past-5-years-p250",
       "requirements": [
         {
@@ -3786,7 +3970,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Imaging performed at any time after symptoms started:"
+          "text": "Imaging performed at any time after symptoms started"
         },
         {
           "kind": "TEST",
@@ -3802,7 +3986,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail."
+          "text": "Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail"
         }
       ],
       "scenario": "requiring treatment within the past 5 years",
@@ -3828,7 +4012,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Trigeminal Neuralgia treated with surgery or gamma knife (ever) Submit the following for FAA review: 1.Row B Evaluation Data 2. Brain Imaging performed AFTER the procedure. 3. Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition. • Admission History and Physical (H&P); • Emergency Medical Services (EMS)/ambulance run sheet; • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) you can print from your electronic medical record are NOT sufficient for pilot medical certification purposes.); • Lab report(s) including all drug or alcohol testing performed; • Operative/procedure report(s); • Pathology report(s); and • Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. If you have a large volume of records, you may wish to bring these records to your AME for review and determine which miscellaneous records are not needed.",
+      "raw_text": "Trigeminal Neuralgia treated with surgery or gamma knife (ever) Submit the following for FAA review: 1.Row B Evaluation Data 2. Brain Imaging performed AFTER the procedure. 3. Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition. • Admission History and Physical (H&P); • Emergency Medical Services (EMS)/ambulance run sheet; • Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); • Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) you can print from your electronic medical record are NOT sufficient for pilot medical certification purposes.); • Lab report(s) including all drug or alcohol testing performed; • Operative/procedure report(s); • Pathology report(s); and • Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed. • DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. If you have a large volume of records, you may wish to bring these records to your AME for review and determine which miscellaneous records are not needed",
       "record_id": "oneguide-neurology-neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia-trigeminal-neuralgia-treated-with-surgery-or-gamma-knife-ever-p251",
       "requirements": [
         {
@@ -3868,7 +4052,7 @@
           "text": "Operative/procedure report(s)"
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)"
         },
         {
@@ -3877,7 +4061,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. If you have a large volume of records, you may wish to bring these records to your AME for review and determine which miscellaneous records are not needed."
+          "text": "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. If you have a large volume of records, you may wish to bring these records to your AME for review and determine which miscellaneous records are not needed"
         }
       ],
       "scenario": "Trigeminal Neuralgia treated with surgery or gamma knife (ever)",
@@ -3916,7 +4100,35 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). Submit a current, detailed Clinical Progress Note, generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up."
+          "text": "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). Submit a current, detailed Clinical Progress Note, generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the any eye conditions"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "TEST",
@@ -3965,7 +4177,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Neurofibromato sis type 2 (NF2) Wishart Disease Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. Audiologic evaluation including pure tone and speech discrimination and speech audiometry with interpretation performed no more than 90 days before the AME exam. 3. Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*. 4. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*. *For all images (CT/MRI). Submit BOTH the interpretive report and the actual images on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 5. Eye evaluation from a board- certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. 6. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist. 7. Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing. • If a history of cognitive impairment, brain lesion, or history or brain surgery: FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment is required; • If there is a history or suspicion of learning disability or ADHD: FAA Specifications for Neuropsychological Evaluation for ADHD is required; • If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items. 8. Any other testing deemed clinically necessary by the treating physician.",
+      "raw_text": "Neurofibromato sis type 2 (NF2) Wishart Disease Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. Audiologic evaluation including pure tone and speech discrimination and speech audiometry with interpretation performed no more than 90 days before the AME exam. 3. Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*. 4. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*. *For all images (CT/MRI). Submit BOTH the interpretive report and the actual images on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 5. Eye evaluation from a board- certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. 6. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist. 7. Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing. • If a history of cognitive impairment, brain lesion, or history or brain surgery: FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment is required; • If there is a history or suspicion of learning disability or ADHD: FAA Specifications for Neuropsychological Evaluation for ADHD is required; • If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items. 8. Any other testing deemed clinically necessary by the treating physician",
       "record_id": "oneguide-neurology-neurofibromatosis-type-1-nf-1-von-recklinghausen-disease-and-type-2-nf-2-wishart-disease-neurofibromato-sis-type-2-nf2-wishart-disease-p267",
       "requirements": [
         {
@@ -3986,7 +4198,39 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+          "text": "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the history of any eye conditions"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "TEST",
@@ -4010,7 +4254,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Any other testing deemed clinically necessary by the treating physician."
+          "text": "Any other testing deemed clinically necessary by the treating physician"
         }
       ],
       "scenario": "Neurofibromato sis type 2 (NF2) Wishart Disease",
@@ -4039,12 +4283,8 @@
       "record_id": "oneguide-neurology-neurofibromatosis-type-1-nf-1-von-recklinghausen-disease-and-type-2-nf-2-wishart-disease-neurofibromatosis-type-1-nf1-von-recklinghausen-s-disease-p270",
       "requirements": [
         {
-          "kind": "EVALUATION",
-          "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
-        },
-        {
           "kind": "TEST",
-          "text": "Any other imaging such or testing deemed necessary by the treating physician(s). See Authorization letter"
+          "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. Any other imaging such or testing deemed necessary by the treating physician(s). See Authorization letter"
         }
       ],
       "scenario": "Neurofibromatosis type 1 (NF1) von Recklinghausen's disease",
@@ -4075,7 +4315,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If the AME can determine the condition is:"
+          "text": "If the AME can determine the condition is"
         },
         {
           "kind": "OTHER",
@@ -4111,24 +4351,52 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Neuropathy with weakness/numbnes s or functional limitations Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 2. It must specifically include a description of any weakness, numbness or functional limitations. 3. Lab already performed for this condition. 4. Any other testing or imaging deemed clinically necessary by the treating physician.",
+      "raw_text": "Neuropathy with weakness/numbnes s or functional limitations Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 2. It must specifically include a description of any weakness, numbness or functional limitations. 3. Lab already performed for this condition. 4. Any other testing or imaging deemed clinically necessary by the treating physician",
       "record_id": "oneguide-neurology-neuropathy-peripheral-neuropathy-neuropathy-with-weakness-numbnes-s-or-functional-limitations-p277",
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up."
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed summary of the neuropathy (including etiology if known)"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "OTHER",
           "text": "a description of any weakness, numbness or functional limitations."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Lab already performed for this condition."
         },
         {
           "kind": "TEST",
-          "text": "Any other testing or imaging deemed clinically necessary by the treating physician."
+          "text": "Any other testing or imaging deemed clinically necessary by the treating physician"
         }
       ],
       "scenario": "Neuropathy with weakness/numbnes s or functional limitations",
@@ -4152,7 +4420,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Paraplegia Submit the following for FAA review: 1. A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically address: • Cause of paraplegia; • Medication use and side effects, if any; • Autonomic functions such as bowel, bladder, and blood pressure control; • Orthostatic episodes; • Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and • Description of movement, strength, and tone (ability to get into and out of an airplane).",
+      "raw_text": "Paraplegia Submit the following for FAA review: 1. A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically address: • Cause of paraplegia; • Medication use and side effects, if any; • Autonomic functions such as bowel, bladder, and blood pressure control; • Orthostatic episodes; • Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and • Description of movement, strength, and tone (ability to get into and out of an airplane)",
       "record_id": "oneguide-neurology-paraplegia-paraplegia-p281",
       "requirements": [
         {
@@ -4161,14 +4429,14 @@
         },
         {
           "kind": "OTHER",
-          "text": "It must specifically address:"
+          "text": "It must specifically address"
         },
         {
           "kind": "OTHER",
           "text": "Cause of paraplegia"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Medication use and side effects, if any"
         },
         {
@@ -4185,7 +4453,7 @@
         },
         {
           "kind": "OTHER",
-          "text": "Description of movement, strength, and tone (ability to get into and out of an airplane)."
+          "text": "Description of movement, strength, and tone (ability to get into and out of an airplane)"
         }
       ],
       "scenario": "Paraplegia",
@@ -4225,7 +4493,7 @@
           "text": "Medication. Comment on medications, side effects; and effectiveness of medication or treatment"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "Describe findings if/when an individual misses a dose of medication"
         },
         {
@@ -4272,7 +4540,7 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "All Row A evaluation data"
+          "text": "Row A evaluation data"
         },
         {
           "kind": "DOCUMENT",
@@ -4306,12 +4574,8 @@
       "record_id": "oneguide-neurology-parkinson-s-disease-or-parkinsonism-secondary-current-or-historical-diagnosis-all-classes-p292",
       "requirements": [
         {
-          "kind": "OTHER",
-          "text": "Standard follow up for ALL CLASSES/ATCS includes:"
-        },
-        {
           "kind": "DOCUMENT",
-          "text": "Every 6 months, a detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. AGGREGATED and bring to AME See Authorization letter"
+          "text": "Standard follow up for ALL CLASSES/ATCS includes: Every 6 months, a detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. AGGREGATED and bring to AME See Authorization letter"
         }
       ],
       "scenario": "Current or historical diagnosis All classes",
@@ -4379,12 +4643,36 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Polio Any history including post-polio syndrome with a functional limitation that could… Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a physical medicine and rehabilitation physician, physical therapist, or occupational therapist no more than 90 days before the AME exam. It should include a detailed history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow- up. 2. It must include the components of a Functional Capacity Evaluation (FCE). • It should evaluate items such as balance, strength, range of motion limitations, and pain. • It must describe any functional deficits or limitations for both large- and small-muscle groups as well as dexterity to operate an aircraft. If not addressed in the Clinical Progress Note, the AME should describe any functional limitations that could affect the individual's ability to operate aircraft controls.",
+      "raw_text": "Polio Any history including post-polio syndrome with a functional limitation that could… Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a physical medicine and rehabilitation physician, physical therapist, or occupational therapist no more than 90 days before the AME exam. It should include a detailed history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow- up. 2. It must include the components of a Functional Capacity Evaluation (FCE). • It should evaluate items such as balance, strength, range of motion limitations, and pain. • It must describe any functional deficits or limitations for both large- and small-muscle groups as well as dexterity to operate an aircraft. If not addressed in the Clinical Progress Note, the AME should describe any functional limitations that could affect the individual's ability to operate aircraft controls",
       "record_id": "oneguide-neurology-polio-poliomyelitis-polio-any-history-including-post-polio-syndrome-with-a-functional-limitation-that-could-p299",
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with a physical medicine and rehabilitation physician, physical therapist, or occupational therapist no more than 90 days before the AME exam. It should include a detailed history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow- up."
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with a physical medicine and rehabilitation physician, physical therapist, or occupational therapist no more than 90 days before the AME exam. It should include a detailed history of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow- up."
         },
         {
           "kind": "EVALUATION",
@@ -4396,7 +4684,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "It must describe any functional deficits or limitations for both large- and small-muscle groups as well as dexterity to operate an aircraft. If not addressed in the Clinical Progress Note, the AME should describe any functional limitations that could affect the individual's ability to operate aircraft controls."
+          "text": "It must describe any functional deficits or limitations for both large- and small-muscle groups as well as dexterity to operate an aircraft. If not addressed in the Clinical Progress Note, the AME should describe any functional limitations that could affect the individual's ability to operate aircraft controls"
         }
       ],
       "scenario": "Polio Any history including post-polio syndrome with a functional limitation that could…",
@@ -4458,7 +4746,7 @@
         },
         {
           "kind": "TEST",
-          "text": "MRI of the brain performed no more than 90 days before the AME exam. o Submit the interpretive report on paper"
+          "text": "MRI of the brain performed no more than 90 days before the AME exam. Submit the interpretive report on paper"
         }
       ],
       "scenario": "Pseudotumor Cerebri (idiopathic intracranial hypertension) previous name: benign intracranial",
@@ -4491,7 +4779,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or neuro- ophthalmologist no more than 90 days prior to the AME exam. It must include:"
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or neuro- ophthalmologist no more than 90 days prior to the AME exam."
         },
         {
           "kind": "DOCUMENT",
@@ -4502,8 +4790,24 @@
           "text": "Current medications, dosage, and side effects (if any)"
         },
         {
+          "kind": "EVALUATION",
+          "text": "Physical exam findings"
+        },
+        {
           "kind": "TEST",
-          "text": "Physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up."
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment and plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "OTHER",
@@ -4519,7 +4823,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Records from any hospitalization to include:"
+          "text": "Records from any hospitalization to include"
         },
         {
           "kind": "OTHER",
@@ -4546,7 +4850,7 @@
           "text": "Operative/procedure report(s); to include lumbar puncture(s)"
         },
         {
-          "kind": "DOCUMENT",
+          "kind": "TEST",
           "text": "Pathology report(s)"
         },
         {
@@ -4582,7 +4886,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If the AME can determine all of the following apply:"
+          "text": "If the AME can determine all of the following apply"
         },
         {
           "kind": "OTHER",
@@ -4593,11 +4897,11 @@
           "text": "Condition fully resolved age 5 or younger"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "NO recurrence"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "NO anticonvulsant medication given"
         },
         {
@@ -4631,14 +4935,14 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a One (1)-year recovery period, submit the following for FAA review:"
+          "text": "After a One (1)-year recovery period, submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
           "text": "A detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "the date of last seizure activity and dates medication discontinued"
         }
       ],
@@ -4663,7 +4967,7 @@
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "60.",
-      "raw_text": "Convulsive syncope; If due to TBI or post concussive seizure- -see that section; Drug or Alcohol… 3. *MRI brain performed at any time after the seizure activity started. • If not already performed, a current brain MRI is required. *Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: Awake, asleep, and with provocation (hyperventilation, photic/strobe light). • If not already performed, a current EEG is required. • Submit any previous EEG(s) available for comparison. • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 5. FAA Airman Seizure Questionnaire completed by the applicant.",
+      "raw_text": "Convulsive syncope; If due to TBI or post concussive seizure- -see that section; Drug or Alcohol… 3. *MRI brain performed at any time after the seizure activity started. • If not already performed, a current brain MRI is required. *Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: Awake, asleep, and with provocation (hyperventilation, photic/strobe light). • If not already performed, a current EEG is required. • Submit any previous EEG(s) available for comparison. • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 5. FAA Airman Seizure Questionnaire completed by the applicant",
       "record_id": "oneguide-neurology-seizure-convulsive-syncope-if-due-to-tbi-or-post-concussive-seizure-see-that-section-drug-or-alcohol-p311",
       "requirements": [
         {
@@ -4692,7 +4996,7 @@
         },
         {
           "kind": "OTHER",
-          "text": "FAA Airman Seizure Questionnaire completed by the applicant."
+          "text": "FAA Airman Seizure Questionnaire completed by the applicant"
         }
       ],
       "scenario": "Convulsive syncope; If due to TBI or post concussive seizure- -see that section; Drug or Alcohol…",
@@ -4723,11 +5027,15 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a four (4) year recovery period and the last two (2) years must be without anticonvulsant medication, submit the following for FAA review:"
+          "text": "After a four (4) year recovery period and the last two (2) years must be without anticonvulsant medication, submit the following for FAA review"
         },
         {
           "kind": "OTHER",
-          "text": "All information in row B. Upon review, additional information may be required"
+          "text": "information in row"
+        },
+        {
+          "kind": "OTHER",
+          "text": "Upon review, additional information may be required"
         }
       ],
       "scenario": "Single seizure event UNprovoked (no known cause) OR Complex febrile seizure; or atypical/complex…",
@@ -4778,15 +5086,7 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "Required recovery period:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Cortical stroke or TIA: 2-year recovery"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Sub-cortical stroke: 1-year recovery"
+          "text": "Required recovery period: Cortical stroke or TIA: 2-year recovery Sub-cortical stroke: 1-year recovery"
         }
       ],
       "scenario": "All Classes All types Ever in their life OR TIA (transient ischemic",
@@ -4813,7 +5113,7 @@
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "cortical or TIA with known cause may also be considered sooner than one year. Once the required recovery period has been met submit the following for FAA review:"
+          "text": "cortical or TIA with known cause may also be considered sooner than one year. Once the required recovery period has been met submit the following for FAA review"
         },
         {
           "kind": "TEST",
@@ -4821,7 +5121,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Hospital records from the event:"
+          "text": "Hospital records from the event"
         },
         {
           "kind": "OTHER",
@@ -4857,7 +5157,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Cardiac Monitor o TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR). o If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of six (6) months of device reports. o If ILR is currently implanted, submit data from implantation to the most recent interrogation."
+          "text": "Cardiac Monitor TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR). If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of six (6) months of device reports. If ILR is currently implanted, submit data from implantation to the most recent interrogation."
         },
         {
           "kind": "TEST",
@@ -4865,7 +5165,7 @@
         },
         {
           "kind": "TEST",
-          "text": "*Imaging. Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests"
+          "text": "*Imaging.; Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests"
         },
         {
           "kind": "TEST",
@@ -4917,59 +5217,7 @@
       "requirements": [
         {
           "kind": "TEST",
-          "text": "ADDITIONAL TESTING: Due to the complex etiology of strokes, once the initial information (Row A) is reviewed by the FAA, the items below may be required on a case-by-case basis. Additional testing should not be obtained until requested by FAA physicians."
-        },
-        {
-          "kind": "EVALUATION",
-          "text": "Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist. In some cases, such as very small stroke in non-eloquent area, this may be reduced or waived after FAA review."
-        },
-        {
-          "kind": "TEST",
-          "text": "A comprehensive hypercoagulopathy panel to include the following test results:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Factor V Leiden mutation"
-        },
-        {
-          "kind": "OTHER",
-          "text": "PT and INR"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Antithrombin III"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Protein S free antigen"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Activated protein C level"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Prothrombin (Factor II) G20210A gene mutation"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Homocysteine level"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Antiphospholipid antibodies:"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Lupus anticoagulant"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Anticardiolipin antibodies"
-        },
-        {
-          "kind": "OTHER",
-          "text": "Beta-2 glycoprotein antibodies"
+          "text": "ADDITIONAL TESTING: Due to the complex etiology of strokes, once the initial information (Row A) is reviewed by the FAA, the items below may be required on a case-by-case basis. Additional testing should not be obtained until requested by FAA physicians. Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist. In some cases, such as very small stroke in non-eloquent area, this may be reduced or waived after FAA review. A comprehensive hypercoagulopathy panel to include the following test results: Factor V Leiden mutation PT and INR Antithrombin III Protein S free antigen Activated protein C level Prothrombin (Factor II) G20210A gene mutation Homocysteine level Antiphospholipid antibodies: Lupus anticoagulant Anticardiolipin antibodies Beta-2 glycoprotein antibodies"
         }
       ],
       "scenario": "Additional information that may be required on a case by case basis in addition to items in row A.",
@@ -4998,11 +5246,19 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If AASI, the AME should review the following:"
+          "text": "If AASI, the AME should review the following"
         },
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician [or add specialist type here] no more than 90 days before the AME exam. It must include a detailed interim summary of the condition; current medications, dosage, and side If all requirements of the Authorization are met, the AME can with the time limitation specified on the Authorization. Submit all information"
+          "text": "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician [or add specialist type here] no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "a detailed interim summary of the condition"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side If all requirements of the Authorization are met, the AME can with the time limitation specified on the Authorization. Submit all information"
         }
       ],
       "scenario": "AASI",
@@ -5033,19 +5289,19 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "If the AME can determine:"
+          "text": "If the AME can determine"
         },
         {
           "kind": "OTHER",
           "text": "The condition is under control"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "No medications or treatment required, and"
         },
         {
           "kind": "OTHER",
-          "text": "The individual has NO symptoms that would interfere with flight duties or communication:"
+          "text": "The individual has NO symptoms that would interfere with flight duties or communication"
         }
       ],
       "scenario": "Tic disorder (Chronic motor or vocal tic) present 5 or more years not worsening",
@@ -5136,7 +5392,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Single episode 5 or more years ago Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically include if there is or is NOT any concern for seizure. 3. MRI brain* (Prefer with contrast, if clinically appropriate.) Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days before the AME exam. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. MR angiogram (MRA) or CT angiogram (CTA) of both the head and neck*. Carotid Doppler may be ○ acceptable on a case-by- case basis. Generally, this is not preferred because it does not evaluate intracranial circulation. (The pilot may still need a MRA). 5. EEG* Sleep deprived and sleep awake state with activating procedures (with provocation). 6. Echocardiogram (Echo), if already performed. 7. Prolonged ECG such as a Holter or loop recorder (or telemetry reading from hospital), if already performed. 8. Records from any hospitalization(s) for this condition to include: Admission History and ○ Physical; Hospital Discharge ○ Summary (Typically, the patient portal notes or after visit summary [AVS] that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.) Hospital consultant ○ report(s) (such as neurology, cardiology, internal medicine, or other specialists); Operative/procedure ○ report(s); Pathology report(s); ○ Radiology reports. The ○ interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed; Lab report(s) including all ○ drug or alcohol testing performed; Emergency ○ Medical Services (EMS)/a mbulance run sheet; DO NOT submit ○ miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records; 9. Progress notes from all clinic follow- up visits related to this condition; 10.Other tests already performed or as clinically indicated.",
+      "raw_text": "Single episode 5 or more years ago Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically include if there is or is NOT any concern for seizure. 3. MRI brain* (Prefer with contrast, if clinically appropriate.) Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days before the AME exam. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. MR angiogram (MRA) or CT angiogram (CTA) of both the head and neck*. Carotid Doppler may be ○ acceptable on a case-by- case basis. Generally, this is not preferred because it does not evaluate intracranial circulation. (The pilot may still need a MRA). 5. EEG* Sleep deprived and sleep awake state with activating procedures (with provocation). 6. Echocardiogram (Echo), if already performed. 7. Prolonged ECG such as a Holter or loop recorder (or telemetry reading from hospital), if already performed. 8. Records from any hospitalization(s) for this condition to include: Admission History and ○ Physical; Hospital Discharge ○ Summary (Typically, the patient portal notes or after visit summary [AVS] that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.) Hospital consultant ○ report(s) (such as neurology, cardiology, internal medicine, or other specialists); Operative/procedure ○ report(s); Pathology report(s); ○ Radiology reports. The ○ interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed; Lab report(s) including all ○ drug or alcohol testing performed; Emergency ○ Medical Services (EMS)/a mbulance run sheet; DO NOT submit ○ miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records; 9. Progress notes from all clinic follow- up visits related to this condition; 10.Other tests already performed or as clinically indicated",
       "record_id": "oneguide-neurology-transient-global-amnesia-tga-single-episode-5-or-more-years-ago-p343",
       "requirements": [
         {
@@ -5169,7 +5425,35 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Records from any hospitalization(s) for this condition to include: Admission History and ○ Physical; Hospital Discharge ○ Summary (Typically, the patient portal notes or after visit summary [AVS] that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.) Hospital consultant ○ report(s) (such as neurology, cardiology, internal medicine, or other specialists); Operative/procedure ○ report(s); Pathology report(s); ○ Radiology reports. The ○ interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed; Lab report(s) including all ○ drug or alcohol testing performed; Emergency ○ Medical Services (EMS)/a mbulance run sheet; DO NOT submit ○ miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records"
+          "text": "Records from any hospitalization(s) for this condition to include: Admission History and ○ Physical"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "Hospital Discharge ○ Summary (Typically, the patient portal notes or after visit summary [AVS] that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.) Hospital consultant ○ report(s) (such as neurology, cardiology, internal medicine, or other specialists)"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "Operative/procedure ○ report(s)"
+        },
+        {
+          "kind": "TEST",
+          "text": "Pathology report(s)"
+        },
+        {
+          "kind": "TEST",
+          "text": "○ Radiology reports. The ○ interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed"
+        },
+        {
+          "kind": "TEST",
+          "text": "Lab report(s) including all ○ drug or alcohol testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "Emergency ○ Medical Services (EMS)/a mbulance run sheet"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "DO NOT submit ○ miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records"
         },
         {
           "kind": "DOCUMENT",
@@ -5177,7 +5461,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Other tests already performed or as clinically indicated."
+          "text": "Other tests already performed or as clinically indicated"
         }
       ],
       "scenario": "Single episode 5 or more years ago",
@@ -5207,11 +5491,11 @@
       "requirements": [
         {
           "kind": "EVALUATION",
-          "text": "After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review:"
+          "text": "After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review"
         },
         {
           "kind": "EVALUATION",
-          "text": "All Evaluation Data items in Row A"
+          "text": "Evaluation Data items in Row A"
         }
       ],
       "scenario": "Single episode less than 5 years ago OR 2 or more lifetime episodes",
@@ -5296,10 +5580,6 @@
       "raw_text": "All others The diagnosis is suspect or uncertain; The individual is dependent on medication to… Submit the following to the FAA for review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. MRI and/or CT of the brain (the most recent test). Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will",
       "record_id": "oneguide-neurology-tremor-benign-essential-tremor-physiologic-tremor-all-others-the-diagnosis-is-suspect-or-uncertain-the-individual-is-dependent-on-medication-to-p356",
       "requirements": [
-        {
-          "kind": "OTHER",
-          "text": "to the FAA for review:"
-        },
         {
           "kind": "EVALUATION",
           "text": "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
@@ -5386,11 +5666,43 @@
       "requirements": [
         {
           "kind": "OTHER",
-          "text": "Standard follow up may include:"
+          "text": "Standard follow up may include"
         },
         {
           "kind": "DOCUMENT",
-          "text": "A current, detailed Clinical Progress Note, generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed interim history; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+          "text": "A current, detailed Clinical Progress Note, generated from a clinic visit with the treating physician no more than 90 days before the AME exam."
+        },
+        {
+          "kind": "OTHER",
+          "text": "a detailed interim history"
+        },
+        {
+          "kind": "MEDICATION",
+          "text": "current medications, dosage, and side effects (if any)"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "physical exam findings"
+        },
+        {
+          "kind": "TEST",
+          "text": "results of any testing performed"
+        },
+        {
+          "kind": "OTHER",
+          "text": "diagnosis"
+        },
+        {
+          "kind": "EVALUATION",
+          "text": "assessment"
+        },
+        {
+          "kind": "DOCUMENT",
+          "text": "plan (prognosis)"
+        },
+        {
+          "kind": "OTHER",
+          "text": "follow-up."
         },
         {
           "kind": "EVALUATION",
@@ -5398,7 +5710,7 @@
         },
         {
           "kind": "TEST",
-          "text": "Any other testing performed the treating physician(s). DEFER Summarize findings in Item 60. Submit all information for FAA for review. *************** All others, the AME should DEFER and summarize in Block 60 what aspect or concern caused the deferral"
+          "text": "Any other testing performed the treating physician(s)."
         }
       ],
       "scenario": "Essential Tremor treated with an acceptable medication. (previous term benign essential tremor)",
@@ -5422,12 +5734,12 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "ULOC unexplained loss of consciousness current or historical After a 2-year, symptom-free recovery period, obtain and submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. The neurologic evaluation must specifically include: · A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause; · If there has been any recurrence and the length of time without symptoms; and · If no cause was identified, that should be stated. 3. Copies of any testing already performed such as lab, imaging, EEG, or other testing. 4. Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable). If no neurological explanation is found, additional evaluations may be required on a case-by-case basis such as: · Cardiovascular evaluation from a cardiologist; · Exercise stress test; · Holter monitor; and/or · TTE Transthoracic echocardiogram (TTE) If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want to wait until FAA review of their case before undergoing additional testing.",
+      "raw_text": "ULOC unexplained loss of consciousness current or historical After a 2-year, symptom-free recovery period, obtain and submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. The neurologic evaluation must specifically include: · A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause; · If there has been any recurrence and the length of time without symptoms; and · If no cause was identified, that should be stated. 3. Copies of any testing already performed such as lab, imaging, EEG, or other testing. 4. Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable). If no neurological explanation is found, additional evaluations may be required on a case-by-case basis such as: · Cardiovascular evaluation from a cardiologist; · Exercise stress test; · Holter monitor; and/or · TTE Transthoracic echocardiogram (TTE) If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want to wait until FAA review of their case before undergoing additional testing",
       "record_id": "oneguide-neurology-uloc-unexplained-loss-of-consciousness-or-unexplained-disturbance-of-consciousness-or-transient-loss-of-consciousness-without-satisfactory-medical-explanation-transient-loss-of-control-of-nervous-system-function-uloc-unexplained-loss-of-consciousness-current-or-historical-p364",
       "requirements": [
         {
           "kind": "DOCUMENT",
-          "text": "After a 2-year, symptom-free recovery period, obtain and submit the following for FAA review:"
+          "text": "After a 2-year, symptom-free recovery period, obtain and submit the following for FAA review"
         },
         {
           "kind": "EVALUATION",
@@ -5435,14 +5747,14 @@
         },
         {
           "kind": "EVALUATION",
-          "text": "The neurologic evaluation must specifically include:"
+          "text": "The neurologic evaluation must specifically include"
         },
         {
           "kind": "TEST",
           "text": "A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause"
         },
         {
-          "kind": "OTHER",
+          "kind": "DOCUMENT",
           "text": "If there has been any recurrence and the length of time without symptoms"
         },
         {
@@ -5455,7 +5767,7 @@
         },
         {
           "kind": "DOCUMENT",
-          "text": "Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable). If no neurological explanation is found, additional evaluations may be required on a case-by-case basis such as:"
+          "text": "Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable). If no neurological explanation is found, additional evaluations may be required on a case-by-case basis such as"
         },
         {
           "kind": "EVALUATION",
@@ -5471,7 +5783,7 @@
         },
         {
           "kind": "TEST",
-          "text": "TTE Transthoracic echocardiogram (TTE) If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want to wait until FAA review of their case before undergoing additional testing."
+          "text": "TTE Transthoracic echocardiogram (TTE) If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want to wait until FAA review of their case before undergoing additional testing"
         }
       ],
       "scenario": "ULOC unexplained loss of consciousness current or historical",

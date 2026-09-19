@@ -47,6 +47,46 @@ def test_extract_requirements_drops_headers_and_keeps_items() -> None:
     ]
 
 
+def test_extract_requirements_splits_semicolon_checklist() -> None:
+    blob = (
+        "All Submit the following to the FAA for review: A current, detailed "
+        "Clinical Progress Note generated from a clinic visit with the treating "
+        "oncologist no more than 90 days before the AME exam. It must specifically "
+        "include Initial staging; o Treatments used; o How long the condition has "
+        "been o stable or in remission; Recurrence(s); o Risk of recurrence; and "
+        "Medication list: Dates started and stopped. Operative notes and discharge "
+        "summary (if applicable); Copies of lab including pathology reports; "
+        "Copies of imaging reports from testing already performed. The AME must "
+        "review an oncology evaluation performed within the previous 12 months. "
+        "DEFER Submit the information to the FAA for a possible Special Issuance."
+    )
+    requirements = extract_requirements(blob)
+    texts = [item.text for item in requirements]
+    assert any("Clinical Progress Note" in text for text in texts)
+    assert "Initial staging" in texts
+    assert "Treatments used" in texts
+    assert "Recurrence(s)" in texts
+    assert any("oncology evaluation" in text for text in texts)
+    assert all("DEFER" not in text for text in texts)
+    assert all(not text.startswith("All ") for text in texts)
+    assert len(texts) >= 6
+
+
+def test_extract_requirements_strips_issue_action_glue() -> None:
+    requirements = extract_requirements(
+        "All The AME must review an oncology evaluation performed within the "
+        "previous 12 months. If the oncology evaluation verifies the individual "
+        "is cured, with no follow up treatment required: ISSUE Summarize this "
+        "history in Block 60 and submit the evaluation to the FAA for retention "
+        "in the pilot’s file"
+    )
+    assert len(requirements) == 1
+    text = requirements[0].text
+    assert text.startswith("The AME must review an oncology evaluation")
+    assert "ISSUE" not in text
+    assert "Block 60" not in text
+
+
 def test_requirements_are_typed_without_removing_source_wording() -> None:
     requirements = extract_requirements(
         "1. Current Clinical Progress Note\n2. MRI brain imaging\n3. Medication list"
