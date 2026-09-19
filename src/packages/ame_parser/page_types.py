@@ -180,6 +180,33 @@ def is_section_label_line(text: str | None) -> bool:
     return 3 <= len(letters) <= 36 and value.count(" ") <= 5
 
 
+def is_browse_section_label(text: str | None) -> bool:
+    """True for category/chapter names that must not be disease titles."""
+
+    value = clean(text)
+    if not value:
+        return False
+    key = value.casefold()
+    # Canonical browse categories (and common PDF chapter aliases).
+    labels = {
+        "neurology",
+        "cardiovascular",
+        "cardiology",
+        "psychiatric",
+        "psychiatry",
+        "endocrine",
+        "sleep",
+        "other",
+        "musculoskeletal",
+        "genitourinary",
+        "blood and lymphatics",
+        "abdomen and digestive",
+        "lungs and chest",
+        "nose and sinuses",
+    }
+    return key in labels
+
+
 def is_valid_condition_title(text: str | None) -> bool:
     """Reject AASI prose, revision history, dates, and intro blurbs as titles."""
 
@@ -187,6 +214,8 @@ def is_valid_condition_title(text: str | None) -> bool:
     if not value or value.upper() == "UNKNOWN":
         return False
     if is_class_scope_line(value):
+        return False
+    if is_browse_section_label(value):
         return False
     if is_heading_noise_line(value) and not value.isupper():
         return False
@@ -236,6 +265,15 @@ def is_valid_scenario(text: str | None) -> bool:
         return False
     if re.fullmatch(r"\(?\s*All\s+Classes?\s*(?:\(Continued\))?\s*\)?", value, re.I):
         return False
+    if is_class_scope_line(value):
+        return False
+    # Truncated pathway tails from PDF wrap/cut cells.
+    if len(value) < 48 and re.search(
+        r"\b(of|with|or any of|and|the|for|to|in)\s*$",
+        value,
+        re.I,
+    ):
+        return False
     if upper.startswith(
         (
             "SUBMITTED",
@@ -258,6 +296,8 @@ def is_valid_scenario(text: str | None) -> bool:
             "MAXIMAL ",
             "INR VALUES",
             "PHYSICIAN OR AME",
+            "THE NEUROLOGIC",
+            "THE NEUROLOGICAL",
         )
     ):
         return False
@@ -269,6 +309,8 @@ def is_valid_scenario(text: str | None) -> bool:
     if value.lower().startswith(
         (
             "the following",
+            "the neurologic",
+            "the neurological",
             "a detailed",
             "a current",
             "copies of",

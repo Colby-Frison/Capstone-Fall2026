@@ -109,6 +109,29 @@ JSON_SCHEMA = {
                         "type": "array",
                         "items": {"type": "string", "minLength": 1},
                     },
+                    "requirements": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "required": ["text", "kind"],
+                            "properties": {
+                                "text": {"type": "string", "minLength": 1},
+                                "kind": {
+                                    "enum": [
+                                        "DOCUMENT",
+                                        "TEST",
+                                        "MEDICATION",
+                                        "EVALUATION",
+                                        "OTHER",
+                                    ]
+                                },
+                                "role": {
+                                    "enum": ["bring_list", "ame_review", "note"]
+                                },
+                                "required": {"type": "boolean"},
+                            },
+                        },
+                    },
                     "source": {
                         "type": "object",
                         "required": ["document", "pdf_page"],

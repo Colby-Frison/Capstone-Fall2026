@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from pathlib import Path
 from typing import Protocol, Sequence
 
@@ -10,6 +11,7 @@ from .models import Disposition, GuidanceRecord, SourceReference
 from .page_types import (
     PageRole,
     classify_ame_page,
+    is_browse_section_label,
     is_class_scope_line,
     is_criteria_subtitle_line,
     is_disposition_role,
@@ -27,10 +29,12 @@ from .text import (
     extract_medication_notes,
     extract_requirements,
     extract_time_constraints,
+    is_cross_reference_disposition,
     normalize_action,
     normalize_condition_name,
     normalize_scenario_title,
     printed_page,
+    promote_section_label_condition,
     slug,
 )
 
@@ -57,6 +61,24 @@ def _append_unique(original: str, extra: str) -> str:
     return f"{original}\n{extra}".strip()
 
 
+def _assign_unique_record_ids(
+    records: tuple[GuidanceRecord, ...],
+) -> tuple[GuidanceRecord, ...]:
+    """Ensure record_id uniqueness when pathways collide on the same page."""
+
+    seen: dict[str, int] = {}
+    unique: list[GuidanceRecord] = []
+    for record in records:
+        base = record.record_id
+        count = seen.get(base, 0)
+        seen[base] = count + 1
+        if count == 0:
+            unique.append(record)
+            continue
+        unique.append(replace(record, record_id=f"{base}-{count + 1}"))
+    return tuple(unique)
+
+
 def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
     scenario_raw = str(draft["scenario"] or "")
     evaluation_raw = str(draft.get("evaluation", "") or "")
@@ -66,13 +88,25 @@ def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
     scenario = normalize_scenario_title(scenario_raw) or clean(scenario_raw)
     if not scenario or scenario.lower().startswith("submit the following"):
         return None
+    if not is_valid_scenario(scenario):
+        return None
 
     evaluation = clean(evaluation_raw)
     action = normalize_action(action_raw)
     raw_disposition = clean(disposition_raw)
     disposition, warnings = classify_disposition(raw_disposition or action)
+    warning_list = list(warnings)
+
+    if is_cross_reference_disposition(raw_disposition or action):
+        xref = clean(raw_disposition or action)
+        if xref and (not action or action.upper() in {"DEFER", "ISSUE", "DENY", "UNKNOWN"}):
+            action = xref
+        warning_list.append("cross_reference")
+        disposition = Disposition.UNKNOWN
+        raw_disposition = xref
+
     # Keep raw_disposition as the keyword label when classification succeeded.
-    if disposition is not Disposition.UNKNOWN:
+    elif disposition is not Disposition.UNKNOWN:
         if (
             not action
             and raw_disposition
@@ -89,10 +123,18 @@ def _finish(draft: dict[str, object], source: Path) -> GuidanceRecord | None:
         else:
             raw_disposition = disposition.value.replace("_", " ")
 
-    all_warnings = tuple(dict.fromkeys((*draft.get("warnings", ()), *warnings)))
+    all_warnings = tuple(dict.fromkeys((*draft.get("warnings", ()), *warning_list)))
     condition = normalize_condition_name(str(draft["condition"]))
-    page = int(draft["page"])
     category = clean(str(draft.get("category", ""))) or None
+    condition, scenario, category = promote_section_label_condition(
+        condition, scenario, category
+    )
+    if not condition or condition == "UNKNOWN" or is_browse_section_label(condition):
+        return None
+    if not scenario or not is_valid_scenario(scenario):
+        return None
+
+    page = int(draft["page"])
     class_text = clean(str(draft.get("classes", "")))
     requirements = extract_requirements(evaluation_raw)
     medication_notes = extract_medication_notes(action_raw)
@@ -193,10 +235,12 @@ class AmeGuideExtractor:
                     default_classes=page_classes,
                 )
 
-        return tuple(
-            record
-            for draft in drafts
-            if (record := _finish(draft, source)) is not None
+        return _assign_unique_record_ids(
+            tuple(
+                record
+                for draft in drafts
+                if (record := _finish(draft, source)) is not None
+            )
         )
 
     def _ingest_logical_row(
@@ -519,10 +563,12 @@ class OneGuideExtractor:
                                 str(active.get("action", "")), ame_action
                             )
 
-        return tuple(
-            record
-            for draft in drafts
-            if (record := _finish(draft, source)) is not None
+        return _assign_unique_record_ids(
+            tuple(
+                record
+                for draft in drafts
+                if (record := _finish(draft, source)) is not None
+            )
         )
 
     @staticmethod
@@ -547,12 +593,18 @@ class OneGuideExtractor:
         lines = [clean(line) for line in text.splitlines() if clean(line)]
         for index, line in enumerate(lines):
             if re.fullmatch(r"18[lI]\.\s*Neurology", line, re.I):
-                title: list[str] = []
                 for candidate in lines[index + 1 :]:
                     if candidate.upper().startswith("DISCLAIMER"):
                         break
-                    title.append(candidate)
-                return clean(" ".join(title)) or None
+                    if is_browse_section_label(candidate) or is_class_scope_line(
+                        candidate
+                    ):
+                        continue
+                    if is_heading_noise_line(candidate):
+                        continue
+                    if is_valid_condition_title(candidate):
+                        return candidate
+                return None
         return None
 
 
