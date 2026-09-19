@@ -8,6 +8,7 @@ import {
   mapDisposition,
   mergeGuidanceFiles,
   pathwayTitle,
+  requirementsToAmeReviewNotes,
   requirementsToDocuments,
   searchAdaptedConditions,
   type NormalizedGuidanceFile,
@@ -197,5 +198,71 @@ describe('content adapter', () => {
       allergies?.subConditions.find((s) => s.disposition === 'issue')
         ?.certificationNote,
     ).toContain('Extra detail');
+  });
+
+  it('maps role/required into bring-list docs and AME review notes', () => {
+    const record: NormalizedRecord = {
+      ...fixture.records[1],
+      certificate_classes: ['All'],
+      warnings: ['cross_reference'],
+      requirements: [
+        {
+          kind: 'DOCUMENT',
+          text: 'Clinical Progress Note',
+          role: 'bring_list',
+          required: true,
+        },
+        {
+          kind: 'TEST',
+          text: 'MRI if already performed',
+          role: 'bring_list',
+          required: false,
+        },
+        {
+          kind: 'EVALUATION',
+          text: 'The AME must review a neurological evaluation.',
+          role: 'ame_review',
+          required: false,
+        },
+      ],
+      action: 'See CAD protocol',
+      disposition: 'UNKNOWN',
+      raw_disposition: 'See CAD protocol',
+    };
+    const docs = requirementsToDocuments(record);
+    expect(docs).toHaveLength(2);
+    expect(docs.find((d) => d.label.includes('Clinical'))?.required).toBe(true);
+    expect(docs.find((d) => d.label.includes('MRI'))?.required).toBe(false);
+    expect(docs.every((d) => d.kind)).toBeTruthy();
+
+    const notes = requirementsToAmeReviewNotes(record);
+    expect(notes.some((n) => n.includes('AME must'))).toBe(true);
+
+    const conditions = adaptGuidanceFile({
+      ...fixture,
+      records: [record],
+    });
+    expect(conditions).toHaveLength(1);
+    const sub = conditions[0].subConditions[0];
+    expect(sub.certificateClasses).toEqual(['All']);
+    expect(sub.warnings).toContain('cross_reference');
+    expect(sub.ameReviewNotes?.length).toBeGreaterThan(0);
+    expect(sub.documents.some((d) => !d.required)).toBe(true);
+  });
+
+  it('filters section-label conditions from browseable catalog', () => {
+    const neurologyLabel: NormalizedGuidanceFile = {
+      ...fixture,
+      records: [
+        {
+          ...fixture.records[0],
+          record_id: 'ame-guide-neurology-misfile',
+          condition: 'Neurology',
+          category: 'Neurology',
+          scenario: 'All classes',
+        },
+      ],
+    };
+    expect(adaptGuidanceFile(neurologyLabel)).toHaveLength(0);
   });
 });
