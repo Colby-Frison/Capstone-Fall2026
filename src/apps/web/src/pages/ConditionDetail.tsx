@@ -4,6 +4,7 @@ import { getMedicationById } from '../data/medications';
 import type { SubCondition } from '../data/types';
 import DispositionBadge, { DispositionBlock } from '../components/DispositionBadge';
 import DisclaimerCallout from '../components/DisclaimerCallout';
+import { DocumentChecklist } from '../components/DocumentChecklist';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
 
@@ -43,6 +44,10 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
       ? selectedSub.medicationNotes
       : condition.medicationNotes) ?? [];
   const activeTimeConstraints = selectedSub?.timeConstraints ?? [];
+  const activeClasses = selectedSub?.certificateClasses ?? [];
+  const activeWarnings = selectedSub?.warnings ?? [];
+  const activeAmeReview = selectedSub?.ameReviewNotes ?? [];
+  const hasCrossRef = activeWarnings.includes('cross_reference');
 
   function toggleDoc(id: string) {
     setCheckedDocs((prev) => {
@@ -54,8 +59,6 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
   }
 
   const relatedMeds = condition.relatedMedicationIds.map(getMedicationById).filter(Boolean);
-  const requiredDocs = activeDocuments.filter((d) => d.required);
-  const optionalDocs = activeDocuments.filter((d) => !d.required);
 
   return (
     <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
@@ -202,6 +205,27 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                 </div>
               )}
 
+              {activeClasses.length > 0 && (
+                <div style={{ marginTop: 12, display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                  {activeClasses.map((cls) => (
+                    <span
+                      key={cls}
+                      style={{
+                        background: '#f1f5f9',
+                        border: '1px solid #cbd5e1',
+                        borderRadius: 999,
+                        padding: '4px 10px',
+                        fontFamily: "'Inter', sans-serif",
+                        fontSize: '0.75rem',
+                        color: '#334155',
+                      }}
+                    >
+                      {/^all$/i.test(cls) ? 'All classes' : cls}
+                    </span>
+                  ))}
+                </div>
+              )}
+
               <div style={{ marginTop: 20, padding: '18px 20px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8 }}>
                 <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', marginBottom: 8 }}>
                   Published guidance note
@@ -210,6 +234,14 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                   {activeCertNote}
                 </p>
               </div>
+
+              {hasCrossRef && (
+                <div style={{ marginTop: 12, padding: '12px 16px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 6 }}>
+                  <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#1e3a8a', margin: 0, lineHeight: 1.5 }}>
+                    <strong>Related guidance:</strong> This pathway points to another protocol or disposition table. Follow the published note above and confirm the referenced section with your AME.
+                  </p>
+                </div>
+              )}
 
               <div style={{ marginTop: 16, padding: '12px 16px', background: '#fffbeb', border: '1px solid #fde68a', borderRadius: 6 }}>
                 <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.775rem', color: '#78350f', margin: 0, lineHeight: 1.5 }}>
@@ -244,63 +276,32 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                 </p>
               ) : (
                 <>
-                  {requiredDocs.length > 0 && (
-                    <div style={{ marginBottom: 24 }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-                        <div style={{ height: 1, flex: 1, background: '#e2e8f0' }} />
-                        <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.72rem', color: '#1b2d4f', textTransform: 'uppercase', letterSpacing: '0.1em', whiteSpace: 'nowrap' }}>
-                          Required
-                        </span>
-                        <div style={{ height: 1, flex: 1, background: '#e2e8f0' }} />
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                        {requiredDocs.map((doc) => (
-                          <DocItem key={doc.id} doc={doc} checked={checkedDocs.has(doc.id)} onToggle={toggleDoc} />
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {optionalDocs.length > 0 && (
-                    <div>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
-                        <div style={{ height: 1, flex: 1, background: '#e2e8f0' }} />
-                        <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.72rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.1em', whiteSpace: 'nowrap' }}>
-                          Often Requested
-                        </span>
-                        <div style={{ height: 1, flex: 1, background: '#e2e8f0' }} />
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                        {optionalDocs.map((doc) => (
-                          <DocItem key={doc.id} doc={doc} checked={checkedDocs.has(doc.id)} onToggle={toggleDoc} />
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Progress indicator */}
-                  {activeDocuments.length > 0 && (
-                    <div style={{ marginTop: 20, padding: '14px 18px', background: '#f5f7fa', border: '1px solid #e2e8f0', borderRadius: 8, display: 'flex', alignItems: 'center', gap: 14 }}>
-                      <div style={{ flex: 1 }}>
-                        <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.8rem', color: '#1b2d4f', marginBottom: 6 }}>
-                          Checklist progress
-                        </div>
-                        <div style={{ background: '#e2e8f0', borderRadius: 4, height: 6, overflow: 'hidden' }}>
-                          <div style={{ background: '#3b7fc4', height: '100%', borderRadius: 4, width: `${(checkedDocs.size / activeDocuments.length) * 100}%`, transition: 'width 0.3s' }} />
-                        </div>
-                      </div>
-                      <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.9rem', color: '#1b2d4f', flexShrink: 0 }}>
-                        {checkedDocs.size}/{activeDocuments.length}
-                      </span>
-                    </div>
-                  )}
-
+                  <DocumentChecklist
+                    documents={activeDocuments}
+                    checkedDocs={checkedDocs}
+                    onToggle={toggleDoc}
+                  />
                   <div style={{ marginTop: 16, padding: '12px 16px', background: '#e8f2fb', border: '1px solid #b8d4ef', borderRadius: 6 }}>
                     <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.775rem', color: '#1b2d4f', margin: 0, lineHeight: 1.5 }}>
                       <strong>Tip:</strong> Gather all documentation before your appointment. If a deferral is required, arriving with complete records can prevent an additional wait of 90 days or more while missing items are collected.
                     </p>
                   </div>
                 </>
+              )}
+
+              {activeAmeReview.length > 0 && (
+                <div style={{ marginTop: 24, padding: '16px 18px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8 }}>
+                  <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.85rem', color: '#1b2d4f', marginBottom: 10 }}>
+                    AME evaluation notes
+                  </div>
+                  <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#475569', lineHeight: 1.6 }}>
+                    {activeAmeReview.map((note) => (
+                      <li key={note.slice(0, 48)} style={{ marginBottom: 6 }}>
+                        {note}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               )}
             </div>
           </section>
@@ -379,83 +380,5 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
         </div>
       </div>
     </div>
-  );
-}
-
-function DocItem({
-  doc,
-  checked,
-  onToggle,
-}: {
-  doc: { id: string; label: string; required: boolean; description?: string };
-  checked: boolean;
-  onToggle: (id: string) => void;
-}) {
-  return (
-    <button
-      onClick={() => onToggle(doc.id)}
-      style={{
-        display: 'flex',
-        alignItems: 'flex-start',
-        gap: 12,
-        padding: '12px 14px',
-        background: checked ? '#f0fdf4' : '#fafbfd',
-        border: `1px solid ${checked ? '#bbf7d0' : '#e2e8f0'}`,
-        borderRadius: 6,
-        cursor: 'pointer',
-        textAlign: 'left',
-        width: '100%',
-        transition: 'background 0.15s, border-color 0.15s',
-      }}
-    >
-      <div
-        style={{
-          width: 20,
-          height: 20,
-          borderRadius: 4,
-          border: `2px solid ${checked ? '#16a34a' : '#cbd5e1'}`,
-          background: checked ? '#16a34a' : '#ffffff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexShrink: 0,
-          marginTop: 1,
-          transition: 'all 0.15s',
-        }}
-      >
-        {checked && (
-          <svg width="11" height="9" viewBox="0 0 11 9" fill="none">
-            <path d="M1 4L4 7L10 1" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        )}
-      </div>
-      <div style={{ flex: 1 }}>
-        <div
-          style={{
-            fontFamily: "'Inter', sans-serif",
-            fontSize: '0.875rem',
-            color: checked ? '#14532d' : '#334155',
-            lineHeight: 1.5,
-            textDecoration: checked ? 'line-through' : 'none',
-            transition: 'color 0.15s',
-          }}
-        >
-          {doc.label}
-        </div>
-        {doc.description && (
-          <div
-            style={{
-              fontFamily: "'Inter', sans-serif",
-              fontSize: '0.78rem',
-              color: '#64748b',
-              lineHeight: 1.5,
-              marginTop: 6,
-            }}
-          >
-            {doc.description}
-          </div>
-        )}
-      </div>
-    </button>
   );
 }

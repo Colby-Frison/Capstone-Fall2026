@@ -23,7 +23,11 @@ const guidanceFiles = Object.keys(guidanceModules)
 export const conditions: Condition[] = adaptGuidanceFiles(guidanceFiles);
 
 export const categories = [
-  ...new Set(conditions.map((condition) => condition.category)),
+  ...new Set(
+    conditions
+      .map((condition) => condition.category)
+      .filter((category) => category && category !== 'General'),
+  ),
 ].sort();
 
 export function getConditionById(id: string): Condition | undefined {
