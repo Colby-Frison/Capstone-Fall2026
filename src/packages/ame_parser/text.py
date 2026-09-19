@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 
 from .categories import resolve_category
-from .models import Disposition, Requirement, RequirementKind
+from .models import Disposition, Requirement, RequirementKind, RequirementRole
 
 _DECORATIVE = re.compile(r"^[\s\*]+$")
 _ORDERING_PREFIX = re.compile(
@@ -155,8 +155,13 @@ def normalize_scenario_title(text: str | None) -> str:
         return rest
 
     title = strip_ordering_marker(first_line).rstrip(",;")
+    # Soft-trim glued bullet floods from OneGuide cells.
+    if "•" in title or "·" in title or "●" in title:
+        title = re.split(r"\s*[•·●]\s*", title, maxsplit=1)[0].strip()
     if len(title) > 100:
         return title[:97].rsplit(" ", 1)[0] + "…"
+    if len(title) < 48 and re.search(r"\b(of|with|or any of|and|the|for|to|in)\s*$", title, re.I):
+        return ""
     return title
 
 
@@ -166,6 +171,8 @@ def classify_disposition(text: str | None) -> tuple[Disposition, tuple[str, ...]
     upper = clean(text).upper()
     if not upper:
         return Disposition.UNKNOWN, ("missing_disposition",)
+    if is_cross_reference_disposition(text):
+        return Disposition.UNKNOWN, ("cross_reference",)
     if re.search(r"\b(DEFER|REQUIRES? FAA DECISION)\b", upper):
         warning = (
             ("requires_faa_decision_mapped_to_defer",)
@@ -180,6 +187,97 @@ def classify_disposition(text: str | None) -> tuple[Disposition, tuple[str, ...]
     if re.search(r"\bISSUE\b", upper):
         return Disposition.ISSUE, ()
     return Disposition.UNKNOWN, ("unrecognized_disposition",)
+
+
+def is_cross_reference_disposition(text: str | None) -> bool:
+    """True when the disposition cell only points at another protocol/table."""
+
+    value = clean(text)
+    if not value:
+        return False
+    return bool(
+        re.match(
+            r"^See\b.+\b(protocol|table|section|page|disposition)\b",
+            value,
+            re.I,
+        )
+    )
+
+
+def promote_section_label_condition(
+    condition: str | None,
+    scenario: str | None,
+    category: str | None = None,
+) -> tuple[str, str, str | None]:
+    """When condition is missing or a chapter label, promote a disease-like scenario."""
+
+    from .page_types import is_browse_section_label, is_valid_condition_title, is_valid_scenario
+
+    condition_value = normalize_condition_name(condition)
+    scenario_value = clean(scenario)
+    category_value = clean(category) or None
+
+    needs_promote = (
+        not condition_value
+        or condition_value.upper() == "UNKNOWN"
+        or is_browse_section_label(condition_value)
+    )
+    if not needs_promote:
+        return condition_value, scenario_value, category_value
+
+    if is_browse_section_label(condition_value) and not category_value:
+        category_value = condition_value
+
+    if scenario_value and is_valid_condition_title(scenario_value):
+        return scenario_value, "General pathway", category_value
+
+    # Scenario may be a short disease name that fails strict title checks.
+    if (
+        scenario_value
+        and len(scenario_value) >= 6
+        and not scenario_value[0].islower()
+        and is_valid_scenario(scenario_value)
+        and not scenario_value.lower().startswith(("all classes", "all others"))
+        and not scenario_value.lower().startswith(
+            ("a current", "the neurologic", "additional information")
+        )
+    ):
+        return scenario_value, "General pathway", category_value
+
+    return condition_value, scenario_value, category_value
+
+
+def requirement_role(kind: RequirementKind, text: str) -> RequirementRole:
+    lower = text.lower()
+    if kind is RequirementKind.EVALUATION or lower.startswith("the ame must"):
+        return RequirementRole.AME_REVIEW
+    if lower.startswith("note") or kind is RequirementKind.OTHER and lower.startswith(
+        ("generally,", "for applicants")
+    ):
+        return RequirementRole.NOTE
+    return RequirementRole.BRING_LIST
+
+
+def requirement_is_required(text: str, role: RequirementRole) -> bool:
+    if role is not RequirementRole.BRING_LIST:
+        return False
+    lower = text.lower()
+    if re.search(
+        r"\b(if already performed|if applicable|if clinically|may be required|"
+        r"on a case by case|if performed|when available)\b",
+        lower,
+    ):
+        return False
+    return True
+
+
+def capitalize_requirement_text(text: str) -> str:
+    value = clean(text)
+    if not value:
+        return value
+    if value[0].islower():
+        return value[0].upper() + value[1:]
+    return value
 
 
 def _split_numbered_flat(text: str) -> list[str]:
@@ -224,6 +322,11 @@ _GLUED_DOC_LABEL = re.compile(
     re.I,
 )
 _LETTERED_SPLIT = re.compile(r"(?:(?<=\s)|^)(?=[a-z]\.\s+[A-Za-z(\"'])", re.I)
+_EXTRA_SECTION_SPLIT = re.compile(
+    r"(?=\b(?:Additional testing|Follow-up\.|After the required recovery period|"
+    r"After a \d+-month recovery period|Required recovery period)\b)",
+    re.I,
+)
 _DISPOSITION_ACTION_TAIL = re.compile(
     r"(?::\s*)?\b(?:DEFER|ISSUE|DENY|SPECIAL\s+ISSUANCE)\b.*$",
     re.I,
@@ -318,6 +421,18 @@ def expand_requirement_fragments(text: str | None) -> tuple[str, ...]:
     if not value or is_boilerplate_header(value):
         return ()
 
+    # Split long narrative blobs before recovery / additional-testing tails.
+    sectioned: list[str] = []
+    for part in _EXTRA_SECTION_SPLIT.split(value):
+        part = clean(part)
+        if part:
+            sectioned.append(part)
+    if len(sectioned) > 1:
+        value = sectioned[0]
+        trailing = sectioned[1:]
+    else:
+        trailing = []
+
     fragments: list[str] = []
 
     # Keep AME-review sentences as their own fragments.
@@ -356,6 +471,17 @@ def expand_requirement_fragments(text: str | None) -> tuple[str, ...]:
             fragments.extend(_split_semicolon_parts(chunk))
         else:
             fragments.append(chunk)
+
+    for extra in trailing:
+        extra = strip_requirement_disposition_tail(extra)
+        if not extra:
+            continue
+        if extra.count(";") >= 2:
+            fragments.extend(_split_semicolon_parts(extra))
+        elif len(_split_lettered_parts(extra)) > 1:
+            fragments.extend(_split_lettered_parts(extra))
+        else:
+            fragments.append(extra)
 
     # De-dupe while preserving order.
     seen: set[str] = set()
@@ -512,10 +638,13 @@ def extract_requirements(text: str | None) -> tuple[Requirement, ...]:
         if _NOTE_PREFIX.match(clean(raw_item)):
             continue
         for fragment in expand_requirement_fragments(raw_item):
+            fragment = capitalize_requirement_text(fragment)
             if fragment.lower().startswith("if the ame can determine"):
                 kind = RequirementKind.EVALUATION
             else:
                 kind = requirement_kind(fragment)
+            role = requirement_role(kind, fragment)
+            required = requirement_is_required(fragment, role)
             # Keep very short fragments only when they came from list splitting.
             if len(fragment) < 8 and kind is RequirementKind.OTHER:
                 continue
@@ -523,7 +652,9 @@ def extract_requirements(text: str | None) -> tuple[Requirement, ...]:
             if key in seen:
                 continue
             seen.add(key)
-            requirements.append(Requirement(text=fragment, kind=kind))
+            requirements.append(
+                Requirement(text=fragment, kind=kind, role=role, required=required)
+            )
     return tuple(requirements)
 
 
@@ -751,22 +882,32 @@ def normalize_record_dict(record: dict) -> dict:
                     continue
                 seen.add(key)
                 requirements.append(
-                    {"kind": requirement_kind(text).value, "text": text}
+                    {
+                        "kind": item.kind.value,
+                        "role": item.role.value,
+                        "required": item.required,
+                        "text": text,
+                    }
                 )
             if requirements:
                 break
     else:
         for req in record.get("requirements") or []:
             for fragment in expand_requirement_fragments(str(req.get("text") or "")):
+                fragment = capitalize_requirement_text(fragment)
                 if len(fragment) < 4 or is_boilerplate_header(fragment):
                     continue
                 key = fragment.lower()
                 if key in seen:
                     continue
                 seen.add(key)
+                kind = requirement_kind(fragment)
+                role = requirement_role(kind, fragment)
                 requirements.append(
                     {
-                        "kind": requirement_kind(fragment).value,
+                        "kind": kind.value,
+                        "role": role.value,
+                        "required": requirement_is_required(fragment, role),
                         "text": fragment,
                     }
                 )
@@ -782,6 +923,20 @@ def normalize_record_dict(record: dict) -> dict:
         record.get("condition") or "",
         record.get("category") or "",
     )
+    condition, scenario, category = promote_section_label_condition(
+        condition, scenario, category
+    )
+
+    raw_disposition = clean(str(record.get("raw_disposition") or ""))
+    warnings = list(record.get("warnings") or [])
+    if is_cross_reference_disposition(raw_disposition) or is_cross_reference_disposition(
+        action
+    ):
+        xref = raw_disposition or action
+        if xref:
+            action = xref
+        if "cross_reference" not in warnings:
+            warnings.append("cross_reference")
 
     # Prefer predetermined browse categories over noisy PDF headings.
     section = ""
@@ -799,6 +954,7 @@ def normalize_record_dict(record: dict) -> dict:
     out["raw_text"] = raw_text
     out["condition"] = condition
     out["category"] = category
+    out["warnings"] = warnings
     if isinstance(source, dict):
         out["source"] = {**source, "section": category}
     return out

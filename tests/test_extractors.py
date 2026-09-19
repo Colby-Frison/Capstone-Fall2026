@@ -339,3 +339,59 @@ def test_ame_guide_cerebral_palsy_page_maps_condition_not_all_classes() -> None:
     assert records[0].disposition.value == "DEFER"
     assert records[0].certificate_classes == ("All",)
     assert records[0].category != "CEREBRAL PALSY"
+
+
+def test_see_protocol_disposition_becomes_unknown_with_cross_reference() -> None:
+    page = PageData(
+        number=120,
+        text=(
+            "Guide for Aviation Medical Examiners\nEYES\n"
+            "DISEASE/CONDITION CLASS EVALUATION DATA DISPOSITION\n120"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "CLASS", "EVALUATION DATA", "DISPOSITION"),
+                (
+                    "Binocular diplopia",
+                    "All",
+                    "Follow published protocol.",
+                    "See ophthalmology disposition table",
+                ),
+            ),
+        ),
+    )
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 1
+    record = records[0]
+    assert record.disposition is Disposition.UNKNOWN
+    assert "cross_reference" in record.warnings
+    assert "See ophthalmology" in record.action
+
+
+def test_duplicate_pathway_ids_are_disambiguated() -> None:
+    page = PageData(
+        number=99,
+        text=(
+            "Guide for Aviation Medical Examiners\nNOSE\nALLERGIES\n"
+            "DISEASE/CONDITION EVALUATION DATA DISPOSITION\n99"
+        ),
+        tables=(
+            (
+                ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+                (
+                    "A. Controlled",
+                    "First evaluation path.",
+                    "ISSUE\nAnnotate Block 60.",
+                ),
+                (
+                    "A. Controlled",
+                    "Second evaluation path with more detail for FAA review.",
+                    "DEFER\nSubmit the information to the FAA.",
+                ),
+            ),
+        ),
+    )
+    records = AmeGuideExtractor().extract((page,), SOURCE)
+    assert len(records) == 2
+    ids = [record.record_id for record in records]
+    assert len(ids) == len(set(ids))

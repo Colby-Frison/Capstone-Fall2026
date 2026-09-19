@@ -241,10 +241,16 @@ function expandRequirementText(text: string): string[] {
   return [cleaned];
 }
 
-function isBringListItem(text: string, kind?: string): boolean {
+function isBringListItem(
+  text: string,
+  kind?: string,
+  role?: string,
+): boolean {
+  if (role === 'ame_review' || role === 'note') return false;
   const lower = text.toLowerCase();
   if (isBoilerplateHeader(text)) return false;
   if (lower.startsWith('if the ame can determine')) return false;
+  if (lower.startsWith('the ame must')) return false;
   if (lower.startsWith('the ame should inquire')) return false;
   if (lower.startsWith('no evaluations or follow-up needed')) return false;
   if (lower.startsWith('discuss with the pilot')) return false;
@@ -253,24 +259,36 @@ function isBringListItem(text: string, kind?: string): boolean {
     return false;
   }
   return (
-    /submit|progress note|report|record|imaging|mri|audiogram|test|documentation|statement|medication list|hospital|neurolog|evaluation/i.test(
+    /submit|progress note|report|record|imaging|mri|audiogram|test|documentation|statement|medication list|hospital|neurolog|evaluation|staging|treatment|recurrence|operative|copies of/i.test(
       text,
-    ) || kind === 'DOCUMENT' || kind === 'TEST'
+    ) || kind === 'DOCUMENT' || kind === 'TEST' || kind === 'MEDICATION' || role === 'bring_list'
   );
 }
 
 export function requirementsToDocuments(
   record: NormalizedRecord,
 ): DocumentItem[] {
-  const expanded: { text: string; kind?: string }[] = [];
+  const expanded: {
+    text: string;
+    kind?: string;
+    role?: string;
+    required?: boolean;
+  }[] = [];
   for (const item of record.requirements ?? []) {
+    const role = item.role || (item.kind === 'EVALUATION' ? 'ame_review' : 'bring_list');
+    if (role !== 'bring_list') continue;
     for (const part of expandRequirementText(item.text)) {
-      expanded.push({ text: part, kind: item.kind });
+      expanded.push({
+        text: part,
+        kind: item.kind,
+        role,
+        required: item.required !== false,
+      });
     }
   }
 
   const docs = expanded
-    .filter((item) => isBringListItem(item.text, item.kind))
+    .filter((item) => isBringListItem(item.text, item.kind, item.role))
     .map((item, index) => {
       const label =
         item.text.length <= 140 ? item.text : firstSentence(item.text, 120);
@@ -279,8 +297,9 @@ export function requirementsToDocuments(
         label: stripOrderingMarker(label),
         description:
           item.text === label ? undefined : stripOrderingMarker(item.text),
-        required: true,
+        required: item.required !== false,
         kind: item.kind,
+        role: 'bring_list' as const,
       } satisfies DocumentItem;
     });
 
@@ -292,6 +311,22 @@ export function requirementsToDocuments(
     seen.add(key);
     return true;
   });
+}
+
+export function requirementsToAmeReviewNotes(record: NormalizedRecord): string[] {
+  const notes: string[] = [];
+  const seen = new Set<string>();
+  for (const item of record.requirements ?? []) {
+    const role = item.role || (item.kind === 'EVALUATION' ? 'ame_review' : 'bring_list');
+    if (role !== 'ame_review' && item.kind !== 'EVALUATION') continue;
+    for (const part of expandRequirementText(item.text)) {
+      const text = stripOrderingMarker(part);
+      if (!text || seen.has(text.toLowerCase())) continue;
+      seen.add(text.toLowerCase());
+      notes.push(text);
+    }
+  }
+  return notes;
 }
 
 function evaluationSummary(record: NormalizedRecord): string {
@@ -343,8 +378,10 @@ function recordToSubCondition(record: NormalizedRecord): SubCondition {
     summary,
     certificationNote: stripOrderingMarker(certificationNote),
     documents: requirementsToDocuments(record),
+    ameReviewNotes: requirementsToAmeReviewNotes(record),
     medicationNotes: cleanMedicationNotes(record.medication_notes),
     timeConstraints: record.time_constraints ?? [],
+    certificateClasses: record.certificate_classes ?? [],
     sourcePage: record.source?.pdf_page,
     warnings: record.warnings ?? [],
   };
@@ -479,6 +516,27 @@ export function adaptGuidanceFiles(
 function isDisplayableConditionName(name: string): boolean {
   const value = cleanText(name);
   if (!value || value.toUpperCase() === 'UNKNOWN') return false;
+  const key = value.toLowerCase();
+  if (
+    [
+      'neurology',
+      'cardiovascular',
+      'cardiology',
+      'psychiatric',
+      'psychiatry',
+      'endocrine',
+      'sleep',
+      'other',
+      'musculoskeletal',
+      'genitourinary',
+      'blood and lymphatics',
+      'abdomen and digestive',
+      'lungs and chest',
+      'nose and sinuses',
+    ].includes(key)
+  ) {
+    return false;
+  }
   const upper = value.toUpperCase();
   if (upper.startsWith('AASI') || upper.includes('AME ASSISTED SPECIAL ISSUANCE')) {
     return false;

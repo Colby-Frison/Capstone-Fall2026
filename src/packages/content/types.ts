@@ -9,12 +9,15 @@ export type Disposition =
   | 'special-issuance'
   | 'unknown';
 
+export type RequirementRole = 'bring_list' | 'ame_review' | 'note';
+
 export interface DocumentItem {
   id: string;
   label: string;
   required: boolean;
   description?: string;
   kind?: string;
+  role?: RequirementRole;
 }
 
 export interface SubCondition {
@@ -24,8 +27,10 @@ export interface SubCondition {
   summary: string;
   certificationNote: string;
   documents: DocumentItem[];
+  ameReviewNotes?: string[];
   medicationNotes?: string[];
   timeConstraints?: string[];
+  certificateClasses?: string[];
   sourcePage?: number;
   warnings?: string[];
 }
@@ -61,6 +66,8 @@ export interface Medication {
 export interface NormalizedRequirement {
   kind: string;
   text: string;
+  role?: RequirementRole | string;
+  required?: boolean;
 }
 
 export interface NormalizedRecord {

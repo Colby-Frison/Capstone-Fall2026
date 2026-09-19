@@ -171,3 +171,57 @@ def test_time_constraints_keep_relational_meaning() -> None:
     assert extract_time_constraints("Stable for 5 or more years") == (
         "5 or more years",
     )
+
+
+def test_promote_section_label_condition_to_disease_title() -> None:
+    from ame_parser.text import promote_section_label_condition
+
+    condition, scenario, category = promote_section_label_condition(
+        "Neurology",
+        "Epilepsy (Seizure Disorder)",
+        None,
+    )
+    assert condition == "Epilepsy (Seizure Disorder)"
+    assert scenario == "General pathway"
+    assert category == "Neurology"
+
+
+def test_is_valid_scenario_rejects_class_only_and_shreds() -> None:
+    from ame_parser.page_types import is_valid_scenario
+
+    assert not is_valid_scenario("All classes")
+    assert not is_valid_scenario("All Classes (Continued)")
+    assert not is_valid_scenario("Symptoms resolved with")
+    assert not is_valid_scenario("A current, detailed neurological evaluation")
+    assert is_valid_scenario("All others")
+    assert is_valid_scenario("Treatment completed ten (10) or more years ago")
+
+
+def test_cross_reference_disposition_stays_unknown() -> None:
+    from ame_parser.text import classify_disposition, is_cross_reference_disposition
+
+    assert is_cross_reference_disposition("See CAD protocol")
+    assert is_cross_reference_disposition("See disposition table on page 12")
+    disposition, warnings = classify_disposition("See CAD protocol")
+    assert disposition is Disposition.UNKNOWN
+    assert "cross_reference" in warnings
+
+
+def test_requirement_role_and_required_flags() -> None:
+    from ame_parser.models import RequirementRole
+
+    requirements = extract_requirements(
+        "Submit the following for FAA review:\n"
+        "1. Clinical Progress Note.\n"
+        "2. MRI if already performed.\n"
+        "3. The AME must review a neurological evaluation within 12 months."
+    )
+    progress = next(item for item in requirements if "Clinical Progress" in item.text)
+    mri = next(item for item in requirements if "MRI" in item.text)
+    ame = next(item for item in requirements if "AME must" in item.text)
+    assert progress.role is RequirementRole.BRING_LIST
+    assert progress.required is True
+    assert mri.role is RequirementRole.BRING_LIST
+    assert mri.required is False
+    assert ame.role is RequirementRole.AME_REVIEW
+    assert ame.required is False

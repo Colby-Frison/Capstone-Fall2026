@@ -26,6 +26,12 @@ class RequirementKind(str, Enum):
     OTHER = "OTHER"
 
 
+class RequirementRole(str, Enum):
+    BRING_LIST = "bring_list"
+    AME_REVIEW = "ame_review"
+    NOTE = "note"
+
+
 @dataclass(frozen=True)
 class SourceReference:
     document: str
@@ -38,6 +44,8 @@ class SourceReference:
 class Requirement:
     text: str
     kind: RequirementKind = RequirementKind.OTHER
+    role: RequirementRole = RequirementRole.BRING_LIST
+    required: bool = True
 
 
 @dataclass(frozen=True)
