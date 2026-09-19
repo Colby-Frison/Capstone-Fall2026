@@ -52,6 +52,28 @@ def test_ame_guide_pages_match_human_reviewed_goldens() -> None:
 
 
 @pytest.mark.integration
+def test_ame_guide_expanded_archetypes_match_goldens() -> None:
+    """Eye disposition tables + cardiac CLASS page beyond the ENT slice."""
+
+    eye = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(95, 100))
+    cardiac = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(198, 198))
+    combined_records = (*eye.records, *cardiac.records)
+
+    class Combined:
+        records = combined_records
+
+    assert_goldens(Combined(), GOLDENS["ame_guide_expanded"])
+
+
+@pytest.mark.integration
+def test_ame_guide_skips_checklist_and_caci_pages() -> None:
+    checklist = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(88, 88))
+    caci = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(173, 173))
+    assert checklist.records == ()
+    assert caci.records == ()
+
+
+@pytest.mark.integration
 def test_oneguide_pages_match_human_reviewed_goldens() -> None:
     result = AmeParser().parse(
         RESOURCES / "OneGuide_Neurology.pdf", page_range=(5, 14)
