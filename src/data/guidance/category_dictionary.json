@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "description": "Predetermined browse categories for FAA guidance conditions. Lookup order: exact condition_map, item_map (from ITEM N headings), alias_map (extracted PDF labels), then first matching pattern.",
+  "categories": [
+    "Head, Face, Neck, and Scalp",
+    "Nose and Sinuses",
+    "Ears",
+    "Eyes",
+    "Lungs and Chest",
+    "Cardiovascular",
+    "Abdomen and Digestive",
+    "Skin",
+    "Musculoskeletal",
+    "Neurology",
+    "Psychiatric",
+    "Blood and Lymphatics",
+    "Endocrine",
+    "Genitourinary",
+    "Sleep",
+    "Other"
+  ],
+  "item_map": {
+    "25": "Head, Face, Neck, and Scalp",
+    "26": "Head, Face, Neck, and Scalp",
+    "27": "Nose and Sinuses",
+    "28": "Nose and Sinuses",
+    "29": "Ears",
+    "30": "Ears",
+    "31": "Eyes",
+    "32": "Eyes",
+    "33": "Eyes",
+    "34": "Eyes",
+    "35": "Lungs and Chest",
+    "36": "Cardiovascular",
+    "37": "Abdomen and Digestive",
+    "38": "Skin",
+    "39": "Genitourinary",
+    "40": "Genitourinary",
+    "41": "Genitourinary",
+    "42": "Musculoskeletal",
+    "43": "Musculoskeletal",
+    "46": "Neurology",
+    "47": "Psychiatric",
+    "48": "Blood and Lymphatics",
+    "49": "Endocrine"
+  },
+  "alias_map": {
+    "neurology": "Neurology",
+    "inner ear": "Ears",
+    "nose": "Nose and Sinuses",
+    "sinus conditions": "Nose and Sinuses",
+    "eyes - procedures": "Eyes",
+    "eyes - refractive surgery": "Eyes",
+    "eyes - general": "Eyes",
+    "eyes general": "Eyes",
+    "stroke": "Neurology",
+    "situational depression": "Psychiatric",
+    "arrhythmias": "Cardiovascular",
+    "coronary heart disease": "Cardiovascular",
+    "raynaud's syndrome": "Cardiovascular",
+    "labyrinthitis": "Ears",
+    "middle ear abnormalities": "Ears",
+    "outer ear abnormalities": "Ears",
+    "neuropath": "Neurology",
+    "neuralgia": "Neurology",
+    "bell's palsy": "Neurology",
+    "cognitive or mental impairment or dysfunction": "Neurology",
+    "unexplained loss of consciousness (uloc)": "Neurology",
+    "diabetes insipidus or polyuria": "Endocrine"
+  },
+  "condition_map": {
+    "ACUTE OR CHRONIC DISEASE": "Ears",
+    "NOSE": "Nose and Sinuses",
+    "ALLERGIES": "Nose and Sinuses",
+    "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)": "Ears",
+    "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions": "Cardiovascular",
+    "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)": "Lungs and Chest",
+    "CEREBRAL PALSY": "Musculoskeletal",
+    "GOUT AND PSEUDOGOUT": "Musculoskeletal",
+    "RESTLESS LEG SYNDROME (RLS)": "Sleep",
+    "SLEEP APNEA": "Sleep",
+    "CENTRAL SLEEP APNEA": "Sleep",
+    "NARCOLEPSY and IDIOPATHIC HYPERSOMNIA": "Sleep",
+    "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)": "Cardiovascular",
+    "ARTERIOVENOUS MALFORMATION (AVM) - Neurological (Brain or Spinal Cord)": "Neurology",
+    "NEOPLASMS": "Other",
+    "Condition Not Listed": "Other",
+    "GENERAL DISORDERS": "Other",
+    "INFLAMMATORY CONDITIONS": "Other",
+    "OPTIC NEURITIS": "Eyes",
+    "Cerebrovascular Accident (CVA) or Transient Ischemic Attack (TIA)": "Neurology"
+  },
+  "patterns": [
+    {
+      "category": "Cardiovascular",
+      "match": "arrhythmia|atrial fibrillation|a-flutter|atrial flutter|\\bpacemaker\\b|wolff|\\bwpw\\b|coronary|\\bheart\\b|cardiac transplant|valvular|\\bmitral\\b|endocarditis|cardiomyopathy|\\bhcm\\b|chest pain|congenital heart|\\bvascular\\b|raynaud|buerger|fibromuscular|\\bpots\\b|tachycardia|premature atrial|\\bafib\\b"
+    },
+    {
+      "category": "Ears",
+      "match": "\\bear\\b|labyrinth|meniere|mastoid|cochlear|perilymph|semicircular|\\bvertigo\\b|vestibular|\\bpppd\\b|acoustic neuroma|\\botitis\\b|cerumen|tympanic|eustachian|acute or chronic disease"
+    },
+    {
+      "category": "Nose and Sinuses",
+      "match": "\\bnose\\b|sinus|anosmia|allerg|rhinitis|alpha-gal|hay fever"
+    },
+    {
+      "category": "Eyes",
+      "match": "\\beyes?\\b|cataract|\\blens\\b|amblyopia|diplopia|retina|\\boptic\\b|coloboma|blepharitis|conjunctivitis|chorioretinitis|\\bpupils\\b|ocular|lattice|retinoschisis|refractive|histoplasmosis"
+    },
+    {
+      "category": "Neurology",
+      "match": "epilepsy|seizure|\\bstroke\\b|\\bcva\\b|\\btia\\b|transient ischemic|neuropath|neuralgia|neurofibroma|multiple sclerosis|parkinson(?:'s)? disease|parkinsonism|huntington|\\bals\\b|motor neuron|guillain|myasthenia|poliomyelitis|\\bpolio\\b|meningitis|encephalitis|\\bbrain\\b|cerebral(?! palsy)|chiari|hydrocephalus|pseudotumor|tourette|\\btic disorder\\b|dystonia|\\btremor\\b|\\buloc\\b|loss of consciousness|amnesia|cognitive|alzheimer|\\bdementia\\b|\\bmci\\b|deep brain|head injury|neurolog|bell'?s palsy|facial nerve|cranial nerve"
+    },
+    {
+      "category": "Psychiatric",
+      "match": "psychiatr|anxiety|depression|\\bptsd\\b|\\badhd\\b|attention-deficit|situational|adjustment disorder"
+    },
+    {
+      "category": "Lungs and Chest",
+      "match": "\\blung\\b|pleura|mediastinum|\\bcopd\\b|emphysema|bronch|pulmonary|\\bsarcoid|sleep apnea|pectus"
+    },
+    {
+      "category": "Sleep",
+      "match": "sleep apnea|narcolepsy|hypersomnia|restless leg|\\brls\\b|central sleep"
+    },
+    {
+      "category": "Musculoskeletal",
+      "match": "spine|musculoskeletal|extremit|paraplegia|osteomyelitis|collagen|cerebral palsy|\\bgout\\b"
+    },
+    {
+      "category": "Skin",
+      "match": "\\bskin\\b|cutaneous|urticarial"
+    },
+    {
+      "category": "Blood and Lymphatics",
+      "match": "\\bblood\\b|leukemia|lymphoma|hodgkin|lymphatic|\\bhiv\\b|anemia"
+    },
+    {
+      "category": "Endocrine",
+      "match": "diabetes|thyroid|parathyroid|adrenal|cushing|acromegaly|pituitary|prolactin|hormone|hypoglycemia|endocrine|polyuria|addison"
+    },
+    {
+      "category": "Abdomen and Digestive",
+      "match": "abdomen|gerd|barrett|cirrhosis|\\bliver\\b|pancrea|cholelith|esophageal|viscera|\\banus\\b|\\bcsid\\b|sucrase"
+    },
+    {
+      "category": "Genitourinary",
+      "match": "urinary|kidney|polycystic|g-u|gu cancer"
+    },
+    {
+      "category": "Head, Face, Neck, and Scalp",
+      "match": "head, face, neck|speech impediment|stutter"
+    },
+    {
+      "category": "Other",
+      "match": "condition not listed|general disorder|inflammatory|\\bneoplasms\\b"
+    }
+  ]
+}
