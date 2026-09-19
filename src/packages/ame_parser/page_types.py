@@ -234,6 +234,8 @@ def is_valid_scenario(text: str | None) -> bool:
         upper,
     ):
         return False
+    if re.fullmatch(r"\(?\s*All\s+Classes?\s*(?:\(Continued\))?\s*\)?", value, re.I):
+        return False
     if upper.startswith(
         (
             "SUBMITTED",

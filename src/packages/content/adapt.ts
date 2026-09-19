@@ -145,7 +145,7 @@ function isBoilerplateHeader(text: string): boolean {
 function peelRequirementPrefix(text: string): string {
   return cleanText(text)
     .replace(
-      /^(?:Submit the following(?:\s+for(?:\s+FAA)?\s+review)?|It must(?:\s+specifically)?\s+include)\s*:?\s*/i,
+      /^(?:(?:After [^.]{0,80}, )?(?:The pilot should )?Submit the following(?:\s+(?:to the FAA for review|for(?:\s+FAA)?\s+review))?|It must(?:\s+specifically)?\s+include)\s*:?\s*/i,
       '',
     )
     .replace(/\s+Note(?:\(s\))?\s*:.*$/i, '')
@@ -170,6 +170,19 @@ function firstSentence(text: string, max = 180): string {
 function expandRequirementText(text: string): string[] {
   let cleaned = peelRequirementPrefix(cleanText(text));
   cleaned = stripOrderingMarker(cleaned);
+  cleaned = cleaned.replace(
+    /^(?:All(?:\s+Classes?)?|1st(?:\s+class)?|2nd(?:\s+class)?|3rd(?:\s+class)?)\s+/i,
+    '',
+  );
+  cleaned = cleaned
+    .replace(/(?::\s*)?\b(?:DEFER|ISSUE|DENY|SPECIAL\s+ISSUANCE)\b.*$/i, '')
+    .replace(
+      /\s+(?:Submit the information to the FAA\b.*|Summarize this history in Block 60\b.*)$/i,
+      '',
+    )
+    .replace(/(?:^|\s)o\s+(?=[A-Za-z(])/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
   if (!cleaned || isBoilerplateHeader(cleaned)) return [];
   if (/^note(?:\(s\))?\s*:/i.test(cleaned)) return [];
 
@@ -177,7 +190,7 @@ function expandRequirementText(text: string): string[] {
     return cleaned
       .split(/\s*[•·●]\s*/)
       .map((part) => stripOrderingMarker(peelRequirementPrefix(part)))
-      .filter((part) => part.length >= 8 && !isBoilerplateHeader(part));
+      .filter((part) => part.length >= 4 && !isBoilerplateHeader(part));
   }
 
   // Numbered lists flattened onto one line: "1. Foo 2. Bar" (skip Block 60.)
@@ -194,6 +207,35 @@ function expandRequirementText(text: string): string[] {
           !isBoilerplateHeader(part) &&
           !/^Block\s+\d+$/i.test(part),
       );
+  }
+
+  // Semicolon-separated FAA checklist fragments.
+  if ((cleaned.match(/;/g) || []).length >= 2) {
+    const specifically = cleaned.match(/\bIt must\s+specifically\s+include\s*:?\s*/i);
+    const chunks: string[] = [];
+    if (specifically && specifically.index != null) {
+      const head = cleaned.slice(0, specifically.index).replace(/[;:\s]+$/, '').trim();
+      const tail = cleaned.slice(specifically.index + specifically[0].length).trim();
+      if (head) chunks.push(head);
+      chunks.push(
+        ...tail
+          .split(/\s*;\s*/)
+          .map((part) =>
+            stripOrderingMarker(part.replace(/^(?:and\s+)/i, '').trim()),
+          )
+          .filter((part) => part.length >= 4),
+      );
+    } else {
+      chunks.push(
+        ...cleaned
+          .split(/\s*;\s*/)
+          .map((part) =>
+            stripOrderingMarker(part.replace(/^(?:and\s+)/i, '').trim()),
+          )
+          .filter((part) => part.length >= 4),
+      );
+    }
+    if (chunks.length > 1) return chunks;
   }
 
   return [cleaned];
