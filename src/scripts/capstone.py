@@ -25,7 +25,18 @@ def banner(title: str) -> None:
 
 
 def resolve_pm() -> list[str]:
-    for name in ("pnpm", "npm"):
+    # Prefer the lockfile that exists so local + Vercel stay consistent.
+    # package-lock.json → npm; pnpm-lock.yaml alone → pnpm; both → npm.
+    has_npm_lock = (WEB_DIR / "package-lock.json").exists()
+    has_pnpm_lock = (WEB_DIR / "pnpm-lock.yaml").exists()
+    if has_npm_lock:
+        order = ("npm", "pnpm")
+    elif has_pnpm_lock:
+        order = ("pnpm", "npm")
+    else:
+        order = ("npm", "pnpm")
+
+    for name in order:
         if sys.platform == "win32":
             cmd_path = shutil.which(f"{name}.cmd")
             if cmd_path:
@@ -115,6 +126,17 @@ def cmd_dev(args: argparse.Namespace) -> int:
         subprocess.call(cmd, cwd=str(WEB_DIR), shell=sys.platform == "win32")
     )
 
+
+def cmd_build(args: argparse.Namespace) -> int:
+    """Production build of the Vite web app (same as Vercel / test --section web)."""
+    pm = ensure_web_deps()
+    banner("Building web app for production")
+    run(pm + ["run", "build"], cwd=WEB_DIR)
+    dist = WEB_DIR / "dist"
+    print(f"Build output: {dist}")
+    return 0
+
+
 def cmd_parse(args: argparse.Namespace) -> int:
     banner("Parsing PDF into guidance data")
     GUIDANCE_DIR.mkdir(parents=True, exist_ok=True)
@@ -177,6 +199,12 @@ def build_parser() -> argparse.ArgumentParser:
         help="Print how to refresh guidance JSON from PDFs",
     )
     dev.set_defaults(func=cmd_dev)
+
+    build = sub.add_parser(
+        "build",
+        help="Production-build the web app under src/apps/web (Vite → dist/)",
+    )
+    build.set_defaults(func=cmd_build)
 
     parse = sub.add_parser("parse", help="Parse a PDF into src/data/guidance")
     parse.add_argument(
