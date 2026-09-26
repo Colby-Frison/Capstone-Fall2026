@@ -121,7 +121,7 @@ function HomeWithHeader({ onNavigate }: { onNavigate: (page: Page, id?: string) 
       <header style={{ background: '#1b2d4f', borderBottom: '1px solid #243e6b', position: 'sticky', top: 0, zIndex: 50 }}>
         <div style={{ background: '#0f1e35', borderBottom: '1px solid #243e6b', padding: '5px 24px', textAlign: 'center' }}>
           <span style={{ color: '#7fa8d0', fontSize: '0.72rem', letterSpacing: '0.04em', fontFamily: "'DM Sans', sans-serif" }}>
-            Educational prototype · Based on FAA AME Guide sources · Not an official FAA product · Not medical or legal advice
+            Learning tool · Based on the FAA medical examiner guide · Not an official FAA site · Not medical or legal advice
           </span>
         </div>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', height: 64, gap: 32 }}>

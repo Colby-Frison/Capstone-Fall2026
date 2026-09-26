@@ -36,7 +36,7 @@ export default function Footer({ onNavigate }: Props) {
               Pilots Guide to Medical Certification
             </div>
             <p style={{ color: '#6b85a8', fontSize: '0.825rem', lineHeight: 1.6, margin: 0 }}>
-              Educational prototype based on FAA AME Guide source materials. Not an official FAA product.
+              A learning tool based on the FAA medical examiner guide. Not an official FAA product.
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export default function Footer({ onNavigate }: Props) {
               Important Notice
             </div>
             <p style={{ color: '#6b85a8', fontSize: '0.8rem', lineHeight: 1.6, margin: 0 }}>
-              This tool is for research and preparation only. It does not provide medical advice, legal advice, or guarantee any certification outcome. Always verify information against current FAA materials and consult your Aviation Medical Examiner.
+              Use this to look things up and get ready. It is not medical advice, legal advice, or a promise about your certificate. Check the current FAA materials and talk with your medical examiner.
             </p>
           </div>
         </div>

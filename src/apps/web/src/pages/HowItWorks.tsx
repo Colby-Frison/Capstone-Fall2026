@@ -9,41 +9,41 @@ export default function HowItWorks({ onNavigate }: Props) {
     {
       num: '01',
       title: 'Search or browse for your condition',
-      body: 'Use the search bar to find a condition, sub-condition, or medication by name. You can also browse all conditions by category — Neurology, Cardiology, Mental Health, and more.',
+      body: 'Use the search bar to find a condition or medication by name. You can also browse conditions by category, such as Neurology, Cardiology, and Mental Health.',
       action: { label: 'Search now', page: 'search' as Page },
     },
     {
       num: '02',
-      title: 'Review the published certification pathway',
-      body: 'Each condition page shows the disposition for that condition from published FAA AME Guide material: Issue, Deferral, Denial, or Special Issuance. Select a pathway when the same condition has more than one presentation.',
+      title: 'Read what the guide says',
+      body: 'Each condition page shows whether a certificate can be issued, needs FAA review, is usually not allowed, or needs a special approval. If the condition has more than one situation, choose the row that matches you.',
       action: null,
     },
     {
       num: '03',
       title: 'Build your document preparation checklist',
-      body: 'The Information to submit section lists the records, test results, and medications called for by the guidance. Use the checklist to track what you have gathered before the examination. Examiner review items are listed separately and are not checkboxes.',
+      body: 'The What to bring section lists records, test results, and medications from the guide. Use the checklist to track what you have gathered. Items the medical examiner reviews at the visit are listed separately and are not checkboxes.',
       action: null,
     },
     {
       num: '04',
       title: 'See your Aviation Medical Examiner',
-      body: 'Arrive prepared. An AME who receives a complete documentation package at the time of examination can make a same-day issuance decision in many cases. Missing documentation is the most common cause of avoidable deferral delays.',
+      body: 'Arrive prepared. When the medical examiner has the full set of records at the visit, many cases can be decided that day. Missing records are a common reason the file has to wait for the FAA.',
       action: null,
     },
   ];
 
   const whatItDoes = [
-    'Shows published FAA disposition guidance (issue / deferral / denial / special issuance) for conditions in the dataset',
-    'Lists documents, tests, and records called for by the guidance for each condition',
-    'Covers medication flight-status notes where present in source materials',
-    'Presents information sourced from the FAA AME Guide and related OneGuide materials',
+    'Shows what the FAA guide says for conditions in this site: can be issued, needs FAA review, usually not allowed, or needs special approval',
+    'Lists documents, tests, and records the guide asks you to bring',
+    'Includes notes about medications when the guide mentions them',
+    'Uses the FAA Guide for Aviation Medical Examiners and related OneGuide materials',
   ];
 
   const whatItDoesNot = [
-    'Provide a personal medical certification decision or guarantee',
-    'Replace the AME examination or FAA review process',
-    'Account for conditions discovered during the examination',
-    'Offer medical, legal, or certification advice',
+    'Decide your own medical certificate or promise a result',
+    'Replace the medical exam or the FAA review',
+    'Cover conditions found for the first time during the exam',
+    'Give medical, legal, or certificate advice',
     'Store or transmit any personal medical information',
     'Represent an official FAA product or service',
   ];
@@ -66,7 +66,7 @@ export default function HowItWorks({ onNavigate }: Props) {
             How This Works
           </h1>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '1rem', color: '#a0bcd8', margin: 0, lineHeight: 1.6 }}>
-            A research and preparation tool — not a medical decision engine
+            A way to look things up and get ready. It does not decide your case.
           </p>
         </div>
       </div>
@@ -86,10 +86,10 @@ export default function HowItWorks({ onNavigate }: Props) {
             Where the information comes from
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.925rem', color: '#475569', lineHeight: 1.65, margin: '0 0 16px' }}>
-            The content in this guide is derived from the <strong>FAA Guide for Aviation Medical Examiners (AME Guide)</strong> and related OneGuide materials — the same documents that Aviation Medical Examiners consult when evaluating pilot applicants. These documents contain published disposition rules for hundreds of medical conditions and are the authoritative source for AME issuance decisions.
+            The information comes from the <strong>FAA Guide for Aviation Medical Examiners</strong> and related OneGuide materials. Those are the same documents a pilot medical examiner uses. They spell out, for hundreds of conditions, whether a certificate can be issued.
           </p>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.925rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
-            This prototype works from PDF extracts of those materials, parsed into structured form so they can be searched and displayed deterministically. The same query against the same data version always returns the same published answer.
+            This site uses extracts of those PDFs so you can search them. The same search on the same version of the data always shows the same text from the guide.
           </p>
         </div>
 
@@ -212,7 +212,7 @@ export default function HowItWorks({ onNavigate }: Props) {
             About the certification classes
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#1b4f72', lineHeight: 1.65, margin: 0 }}>
-            The FAA issues three classes of medical certificate: First Class (required for Airline Transport Pilots), Second Class (required for Commercial Pilots), and Third Class (required for Private Pilots). Some conditions have different disposition thresholds by class. This prototype presents general published guidance; consult your AME for class-specific evaluation.
+            The FAA has three kinds of medical certificate. First Class is for airline pilots, Second Class is for commercial pilots, and Third Class is for private pilots. Some conditions are treated differently by class. This site shows the general guide. Ask your medical examiner how it applies to your class.
           </p>
         </div>
       </div>

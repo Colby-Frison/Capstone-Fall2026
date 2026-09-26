@@ -112,7 +112,7 @@ describe('content adapter', () => {
     expect(condition.name.toLowerCase()).toContain('allerg');
     expect(condition.category).toBe('Nose and Sinuses');
     expect(condition.disposition).toBe('deferral');
-    expect(condition.summary).toContain('2 published certification pathways');
+    expect(condition.summary).toContain('2 situations in the FAA guide');
     expect(condition.subConditions).toHaveLength(2);
     expect(condition.subConditions[0].disposition).toBe('issue');
     expect(condition.subConditions[1].documents.length).toBeGreaterThan(0);

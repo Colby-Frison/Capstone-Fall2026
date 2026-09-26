@@ -37,7 +37,7 @@ export default function About({ onNavigate }: Props) {
             <strong>Pilots Guide to Medical Certification</strong> is an educational prototype developed as a Computer Science Capstone project (CS-4273) at the University of Oklahoma, Fall 2026 (Group F). The project is mentored by Micheal Coffman and Rebecca Mauldin.
           </p>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.925rem', color: '#475569', lineHeight: 1.65, margin: '0 0 14px' }}>
-            The goal of this prototype is to make FAA medical certification guidance easier for pilots to research and understand before an Aviation Medical Examiner (AME) appointment. Content is drawn from the FAA Guide for Aviation Medical Examiners and related OneGuide materials, parsed into structured form for searchability.
+            The goal is to make the FAA medical guide easier to read before a visit with a pilot medical examiner. The text comes from the FAA Guide for Aviation Medical Examiners and related OneGuide materials.
           </p>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.925rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
             The project continues research from Fall 2025 and Spring 2026 Capstone teams and is designed to be suitable for eventual review by the FAA Office of Communication.
@@ -58,13 +58,13 @@ export default function About({ onNavigate }: Props) {
             Official Disclaimer
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#7f1d1d', lineHeight: 1.65, margin: '0 0 10px' }}>
-            <strong>This is an educational Capstone prototype. It is not an official FAA product and does not provide medical, legal, or certification advice.</strong>
+            <strong>This is a student project for learning. It is not an official FAA site, and it is not medical, legal, or certificate advice.</strong>
           </p>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#991b1b', lineHeight: 1.65, margin: '0 0 10px' }}>
-            Published guidance may change; content must be verified against current FAA materials and mentor-approved sources. The tool addresses known conditions only as represented in source documents and does not account for findings discovered during an AME examination.
+            The guide can change. Check the current FAA materials. This site only covers conditions you already know about, not something found for the first time at the exam.
           </p>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#991b1b', lineHeight: 1.65, margin: 0 }}>
-            Individual outcomes remain the responsibility of the applicant, their physicians, the AME, and the FAA.
+            You, your doctors, your medical examiner, and the FAA are responsible for the result.
           </p>
         </div>
 
