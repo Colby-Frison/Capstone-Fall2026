@@ -393,15 +393,14 @@ function CopyConditionLink({ conditionId }: { conditionId: string }) {
   }
 
   return (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexShrink: 0 }}>
     <button
       type="button"
       onClick={copyLink}
       aria-label={copied ? 'Link copied' : 'Copy link to this condition'}
-      title={copied ? 'Link copied' : 'Copy link'}
+      title="Copy link"
       style={{
         position: 'relative',
-        flexShrink: 0,
-        alignSelf: 'flex-start',
         width: 23,
         height: 23,
         padding: 0,
@@ -446,5 +445,22 @@ function CopyConditionLink({ conditionId }: { conditionId: string }) {
         <path d="M3.5 8.5 L6.5 11.5 L12.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </button>
+    <span
+      style={{
+        marginTop: copied ? 4 : 0,
+        maxHeight: copied ? 16 : 0,
+        overflow: 'hidden',
+        fontFamily: "'Inter', sans-serif",
+        fontSize: '0.7rem',
+        lineHeight: 1,
+        color: '#15803d',
+        whiteSpace: 'nowrap',
+        opacity: copied ? 1 : 0,
+        transition: 'opacity 180ms ease, max-height 180ms ease, margin-top 180ms ease',
+      }}
+    >
+      Link copied
+    </span>
+    </div>
   );
 }
