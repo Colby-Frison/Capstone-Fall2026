@@ -105,6 +105,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                 {condition.name}
               </h1>
             </div>
+            <CopyConditionLink conditionId={condition.id} />
           </div>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.975rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
             {condition.summary}
@@ -362,5 +363,88 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
         </div>
       </div>
     </div>
+  );
+}
+
+function CopyConditionLink({ conditionId }: { conditionId: string }) {
+  const [copied, setCopied] = useState(false);
+
+  async function copyLink() {
+    const url = new URL(window.location.href);
+    url.search = '';
+    url.hash = '';
+    url.searchParams.set('condition', conditionId);
+    const link = url.toString();
+    try {
+      await navigator.clipboard.writeText(link);
+    } catch {
+      const input = document.createElement('textarea');
+      input.value = link;
+      input.setAttribute('readonly', '');
+      input.style.position = 'fixed';
+      input.style.left = '-9999px';
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
+    }
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 2000);
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={copyLink}
+      aria-label={copied ? 'Link copied' : 'Copy link to this condition'}
+      title={copied ? 'Link copied' : 'Copy link'}
+      style={{
+        position: 'relative',
+        flexShrink: 0,
+        alignSelf: 'flex-start',
+        width: 23,
+        height: 23,
+        padding: 0,
+        background: 'transparent',
+        border: 'none',
+        cursor: 'pointer',
+      }}
+    >
+      <svg
+        width="23"
+        height="23"
+        viewBox="0 0 16 16"
+        fill="none"
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          inset: 0,
+          color: '#64748b',
+          opacity: copied ? 0 : 1,
+          transform: copied ? 'scale(0.82)' : 'scale(1)',
+          transition: 'opacity 180ms ease, transform 180ms ease',
+        }}
+      >
+        <rect x="5.5" y="5.5" width="8" height="8" rx="1.2" stroke="currentColor" strokeWidth="1.4" />
+        <path d="M10.5 5.5 V3.7 C10.5 3 9.9 2.5 9.2 2.5 H3.8 C3.1 2.5 2.5 3 2.5 3.7 V9.2 C2.5 9.9 3.1 10.5 3.8 10.5 H5.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+      </svg>
+      <svg
+        width="23"
+        height="23"
+        viewBox="0 0 16 16"
+        fill="none"
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          inset: 0,
+          color: '#15803d',
+          opacity: copied ? 1 : 0,
+          transform: copied ? 'scale(1)' : 'scale(0.82)',
+          transition: 'opacity 180ms ease, transform 180ms ease',
+        }}
+      >
+        <path d="M3.5 8.5 L6.5 11.5 L12.5 4.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </button>
   );
 }
