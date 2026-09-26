@@ -4,8 +4,8 @@ Design and UI requirements for presenting AME / OneGuide guidance in the Pilots 
 
 ## Product questions
 
-1. **Certification pathway** for a known condition (disposition + selected pathway).
-2. **What to bring** to the AME appointment (structured checklist).
+1. **Disposition** for a known condition and the selected pathway.
+2. **Information to submit** for that pathway (structured checklist).
 
 ## Information hierarchy
 
@@ -13,11 +13,11 @@ Design and UI requirements for presenting AME / OneGuide guidance in the Pilots 
 |-------|--------------|--------------|
 | Category | `category` | Browse sidebar + breadcrumb chip |
 | Condition | `condition` | Page title; Browse / Search row |
-| Pathway (sub-condition) | `scenario` | Accordion; drives R1 / R2 |
+| Pathway | `scenario` | Pathway list; drives Disposition and Information to submit |
 | Classes | `certificate_classes` | Chips under pathway (“All”, “1st”, “2nd”, “3rd”) |
 | Disposition | `disposition` | Badge + explanation block |
 | Bring list | requirements with `role=bring_list` | Checklist grouped by kind |
-| AME review | requirements with `role=ame_review` | Read-only callout (not checkboxes) |
+| Examiner review | requirements with `role=ame_review` | Separate read-only section (not checkboxes) |
 | Time limits | `time_constraints` | Chips under pathway |
 | Medication notes | `medication_notes` | Dedicated section |
 | Warnings / cross-refs | `warnings`, See-… `action` | Calm notice callout |
@@ -25,29 +25,34 @@ Design and UI requirements for presenting AME / OneGuide guidance in the Pilots 
 
 ## Condition Detail (core screen)
 
-### R1 — Pathway panel
-- Large disposition badge (Issue / Deferral / Denial / Special Issuance / Unknown).
-- Plain-language pathway summary.
-- Certificate class chips when present.
-- Certification note from `action` (including “See related guidance: …” for cross-references).
-- Cross-reference notice when `warnings` contains `cross_reference`.
+### Disposition
+- Disposition badge and a short explanation of that status label (Issue, Deferral, Denial, Special Issuance, or Unknown).
+- Certificate class chips and time limits when present.
+- Source instruction from `action`, shown once. A cross-reference uses that same sentence in the related-guidance notice instead of a second copy.
+- Do not repeat the pathway title’s checklist excerpt or the first materials item in this section.
+- The known-condition limit is stated once, in the page disclaimer.
 
-### Pathway list
-- Expandable list of pathways; one selected pathway drives R1/R2.
+### Pathways
+- List of pathways; one selected pathway drives Disposition and Information to submit.
+- A pathway row shows the published name and disposition label. It does not repeat the materials list.
 - Never show truncated or invalid pathway titles.
+- Changing the pathway clears session checklist checks.
 
-### R2 — What to Bring
-- Group checklist by kind labels:
-  - Records & documents (`DOCUMENT`)
-  - Tests & imaging (`TEST`)
+### Information to submit
+- Summary count of items, required items, and often-requested items.
+- One panel per kind that has items:
+  - Records and documents (`DOCUMENT`)
+  - Tests and imaging (`TEST`)
   - Medications (`MEDICATION`)
   - Other (`OTHER`)
-- Within each group, subgroup **Required** vs **Often requested** using `required`.
+- Required items first. Often-requested items follow under a quieter subheading and are labeled on the row.
+- Progress counts only items on the current pathway.
 - Session-only checkbox state (no account / no persistence).
-- Empty state: calm copy that no additional paperwork is listed for this pathway.
+- Empty state: calm copy that no additional materials are listed for this pathway.
+- One short note under the list, plus the page disclaimer.
 
-### AME evaluation notes
-- Separate short section below the checklist when `ameReviewNotes` exist.
+### Examiner review
+- Separate section below the checklist when `ameReviewNotes` exist.
 - Not interactive checkboxes.
 
 ## Browse / Search
@@ -67,7 +72,8 @@ Align with the Figma Make brief (`src/apps/web/src/imports/pasted_text/pilots-me
 
 ## Manual verification checklist
 
-- [ ] ALL leukemia → “All others”: grouped bring-list (≥10 items) + separate AME review line.
+- [ ] ALL leukemia → “All others”: grouped materials list (≥10 items) + separate Examiner review section.
+- [ ] Switching pathways clears checklist checks. Condition Detail has no R1 or R2 labels.
 - [ ] Epilepsy / Neurology category: no condition titled “Neurology”; disease names browse correctly.
 - [ ] Eyes / CHD “See … table/protocol” pathway: UNKNOWN disposition with related-guidance callout and action text.
 - [ ] Browse: category sidebar excludes General; pathway counts and disposition badges render.

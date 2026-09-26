@@ -183,7 +183,7 @@ export default function Home({ onNavigate }: Props) {
                 whiteSpace: 'nowrap',
               }}
             >
-              Two questions this site answers
+              What this guide covers
             </span>
             <div style={{ height: 2, flex: 1, background: '#e2e8f0' }} />
           </div>
@@ -199,24 +199,6 @@ export default function Home({ onNavigate }: Props) {
                 padding: '28px 28px 24px',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 36,
-                  height: 36,
-                  background: '#1b2d4f',
-                  borderRadius: 6,
-                  marginBottom: 16,
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  color: '#ffffff',
-                }}
-              >
-                R1
-              </div>
               <h2
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
@@ -252,24 +234,6 @@ export default function Home({ onNavigate }: Props) {
                 padding: '28px 28px 24px',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 36,
-                  height: 36,
-                  background: '#3b7fc4',
-                  borderRadius: 6,
-                  marginBottom: 16,
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  color: '#ffffff',
-                }}
-              >
-                R2
-              </div>
               <h2
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
@@ -397,7 +361,7 @@ export default function Home({ onNavigate }: Props) {
             {[
               { step: '01', label: 'Search or browse', detail: 'Find your condition or medication by name or category' },
               { step: '02', label: 'Review the pathway', detail: 'See the published disposition for your known condition' },
-              { step: '03', label: 'Build your document list', detail: 'Review the "what to bring" checklist for your AME visit' },
+              { step: '03', label: 'Review information to submit', detail: 'Use the materials list for the selected pathway before the examination' },
               { step: '04', label: 'See your AME', detail: 'Arrive prepared with the right records and test results' },
             ].map((item) => (
               <div key={item.step} style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>

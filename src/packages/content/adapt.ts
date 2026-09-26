@@ -616,7 +616,7 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
     const pathwayCount = subConditions.length;
     const summary = `${pathwayCount} published certification pathway${
       pathwayCount === 1 ? '' : 's'
-    } from FAA guidance. Select a pathway below for disposition and what to bring.`;
+    } from FAA guidance. Select a pathway for the disposition and the materials to submit.`;
     const certificationNote =
       'Pathway-specific notes appear after you select a sub-condition. Outcomes reflect published guidance only.';
 

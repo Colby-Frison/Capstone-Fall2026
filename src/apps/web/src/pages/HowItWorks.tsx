@@ -15,13 +15,13 @@ export default function HowItWorks({ onNavigate }: Props) {
     {
       num: '02',
       title: 'Review the published certification pathway',
-      body: 'Each condition page shows the disposition pathway based on published FAA AME Guide source material: Issue, Deferral, Denial, or Special Issuance. Select a specific sub-condition to see its precise pathway — different presentations of the same condition can have different outcomes.',
+      body: 'Each condition page shows the disposition for that condition from published FAA AME Guide material: Issue, Deferral, Denial, or Special Issuance. Select a pathway when the same condition has more than one presentation.',
       action: null,
     },
     {
       num: '03',
       title: 'Build your document preparation checklist',
-      body: 'The "What to Bring" section lists the records, test results, forms, and documentation called for by the guidance. Use the interactive checklist to track what you have and what you still need to gather before your AME appointment.',
+      body: 'The Information to submit section lists the records, test results, and medications called for by the guidance. Use the checklist to track what you have gathered before the examination. Examiner review items are listed separately and are not checkboxes.',
       action: null,
     },
     {
