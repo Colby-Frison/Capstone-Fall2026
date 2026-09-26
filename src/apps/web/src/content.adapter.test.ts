@@ -250,6 +250,52 @@ describe('content adapter', () => {
     expect(sub.documents.some((d) => !d.required)).toBe(true);
   });
 
+  it('splits a leukemia-style checklist and keeps examiner review off the bring list', () => {
+    const record: NormalizedRecord = {
+      ...fixture.records[1],
+      requirements: [
+        {
+          kind: 'DOCUMENT',
+          role: 'bring_list',
+          required: true,
+          text:
+            'A current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist. It must specifically include Initial staging; Treatments used; How long the condition has been stable or in remission; Recurrence(s); Risk of recurrence; Medication list: Dates started and stopped',
+        },
+        {
+          kind: 'DOCUMENT',
+          role: 'bring_list',
+          required: false,
+          text: 'Operative notes and discharge summary (if applicable)',
+        },
+        {
+          kind: 'TEST',
+          role: 'bring_list',
+          required: false,
+          text: 'Copies of lab including pathology reports if already performed',
+        },
+        {
+          kind: 'EVALUATION',
+          role: 'ame_review',
+          required: false,
+          text: 'The AME must review an oncology evaluation performed within the previous 12 months.',
+        },
+      ],
+    };
+    const docs = requirementsToDocuments(record);
+    expect(docs.length).toBeGreaterThanOrEqual(8);
+    expect(docs.every((doc) => doc.role === 'bring_list')).toBe(true);
+    expect(docs.some((doc) => /AME must/i.test(doc.label))).toBe(false);
+    expect(docs.some((doc) => doc.label.includes('Initial staging'))).toBe(true);
+    expect(docs.find((doc) => doc.label.includes('Operative notes'))?.required).toBe(
+      false,
+    );
+    expect(docs.find((doc) => doc.label.includes('pathology'))?.kind).toBe('TEST');
+    const notes = requirementsToAmeReviewNotes(record);
+    expect(notes).toEqual([
+      'The AME must review an oncology evaluation performed within the previous 12 months.',
+    ]);
+  });
+
   it('filters section-label conditions from browseable catalog', () => {
     const neurologyLabel: NormalizedGuidanceFile = {
       ...fixture,
