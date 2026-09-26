@@ -22,7 +22,7 @@ export default function DisclaimerCallout({ variant = 'default' }: Props) {
           <path d="M8 5v4M8 11v.5" stroke="#3b7fc4" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
         <p style={{ margin: 0, fontSize: '0.8rem', color: '#334155', lineHeight: 1.55, fontFamily: "'Inter', sans-serif" }}>
-          Published guidance for known conditions only. Does not account for findings discovered during the AME examination. This is educational information, not a certification decision or medical advice.
+          This covers conditions you already know about. It does not cover anything found for the first time at the exam. It is for learning, not a decision about your certificate and not medical advice.
         </p>
       </div>
     );
@@ -53,10 +53,10 @@ export default function DisclaimerCallout({ variant = 'default' }: Props) {
               marginBottom: 6,
             }}
           >
-            Educational Guidance — Not a Certification Decision
+            For learning only. Not a decision about your certificate.
           </div>
           <p style={{ margin: 0, fontSize: '0.85rem', color: '#475569', lineHeight: 1.6, fontFamily: "'Inter', sans-serif" }}>
-            Information on this site reflects published FAA AME Guide source material for conditions already known to the pilot. It does not account for findings discovered during the AME examination and does not guarantee any specific certification outcome. Individual outcomes are determined by the AME and the FAA based on the complete medical picture. Always verify guidance against current FAA materials.
+            This site repeats text from the FAA guide for conditions you already know about. It does not cover findings from the exam itself, and it does not promise a result. Your medical examiner and the FAA decide, using the full record. Check the current FAA materials before you rely on this page.
           </p>
         </div>
       </div>

@@ -118,10 +118,10 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, overflow: 'hidden' }}>
               <div style={{ padding: '20px 28px 16px', borderBottom: '1px solid #e2e8f0' }}>
                 <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: 0 }}>
-                  Pathways
+                  Which situation matches you
                 </h2>
                 <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#475569', margin: '6px 0 0', lineHeight: 1.5 }}>
-                  Each row is a published presentation of this condition. The disposition and the materials list below are for the selected row.
+                  Pick the row that fits. The result and the list of what to bring below are for that row.
                 </p>
               </div>
               <div style={{ padding: '12px 20px' }}>
@@ -163,12 +163,12 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, overflow: 'hidden' }}>
             <div style={{ padding: '20px 28px 0' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: 0 }}>
-                Disposition
+                What the guide says
               </h2>
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#475569', margin: '6px 0 0', lineHeight: 1.5 }}>
                 {selectedSub
-                  ? `Published outcome for ${selectedSub.name}. The label below is the guidance status. Supporting limits, certificate classes, and the source instruction follow it.`
-                  : 'Published outcome for this condition.'}
+                  ? `Result for ${selectedSub.name}. Time limits, certificate class, and the guide's own wording follow when the source includes them.`
+                  : 'Result for this condition.'}
               </p>
             </div>
 
@@ -211,7 +211,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                         color: '#334155',
                       }}
                     >
-                      {/^all$/i.test(cls) ? 'All classes' : cls}
+                      {/^all$/i.test(cls) ? 'All certificate classes' : `${cls} class`}
                     </span>
                   ))}
                 </div>
@@ -221,13 +221,13 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                 <div style={{ marginTop: 20, padding: '12px 16px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 6 }}>
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#1e3a8a', margin: 0, lineHeight: 1.6 }}>
                     <strong>Related guidance.</strong>{' '}
-                    {guidanceNote || 'This pathway points to another protocol or disposition table. Confirm the referenced section with your AME.'}
+                    {guidanceNote || 'This row points to another part of the guide. Confirm that section with your medical examiner.'}
                   </p>
                 </div>
               ) : guidanceNote ? (
                 <div style={{ marginTop: 20, padding: '18px 20px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8 }}>
                   <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', marginBottom: 8 }}>
-                    Source instruction
+                    Wording from the guide
                   </div>
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
                     {guidanceNote}
@@ -240,12 +240,12 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, overflow: 'hidden' }}>
             <div style={{ padding: '20px 28px 0' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: 0 }}>
-                Information to submit
+                What to bring
               </h2>
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#475569', margin: '6px 0 0', lineHeight: 1.5 }}>
                 {selectedSub
                   ? `Records, tests, and medications listed for ${selectedSub.name}.`
-                  : 'Select a pathway to see the records, tests, and medications listed for that row.'}
+                  : 'Choose a situation above to see the records, tests, and medications for that row.'}
               </p>
             </div>
 
@@ -253,8 +253,8 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
               {activeDocuments.length === 0 ? (
                 <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#6b7a99', lineHeight: 1.6 }}>
                   {activeDisposition === 'issue'
-                    ? 'Published guidance for this pathway does not list additional materials beyond what the examiner reviews. Follow the guidance note above.'
-                    : 'No separate materials list was extracted for this pathway. Follow the guidance note above and confirm requirements with your AME.'}
+                    ? 'The guide does not list extra paperwork for this situation beyond what the medical examiner reviews. Follow the wording above.'
+                    : 'No separate list of materials was found for this situation. Follow the wording above and confirm it with your medical examiner.'}
                 </p>
               ) : (
                 <>
@@ -264,7 +264,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                     onToggle={toggleDoc}
                   />
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#64748b', lineHeight: 1.55, margin: '16px 0 0' }}>
-                    Items marked often requested apply when the study was already performed or when the guidance says they apply to the case. Checking an item only tracks your preparation in this session.
+                    “Often requested” means the guide asks for that item only in some cases, such as when a test was already done. Checking a box only tracks what you have gathered in this visit.
                   </p>
                 </>
               )}
@@ -274,10 +274,10 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {activeAmeReview.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
-                Examiner review
+                What the medical examiner reviews
               </h2>
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 12px', lineHeight: 1.5 }}>
-                These items are reviewed by the examiner. They are not part of the preparation checklist.
+                The medical examiner checks these at the visit. They are not items for you to pack.
               </p>
               <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
                 {activeAmeReview.map((note, index) => (
@@ -293,7 +293,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {activeMedNotes.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', margin: '0 0 12px' }}>
-                Medication Notes from Source Guidance
+                Medication notes from the guide
               </h2>
               <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
                 {activeMedNotes.map((note, index) => (
@@ -351,7 +351,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
             <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 8, padding: '18px 22px' }}>
               <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.75rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
-                Source Attribution
+                Where this came from
               </div>
               <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#334155', lineHeight: 1.55 }}>
                 <div><strong>{condition.source}</strong></div>

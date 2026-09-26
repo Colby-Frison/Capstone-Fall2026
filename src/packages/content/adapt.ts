@@ -614,11 +614,11 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
     );
     const disposition = pickPrimaryDisposition(subConditions);
     const pathwayCount = subConditions.length;
-    const summary = `${pathwayCount} published certification pathway${
+    const summary = `${pathwayCount} situation${
       pathwayCount === 1 ? '' : 's'
-    } from FAA guidance. Select a pathway for the disposition and the materials to submit.`;
+    } in the FAA guide. Choose the one that matches you to see the result and what to bring.`;
     const certificationNote =
-      'Pathway-specific notes appear after you select a sub-condition. Outcomes reflect published guidance only.';
+      'Notes for each situation appear after you select one. They follow the published guide only.';
 
     const pages = records
       .map((r) => r.source?.pdf_page)
