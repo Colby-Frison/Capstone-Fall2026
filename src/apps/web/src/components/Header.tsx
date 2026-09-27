@@ -54,7 +54,7 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
         }}
       >
         <span style={{ color: '#7fa8d0', fontSize: '0.72rem', letterSpacing: '0.04em', fontFamily: "'DM Sans', sans-serif" }}>
-          Educational prototype · Based on FAA AME Guide sources · Not an official FAA product · Not medical or legal advice
+          Learning tool · Based on the FAA medical examiner guide · Not an official FAA site · Not medical or legal advice
         </span>
       </div>
 

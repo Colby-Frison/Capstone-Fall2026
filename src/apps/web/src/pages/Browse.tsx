@@ -41,7 +41,7 @@ export default function Browse({ onNavigate }: Props) {
             Browse Conditions
           </h1>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#a0bcd8', margin: '0 0 24px' }}>
-            {conditions.length} conditions across {categories.length} categories — with published disposition guidance
+            {conditions.length} conditions across {categories.length} categories
           </p>
 
           {/* Search within browse */}
@@ -179,7 +179,7 @@ export default function Browse({ onNavigate }: Props) {
                           lineHeight: 1.5,
                         }}
                       >
-                        {c.subConditions.length} pathway{c.subConditions.length !== 1 ? 's' : ''}
+                        {c.subConditions.length} situation{c.subConditions.length !== 1 ? 's' : ''}
                       </p>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
