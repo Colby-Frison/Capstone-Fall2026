@@ -96,7 +96,7 @@ export default function Home({ onNavigate }: Props) {
               margin: '0 auto 40px',
             }}
           >
-            Research certification pathways and appointment preparation checklists for known medical conditions — grounded in published FAA AME Guide source material.
+            Look up a medical condition you already know about. See what the FAA guide says, and what to bring to the medical exam.
           </p>
 
           {/* Search bar */}
@@ -183,7 +183,7 @@ export default function Home({ onNavigate }: Props) {
                 whiteSpace: 'nowrap',
               }}
             >
-              Two questions this site answers
+              What this guide covers
             </span>
             <div style={{ height: 2, flex: 1, background: '#e2e8f0' }} />
           </div>
@@ -199,24 +199,6 @@ export default function Home({ onNavigate }: Props) {
                 padding: '28px 28px 24px',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 36,
-                  height: 36,
-                  background: '#1b2d4f',
-                  borderRadius: 6,
-                  marginBottom: 16,
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  color: '#ffffff',
-                }}
-              >
-                R1
-              </div>
               <h2
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
@@ -238,7 +220,7 @@ export default function Home({ onNavigate }: Props) {
                   margin: 0,
                 }}
               >
-                Based on published FAA disposition guidance for conditions you already know about. Outcomes are presented as guidance labels — Issue, Deferral, Denial, or Special Issuance — not personal guarantees.
+                For a condition you already know about, the guide says whether a certificate can be issued, needs FAA review, is usually not allowed, or needs a special approval. This is the published guide, not a promise about your own case.
               </p>
             </div>
 
@@ -252,24 +234,6 @@ export default function Home({ onNavigate }: Props) {
                 padding: '28px 28px 24px',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 36,
-                  height: 36,
-                  background: '#3b7fc4',
-                  borderRadius: 6,
-                  marginBottom: 16,
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontWeight: 700,
-                  fontSize: '1rem',
-                  color: '#ffffff',
-                }}
-              >
-                R2
-              </div>
               <h2
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
@@ -280,7 +244,7 @@ export default function Home({ onNavigate }: Props) {
                   lineHeight: 1.3,
                 }}
               >
-                What should I bring to my AME appointment?
+                What should I bring to my medical exam?
               </h2>
               <p
                 style={{
@@ -291,7 +255,7 @@ export default function Home({ onNavigate }: Props) {
                   margin: 0,
                 }}
               >
-                A clear checklist of medical records, test results, forms, and documentation called for by the guidance for your condition. Arriving prepared can prevent months of delay from a deferral.
+                A checklist of records, test results, and other papers the guide asks you to bring. Showing up with them can avoid a long wait while the FAA asks for missing items.
               </p>
             </div>
           </div>
@@ -311,8 +275,8 @@ export default function Home({ onNavigate }: Props) {
           }}
         >
           {[
-            { icon: '✓', label: 'Source-based', detail: 'FAA AME Guide / OneGuide content' },
-            { icon: '✓', label: 'Deterministic', detail: 'Same query, same published answer' },
+            { icon: '✓', label: 'From the FAA guide', detail: 'Same source medical examiners use' },
+            { icon: '✓', label: 'Same answer every time', detail: 'The same search shows the same published text' },
             { icon: '✓', label: 'No personal data collected', detail: 'No account, no medical history stored' },
           ].map((item) => (
             <div key={item.label} style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
@@ -390,15 +354,15 @@ export default function Home({ onNavigate }: Props) {
               marginBottom: 40,
             }}
           >
-            Four steps from research to your AME appointment
+            Four steps from looking it up to your medical exam
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 16 }}>
             {[
               { step: '01', label: 'Search or browse', detail: 'Find your condition or medication by name or category' },
-              { step: '02', label: 'Review the pathway', detail: 'See the published disposition for your known condition' },
-              { step: '03', label: 'Build your document list', detail: 'Review the "what to bring" checklist for your AME visit' },
-              { step: '04', label: 'See your AME', detail: 'Arrive prepared with the right records and test results' },
+              { step: '02', label: 'Read the result', detail: 'See what the guide says for your situation' },
+              { step: '03', label: 'See what to bring', detail: 'Use the list for the situation you selected' },
+              { step: '04', label: 'See your medical examiner', detail: 'Bring the records and test results on the list' },
             ].map((item) => (
               <div key={item.step} style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
                 <div

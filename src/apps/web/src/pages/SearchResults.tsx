@@ -115,7 +115,7 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
               }}
             >
               {totalResults} result{totalResults !== 1 ? 's' : ''} for{' '}
-              <strong style={{ color: '#1b2d4f' }}>"{query}"</strong> — showing published guidance for known conditions only.
+              <strong style={{ color: '#1b2d4f' }}>"{query}"</strong> — results are for conditions you already know about.
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}>
@@ -384,7 +384,7 @@ function NoResults({ query, onNavigate }: { query: string; onNavigate: (page: Pa
         No results for "{query}"
       </h3>
       <p style={{ fontFamily: "'Inter', sans-serif", color: '#6b7a99', fontSize: '0.9rem', marginBottom: 24, lineHeight: 1.55 }}>
-        This guide covers conditions and medications that appear in the FAA AME Guide source materials currently in the dataset. Try a different term or browse all conditions.
+        This site only includes conditions and medications that appear in the FAA guide materials loaded here. Try a different word or browse all conditions.
       </p>
       <button
         onClick={() => onNavigate('conditions')}

@@ -65,7 +65,7 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
         <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, overflow: 'hidden' }}>
           <div style={{ background: '#1b2d4f', padding: '16px 24px' }}>
             <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.95rem', color: '#ffffff', margin: 0 }}>
-              Flight Status & Certification Impact
+              Flying and your medical certificate
             </h2>
           </div>
           <div style={{ padding: '24px 28px' }}>
@@ -79,7 +79,7 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
             </div>
             <div style={{ borderTop: '1px solid #f0f4f8', paddingTop: 20 }}>
               <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.8rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
-                Certification pathway impact
+                How it can affect your certificate
               </div>
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.925rem', color: '#334155', lineHeight: 1.65, margin: 0 }}>
                 {med.certificationImpact}
@@ -91,7 +91,7 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
         {/* What to discuss with AME */}
         <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
           <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.95rem', color: '#1b2d4f', margin: '0 0 12px' }}>
-            What to Discuss with Your AME and Physician
+            What to discuss with your medical examiner and doctor
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.9rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
             {med.ameDiscussion}

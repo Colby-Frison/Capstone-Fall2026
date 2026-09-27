@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -24,22 +24,53 @@ interface NavState {
   query?: string;
 }
 
+function readNavFromLocation(): NavState {
+  const params = new URLSearchParams(window.location.search);
+  const condition = params.get('condition');
+  if (condition) return { page: 'condition-detail', id: condition };
+  return { page: 'home' };
+}
+
+function writeNavToLocation(next: NavState, replace = false) {
+  const url = new URL(window.location.href);
+  url.search = '';
+  url.hash = '';
+  if (next.page === 'condition-detail' && next.id) {
+    url.searchParams.set('condition', next.id);
+  }
+  const method = replace ? 'replaceState' : 'pushState';
+  window.history[method](next, '', `${url.pathname}${url.search}`);
+}
+
 export default function App() {
-  const [nav, setNav] = useState<NavState>({ page: 'home' });
+  const [nav, setNav] = useState<NavState>(readNavFromLocation);
+
+  useEffect(() => {
+    writeNavToLocation(nav, true);
+    function onPopState(event: PopStateEvent) {
+      const state = event.state as NavState | null;
+      setNav(state?.page ? state : readNavFromLocation());
+    }
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
 
   function navigate(page: Page, idOrQuery?: string) {
-    if (page === 'search') {
-      setNav({ page: 'search', query: idOrQuery ?? '' });
-    } else if (page === 'condition-detail' || page === 'medication-detail') {
-      setNav({ page, id: idOrQuery });
-    } else {
-      setNav({ page });
-    }
+    const next: NavState =
+      page === 'search'
+        ? { page: 'search', query: idOrQuery ?? '' }
+        : page === 'condition-detail' || page === 'medication-detail'
+          ? { page, id: idOrQuery }
+          : { page };
+    setNav(next);
+    writeNavToLocation(next);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function handleSearch(query: string) {
-    setNav({ page: 'search', query });
+    const next: NavState = { page: 'search', query };
+    setNav(next);
+    writeNavToLocation(next);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -90,7 +121,7 @@ function HomeWithHeader({ onNavigate }: { onNavigate: (page: Page, id?: string) 
       <header style={{ background: '#1b2d4f', borderBottom: '1px solid #243e6b', position: 'sticky', top: 0, zIndex: 50 }}>
         <div style={{ background: '#0f1e35', borderBottom: '1px solid #243e6b', padding: '5px 24px', textAlign: 'center' }}>
           <span style={{ color: '#7fa8d0', fontSize: '0.72rem', letterSpacing: '0.04em', fontFamily: "'DM Sans', sans-serif" }}>
-            Educational prototype · Based on FAA AME Guide sources · Not an official FAA product · Not medical or legal advice
+            Learning tool · Based on the FAA medical examiner guide · Not an official FAA site · Not medical or legal advice
           </span>
         </div>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', height: 64, gap: 32 }}>
