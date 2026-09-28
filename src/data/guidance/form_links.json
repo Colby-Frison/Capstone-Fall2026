@@ -1,0 +1,632 @@
+{
+    "Condition Not Listed": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HEAD, FACE, NECK, AND SCALP": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "NOSE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ANOSMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SINUS CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SPEECH IMPEDIMENT, STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "COCHLEAR IMPLANT (CI)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ACUTE OR CHRONIC DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "LABYRINTHITIS (Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PERILYMPH FISTULA (PLF)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "MIDDLE EAR ABNORMALITIES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "AMBLYOPIA": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        }
+    ],
+    "BLEPHARITIS and CONJUNCTIVITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CATARACT (S)": [
+        {
+            "Form Type": "Questionnaire",
+            "Url": ""
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "DIPLOPIA (DOUBLE VISION)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "OCULAR HISTOPLASMOSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "EYES - PROCEDURES": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        }
+    ],
+    "LENS IMPLANT": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "EYES - REFRACTIVE SURGERY": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CHORIORETINITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "COLOBOMA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "LATTICE DEGENERATION": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "OPTIC NEURITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "RETINOSCHISIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ALPHA-GAL SYNDROME (meat allergy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PECTUS EXCAVATUM": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PULMONARY FIBROSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "BRONCHIECTASIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "RESTLESS LEG SYNDROME (RLS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PREMATURE ATRIAL CONTRACTION (PAC)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PACEMAKER": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        }
+    ],
+    "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CHEST PAIN": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HEART MURMUR": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ENDOCARDITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "MITRAL VALVE DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CONGENITAL HEART CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "FIBROMUSCULAR DYSPLASIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HEART TRANSPLANT (cardiac transplant, heart replacement)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "Hypertrophic Cardiomyopathy (HCM),": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "Buerger Disease or Thromboangiitis Obliterans (TAO)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "POSTURAL TACHYCARDIA SYNDROME (POTS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "RAYNAUD'S SYNDROME": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "BARRETT'S ESOPHAGUS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CHOLELITHIASIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CIRRHOSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "Congenital Sucrase-Isomaltase Deficiency (CSID)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ESOPHAGEAL VARICES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "GERD (gastroesophageal reflux disease or reflux)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "LIVER TRANSPLANT": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PANCREATITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SKIN CANCER": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "URTICARIAL ERUPTIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "GENERAL DISORDERS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "INFLAMMATORY CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "OTHER G-U CANCERS/NEOPLASTIC DISORDERS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "POLYCYSTIC KIDNEY DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "URINARY SYSTEMS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "NEUROPATHY (Peripheral Neuropathy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "OSTEOMYELITIS (BONE INFECTION)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "UPPER AND LOWER EXTREMITIES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "COLLAGEN DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "GOUT AND PSEUDOGOUT": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "SPINE, OTHER MUSCULOSKELETAL": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "LYMPHOMA AND HODGKIN'S DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "LYMPHATICS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ALZHEIMER's DISEASE OR MILD COGNITIVE IMPAIRMENT (MCI) or DEMENTIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "BELL'S PALSY (Facial Nerve Palsy, Cranial Nerve Palsy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "BRAIN TUMOR (Intracranial Tumor)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CENTRAL SLEEP APNEA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CHIARI MALFORMATION": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "DEEP BRAIN STIMULATOR": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        }
+    ],
+    "EPILEPSY (Seizure Disorder)": [
+        {
+            "Form Type": "Questionnaire",
+            "Url": ""
+        }
+    ],
+    "HEAD INJURY or BRAIN INJURY": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "MENINGITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "MULTIPLE SCLEROSIS (MS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "NARCOLEPSY and IDIOPATHIC HYPERSOMNIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "NEURALGIA (Trigeminal Neuralgia, Post Herpetic Neuralgia)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "NEUROFIBROMATOSIS (Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PARKINSON'S DISEASE and PARKINSONISM (Secondary)": [
+        {
+            "Form Type": "Status Summary",
+            "Url": ""
+        }
+    ],
+    "PSEUDOTUMOR CEREBRI": [
+        {
+            "Form Type": "Questionnaire",
+            "Url": ""
+        }
+    ],
+    "ATTENTION-DEFICIT/HYPERACTIVITY DISORDER (ADHD)* AND/OR USE OF ADHD MEDICATIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ANXIETY, DEPRESSION, AND RELATED CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "Adjustment Disorder with Depressed Mood or MINOR Depression": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ACUTE LYMPHOCYTIC LEUKEMIA (ALL)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "DIABETES INSIPIDUS OR POLYURIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "ACROMEGALY": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "CUSHING SYNDROME": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HYPOGLYCEMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HYPERPARATHYROIDISM (07/29/2026)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HYPOPARATHYROIDISM (08/28/2024)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HYPERPROLACTINEMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HYPERTHYROIDISM": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "PITUITARY ADENOMA (Microadenoma or Macroadenoma)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ],
+    "HORMONE REPLACEMENT THERAPY (HRT) - Female": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": ""
+        }
+    ]
+}
