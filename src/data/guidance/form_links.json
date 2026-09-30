@@ -86,7 +86,7 @@
     "AMBLYOPIA": [
         {
             "Form Type": "Amblyopia Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Amblyopia_Status_Summary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -102,7 +102,7 @@
     "CATARACT (S)": [
         {
             "Form Type": "Vision Questionnaire",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Quality_of_Vision_Questionnaire.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -124,17 +124,17 @@
     "EYES - PROCEDURES": [
         {
             "Form Type": "Disposition Table See Eyes-Lens Implant Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf"
         },
         {
             "Form Type": "Refractive Surgery Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf"
         }
     ],
     "LENS IMPLANT": [
         {
             "Form Type": "Lens Implant Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -144,7 +144,7 @@
     "EYES - REFRACTIVE SURGERY": [
         {
             "Form Type": "Refractive Surgery Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -154,7 +154,7 @@
     "CHORIORETINITIS": [
         {
             "Form Type": "Chorioretinitis Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Chorioretinitis_Status_Summary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -200,7 +200,7 @@
     "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis": [
         {
             "Form Type": "The COPD Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -216,7 +216,7 @@
     "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)": [
         {
             "Form Type": "Sarcoidosis Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Sarcoid_Status_Summary.pdf"
         }
     ],
     "BRONCHIECTASIS": [
@@ -240,13 +240,13 @@
     "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER": [
         {
             "Form Type": "A-Flutter Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf"
         }
     ],
     "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER": [
         {
             "Form Type": "Ablation Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf"
         },
         {
             "Form Type": "Clinical Progress Note",
@@ -255,12 +255,12 @@
     ],
     "PACEMAKER": [
         {
-            "Form Type": "Pacemaker Protocol Pacemaker Status Summary",
-            "Url": ""
+            "Form Type": "Pacemaker Protocol",
+            "Url": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
         },
         {
             "Form Type": "Pacemaker Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf"
         }
     ],
     "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions": [
@@ -512,13 +512,13 @@
     "DEEP BRAIN STIMULATOR": [
         {
             "Form Type": "Deep Brain Stimulator (DBS) Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf"
         }
     ],
     "EPILEPSY (Seizure Disorder)": [
         {
             "Form Type": "FAA Airman Seizure Questionnaire",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf"
         }
     ],
     "HEAD INJURY or BRAIN INJURY": [
@@ -560,7 +560,7 @@
     "PARKINSON'S DISEASE and PARKINSONISM (Secondary)": [
         {
             "Form Type": "DBS Status Summary",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf"
         }
     ],
     "PSEUDOTUMOR CEREBRI": [
@@ -570,7 +570,7 @@
         },
         {
             "Form Type": "FAA Airman Seizure Questionnaire",
-            "Url": ""
+            "Url": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf"
         }
     ],
     "ANXIETY, DEPRESSION, AND RELATED CONDITIONS": [
