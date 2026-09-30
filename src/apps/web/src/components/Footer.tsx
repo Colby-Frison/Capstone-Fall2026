@@ -7,6 +7,7 @@ interface Props {
 export default function Footer({ onNavigate }: Props) {
   return (
     <footer
+      className="site-footer"
       style={{
         background: '#0f1e35',
         borderTop: '1px solid #1b2d4f',
@@ -17,7 +18,7 @@ export default function Footer({ onNavigate }: Props) {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))',
             gap: 40,
             marginBottom: 40,
           }}

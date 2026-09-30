@@ -123,7 +123,7 @@ export function DocumentChecklist({
           gap: 14,
         }}
       >
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
           <div
             style={{
               fontFamily: "'DM Sans', sans-serif",
@@ -187,6 +187,7 @@ function DocItem({
         cursor: 'pointer',
         textAlign: 'left',
         width: '100%',
+        minHeight: 44,
         transition: 'background 0.15s, border-color 0.15s',
       }}
     >
@@ -218,7 +219,7 @@ function DocItem({
           </svg>
         )}
       </div>
-      <div style={{ flex: 1 }}>
+      <div style={{ flex: 1, minWidth: 0, overflowWrap: 'anywhere' }}>
         <div
           style={{
             fontFamily: "'Inter', sans-serif",
