@@ -24,7 +24,7 @@ export default function Browse({ onNavigate }: Props) {
   });
 
   return (
-    <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
+    <div style={{ background: '#f5f7fa', minWidth: 0 }}>
       {/* Page header */}
       <div style={{ background: '#1b2d4f', padding: '40px 24px 36px' }}>
         <div style={{ maxWidth: 1000, margin: '0 auto' }}>
@@ -67,9 +67,8 @@ export default function Browse({ onNavigate }: Props) {
       </div>
 
       <div style={{ maxWidth: 1000, margin: '0 auto', padding: '24px 24px' }}>
-        <div style={{ display: 'flex', gap: 24, alignItems: 'flex-start' }}>
-          {/* Category sidebar */}
-          <div style={{ width: 200, flexShrink: 0 }}>
+        <div className="browse-layout">
+          <div className="browse-sidebar">
             <div
               style={{
                 fontFamily: "'DM Sans', sans-serif",
@@ -84,7 +83,7 @@ export default function Browse({ onNavigate }: Props) {
             >
               Categories
             </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            <div className="category-list scrollbar-hide">
               {allCategories.map((cat) => {
                 const count = cat === 'All' ? conditions.length : conditions.filter((c) => c.category === cat).length;
                 const isActive = selectedCategory === cat;
@@ -98,8 +97,8 @@ export default function Browse({ onNavigate }: Props) {
                       alignItems: 'center',
                       padding: '8px 12px',
                       borderRadius: 5,
-                      border: 'none',
-                      background: isActive ? '#1b2d4f' : 'transparent',
+                      background: isActive ? '#1b2d4f' : '#ffffff',
+                      border: isActive ? '1px solid #1b2d4f' : '1px solid #e2e8f0',
                       color: isActive ? '#ffffff' : '#475569',
                       cursor: 'pointer',
                       fontFamily: "'DM Sans', sans-serif",
@@ -151,10 +150,12 @@ export default function Browse({ onNavigate }: Props) {
                       justifyContent: 'space-between',
                       alignItems: 'center',
                       gap: 16,
+                      flexWrap: 'wrap',
+                      minWidth: 0,
                       transition: 'border-color 0.15s',
                     }}
                   >
-                    <div style={{ flex: 1 }}>
+                    <div className="split-main">
                       <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 4, flexWrap: 'wrap' }}>
                         <span
                           style={{
@@ -182,7 +183,7 @@ export default function Browse({ onNavigate }: Props) {
                         {c.subConditions.length} situation{c.subConditions.length !== 1 ? 's' : ''}
                       </p>
                     </div>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                    <div className="split-aside">
                       <DispositionBadge disposition={c.disposition} size="sm" />
                       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
                         <path d="M6 4l4 4-4 4" stroke="#94a3b8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

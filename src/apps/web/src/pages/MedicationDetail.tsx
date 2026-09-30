@@ -26,11 +26,11 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
   const relatedConditions = med.relatedConditionIds.map(getConditionById).filter(Boolean);
 
   return (
-    <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
+    <div style={{ background: '#f5f7fa', minWidth: 0 }}>
       {/* Breadcrumb */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '12px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <nav style={{ display: 'flex', gap: 6, alignItems: 'center', fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}>
+          <nav className="crumbs" style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}>
             <button onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Home</button>
             <span>›</span>
             <button onClick={() => onNavigate('search')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Medications</button>
@@ -42,7 +42,7 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
 
       <div style={{ maxWidth: 900, margin: '0 auto', padding: '32px 24px', display: 'flex', flexDirection: 'column', gap: 20 }}>
         {/* Header */}
-        <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '28px 32px' }}>
+        <div className="card-pad" style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10 }}>
           <div style={{ marginBottom: 8 }}>
             <span style={{ background: '#f0f4f8', border: '1px solid #cbd5e1', borderRadius: 3, padding: '2px 10px', fontSize: '0.72rem', fontWeight: 700, color: '#334155', fontFamily: "'DM Sans', sans-serif", textTransform: 'uppercase', letterSpacing: '0.07em' }}>
               Medication
@@ -117,12 +117,14 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
                     textAlign: 'left',
                     cursor: 'pointer',
                     display: 'flex',
+                    flexWrap: 'wrap',
                     justifyContent: 'space-between',
                     alignItems: 'center',
                     gap: 12,
+                    minWidth: 0,
                   }}
                 >
-                  <div>
+                  <div className="split-main">
                     <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, color: '#1b2d4f', fontSize: '0.9rem' }}>{c.name}</div>
                     <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.775rem', color: '#6b7a99', marginTop: 2 }}>{c.category}</div>
                   </div>
@@ -136,7 +138,7 @@ export default function MedicationDetail({ medicationId, onNavigate }: Props) {
         )}
 
         {/* Source + disclaimer */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: 16 }}>
           <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 8, padding: '18px 22px' }}>
             <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.75rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
               Source Attribution
