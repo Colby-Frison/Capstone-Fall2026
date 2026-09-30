@@ -65,10 +65,10 @@ for record in ame_parsed_json["records"]:
                 "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf",
             }
         )
-    if "FAA form 8500-7" in raw_text:
+    if "FAA Form 8500-7" in raw_text:
         forms_needed.append(
             {
-                "Form Type": "FAA 8500-7",
+                "Form Type": "FAA Form 8500-7",
                 "Url": "https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8500-7_Exp_10.31.24.pdf",
             }
         )
