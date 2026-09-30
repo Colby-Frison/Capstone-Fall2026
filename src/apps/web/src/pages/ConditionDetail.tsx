@@ -347,6 +347,25 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
             </section>
           )}
 
+          {/* Related forms */}
+          {activeAmeReview.length > 0 && (
+            <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
+                Related FAA Forms
+              </h2>
+              <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 12px', lineHeight: 1.5 }}>
+                Depending on your specific pathway and AME evaluation, you may be
+                required to submit the following forms:              </p>
+              <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
+                {activeAmeReview.map((form, index) => (
+                  <li key={index} style={{ marginBottom: 6 }}>
+                    {form}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           {/* G. Source + Disclaimer */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
             <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 8, padding: '18px 22px' }}>

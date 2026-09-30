@@ -85,8 +85,12 @@
     ],
     "AMBLYOPIA": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "Amblyopia Status Summary",
             "Url": ""
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
         }
     ],
     "BLEPHARITIS and CONJUNCTIVITIS": [
@@ -97,7 +101,7 @@
     ],
     "CATARACT (S)": [
         {
-            "Form Type": "Questionnaire",
+            "Form Type": "Vision Questionnaire",
             "Url": ""
         },
         {
@@ -117,19 +121,21 @@
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
         }
     ],
-    "EYES - GENERAL, OTHER CONDITIONS": [
-        {
-            "Form Type": "FAA 8500-7",
-            "Url": "https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8500-7_Exp_10.31.24.pdf"
-        }
-    ],
     "EYES - PROCEDURES": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "Disposition Table See Eyes-Lens Implant Status Summary",
+            "Url": ""
+        },
+        {
+            "Form Type": "Refractive Surgery Status Summary",
             "Url": ""
         }
     ],
     "LENS IMPLANT": [
+        {
+            "Form Type": "Lens Implant Status Summary",
+            "Url": ""
+        },
         {
             "Form Type": "Clinical Progress Note",
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
@@ -137,11 +143,19 @@
     ],
     "EYES - REFRACTIVE SURGERY": [
         {
+            "Form Type": "Refractive Surgery Status Summary",
+            "Url": ""
+        },
+        {
             "Form Type": "Clinical Progress Note",
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
         }
     ],
     "CHORIORETINITIS": [
+        {
+            "Form Type": "Chorioretinitis Status Summary",
+            "Url": ""
+        },
         {
             "Form Type": "Clinical Progress Note",
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
@@ -185,7 +199,7 @@
     ],
     "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "The COPD Status Summary",
             "Url": ""
         },
         {
@@ -201,8 +215,8 @@
     ],
     "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)": [
         {
-            "Form Type": "Clinical Progress Note",
-            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+            "Form Type": "Sarcoidosis Status Summary",
+            "Url": ""
         }
     ],
     "BRONCHIECTASIS": [
@@ -225,7 +239,13 @@
     ],
     "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "A-Flutter Status Summary",
+            "Url": ""
+        }
+    ],
+    "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER": [
+        {
+            "Form Type": "Ablation Status Summary",
             "Url": ""
         },
         {
@@ -233,15 +253,13 @@
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
         }
     ],
-    "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER": [
-        {
-            "Form Type": "Clinical Progress Note",
-            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
-        }
-    ],
     "PACEMAKER": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "Pacemaker Protocol Pacemaker Status Summary",
+            "Url": ""
+        },
+        {
+            "Form Type": "Pacemaker Status Summary",
             "Url": ""
         }
     ],
@@ -493,13 +511,13 @@
     ],
     "DEEP BRAIN STIMULATOR": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "Deep Brain Stimulator (DBS) Status Summary",
             "Url": ""
         }
     ],
     "EPILEPSY (Seizure Disorder)": [
         {
-            "Form Type": "Questionnaire",
+            "Form Type": "FAA Airman Seizure Questionnaire",
             "Url": ""
         }
     ],
@@ -541,20 +559,18 @@
     ],
     "PARKINSON'S DISEASE and PARKINSONISM (Secondary)": [
         {
-            "Form Type": "Status Summary",
+            "Form Type": "DBS Status Summary",
             "Url": ""
         }
     ],
     "PSEUDOTUMOR CEREBRI": [
         {
-            "Form Type": "Questionnaire",
-            "Url": ""
-        }
-    ],
-    "ATTENTION-DEFICIT/HYPERACTIVITY DISORDER (ADHD)* AND/OR USE OF ADHD MEDICATIONS": [
-        {
             "Form Type": "Clinical Progress Note",
             "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        },
+        {
+            "Form Type": "FAA Airman Seizure Questionnaire",
+            "Url": ""
         }
     ],
     "ANXIETY, DEPRESSION, AND RELATED CONDITIONS": [
