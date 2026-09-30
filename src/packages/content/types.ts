@@ -102,3 +102,8 @@ export interface NormalizedGuidanceFile {
   warnings: string[];
   summary: Record<string, number>;
 }
+
+export interface FormLinksValue {
+  "Form Type": string;
+  "Url": string;
+}
