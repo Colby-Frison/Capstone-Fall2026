@@ -11,8 +11,10 @@ import type {
   NormalizedRecord,
   NormalizedRequirement,
   SubCondition,
+  FormLinksValue
 } from './types';
 import { resolveCategory } from './categories';
+import linksForm from '@guidance/form_links.json'
 
 const DISPOSITION_MAP: Record<string, Disposition> = {
   ISSUE: 'issue',
@@ -673,4 +675,16 @@ export function searchAdaptedConditions(
       .toLowerCase();
     return haystack.includes(q);
   });
+}
+
+// accounts for case sensitivity between condition.name in ConditionDetail.tsx and key in form_links.json (solves issue with COPD condition)
+export function getConditionForms(conditionName: string): FormLinksValue[] {
+  const formLinksJson = linksForm as Record<string, FormLinksValue[]>;
+  const jsonKeys = Object.keys(formLinksJson) // array of keys 
+
+  // check if jsonKeys contains same condition name that is displayed on UI (case insensitive)
+  const matchedKey = jsonKeys.find((key) => (
+    key.toLowerCase() === conditionName.toLowerCase()
+  ))
+  return matchedKey ? formLinksJson[matchedKey] : []
 }
