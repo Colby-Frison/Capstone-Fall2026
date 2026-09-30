@@ -1,0 +1,654 @@
+{
+    "Condition Not Listed": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HEAD, FACE, NECK, AND SCALP": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "NOSE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ANOSMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SINUS CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SPEECH IMPEDIMENT, STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "COCHLEAR IMPLANT (CI)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ACUTE OR CHRONIC DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "LABYRINTHITIS (Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PERILYMPH FISTULA (PLF)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "MIDDLE EAR ABNORMALITIES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "AMBLYOPIA": [
+        {
+            "Form Type": "Amblyopia Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Amblyopia_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "BLEPHARITIS and CONJUNCTIVITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CATARACT (S)": [
+        {
+            "Form Type": "Vision Questionnaire",
+            "Url": "https://www.faa.gov/ame_guide/media/Quality_of_Vision_Questionnaire.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "DIPLOPIA (DOUBLE VISION)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "OCULAR HISTOPLASMOSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "EYES - PROCEDURES": [
+        {
+            "Form Type": "Disposition Table See Eyes-Lens Implant Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Refractive Surgery Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf"
+        }
+    ],
+    "LENS IMPLANT": [
+        {
+            "Form Type": "Lens Implant Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "EYES - REFRACTIVE SURGERY": [
+        {
+            "Form Type": "Refractive Surgery Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CHORIORETINITIS": [
+        {
+            "Form Type": "Chorioretinitis Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Chorioretinitis_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "COLOBOMA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "LATTICE DEGENERATION": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "OPTIC NEURITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "RETINOSCHISIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ALPHA-GAL SYNDROME (meat allergy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PECTUS EXCAVATUM": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis": [
+        {
+            "Form Type": "The COPD Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PULMONARY FIBROSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)": [
+        {
+            "Form Type": "Sarcoidosis Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Sarcoid_Status_Summary.pdf"
+        }
+    ],
+    "BRONCHIECTASIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "RESTLESS LEG SYNDROME (RLS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PREMATURE ATRIAL CONTRACTION (PAC)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER": [
+        {
+            "Form Type": "A-Flutter Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf"
+        }
+    ],
+    "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER": [
+        {
+            "Form Type": "Ablation Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf"
+        },
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PACEMAKER": [
+        {
+            "Form Type": "Pacemaker Protocol",
+            "Url": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
+        },
+        {
+            "Form Type": "Pacemaker Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf"
+        }
+    ],
+    "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CHEST PAIN": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HEART MURMUR": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ENDOCARDITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "MITRAL VALVE DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CONGENITAL HEART CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "FIBROMUSCULAR DYSPLASIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HEART TRANSPLANT (cardiac transplant, heart replacement)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "Hypertrophic Cardiomyopathy (HCM),": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "Buerger Disease or Thromboangiitis Obliterans (TAO)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "POSTURAL TACHYCARDIA SYNDROME (POTS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "RAYNAUD'S SYNDROME": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "BARRETT'S ESOPHAGUS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CHOLELITHIASIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CIRRHOSIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "Congenital Sucrase-Isomaltase Deficiency (CSID)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ESOPHAGEAL VARICES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "GERD (gastroesophageal reflux disease or reflux)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "LIVER TRANSPLANT": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PANCREATITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SKIN CANCER": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "URTICARIAL ERUPTIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "GENERAL DISORDERS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "INFLAMMATORY CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "OTHER G-U CANCERS/NEOPLASTIC DISORDERS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "POLYCYSTIC KIDNEY DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "URINARY SYSTEMS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "NEUROPATHY (Peripheral Neuropathy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "OSTEOMYELITIS (BONE INFECTION)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "UPPER AND LOWER EXTREMITIES": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "COLLAGEN DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "GOUT AND PSEUDOGOUT": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "SPINE, OTHER MUSCULOSKELETAL": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "LYMPHOMA AND HODGKIN'S DISEASE": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "LYMPHATICS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ALZHEIMER's DISEASE OR MILD COGNITIVE IMPAIRMENT (MCI) or DEMENTIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "BELL'S PALSY (Facial Nerve Palsy, Cranial Nerve Palsy)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "BRAIN TUMOR (Intracranial Tumor)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CENTRAL SLEEP APNEA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CHIARI MALFORMATION": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "DEEP BRAIN STIMULATOR": [
+        {
+            "Form Type": "Deep Brain Stimulator (DBS) Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf"
+        }
+    ],
+    "EPILEPSY (Seizure Disorder)": [
+        {
+            "Form Type": "FAA Airman Seizure Questionnaire",
+            "Url": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf"
+        }
+    ],
+    "HEAD INJURY or BRAIN INJURY": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "MENINGITIS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "MULTIPLE SCLEROSIS (MS)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "NARCOLEPSY and IDIOPATHIC HYPERSOMNIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "NEURALGIA (Trigeminal Neuralgia, Post Herpetic Neuralgia)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "NEUROFIBROMATOSIS (Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PARKINSON'S DISEASE and PARKINSONISM (Secondary)": [
+        {
+            "Form Type": "DBS Status Summary",
+            "Url": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf"
+        }
+    ],
+    "PSEUDOTUMOR CEREBRI": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        },
+        {
+            "Form Type": "FAA Airman Seizure Questionnaire",
+            "Url": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf"
+        }
+    ],
+    "ANXIETY, DEPRESSION, AND RELATED CONDITIONS": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "Adjustment Disorder with Depressed Mood or MINOR Depression": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ACUTE LYMPHOCYTIC LEUKEMIA (ALL)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "DIABETES INSIPIDUS OR POLYURIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "ACROMEGALY": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "CUSHING SYNDROME": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HYPOGLYCEMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HYPERPARATHYROIDISM (07/29/2026)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HYPOPARATHYROIDISM (08/28/2024)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HYPERPROLACTINEMIA": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HYPERTHYROIDISM": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "PITUITARY ADENOMA (Microadenoma or Macroadenoma)": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ],
+    "HORMONE REPLACEMENT THERAPY (HRT) - Female": [
+        {
+            "Form Type": "Clinical Progress Note",
+            "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+        }
+    ]
+}
