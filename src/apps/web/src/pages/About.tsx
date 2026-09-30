@@ -6,7 +6,7 @@ interface Props {
 
 export default function About({ onNavigate }: Props) {
   return (
-    <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
+    <div style={{ background: '#f5f7fa', minWidth: 0 }}>
       <div style={{ background: '#1b2d4f', padding: '48px 24px 40px' }}>
         <div style={{ maxWidth: 800, margin: '0 auto' }}>
           <h1
@@ -73,7 +73,7 @@ export default function About({ onNavigate }: Props) {
           <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', margin: '0 0 16px' }}>
             Project information
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '8px 24px' }}>
+          <div className="facts-grid">
             {[
               ['Course', 'CS-4273 Computer Science Capstone (Fall 2026)'],
               ['Group', 'Group F'],

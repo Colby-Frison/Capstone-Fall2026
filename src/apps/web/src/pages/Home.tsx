@@ -16,7 +16,7 @@ export default function Home({ onNavigate }: Props) {
   }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#ffffff', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ background: '#ffffff', display: 'flex', flexDirection: 'column', minWidth: 0 }}>
       {/* Hero */}
       <section
         style={{
@@ -41,18 +41,7 @@ export default function Home({ onNavigate }: Props) {
 
         <div style={{ maxWidth: 760, margin: '0 auto', position: 'relative', textAlign: 'center' }}>
           {/* Wordmark above hero */}
-          <div
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: 10,
-              marginBottom: 32,
-              padding: '6px 16px',
-              background: 'rgba(59,127,196,0.15)',
-              border: '1px solid rgba(59,127,196,0.3)',
-              borderRadius: 4,
-            }}
-          >
+          <div className="hero-chip">
             <svg width="18" height="18" viewBox="0 0 32 32" fill="none" aria-hidden="true">
               <path d="M4 22 L16 8 L28 22" stroke="#7fa8d0" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
               <line x1="4" y1="24" x2="28" y2="24" stroke="#7fa8d0" strokeWidth="2" strokeLinecap="round" />
@@ -100,14 +89,13 @@ export default function Home({ onNavigate }: Props) {
           </p>
 
           {/* Search bar */}
-          <form onSubmit={handleSearch} style={{ display: 'flex', gap: 8, maxWidth: 560, margin: '0 auto 24px' }}>
+          <form className="stack-form" onSubmit={handleSearch} style={{ maxWidth: 560, margin: '0 auto 24px' }}>
             <input
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search a condition or medication (e.g., migraine, depression)"
               style={{
-                flex: 1,
                 background: '#ffffff',
                 border: '2px solid #ffffff',
                 borderRadius: 6,
@@ -188,7 +176,7 @@ export default function Home({ onNavigate }: Props) {
             <div style={{ height: 2, flex: 1, background: '#e2e8f0' }} />
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 24 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: 24 }}>
             {/* Q1 */}
             <div
               style={{
@@ -357,7 +345,7 @@ export default function Home({ onNavigate }: Props) {
             Four steps from looking it up to your medical exam
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 16 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 180px), 1fr))', gap: 16 }}>
             {[
               { step: '01', label: 'Search or browse', detail: 'Find your condition or medication by name or category' },
               { step: '02', label: 'Read the result', detail: 'See what the guide says for your situation' },

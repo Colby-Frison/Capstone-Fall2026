@@ -77,7 +77,7 @@ export default function App() {
   const showHeader = nav.page !== 'home';
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100%' }}>
+    <div className="app-shell">
       {nav.page === 'home' ? (
         <HomeWithHeader onNavigate={navigate} />
       ) : (
@@ -87,7 +87,7 @@ export default function App() {
             onNavigate={navigate}
             searchQuery={nav.query}
           />
-          <main style={{ flex: 1 }}>
+          <main className="app-main">
             {nav.page === 'search' && (
               <SearchResults
                 query={nav.query ?? ''}
@@ -114,72 +114,88 @@ export default function App() {
 
 function HomeWithHeader({ onNavigate }: { onNavigate: (page: Page, id?: string) => void }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navItems: { label: string; page: Page }[] = [
+    { label: 'Search', page: 'search' },
+    { label: 'Conditions', page: 'conditions' },
+    { label: 'How This Works', page: 'how-it-works' },
+    { label: 'About', page: 'about' },
+  ];
+
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    function onKey(event: KeyboardEvent) {
+      if (event.key === 'Escape') setMobileMenuOpen(false);
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [mobileMenuOpen]);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100%' }}>
-      {/* Minimal header on home — just prototype banner + nav, no search bar */}
-      <header style={{ background: '#1b2d4f', borderBottom: '1px solid #243e6b', position: 'sticky', top: 0, zIndex: 50 }}>
-        <div style={{ background: '#0f1e35', borderBottom: '1px solid #243e6b', padding: '5px 24px', textAlign: 'center' }}>
+    <div className="app-shell">
+      <header className="site-header" style={{ background: '#1b2d4f', borderBottom: '1px solid #243e6b', position: 'sticky', top: 0, zIndex: 50 }}>
+        <div className="prototype-banner" style={{ background: '#0f1e35', borderBottom: '1px solid #243e6b', textAlign: 'center' }}>
           <span style={{ color: '#7fa8d0', fontSize: '0.72rem', letterSpacing: '0.04em', fontFamily: "'DM Sans', sans-serif" }}>
             Learning tool · Based on the FAA medical examiner guide · Not an official FAA site · Not medical or legal advice
           </span>
         </div>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', height: 64, gap: 32 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-              <path d="M4 22 L16 8 L28 22" stroke="#3b7fc4" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-              <path d="M8 22 L16 12 L24 22" stroke="#7fa8d0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-              <line x1="4" y1="24" x2="28" y2="24" stroke="#3b7fc4" strokeWidth="2" strokeLinecap="round" />
-            </svg>
-            <div>
-              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.95rem', color: '#ffffff', lineHeight: 1.2, letterSpacing: '-0.01em' }}>Pilots Guide</div>
-              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: '0.7rem', color: '#7fa8d0', lineHeight: 1, letterSpacing: '0.05em', textTransform: 'uppercase' }}>Medical Certification</div>
+        <div className="header-inner">
+          <div className="header-bar">
+            <div className="wordmark" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" style={{ flexShrink: 0 }}>
+                <path d="M4 22 L16 8 L28 22" stroke="#3b7fc4" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                <path d="M8 22 L16 12 L24 22" stroke="#7fa8d0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+                <line x1="4" y1="24" x2="28" y2="24" stroke="#3b7fc4" strokeWidth="2" strokeLinecap="round" />
+              </svg>
+              <div>
+                <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.95rem', color: '#ffffff', lineHeight: 1.2, letterSpacing: '-0.01em' }}>Pilots Guide</div>
+                <div className="wordmark-kicker" style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 400, fontSize: '0.7rem', color: '#7fa8d0', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Medical Certification</div>
+              </div>
             </div>
+            <nav className="desktop-nav" aria-label="Primary">
+              {navItems.map((item) => (
+                <button
+                  key={item.page}
+                  onClick={() => onNavigate(item.page)}
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '6px 12px', borderRadius: 4, fontFamily: "'DM Sans', sans-serif", fontSize: '0.875rem', fontWeight: 400, color: '#a0bcd8', borderBottom: '2px solid transparent', transition: 'color 0.15s' }}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </nav>
+            <button
+              type="button"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="menu-toggle"
+              aria-label="Toggle navigation"
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-nav"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                {mobileMenuOpen ? (
+                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" />
+                ) : (
+                  <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" />
+                )}
+              </svg>
+            </button>
           </div>
-          <nav style={{ display: 'flex', gap: 4, flex: 1, alignItems: 'center' }} className="hidden md:flex">
-            {[
-              { label: 'Search', page: 'search' as Page },
-              { label: 'Conditions', page: 'conditions' as Page },
-              { label: 'How This Works', page: 'how-it-works' as Page },
-              { label: 'About', page: 'about' as Page },
-            ].map((item) => (
-              <button
-                key={item.page}
-                onClick={() => onNavigate(item.page)}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '6px 12px', borderRadius: 4, fontFamily: "'DM Sans', sans-serif", fontSize: '0.875rem', fontWeight: 400, color: '#a0bcd8', borderBottom: '2px solid transparent', transition: 'color 0.15s' }}
-              >
-                {item.label}
-              </button>
-            ))}
-          </nav>
-          {/* Mobile nav toggle */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{ marginLeft: 'auto', background: 'none', border: '1px solid #345487', borderRadius: 4, padding: '6px 10px', color: '#a0bcd8', cursor: 'pointer', display: 'none' }}
-            className="md:hidden block"
-            aria-label="Toggle navigation"
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" />
-            </svg>
-          </button>
+          {mobileMenuOpen && (
+            <div id="mobile-nav" className="mobile-menu">
+              {navItems.map((item) => (
+                <button
+                  key={item.page}
+                  className="mobile-nav-link"
+                  onClick={() => { onNavigate(item.page); setMobileMenuOpen(false); }}
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '10px 0', fontFamily: "'DM Sans', sans-serif", fontSize: '0.95rem', color: '#a0bcd8', borderBottom: '1px solid #243e6b' }}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-        {mobileMenuOpen && (
-          <div style={{ background: '#1b2d4f', borderTop: '1px solid #243e6b', padding: '8px 24px 16px' }}>
-            {[
-              { label: 'Search', page: 'search' as Page },
-              { label: 'Conditions', page: 'conditions' as Page },
-              { label: 'How This Works', page: 'how-it-works' as Page },
-              { label: 'About', page: 'about' as Page },
-            ].map((item) => (
-              <button key={item.page} onClick={() => { onNavigate(item.page); setMobileMenuOpen(false); }} style={{ display: 'block', width: '100%', textAlign: 'left', background: 'none', border: 'none', cursor: 'pointer', padding: '10px 0', fontFamily: "'DM Sans', sans-serif", fontSize: '0.95rem', color: '#a0bcd8', borderBottom: '1px solid #243e6b' }}>
-                {item.label}
-              </button>
-            ))}
-          </div>
-        )}
       </header>
-      <main style={{ flex: 1 }}>
+      <main className="app-main">
         <Home onNavigate={onNavigate} />
       </main>
       <Footer onNavigate={onNavigate} />
