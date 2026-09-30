@@ -32,18 +32,18 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
   }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#f5f7fa' }}>
+    <div style={{ minHeight: '100%', background: '#f5f7fa', minWidth: 0 }}>
       {/* Search bar */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <form onSubmit={handleSearchSubmit} style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
+          <form className="stack-form" onSubmit={handleSearchSubmit} style={{ marginBottom: 16 }}>
             <input
               type="search"
               value={inputVal}
               onChange={(e) => setInputVal(e.target.value)}
               placeholder="Search conditions, medications…"
               style={{
-                flex: 1,
+                minWidth: 0,
                 border: '2px solid #3b7fc4',
                 borderRadius: 6,
                 padding: '12px 18px',
@@ -79,7 +79,8 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                 key={f}
                 onClick={() => setFilter(f)}
                 style={{
-                  padding: '5px 14px',
+                  padding: '8px 14px',
+                  minHeight: 44,
                   borderRadius: 4,
                   border: filter === f ? '1px solid #1b2d4f' : '1px solid #d1d9e6',
                   background: filter === f ? '#1b2d4f' : '#ffffff',
@@ -112,6 +113,7 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                 fontSize: '0.85rem',
                 color: '#6b7a99',
                 marginBottom: 24,
+                overflowWrap: 'anywhere',
               }}
             >
               {totalResults} result{totalResults !== 1 ? 's' : ''} for{' '}
@@ -136,8 +138,8 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                       width: '100%',
                     }}
                   >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap' }}>
-                      <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
+                      <div className="split-main">
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
                           <span
                             style={{
@@ -211,8 +213,8 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                       width: '100%',
                     }}
                   >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap' }}>
-                      <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
+                      <div className="split-main">
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
                           <span
                             style={{
@@ -330,12 +332,14 @@ function EmptyPrompt({ onNavigate }: { onNavigate: (page: Page, id?: string) => 
               textAlign: 'left',
               cursor: 'pointer',
               display: 'flex',
+              flexWrap: 'wrap',
               justifyContent: 'space-between',
               alignItems: 'center',
               gap: 12,
+              minWidth: 0,
             }}
           >
-            <div>
+            <div className="split-main">
               <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, color: '#1b2d4f', fontSize: '0.95rem' }}>
                 {c.name}
               </span>
@@ -379,6 +383,7 @@ function NoResults({ query, onNavigate }: { query: string; onNavigate: (page: Pa
           fontSize: '1.15rem',
           color: '#1b2d4f',
           marginBottom: 8,
+          overflowWrap: 'anywhere',
         }}
       >
         No results for "{query}"

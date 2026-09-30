@@ -74,11 +74,11 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
   const relatedMeds = condition.relatedMedicationIds.map(getMedicationById).filter(Boolean);
 
   return (
-    <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
+    <div style={{ background: '#f5f7fa', minWidth: 0 }}>
       {/* Breadcrumb */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '12px 24px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <nav style={{ display: 'flex', gap: 6, alignItems: 'center', fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}>
+          <nav className="crumbs" style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}>
             <button onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Home</button>
             <span>›</span>
             <button onClick={() => onNavigate('conditions')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Conditions</button>
@@ -92,7 +92,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
 
       <div style={{ maxWidth: 1100, margin: '0 auto', padding: '32px 24px' }}>
         {/* A. Condition header */}
-        <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '32px 36px', marginBottom: 20 }}>
+        <div className="card-pad" style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, marginBottom: 20 }}>
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 16, flexWrap: 'wrap', marginBottom: 12 }}>
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
@@ -133,12 +133,15 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                         onClick={() => setSelectedSubId(sub.id)}
                         style={{
                           width: '100%',
+                          minWidth: 0,
+                          minHeight: 44,
                           background: isSelected ? '#f5f7fa' : 'transparent',
                           border: 'none',
                           borderRadius: 6,
                           padding: '14px 12px',
                           cursor: 'pointer',
                           display: 'flex',
+                          flexWrap: 'wrap',
                           alignItems: 'center',
                           justifyContent: 'space-between',
                           gap: 12,
@@ -146,7 +149,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                           transition: 'background 0.12s',
                         }}
                       >
-                        <div style={{ display: 'flex', alignItems: 'center', gap: 10, flex: 1, flexWrap: 'wrap' }}>
+                        <div className="split-main" style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
                           <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: isSelected ? 700 : 500, fontSize: '0.95rem', color: isSelected ? '#1b2d4f' : '#334155' }}>
                             {sub.name}
                           </span>
@@ -348,7 +351,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           )}
 
           {/* G. Source + Disclaimer */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 16 }}>
             <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 8, padding: '18px 22px' }}>
               <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.75rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
                 Where this came from
@@ -396,18 +399,10 @@ function CopyConditionLink({ conditionId }: { conditionId: string }) {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexShrink: 0 }}>
     <button
       type="button"
+      className="copy-link"
       onClick={copyLink}
       aria-label={copied ? 'Link copied' : 'Copy link to this condition'}
       title="Copy link"
-      style={{
-        position: 'relative',
-        width: 23,
-        height: 23,
-        padding: 0,
-        background: 'transparent',
-        border: 'none',
-        cursor: 'pointer',
-      }}
     >
       <svg
         width="23"
@@ -416,8 +411,6 @@ function CopyConditionLink({ conditionId }: { conditionId: string }) {
         fill="none"
         aria-hidden="true"
         style={{
-          position: 'absolute',
-          inset: 0,
           color: '#64748b',
           opacity: copied ? 0 : 1,
           transform: copied ? 'scale(0.82)' : 'scale(1)',
@@ -434,8 +427,6 @@ function CopyConditionLink({ conditionId }: { conditionId: string }) {
         fill="none"
         aria-hidden="true"
         style={{
-          position: 'absolute',
-          inset: 0,
           color: '#15803d',
           opacity: copied ? 1 : 0,
           transform: copied ? 'scale(1)' : 'scale(0.82)',

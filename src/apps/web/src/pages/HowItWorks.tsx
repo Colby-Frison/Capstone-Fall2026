@@ -49,7 +49,7 @@ export default function HowItWorks({ onNavigate }: Props) {
   ];
 
   return (
-    <div style={{ background: '#f5f7fa', minHeight: '100vh' }}>
+    <div style={{ background: '#f5f7fa', minWidth: 0 }}>
       {/* Hero */}
       <div style={{ background: '#1b2d4f', padding: '48px 24px 40px' }}>
         <div style={{ maxWidth: 800, margin: '0 auto' }}>
@@ -166,7 +166,7 @@ export default function HowItWorks({ onNavigate }: Props) {
         </div>
 
         {/* Does / Does not */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 16 }}>
           <div style={{ background: '#f0fdf4', border: '1px solid #bbf7d0', borderRadius: 10, padding: '24px 24px' }}>
             <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.85rem', color: '#14532d', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: 14 }}>
               This guide provides

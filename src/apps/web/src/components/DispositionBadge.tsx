@@ -44,7 +44,7 @@ export default function DispositionBadge({ disposition, size = 'md' }: Props) {
         : {};
 
   return (
-    <span className={className} style={sizeStyles}>
+    <span className={className} style={{ ...sizeStyles, flexShrink: 0, whiteSpace: 'nowrap' }}>
       <span
         style={{
           width: size === 'sm' ? 6 : size === 'lg' ? 9 : 7,

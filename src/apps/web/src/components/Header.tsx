@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 type Page =
   | 'home'
@@ -29,13 +29,26 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
-    if (query.trim()) onNavigate('search', query.trim());
+    if (query.trim()) {
+      onNavigate('search', query.trim());
+      setMobileMenuOpen(false);
+    }
   }
 
   const showSearch = currentPage !== 'home';
 
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    function onKey(event: KeyboardEvent) {
+      if (event.key === 'Escape') setMobileMenuOpen(false);
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [mobileMenuOpen]);
+
   return (
     <header
+      className="site-header"
       style={{
         background: '#1b2d4f',
         borderBottom: '1px solid #243e6b',
@@ -44,12 +57,11 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
         zIndex: 50,
       }}
     >
-      {/* Prototype banner */}
       <div
+        className="prototype-banner"
         style={{
           background: '#0f1e35',
           borderBottom: '1px solid #243e6b',
-          padding: '5px 24px',
           textAlign: 'center',
         }}
       >
@@ -58,10 +70,11 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
         </span>
       </div>
 
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 32, height: 64 }}>
+      <div className="header-inner">
+        <div className="header-bar">
           {/* Wordmark */}
           <button
+            className="wordmark"
             onClick={() => onNavigate('home')}
             style={{
               display: 'flex',
@@ -71,11 +84,11 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
               border: 'none',
               cursor: 'pointer',
               padding: 0,
-              flexShrink: 0,
+              minWidth: 0,
             }}
           >
             {/* Abstract wing mark */}
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" style={{ flexShrink: 0 }}>
               <path d="M4 22 L16 8 L28 22" stroke="#3b7fc4" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
               <path d="M8 22 L16 12 L24 22" stroke="#7fa8d0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
               <line x1="4" y1="24" x2="28" y2="24" stroke="#3b7fc4" strokeWidth="2" strokeLinecap="round" />
@@ -94,12 +107,12 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
                 Pilots Guide
               </div>
               <div
+                className="wordmark-kicker"
                 style={{
                   fontFamily: "'DM Sans', sans-serif",
                   fontWeight: 400,
                   fontSize: '0.7rem',
                   color: '#7fa8d0',
-                  lineHeight: 1,
                   letterSpacing: '0.05em',
                   textTransform: 'uppercase',
                 }}
@@ -110,7 +123,7 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
           </button>
 
           {/* Desktop nav */}
-          <nav style={{ display: 'flex', gap: 4, flex: 1, alignItems: 'center' }} className="hidden md:flex">
+          <nav className="desktop-nav" aria-label="Primary">
             {navItems.map((item) => (
               <button
                 key={item.page}
@@ -136,7 +149,7 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
 
           {/* Search bar (shown on non-home pages) */}
           {showSearch && (
-            <form onSubmit={handleSearch} style={{ display: 'flex', gap: 8, flexShrink: 0 }} className="hidden md:flex">
+            <form className="desktop-search" onSubmit={handleSearch}>
               <input
                 type="search"
                 value={query}
@@ -176,19 +189,12 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
 
           {/* Mobile menu button */}
           <button
+            type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            style={{
-              marginLeft: 'auto',
-              background: 'none',
-              border: '1px solid #345487',
-              borderRadius: 4,
-              padding: '6px 10px',
-              color: '#a0bcd8',
-              cursor: 'pointer',
-              display: 'none',
-            }}
-            className="md:hidden block"
+            className="menu-toggle"
             aria-label="Toggle navigation"
+            aria-expanded={mobileMenuOpen}
+            aria-controls="site-menu"
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
               {mobileMenuOpen ? (
@@ -202,9 +208,9 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
 
         {/* Mobile menu */}
         {mobileMenuOpen && (
-          <div style={{ borderTop: '1px solid #243e6b', paddingBottom: 16 }}>
+          <div id="site-menu" className="mobile-menu">
             {showSearch && (
-              <form onSubmit={handleSearch} style={{ display: 'flex', gap: 8, padding: '12px 0' }}>
+              <form className="stack-form" onSubmit={handleSearch} style={{ padding: '12px 0' }}>
                 <input
                   type="search"
                   value={query}
@@ -242,14 +248,12 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
             {navItems.map((item) => (
               <button
                 key={item.page}
+                className="mobile-nav-link"
                 onClick={() => {
                   onNavigate(item.page);
                   setMobileMenuOpen(false);
                 }}
                 style={{
-                  display: 'block',
-                  width: '100%',
-                  textAlign: 'left',
                   background: 'none',
                   border: 'none',
                   cursor: 'pointer',
