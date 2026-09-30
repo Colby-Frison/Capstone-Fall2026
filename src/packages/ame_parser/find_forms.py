@@ -1,9 +1,11 @@
 # CS 4273 – Capstone | Fall 2026 | GROUP F
-# @brief: This file scans ame_guide.normalized.json for conditions/sub-conditions that have forms with urls (Status Summaries, Questionnaires, and Clinical Progress Notes).
-# All info is written to form_links.json and form urls are manually inputted (automation is goal for future)
+# @brief: This script finds conditions in ame_guide.normalized.json with these forms: Status Summaries, Questionnaires, and Clinical Progress Notes.
+# Script's purpose is to help automate creation of form_links.json. Unfortunately as of now, form urls must be manually inputted/verifed (automation is future goal)
+# NOTE: Running the script overwrites any existing form_links.json, which will remove added urls
 
 from pathlib import Path
 import json
+import re
 
 # output dictionary
 # KEY = name of condition/sub-condition
@@ -34,14 +36,28 @@ for record in ame_parsed_json["records"]:
     condition = record["condition"]
 
     # check raw text of each record
-    raw_text = record["raw_text"].lower()
+    raw_text = record["raw_text"]
 
-    # check keywords and update list
-    if "status summary" in raw_text:
-        forms_needed.append({"Form Type": "Status Summary", "Url": ""})
-    if "questionnaire" in raw_text:
-        forms_needed.append({"Form Type": "Questionnaire", "Url": ""})
-    if "clinical progress note" in raw_text:
+    # check keywords and update list (use regex to extract condition-specific status summary or questionnaire)
+    if "Status Summary" in raw_text:
+        # re: grab up to 5 capitalized, hyphenated, or parenthesized words attached in front of Status Summary
+        match = re.search(
+            r"((?:[A-Z\(][a-zA-Z\-\)]*\s+){1,5}Status\s+Summary)",
+            raw_text,
+        )
+        if match:
+            forms_needed.append({"Form Type": match.group(0), "Url": ""})
+        else:
+            forms_needed.append({"Form Type": "Status Summary", "Url": ""})
+
+    if "Questionnaire" in raw_text:
+        match = re.search(r"((?:[A-Z\(][a-zA-Z\-\)]*\s+){1,5}Questionnaire)", raw_text)
+        if match:
+            forms_needed.append({"Form Type": match.group(0), "Url": ""})
+        else:
+            forms_needed.append({"Form Type": "Questionnaire", "Url": ""})
+
+    if "Clinical Progress Note" in raw_text:
         # conditions that need clinical progress note will all display this same informational link, so it's hardcoded
         forms_needed.append(
             {
@@ -49,7 +65,7 @@ for record in ame_parsed_json["records"]:
                 "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf",
             }
         )
-    if "faa form 8500-7" in raw_text:
+    if "FAA form 8500-7" in raw_text:
         forms_needed.append(
             {
                 "Form Type": "FAA 8500-7",
@@ -59,8 +75,14 @@ for record in ame_parsed_json["records"]:
 
     # if forms were found for condition, add to output dictionary
     if len(forms_needed) > 0:
-        form_dict[condition] = forms_needed
+        if condition not in form_dict:
+            form_dict[condition] = forms_needed
+        else:
+            for form in forms_needed:
+                # handle duplicates (i.e., multiple clinical progress note mentions)
+                if form not in form_dict[condition]:
+                    form_dict[condition].append(form)
 
-# convert and output to JSON file for front-end use
+# write to output JSON file for front-end use
 with open(output_json_file_path, "w", encoding="utf-8") as out_file:
     json.dump(form_dict, out_file, indent=4)
