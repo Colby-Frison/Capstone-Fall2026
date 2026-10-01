@@ -57,8 +57,8 @@ for record in ame_parsed_json["records"]:
         else:
             forms_needed.append({"Form Type": "Questionnaire", "Url": ""})
 
-    if "Clinical Progress Note" in raw_text:
-        # conditions that need clinical progress note will all display this same informational link, so it's hardcoded
+    if "Clinical Progress Note" in raw_text or "status report" in raw_text:
+        # conditions that need clinical progress note/status report will all display this same informational link, so it's hardcoded
         forms_needed.append(
             {
                 "Form Type": "Clinical Progress Note",
