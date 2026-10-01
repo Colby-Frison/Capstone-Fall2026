@@ -1,7 +1,7 @@
 # CS 4273 – Capstone | Fall 2026 | GROUP F
 # @brief: This script finds conditions in ame_guide.normalized.json with these forms: Status Summaries, Questionnaires, and Clinical Progress Notes.
 # Script's purpose is to help automate creation of form_links.json. Unfortunately as of now, form urls must be manually inputted/verifed (automation is future goal)
-# NOTE: Running the script overwrites any existing form_links.json, which will remove added urls
+# NOTE: Running the script overwrites any existing form_links.json, which will remove added urls (in the future, could update file instead of overwriting it)
 
 from pathlib import Path
 import json
@@ -61,7 +61,7 @@ for record in ame_parsed_json["records"]:
         # conditions that need clinical progress note/status report will all display this same informational link, so it's hardcoded
         forms_needed.append(
             {
-                "Form Type": "Clinical Progress Note",
+                "Form Type": "Clinical Progress Note / Status Report",
                 "Url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf",
             }
         )
