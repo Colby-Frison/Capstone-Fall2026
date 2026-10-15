@@ -135,14 +135,38 @@ Requires Python 3.10+ and Node.js 18+ (pnpm or npm).
 
 ```powershell
 python -m pip install -e ".[dev]"
-python src/scripts/capstone.py test --section parser
-python src/scripts/capstone.py test --section content
-python src/scripts/capstone.py test --section web
 python src/scripts/capstone.py test
 python src/scripts/capstone.py dev
 ```
 
-`dev` starts the Vite app (default http://127.0.0.1:5173).
+`dev` starts the Vite app (default http://127.0.0.1:5173). See [Testing](#testing) for the test harness.
+
+### Testing
+
+`python src/scripts/capstone.py test` is the single entry point, and CI runs the same command. Each section can also run on its own:
+
+| Section | What it runs | Coverage gate |
+|---------|--------------|---------------|
+| `parser` | pytest over [`tests/`](tests/) (unit, harness, schema-contract, and PDF integration tests) | `fail_under = 85` in `pyproject.toml` |
+| `web` | All Vitest unit + component tests (jsdom + Testing Library), then the production build | 90% lines / 75% branches in `vitest.config.ts` |
+| `content` | Only the content-adapter tests (quick subset of `web`) | — |
+| `e2e` | Playwright flows in [`src/apps/web/e2e/`](src/apps/web/e2e/) | — |
+
+```powershell
+python src/scripts/capstone.py test                    # parser + web, with coverage
+python src/scripts/capstone.py test --e2e              # ...plus Playwright
+python src/scripts/capstone.py test --section parser   # one section
+python src/scripts/capstone.py test --no-coverage      # faster local loop
+```
+
+The HTML coverage reports go to `coverage/python/html/` and `src/apps/web/coverage/`. A run fails when coverage drops below a threshold.
+
+Adding tests:
+
+- **Parser:** add `tests/test_*.py`. Build fake `PageData` pages (see `tests/test_parser.py`) instead of reading PDFs. Save real-PDF checks for `tests/test_pdf_integration.py`.
+- **Content / logic:** add `*.test.ts` next to the code. These run in Node.
+- **Components / pages:** add `*.test.tsx` that starts with `// @vitest-environment jsdom`. Use Testing Library queries by role or text. Pick fixtures from the real `conditions` data rather than hard-coding ids that can change on a re-parse.
+- **Schema:** `tests/test_schema.py` fails if `schemas/ame-parser-v1.schema.json` drifts from the code. Regenerate it with `python -m ame_parser --schema schemas/ame-parser-v1.schema.json`.
 
 ### Content pipeline
 
@@ -160,7 +184,8 @@ Normalized JSON for the website lives in [`src/data/guidance/`](src/data/guidanc
 cd src/apps/web
 pnpm install   # or: npm install
 pnpm dev
-pnpm test
+pnpm test            # or: pnpm test:coverage
+pnpm test:e2e
 pnpm build
 ```
 

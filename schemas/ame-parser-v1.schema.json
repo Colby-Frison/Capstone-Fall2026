@@ -39,6 +39,41 @@
             "minLength": 1,
             "type": "string"
           },
+          "requirements": {
+            "items": {
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "DOCUMENT",
+                    "TEST",
+                    "MEDICATION",
+                    "EVALUATION",
+                    "OTHER"
+                  ]
+                },
+                "required": {
+                  "type": "boolean"
+                },
+                "role": {
+                  "enum": [
+                    "bring_list",
+                    "ame_review",
+                    "note"
+                  ]
+                },
+                "text": {
+                  "minLength": 1,
+                  "type": "string"
+                }
+              },
+              "required": [
+                "text",
+                "kind"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
           "scenario": {
             "minLength": 1,
             "type": "string"

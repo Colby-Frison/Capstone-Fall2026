@@ -10,4 +10,7 @@ dist/
 /Documentation/local/
 /.vscode/
 /.cursor/
-/.claude/
+/.claude//coverage/
+coverage.xml
+htmlcov/
+.venv/

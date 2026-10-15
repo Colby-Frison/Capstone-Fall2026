@@ -99,3 +99,51 @@ def test_reader_validates_page_range(tmp_path: Path) -> None:
         writer.write(output)
     with pytest.raises(ValueError, match="outside"):
         PdfPlumberReader().read(pdf, (2, 2))
+
+
+def test_cli_requires_input_without_schema(capsys) -> None:
+    with pytest.raises(SystemExit) as exc:
+        main([])
+    assert exc.value.code == 2
+    assert "input PDF is required" in capsys.readouterr().err
+
+
+def test_cli_reports_unsupported_document(monkeypatch, capsys) -> None:
+    from ame_parser.extractors import UnsupportedDocumentError
+
+    class UnsupportedParser:
+        def parse(self, *args, **kwargs):
+            raise UnsupportedDocumentError("no signature")
+
+    monkeypatch.setattr("ame_parser.cli.AmeParser", UnsupportedParser)
+    assert main(["input.pdf"]) == 3
+    assert "unsupported document: no signature" in capsys.readouterr().err
+
+
+def test_cli_prints_warnings_in_diagnostic_mode(tmp_path: Path, monkeypatch, capsys) -> None:
+    class WarningParser:
+        def parse(self, *args, **kwargs) -> ParseResult:
+            return ParseResult(source_document="input.pdf", warnings=("no_guidance_records",))
+
+    monkeypatch.setattr("ame_parser.cli.AmeParser", WarningParser)
+    assert main(["input.pdf", "-o", str(tmp_path / "out.json"), "--diagnostic"]) == 0
+    assert "warning: no_guidance_records" in capsys.readouterr().err
+
+
+def test_page_range_rejects_non_numeric() -> None:
+    with pytest.raises(Exception):
+        page_range("a-b")
+
+
+def test_module_entry_point_runs_cli(tmp_path: Path) -> None:
+    import subprocess
+    import sys
+
+    output = tmp_path / "schema.json"
+    completed = subprocess.run(
+        [sys.executable, "-m", "ame_parser", "--schema", str(output)],
+        capture_output=True,
+        text=True,
+    )
+    assert completed.returncode == 0, completed.stderr
+    assert output.is_file()

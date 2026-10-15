@@ -61,3 +61,52 @@ def test_select_primary_prefers_pathway_table() -> None:
     selected = select_primary_table((ghost, real))
     assert selected is not None
     assert selected[0] is real
+
+
+def test_headerless_page_continues_with_previous_columns() -> None:
+    primary = (
+        ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+        ("A. Pathway one", "Submit note", "DEFER"),
+    )
+    _, columns = assemble_page_rows((primary,))
+    continuation = (
+        ("B. Pathway two", "Submit labs", "ISSUE"),
+        ("C. Pathway three", "Submit imaging", "DEFER"),
+    )
+    rows, carried = assemble_page_rows((continuation,), columns)
+    assert carried == columns
+    assert [row.scenario for row in rows] == ["B. Pathway two", "C. Pathway three"]
+
+
+def test_headerless_lone_fragment_becomes_evaluation_row() -> None:
+    primary = (
+        ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+        ("A. Pathway one", "Submit note", "DEFER"),
+    )
+    _, columns = assemble_page_rows((primary,))
+    rows, _ = assemble_page_rows(((), (("• wrapped bullet",),)), columns)
+    assert len(rows) == 1
+    assert rows[0].scenario == ""
+    assert rows[0].evaluation == "• wrapped bullet"
+
+
+def test_headerless_page_without_prior_columns_yields_nothing() -> None:
+    assert assemble_page_rows(((("text",),),)) == ([], None)
+
+
+def test_secondary_disposition_table_on_same_page() -> None:
+    first = (
+        ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+        ("A. Pathway one", "Submit note", "DEFER"),
+        ("B. Pathway two", "Submit note", "DEFER"),
+    )
+    second = (
+        ("DISEASE/CONDITION", "EVALUATION DATA", "DISPOSITION"),
+        ("C. Other pathway", "Submit labs", "ISSUE"),
+    )
+    rows, _ = assemble_page_rows((first, second))
+    assert [row.scenario for row in rows] == [
+        "A. Pathway one",
+        "B. Pathway two",
+        "C. Other pathway",
+    ]

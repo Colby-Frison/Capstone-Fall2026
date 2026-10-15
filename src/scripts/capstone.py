@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 WEB_DIR = ROOT / "src" / "apps" / "web"
 GUIDANCE_DIR = ROOT / "src" / "data" / "guidance"
 RESOURCES = ROOT / "Documentation" / "Resources"
+PY_COVERAGE_DIR = ROOT / "coverage" / "python"
 
 
 class SectionError(RuntimeError):
@@ -66,42 +67,92 @@ def run(cmd: list[str], *, cwd: Path | None = None) -> None:
         raise SectionError(f"Command failed ({completed.returncode}): {' '.join(cmd)}")
 
 
-def test_parser() -> None:
+def test_parser(opts: argparse.Namespace) -> None:
     banner("SECTION: parser")
-    run([sys.executable, "-m", "pytest", "tests", "-q"], cwd=ROOT)
+    cmd = [sys.executable, "-m", "pytest", "tests", "-q"]
+    if opts.coverage:
+        # fail_under in pyproject.toml makes pytest exit non-zero below threshold.
+        cmd += [
+            "--cov",
+            "--cov-report=term-missing:skip-covered",
+            f"--cov-report=xml:{PY_COVERAGE_DIR / 'coverage.xml'}",
+            f"--cov-report=html:{PY_COVERAGE_DIR / 'html'}",
+        ]
+    run(cmd, cwd=ROOT)
 
 
-def test_content() -> None:
+def test_content(opts: argparse.Namespace) -> None:
     banner("SECTION: content")
     pm = ensure_web_deps()
-    run(pm + ["exec", "vitest", "run", "src/content.adapter.test.ts"], cwd=WEB_DIR)
+    # Thresholds in vitest.config.ts cover the whole app, so this quick
+    # subset runs without coverage; the web section reports it.
+    run(pm + ["exec", "vitest", "run", "src/content."], cwd=WEB_DIR)
 
 
-def test_web() -> None:
+def test_web(opts: argparse.Namespace) -> None:
     banner("SECTION: web")
     pm = ensure_web_deps()
+    cmd = pm + ["exec", "vitest", "run"]
+    if opts.coverage:
+        cmd.append("--coverage")
+    run(cmd, cwd=WEB_DIR)
     run(pm + ["run", "build"], cwd=WEB_DIR)
+
+
+def test_e2e(opts: argparse.Namespace) -> None:
+    banner("SECTION: e2e")
+    pm = ensure_web_deps()
+    run(pm + ["exec", "playwright", "install", "chromium"], cwd=WEB_DIR)
+    run(pm + ["run", "test:e2e"], cwd=WEB_DIR)
 
 
 SECTION_RUNNERS = {
     "parser": test_parser,
     "content": test_content,
     "web": test_web,
+    "e2e": test_e2e,
 }
+# content is a subset of web, and e2e needs a browser, so neither runs by default.
+DEFAULT_SECTIONS = ("parser", "web")
+
+
+def selected_sections(args: argparse.Namespace) -> list[str]:
+    if args.section != "all":
+        return [args.section]
+    sections = list(DEFAULT_SECTIONS)
+    if args.e2e:
+        sections.append("e2e")
+    return sections
+
+
+def print_coverage_reports(sections: list[str]) -> None:
+    reports = {
+        "parser": PY_COVERAGE_DIR / "html" / "index.html",
+        "web": WEB_DIR / "coverage" / "index.html",
+    }
+    lines = [
+        f"  {name}: {path.relative_to(ROOT)}"
+        for name, path in reports.items()
+        if name in sections and path.exists()
+    ]
+    if lines:
+        print("\nCoverage reports:\n" + "\n".join(lines), flush=True)
 
 
 def cmd_test(args: argparse.Namespace) -> int:
-    sections = [args.section] if args.section != "all" else list(SECTION_RUNNERS)
+    sections = selected_sections(args)
     failures: list[str] = []
     for name in sections:
         try:
-            SECTION_RUNNERS[name]()
+            SECTION_RUNNERS[name](args)
             print(f"[ok] {name}", flush=True)
         except SectionError as exc:
             print(f"[fail] {name}: {exc}", file=sys.stderr, flush=True)
             failures.append(name)
             if args.fail_fast:
                 break
+    if args.coverage:
+        print_coverage_reports(sections)
     if failures:
         print(f"\nFailed sections: {', '.join(failures)}", file=sys.stderr)
         return 1
@@ -128,7 +179,7 @@ def cmd_dev(args: argparse.Namespace) -> int:
 
 
 def cmd_build(args: argparse.Namespace) -> int:
-    """Production build of the Vite web app (same as Vercel / test --section web)."""
+    """Production build of the Vite web app (same as Vercel; test --section web also builds)."""
     pm = ensure_web_deps()
     banner("Building web app for production")
     run(pm + ["run", "build"], cwd=WEB_DIR)
@@ -183,12 +234,23 @@ def build_parser() -> argparse.ArgumentParser:
         "--section",
         choices=["all", *SECTION_RUNNERS.keys()],
         default="all",
-        help="Which layer to test (default: all)",
+        help="Which layer to test (default: all = parser + web)",
     )
     test.add_argument(
         "--fail-fast",
         action="store_true",
         help="Stop after the first failing section",
+    )
+    test.add_argument(
+        "--e2e",
+        action="store_true",
+        help="Also run Playwright end-to-end tests when --section is all",
+    )
+    test.add_argument(
+        "--no-coverage",
+        dest="coverage",
+        action="store_false",
+        help="Skip coverage collection and thresholds (faster local runs)",
     )
     test.set_defaults(func=cmd_test)
 
