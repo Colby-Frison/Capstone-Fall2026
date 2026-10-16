@@ -48,12 +48,12 @@ async function walk(page: Page, width: number) {
   }
 
   const searchForm = page.locator('main form.stack-form');
-  await searchForm.getByRole('searchbox').fill('zzzz-no-match-xyz');
+  await searchForm.getByRole('combobox').fill('zzzz-no-match-xyz');
   await searchForm.getByRole('button', { name: 'Search' }).click();
   await expect(page.getByRole('heading', { name: /No results for/ })).toBeVisible();
   await assertNoOverflow(page);
 
-  await searchForm.getByRole('searchbox').fill('x'.repeat(180));
+  await searchForm.getByRole('combobox').fill('x'.repeat(180));
   await searchForm.getByRole('button', { name: 'Search' }).click();
   await expect(page.getByRole('heading', { name: /No results for/ })).toBeVisible();
   await assertNoOverflow(page);
@@ -93,7 +93,7 @@ async function walk(page: Page, width: number) {
   await assertNoOverflow(page);
 
   await goTo(page, 'Search', narrow);
-  await searchForm.getByRole('searchbox').fill('sertraline');
+  await searchForm.getByRole('combobox').fill('sertraline');
   await searchForm.getByRole('button', { name: 'Search' }).click();
   await page.getByRole('button', { name: /Sertraline/ }).click();
   await expect(page.getByRole('heading', { name: 'Sertraline', exact: true })).toBeVisible();
@@ -150,7 +150,7 @@ test.describe('viewport layout', () => {
       await page.goto('/');
 
       const homeSearch = page.locator('main form.stack-form');
-      await homeSearch.getByRole('searchbox').fill('valvular');
+      await homeSearch.getByRole('combobox').fill('valvular');
       await homeSearch.getByRole('button', { name: 'Search' }).click();
       await expect(page.getByText(/results for/i)).toBeVisible();
       await page.getByRole('button', { name: /Valvular Disease/ }).click();
@@ -175,7 +175,7 @@ test.describe('viewport layout', () => {
 
       await goTo(page, 'Search', narrow);
       const searchForm = page.locator('main form.stack-form');
-      await searchForm.getByRole('searchbox').fill('sertraline');
+      await searchForm.getByRole('combobox').fill('sertraline');
       await searchForm.getByRole('button', { name: 'Search' }).click();
       await page.getByRole('button', { name: /Sertraline/ }).click();
       await expect(page.getByRole('heading', { name: 'Sertraline', exact: true })).toBeVisible();

@@ -3,6 +3,13 @@ import { conditions, searchConditions } from '../data/conditions';
 import { medications, searchMedications } from '../data/medications';
 import DispositionBadge from '../components/DispositionBadge';
 import DisclaimerCallout from '../components/DisclaimerCallout';
+import ConditionSearchInput from '../components/ConditionSearchInput';
+import NihRelatedLinks from '../components/NihRelatedLinks';
+import {
+  collectInfoLinks,
+  fetchNihConditionSuggestions,
+  type NihSuggestion,
+} from '../data/nih';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
 type Filter = 'all' | 'conditions' | 'medications';
@@ -16,19 +23,43 @@ interface Props {
 export default function SearchResults({ query, onNavigate, onSearch }: Props) {
   const [filter, setFilter] = useState<Filter>('all');
   const [inputVal, setInputVal] = useState(query);
+  const [nihSuggestions, setNihSuggestions] = useState<NihSuggestion[]>([]);
 
   useEffect(() => {
     setInputVal(query);
+  }, [query]);
+
+  useEffect(() => {
+    const q = query.trim();
+    if (q.length < 2) {
+      setNihSuggestions([]);
+      return;
+    }
+    const controller = new AbortController();
+    fetchNihConditionSuggestions(q, controller.signal).then((result) => {
+      if (!controller.signal.aborted) {
+        setNihSuggestions(result.suggestions);
+      }
+    });
+    return () => controller.abort();
   }, [query]);
 
   const matchedConditions = searchConditions(query);
   const matchedMedications = searchMedications(query);
 
   const totalResults = matchedConditions.length + matchedMedications.length;
+  const nihLinks = collectInfoLinks(nihSuggestions);
+  const showUnmatchedNih =
+    Boolean(query.trim()) &&
+    totalResults === 0 &&
+    nihSuggestions.length > 0;
 
-  function handleSearchSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (inputVal.trim()) onSearch(inputVal.trim());
+  function handleSelectCondition(conditionId: string) {
+    onNavigate('condition-detail', conditionId);
+  }
+
+  function handleSelectUnmatched(suggestion: NihSuggestion) {
+    onSearch(suggestion.label);
   }
 
   return (
@@ -36,41 +67,17 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
       {/* Search bar */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
-          <form className="stack-form" onSubmit={handleSearchSubmit} style={{ marginBottom: 16 }}>
-            <input
-              type="search"
+          <div style={{ marginBottom: 16 }}>
+            <ConditionSearchInput
               value={inputVal}
-              onChange={(e) => setInputVal(e.target.value)}
+              onChange={setInputVal}
+              onSearch={onSearch}
+              onSelectCondition={handleSelectCondition}
+              onSelectUnmatched={handleSelectUnmatched}
+              variant="default"
               placeholder="Search conditions, medications…"
-              style={{
-                minWidth: 0,
-                border: '2px solid #3b7fc4',
-                borderRadius: 6,
-                padding: '12px 18px',
-                fontSize: '1rem',
-                fontFamily: "'Inter', sans-serif",
-                color: '#1e293b',
-                outline: 'none',
-                background: '#ffffff',
-              }}
             />
-            <button
-              type="submit"
-              style={{
-                background: '#1b2d4f',
-                border: 'none',
-                borderRadius: 6,
-                padding: '12px 24px',
-                color: '#ffffff',
-                fontSize: '0.95rem',
-                fontWeight: 700,
-                cursor: 'pointer',
-                fontFamily: "'DM Sans', sans-serif",
-              }}
-            >
-              Search
-            </button>
-          </form>
+          </div>
 
           {/* Filters */}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}>
@@ -102,9 +109,12 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
 
       <div style={{ maxWidth: 900, margin: '0 auto', padding: '32px 24px' }}>
         {!query ? (
-          <EmptyPrompt onNavigate={onNavigate} />
+          <EmptyPrompt onNavigate={onNavigate} onSearch={onSearch} />
         ) : totalResults === 0 ? (
-          <NoResults query={query} onNavigate={onNavigate} />
+          <>
+            <NoResults query={query} onNavigate={onNavigate} />
+            <NihRelatedLinks links={nihLinks} unmatched={showUnmatchedNih || nihLinks.length > 0} query={query} />
+          </>
         ) : (
           <>
             <div
@@ -263,6 +273,8 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                 ))}
             </div>
 
+            {nihLinks.length > 0 && <NihRelatedLinks links={nihLinks} />}
+
             <DisclaimerCallout variant="compact" />
           </>
         )}
@@ -271,7 +283,13 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
   );
 }
 
-function EmptyPrompt({ onNavigate }: { onNavigate: (page: Page, id?: string) => void }) {
+function EmptyPrompt({
+  onNavigate,
+  onSearch,
+}: {
+  onNavigate: (page: Page, id?: string) => void;
+  onSearch: (q: string) => void;
+}) {
   const suggestions = conditions.slice(0, 4);
   return (
     <div>
@@ -290,6 +308,8 @@ function EmptyPrompt({ onNavigate }: { onNavigate: (page: Page, id?: string) => 
         {['migraine', 'depression', 'hypertension', 'sertraline', 'diabetes', 'sleep apnea'].map((term) => (
           <button
             key={term}
+            type="button"
+            onClick={() => onSearch(term)}
             style={{
               background: '#ffffff',
               border: '1px solid #d1d9e6',
