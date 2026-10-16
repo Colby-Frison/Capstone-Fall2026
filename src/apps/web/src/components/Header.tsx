@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import ConditionSearchInput from './ConditionSearchInput';
+import type { NihSuggestion } from '../data/nih';
 
 type Page =
   | 'home'
@@ -27,12 +29,25 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
     { label: 'About', page: 'about' },
   ];
 
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
-    if (query.trim()) {
-      onNavigate('search', query.trim());
+  useEffect(() => {
+    setQuery(searchQuery);
+  }, [searchQuery]);
+
+  function handleSearch(q: string) {
+    if (q.trim()) {
+      onNavigate('search', q.trim());
       setMobileMenuOpen(false);
     }
+  }
+
+  function handleSelectCondition(conditionId: string, _suggestion: NihSuggestion) {
+    onNavigate('condition-detail', conditionId);
+    setMobileMenuOpen(false);
+  }
+
+  function handleSelectUnmatched(suggestion: NihSuggestion) {
+    onNavigate('search', suggestion.label);
+    setMobileMenuOpen(false);
   }
 
   const showSearch = currentPage !== 'home';
@@ -149,42 +164,17 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
 
           {/* Search bar (shown on non-home pages) */}
           {showSearch && (
-            <form className="desktop-search" onSubmit={handleSearch}>
-              <input
-                type="search"
+            <div className="desktop-search">
+              <ConditionSearchInput
                 value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                onChange={setQuery}
+                onSearch={handleSearch}
+                onSelectCondition={handleSelectCondition}
+                onSelectUnmatched={handleSelectUnmatched}
+                variant="header"
                 placeholder="Search conditions, medications…"
-                style={{
-                  background: '#243e6b',
-                  border: '1px solid #345487',
-                  borderRadius: 4,
-                  padding: '7px 14px',
-                  color: '#ffffff',
-                  fontSize: '0.875rem',
-                  width: 240,
-                  fontFamily: "'Inter', sans-serif",
-                  outline: 'none',
-                }}
               />
-              <button
-                type="submit"
-                style={{
-                  background: '#3b7fc4',
-                  border: 'none',
-                  borderRadius: 4,
-                  padding: '7px 16px',
-                  color: '#ffffff',
-                  fontSize: '0.875rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  fontFamily: "'DM Sans', sans-serif",
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                Search
-              </button>
-            </form>
+            </div>
           )}
 
           {/* Mobile menu button */}
@@ -210,40 +200,19 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
         {mobileMenuOpen && (
           <div id="site-menu" className="mobile-menu">
             {showSearch && (
-              <form className="stack-form" onSubmit={handleSearch} style={{ padding: '12px 0' }}>
-                <input
-                  type="search"
+              <div style={{ padding: '12px 0' }}>
+                <ConditionSearchInput
                   value={query}
-                  onChange={(e) => setQuery(e.target.value)}
+                  onChange={setQuery}
+                  onSearch={handleSearch}
+                  onSelectCondition={handleSelectCondition}
+                  onSelectUnmatched={handleSelectUnmatched}
+                  variant="header"
+                  submitLabel="Go"
                   placeholder="Search conditions, medications…"
-                  style={{
-                    flex: 1,
-                    background: '#243e6b',
-                    border: '1px solid #345487',
-                    borderRadius: 4,
-                    padding: '8px 14px',
-                    color: '#ffffff',
-                    fontSize: '0.875rem',
-                    fontFamily: "'Inter', sans-serif",
-                    outline: 'none',
-                  }}
+                  inputStyle={{ width: '100%', flex: 1 }}
                 />
-                <button
-                  type="submit"
-                  style={{
-                    background: '#3b7fc4',
-                    border: 'none',
-                    borderRadius: 4,
-                    padding: '8px 16px',
-                    color: '#ffffff',
-                    fontWeight: 600,
-                    cursor: 'pointer',
-                    fontFamily: "'DM Sans', sans-serif",
-                  }}
-                >
-                  Go
-                </button>
-              </form>
+              </div>
             )}
             {navItems.map((item) => (
               <button

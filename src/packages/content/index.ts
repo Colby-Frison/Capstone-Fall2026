@@ -9,6 +9,12 @@ export type {
   SubCondition,
 } from './types';
 
+export type {
+  NihConditionsResponse,
+  NihInfoLink,
+  NihSuggestion,
+} from './nih';
+
 export {
   adaptGuidanceFile,
   adaptGuidanceFiles,
@@ -25,5 +31,11 @@ export {
   slugify,
   stripOrderingMarker,
 } from './adapt';
+
+export {
+  enrichSuggestionsWithMatches,
+  matchConditionsByNames,
+  matchTotality,
+} from './nih';
 
 export { listCanonicalCategories, resolveCategory } from './categories';
