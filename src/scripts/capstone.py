@@ -85,6 +85,7 @@ def test_content() -> None:
             "src/content.adapter.test.ts",
             "src/nih.match.test.ts",
             "src/nih.map.test.ts",
+            "src/search.score.test.ts",
         ],
         cwd=WEB_DIR,
     )

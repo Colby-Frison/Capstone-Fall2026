@@ -18,7 +18,7 @@ Issue [#27](https://github.com/Colby-Frison/Capstone-Fall2026/issues/27) — sma
 | Issue | Focus |
 | --- | --- |
 | [#32](https://github.com/Colby-Frison/Capstone-Fall2026/issues/32) | Map FAA parsed conditions to NIH medical identities (committed cache) |
-| [#31](https://github.com/Colby-Frison/Capstone-Fall2026/issues/31) | Scored synonym-aware search across condition content |
+| [#31](https://github.com/Colby-Frison/Capstone-Fall2026/issues/31) | Scored synonym-aware search across condition content — see [Search_Scoring.md](./Search_Scoring.md) |
 | [#33](https://github.com/Colby-Frison/Capstone-Fall2026/issues/33) | Enrich condition detail with NIH context and external links (blocked by #32) |
 
 Related: [#18](https://github.com/Colby-Frison/Capstone-Fall2026/issues/18) (terminology lookup). Accuracy rule unchanged: FAA guidance remains the only source of certification dispositions; NIH is for discovery, identity, and educational context.
