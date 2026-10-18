@@ -53,4 +53,14 @@ export {
   resolveNihIdentityForCondition,
 } from './nihMap';
 
+export {
+  expandedTermsFromNihSuggestions,
+  scoreCondition,
+  scoreMedication,
+  searchCatalog,
+  SEARCH_FIELD_WEIGHTS,
+  type SearchHit,
+  type SearchHitType,
+} from './search';
+
 export { listCanonicalCategories, resolveCategory } from './categories';

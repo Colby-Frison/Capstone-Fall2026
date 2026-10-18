@@ -1,6 +1,10 @@
-import { useState, useEffect } from 'react';
-import { conditions, searchConditions } from '../data/conditions';
-import { medications, searchMedications } from '../data/medications';
+import { useState, useEffect, useMemo } from 'react';
+import { conditions } from '../data/conditions';
+import {
+  expandedTermsFromNihSuggestions,
+  searchCatalogResults,
+  type SearchHit,
+} from '../data/search';
 import DispositionBadge from '../components/DispositionBadge';
 import DisclaimerCallout from '../components/DisclaimerCallout';
 import ConditionSearchInput from '../components/ConditionSearchInput';
@@ -44,10 +48,25 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
     return () => controller.abort();
   }, [query]);
 
-  const matchedConditions = searchConditions(query);
-  const matchedMedications = searchMedications(query);
+  const expandedTerms = useMemo(
+    () => expandedTermsFromNihSuggestions(nihSuggestions),
+    [nihSuggestions],
+  );
 
-  const totalResults = matchedConditions.length + matchedMedications.length;
+  const rankedHits = useMemo(
+    () => searchCatalogResults(query, expandedTerms),
+    [query, expandedTerms],
+  );
+
+  const visibleHits = rankedHits.filter((hit) => {
+    if (filter === 'conditions') return hit.type === 'condition';
+    if (filter === 'medications') return hit.type === 'medication';
+    return true;
+  });
+
+  const conditionCount = rankedHits.filter((h) => h.type === 'condition').length;
+  const medicationCount = rankedHits.filter((h) => h.type === 'medication').length;
+  const totalResults = rankedHits.length;
   const nihLinks = collectInfoLinks(nihSuggestions);
   const showUnmatchedNih =
     Boolean(query.trim()) &&
@@ -64,7 +83,6 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
 
   return (
     <div style={{ minHeight: '100%', background: '#f5f7fa', minWidth: 0 }}>
-      {/* Search bar */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto' }}>
           <div style={{ marginBottom: 16 }}>
@@ -79,7 +97,6 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
             />
           </div>
 
-          {/* Filters */}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}>
             {(['all', 'conditions', 'medications'] as Filter[]).map((f) => (
               <button
@@ -100,7 +117,11 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                   transition: 'all 0.15s',
                 }}
               >
-                {f === 'all' ? `All (${totalResults})` : f === 'conditions' ? `Conditions (${matchedConditions.length})` : `Medications (${matchedMedications.length})`}
+                {f === 'all'
+                  ? `All (${totalResults})`
+                  : f === 'conditions'
+                    ? `Conditions (${conditionCount})`
+                    : `Medications (${medicationCount})`}
               </button>
             ))}
           </div>
@@ -126,151 +147,19 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                 overflowWrap: 'anywhere',
               }}
             >
-              {totalResults} result{totalResults !== 1 ? 's' : ''} for{' '}
-              <strong style={{ color: '#1b2d4f' }}>"{query}"</strong> — results are for conditions you already know about.
+              {visibleHits.length} result{visibleHits.length !== 1 ? 's' : ''} for{' '}
+              <strong style={{ color: '#1b2d4f' }}>"{query}"</strong>
+              {expandedTerms.length > 0 ? ' — including related medical terms' : ''}
+              {' '}— ordered by relevance. Results are for conditions you already know about.
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}>
-              {(filter === 'all' || filter === 'conditions') &&
-                matchedConditions.map((c) => (
-                  <button
-                    key={c.id}
-                    onClick={() => onNavigate('condition-detail', c.id)}
-                    style={{
-                      background: '#ffffff',
-                      border: '1px solid #e2e8f0',
-                      borderRadius: 8,
-                      padding: '20px 24px',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                      transition: 'border-color 0.15s, box-shadow 0.15s',
-                      display: 'block',
-                      width: '100%',
-                    }}
-                  >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
-                      <div className="split-main">
-                        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
-                          <span
-                            style={{
-                              fontFamily: "'DM Sans', sans-serif",
-                              fontWeight: 700,
-                              fontSize: '1rem',
-                              color: '#1b2d4f',
-                            }}
-                          >
-                            {c.name}
-                          </span>
-                          <span
-                            style={{
-                              background: '#e8f2fb',
-                              border: '1px solid #b8d4ef',
-                              borderRadius: 3,
-                              padding: '1px 8px',
-                              fontSize: '0.7rem',
-                              fontWeight: 600,
-                              color: '#1b2d4f',
-                              fontFamily: "'DM Sans', sans-serif",
-                              textTransform: 'uppercase',
-                              letterSpacing: '0.05em',
-                            }}
-                          >
-                            Condition
-                          </span>
-                          <span
-                            style={{
-                              fontSize: '0.75rem',
-                              color: '#6b7a99',
-                              fontFamily: "'Inter', sans-serif",
-                            }}
-                          >
-                            {c.category}
-                          </span>
-                        </div>
-                        <p
-                          style={{
-                            margin: 0,
-                            fontFamily: "'Inter', sans-serif",
-                            fontSize: '0.875rem',
-                            color: '#475569',
-                            lineHeight: 1.55,
-                          }}
-                        >
-                          {c.summary.slice(0, 160)}…
-                        </p>
-                      </div>
-                      <div style={{ flexShrink: 0 }}>
-                        <DispositionBadge disposition={c.disposition} size="sm" />
-                      </div>
-                    </div>
-                  </button>
-                ))}
-
-              {(filter === 'all' || filter === 'medications') &&
-                matchedMedications.map((m) => (
-                  <button
-                    key={m.id}
-                    onClick={() => onNavigate('medication-detail', m.id)}
-                    style={{
-                      background: '#ffffff',
-                      border: '1px solid #e2e8f0',
-                      borderRadius: 8,
-                      padding: '20px 24px',
-                      textAlign: 'left',
-                      cursor: 'pointer',
-                      transition: 'border-color 0.15s, box-shadow 0.15s',
-                      display: 'block',
-                      width: '100%',
-                    }}
-                  >
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
-                      <div className="split-main">
-                        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
-                          <span
-                            style={{
-                              fontFamily: "'DM Sans', sans-serif",
-                              fontWeight: 700,
-                              fontSize: '1rem',
-                              color: '#1b2d4f',
-                            }}
-                          >
-                            {m.name}
-                          </span>
-                          <span
-                            style={{
-                              background: '#f0f4f8',
-                              border: '1px solid #cbd5e1',
-                              borderRadius: 3,
-                              padding: '1px 8px',
-                              fontSize: '0.7rem',
-                              fontWeight: 600,
-                              color: '#334155',
-                              fontFamily: "'DM Sans', sans-serif",
-                              textTransform: 'uppercase',
-                              letterSpacing: '0.05em',
-                            }}
-                          >
-                            Medication
-                          </span>
-                          <span style={{ fontSize: '0.75rem', color: '#6b7a99', fontFamily: "'Inter', sans-serif" }}>
-                            {m.category}
-                          </span>
-                        </div>
-                        <p
-                          style={{
-                            margin: 0,
-                            fontFamily: "'Inter', sans-serif",
-                            fontSize: '0.875rem',
-                            color: '#475569',
-                            lineHeight: 1.55,
-                          }}
-                        >
-                          {m.flightStatusNote.slice(0, 160)}…
-                        </p>
-                      </div>
-                    </div>
-                  </button>
-                ))}
+            <div
+              style={{ display: 'flex', flexDirection: 'column', gap: 12, marginBottom: 32 }}
+              data-testid="search-results-list"
+            >
+              {visibleHits.map((hit) => (
+                <ResultRow key={`${hit.type}-${hit.id}`} hit={hit} onNavigate={onNavigate} />
+              ))}
             </div>
 
             {nihLinks.length > 0 && <NihRelatedLinks links={nihLinks} />}
@@ -280,6 +169,148 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
         )}
       </div>
     </div>
+  );
+}
+
+function ResultRow({
+  hit,
+  onNavigate,
+}: {
+  hit: SearchHit;
+  onNavigate: (page: Page, id?: string) => void;
+}) {
+  if (hit.type === 'condition' && hit.condition) {
+    const c = hit.condition;
+    return (
+      <button
+        onClick={() => onNavigate('condition-detail', c.id)}
+        data-testid={`search-hit-condition-${c.id}`}
+        style={{
+          background: '#ffffff',
+          border: '1px solid #e2e8f0',
+          borderRadius: 8,
+          padding: '20px 24px',
+          textAlign: 'left',
+          cursor: 'pointer',
+          transition: 'border-color 0.15s, box-shadow 0.15s',
+          display: 'block',
+          width: '100%',
+        }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
+          <div className="split-main">
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
+              <span
+                style={{
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontWeight: 700,
+                  fontSize: '1rem',
+                  color: '#1b2d4f',
+                }}
+              >
+                {c.name}
+              </span>
+              <TypeBadge label="Condition" tone="condition" />
+              <span style={{ fontSize: '0.75rem', color: '#6b7a99', fontFamily: "'Inter', sans-serif" }}>
+                {c.category}
+              </span>
+            </div>
+            <p
+              style={{
+                margin: 0,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: '0.875rem',
+                color: '#475569',
+                lineHeight: 1.55,
+              }}
+            >
+              {c.summary.slice(0, 160)}…
+            </p>
+          </div>
+          <div style={{ flexShrink: 0 }}>
+            <DispositionBadge disposition={c.disposition} size="sm" />
+          </div>
+        </div>
+      </button>
+    );
+  }
+
+  if (hit.type === 'medication' && hit.medication) {
+    const m = hit.medication;
+    return (
+      <button
+        onClick={() => onNavigate('medication-detail', m.id)}
+        data-testid={`search-hit-medication-${m.id}`}
+        style={{
+          background: '#ffffff',
+          border: '1px solid #e2e8f0',
+          borderRadius: 8,
+          padding: '20px 24px',
+          textAlign: 'left',
+          cursor: 'pointer',
+          transition: 'border-color 0.15s, box-shadow 0.15s',
+          display: 'block',
+          width: '100%',
+        }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 16, flexWrap: 'wrap', minWidth: 0 }}>
+          <div className="split-main">
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
+              <span
+                style={{
+                  fontFamily: "'DM Sans', sans-serif",
+                  fontWeight: 700,
+                  fontSize: '1rem',
+                  color: '#1b2d4f',
+                }}
+              >
+                {m.name}
+              </span>
+              <TypeBadge label="Medication" tone="medication" />
+              <span style={{ fontSize: '0.75rem', color: '#6b7a99', fontFamily: "'Inter', sans-serif" }}>
+                {m.category}
+              </span>
+            </div>
+            <p
+              style={{
+                margin: 0,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: '0.875rem',
+                color: '#475569',
+                lineHeight: 1.55,
+              }}
+            >
+              {m.flightStatusNote.slice(0, 160)}…
+            </p>
+          </div>
+        </div>
+      </button>
+    );
+  }
+
+  return null;
+}
+
+function TypeBadge({ label, tone }: { label: string; tone: 'condition' | 'medication' }) {
+  const styles =
+    tone === 'condition'
+      ? { background: '#e8f2fb', border: '1px solid #b8d4ef', color: '#1b2d4f' }
+      : { background: '#f0f4f8', border: '1px solid #cbd5e1', color: '#334155' };
+  return (
+    <span
+      style={{
+        ...styles,
+        borderRadius: 3,
+        padding: '1px 8px',
+        fontSize: '0.7rem',
+        fontWeight: 600,
+        fontFamily: "'DM Sans', sans-serif",
+        textTransform: 'uppercase',
+        letterSpacing: '0.05em',
+      }}
+    >
+      {label}
+    </span>
   );
 }
 
