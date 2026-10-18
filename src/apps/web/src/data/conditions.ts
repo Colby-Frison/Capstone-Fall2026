@@ -1,13 +1,17 @@
 /**
  * Condition catalog backed by every normalized guidance JSON under
  * src/data/guidance. Files are merged and de-duplicated before adaptation.
+ * NIH identities come from the committed sidecar (no live NIH at build time).
  */
 import {
   adaptGuidanceFiles,
+  applyNihConditionMap,
   searchAdaptedConditions,
   type Condition,
+  type NihConditionMapFile,
   type NormalizedGuidanceFile,
 } from '@content/index';
+import nihConditionMap from '@guidance/nih_condition_map.json';
 
 export type { Condition } from '@content/types';
 
@@ -20,7 +24,10 @@ const guidanceFiles = Object.keys(guidanceModules)
   .sort()
   .map((path) => guidanceModules[path]);
 
-export const conditions: Condition[] = adaptGuidanceFiles(guidanceFiles);
+export const conditions: Condition[] = applyNihConditionMap(
+  adaptGuidanceFiles(guidanceFiles),
+  nihConditionMap as NihConditionMapFile,
+);
 
 export const categories = [
   ...new Set(

@@ -128,6 +128,38 @@ Or use `capstone.py dev`, which starts the BFF then Vite. Vite proxies `/api` to
 - Unit: Clinical Tables parse fixtures; `matchConditionsByNames` exact / alias / no-match
 - E2E: mock `/api/nih/conditions` and assert autocomplete keyboard selection
 
+## FAA ↔ NIH identity mapping (Issue #32)
+
+Persist a stable NIH identity per adapted FAA condition so search and detail UIs can use synonyms/ICD-10/educational links without calling Clinical Tables at build time.
+
+| Item | Value |
+| --- | --- |
+| Sidecar | `src/data/guidance/nih_condition_map.json` (keyed by `Condition.id`) |
+| Fields | `mappingStatus`, `nihKeyId`, `consumerName`, `primaryName`, `synonyms[]`, `icd10[]`, `infoLinks[]`, `matchConfidence` |
+| Merge | `applyNihConditionMap` in `src/packages/content/nihMap.ts` (wired from `src/apps/web/src/data/conditions.ts`) |
+| Remap | From `src/apps/web`: `npx vite-node --config vitest.config.ts scripts/map-faa-nih.ts` |
+
+### Confidence rules
+
+| Status | Rule |
+| --- | --- |
+| `mapped` | Best bidirectional name score ≥ **0.85** (exact match = 1.0) |
+| `low-confidence` | Score ≥ **0.50** and < 0.85 — identity stored but treat cautiously |
+| `unmapped` | Below 0.50 or no suggestions — FAA-only record remains valid |
+
+NIH never invents or overrides ISSUE/DEFER/DENY. Prefer `unmapped` / `low-confidence` over a bad auto-map.
+
+### Remap workflow
+
+1. Regenerate or update `*.normalized.json` as usual.
+2. From `src/apps/web`, run:
+   `npx vite-node --config vitest.config.ts scripts/map-faa-nih.ts`
+   (needs network once; optional `--limit=N` for a smoke pass).
+3. Commit the updated `nih_condition_map.json`.
+4. CI and local Vite builds load the sidecar only — no live NIH required.
+
+The mapper expands compound FAA headings into shorter query terms, scores NIH candidates with containment + token coverage, and writes an explicit `unmapped` entry when nothing clears the threshold.
+
 ## Out of scope
 
 - Replacing FAA JSON with NIH content
