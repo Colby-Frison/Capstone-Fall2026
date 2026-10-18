@@ -8,7 +8,9 @@ Issue [#27](https://github.com/Colby-Frison/Capstone-Fall2026/issues/27) — sma
 
 | Piece | Location |
 | --- | --- |
-| BFF | `src/apps/api` — `GET /api/nih/conditions` |
+| Local BFF | `src/apps/api` — Node server on `:8787` |
+| Vercel BFF | `src/apps/web/api/nih/conditions.js` — serverless `GET /api/nih/conditions` |
+| Shared client | `src/apps/web/api/_lib/clinicalTables.mjs` |
 | Client match | `src/packages/content/nih.ts` |
 | Combobox UI | `src/apps/web/src/components/ConditionSearchInput.tsx` |
 | Tests | API `node --test`, `nih.match.test.ts`, e2e `nih-autocomplete.spec.ts` |
@@ -51,7 +53,9 @@ NIH never invents or overrides FAA outcomes. Unmatched NIH names show an explici
 ```text
 Browser (ConditionSearchInput)
   → GET /api/nih/conditions?q=…
-  → Thin BFF (src/apps/api)
+  → Thin BFF
+       local:  Vite proxy → src/apps/api (:8787)
+       Vercel: src/apps/web/api/nih/conditions.js (Root Directory = src/apps/web)
   → Clinical Tables v3
   → Normalized DTO
   → Client matches labels/synonyms → local Condition.id
@@ -116,12 +120,18 @@ python src/scripts/capstone.py dev
 
 Or use `capstone.py dev`, which starts the BFF then Vite. Vite proxies `/api` to `http://127.0.0.1:8787`.
 
-## Deployment notes
+## Deployment notes (Vercel)
 
-- The static Vite build (`apps/web/dist`) does not host the BFF.
-- Deploy the BFF as a small Node process or serverless function that exposes `GET /api/nih/conditions`.
-- Point the SPA at the same origin `/api` (reverse proxy) or configure a same-origin gateway.
-- Figma Make / static-only hosts need a separate API host for live autocomplete.
+Vercel **Root Directory** is `src/apps/web`. The SPA still calls same-origin `/api/nih/conditions`.
+
+| Environment | Who serves `/api/nih/conditions` |
+| --- | --- |
+| Local (`capstone.py dev`) | Vite proxies to `src/apps/api` on `:8787` |
+| Vercel | Serverless function `api/nih/conditions.js` (under the web root) |
+
+Shared fetch/normalize logic: `api/_lib/clinicalTables.mjs` (inside the web root so it is included in the deploy). The local API package re-exports that module.
+
+After deploy, verify: `https://<your-domain>/api/nih/conditions?q=migr` returns JSON with `suggestions`.
 
 ## Testing
 
