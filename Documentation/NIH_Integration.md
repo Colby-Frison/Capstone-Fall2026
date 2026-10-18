@@ -2,6 +2,27 @@
 
 Issue [#27](https://github.com/Colby-Frison/Capstone-Fall2026/issues/27) — smart condition lookup for search.
 
+## Shipped status (Issue #27)
+
+**Autocomplete + thin BFF is implemented** in this repository:
+
+| Piece | Location |
+| --- | --- |
+| BFF | `src/apps/api` — `GET /api/nih/conditions` |
+| Client match | `src/packages/content/nih.ts` |
+| Combobox UI | `src/apps/web/src/components/ConditionSearchInput.tsx` |
+| Tests | API `node --test`, `nih.match.test.ts`, e2e `nih-autocomplete.spec.ts` |
+
+**Follow-up issues** (not part of the #27 autocomplete ship):
+
+| Issue | Focus |
+| --- | --- |
+| [#32](https://github.com/Colby-Frison/Capstone-Fall2026/issues/32) | Map FAA parsed conditions to NIH medical identities (committed cache) |
+| [#31](https://github.com/Colby-Frison/Capstone-Fall2026/issues/31) | Scored synonym-aware search across condition content |
+| [#33](https://github.com/Colby-Frison/Capstone-Fall2026/issues/33) | Enrich condition detail with NIH context and external links (blocked by #32) |
+
+Related: [#18](https://github.com/Colby-Frison/Capstone-Fall2026/issues/18) (terminology lookup). Accuracy rule unchanged: FAA guidance remains the only source of certification dispositions; NIH is for discovery, identity, and educational context.
+
 ## Purpose
 
 Use NIH/NLM **Clinical Tables Conditions v3** to improve condition discovery (autocomplete, synonyms, ICD-10 hints, educational links) while keeping **FAA AME/OneGuide guidance** as the only source of certification dispositions and paperwork.
