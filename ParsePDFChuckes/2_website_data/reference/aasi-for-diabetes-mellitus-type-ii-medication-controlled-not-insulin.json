@@ -1,0 +1,60 @@
+{
+ "slug": "aasi-for-diabetes-mellitus-type-ii-medication-controlled-not-insulin",
+ "title": "AASI for Diabetes Mellitus - Type II Medication Controlled (Not Insulin)",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  698,
+  699
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 698,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 698,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67. An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401 . The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination. The information can be submitted using the Diabetes or Hyperglycemia on Medications Status Report .",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67. An FAA physician provides the initial certification decision and grants the Authorization in accordance with <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401\" target=\"_blank\" rel=\"noopener\">14 CFR § 67.401</a> . The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a <strong>first-time application</strong> for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> for the initial determination. The information can be submitted using the <a href=\"https://www.faa.gov/ame_guide/media/diabetes_or_hyperglycemia_on_meds_report.pdf\" target=\"_blank\" rel=\"noopener\">Diabetes or Hyperglycemia on Medications Status Report</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 698,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, provided that the applicant does not require insulin, remains on an acceptable oral medication therapy according to the chart Acceptable Combinations of Diabetes Medications , and if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, provided that the applicant does not require insulin, remains on an acceptable oral medication therapy according to the chart <a href=\"https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Combinations of Diabetes Medications</a> , and if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 698,
+   "text": "- An Authorization granted by the FAA AND either\n- A Diabetes or Hyperglycemia on Medications Status Report OR\n- A current status report from the physician treating the airman’s diabetes, including: - A statement attesting that the airman is maintaining his or her diabetic diet; - A statement regarding any diabetic symptomatology; including any history of hypoglycemic events and any cardiovascular, renal, neurologic, or ophthalmologic complications; and - The results of a current HgA1c level performed within last 30 days.",
+   "html": "<ul><li>An Authorization granted by the FAA AND either</li><li>A <a href=\"https://www.faa.gov/ame_guide/media/diabetes_or_hyperglycemia_on_meds_report.pdf\" target=\"_blank\" rel=\"noopener\">Diabetes or Hyperglycemia on Medications Status Report</a> <strong>OR</strong></li><li><p>• A current status report from the physician treating the airman’s diabetes, including:</p>\n<ul><li>A statement attesting that the airman is maintaining his or her diabetic diet;</li><li>A statement regarding any diabetic symptomatology; including any history of hypoglycemic events and any cardiovascular, renal, neurologic, or ophthalmologic complications; and</li><li>The results of a current HgA1c level performed within last 30 days.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 698,
+   "text": "The AME must defer to the AMCD or Region if, since the applicant’s last exam:",
+   "html": "<p>The AME must defer to the AMCD or Region if, since the applicant’s last exam:</p>"
+  },
+  {
+   "type": "list",
+   "page": 698,
+   "text": "- The applicant has been placed on insulin;\n- The HgA1c level is greater than 9.0 mg%\n- The applicant has experienced: - Severe Hypoglycemia event(s) - requiring assistance of another person to actively administer carbohydrates, glucagon, or take other corrective actions (plasma glucose concentrations may not be available) * - Documented Symptomatic Hypoglycemia event(s) - typical symptoms of hypoglycemia accompanied by a measured plasma glucose concentration ≤70 mg/dL (≤3.9 mmol/L)*; - Asymptomatic Hypoglycemia – no reported symptoms but a measured plasma glucose concentration ≤54 mg/dL (≤3.0 mmol/L)\n- The applicant has developed evidence of any of the following: - Cardiovascular disease;",
+   "html": "<ul><li>The applicant has been placed on insulin;</li><li>The HgA1c level is greater than 9.0 mg%</li><li><p>• The applicant has experienced:</p>\n<ul><li>Severe Hypoglycemia event(s) - requiring assistance of another person to actively administer carbohydrates, glucagon, or take other corrective actions (plasma glucose concentrations may not be available) *</li><li>Documented Symptomatic Hypoglycemia event(s) - typical symptoms of hypoglycemia accompanied by a measured plasma glucose concentration ≤70 mg/dL (≤3.9 mmol/L)*;</li><li>Asymptomatic Hypoglycemia – no reported symptoms but a measured plasma glucose concentration ≤54 mg/dL (≤3.0 mmol/L)</li></ul></li><li><p>• The applicant has developed evidence of any of the following:</p>\n<ul><li>Cardiovascular disease;</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 699,
+   "text": "- - Neurologic disease, including any change in degree of peripheral neuropathy;\n- Ophthalmologic disease; and/or\n- Renal disease (including a Creatinine over 2.0)\n- The airman has been placed on any amlynomimetics, such as pramlintide (Symlin)\n- The applicant is using any medication (single or in combination) that falls outside the framework of Acceptable Combinations of Diabetes Medications\n- The applicant has required treatment other than routine outpatient follow-up (e.g., emergency department, inpatient admission) for diabetes (e.g., hypoglycemia, ketoacidosis, non-ketotic hyperglycemia) or diabetes-related conditions.\n- The applicant has experienced any event suggesting hypoglycemia unawareness or hypoglycemia-associated autonomic failure.",
+   "html": "<ul><li><ul><li>Neurologic disease, including any change in degree of peripheral neuropathy;</li><li>Ophthalmologic disease; and/or</li><li>Renal disease (including a Creatinine over 2.0)</li></ul></li><li>The airman has been placed on any amlynomimetics, such as pramlintide (Symlin)</li><li>The applicant is using any medication (single or in combination) that falls outside the framework of <a href=\"https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Combinations of Diabetes Medications</a></li><li>The applicant has required treatment other than routine outpatient follow-up (e.g., emergency department, inpatient admission) for diabetes (e.g., hypoglycemia, ketoacidosis, non-ketotic hyperglycemia) or diabetes-related conditions.</li><li>The applicant has experienced any event suggesting hypoglycemia unawareness or hypoglycemia-associated autonomic failure.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 699,
+   "text": "* Reference: Hypoglycemia Workgroup of the ADA & The Endocrine Society.",
+   "html": "<p>* Reference: Hypoglycemia Workgroup of the ADA &amp; The Endocrine Society.</p>"
+  }
+ ]
+}

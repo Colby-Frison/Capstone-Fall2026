@@ -1,0 +1,171 @@
+{
+ "id": "skin-cancer",
+ "name": "Skin Cancer",
+ "subtitle": null,
+ "name_in_guide": "SKIN CANCER",
+ "category": {
+  "id": "skin",
+  "name": "Skin",
+  "exam_item": "40",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2015",
+ "order": 84,
+ "decisions": [
+  "more_info_needed",
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Medical records describing the diagnosis and treatment; and",
+  "Pathology report(s)",
+  "Medical records describing the diagnosis and treatment;",
+  "Pathology report(s);",
+  "Operative notes;",
+  "Current, detailed Clinical Progress Note that includes current or planned future treatment and prognosis; and",
+  "Copies of any imaging performed (CT/MRI)",
+  "Current status report that includes if any additional lesions, any metastatic disease, any current or future treatment planned; and",
+  "Current MRI brain",
+  "Info from Melanoma greater than 0.75 mm above;",
+  "PET scan; and",
+  "Copies of any additional testing performed by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Unknown pathology",
+   "condition_html": "<p><strong>Unknown pathology</strong></p>",
+   "evaluation_data": "If unable to verify pathology, have airman collect: - Medical records describing the diagnosis and treatment; and - Pathology report(s)",
+   "evaluation_data_html": "<p>If unable to verify pathology, have airman collect:</p>\n<ul><li> Medical records describing the diagnosis and treatment; and</li><li> Pathology report(s)</li></ul>",
+   "what_to_bring": [
+    "Medical records describing the diagnosis and treatment; and",
+    "Pathology report(s)"
+   ],
+   "decisions": [
+    "more_info_needed"
+   ],
+   "disposition": "MORE INFO NEEDED Once reports are received, refer to the appropriate skin cancer diagnosis in this section.",
+   "disposition_html": "<p><strong>MORE INFO NEEDED </strong></p>\n<p>Once reports are received, refer to the appropriate skin cancer diagnosis in</p>\n<p>this section.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Basal cell cancer (BCC) Squamous cell cancer (SCC) Uncomplicated skin only No organ involvement",
+   "condition_html": "<p><strong>Basal cell cancer </strong></p>\n<p><strong>(BCC) </strong></p>\n<p><strong>Squamous cell cancer </strong></p>\n<p><strong>(SCC) </strong></p>\n<p>Uncomplicated skin only</p>\n<p>No organ involvement</p>",
+   "evaluation_data": "AME interview and exam findings consistent with uncomplicated local BCC or SCC completely treated (excised, destroyed, or Mohs procedure) and resolved.",
+   "evaluation_data_html": "<p>AME interview and exam findings consistent with uncomplicated local BCC or SCC completely treated (excised, destroyed, or Mohs procedure) and resolved.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Note BCC or SCC treated in Block 60. If complicated lesion, see below.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Note BCC or SCC treated in Block 60.</p>\n<p>If complicated lesion, see below.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "SCC or BCC Complicated lesion Metastatic lymph node or deep tissue involvement, aggressive pathology, or other abnormalities Also see ENT section",
+   "condition_html": "<p><strong>SCC or BCC </strong></p>\n<p>Complicated lesion</p>\n<p>Metastatic lymph node or deep tissue involvement, aggressive pathology, or other abnormalities</p>\n<p>Also see <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/et/25-30\" target=\"_blank\" rel=\"noopener\">ENT section</a></p>",
+   "evaluation_data": "Submit the following for FAA review: - Medical records describing the diagnosis and treatment; - Pathology report(s); - Operative notes; - Current, detailed Clinical Progress Note that includes current or planned future treatment and prognosis; and - Copies of any imaging performed (CT/MRI)",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li> Medical records describing the diagnosis and treatment;</li><li> Pathology report(s);</li><li> Operative notes;</li><li> Current, detailed Clinical Progress Note that includes current or planned future treatment and prognosis; and</li><li> Copies of any imaging performed (CT/MRI)</li></ul>",
+   "what_to_bring": [
+    "Medical records describing the diagnosis and treatment;",
+    "Pathology report(s);",
+    "Operative notes;",
+    "Current, detailed Clinical Progress Note that includes current or planned future treatment and prognosis; and",
+    "Copies of any imaging performed (CT/MRI)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit reports to FAA for review. Follow-up certification - based on Special Issuance Authorization.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit reports to FAA</p>\n<p>for review.</p>\n<p>Follow-up certification - based on Special Issuance Authorization.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Melanoma Less than 0.75 mm in depth OR Melanoma in Situ",
+   "condition_html": "<p><strong>Melanoma </strong></p>\n<p>Less than</p>\n<p>0.75 mm in depth</p>\n<p>OR</p>\n<p>Melanoma in Situ</p>",
+   "evaluation_data": "Review: - Medical records describing the diagnosis and treatment; and - Pathology report(s)",
+   "evaluation_data_html": "<p>Review:</p>\n<ul><li> Medical records describing the diagnosis and treatment; and</li><li> Pathology report(s)</li></ul>",
+   "what_to_bring": [
+    "Medical records describing the diagnosis and treatment; and",
+    "Pathology report(s)"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE If complete resection with clear margins, no recurrence, no metastatic disease, and favorable reports. Document in block 60 AND submit reports to FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>If complete resection with clear margins, no recurrence, no metastatic disease, and favorable reports.</p>\n<p>Document in block 60 <strong>AND</strong> submit reports to FAA for retention in the file.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Melanoma Equal to 0.75 mm or greater in depth",
+   "condition_html": "<p><strong>Melanoma </strong></p>\n<p>Equal to 0.75 mm or greater in depth</p>",
+   "evaluation_data": "Review and submit the following: - Medical records describing the diagnosis and treatment; - Pathology report(s); - Operative notes; - Current status report that includes if any additional lesions, any metastatic disease, any current or future treatment planned; and - Current MRI brain",
+   "evaluation_data_html": "<p>Review and submit the following:</p>\n<ul><li> Medical records describing the diagnosis and treatment;</li><li> Pathology report(s);</li><li> Operative notes;</li><li> Current status report that includes if any additional lesions, any metastatic disease, any current or future treatment planned; and</li><li> Current MRI brain</li></ul>",
+   "what_to_bring": [
+    "Medical records describing the diagnosis and treatment;",
+    "Pathology report(s);",
+    "Operative notes;",
+    "Current status report that includes if any additional lesions, any metastatic disease, any current or future treatment planned; and",
+    "Current MRI brain"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit reports to FAA for review. Follow-up certification - based on Special Issuance Authorization.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit reports to FAA</p>\n<p>for review.</p>\n<p>Follow-up certification - based on Special Issuance Authorization.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Metastatic Melanoma OR Melanoma of Unknown Primary Origin",
+   "condition_html": "<p><strong>Metastatic Melanoma </strong></p>\n<p>OR</p>\n<p><strong>Melanoma of Unknown Primary Origin </strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - Info from Melanoma greater than 0.75 mm above; - PET scan; and - Copies of any additional testing performed by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li> Info from Melanoma greater than 0.75 mm above;</li><li> PET scan; and</li><li> Copies of any additional testing performed by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "Info from Melanoma greater than 0.75 mm above;",
+    "PET scan; and",
+    "Copies of any additional testing performed by the treating physician."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit supporting documents for FAA review.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit supporting documents for FAA review.</p>",
+   "pdf_page": 236,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Unknown pathology",
+  "Basal cell cancer (BCC) Squamous cell cancer (SCC) Uncomplicated skin only No or",
+  "SCC or BCC Complicated lesion Metastatic lymph node or deep tissue involvement,",
+  "Melanoma Less than 0.75 mm in depth OR Melanoma in Situ",
+  "Melanoma Equal to 0.75 mm or greater in depth",
+  "Metastatic Melanoma OR Melanoma of Unknown Primary Origin"
+ ],
+ "source": {
+  "section": "item-40-skin",
+  "section_title": "ITEM 40. Skin",
+  "pdf_pages": [
+   236
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "general-disorders",
+ "name": "General Disorders",
+ "subtitle": null,
+ "name_in_guide": "GENERAL DISORDERS",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 86,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current, detailed Clinical Progress Note",
+  "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include etiology, clinical manifestation, BUN, Ca, PO4, Creatinine, electrolytes, and treatment plan"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Congenital lesions of the kidney",
+   "condition_html": "<p>Congenital lesions of the kidney</p>",
+   "evaluation_data": "Submit all pertinent medical information and current, detailed Clinical Progress Note",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current, detailed Clinical Progress Note</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current, detailed Clinical Progress Note"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If the applicant has an ectopic, horseshoe kidney, unilateral agenesis, hypoplastic, or dysplastic and is asymptomatic – Issue Otherwise – Requires FAA Decision",
+   "disposition_html": "<p>If the applicant has an ectopic, horseshoe kidney, unilateral agenesis, hypoplastic, or dysplastic and is asymptomatic – <strong>Issue</strong></p>\n<p>Otherwise – Requires FAA Decision</p>",
+   "pdf_page": 240,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Cystostomy and Neurogenic bladder",
+   "condition_html": "<p>Cystostomy and Neurogenic bladder</p>",
+   "evaluation_data": "Requires evaluation. Current, detailed Clinical Progress Note must include etiology, clinical manifestation, and treatment plan.",
+   "evaluation_data_html": "<p>Requires evaluation. Current, detailed Clinical Progress Note must include etiology, clinical manifestation, and treatment plan.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 240,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Renal Dialysis",
+   "condition_html": "<p>Renal Dialysis</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include etiology, clinical manifestation, BUN, Ca, PO4, Creatinine, electrolytes, and treatment plan",
+   "evaluation_data_html": "<p>Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include etiology, clinical manifestation, BUN, Ca, PO4, Creatinine, electrolytes, and treatment plan</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include etiology, clinical manifestation, BUN, Ca, PO4, Creatinine, electrolytes, and treatment plan"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 240,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Renal Transplant",
+   "condition_html": "<p>Renal Transplant</p>",
+   "evaluation_data": "See Renal Transplant Protocol",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/renal\" target=\"_blank\" rel=\"noopener\">Renal Transplant Protocol</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 240,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Renal Transplant Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/renal"
+  }
+ ],
+ "aliases": [
+  "Congenital lesions of the kidney",
+  "Cystostomy and Neurogenic bladder",
+  "Renal Dialysis",
+  "Renal Transplant"
+ ],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   240
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

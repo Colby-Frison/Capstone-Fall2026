@@ -1,0 +1,103 @@
+{
+ "id": "lattice-degeneration",
+ "name": "Lattice Degeneration",
+ "subtitle": null,
+ "name_in_guide": "LATTICE DEGENERATION",
+ "category": {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "exam_item": "32",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/26/2024",
+ "order": 30,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Flashes;",
+  "Floaters;",
+  "Decreased vision; and/or",
+  "Blurry vision",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Ophthalmological exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days before the AME exam. It must include:",
+  "The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Copies of any testing performed (visual fields, etc.)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "History of Lattice Degeneration (Reported by the individual or seen on progress notes.)",
+   "condition_html": "<p><strong>A.</strong> History of Lattice Degeneration</p>\n<p>(Reported by the individual or seen on progress notes.)</p>",
+   "evaluation_data": "If the AME can determine the individual has no symptoms that would interfere with flight or safety related duties including: - Flashes; - Floaters; - Decreased vision; and/or - Blurry vision AND The individual meets the vision standards for class applied:",
+   "evaluation_data_html": "<p>If the AME can determine the individual has no symptoms that would interfere with flight or safety related duties including:</p>\n<ul><li>Flashes;</li><li>Floaters;</li><li>Decreased vision; and/or</li><li>Blurry vision</li></ul>\n<p>AND</p>\n<p>The individual meets the <a href=\"https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf\" target=\"_blank\" rel=\"noopener\">vision standards</a> for class applied:</p>",
+   "what_to_bring": [
+    "Flashes;",
+    "Floaters;",
+    "Decreased vision; and/or",
+    "Blurry vision"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 120,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others Symptoms OR Does not meet vision standards OR Quality of vision affected OR Treated with laser surgery",
+   "condition_html": "<p><strong>B.</strong> All others</p>\n<p>Symptoms</p>\n<p>OR</p>\n<p>Does not meet vision standards</p>\n<p>OR</p>\n<p>Quality of vision affected</p>\n<p>OR</p>\n<p>Treated with laser surgery</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Ophthalmological exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 3. Copies of any testing performed (visual fields, etc.)",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>ophthalmologist</strong> or <strong>optometrist </strong> no more than <strong>90 days</strong> before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Ophthalmological exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</p>\n<p>3. Copies of any testing performed (visual fields, etc.)</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Ophthalmological exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days before the AME exam. It must include:",
+    "The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Copies of any testing performed (visual fields, etc.)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 120,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "vision standards",
+   "href": "https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "chorioretinitis",
+  "section_title": "CHORIORETINITIS",
+  "pdf_pages": [
+   120
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "item-17-b-do-you-ever-use-near-vision-contact-lens-es-while-flying",
+ "title": "ITEM 17.b. Do You Ever Use Near Vision Contact Lens(es) While Flying?",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  47
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "The applicant should indicate whether near vision contact lens(es) is/are used while flying. If the applicant answers \"yes,\" the AME must counsel the applicant that use of contact lens(es) for monovision correction is not allowed. The AME must note in Item 60 that this counseling has been given. Examples of unacceptable use include:",
+   "html": "<p>The applicant should indicate whether near vision contact lens(es) is/are used while flying. If the applicant answers &quot;yes,&quot; the AME must counsel the applicant that <strong>use of contact lens(es) for monovision correction is not allowed. </strong>The AME must note in Item 60 that this counseling has been given. <strong>Examples of unacceptable use include: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 47,
+   "text": "- The use of a contact lens in one eye for near vision and in the other eye for distant vision (for example: pilots with myopia plus presbyopia).",
+   "html": "<ul><li>The use of a contact lens in one eye for near vision and in the other eye for distant vision (for example: pilots with myopia plus presbyopia).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 47,
+   "text": "- The use of a contact lens in one eye for near vision and the use of no contact lens in the other eye (for example: pilots with presbyopia but no myopia).",
+   "html": "<ul><li>The use of a contact lens in one eye for near vision and the use of no contact lens in the other eye (for example: pilots with presbyopia but no myopia).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "If the applicant checks \"yes\" and no further comment is noted on FAA Form 8500-8 by either the applicant or the AME, a letter will automatically be sent to the applicant informing him or her that such use is inappropriate for flying.",
+   "html": "<p>If the applicant checks &quot;yes&quot; and no further comment is noted on FAA Form 8500-8 by either the applicant or the AME, a letter will automatically be sent to the applicant informing him or her that such use is inappropriate for flying.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "Please note: the use of binocular contact lenses for distance-correction-only is acceptable. In this instance, no special evaluation or SODA is routinely required for a distance-vision-only contact lens wearer who meets the standard and has no complications. Binocular bifocal or binocular multifocal contact lenses are also acceptable under the Protocol for Binocular Multifocal and Accommodating Devices . If the applicant checks “yes” in Item 17.b but actually is using binocular bifocal or binocular multifocal contact lenses then the AME should note this in Item 60.",
+   "html": "<p>Please note: the use of <strong>binocular</strong> contact lenses for distance-correction-only is acceptable. In this instance, no special evaluation or SODA is routinely required for a distance-vision-only contact lens wearer who meets the standard and has no complications. <strong>Binocular</strong> bifocal or binocular multifocal contact lenses are also acceptable under the <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/binocular/\" target=\"_blank\" rel=\"noopener\">Protocol for Binocular Multifocal and Accommodating Devices</a> . If the applicant checks “yes” in Item 17.b but actually is using <strong>binocular</strong> bifocal or binocular multifocal contact lenses then the AME should note this in <strong>Item 60.</strong></p>"
+  }
+ ]
+}

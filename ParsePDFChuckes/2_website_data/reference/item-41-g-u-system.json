@@ -1,0 +1,184 @@
+{
+ "slug": "item-41-g-u-system",
+ "title": "ITEM 41. G-U System",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255,
+  256,
+  257,
+  258,
+  259,
+  260,
+  261,
+  262
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 238,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "NORMAL",
+    "ABNORMAL"
+   ],
+   "rows": [
+    [
+     "41. G-U system (Not including pelvic examination)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>NORMAL</th><th>ABNORMAL</th></tr></thead><tbody><tr><td><p>41. G-U system (Not including pelvic examination)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds:",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(c) No medication or other treatment that the Federal Air Surgeon, based on the",
+   "html": "<p>(c) No medication or other treatment that the Federal Air Surgeon, based on the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds -",
+   "html": "<p>case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "II. Examination Techniques (Updated 06/26/2024)",
+   "html": "<p><strong>II. Examination Techniques </strong>(Updated 06/26/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "Genitourinary (G-U) includes genital system and urinary system (kidney/bladder/urethra/ureters)",
+   "html": "<p>Genitourinary (G-U) includes genital system and urinary system (kidney/bladder/urethra/ureters)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "The physical exam does not include a pelvic examination.",
+   "html": "<p>The physical exam does not include a pelvic examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 238,
+   "text": "Genital exam is not required unless indicated by past medical history (PMH) or symptoms (e.g., masses or areas of tenderness). It may be performed at the discretion of the examiner and applicant.",
+   "html": "<p>Genital exam is not required unless indicated by past medical history (PMH) or symptoms (e.g., masses or areas of tenderness). It may be performed at the discretion of the examiner and applicant.</p>"
+  },
+  {
+   "type": "list",
+   "page": 238,
+   "text": "- If PMH or symptoms do not warrant examination of these items, the AME should mark “normal” in AMCS and annotate in Item 60 that the exam was not indicated and not performed.",
+   "html": "<ul><li>If PMH or symptoms do not warrant examination of these items, the <strong>AME should mark “normal” in AMCS and annotate in Item 60 that the exam was not indicated and not performed.</strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 238,
+   "text": "- If PMH or symptoms warrant examination of these items, the AME should mark “abnormal” in AMCS and annotate in Item 60 the reason and any findings.",
+   "html": "<ul><li>If PMH or symptoms warrant examination of these items, the <strong>AME should mark “abnormal” in AMCS and annotate in Item 60 the reason and any findings. </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 239,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 239,
+   "text": "(See Item 48., General Systemic, for details concerning diabetes and Item 57., Urine Test, for other information related to the examination of urine). The following tables list the most common conditions of aeromedical significance and course of action which should be taken by the AME, as defined by any corresponding protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. In most cases, medical documentation must be submitted for these condition in order to support an issuance of a medical certificate.",
+   "html": "<p>(See <strong>Item 48., General Systemic</strong>, for details concerning diabetes and <strong>Item 57., Urine Test</strong>, for other information related to the examination of urine). The following tables list the most common conditions of aeromedical significance and course of action which should be taken by the AME, as defined by any corresponding protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. In most cases, medical documentation must be submitted for these condition in order to support an issuance of a medical certificate.</p>"
+  }
+ ]
+}

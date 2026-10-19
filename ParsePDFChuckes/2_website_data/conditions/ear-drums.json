@@ -1,0 +1,72 @@
+{
+ "id": "ear-drums",
+ "name": "Ear Drums",
+ "subtitle": null,
+ "name_in_guide": "EAR DRUMS",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 19,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Perforation that has associated pathology",
+   "condition_html": "<p>Perforation that has associated pathology</p>",
+   "evaluation_data": "Establish etiology, treatment, and submit all pertinent medical information",
+   "evaluation_data_html": "<p>Establish etiology, treatment, and submit all pertinent medical information</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 87,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Perforation which has resolved without any other clinical symptoms",
+   "condition_html": "<p>Perforation which has resolved without any other clinical symptoms</p>",
+   "evaluation_data": "Submit all pertinent medical information",
+   "evaluation_data_html": "<p>Submit all pertinent medical information</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If no physiologic effects - Issue",
+   "disposition_html": "<p>If no physiologic effects - Issue</p>",
+   "pdf_page": 87,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Otologic Surgery</strong>: A history of otologic surgery is not necessarily disqualifying for medical certification. The FAA evaluates each case on an individual basis following review of the otologist&#x27;s report of surgery. The type of prosthesis used, the person&#x27;s adaptability and progress following surgery, and the extent of hearing acuity attained are all major factors to be considered. AME should defer issuance to an applicant presenting a history of otologic surgery for the first time, sending the completed report of medical examination, with all available supplementary information, to the AMCD.</p>\n<p>Some conditions may have several possible causes or exhibit multiple symptomatology. Episodic disorders of dizziness or disequilibrium require careful evaluation and consideration by the FAA. Transient processes, such as those associated with acute labyrinthitis, or benign positional vertigo may not disqualify an applicant when fully recovered. (Also see <strong>Item 46., Neurologic</strong> for a discussion of syncope and vertigo).</p>",
+ "links": [],
+ "aliases": [
+  "Perforation that has associated pathology",
+  "Perforation which has resolved without any other clinical symptoms"
+ ],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   87
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

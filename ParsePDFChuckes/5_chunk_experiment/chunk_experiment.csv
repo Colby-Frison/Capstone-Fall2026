@@ -1,0 +1,9 @@
+strategy,mode,chunks,avg_pages_per_chunk,seconds,missing_words_pct,duplicated_words_pct,pages_flagged,tables,table_rows,disposition_rows,sections_identical_to_whole,sections_changed,sections_with_different_tables,boundary_repairs
+whole,virtual,1,932.0,65.2,0.308,1.62,17,437,2429,485,240,0,0,0
+pages:10,virtual,94,9.9,54.3,0.308,1.625,17,438,2430,485,237,3,3,38
+pages:25,virtual,38,24.5,42.2,0.308,1.546,17,438,2429,486,238,2,2,12
+pages:50,virtual,19,49.1,38.6,0.308,1.62,17,438,2430,485,239,1,1,7
+pages:100,virtual,10,93.2,36.3,0.308,1.62,17,438,2430,485,239,1,1,3
+sections:25,virtual,41,22.7,43.6,0.308,1.62,17,438,2430,485,239,1,1,8
+sections:50,virtual,21,44.4,40.0,0.308,1.62,17,438,2429,485,239,1,1,4
+files:pages:50,files,19,49.1,53.7,0.425,1.459,30,521,3743,583,70,168,94,7

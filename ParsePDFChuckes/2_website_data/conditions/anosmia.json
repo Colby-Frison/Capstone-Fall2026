@@ -1,0 +1,85 @@
+{
+ "id": "anosmia",
+ "name": "Anosmia",
+ "subtitle": null,
+ "name_in_guide": "ANOSMIA",
+ "category": {
+  "id": "ear-nose-and-throat-ent",
+  "name": "Ear, Nose, and Throat (ENT)",
+  "exam_item": "25-30",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/29/2022",
+ "order": 4,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke).",
+  "Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine.",
+  "CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight.",
+  "The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT) .",
+  "It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.",
+  "It must specifically include etiology, if found."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.",
+   "condition_html": "<ul><li><strong>A. KNOWN etiology </strong></li></ul>\n<p>Including <strong>COVID-19 infection</strong></p>\n<p>If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.</p>",
+   "evaluation_data": "No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties: ***************************************** *** Discuss with the pilot: - This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke). - Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine. - CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight.",
+   "evaluation_data_html": "<p>No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties:</p>\n<p>***************************************** ***</p>\n<p>Discuss with the pilot:</p>\n<ul><li>This condition may cause an inability to receive early warning of <strong>fuel </strong>leaks, exhaust fumes, or a <strong>fire</strong> (prior to visible smoke).</li><li>Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine.</li><li>CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight.</li></ul>",
+   "what_to_bring": [
+    "This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke).",
+    "Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine.",
+    "CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. For any identified underling condition(s), see that section.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60. For any identified underling condition(s), see that section.</p>",
+   "pdf_page": 67,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- B. UNKNOWN (or uncertain) etiology For ANY duration.",
+   "condition_html": "<ul><li><strong>B. UNKNOWN </strong>(or uncertain)</li></ul>\n<p><strong>etiology </strong></p>\n<p>For <strong>ANY</strong> duration.</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT). - It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. - It must specifically include etiology, if found.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li>The most recent <strong>detailed Clinical Progress Note</strong> (actual clinical record) from an <strong>otolaryngologist (ENT)</strong>.</li><li>It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.</li><li>It must specifically include etiology, if found.</li></ul>",
+   "what_to_bring": [
+    "The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT) .",
+    "It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.",
+    "It must specifically include etiology, if found."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>will be per the airman’s authorization letter.</p>",
+   "pdf_page": 67,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>*Anosmia-partial or complete loss of smell.</p>\n<p>ENT evaluation required as some cases may be due to nasal polyps or nasal growth (tumor) which could be aeromedically significant.</p>",
+ "links": [],
+ "aliases": [
+  "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated wit",
+  "- B. UNKNOWN (or uncertain) etiology For ANY duration."
+ ],
+ "source": {
+  "section": "condition-not-listed",
+  "section_title": "Condition Not Listed",
+  "pdf_pages": [
+   67
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

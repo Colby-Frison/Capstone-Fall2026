@@ -1,0 +1,132 @@
+{
+ "slug": "erectile-dysfunction-and-benign-prostatic-hyperplasia-medications",
+ "title": "ERECTILE DYSFUNCTION AND BENIGN PROSTATIC HYPERPLASIA MEDICATIONS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  652
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "(Updated 08/30/2017)",
+   "html": "<p>(Updated 08/30/2017)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "I. CODE OF FEDERAL REGULATIONS",
+   "html": "<p>I. <strong>CODE OF FEDERAL REGULATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "First-Class Airman Medical Certificate: 67.113(c)",
+   "html": "<p><strong>First-Class Airman Medical Certificate: </strong> <a href=\"http://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&amp;SID=9e56d84b80aa744fc239793d88eecdd2&amp;r=SECTION&amp;n=14y2.0.1.1.5.2.1.7\" target=\"_blank\" rel=\"noopener\"><strong>67.113(c)</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "Second-Class Airman Medical Certificate: 67.213(c)",
+   "html": "<p><strong>Second-Class Airman Medical Certificate: </strong> <a href=\"http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&amp;SID=9e56d84b80aa744fc239793d88eecdd2&amp;rgn=div8&amp;view=text&amp;node=14:2.0.1.1.5.3.1.7&amp;idno=14\" target=\"_blank\" rel=\"noopener\"><strong>67.213(c)</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "Third-Class Airman Medical Certificate: 67.313(c)",
+   "html": "<p><strong>Third-Class Airman Medical Certificate: </strong> <a href=\"http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&amp;SID=9e56d84b80aa744fc239793d88eecdd2&amp;rgn=div8&amp;view=text&amp;node=14:2.0.1.1.5.4.1.7&amp;idno=14\" target=\"_blank\" rel=\"noopener\"><strong>67.313(c)</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "II. MEDICAL HISTORY: Use of medication for erectile dysfunction (ED) and/or benign prostatic hyperplasia (BPH) may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified. If the medication is used for any other condition, do not issue – FAA approval is required.",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: Use of medication for erectile dysfunction (ED) and/or benign prostatic hyperplasia (BPH) may not be disqualifying for medical certification if there are no side effects, the underlying condition is not aeromedically significant, and the applicant is otherwise qualified. If the medication is used for any other condition, do not issue – FAA approval is required.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Item 41. G-U System,",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd\" target=\"_blank\" rel=\"noopener\"><strong>Item 41. G-U System</strong>,</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS: The use of medications below for G-U conditions including ED and BPH may not be disqualifying, if free from side effects. For the required minimum wait time after use, see the table below.",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS: </strong>The use of medications below for G-U conditions including ED and BPH may not be disqualifying, if free from side effects. For the required minimum wait time after use, see the table below.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "If the medications below are used for any other non-G-U condition (e.g., pulmonary arterial hypertension [PAH]) the AME must defer issuance of a medical certificate.",
+   "html": "<p><strong>If the medications below are used for any other non-G-U condition (e.g., pulmonary arterial hypertension [PAH]) the AME must defer issuance of a medical certificate. </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 652,
+   "text": "- Alpha blockers are allowed for daily use if there no side effects. No minimum wait time is required after use once the airman has successfully passed the 7-day ground trial period required for all hypertension medication.\n- If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.\n- Nitrates are not allowed.",
+   "html": "<ul><li>Alpha blockers are allowed for daily use if there no side effects. No minimum wait time is required after use once the airman has successfully passed the 7-day ground trial period required for all hypertension medication.</li><li>If alpha blockers are used in combination with PDE5 inhibitors (common examples are listed below), the airman should not fly until verification that no hypotensive episodes or other side effects are noted.</li><li>Nitrates are <strong>not</strong> allowed.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "ERECTILE DYSFUNCTION AND BENIGN PROSTATIC HYPERPLASIA",
+   "html": "<p><strong>ERECTILE DYSFUNCTION AND BENIGN PROSTATIC HYPERPLASIA </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 652,
+   "text": "PDE-5 INHIBITOR MEDICATION WAIT TIMES",
+   "html": "<p><strong>PDE-5 INHIBITOR MEDICATION WAIT TIMES </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 652,
+   "header": null,
+   "rows": [
+    [
+     "Trade Name",
+     "Generic Name",
+     "Required minimum wait time after last dose before resuming pilot duties"
+    ],
+    [
+     "Cialis (daily use)",
+     "Tadalafil",
+     "2.5 or 5 mg daily is allowed if no side effects after 7 days"
+    ],
+    [
+     "Cialis (prn use)",
+     "Tadalafil",
+     "24 hours"
+    ],
+    [
+     "Levitra",
+     "Vardenafil",
+     "8 hours"
+    ],
+    [
+     "Staxyn",
+     "Vardenafil",
+     "8 hours"
+    ],
+    [
+     "Stendra",
+     "Avanafil",
+     "8 hours"
+    ],
+    [
+     "Viagra",
+     "Sildenafil",
+     "8 hours"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Trade Name </strong></p></td><td><p><strong>Generic Name </strong></p></td><td><p><strong> Required minimum wait time after last dose before resuming pilot duties </strong></p></td></tr><tr><td><p>Cialis (daily use)</p></td><td><p>Tadalafil</p></td><td><p>2.5 or 5 mg daily is allowed if no side effects after 7 days</p></td></tr><tr><td><p>Cialis (prn use)</p></td><td><p>Tadalafil</p></td><td><p>24 hours</p></td></tr><tr><td><p>Levitra</p></td><td><p>Vardenafil</p></td><td><p>8 hours</p></td></tr><tr><td><p>Staxyn</p></td><td><p>Vardenafil</p></td><td><p>8 hours</p></td></tr><tr><td><p>Stendra</p></td><td><p>Avanafil</p></td><td><p>8 hours</p></td></tr><tr><td><p>Viagra</p></td><td><p>Sildenafil</p></td><td><p>8 hours</p></td></tr></tbody></table>"
+  }
+ ]
+}

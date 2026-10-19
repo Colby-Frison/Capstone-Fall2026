@@ -1,0 +1,129 @@
+{
+ "slug": "situational-depression-decision-tool-for-the-ame",
+ "title": "SITUATIONAL DEPRESSION DECISION TOOL FOR THE AME",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  412
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "(Adjustment Disorder with Depressed Mood or Minor Depression)",
+   "html": "<p>(Adjustment Disorder with Depressed Mood or Minor Depression)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "All Classes",
+   "html": "<p>All Classes</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "(Updated 07/27/2022)",
+   "html": "<p>(Updated 07/27/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "AME Instructions: Address each of the following items in your in-office exam and history review.",
+   "html": "<p><strong>AME Instructions: </strong>Address each of the following items in your in-office exam and history review.</p>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 1. The AME is required to review clinical records if symptoms were within the past 5 years. For any documents reviewed, the diagnosis listed on ALL supporting documents is Situational Depression, Adjustment Disorder with Depressed Mood, or Minor epression.....................................................................................",
+   "html": "<ul><li>1. The AME is required to review clinical records if symptoms were within the past 5 years. For any documents reviewed, the diagnosis listed on ALL supporting documents is Situational Depression, Adjustment Disorder with Depressed Mood, or Minor epression.....................................................................................</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 412,
+   "header": [
+    "Yes",
+    "No*"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No*</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 2. The condition was precipitated by an event/stressor that would be likely to cause the average person to become depressed.................................................",
+   "html": "<ul><li>2. The condition was precipitated by an event/stressor that would be likely to cause the average person to become depressed.................................................</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 3. Symptoms fully resolved within 6 months of resolution of the stressor and are not persistent (with or without treatment) .......................................................",
+   "html": "<ul><li>3. Symptoms<strong> fully resolved within 6 months of resolution of the stressor </strong>and are not persistent (with or without treatment) .......................................................</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 4. This was a single episode with NO recurrence.................................................",
+   "html": "<ul><li>4. This was a <strong>single episode with NO recurrence</strong>.................................................</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 5. The individual has NO history or evidence of psychosis/psychotic symptoms, suicidal ideation, or self-destructive ideations (at any time).….",
+   "html": "<ul><li>5. The individual has<strong> NO history or evidence of psychosis/psychotic symptoms, suicidal ideation, or self-destructive ideations (at any time</strong>).….</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 6. Comprehensive history reveals an absence of other psychiatric condition(s) including substance abuse in the individual’s lifetime.......................................",
+   "html": "<ul><li>6. Comprehensive history reveals an <strong>absence of other psychiatric condition(s) including substance abuse</strong> in the individual’s lifetime.......................................</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- 7. The treating clinician and the AME have no concerns.…...................................",
+   "html": "<ul><li>7. The treating clinician and the AME have <strong>no concerns</strong>.…...................................</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "If ALL items fall into the CLEAR /YES COLUMN, the AME may issue with notes in Block 60 which show the AME discussed the history of Situational Depression, found no positives to the screening questions, AND had no concerns.",
+   "html": "<p>If <strong>ALL</strong> items fall into the <strong>CLEAR /YES COLUMN</strong>, the AME may issue with notes in Block 60 which show the AME discussed the history of Situational Depression, found no positives to the screening questions, AND had no concerns.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "If ANY SINGLE ITEM falls into the SHADED/NO COLUMN, the AME MUST DEFER. The AME report should note what aspect caused the deferral and explain any NO* answers (shaded column).",
+   "html": "<p>If <strong>ANY SINGLE ITEM </strong>falls into the <strong>SHADED/NO COLUMN</strong>, the <strong>AME MUST DEFER</strong>. The AME report should note what aspect caused the deferral and <strong>explain any NO* answers</strong> (shaded column).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 412,
+   "text": "NOTES:",
+   "html": "<p><strong>NOTES: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- The AME should elicit what triggered the Situational Depression episode(s).",
+   "html": "<ul><li>The AME should elicit what triggered the Situational Depression episode(s).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- The timeline of “6 months” for treatment and symptom resolution is from the resolution of the stressor, NOT the start of the stressor.",
+   "html": "<ul><li>The timeline of “6 months” for treatment and symptom resolution is from the resolution of the stressor, NOT the start of the stressor.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- If the AME is unsure of any of the above criteria, DEFER and note in Block 60.",
+   "html": "<ul><li>If the AME is unsure of any of the above criteria, DEFER and note in Block 60.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 412,
+   "text": "- This decision tool is for AME use; it does not need to be submitted to the FAA.",
+   "html": "<ul><li><strong>This decision tool is for AME use; it does not need to be submitted to the FAA. </strong></li></ul>"
+  }
+ ]
+}

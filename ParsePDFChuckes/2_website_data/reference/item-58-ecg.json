@@ -1,0 +1,434 @@
+{
+ "slug": "item-58-ecg",
+ "title": "ITEM 58. ECG",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  492,
+  493,
+  494,
+  495,
+  496
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "(Updated 05/29/2024)",
+   "html": "<p>(Updated 05/29/2024)</p>"
+  },
+  {
+   "type": "table",
+   "page": 492,
+   "header": [
+    "58. ECG (Date) MM DD YYYY"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>58. ECG (Date) MM DD YYYY</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "First-Class: 14 CFR 67.111(b)(c)",
+   "html": "<p><strong>First-Class: 14 CFR 67.111(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "(a) A person applying for first-class medical certification must demonstrate an",
+   "html": "<p>(a) A person applying for first-class medical certification must demonstrate an</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "absence of myocardial infarction and other clinically significant abnormality on electrocardiographic examination:",
+   "html": "<p>absence of myocardial infarction and other clinically significant abnormality on electrocardiographic examination:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "(1) At the first application after reaching the 35th birthday; and",
+   "html": "<p>(1) At the first application after reaching the 35th birthday; and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "(2) On an annual basis after reaching the 40th birthday.",
+   "html": "<p>(2) On an annual basis after reaching the 40th birthday.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "(b) An electrocardiogram will satisfy a requirement of paragraph (b) of this section if it is dated no earlier than 60 days before the date of the application it is to accompany and was performed and transmitted according to acceptable standards and techniques.",
+   "html": "<p>(b) An electrocardiogram will satisfy a requirement of paragraph (b) of this section if it is dated no earlier than 60 days before the date of the application it is to accompany and was performed and transmitted according to acceptable standards and techniques.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "Note: Any applicant for certification may be required to provide ECGs when indicated by history or physical examination.",
+   "html": "<p><strong>Note</strong>: Any applicant for certification may be required to provide ECGs when indicated by history or physical examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 492,
+   "text": "- A. When an ECG/EKG is required:",
+   "html": "<ul><li><strong>A. When an ECG/EKG is required: </strong></li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 492,
+   "header": null,
+   "rows": [
+    [
+     "Class",
+     "",
+     "Applicant age on day",
+     "",
+     "ECG is required at the following intervals"
+    ],
+    [
+     "",
+     "",
+     "of exam",
+     "",
+     ""
+    ],
+    [
+     "1st",
+     "",
+     "34 or younger",
+     "",
+     "Not required"
+    ],
+    [
+     "1st",
+     "",
+     "35 to 39",
+     "",
+     "A single baseline ECG is required at the first exam performed after reaching the 35th birthday."
+    ],
+    [
+     "1st",
+     "",
+     "40 or older",
+     "",
+     "Annually"
+    ],
+    [
+     "2nd or 3rd",
+     "",
+     "Any age",
+     "",
+     "Not required* *If the AME performed an EKG, it should be submitted along with notes in Block 60 describing why it was performed."
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Class </strong></p></td><td></td><td><p><strong>Applicant age on day </strong></p></td><td></td><td><p><strong>ECG is required at the following intervals </strong></p></td></tr><tr><td></td><td></td><td><p><strong>of exam </strong></p></td><td></td><td></td></tr><tr><td><p>1st</p></td><td></td><td><p>34 or younger</p></td><td></td><td><p>Not required</p></td></tr><tr><td><p>1st</p></td><td></td><td><p>35 to 39</p></td><td></td><td><p>A single baseline ECG is required at the first exam performed <strong>after reaching the 35th birthday.</strong></p></td></tr><tr><td><p>1st</p></td><td></td><td><p>40 or older</p></td><td></td><td><p>Annually</p></td></tr><tr><td><p>2nd or 3rd</p></td><td></td><td><p>Any age</p></td><td></td><td><p>Not required*</p>\n<p>*If the AME performed an EKG, it should be submitted along with notes in Block 60 describing why it was performed.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 492,
+   "text": "Other times an ECG/EKG can be requested by an AME (for All classes):",
+   "html": "<p><strong>Other times an ECG/EKG can be requested by an AME (for All classes): </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "Any time the airman has a history or physical examination finding that suggests a clinically significant abnormality.",
+   "html": "<p>Any time the airman has a history or physical examination finding that suggests a clinically significant abnormality.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "Substitution for an ECG/EKG:",
+   "html": "<p><strong>Substitution for an ECG/EKG</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "If a first-class airman does not have a current resting ECG on file, but the FAA has the tracings of any type of stress test (pharmaceutical stress, Bruce stress, nuclear stress, or stress echocardiogram) which was done within the last 60 days, the information may be accepted on a case-by-case basis. The image must be of good quality. Stress test or ECG images that have been faxed do not have enough clarity/definition for adequate review. In most cases, they will not be acceptable. A cardiac catheterization and/or a Holter monitor test are NOT acceptable in place of a resting 12-lead ECG. (A full 12-lead ECG is required. Anything less than a 12-lead will not be accepted.)",
+   "html": "<p>If a first-class airman does not have a current resting ECG on file, but the FAA has the tracings of any type of stress test (pharmaceutical stress, Bruce stress, nuclear stress, or stress echocardiogram) which was done within the last 60 days, the information <strong>may</strong> be accepted on a case-by-case basis. The image must be of good quality. Stress test or ECG images that have been faxed do not have enough clarity/definition for adequate review. In most cases, they will not be acceptable. A cardiac catheterization and/or a Holter monitor test are NOT acceptable in place of a resting 12-lead ECG. (A full 12-lead ECG is required. Anything less than a 12-lead will not be accepted.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "Additional Work-Up/Evaluation (All classes):",
+   "html": "<p><strong>Additional Work-Up/Evaluation (All classes): </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "If additional work up was performed based on history or ECG findings, copies of the work up (cardiovascular evaluation, clinic notes, stress testing, etc.) should also be submitted to the FAA with notes in Block 60 describing the findings. If any pathology was identified, refer to the appropriate, individual section.",
+   "html": "<p>If additional work up was performed based on history or ECG findings, copies of the work up (cardiovascular evaluation, clinic notes, stress testing, etc.) should also be submitted to the FAA with notes in Block 60 describing the findings. If any pathology was identified, refer to the appropriate, individual section.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "AMCS notification regarding ECG will appear as:",
+   "html": "<p><strong> AMCS notification regarding ECG will appear as: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 493,
+   "text": "- 1. ECG is Required:",
+   "html": "<ul><li><strong>1. ECG is Required: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "A Red X will precede the words ECG Date. No date will be in the box.",
+   "html": "<p>A Red X will precede the words ECG Date. No date will be in the box.</p>"
+  },
+  {
+   "type": "list",
+   "page": 493,
+   "text": "- 2. ECG is Not Required:",
+   "html": "<ul><li><strong>2. ECG is Not Required: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "The AMCS screen will show the word “Ok” along with a date in the box.",
+   "html": "<p>The AMCS screen will show the word “Ok” along with a date in the box.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "Can I submit an ECG performed on a day other than the date of exam?",
+   "html": "<p><strong>Can I submit an ECG performed on a day other than the date of exam? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 493,
+   "text": "Yes, but it must be considered current",
+   "html": "<p>Yes, but it must be considered current</p>"
+  },
+  {
+   "type": "list",
+   "page": 493,
+   "text": "- B. Currency of ECG/What is considered a current ECG:",
+   "html": "<ul><li><strong>B. Currency of ECG/What is considered a current ECG: </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 493,
+   "text": "- Only an ECG performed up to 60 days prior to the exam is considered current.",
+   "html": "<ul><li>Only an ECG performed up to 60 days prior to the exam is considered current.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- There is no provision for issuance of a first-class medical certificate based upon a promise that an ECG will be obtained at a future date.",
+   "html": "<ul><li>There is no provision for issuance of a first-class medical certificate based upon a promise that an ECG will be obtained at a future date.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- As of the August 2014 changes in AMCS, an AME cannot transmit the exam until the required ECG is attached.",
+   "html": "<ul><li>As of the August 2014 changes in AMCS, an AME cannot transmit the exam until the required ECG is attached.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- C. ECG equipment/technical requirements (Updated 05/29/2024):",
+   "html": "<ul><li><strong>C. ECG equipment/technical requirements</strong> (Updated 05/29/2024)<strong>: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 494,
+   "text": "The FAA does not require a specific type of machine, however the ECG machine used must give a clear picture AND meet the following technical requirements:",
+   "html": "<p>The FAA does not require a specific type of machine, however the ECG machine used must give a clear picture AND meet the following technical requirements:</p>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- A full 12-lead ECG is required. (Anything less than a 12-lead will not be accepted.)",
+   "html": "<ul><li>A full 12-lead ECG is required. (Anything less than a 12-lead will not be accepted.)</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Must generate an image that can be converted to a PDF;",
+   "html": "<ul><li>Must generate an image that can be converted to a PDF;</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Must be recorded at 25mm/sec at 10mV. (This is standard in the US). 5mV waveforms may not have sufficient voltage for interpretation.",
+   "html": "<ul><li>Must be recorded at 25mm/sec at 10mV. (This is standard in the US). 5mV waveforms may not have sufficient voltage for interpretation.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Recordings at 50mm/sec will NOT be accepted. Many international programs are set at 50mm/sec as a baseline; the AME must change this to 25mm/sec for the FAA to accept the tracing; and",
+   "html": "<ul><li>Recordings at 50mm/sec will NOT be accepted. Many international programs are set at 50mm/sec as a baseline; the AME must change this to 25mm/sec for the FAA to accept the tracing; and</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- 300 dpi color resolution (or better)",
+   "html": "<ul><li>300 dpi color resolution (or better)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 494,
+   "text": "D. AME Review and Interpretation of the ECG:",
+   "html": "<p><strong>D. AME Review and Interpretation of the ECG: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 494,
+   "text": "The AME must review the ECG for the following PRIOR to transmitting:",
+   "html": "<p>The AME must review the ECG for the following <strong>PRIOR </strong>to transmitting:</p>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Quality - It is not uncommon for the FAA to receive an ECG that has leads missing or even an asystole picture. If the quality is poor and the ECG cannot be interpreted, the airman will receive a letter requiring a new ECG.",
+   "html": "<ul><li><strong>Quality</strong> - It is not uncommon for the FAA to receive an ECG that has leads missing or even an asystole picture. If the quality is poor and the ECG cannot be interpreted, the airman will receive a letter requiring a new ECG.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Correct airman/Correct exam - Verify you attach the correct ECG to the correct airman file. Also verify NO OTHER documents are attached.",
+   "html": "<ul><li><strong>Correct airman/Correct exam</strong> - Verify you attach the correct ECG to the correct airman file. Also verify NO OTHER documents are attached.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Abnormalities/pathology - Review the ECG for any abnormalities which may cause you to defer or inform the airmen that a work up is required. See",
+   "html": "<ul><li><strong>Abnormalities/pathology </strong>- Review the ECG for any abnormalities which may cause you to defer or inform the airmen that a work up is required. See</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 494,
+   "text": "Item 36. Heart – Arrhythmias .",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/arrhythmias\" target=\"_blank\" rel=\"noopener\">Item 36. Heart – Arrhythmias</a> .</p>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- Normal Variants – (Updated 10/26/2022)",
+   "html": "<ul><li><strong>Normal Variants </strong>– (Updated 10/26/2022)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 494,
+   "text": "The following common ECG findings are considered normal variants and are not cause for deferment unless the airman is symptomatic or there are other concerns. Airmen who have these findings may be certified, if otherwise qualified:",
+   "html": "<p>The following common ECG findings are considered normal variants and are not cause for deferment unless the airman is symptomatic or there are other concerns. Airmen who have these findings may be certified, if otherwise qualified:</p>"
+  },
+  {
+   "type": "list",
+   "page": 494,
+   "text": "- - - Early repolarization\n- Ectopic atrial rhythm\n- First-degree AV (atrioventricular) block with PR interval less than 300 ms (0.30 sec)\n- Incomplete Right Bundle Branch Block (IRBBB)\n- Indeterminate axis Intraventricular conduction delay (IVCD)\n- Left atrial abnormality\n- Left axis deviation, less than or equal to -30 degrees\n- Left ventricular hypertrophy by voltage criteria only\n- Low atrial rhythm\n- Low voltage in limb leads (May be a sign of obesity or hypothyroidism.)\n- Premature Atrial Contraction (PAC) – multiple, asymptomatic\n- Premature Ventricular Contraction (PVC) - single only; 2 or more on ECG require evaluation.\n- Short QT – if no history of arrhythmia\n- Sinus arrhythmia\n- Sinus bradycardia. Up to age 49 if heart rate is >44; Age 50 and older if heart rate is >48\n- Sinus tachycardia – heart rate < 110\n- Wandering atrial pacemaker",
+   "html": "<ul><li><ul><li><ul><li>Early repolarization</li><li>Ectopic atrial rhythm</li><li>First-degree AV (atrioventricular) block with PR interval less than 300 ms (0.30 sec)</li><li>Incomplete Right Bundle Branch Block (IRBBB)</li><li>Indeterminate axis Intraventricular conduction delay (IVCD)</li><li>Left atrial abnormality</li><li>Left axis deviation, less than or equal to -30 degrees</li><li>Left ventricular hypertrophy by voltage criteria only</li><li>Low atrial rhythm</li><li>Low voltage in limb leads (May be a sign of obesity or hypothyroidism.)</li><li>Premature Atrial Contraction (PAC) – multiple, asymptomatic</li><li>Premature Ventricular Contraction (PVC) - single only; 2 or more on ECG require evaluation.</li><li>Short QT – if no history of arrhythmia</li><li>Sinus arrhythmia</li><li>Sinus bradycardia. Up to age 49 if heart rate is &gt;44; Age 50 and older if heart rate is &gt;48</li><li>Sinus tachycardia – heart rate &lt; 110</li><li>Wandering atrial pacemaker</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 495,
+   "text": "E. Transmitting/uploading the ECG:",
+   "html": "<p><strong>E. Transmitting/uploading the ECG: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 495,
+   "text": "Complete instructions can be found on the AMCS User Guide . As of October 2014, all Senior AMEs in the United States and International AMEs are required to upload a PDF version of an ECG into the correct section on the 8500-8. Clicking on the icon will launch an ECG Import window, where the applicant’s current ECG can be uploaded as a PDF attachment and eventually transmitted to the FAA with the exam.",
+   "html": "<p>Complete instructions can be found on the <a href=\"https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/designees_delegations/designee_types/AMCS_User_Guide_v4.pdf\" target=\"_blank\" rel=\"noopener\">AMCS User Guide</a> . As of October 2014, all Senior AMEs in the United States and International AMEs are required to upload a PDF version of an ECG into the correct section on the 8500-8. Clicking on the icon will launch an ECG Import window, where the applicant’s current ECG can be uploaded as a PDF attachment and eventually transmitted to the FAA with the exam.</p>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- Date - The AME no longer fills in the date. The date entered in the ECG import window will populate this field (Item 58).",
+   "html": "<ul><li><strong>Date</strong> - The AME no longer fills in the date. The date entered in the ECG import window will populate this field (Item 58).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- One ECG - You may attach only one ECG to the exam:",
+   "html": "<ul><li><strong>One ECG</strong> - You may attach <strong>only one</strong> ECG to the exam:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- - Only the last ECG attached will be saved and transmitted with the exam. Ex: If you attach ECG #1 and then attach ECG #2, ECG #1 will be replaced and not sent to the FAA.",
+   "html": "<ul><li><ul><li>Only the last ECG attached will be saved and transmitted with the exam. Ex: If you attach ECG #1 and then attach ECG #2, ECG #1 will be replaced and not sent to the FAA.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- If an incorrect ECG is uploaded, a new one may be attached. You will receive a warning at the top of the window if an ECG has already been attached.",
+   "html": "<ul><li>If an incorrect ECG is uploaded, a new one may be attached. You will receive a warning at the top of the window if an ECG has already been attached.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- AME Comments - The AME can comment on findings when uploading the ECG.",
+   "html": "<ul><li><strong> AME Comments</strong> - The AME can comment on findings when uploading the ECG.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- Non-AME transmissions:",
+   "html": "<ul><li><strong>Non-AME transmissions: </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 495,
+   "text": "- - ECGs must be electronically attached to an 8500-8 by the AME.",
+   "html": "<ul><li><ul><li>ECGs must be electronically attached to an 8500-8 by the AME.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 496,
+   "text": "- - It is not possible for a medical department or any other physician to transmit a current ECG directly to the FAA 8500-8 exam.",
+   "html": "<ul><li><ul><li>It is not possible for a medical department or any other physician to transmit a current ECG directly to the FAA 8500-8 exam.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 496,
+   "text": "- - If an ECG was done outside the AME’s office, the AME must verify that the ECG belongs to the airman, it is less than 60 days old, and is of suitable quality before it is attached to the 8500-8.",
+   "html": "<ul><li><ul><li>If an ECG was done outside the AME’s office, the AME must verify that the ECG belongs to the airman, it is less than 60 days old, and is of suitable quality before it is attached to the 8500-8.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 496,
+   "text": "- - The image must be of good quality. Stress test or ECG images that have been faxed do not have enough clarity/definition for adequate review. In most cases, they will not be acceptable.",
+   "html": "<ul><li><ul><li>The image must be of good quality. Stress test or ECG images that have been faxed do not have enough clarity/definition for adequate review. In most cases, they will not be acceptable.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 496,
+   "text": "- Applicant refuses ECG - If an ECG is due and the airman refuses, the AME will be unable to transmit the exam. The AME should call the AMCS Support Desk at (405) 954-3238 AND note in Block 60 that the airman refused the required ECG.",
+   "html": "<ul><li><strong>Applicant refuses ECG </strong>- If an ECG is due and the airman refuses, the AME will be unable to transmit the exam. The AME should call the AMCS Support Desk at (405) 954-3238 AND note in Block 60 that the airman refused the required ECG.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 496,
+   "text": "- No ECG submitted - When an ECG is due but is not submitted, the FAA will not affirm the applicant's eligibility for medical certification until the requested ECG has been received and interpreted as being within normal limits. Failure to respond to FAA requests for a required current ECG will result in denial of certification.",
+   "html": "<ul><li><strong>No ECG submitted </strong>- When an ECG is due but is not submitted, the FAA will not affirm the applicant&#x27;s eligibility for medical certification until the requested ECG has been received and interpreted as being within normal limits. Failure to respond to FAA requests for a required current ECG will result in <strong>denial of certification</strong>.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 496,
+   "text": "F. After the ECG is transmitted to the FAA:",
+   "html": "<p><strong> F. After the ECG is transmitted to the FAA: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 496,
+   "text": "All first-class ECGs are reviewed by AMCD’s ECG department, staff physicians, or consultant cardiologists. If abnormalities are identified, additional work up or information may be requested. For additional help transmitting the exam or attaching the ECG contact:",
+   "html": "<p>All first-class ECGs are reviewed by AMCD’s ECG department, staff physicians, or consultant cardiologists. If abnormalities are identified, additional work up or information may be requested. For additional help transmitting the exam or attaching the ECG contact:</p>"
+  }
+ ]
+}

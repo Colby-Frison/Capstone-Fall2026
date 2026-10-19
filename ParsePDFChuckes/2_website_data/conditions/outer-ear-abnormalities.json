@@ -1,0 +1,103 @@
+{
+ "id": "outer-ear-abnormalities",
+ "name": "Outer Ear Abnormalities",
+ "subtitle": "(Cerumen Impaction, Otitis Externa, Microtia)",
+ "name_in_guide": "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/31/2024",
+ "order": 18,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis); and",
+  "Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include:",
+  "All audiograms already performed."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Impacted cerumen not affecting hearing OR Otitis Externa (resolved) or not affect flying/safety-related duties",
+   "condition_html": "<p><strong>A. </strong>Impacted cerumen not affecting hearing</p>\n<p>OR</p>\n<p>Otitis Externa (resolved) or <strong>not</strong> affect flying/safety-related duties</p>",
+   "evaluation_data": "If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:",
+   "evaluation_data_html": "<p>If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties</p>\n<p>AND</p>\n<p>The individual can pass any of the acceptable hearing tests:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>this information in Block 60.</p>",
+   "pdf_page": 86,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "With complications OR Incapacitating OR Affecting hearing (Unable to pass any of the acceptable hearing tests or the AME has concerns)",
+   "condition_html": "<p><strong>B. </strong>With complications</p>\n<p>OR</p>\n<p>Incapacitating</p>\n<p>OR</p>\n<p>Affecting hearing (Unable to pass any of the acceptable hearing tests or the AME has concerns)</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); and - Follow-up. 2. All audiograms already performed.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating ear, nose, and throat <strong>(ENT) </strong>physician no more than 90 days before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul>\n<p>2. All audiograms already performed.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis); and",
+    "Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ear, nose, and throat (ENT) physician no more than 90 days before the AME exam. It must include:",
+    "All audiograms already performed."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 86,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Outer ear/external pinna abnormality (such as Microtia)",
+   "condition_html": "<p><strong>C. </strong>Outer ear/external pinna abnormality (such as Microtia)</p>",
+   "evaluation_data": "The AME should look closely at the affected ear for other visible signs of pathology such as pre auricular pits or brachial cleft cyst or other evidence of a syndromic nature. If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:",
+   "evaluation_data_html": "<p>The AME should look closely at the affected ear for other visible signs of pathology such as pre auricular pits or brachial cleft cyst or other evidence of a syndromic nature.</p>\n<p>If the AME can determine the condition has no symptoms or current problems that would interfere with flight duties</p>\n<p>AND</p>\n<p>The individual can pass any of the acceptable hearing tests:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "defer"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. Note: If the applicant is unable to pass any of the acceptable hearing tests or the AME has concerns, the AME should annotate this in Block 60 and DEFER.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>this information in Block 60.</p>\n<p><strong>Note:</strong> If the applicant is unable to pass any of the acceptable hearing tests or the AME has concerns, the AME should annotate this in Block 60 and <strong>DEFER.</strong></p>",
+   "pdf_page": 86,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   86
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

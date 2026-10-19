@@ -1,0 +1,47 @@
+{
+ "slug": "2-authority-of-aviation-medical-examiners",
+ "title": "2. Authority of Aviation Medical Examiners",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  11
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 11,
+   "text": "The AME is delegated authority to:",
+   "html": "<p>The AME is delegated authority to:</p>"
+  },
+  {
+   "type": "list",
+   "page": 11,
+   "text": "- Examine applicants for, and holders of, airman medical certificates to determine whether or not they meet the medical standards for the issuance of an airman medical certificate.\n- Issue, defer, or deny airman medical certificates to applicants or holders of such certificates based upon whether or not they meet the applicable medical standards. The medical standards are found in Title 14 of the Code of Federal Regulations, part 67.",
+   "html": "<ul><li>Examine applicants for, and holders of, airman medical certificates to determine whether or not they meet the medical standards for the issuance of an airman medical certificate.</li><li>Issue, defer, or deny airman medical certificates to applicants or holders of such certificates based upon whether or not they meet the applicable medical standards. The medical standards are found in Title 14 of the Code of Federal Regulations, part 67.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "text": "The AME may NOT:",
+   "html": "<p>The AME may NOT:</p>"
+  },
+  {
+   "type": "list",
+   "page": 11,
+   "text": "- Perform self-examinations for issuance of a medical certificate to themselves*;\n- Issue a medical certificate to themselves or to an immediate family member*; or\n- Generate or author their own medical status reports. Reports regarding the medical status of an airman should be written by their treating provider. A report completed by an airman will NOT be accepted, even if that airman is a physician.",
+   "html": "<ul><li>Perform self-examinations for issuance of a medical certificate to themselves*;</li><li>Issue a medical certificate to themselves or to an immediate family member*; or</li><li>Generate or author their own medical status reports. Reports regarding the medical status of an airman should be written by their treating provider. A report completed by an airman will <strong>NOT</strong> be accepted, even if that airman is a physician.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "text": "*For more information, see FAA Order 8000.95 Designee Management Policy .",
+   "html": "<p>*For more information, see <a href=\"https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1040891\" target=\"_blank\" rel=\"noopener\">FAA Order 8000.95 Designee Management Policy</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 11,
+   "text": "A medical certificate issued by an AME is considered to be affirmed as issued unless, within 60 days after date of issuance (date of examination), it is reversed by the Federal Air Surgeon, a RFS , or the Manager, AMCD. However, if the FAA requests additional information from the applicant within 60 days after the issuance, the above-named officials have 60 days after receipt of the additional information to reverse the issuance.",
+   "html": "<p>A medical certificate issued by an AME is considered to be affirmed as issued unless, within 60 days after date of issuance (date of examination), it is reversed by the Federal Air Surgeon, a <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> , or the Manager, AMCD. However, if the FAA requests additional information from the applicant within 60 days after the issuance, the above-named officials have 60 days after receipt of the additional information to reverse the issuance.</p>"
+  }
+ ]
+}

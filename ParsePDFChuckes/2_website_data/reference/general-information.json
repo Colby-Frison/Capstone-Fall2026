@@ -1,0 +1,18 @@
+{
+ "slug": "general-information",
+ "title": "GENERAL INFORMATION",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  9,
+  10
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 10,
+   "text": "This section provides input to assist an Aviation Medical Examiner (AME), otherwise known as an Examiner, in performing his or her duties in an efficient and effective manner. It also describes AME responsibilities as the Federal Aviation Administration's (FAA) representative in medical certification matters and as the link between airmen and the FAA.",
+   "html": "<p>This section provides input to assist an Aviation Medical Examiner (AME), otherwise known as an Examiner, in performing his or her duties in an efficient and effective manner. It also describes AME responsibilities as the Federal Aviation Administration&#x27;s (FAA) representative in medical certification matters and as the link between airmen and the FAA.</p>"
+  }
+ ]
+}

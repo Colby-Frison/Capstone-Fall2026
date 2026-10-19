@@ -1,0 +1,100 @@
+{
+ "id": "perilymph-fistula-plf",
+ "name": "Perilymph Fistula (PLF)",
+ "subtitle": null,
+ "name_in_guide": "PERILYMPH FISTULA (PLF)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 14,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam.",
+  "It must include:",
+  "It must specifically include:",
+  "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days).",
+  "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+  "All Office treatment records.",
+  "Copy of Operative report if surgery performed.",
+  "Personal statement (typed) stating:"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Resolved 5 or more years ago.",
+   "condition_html": "<p><strong>A. </strong>Resolved <strong>5 or more </strong>years ago.</p>",
+   "evaluation_data": "The AME should review the most recent detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist. If it verifies the treatment has been completed (surgical or medical) and no further episodes:",
+   "evaluation_data_html": "<p>The AME should review the most recent <strong>detailed Clinical Progress Note </strong>generated from a clinic visit with the treating <strong>otolaryngologist (ENT) or neurotologist.</strong></p>\n<p>If it verifies the treatment has been completed (surgical or medical) and no further episodes:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>Block 60 <strong>and submit </strong>the ENT evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 79,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "FIRST time the condition is",
+   "condition_html": "<p><strong>B. </strong>FIRST time the condition is</p>",
+   "evaluation_data": "Once resolved and recovery period of:",
+   "evaluation_data_html": "<p>Once resolved and recovery period of:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>Block 60 <strong>and submit </strong>the ENT evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 79,
+   "disposition_shared_with_previous_row": true
+  },
+  {
+   "label": null,
+   "condition": "reported to the FAA OR A new episode Within the last 5 years.",
+   "condition_html": "<p>reported to the FAA</p>\n<p>OR</p>\n<p>A new episode Within the last 5 years.</p>",
+   "evaluation_data": "• One (1) month after surgery; or • Three (3) months if treated medically or with observation; and • Showing no further vertiginous attacks and hearing remains within standards. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. 2. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan prognosis; and • Follow-up. 3. It must specifically include: • If active disease exists. • If in remission, when did remission commence. 4. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days). 5. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 6. All Office treatment records. 7. Copy of Operative report if surgery performed. 8. Personal statement (typed) stating: • Number of attacks; • Severity; • Type of symptoms; • Episodes of hearing loss over the last year; • What type of therapy or medication(s) are used for control; and • How did the episode occur? (e.g., childbirth, straining, weightlifting, lightning strike, etc.).",
+   "evaluation_data_html": "<p>• One (1) month after surgery; or</p>\n<p>• Three (3) months if treated medically or with observation; and</p>\n<p>• Showing no further vertiginous attacks and hearing remains within standards.</p>\n<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating <strong>otolaryngologist (ENT) or neurotologist no more than 90 days prior </strong>to the AME exam.</p>\n<p>2. It must include:</p>\n<p>• A detailed summary of the history of the condition;</p>\n<p>• Current medications, dosage, and side effects (if any);</p>\n<p>• Physical exam findings;</p>\n<p>• Results of any testing performed;</p>\n<p>• Diagnosis;</p>\n<p>• Assessment and plan prognosis; and</p>\n<p>• Follow-up.</p>\n<p>3. It must specifically include:</p>\n<p>• If active disease exists.</p>\n<p>• If in remission, when did remission commence.</p>\n<p>4. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days).</p>\n<p>5. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.</p>\n<p>6. All Office treatment records.</p>\n<p>7. Copy of Operative report if surgery performed.</p>\n<p>8. Personal statement (typed) stating:</p>\n<p>• Number of attacks;</p>\n<p>• Severity;</p>\n<p>• Type of symptoms;</p>\n<p>• Episodes of hearing loss over the last year;</p>\n<p>• What type of therapy or medication(s) are used for control; and</p>\n<p>• How did the episode occur? (e.g., childbirth, straining, weightlifting, lightning strike, etc.).</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam.",
+    "It must include:",
+    "It must specifically include:",
+    "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminati on (SD) (performed within the past 90 days).",
+    "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+    "All Office treatment records.",
+    "Copy of Operative report if surgery performed.",
+    "Personal statement (typed) stating:"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the Authorization Letter</p>",
+   "pdf_page": 79,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   79
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

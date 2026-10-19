@@ -1,0 +1,152 @@
+{
+ "id": "chronic-kidney-disease-ckd",
+ "name": "Chronic Kidney Disease (CKD)",
+ "subtitle": null,
+ "name_in_guide": "CHRONIC KIDNEY DISEASE (CKD)",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/27/2019",
+ "order": 87,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.",
+  "It should note if the condition is stable or if additional treatment or dialysis is recommended;",
+  "Recent lab (within last 90 days)",
+  "Albumin as dipstick or ACR; and",
+  "Hemoglobin and hematocrit",
+  "Imaging reports (if performed by treating physician); and",
+  "Assessment by treating physician if evaluation is warranted."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "eGFR 45 to 59",
+   "condition_html": "<p><strong>A</strong>. eGFR <strong>45 to 59</strong></p>",
+   "evaluation_data": "No symptoms or complications and the underlying cause is not disqualifying.",
+   "evaluation_data_html": "<p>No symptoms or complications and the underlying cause is not disqualifying.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 241,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "eGFR 35 to 44",
+   "condition_html": "<p><strong>B. </strong>eGFR <strong>35 to 44 </strong></p>",
+   "evaluation_data": "See CACI worksheet. Single kidney – DO NOT CACI",
+   "evaluation_data_html": "<p>See CACI worksheet.</p>\n<p><strong>Single kidney – DO NOT CACI</strong></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Chronic Kidney Disease Worksheet annotate Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Chronic Kidney Disease Worksheet</a> annotate Block 60.</p>",
+   "pdf_page": 241,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "eGFR 34 or less OR Symptoms or complications with any eGFR Proteinuria 2+ or higher or ACR is 300 or higher OR Single kidney with eGFR 44 or less",
+   "condition_html": "<p><strong>C. </strong>eGFR <strong>34 or less</strong></p>\n<p>OR</p>\n<p>Symptoms or complications with any eGFR</p>\n<p>Proteinuria 2+ or higher or ACR is 300 or higher</p>\n<p>OR</p>\n<p>Single kidney with eGFR 44 or less</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. - It should note if the condition is stable or if additional treatment or dialysis is recommended; - Recent lab (within last 90 days) - Renal function studies(creatinine, BUN and eGFR); - Albumin as dipstick or ACR; and - Hemoglobin and hematocrit - Imaging reports (if performed by treating physician); and - Assessment by treating physician if evaluation is warranted.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> <strong>Current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.</li><li> It should note if the condition is stable or if additional treatment or dialysis is recommended;</li><li> Recent lab (within last 90 days)<ul><li>Renal function studies(creatinine, BUN and eGFR);</li><li>Albumin as dipstick or ACR; and</li><li>Hemoglobin and hematocrit</li></ul></li><li> Imaging reports (if performed by treating physician); and</li><li> Assessment by treating physician if evaluation is warranted.</li></ul>",
+   "what_to_bring": [
+    "Current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.",
+    "It should note if the condition is stable or if additional treatment or dialysis is recommended;",
+    "Recent lab (within last 90 days)",
+    "Albumin as dipstick or ACR; and",
+    "Hemoglobin and hematocrit",
+    "Imaging reports (if performed by treating physician); and",
+    "Assessment by treating physician if evaluation is warranted."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow-up Special Issuance – Will be per the airman’s Authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow-up Special Issuance</strong> –</p>\n<p>Will be per the airman’s Authorization Letter</p>",
+   "pdf_page": 241,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "ESRD requiring dialysis or kidney transplant",
+   "condition_html": "<p><strong>ESRD requiring dialysis or kidney transplant</strong></p>",
+   "evaluation_data": "See table on previous page for more information.",
+   "evaluation_data_html": "<p>See table on previous page for more information.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER",
+   "disposition_html": "<p><strong>DEFER </strong></p>",
+   "pdf_page": 241,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Chronic Kidney Disease (CKD) Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies: - Is asymptomatic and stable; - Has not developed any new conditions or complications that would affect renal function; - Has 2 functioning kidneys; - Any underlying conditions (such as diabetes, HTN, glomerulonephritis, PKD, or chronic obstruction) are well controlled; and - Dialysis or transplant is not recommended or anticipated at this time.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "eGFR is 35 or higher (Most recent value, must be within the last six (6) months.)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Albumin on urine dipstick is trace or negative OR albumin creatinine ratio (ACR) is 29 or less",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Hemoglobin is at least 10 gm/dL AND hematocrit is at least 30%",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Current treatment",
+     "acceptable_certification_criteria": "[ ] Allowed HTN medication"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Chronic Kidney Disease.",
+    "Has current OR previous SI/AASI but now CACI qualified Chronic Kidney Disease.",
+    "NOT CACI qualified Chronic Kidney Disease. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Notes:</strong> eGFR is a calculated/estimated value. If additional testing shows the actual renal function is higher than the eGFR, this should be stated in the note from the treating physician.</p>\n<p>ACR = albumin creatinine ratio</p>\n<p>(Updated 04/27/2022)</p>",
+ "links": [
+  {
+   "text": "CACI – Chronic Kidney Disease Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIChronicKidneyDisease.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   241,
+   242
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

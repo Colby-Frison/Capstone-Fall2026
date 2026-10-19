@@ -1,0 +1,47 @@
+{
+ "slug": "aasi-for-hepatitis-c",
+ "title": "AASI for Hepatitis C",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  701
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 701,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 701,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 701,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 701,
+   "text": "- An Authorization granted by the FAA;\n- Any symptoms the applicant has developed;\n- The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects; and\n- A current liver function profile performed within the last 90 days.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>Any symptoms the applicant has developed;</li><li>The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects; and</li><li>A current liver function profile performed within the last 90 days.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 701,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 701,
+   "text": "- The applicant has developed symptoms;\n- There has been a change in treatment regimen, or the applicant has been placed on alpha-interferon;\n- Any side effects from required medication; or\n- An adverse change in liver function studies.",
+   "html": "<ul><li>The applicant has developed symptoms;</li><li>There has been a change in treatment regimen, or the applicant has been placed on alpha-interferon;</li><li>Any side effects from required medication; or</li><li>An adverse change in liver function studies.</li></ul>"
+  }
+ ]
+}

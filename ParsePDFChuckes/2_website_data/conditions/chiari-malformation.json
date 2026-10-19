@@ -1,0 +1,146 @@
+{
+ "id": "chiari-malformation",
+ "name": "Chiari Malformation",
+ "subtitle": null,
+ "name_in_guide": "CHIARI MALFORMATION",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/27/2024",
+ "order": 122,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam.",
+  "It must specifically include the reason the imaging was performed.",
+  "An incidental finding on imaging OR",
+  "Was surgically corrected 2 or more years ago;",
+  "Is asymptomatic;",
+  "No additional treatment recommended; and",
+  "No symptoms that would interfere with flight or safety related duties:",
+  "Clinical records pertaining to condition (which identifies why surgery was performed);",
+  "Operative report;",
+  "Post-operative clinical notes from neurosurgeon ; and",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the provider managing the Chiari I finding no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis; assessment and plan; prognosis; and follow-up.",
+  "If symptoms have resolved;",
+  "Any functional impact; and",
+  "Any abnormalities in the neurological exam.",
+  "Description of symptoms;",
+  "Consider syringomyelia and supply spinal cord imaging if deemed clinically necessary; and",
+  "Any follow-up or treatment needed",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days prior to the AME exam.",
+  "Operative/procedure report(s); (if performed);",
+  "MRI of the brain performed w/in previous 12 months the AME exam.;",
+  "Additional imaging studies (MRI spine, etc.) already performed or clinically indicated; and",
+  "If Chiari Type II, submit copies of most recent spinal cord imaging for syringomyelia."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Type I (aka low-lying tonsils) Incidental finding on imaging OR Chiari 1 decompression surgery 2+ years ago AND Asymptomatic",
+   "condition_html": "<p><strong>A. </strong> Type I</p>\n<p>(aka low-lying tonsils)</p>\n<p>Incidental finding on imaging</p>\n<p>OR</p>\n<p>Chiari 1 decompression surgery 2+ years ago</p>\n<p><strong>AND </strong></p>\n<p>Asymptomatic</p>",
+   "evaluation_data": "The AME should review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam. - 2. It must specifically include the reason the imaging was performed. If review of documentation verifies the Chiari malformation is: - An incidental finding on imaging OR - Was surgically corrected 2 or more years ago; - Is asymptomatic; - No additional treatment recommended; and - No symptoms that would interfere with flight or safety related duties: (If an underlying condition is identified, e.g., headaches, see that page.)",
+   "evaluation_data_html": "<p>The AME should review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam.</li><li>2. It must specifically include the reason the imaging was performed.</li></ul>\n<p>If review of documentation verifies the Chiari malformation is:</p>\n<ul><li>An incidental finding on imaging OR</li><li>Was surgically corrected 2 or more years ago;</li><li>Is asymptomatic;</li><li>No additional treatment recommended; and</li><li>No symptoms that would interfere with flight or safety related duties:</li></ul>\n<p>(If an underlying condition is identified, e.g., headaches, see that page.)</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam.",
+    "It must specifically include the reason the imaging was performed.",
+    "An incidental finding on imaging OR",
+    "Was surgically corrected 2 or more years ago;",
+    "Is asymptomatic;",
+    "No additional treatment recommended; and",
+    "No symptoms that would interfere with flight or safety related duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p><strong>Annotate</strong> Block 60 <strong>and submit</strong> the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 309,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Type 1 surgically corrected/decompressed within the past 2 years",
+   "condition_html": "<p><strong>B. </strong>Type 1 surgically corrected/decompressed</p>\n<p><strong>within the past 2 years </strong></p>",
+   "evaluation_data": "No mandatory recovery period after decompression surgery. If no complications, can consider once the treating neurosurgeon has determined recovered, no symptoms and is stable. Submit the following for FAA review: - 1. Clinical records pertaining to condition (which identifies why surgery was performed); - 2. Operative report; - 3. Post-operative clinical notes from neurosurgeon; and - 4. A current, detailed Clinical Progress Note generated from a clinic visit with the provider managing the Chiari I finding no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; prognosis; and follow-up. It must specifically include: - If symptoms have resolved; - Any functional impact; and - Any abnormalities in the neurological exam.",
+   "evaluation_data_html": "<p>No mandatory recovery period after decompression surgery. If no complications, can consider once the treating neurosurgeon has determined recovered, no symptoms and is stable.</p>\n<p>Submit the following for FAA review:</p>\n<ul><li>1. Clinical records pertaining to condition (which identifies why surgery was performed);</li><li>2. <strong>Operative report; </strong></li><li>3. <strong>Post-operative clinical notes from neurosurgeon</strong>; and</li><li>4. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit <strong>with the provider managing the Chiari I finding</strong> no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li></ul>\n<ul><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan; prognosis; and follow-up.</li></ul>\n<p>It must specifically include:</p>\n<ul><li>If symptoms have resolved;</li><li>Any functional impact; and</li><li>Any abnormalities in the neurological exam.</li></ul>",
+   "what_to_bring": [
+    "Clinical records pertaining to condition (which identifies why surgery was performed);",
+    "Operative report;",
+    "Post-operative clinical notes from neurosurgeon ; and",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the provider managing the Chiari I finding no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis; assessment and plan; prognosis; and follow-up.",
+    "If symptoms have resolved;",
+    "Any functional impact; and",
+    "Any abnormalities in the neurological exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 309,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Currently symptomatic OR ANY Chiari type (II, III, IV)",
+   "condition_html": "<p><strong>C. </strong>Currently symptomatic</p>\n<p>OR</p>\n<p><strong>ANY</strong> Chiari type (II, III, IV)</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days prior to the AME exam. It must specifically include: - Description of symptoms; - Consider syringomyelia and supply spinal cord imaging if deemed clinically necessary; and - Any follow-up or treatment needed 2. Operative/procedure report(s); (if performed); 3. MRI of the brain performed w/in previous 12 months the AME exam.; Note: Submit the interpretive report on paper and imaging on CD in DICOM readable format. (There must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Applicants may wish to retain a copy of all films as a safeguard if lost in the mail. 4. Additional imaging studies (MRI spine, etc.) already performed or clinically indicated; and 5. If Chiari Type II, submit copies of most recent spinal cord imaging for syringomyelia.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A current, detailed neurological evaluation that meets <a href=\"https://www.faa.gov/sites/faa.gov/files/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\"><strong>FAA Specifications for Neurologic Evaluation</strong></a> generated from a clinic visit with the treating neurologist <strong>no more than 90 days prior to</strong> the AME exam.</p>\n<p>It must specifically include:</p>\n<ul><li>Description of symptoms;</li><li>Consider syringomyelia and supply spinal cord imaging if deemed clinically necessary; and</li><li>Any follow-up or treatment needed</li></ul>\n<p>2. Operative/procedure report(s); (if performed);</p>\n<p>3. MRI of the brain performed <strong>w/in previous 12 months</strong> the AME exam.;</p>\n<p><strong>Note:</strong> Submit the interpretive report on paper and imaging on CD in DICOM readable format. (There must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Applicants may wish to retain a copy of all films as a safeguard if lost in the mail.</p>\n<p>4. Additional imaging studies (MRI spine, etc.) already performed or clinically indicated; and</p>\n<p>5. If Chiari Type II, submit copies of most recent spinal cord imaging for syringomyelia.</p>",
+   "what_to_bring": [
+    "Description of symptoms;",
+    "Consider syringomyelia and supply spinal cord imaging if deemed clinically necessary; and",
+    "Any follow-up or treatment needed",
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days prior to the AME exam.",
+    "Operative/procedure report(s); (if performed);",
+    "MRI of the brain performed w/in previous 12 months the AME exam.;",
+    "Additional imaging studies (MRI spine, etc.) already performed or clinically indicated; and",
+    "If Chiari Type II, submit copies of most recent spinal cord imaging for syringomyelia."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 309,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/sites/faa.gov/files/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   309
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

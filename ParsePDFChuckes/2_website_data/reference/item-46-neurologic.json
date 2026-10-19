@@ -1,0 +1,265 @@
+{
+ "slug": "item-46-neurologic",
+ "title": "ITEM 46. Neurologic",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  284,
+  285,
+  286,
+  287,
+  288,
+  289
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 284,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "46. Neurologic",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>46. Neurologic</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "All Classes: 14 CFR 67.109 (a)(b), 67.209 (a)(b), and 67.309 (a)(b)",
+   "html": "<p><strong>All Classes: 14 CFR 67.109 (a)(b), 67.209 (a)(b), and 67.309 (a)(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(a) No established medical history or clinical diagnosis of any of the following:",
+   "html": "<p>(a) No established medical history or clinical diagnosis of any of the following:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(1) Epilepsy",
+   "html": "<p>(1) Epilepsy</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(2) A disturbance of consciousness without satisfactory medical explanation",
+   "html": "<p>(2) A disturbance of consciousness without satisfactory medical explanation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "of the cause; or",
+   "html": "<p>of the cause; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(3) A transient loss of control of nervous system function(s) without",
+   "html": "<p>(3) A transient loss of control of nervous system function(s) without</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "satisfactory medical explanation of the cause;",
+   "html": "<p>satisfactory medical explanation of the cause;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(b) No other seizure disorder, disturbance of consciousness, or neurologic condition",
+   "html": "<p>(b) No other seizure disorder, disturbance of consciousness, or neurologic condition</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "that the Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds-",
+   "html": "<p>that the Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds-</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "A neurologic evaluation should consist of a thorough review of the applicant's history prior to the neurological examination. The AME should specifically inquire concerning a history of weakness or paralysis, disturbance of sensation, loss of coordination, or loss of bowel or bladder control. Certain laboratory studies, such as scans and imaging procedures of the head or spine, electroencephalograms, or spinal paracentesis may suggest significant medical history. The AME should note conditions identified in Item 60 on the application with facts, such as dates, frequency, and severity of occurrence.",
+   "html": "<p>A neurologic evaluation should consist of a thorough review of the applicant&#x27;s history prior to the neurological examination. The AME should specifically inquire concerning a history of weakness or paralysis, disturbance of sensation, loss of coordination, or loss of bowel or bladder control. Certain laboratory studies, such as scans and imaging procedures of the head or spine, electroencephalograms, or spinal paracentesis may suggest significant medical history. The AME should note conditions identified in Item 60 on the application with facts, such as dates, frequency, and severity of occurrence.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "A history of simple headaches without sequela is not disqualifying. Some require only temporary disqualification during periods when the headaches are likely to occur or require treatment. Other types of headaches may preclude certification by the AME and require special evaluation and consideration (e.g., migraine and cluster headaches).",
+   "html": "<p>A history of simple headaches without sequela is not disqualifying. Some require only temporary disqualification during periods when the headaches are likely to occur or require treatment. Other types of headaches may preclude certification by the AME and require special evaluation and consideration (e.g., migraine and cluster headaches).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 284,
+   "text": "One or two episodes of dizziness or even fainting may not be disqualifying. For example, dizziness upon suddenly arising when ill is not a true dysfunction. Likewise, the orthostatic faint associated with moderate anemia is no threat to aviation safety as long as the individual is temporarily disqualified until the anemia is corrected.",
+   "html": "<p>One or two episodes of dizziness or even fainting may not be disqualifying. For example, dizziness upon suddenly arising when ill is not a true dysfunction. Likewise, the orthostatic faint associated with moderate anemia is no threat to aviation safety as long as the individual is temporarily disqualified until the anemia is corrected.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "An unexplained disturbance of consciousness is disqualifying under the medical standards. Because a disturbance of consciousness may be expected to be totally incapacitating, individuals with such histories pose a high risk to safety and must be denied or deferred by the AME. If the cause of the disturbance is explained and a loss of consciousness is not likely to recur, then medical certification may be possible.",
+   "html": "<p>An unexplained disturbance of consciousness is disqualifying under the medical standards. Because a disturbance of consciousness may be expected to be totally incapacitating, individuals with such histories pose a high risk to safety and must be denied or deferred by the AME. If the cause of the disturbance is explained and a loss of consciousness is not likely to recur, then medical certification may be possible.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "The basic neurological examination consists of an examination of the 12 cranial nerves, motor strength, superficial reflexes, deep tendon reflexes, sensation, coordination, mental status, and includes the Babinski reflex and Romberg sign. The AME should be aware of any asymmetry in responses because this may be evidence of mild or early abnormalities. The AME should evaluate the visual field by direct confrontation or, preferably, by one of the perimetry procedures, especially if there is a suggestion of neurological deficiency.",
+   "html": "<p>The basic neurological examination consists of an examination of the 12 cranial nerves, motor strength, superficial reflexes, deep tendon reflexes, sensation, coordination, mental status, and includes the Babinski reflex and Romberg sign. The AME should be aware of any asymmetry in responses because this may be evidence of mild or early abnormalities. The AME should evaluate the visual field by direct confrontation or, preferably, by one of the perimetry procedures, especially if there is a suggestion of neurological deficiency.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "III. Aerospace Medical Dispositions (Updated 06/26/2024)",
+   "html": "<p><strong>III. Aerospace Medical Dispositions </strong>(Updated 06/26/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "General Information:",
+   "html": "<p><strong>General Information: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "A history or the presence of any neurological condition or disease that potentially may incapacitate an individual should be regarded as initially disqualifying.",
+   "html": "<p>A history or the presence of any neurological condition or disease that potentially may incapacitate an individual should be regarded as initially disqualifying.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "Chronic conditions may be incompatible with safety in aircraft operation because of long-term unpredictability, severe neurologic deficit, or psychological impairment.",
+   "html": "<p>Chronic conditions may be incompatible with safety in aircraft operation because of long-term unpredictability, severe neurologic deficit, or psychological impairment.</p>"
+  },
+  {
+   "type": "list",
+   "page": 285,
+   "text": "- Symptoms or disturbances that are secondary to the underlying condition that may be acutely incapacitating include pain, weakness, vertigo or incoordination, seizures, disturbance of consciousness, visual disturbance, or mental confusion.\n- Numerous neurological conditions may affect equilibrium, resulting in acute incapacitation or varying degrees of chronic recurring spatial disorientation.",
+   "html": "<ul><li>Symptoms or disturbances that are secondary to the underlying condition that may be acutely incapacitating include pain, weakness, vertigo or incoordination, seizures, disturbance of consciousness, visual disturbance, or mental confusion.</li><li>Numerous neurological conditions may affect equilibrium, resulting in acute incapacitation or varying degrees of chronic recurring spatial disorientation.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "Prophylactic use of medications also may cause recurring spatial disorientation and affect pilot performance. In most instances, further neurological evaluation will be required to determine eligibility for medical certification.",
+   "html": "<p>Prophylactic use of medications also may cause recurring spatial disorientation and affect pilot performance. In most instances, further neurological evaluation will be required to determine eligibility for medical certification.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "For the majority of neurologic conditions, issuance should be denied or deferred. Refer to the specific condition disposition for guidance. Processing can be expedited by including the items listed under Evaluation Data for the corresponding condition.",
+   "html": "<p>For the majority of neurologic conditions, issuance should be denied or deferred. Refer to the specific condition disposition for guidance. Processing can be expedited by including the items listed under Evaluation Data for the corresponding condition.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 285,
+   "text": "If a neurological evaluation is required, it should meet all items on the FAA Specifications for Neurologic Evaluation .",
+   "html": "<p>If a neurological evaluation is required, it should meet all items on the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 286,
+   "text": "Conditions:",
+   "html": "<p><strong>Conditions: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 286,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 286,
+   "text": "The following list of hyperlinks will take the user to the Web version of the AME Guide where the conditions are grouped together with any applicable, related documents. All the Neurologic dispositions are on the following pages of this document.",
+   "html": "<p>The following list of hyperlinks will take the user to the Web version of the AME Guide where the conditions are grouped together with any applicable, related documents. All the Neurologic dispositions are on the following pages of this document.</p>"
+  },
+  {
+   "type": "list",
+   "page": 286,
+   "text": "- Alzheimer’s Disease or Mild Cognitive Impairment (MCI) or Dementia\n- Amyotrophic Lateral Sclerosis (ALS)\n- Arteriovenous Malformation (AVM) - Brain or Spinal Cord\n- Atypical Facial Pain\n- Bell’s Palsy - (Facial Nerve Palsy, Cranial Nerve Palsy)\n- Brain Abscess, Encephalitis, Meningitis\n- Brain Aneurysm\n- Brain Bleed\n- Brain Tumors\n- Carotid / Vertebral Artery Stenosis\n- Central Sleep Apnea\n- Cerebral Palsy\n- Chiari Malformation\n- Cognitive or Mental Impairment or Dysfunction, Cognitive Disorder, Mild Cognitive Impairment (MCI)\n- Concussion\n- Deep Brain Stimulator and Deep Brain Stimulator Status Summary\n- Dystonia\n- Epilepsy ( See Seizures and Epilepsy )\n- Encephalitis (See Brain Abscess, Encephalitis, Meningitis )\n- Guillain Barre Syndrome\n- Head Injury or Brain Injury - (Concussion, Closed Head Injury, Open Head Injury, and Traumatic Brain Injury)\n- Headache or Migraine (Cluster, Tension, Ocular, Acephalgic, Ophthalmic, or Retinal)\n- Huntington’s Disease\n- Hydrocephalus (with or without shunt)\n- Immune-related Demyelinating Disease\n- Meningitis (See Brain Abscess, Encephalitis, Meningitis )\n- Myasthenia Gravis\n- Multiple Sclerosis\n- Narcolepsy and Idiopathic Hypersomnia\n- Neurosyphilis\n- Neuropathy\n- Neuralgia - (Trigeminal Neuralgia, Post Herpetic Neuralgia)\n- Neurofibromatosis - (NF-1 von Recklinghausen Disease, NF-2 Wishart Disease)\n- Optic Neuritis\n- Orthostatic Hypotension\n- Paraplegia\n- Parkinson’s Disease and Parkinsonism (Secondary)\n- Polio\n- Pseudotumor Cerebri\n- Seizures or Epilepsy\n- Slow viral diseases (i.e., Creutzfeldt Jakob’s Disease)\n- Stroke (CVA) or Transient Ischemic Attack (TIA)\n- Transient Global Amnesia (TGA)\n- Traumatic Brain Injury\n- Tremor\n- Tourette Syndrome or Tic Disorder\n- Unexplained Loss of Consciousness (ULOC)\n- Wilson’s Disease",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/Alzheimers_MCI_Dementia.pdf\" target=\"_blank\" rel=\"noopener\">• Alzheimer’s Disease or Mild Cognitive Impairment (MCI) or Dementia</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/ALS.pdf\" target=\"_blank\" rel=\"noopener\">• Amyotrophic Lateral Sclerosis (ALS)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Arteriovenous-Malformation.pdf\" target=\"_blank\" rel=\"noopener\">• Arteriovenous Malformation (AVM)</a> - Brain or Spinal Cord</li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Atypical Facial Pain</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Bells-Palsy.pdf\" target=\"_blank\" rel=\"noopener\">• Bell’s Palsy - (Facial Nerve Palsy, Cranial Nerve Palsy)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">• Brain Abscess, Encephalitis, Meningitis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Brain-Aneurysm.pdf\" target=\"_blank\" rel=\"noopener\">• Brain Aneurysm</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Brain-Bleed.pdf\" target=\"_blank\" rel=\"noopener\">• Brain Bleed</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Brain-Tumors.pdf\" target=\"_blank\" rel=\"noopener\">• Brain Tumors</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Carotid_Vertebral_Artery_Disease_Dispo_Table.pdf\" target=\"_blank\" rel=\"noopener\">• Carotid / Vertebral Artery Stenosis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Central_Sleep_Apnea.pdf\" target=\"_blank\" rel=\"noopener\">• Central Sleep Apnea</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Cerebral_Palsy.pdf\" target=\"_blank\" rel=\"noopener\">• Cerebral Palsy</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Chiari_Malformation_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">• Chiari Malformation</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/cog-mental-impairment-dysfunction.pdf\" target=\"_blank\" rel=\"noopener\">• Cognitive or Mental Impairment or Dysfunction, Cognitive Disorder, Mild Cognitive Impairment (MCI)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Head-Injury.pdf\" target=\"_blank\" rel=\"noopener\">• Concussion</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf\" target=\"_blank\" rel=\"noopener\">• Deep Brain Stimulator</a> and Deep Brain Stimulator Status Summary</li><li><a href=\"https://www.faa.gov/ame_guide/media/Dystonia.pdf\" target=\"_blank\" rel=\"noopener\">• Dystonia</a></li><li>Epilepsy ( <a href=\"https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf\" target=\"_blank\" rel=\"noopener\">See Seizures and Epilepsy</a> )</li><li>Encephalitis (See <a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">Brain Abscess, Encephalitis, Meningitis</a> )</li><li><a href=\"https://www.faa.gov/ame_guide/media/Guillain-Barre.pdf\" target=\"_blank\" rel=\"noopener\">• Guillain Barre Syndrome</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Head-Injury.pdf\" target=\"_blank\" rel=\"noopener\">• Head Injury or Brain Injury</a> - (Concussion, Closed Head Injury, Open Head Injury, and Traumatic Brain Injury)</li><li><a href=\"https://www.faa.gov/ame_guide/media/Headache_Migraine.pdf\" target=\"_blank\" rel=\"noopener\">• Headache or Migraine</a> (Cluster, Tension, Ocular, Acephalgic, Ophthalmic, or Retinal)</li><li><a href=\"https://www.faa.gov/ame_guide/media/Huntingtons_Disease.pdf\" target=\"_blank\" rel=\"noopener\">• Huntington’s Disease</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Hydrocephalus.pdf\" target=\"_blank\" rel=\"noopener\">• Hydrocephalus</a> (with or without shunt)</li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Immune-related Demyelinating Disease</a></li><li>Meningitis (See <a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">Brain Abscess, Encephalitis, Meningitis</a> )</li><li><a href=\"https://www.faa.gov/ame_guide/media/Myasthenia-Gravis.pdf\" target=\"_blank\" rel=\"noopener\">• Myasthenia Gravis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Multiple-Sclerosis.pdf\" target=\"_blank\" rel=\"noopener\">• Multiple Sclerosis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Narcolepsy-Hypesomnia.pdf\" target=\"_blank\" rel=\"noopener\">• Narcolepsy and Idiopathic Hypersomnia</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Neurosyphilis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Neuropathy.pdf\" target=\"_blank\" rel=\"noopener\">• Neuropathy</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Neuralgia.pdf\" target=\"_blank\" rel=\"noopener\">• Neuralgia - (Trigeminal Neuralgia, Post Herpetic Neuralgia)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Neurofibromatosis.pdf\" target=\"_blank\" rel=\"noopener\">• Neurofibromatosis - (NF-1 von Recklinghausen Disease, NF-2 Wishart Disease)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Optic_Neuritis_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">• Optic Neuritis</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Orthostatic Hypotension</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Paraplegia.pdf\" target=\"_blank\" rel=\"noopener\">• Paraplegia</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Parkinsons_Disease.pdf\" target=\"_blank\" rel=\"noopener\">• Parkinson’s Disease and Parkinsonism (Secondary)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Polio.pdf\" target=\"_blank\" rel=\"noopener\">• Polio</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Pseudotumor-Cerebri.pdf\" target=\"_blank\" rel=\"noopener\">• Pseudotumor Cerebri</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf\" target=\"_blank\" rel=\"noopener\">• Seizures or Epilepsy</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Slow viral diseases (i.e., Creutzfeldt Jakob’s Disease)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf\" target=\"_blank\" rel=\"noopener\">• Stroke (CVA) or Transient Ischemic Attack (TIA)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Transient_Global_Amnesia.pdf\" target=\"_blank\" rel=\"noopener\">• Transient Global Amnesia (TGA)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Head-Injury.pdf\" target=\"_blank\" rel=\"noopener\">• Traumatic Brain Injury</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Tremor.pdf\" target=\"_blank\" rel=\"noopener\">• Tremor</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Tourettes_Tic_disorders.pdf\" target=\"_blank\" rel=\"noopener\">• Tourette Syndrome or Tic Disorder</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/ULOC.pdf\" target=\"_blank\" rel=\"noopener\">• Unexplained Loss of Consciousness (ULOC)</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Other_Neurologic_Conditions.pdf\" target=\"_blank\" rel=\"noopener\">• Wilson’s Disease</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 287,
+   "text": "ALZHEIMER's DISEASE OR MILD COGNITIVE IMPAIRMENT (MCI) or DEMENTIA",
+   "html": "<p><strong>ALZHEIMER&#x27;s DISEASE OR MILD COGNITIVE IMPAIRMENT (MCI) or DEMENTIA </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 287,
+   "text": "All Classes",
+   "html": "<p>All Classes</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 287,
+   "text": "(Updated 02/22/2023)",
+   "html": "<p>(Updated 02/22/2023)</p>"
+  },
+  {
+   "type": "table",
+   "page": 287,
+   "header": null,
+   "rows": [
+    [
+     "DISEASE/CONDITION",
+     "EVALUATION DATA",
+     "DISPOSITION",
+     "DISEASE/CONDITION",
+     "EVALUATION DATA",
+     "DISPOSITION",
+     "- A. Alzheimer's disease OR Mild Cognitive Impairment (MCI) OR Dementia from: - Creutzfeldt-Jakob disease; - Frontotemporal dementia; - Lewy body dementia; - Mixed dementia; - Normal Pressure Hydrocephalus; - Vascular dementia; or - Others",
+     "Submit the following for FAA review: The most recent detailed, Clinical Progress Note performed by the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. In most cases, this condition is incompatible with aviation safety.",
+     "DEFER Submit the information to the FAA.",
+     "B. Pre-clinical Alzheimer's condition",
+     "Submit the following for FAA review: - 1. A current, detailed neurological evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam in accordance with the FAA Specifications for Neurologic Evaluation . - 2. Neuropsychological evaluation in accordance with the FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment no more than 90 days before the AME exam. - 3. Brain MRI. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. Submit the",
+     "DEFER Submit the information to the FAA for a possible Special Issuance."
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA </strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA </strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><ul><li>A.</li></ul>\n<p>Alzheimer&#x27;s disease OR</p>\n<p>Mild Cognitive Impairment (MCI)</p>\n<p>OR</p>\n<p>Dementia from:</p>\n<ul><li>Creutzfeldt-Jakob disease;</li><li>Frontotemporal dementia;</li><li>Lewy body dementia;</li><li>Mixed dementia;</li><li>Normal Pressure Hydrocephalus;</li><li>Vascular dementia; or</li><li>Others</li></ul></td><td><p>Submit the following for FAA review:</p>\n<p>The most <strong>recent detailed</strong>, <strong>Clinical Progress Note</strong> performed by the <strong>treating physician or neurologist</strong>. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</p>\n<p>In most cases, this condition is incompatible with aviation safety.</p></td><td><p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p></td><td><p>B. Pre-clinical Alzheimer&#x27;s condition</p></td><td><p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> generated from a clinic visit with the treating neurologist <strong>no more than 90 days before</strong> the AME exam in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> .</li></ul>\n<ul><li>2. Neuropsychological evaluation in accordance with the FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment no more than 90 days before the AME exam.</li><li>3. <strong>Brain MRI</strong>. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. Submit the</li></ul></td><td><p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p></td></tr></tbody></table>"
+  }
+ ]
+}

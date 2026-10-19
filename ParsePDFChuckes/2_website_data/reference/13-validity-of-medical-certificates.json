@@ -1,0 +1,101 @@
+{
+ "slug": "13-validity-of-medical-certificates",
+ "title": "13. Validity of Medical Certificates",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  26
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "An airman medical certificate is valid only with the original signature of the AME who performed the examination or with the digital signature of an authorized FAA physician (e.g., Regional Flight Surgeon, manager of the Aerospace Medical Certification Division, Federal Air Surgeon).",
+   "html": "<p>An airman medical certificate is valid only with the original signature of the AME who performed the examination or with the digital signature of an authorized FAA physician (e.g., Regional Flight Surgeon, manager of the Aerospace Medical Certification Division, Federal Air Surgeon).</p>"
+  },
+  {
+   "type": "list",
+   "page": 26,
+   "text": "- Copies are NOT valid.\n- An AME may only issue ONE originally signed certificate to an airman. A replacement for a lost or destroyed certificate must be issued by the FAA.",
+   "html": "<ul><li>Copies are NOT valid.</li><li>An AME may only issue ONE originally signed certificate to an airman. A <a href=\"https://www.faa.gov/ame_guide/app_process/general/replacement/\" target=\"_blank\" rel=\"noopener\">replacement for a lost or destroyed certificate</a> must be issued by the FAA.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "A. First-Class Medical Certificate: A first-class medical certificate is valid for the remainder of the month of issue; plus",
+   "html": "<p>A. First-Class Medical Certificate: A first-class medical certificate is valid for the remainder of the month of issue; plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "6-calendar months for operations requiring a first-class medical certificate if the airman is age 40 or over on or before the date of the examination, or plus",
+   "html": "<p>6-calendar months for operations requiring a first-class medical certificate if the airman is age 40 or over on or before the date of the examination, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "12-calendar months for operations requiring a first-class medical certificate if the airman has not reached age 40 on or before the date of examination",
+   "html": "<p>12-calendar months for operations requiring a first-class medical certificate if the airman has not reached age 40 on or before the date of examination</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "12-calendar months for operations requiring a second-class medical certificate, or plus",
+   "html": "<p>12-calendar months for operations requiring a second-class medical certificate, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "24-calendar months for operations requiring a third-class medical certificate, or plus",
+   "html": "<p>24-calendar months for operations requiring a third-class medical certificate, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.",
+   "html": "<p>60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "B. Second-Class Medical Certificate: A second-class medical certificate is valid for the remainder of the month of issue; plus",
+   "html": "<p>B. Second-Class Medical Certificate: A second-class medical certificate is valid for the remainder of the month of issue; plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "12-calendar months for operations requiring a second-class medical certificate, or plus",
+   "html": "<p>12-calendar months for operations requiring a second-class medical certificate, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "24-calendar months for operations requiring a third-class medical certificate, or plus",
+   "html": "<p>24-calendar months for operations requiring a third-class medical certificate, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.",
+   "html": "<p>60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "C. Third-Class Medical Certificate: A third-class medical certificate is valid for the remainder of the month of issue; plus",
+   "html": "<p>C. Third-Class Medical Certificate: A third-class medical certificate is valid for the remainder of the month of issue; plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "24-calendar months for operations requiring a third-class medical certificate, or plus",
+   "html": "<p>24-calendar months for operations requiring a third-class medical certificate, or plus</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 26,
+   "text": "60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.",
+   "html": "<p>60-calendar months for operations requiring a third-class medical certificate if the airman has not reached age 40 on or before the date of examination.</p>"
+  }
+ ]
+}

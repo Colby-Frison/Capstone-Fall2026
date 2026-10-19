@@ -1,0 +1,87 @@
+{
+ "id": "persistent-postural-perceptual-dizziness-pppd-or-3pd",
+ "name": "Persistent Postural Perceptual Dizziness (PPPD or 3PD)",
+ "subtitle": null,
+ "name_in_guide": "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 15,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "After the condition has fully resolved;",
+  "No symptoms remain; and",
+  "Medication is no longer needed for suppression of the vertigo:",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include:",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis); and",
+  "Follow-up",
+  "It must specifically include:",
+  "If in remission, when did remission commence.",
+  "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days).",
+  "Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated.",
+  "All Office treatment records.",
+  "Pharmacy Records for the last 3 years from all Pharmacies used.",
+  "Copies of any Vestibular Rehab progress notes (if performed)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history",
+   "condition_html": "<p><strong>A. </strong>Any history</p>",
+   "evaluation_data": "- After the condition has fully resolved; - No symptoms remain; and - Medication is no longer needed for suppression of the vertigo: Submit the following for FAA review: - 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include: - - - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); and - Follow-up - 4. It must specifically include: - - - If active disease exists. - If in remission, when did remission commence. - 5. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days). - 6. Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated. - 7. All Office treatment records. - 8. Pharmacy Records for the last 3 years from all Pharmacies used. - 9. Copies of any Vestibular Rehab progress notes (if performed).",
+   "evaluation_data_html": "<ul><li>After the condition has fully resolved;</li><li>No symptoms remain; and</li><li>Medication is no longer needed for suppression of the vertigo:</li></ul>\n<p>Submit the following for FAA review:</p>\n<ul><li>3. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>otolaryngologist (ENT) or neurotologist no more than 90 days prior </strong>to the AME exam. It must include:<ul><li><ul><li><ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up</li></ul></li></ul></li></ul></li></ul>\n<ul><li>4. It must specifically include:<ul><li><ul><li><ul><li>If active disease exists.</li><li>If in remission, when did remission commence.</li></ul></li></ul></li></ul></li></ul>\n<ul><li>5. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days).</li></ul>\n<ul><li>6. Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated.</li></ul>\n<ul><li>7. All Office treatment records.</li></ul>\n<ul><li>8. Pharmacy Records for the last 3 years from all Pharmacies used.</li></ul>\n<ul><li>9. Copies of any Vestibular Rehab progress notes (if performed).</li></ul>",
+   "what_to_bring": [
+    "After the condition has fully resolved;",
+    "No symptoms remain; and",
+    "Medication is no longer needed for suppression of the vertigo:",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or neurotologist no more than 90 days prior to the AME exam. It must include:",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis); and",
+    "Follow-up",
+    "It must specifically include:",
+    "If in remission, when did remission commence.",
+    "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discriminat ion (SD) (performed within the past 90 days).",
+    "Additional tests such as [ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle (CPA), etc.] performed as clinically indicated.",
+    "All Office treatment records.",
+    "Pharmacy Records for the last 3 years from all Pharmacies used.",
+    "Copies of any Vestibular Rehab progress notes (if performed)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to</p>\n<p>the FAA</p>\n<p>for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong></p>\n<p>Will be per the Authorization</p>\n<p>Letter</p>",
+   "pdf_page": 81,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   81
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "id": "bells-palsy",
+ "name": "Bell's Palsy",
+ "subtitle": "(Facial Nerve Palsy, Cranial Nerve Palsy)",
+ "name_in_guide": "BELL'S PALSY (Facial Nerve Palsy, Cranial Nerve Palsy)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 115,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "Eye evaluation by a board-certified ophthalmologist i f any continued face or eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) OR any surgery needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes.",
+  "Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment.",
+  "Any other testing performed by the treating physician for this condition.",
+  "The condition/symptoms lasted more than 1 week, and fully resolved within 3 months.",
+  "There is no other history of a neurologic condition or neurologic symptoms (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved).",
+  "There are no current eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness).",
+  "No surgery was needed to correct the condition.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+  "It must specifically include if this was a single episode, if all symptoms have resolved, and if any other neurological conditions were identified.",
+  "MRI of the brain (Magnetic Resonance Imaging)."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "DISEASE/CONDITION",
+   "condition_html": "<p><strong>DISEASE/CONDITION</strong></p>",
+   "evaluation_data": "EVALUATION DATA DISPOSITION 3. MRI of the brain (Magnetic Resonance Imaging). • The most recent test from time of event or later. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 4. Eye evaluation by a board-certified ophthalmologist if any continued face or eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) OR any surgery needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes. - 5. Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment. - 6. Any other testing performed by the treating physician for this condition. A. Single episode Completely resolved 5 or more years ago If the AME can determine the condition was a SINGLE EPISODE, fully resolved without sequelae with no symptoms or current problems that would interfere with flight duties: ISSUE Annotate this information in Block 60. B. Single episode Completely resolved Less than 5 years ago If the AME is able to determine ALL of the following are true: - 1. The condition/symptoms lasted more than 1 week, and fully resolved within 3 months. - 2. There is no other history of a neurologic condition or neurologic symptoms (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved). - 3. There are no current eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness). - 4. No surgery was needed to correct the condition. If the AME is unable to determine above, request the treatment records or a current neurological, ENT, or ophthalmology evaluation. ISSUE Annotate Block 60 and submit any evaluation(s) to the FAA for retention in the pilot's file. If any underlying cause found, see that section. All others, go to Row C C. All others Resolved in less than one (1) week, Lasted longer than three (3) months, OR Continued/persistent symptoms Eye symptoms or required surgery to correct the condition OR Two (2) or more Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include if this was a single episode, if all symptoms have resolved, and if any other neurological conditions were identified.",
+   "evaluation_data_html": "<p><strong>EVALUATION DATA </strong></p>\n<p><strong>DISPOSITION</strong> 3. <strong>MRI of the brain</strong> (Magnetic Resonance Imaging). • The most recent test from time of event or later.</p>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li>4. <strong>Eye evaluation</strong> by a board-certified ophthalmologist i<strong>f any continued face or eye symptoms </strong>(e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) <strong>OR any surgery </strong>needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes.</li></ul>\n<ul><li>5. Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment.</li></ul>\n<ul><li>6. Any other testing performed by the treating physician for this condition.</li></ul>\n<p><strong>A. Single episode </strong></p>\n<p>Completely resolved <strong>5 or more years ago</strong></p>\n<p>If the AME can determine the condition was a SINGLE EPISODE, fully resolved without sequelae with no symptoms or current problems that would interfere with flight duties:</p>\n<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>\n<p><strong>B.</strong> Single episode</p>\n<p>Completely resolved <strong>Less than 5 years ago</strong></p>\n<p>If the AME is able to determine <strong>ALL</strong> of the following are true:</p>\n<ul><li>1. The condition/symptoms <strong>lasted more than 1 week, and fully resolved within 3 months.</strong></li><li>2. There is <strong>no other history of a neurologic condition or neurologic symptoms</strong> (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved).</li><li>3. There are <strong>no current eye symptoms</strong> (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness).</li><li>4. <strong>No surgery </strong>was needed to correct the condition.</li></ul>\n<p>If the AME is unable to determine above, request the treatment records or a current neurological, ENT, or ophthalmology evaluation.</p>\n<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60 and submit any evaluation(s) to the FAA for retention in the pilot&#x27;s file.</p>\n<p>If any underlying cause found, see that section.</p>\n<p>All others, go to</p>\n<p>Row C</p>\n<p><strong>C. All others</strong> Resolved in <strong>less than</strong> one (1) week, Lasted longer than three (3) months, OR</p>\n<p>Continued/persistent symptoms Eye symptoms or required surgery to correct the condition OR Two (2) or more</p>\n<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong> if this was a single episode, if all symptoms have resolved, and if any other neurological conditions were identified.</li></ul>",
+   "what_to_bring": [
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "Eye evaluation by a board-certified ophthalmologist i f any continued face or eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) OR any surgery needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes.",
+    "Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment.",
+    "Any other testing performed by the treating physician for this condition.",
+    "The condition/symptoms lasted more than 1 week, and fully resolved within 3 months.",
+    "There is no other history of a neurologic condition or neurologic symptoms (numbness, weakness, sensory disturbance, involvement outside the face, or the forehead not involved).",
+    "There are no current eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, or persistent eyelid weakness).",
+    "No surgery was needed to correct the condition.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the specialist (such as neurology, ENT, or ophthalmology) no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+    "It must specifically include if this was a single episode, if all symptoms have resolved, and if any other neurological conditions were identified."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 293,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Any additional neurological condition, neurological symptoms, or concern",
+   "condition_html": "<p>Any additional neurological condition, neurological symptoms, or concern</p>",
+   "evaluation_data": "3. MRI of the brain (Magnetic Resonance Imaging). • The most recent test from time of event or later. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Eye evaluation by a board-certified ophthalmologist if any continued face or eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) OR any surgery needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes. 5. Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment. 6. Any other testing performed by the treating physician for this condition.",
+   "evaluation_data_html": "<p>3. <strong>MRI of the brain</strong> (Magnetic Resonance Imaging).</p>\n<p>• The most recent test from time of event or later.</p>\n<p>• Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</p>\n<p>4. <strong>Eye evaluation</strong> by a board-certified ophthalmologist i<strong>f any continued face or eye symptoms </strong>(e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) <strong>OR any surgery </strong>needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes.</p>\n<p>5. Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment.</p>\n<p>6. Any other testing performed by the treating physician for this condition.</p>",
+   "what_to_bring": [
+    "MRI of the brain (Magnetic Resonance Imaging).",
+    "Eye evaluation by a board-certified ophthalmologist i f any continued face or eye symptoms (e.g., dry eye, red eye, eye pain, vision disturbance, trouble closing eye, persistent eyelid weakness) OR any surgery needed to correct the condition. If no eye symptoms or surgery, this must be stated in the clinical progress note or AME notes.",
+    "Copies of any treatment records such as ER, urgent care, or PCP notes describing events, diagnosis, and treatment.",
+    "Any other testing performed by the treating physician for this condition."
+   ],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 294,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "DISEASE/CONDITION",
+  "Any additional neurological condition, neurological symptoms, or concern"
+ ],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   293,
+   294
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

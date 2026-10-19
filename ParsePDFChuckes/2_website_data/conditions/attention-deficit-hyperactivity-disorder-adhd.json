@@ -1,0 +1,108 @@
+{
+ "id": "attention-deficit-hyperactivity-disorder-adhd",
+ "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+ "subtitle": "AND/OR USE OF ADHD MEDICATIONS",
+ "name_in_guide": "ATTENTION-DEFICIT/HYPERACTIVITY DISORDER (ADHD) AND/OR USE OF ADHD MEDICATIONS",
+ "category": {
+  "id": "psychiatric",
+  "name": "Psychiatric",
+  "exam_item": "47",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "10/30/2024",
+ "order": 150,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "See Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS",
+  "The AME should review the FAA ADHD Summary completed by a psychologist or neuropsychologist who has training and experience in the evaluation of ADHD.",
+  "Evaluation and testing must be completed in person by a HIMS neuropsychologist;",
+  "ADHD testing is required after record review; and",
+  "The HIMS Neuropsychologist should reference the Standard Track - FAA ADHD Evaluation General Information for Pilots and ATCS ."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "NO treatment or use of ADHD medication (for any reason) in past four (4) years AND NO symptoms in past four (4) years AND NO instability in academic, occupational, or social functioning within the last four (4) years AND NO other psychiatric condition(s) or diagnosis (current or historical). Exception: Anxiety, Depression, and Related Conditions can use this row if the individual qualifies for the Anxiety, Depression, and Related Conditions Fast Track Pathway.",
+   "condition_html": "<p><strong>A.</strong></p>\n<p>NO treatment or use of ADHD medication (for any reason) in past four (4) years</p>\n<p><strong>AND </strong></p>\n<p>NO symptoms in past</p>\n<p>four (4) years</p>\n<p><strong>AND </strong></p>\n<p>NO instability in academic, occupational, or social functioning within the last four (4) years</p>\n<p><strong>AND </strong></p>\n<p>NO other psychiatric condition(s) or diagnosis (current or historical).</p>\n<p><strong>Exception:</strong> Anxiety, Depression, and Related Conditions can use this row if the individual qualifies for the <a href=\"https://www.faa.gov/ame_guide/media/Anxiety_Depression_Fast_Track_Pathway.pdf\" target=\"_blank\" rel=\"noopener\">Anxiety, Depression, and Related Conditions Fast Track Pathway.</a></p>",
+   "evaluation_data": "The individual will need to see a psychologist or neuropsychologist for records review and evaluation*. This section may be performed in person or virtually (in compliance with State and Federal regulations). *Note: Records review and evaluation can be done virtually; however, the evaluation component must be face-to-face on screen, not audio only. - See Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS - The AME should review the FAA ADHD Summary completed by a psychologist or neuropsychologist who has training and experience in the evaluation of ADHD. If the FAA ADHD Summary is provided, all items are in the “NO” category, and the AME has NO concerns regarding this individual: Note: If FAA ADHD Summary is not provided, any “YES” answers, any AME concerns, or unable to verify history, go to Row B.",
+   "evaluation_data_html": "<p>The individual will need to see a psychologist or neuropsychologist for records review and evaluation*. This section may be performed in person or virtually (in compliance with State and Federal regulations).</p>\n<p><strong>*Note:</strong> Records review and evaluation can be done virtually; however, the <strong>evaluation </strong>component must be face-to-face on screen, not audio only.</p>\n<ul><li>See <a href=\"https://www.faa.gov/ame_guide/media/ADHD_fast_track_eval_general_info.pdf\" target=\"_blank\" rel=\"noopener\">Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS</a></li></ul>\n<ul><li>The AME should review the <strong>FAA ADHD Summary </strong>completed by a psychologist or neuropsychologist who has training and experience in the evaluation of ADHD.</li></ul>\n<p>If the FAA ADHD Summary is provided, all items are in the “NO” category, and the AME has NO concerns regarding this individual:</p>\n<p><strong>Note:</strong> If FAA ADHD Summary is not provided, any “YES” answers, any AME concerns, or unable to verify history, go to <strong>Row B</strong>.</p>",
+   "what_to_bring": [
+    "See Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS",
+    "The AME should review the FAA ADHD Summary completed by a psychologist or neuropsychologist who has training and experience in the evaluation of ADHD."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history, annotate Block 60 “Meets ADHD Fast Track requirements.” Submit ALL the following to the FAA: 1. Completed and signed FAA ADHD Summary; 2. Actual clinical visit report (not patient portal notes) from the psychologist or neuropsychologist ; and 3. Copies of ALL supporting documents reviewed.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history, annotate Block 60 “Meets ADHD</p>\n<p><strong>Fast Track </strong>requirements.”</p>\n<p>Submit ALL the following to the FAA:</p>\n<p>1. Completed and signed FAA ADHD Summary;</p>\n<p>2. Actual clinical visit report (not patient portal notes) from the psychologist or neuropsychologist ; and</p>\n<p>3. Copies of ALL supporting documents reviewed.</p>",
+   "pdf_page": 399,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Symptoms, treatment or use of ADHD Medication (for any reason), or instability in past four (4) years OR History of any psychiatric condition(s) or diagnosis (current or historical) including Anxiety, Depression, and Related Conditions which do not qualify for the Anxiety, Depression, and Related Conditions Fast Track Pathway. OR AME and/or HIMS Neuropsychologist have any concerns",
+   "condition_html": "<p><strong>B.</strong></p>\n<p>Symptoms, treatment or use of ADHD Medication (for any reason), or instability in past four (4) years</p>\n<p><strong>OR </strong></p>\n<p>History of any psychiatric condition(s) or diagnosis (current or historical) including Anxiety, Depression, and Related Conditions which do not qualify for the <a href=\"https://www.faa.gov/ame_guide/media/Anxiety_Depression_Fast_Track_Pathway.pdf\" target=\"_blank\" rel=\"noopener\">Anxiety, Depression, and Related Conditions Fast Track Pathway.</a></p>\n<p><strong>OR </strong></p>\n<p>AME and/or</p>\n<p>HIMS Neuropsychologist have any concerns</p>",
+   "evaluation_data": "This row requires HIMS neuropsychology evaluation and testing to identify the presence of aeromedically significant ADHD. - Evaluation and testing must be completed in person by a HIMS neuropsychologist; - ADHD testing is required after record review; and - The HIMS Neuropsychologist should reference the Standard Track - FAA ADHD Evaluation General Information for Pilots and ATCS . Medication: If the individual stopped taking ADHD medication(s), they must be off the medication(s) for 90 days before testing and evaluation.",
+   "evaluation_data_html": "<p>This row requires HIMS neuropsychology evaluation and testing to identify the presence of aeromedically significant ADHD.</p>\n<ul><li>Evaluation and testing must be completed <strong>in person</strong> by a <strong>HIMS neuropsychologist; </strong></li></ul>\n<ul><li>ADHD testing is required after record review; and</li></ul>\n<ul><li>The HIMS Neuropsychologist should reference the <a href=\"https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf\" target=\"_blank\" rel=\"noopener\">Standard Track - FAA ADHD Evaluation General Information for Pilots and ATCS</a> .</li></ul>\n<p><strong>Medication:</strong> If the individual stopped taking ADHD medication(s), they must be off the medication(s) <strong>for 90 days before testing and evaluation. </strong></p>",
+   "what_to_bring": [
+    "Evaluation and testing must be completed in person by a HIMS neuropsychologist;",
+    "ADHD testing is required after record review; and",
+    "The HIMS Neuropsychologist should reference the Standard Track - FAA ADHD Evaluation General Information for Pilots and ATCS ."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 399,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Currently taking ADHD medication (for any reason), including PRN use OR Medication discontinued within the past 90 days OR Current symptoms",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Currently taking ADHD medication (for any reason), including PRN use</p>\n<p><strong>OR </strong></p>\n<p>Medication discontinued within the past 90 days</p>\n<p><strong>OR </strong></p>\n<p>Current symptoms</p>",
+   "evaluation_data": "Taking ADHD medication or symptoms of ADHD are incompatible with aviation safety. Submit the following for FAA review: The most recent detailed, clinical progress note from the prescribing physician which identifies the diagnosis and treatment plan. If the treating physician determines the medication can be safely discontinued, the individual should be off the medication a minimum of 90 days before obtaining the Standard Track - FAA ADHD Evaluation See Row B.",
+   "evaluation_data_html": "<p>Taking ADHD medication or symptoms of ADHD are incompatible with aviation safety.</p>\n<p>Submit the following for FAA review:</p>\n<p>The most recent detailed, clinical progress note from the prescribing physician which identifies the diagnosis and treatment plan.</p>\n<p>If the treating physician determines the medication can be safely discontinued, the individual should be off the medication a minimum of <strong>90 days</strong> before obtaining the Standard Track - FAA ADHD Evaluation</p>\n<p>See <strong>Row B</strong>.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA</p>",
+   "pdf_page": 399,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>*ADHD has replaced the former name Attention-Deficit Disorder (ADD).</p>\n<p><strong>ANXIETY, DEPRESSION, AND RELATED CONDITIONS </strong></p>\n<p>All Classes</p>\n<p>(Updated 06/26/2024)</p>\n<p>Row A on the following Anxiety, Depression, and Related Conditions Disposition Table allows only TWO of the following:</p>\n<p>Anxiety</p>\n<ul><li>Unspecified anxiety</li><li>Generalized Anxiety Disorder</li><li>Situational anxiety (also called adjustment disorder with anxiety)</li><li>Social Anxiety Disorder</li></ul>\n<p>Depression</p>\n<ul><li>Unspecified depression</li><li>Postpartum depression</li><li>Situational depression* (also called adjustment disorder with depressed mood)</li></ul>\n<p>*For Situational Depression - AME can also use the <a href=\"https://www.faa.gov/ame_guide/media/SituationalDepression.pdf\" target=\"_blank\" rel=\"noopener\">Situational Depression Disposition Table</a> .</p>\n<ul><li>Situational Anxiety and Depression (adjustment disorder with mixed anxiety and depressed mood)</li></ul>\n<p>Other</p>\n<ul><li>Obsessive Compulsive disorder (OCD)</li><li>Post Traumatic Stress Disorder (PTSD)</li><li>V code<strong>^</strong> (DSM)/Z code (ICD-10) table items</li></ul>\n<p><strong>Note^</strong>: V code (DSM)/Z code (ICD-10) table includes but is not limited to:</p>\n<ul><li>Uncomplicated Bereavement;</li><li>Relationship distress with spouse or intimate partner;</li><li>Parent-Child relational problem; and/or</li><li>Phase of Life Problem (problems adjusting to major life transitions such as newly retired, getting married, empty-nest, new career, becoming a parent, etc.</li></ul>\n<p><strong>Review ALL Row A criteria including psychotherapy (past and current) and medication history. </strong></p>\n<p>For conditions not listed above, see Row B.</p>",
+ "links": [
+  {
+   "text": "Situational Depression Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/SituationalDepression.pdf"
+  },
+  {
+   "text": "Fast Track - FAA ADHD Evaluation General Information for Pilots and ATCS",
+   "href": "https://www.faa.gov/ame_guide/media/ADHD_fast_track_eval_general_info.pdf"
+  },
+  {
+   "text": "Standard Track - FAA ADHD Evaluation General Information for Pilots and ATCS",
+   "href": "https://www.faa.gov/ame_guide/media/ADHD_standard_track_eval_general_info.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "use-of-antidepressant-medications",
+  "section_title": "USE OF ANTIDEPRESSANT MEDICATIONS",
+  "pdf_pages": [
+   399,
+   400,
+   401
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

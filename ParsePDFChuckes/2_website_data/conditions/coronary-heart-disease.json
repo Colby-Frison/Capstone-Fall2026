@@ -1,0 +1,143 @@
+{
+ "id": "coronary-heart-disease",
+ "name": "Coronary Heart Disease",
+ "subtitle": null,
+ "name_in_guide": "CORONARY HEART DISEASE",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/25/2026",
+ "order": 53,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Operative/procedure report",
+  "Cath/angiogram reports with full motion images",
+  "Admission (H&P)",
+  "Bare metal stents: At least 30 days, preferably for one year.",
+  "A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk.",
+  "Lab - Lipid panel + A1c . Include INRs if using warfarin (Jantoven).",
+  "Post-Event Radionuclide stress test (Stress RS) with SPLASH imaging on CD in DICOM format.",
+  "Hospital records, including:",
+  "Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition",
+  "Post-Event Cath with full motion images on CD in DICOM format",
+  "Cath/angiogram reports (Do not submit images on CD unless requested.)",
+  "Drug-eluting stents: One (1) year",
+  "Bare metal stents: At least 30 days, preferably for one year",
+  "Post-Event Radionuclide stress test",
+  "Hospital records including:",
+  "Cath/angiogram reports (do not submit images on CD unless requested)",
+  "A current, detailed Cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk)",
+  "Post-Event Exercise Stress Test (with electrical tracings) in accordance with the Exercise Stress Test (EST) Protocol requirements"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "1st class, 2nd class, ATCS^ with CHD in any single coronary artery vessel with 50% stenosis or greater OR Cardiac Event - Myocardial Infarction (MI)/ heart attack Either ST Elevation MI (STEMI) or Non-ST Elevation MI (NSTEMI) OR Required treatment such as: - Coronary Artery Bypass Graft (CABG) - Stent (Heart stent/coronary stent/PTCA, Drug Eluting Stent [DES]) ^ATCS see Protocol for Coronary Heart Disease",
+   "condition_html": "<p><strong>A.</strong></p>\n<p>1st class, 2nd class, ATCS^</p>\n<p>with</p>\n<p>CHD in any single coronary artery vessel with <strong>50% stenosis </strong>or greater</p>\n<p>OR</p>\n<p>Cardiac Event</p>\n<ul><li><strong>Myocardial Infarction (MI)/ heart attack</strong></li></ul>\n<p>Either ST Elevation MI (STEMI) or Non-ST Elevation MI (NSTEMI)</p>\n<p>OR</p>\n<p>Required treatment such as:</p>\n<ul><li><strong>Coronary Artery Bypass Graft </strong>(CABG)</li><li><strong>Stent</strong> (Heart stent/coronary stent/PTCA, Drug Eluting Stent [DES])</li></ul>\n<p>^ATCS see Protocol for Coronary Heart Disease</p>",
+   "evaluation_data": "This is a Specifically Disqualifying condition. After the required recovery period: 6 months for: Coronary Artery Bypass Graft (CABG) 3 months for: Stent (PTCA) placed in any other coronary artery (including Left main) or MI/Heart attack or NSTEMI Obtain the following evaluation(s) and submit to the FAA for review: All items on the Protocol for Coronary Heart Disease 1st or 2nd Class (See protocol for specific details.) 1. A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk. 2. Lab - Lipid panel + A1c. Include INRs if using warfarin (Jantoven). 3. Post-Event Radionuclide stress test (Stress RS) with SPLASH imaging on CD in DICOM format. Note: Stress ECHO or routine Exercise Stress Test (Bruce) are NOT Acceptable. 4. Hospital records, including: - - Discharge summary - Operative/procedure report - Cath/angiogram reports with full motion images - Admission (H&P) 5. Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition 6. Post-Event Cath with full motion images on CD in DICOM format Note: For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy: - - Drug-eluting stents: One (1) year - Bare metal stents: At least 30 days, preferably for one year.",
+   "evaluation_data_html": "<p>This is a Specifically Disqualifying condition.</p>\n<p>After the required recovery period:</p>\n<p>6 months for:</p>\n<p>Coronary Artery Bypass Graft (<strong>CABG</strong>)</p>\n<p>3 months for:</p>\n<p>Stent (PTCA) placed in any other coronary artery (including Left main) or</p>\n<p><strong>MI/Heart attack</strong> or NSTEMI</p>\n<p>Obtain the following evaluation(s) and submit to the FAA for review:</p>\n<p><strong>All items</strong> on the <a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf\" target=\"_blank\" rel=\"noopener\">Protocol for Coronary Heart Disease 1st or 2nd Class</a> (See protocol for specific details.)</p>\n<p>1. A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk.</p>\n<p>2. Lab - <strong>Lipid panel + A1c</strong>. Include INRs if using warfarin (Jantoven).</p>\n<p>3. <strong>Post-Event Radionuclide stress test</strong> (Stress RS) with SPLASH imaging on CD in DICOM format.</p>\n<p><strong>Note:</strong> Stress ECHO or routine Exercise Stress Test (Bruce) are NOT Acceptable.</p>\n<p>4. Hospital records, including:</p>\n<ul><li><ul><li>Discharge summary</li><li>Operative/procedure report</li><li>Cath/angiogram reports with full motion images</li><li>Admission (H&amp;P)</li></ul></li></ul>\n<p>5. Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition</p>\n<p>6. <strong>Post-Event Cath with full motion images on CD in DICOM format </strong></p>\n<p><strong>Note: </strong> For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy:</p>\n<ul><li><ul><li>Drug-eluting stents: One (1) year</li><li>Bare metal stents: At least 30 days, preferably for one year.</li></ul></li></ul>",
+   "what_to_bring": [
+    "Operative/procedure report",
+    "Cath/angiogram reports with full motion images",
+    "Admission (H&P)",
+    "Bare metal stents: At least 30 days, preferably for one year.",
+    "A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk.",
+    "Lab - Lipid panel + A1c . Include INRs if using warfarin (Jantoven).",
+    "Post-Event Radionuclide stress test (Stress RS) with SPLASH imaging on CD in DICOM format.",
+    "Hospital records, including:",
+    "Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition",
+    "Post-Event Cath with full motion images on CD in DICOM format"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Once all information is received, the Federal Air Surgeon's Cardiology Consultant(s) review these cases.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Once all information is received, the Federal Air Surgeon&#x27;s Cardiology Consultant(s) review these cases.</p>",
+   "pdf_page": 166,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Limited* 2nd class * Limited second-class medical certificate refers to a second-class certificate with a functional limitation such as “Not Valid for Carrying Passengers for Compensation or Hire” or \"Not Valid for Pilot in Command, Valid Only When Serving as a Pilot Member of a Fully Qualified Two-Pilot Crew.\"",
+   "condition_html": "<p><strong>B.</strong> Limited* 2nd class</p>\n<p>* Limited second-class medical certificate refers to a second-class certificate with a functional limitation such as “<strong>Not Valid for Carrying Passengers for Compensation or Hire” or &quot;Not Valid for Pilot in Command, Valid Only When Serving as a Pilot Member of a Fully Qualified Two-Pilot Crew.&quot;</strong></p>",
+   "evaluation_data": "After the required recovery period, 6 months for: Coronary Artery Bypass Graft (CABG) or 3 months for: Stent (PTCA) placed in any other coronary artery (including Left Main) or MI/Heart attack or NSTEMI Obtain the following items from the Protocol for Coronary Heart Disease 1st or 2nd Class (See protocol for specific details.) 1. A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk. 2. Lab - Lipid panel + A1c. Include INRs if using warfarin (Jantoven). 3. Post-Event Radionuclide stress test Note: Stress ECHO or routine Exercise Stress Test (Bruce) are NOT Acceptable. 4. Hospital records including: - - Discharge summary - Operative/procedure report - Cath/angiogram reports (Do not submit images on CD unless requested.) - Admission (H&P) 5. Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition Note: Post-Event Cath is NOT required for routine Limited 2nd class. Do not submit unless requested. For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy: - Drug-eluting stents: One (1) year - Bare metal stents: At least 30 days, preferably for one year",
+   "evaluation_data_html": "<p>After the required recovery period,</p>\n<p><strong>6 months for: </strong></p>\n<p><strong>Coronary Artery Bypass Graft (CABG)</strong> or</p>\n<p>3 months for:</p>\n<p>Stent (PTCA) placed in any other coronary artery (including Left Main) or</p>\n<p><strong>MI/Heart attack</strong> or NSTEMI</p>\n<p>Obtain the <strong>following items</strong> from the <a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf\" target=\"_blank\" rel=\"noopener\">Protocol for Coronary Heart Disease 1st or 2nd Class</a> (See protocol for specific details.)</p>\n<p>1. A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk.</p>\n<p>2. Lab - <strong>Lipid panel + A1c</strong>. Include INRs if using warfarin (Jantoven).</p>\n<p>3. Post-Event <strong>Radionuclide stress</strong> test</p>\n<p><strong>Note: </strong> Stress ECHO or routine Exercise Stress Test (Bruce) are <strong>NOT</strong> Acceptable.</p>\n<p>4. Hospital records including:</p>\n<ul><li><ul><li>Discharge summary</li><li>Operative/procedure report</li><li>Cath/angiogram reports (Do not submit images on CD unless requested.)</li><li>Admission (H&amp;P)</li></ul></li></ul>\n<p>5. Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition</p>\n<p><strong>Note: Post-Event Cath is NOT </strong>required for routine Limited 2nd class<strong>. </strong>Do not submit unless requested.</p>\n<p>For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy:</p>\n<ul><li>Drug-eluting stents: One (1) year</li><li>Bare metal stents: At least 30 days, preferably for one year</li></ul>",
+   "what_to_bring": [
+    "Operative/procedure report",
+    "Cath/angiogram reports (Do not submit images on CD unless requested.)",
+    "Admission (H&P)",
+    "Drug-eluting stents: One (1) year",
+    "Bare metal stents: At least 30 days, preferably for one year",
+    "A current, detailed cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk.",
+    "Lab - Lipid panel + A1c . Include INRs if using warfarin (Jantoven).",
+    "Post-Event Radionuclide stress test",
+    "Hospital records including:",
+    "Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Once all information is received, the Federal Air Surgeon's Cardiology Consultant(s) review these cases.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Once all information is received, the Federal Air Surgeon&#x27;s Cardiology Consultant(s) review these cases.</p>",
+   "pdf_page": 166,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "3rd class",
+   "condition_html": "<p><strong>C.</strong> 3rd class</p>",
+   "evaluation_data": "There is NO mandatory recovery period per Public Law 114-190 5/2017 but individual should be released by the treating physician. Once released by the treating physician, obtain the following evaluation(s) and submit to the FAA for review: All items on the Protocol for Coronary Heart Disease - 3rd Class (See protocol for specific details) 1. A current, detailed Cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk) 2. Lab - Lipid panel + A1c. Include INRs if using warfarin (Jantoven). 3. Post-Event Exercise Stress Test (with electrical tracings) in accordance with the Exercise Stress Test (EST) Protocol requirements 4. Hospital records including: - - Discharge summary - Operative/procedure report - Cath/angiogram reports (do not submit images on CD unless requested) - Admission (H&P) Note: For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy: - Drug-eluting stents: One (1) year - Bare metal stents: At least 30 days, preferably for one year",
+   "evaluation_data_html": "<p>There is NO mandatory recovery period per Public Law 114-190 5/2017 but individual should be released by the treating physician.</p>\n<p>Once released by the treating physician, obtain the following evaluation(s) and submit to the FAA for review:</p>\n<p><strong>All items</strong> on the <a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_3rd_class.pdf\" target=\"_blank\" rel=\"noopener\">Protocol for Coronary Heart Disease - 3rd Class</a> (See protocol for specific details)</p>\n<p>1. A current, detailed Cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk)</p>\n<p>2. Lab - <strong>Lipid panel + A1c</strong>. Include INRs if using warfarin (Jantoven).</p>\n<p>3. Post-Event Exercise Stress Test (with electrical tracings) in accordance with the Exercise Stress Test (EST) Protocol requirements</p>\n<p>4. Hospital records including:</p>\n<ul><li><ul><li>Discharge summary</li><li>Operative/procedure report</li><li>Cath/angiogram reports (do not submit images on CD unless requested)</li><li>Admission (H&amp;P)</li></ul></li></ul>\n<p><strong>Note: </strong>For antithrombotic therapy after stenting, the applicant should be following the current ACC/AHA guidelines for dual antiplatelet therapy:</p>\n<ul><li>Drug-eluting stents: One (1) year</li><li>Bare metal stents: At least 30 days, preferably for one year</li></ul>",
+   "what_to_bring": [
+    "Operative/procedure report",
+    "Cath/angiogram reports (do not submit images on CD unless requested)",
+    "Admission (H&P)",
+    "Drug-eluting stents: One (1) year",
+    "Bare metal stents: At least 30 days, preferably for one year",
+    "A current, detailed Cardiology evaluation including functional status and attempts to meet modifiable risk factors and risk)",
+    "Lab - Lipid panel + A1c . Include INRs if using warfarin (Jantoven).",
+    "Post-Event Exercise Stress Test (with electrical tracings) in accordance with the Exercise Stress Test (EST) Protocol requirements",
+    "Hospital records including:"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Once all information is received, the AAM physicians with expertise in aerospace cardiology review these cases. Some may require additional review from FAS Cardiology Consultant.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Once all information is received, the AAM physicians with expertise in aerospace cardiology review these cases. Some may require additional review from FAS Cardiology Consultant.</p>",
+   "pdf_page": 166,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Protocol for Coronary Heart Disease 1st or 2nd Class",
+   "href": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf"
+  },
+  {
+   "text": "Protocol for Coronary Heart Disease - 3rd Class",
+   "href": "https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_3rd_class.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "coronary-heart-disease",
+  "section_title": "CORONARY HEART DISEASE",
+  "pdf_pages": [
+   166
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

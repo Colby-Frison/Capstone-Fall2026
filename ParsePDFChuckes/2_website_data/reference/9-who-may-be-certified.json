@@ -1,0 +1,65 @@
+{
+ "slug": "9-who-may-be-certified",
+ "title": "9. Who May Be Certified",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  21
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "(Updated 05/31/2023)",
+   "html": "<p>(Updated 05/31/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "a. Age Requirements",
+   "html": "<p><strong>a. Age Requirements </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "There is no age restriction or aviation experience requirement for medical certification. Any applicant who qualifies medically may be issued a Medical Certificate regardless of age.",
+   "html": "<p>There is <strong>no age restriction</strong> or aviation experience requirement <strong>for medical certification</strong>. Any applicant who qualifies medically may be issued a Medical Certificate regardless of age.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "The AME may issue any class of medical certificate without regard to age to any applicant who meets the appropriate medical standards.",
+   "html": "<p>The AME may issue any class of medical certificate without regard to age to any applicant who meets the appropriate medical standards.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "There is a maximum age requirement for certain air carrier pilots. This is an operational requirement, not a medical certification requirement.",
+   "html": "<p>There is a maximum age requirement for certain air carrier pilots. This is an operational requirement, not a medical certification requirement.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "Pilot Certification (i.e., pilot license certificate). Minimum age requirements are defined in 14 CFR part 61 and vary by type of certificate. See Certification: Pilots and Flight Instructors, and Ground Instructors.",
+   "html": "<p><strong>Pilot Certification</strong> (i.e., pilot license certificate). Minimum age requirements are defined in 14 CFR part 61 and vary by type of certificate. See <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61\" target=\"_blank\" rel=\"noopener\">Certification: Pilots and Flight Instructors, and Ground Instructors.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "Note: As of April 1, 2016 (per Final Rule [81 FR 1292]), AMEs no longer issue a combined FAA Medical Certificate and Student Pilot Certificate. See Student Pilot Rule Change .",
+   "html": "<p><strong>Note:</strong> As of April 1, 2016 (per Final Rule [81 FR 1292]), AMEs no longer issue a combined FAA Medical Certificate and Student Pilot Certificate. See <a href=\"http://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/StudentPilotRuleChange.pdf\" target=\"_blank\" rel=\"noopener\">Student Pilot Rule Change</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "b. Language Requirements",
+   "html": "<p><strong> b. Language Requirements </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 21,
+   "text": "There is no language requirement for medical certification.",
+   "html": "<p>There is no language requirement for medical certification.</p>"
+  }
+ ]
+}

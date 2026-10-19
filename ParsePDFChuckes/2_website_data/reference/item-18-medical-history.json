@@ -1,0 +1,286 @@
+{
+ "slug": "item-18-medical-history",
+ "title": "ITEM 18. Medical History",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  47,
+  48,
+  49,
+  50,
+  51,
+  52
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "Each item under this heading must be checked either \"yes\" or \"no.\" For all items checked \"yes,\" a description and approximate date of every condition the applicant has ever been diagnosed with, had, or presently has, must be given in the EXPLANATIONS box. If information has been reported on a previous application for airman medical certification and there has been no change in the condition, the applicant may note \"PREVIOUSLY REPORTED, NO CHANGE\" in the EXPLANATIONS box, but the applicant must still check \"yes\" to the condition.",
+   "html": "<p>Each item under this heading must be checked either &quot;yes&quot; or &quot;no.&quot; For all items checked &quot;yes,&quot; a description and approximate date of every condition the applicant has ever been diagnosed with, had, or presently has, must be given in the EXPLANATIONS box. If information has been reported on a previous application for airman medical certification and there has been no change in the condition, the applicant may note &quot;PREVIOUSLY REPORTED, NO CHANGE&quot; in the EXPLANATIONS box, but the applicant must still check &quot;yes&quot; to the condition.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "Of particular importance are conditions that have developed since the last FAA medical examination. The AME must take the time to review the applicant's responses on FAA Form 8500-8 before starting the applicant's medical examination.",
+   "html": "<p>Of particular importance are conditions that have developed since the last FAA medical examination. The AME must take the time to review the applicant&#x27;s responses on FAA Form 8500-8 before starting the applicant&#x27;s medical examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "The AME should ensure that the applicant has checked all of the boxes in Item 18 as either \"yes\" or \"no.\" The AME should use information obtained from this review in asking the applicant pertinent questions during the course of the examination.",
+   "html": "<p>The AME should ensure that the applicant has checked all of the boxes in Item 18 as either &quot;yes&quot; or &quot;no.&quot; The AME should use information obtained from this review in asking the applicant pertinent questions during the course of the examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "Certain aspects of the individual’s history may need to be elaborated upon. The AME should provide in Item 60 an explanation of the nature of items checked “yes” in items 18.a. through 18.y. Please be aware there is a character count limit in Item 60. If all comments cannot fit in Item 60, the AME may submit additional information on a plain sheet of paper and include the applicant’s full name, date of birth, signature, any appropriate identifying numbers (PI, MID or SSN), and the date of the exam.",
+   "html": "<p>Certain aspects of the individual’s history may need to be elaborated upon. The AME should provide in Item 60 an explanation of the nature of items checked “yes” in items 18.a. through 18.y. Please be aware there is a character count limit in Item 60. If all comments cannot fit in Item 60, the AME may submit additional information on a plain sheet of paper and include the applicant’s full name, date of birth, signature, any appropriate identifying numbers (PI, MID or SSN), and the date of the exam.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "Supplementary reports from the applicant's physician(s) should be obtained and forwarded to the AMCD, when necessary, to clarify the significance of an item of history. The responsibility for providing such supplementary reports rests with the applicant. A discussion with the AME's RFS may clarify and expedite the certification process at that time.",
+   "html": "<p>Supplementary reports from the applicant&#x27;s physician(s) should be obtained and forwarded to the AMCD, when necessary, to clarify the significance of an item of history. The responsibility for providing such supplementary reports rests with the applicant. A discussion with the AME&#x27;s RFS may clarify and expedite the certification process at that time.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "Affirmative answers alone in Item 18 do not constitute a basis for denial of a medical certificate. A decision concerning issuance or denial should be made by applying the medical standards pertinent to the conditions uncovered by the history.",
+   "html": "<p>Affirmative answers alone in Item 18 do not constitute a basis for denial of a medical certificate. A decision concerning issuance or denial should be made by applying the medical standards pertinent to the conditions uncovered by the history.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "Experience has shown that, when asked direct questions by a physician, applicants are likely to be candid and willing to discuss medical problems.",
+   "html": "<p>Experience has shown that, when asked direct questions by a physician, applicants are likely to be candid and willing to discuss medical problems.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "The AME should attempt to establish rapport with the applicant and to develop a complete medical history. Further, the AME should be familiar with the FAA certification policies and procedures in order to provide the applicant with sound advice.",
+   "html": "<p>The AME should attempt to establish rapport with the applicant and to develop a complete medical history. Further, the AME should be familiar with the FAA certification policies and procedures in order to provide the applicant with sound advice.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "18.a. Frequent or severe headaches. The applicant should report frequency, duration, characteristics, severity of symptoms, neurologic manifestations, whether they have been incapacitating, treatment, and side effects, if any. (See Item 46)",
+   "html": "<p><strong>18.a. Frequent or severe headaches.</strong> The applicant should report frequency, duration, characteristics, severity of symptoms, neurologic manifestations, whether they have been incapacitating, treatment, and side effects, if any. (See <strong>Item 46</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "18.b. Dizziness or fainting spells. The applicant should describe characteristics of the episode; e.g., spinning or lightheadedness, frequency, factors leading up to and surrounding the episode, associated neurologic symptoms; e.g., headache, nausea, LOC, or paresthesias. Include diagnostic workup and treatment if any. (See Items 25-30 and Item 46)",
+   "html": "<p><strong>18.b. Dizziness or fainting spells.</strong> The applicant should describe characteristics of the episode; e.g., spinning or lightheadedness, frequency, factors leading up to and surrounding the episode, associated neurologic symptoms; e.g., headache, nausea, LOC, or paresthesias. Include diagnostic workup and treatment if any. (See <strong>Items 25-30 </strong>and<strong> Item 46</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "18.c. Unconsciousness for any reason. The applicant should describe the event(s) to determine the primary organ system responsible for the episode, witness statements, initial treatment, and evidence of recurrence or prior episode. Although the regulation states, “an unexplained disturbance of consciousness is disqualifying,” it does not mean to imply that the applicant can be certificated if the etiology is identified, because the etiology may also be disqualifying in and of itself. (See Item 46).",
+   "html": "<p><strong>18.c. Unconsciousness for any reason.</strong> The applicant should describe the event(s) to determine the primary organ system responsible for the episode, witness statements, initial treatment, and evidence of recurrence or prior episode. Although the regulation states, “an unexplained disturbance of consciousness is disqualifying,” it does not mean to imply that the applicant can be certificated if the etiology is identified, because the etiology may also be disqualifying in and of itself. (See <strong>Item 46</strong>).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 48,
+   "text": "18.d. Eye or vision trouble except glasses. The AME should personally explore the applicant's history by asking questions, concerning any changes in vision, unusual visual experiences (halos, scintillations, etc.), sensitivity to light, injuries, surgery, or",
+   "html": "<p><strong>18.d. Eye or vision trouble except glasses.</strong> The AME should personally explore the applicant&#x27;s history by asking questions, concerning any changes in vision, unusual visual experiences (halos, scintillations, etc.), sensitivity to light, injuries, surgery, or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "current use of medication. Does the applicant report inordinate difficulties with eye fatigue or strain? Is there a history of serious eye disease such as glaucoma or other disease commonly associated with secondary eye changes, such as diabetes?",
+   "html": "<p>current use of medication. Does the applicant report inordinate difficulties with eye fatigue or strain? Is there a history of serious eye disease such as glaucoma or other disease commonly associated with secondary eye changes, such as diabetes?</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "For glaucoma or ocular hypertension, obtain a FAA Form 8500-14, Report of Eye Evaluation for Glaucoma. For any other medical condition, obtain a FAA Form 8500-7, Report of Eye Evaluation. Under all circumstances, please advise the examining eye specialist to explain why the airman is unable to correct to Snellen visual acuity of 20/20. (See Items 31-34, Item 53, and Item 54)",
+   "html": "<p>For glaucoma or ocular hypertension, obtain a FAA Form 8500-14, Report of Eye Evaluation for Glaucoma. For any other medical condition, obtain a FAA Form 8500-7, Report of Eye Evaluation. Under all circumstances, please advise the examining eye specialist to explain why the airman is unable to correct to Snellen visual acuity of 20/20. (See <strong>Items 31-34, Item 53,</strong> and <strong>Item 54</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.e. Hay fever or allergy. The applicant should report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects. The AME should inquire whether the applicant has ever experienced any barotitis (“ear block”), barosinusitis, alternobaric vertigo, or any other symptoms that could interfere with aviation safety. (See Item 26)",
+   "html": "<p><strong>18.e. Hay fever or allergy.</strong> The applicant should report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects. The AME should inquire whether the applicant has ever experienced any barotitis (“ear block”), barosinusitis, alternobaric vertigo, or any other symptoms that could interfere with aviation safety. (See <strong>Item 26</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.f. Asthma or lung disease. The applicant should provide frequency and severity of asthma attacks, medications, and number of visits to the hospital and/or emergency room. For other lung conditions, a detailed description of symptoms/diagnosis, surgical intervention, and medications should be provided. (See Item 35)",
+   "html": "<p><strong>18.f. Asthma or lung disease.</strong> The applicant should provide frequency and severity of asthma attacks, medications, and number of visits to the hospital and/or emergency room. For other lung conditions, a detailed description of symptoms/diagnosis, surgical intervention, and medications should be provided. (See <strong>Item 35</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.g. Heart or vascular trouble. The applicant should describe the condition to include, dates, symptoms, and treatment, and provide medical reports to assist in the certification decision-making process. These reports should include operative reports of coronary intervention to include the original cardiac catheterization report, stress tests, worksheets, and original tracings (or a legible copy). When stress tests are provided, forward the reports, worksheets, and original tracings (or a legible copy) to the FAA. Part 67 provides that, for all classes of medical certificates, an established medical history or clinical diagnosis of myocardial infarction, angina pectoris, cardiac valve replacement, permanent cardiac pacemaker implantation, heart replacement, or coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant, is cause for denial. (See Item 36)",
+   "html": "<p><strong>18.g. Heart or vascular trouble.</strong> The applicant should describe the condition to include, dates, symptoms, and treatment, and provide medical reports to assist in the certification decision-making process. These reports should include operative reports of coronary intervention to include the original cardiac catheterization report, stress tests, worksheets, and original tracings (or a legible copy). When stress tests are provided, forward the reports, worksheets, and original tracings (or a legible copy) to the FAA. Part 67 provides that, for all classes of medical certificates, an established medical history or clinical diagnosis of myocardial infarction, angina pectoris, cardiac valve replacement, permanent cardiac pacemaker implantation, heart replacement, or coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant, is cause for denial. (See <strong>Item 36</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.h. High or low blood pressure. The applicant should provide history and treatment. Issuance of a medical certificate to an applicant with high blood pressure may depend on the current blood pressure levels and whether the applicant is taking anti-hypertensive medication. The AME should also determine if the applicant has a history of complications, adverse reactions to therapy, hospitalization, etc. (Details are given in Item 36 and Item 55)",
+   "html": "<p><strong>18.h. High or low blood pressure.</strong> The applicant should provide history and treatment. Issuance of a medical certificate to an applicant with high blood pressure may depend on the current blood pressure levels and whether the applicant is taking anti-hypertensive medication. The AME should also determine if the applicant has a history of complications, adverse reactions to therapy, hospitalization, etc. (Details are given in <strong>Item 36</strong> and <strong>Item 55</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.i. Stomach, liver, or intestinal trouble. The applicant should provide history and treatment, pertinent medical records, current status report, and medication. If a surgical procedure was done, the applicant must provide operative and pathology reports. (See Item 38)",
+   "html": "<p><strong>18.i. Stomach, liver, or intestinal trouble.</strong> The applicant should provide history and treatment, pertinent medical records, current status report, and medication. If a surgical procedure was done, the applicant must provide operative and pathology reports. (See <strong>Item 38</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 49,
+   "text": "18.j. Kidney stone or blood in urine. The applicant should provide history and treatment, pertinent medical records, current status report and medication. If a procedure was done, the applicant must provide the report and pathology reports.",
+   "html": "<p><strong>18.j. Kidney stone or blood in urine.</strong> The applicant should provide history and treatment, pertinent medical records, current status report and medication. If a procedure was done, the applicant must provide the report and pathology reports.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "(See Item 41)",
+   "html": "<p>(See <strong>Item 41</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.k. Diabetes. The applicant should describe the condition to include symptoms and treatment. Comment on the presence or absence of hyperglycemic and/or hypoglycemic episodes. A medical history or clinical diagnosis of diabetes mellitus requiring insulin or other hypoglycemic drugs for control are disqualifying. The AME can help expedite the FAA review by assisting the applicant in gathering medical records and submitting a current specialty report. (See Item 48)",
+   "html": "<p><strong>18.k. Diabetes.</strong> The applicant should describe the condition to include symptoms and treatment. Comment on the presence or absence of hyperglycemic and/or hypoglycemic episodes. A medical history or clinical diagnosis of diabetes mellitus requiring insulin or other hypoglycemic drugs for control are disqualifying. The AME can help expedite the FAA review by assisting the applicant in gathering medical records and submitting a current specialty report. (See <strong>Item 48</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.l. Neurological disorders; epilepsy, seizures, stroke, paralysis, etc. The applicant should provide history and treatment, pertinent medical records, current status report and medication. The AME should obtain details about such a history and report the results. An established diagnosis of epilepsy, a transient loss of control of nervous system function(s), or a disturbance of consciousness is a basis for denial no matter how remote the history. Like all other conditions of aeromedical concern, the history surrounding the event is crucial. Certification is possible if a satisfactory explanation can be established. (See Item 46)",
+   "html": "<p><strong>18.l. Neurological disorders; epilepsy, seizures, stroke, paralysis, etc.</strong> The applicant should provide history and treatment, pertinent medical records, current status report and medication. The AME should obtain details about such a history and report the results. An established diagnosis of epilepsy, a transient loss of control of nervous system function(s), or a disturbance of consciousness is a basis for denial no matter how remote the history. Like all other conditions of aeromedical concern, the history surrounding the event is crucial. Certification is possible if a satisfactory explanation can be established. (See <strong>Item 46</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.m. Mental disorders of any sort; depression, anxiety, etc. An affirmative answer to Item 18.m. requires investigation through supplemental history taking. Dispositions will vary according to the details obtained. An applicant with an established history of a personality disorder that is severe enough to have repeatedly manifested itself by overt acts, a psychosis disorder, or a bipolar disorder must be denied or deferred by the AME. (See Item 47)",
+   "html": "<p><strong>18.m. Mental disorders of any sort; depression, anxiety, etc.</strong> An affirmative answer to Item 18.m. requires investigation through supplemental history taking. Dispositions will vary according to the details obtained. An applicant with an established history of a personality disorder that is severe enough to have repeatedly manifested itself by overt acts, a psychosis disorder, or a bipolar disorder must be denied or deferred by the AME. (See <strong>Item 47</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.n. Substance dependence; or failed a drug test ever; or substance abuse or use of illegal substance in the last 2 years. \"Substance\" includes alcohol and other drugs (e.g., PCP, sedatives and hypnotics, anxiolytics, marijuana, cocaine, opioids, amphetamines, hallucinogens, and other psychoactive drugs or chemicals). For a \"yes\" answer to Item 18.n., the AME should obtain a detailed description of the history. See disposition tables . A history of substance dependence or abuse is disqualifying. The AME must defer issuance of a certificate if there is doubt concerning an applicant's substance use.",
+   "html": "<p><strong>18.n. Substance dependence; or failed a drug test ever; or substance abuse or use of illegal substance in the last 2 years.</strong> &quot;Substance&quot; includes alcohol and other drugs (e.g., PCP, sedatives and hypnotics, anxiolytics, marijuana, cocaine, opioids, amphetamines, hallucinogens, and other psychoactive drugs or chemicals). For a &quot;yes&quot; answer to Item 18.n., the AME should obtain a detailed description of the history. See <a href=\"https://www.faa.gov/ame_guide/media/DrugUseDispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">disposition tables</a> . A history of substance dependence or abuse is disqualifying. The AME must defer issuance of a certificate if there is doubt concerning an applicant&#x27;s substance use.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "See: Pharmaceuticals and Substances of Dependence/Abuse .",
+   "html": "<p>See: <a href=\"https://www.faa.gov/ame_guide/pharm/\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals</a> and <a href=\"https://www.faa.gov/ame_guide/abuse_dep/\" target=\"_blank\" rel=\"noopener\">Substances of Dependence/Abuse</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.o. Alcohol dependence or abuse. See DUI/ DWI /Alcohol Incidents Disposition Table .",
+   "html": "<p><strong>18.o. Alcohol dependence or abuse.</strong> See <a href=\"https://www.faa.gov/ame_guide/media/DUIDWI_Alcohol_Incidents_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">DUI/ DWI /Alcohol Incidents Disposition Table</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.p. Suicide attempt. A history of suicidal attempts or suicidal gestures requires further evaluation. The ultimate decision of whether an applicant with such a history is eligible for medical certification rests with the FAA. The AME should take a supplemental history as indicated, assist in the gathering of medical records related to the incident(s), and, if the applicant agrees, assist in obtaining psychiatric and/or psychological examinations. (See Item 47)",
+   "html": "<p><strong>18.p. Suicide attempt.</strong> A history of suicidal attempts or suicidal gestures requires further evaluation. The ultimate decision of whether an applicant with such a history is eligible for medical certification rests with the FAA. The AME should take a supplemental history as indicated, assist in the gathering of medical records related to the incident(s), and, if the applicant agrees, assist in obtaining psychiatric and/or psychological examinations. (See <strong>Item 47</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 50,
+   "text": "18.q. Motion sickness requiring medication. A careful history concerning the nature of the sickness, frequency and need for medication is indicated when the applicant responds affirmatively to this item. Because motion sickness varies with the nature of the",
+   "html": "<p><strong>18.q. Motion sickness requiring medication.</strong> A careful history concerning the nature of the sickness, frequency and need for medication is indicated when the applicant responds affirmatively to this item. Because motion sickness varies with the nature of the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "stimulus, it is most helpful to know if the problem has occurred in flight or under similar circumstances. (See Item 29)",
+   "html": "<p>stimulus, it is most helpful to know if the problem has occurred in flight or under similar circumstances. (See <strong>Item 29</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.r. Military medical discharge. If the person has received a military medical discharge, the AME should take additional history and record it in Item 60. It is helpful to know the circumstances surrounding the discharge, including dates, and whether the individual is receiving disability compensation. If the applicant is receiving veteran's disability benefits, the claim number and service number are helpful in obtaining copies of pertinent medical records. The fact that the applicant is receiving disability benefits does not necessarily mean that the application should be denied.",
+   "html": "<p><strong>18.r. Military medical discharge.</strong> If the person has received a military medical discharge, the AME should take additional history and record it in <strong>Item 60</strong>. It is helpful to know the circumstances surrounding the discharge, including dates, and whether the individual is receiving disability compensation. If the applicant is receiving veteran&#x27;s disability benefits, the claim number and service number are helpful in obtaining copies of pertinent medical records. The fact that the applicant is receiving disability benefits does not necessarily mean that the application should be denied.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.s. Medical rejection by military service. The AME should inquire about the place, cause, and date of rejection and enter the information in Item 60. It is helpful if the AME can assist the applicant with obtaining relevant military documents. If a delay of more than 14-calendar days is expected, the AME should transmit FAA Form 8500-8 to the FAA with a note specifying what documents will be forwarded later.",
+   "html": "<p><strong>18.s. Medical rejection by military service.</strong> The AME should inquire about the place, cause, and date of rejection and enter the information in <strong>Item 60</strong>. It is helpful if the AME can assist the applicant with obtaining relevant military documents. If a delay of more than 14-calendar days is expected, the AME should transmit FAA Form 8500-8 to the FAA with a note specifying what documents will be forwarded later.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "Disposition will depend upon whether the medical condition still exists or whether a history of such a condition requires denial or deferral under the FAA medical standards.",
+   "html": "<p>Disposition will depend upon whether the medical condition still exists or whether a history of such a condition requires denial or deferral under the FAA medical standards.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.t. Rejection for life or health insurance. The AME should inquire regarding the circumstances of rejection. The supplemental history should be recorded in Item 60. Disposition will depend upon whether the medical condition still exists or whether a history of such a condition requires denial or deferral under the FAA medical standards.",
+   "html": "<p><strong>18.t. Rejection for life or health insurance.</strong> The AME should inquire regarding the circumstances of rejection. The supplemental history should be recorded in <strong>Item 60</strong>. Disposition will depend upon whether the medical condition still exists or whether a history of such a condition requires denial or deferral under the FAA medical standards.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.u. Admission to hospital. For each admission, the applicant should list the dates, diagnoses, duration, treatment, name of the attending physician, and complete address of the hospital or clinic. If previously reported, the applicant may enter \"PREVIOUSLY REPORTED, NO CHANGE.\" A history of hospitalization does not disqualify an applicant, although the medical condition that resulted in hospitalization may.",
+   "html": "<p><strong>18.u. Admission to hospital. </strong>For each admission, the applicant should list the dates, diagnoses, duration, treatment, name of the attending physician, and complete address of the hospital or clinic. If previously reported, the applicant may enter &quot;PREVIOUSLY REPORTED, NO CHANGE.&quot; A history of hospitalization does not disqualify an applicant, although the medical condition that resulted in hospitalization may.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.v. History of Arrest(s), Conviction(s), and/or Administrative Action(s).",
+   "html": "<p><strong>18.v. History of Arrest(s), Conviction(s), and/or Administrative Action(s). </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "(Updated 06/24/2020)",
+   "html": "<p>(Updated 06/24/2020)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "Arrest(s), conviction(s), and/or administrative action(s) affecting driving privileges may raise questions about the applicant's qualifications for airman medical certification. All incidents must be reported (even if reported on a previous application), to include even a single driving while intoxicated ( DWI ) arrest, conviction and/or administrative action. Incidents reported under 18.v. are just part of many factors considered in the overall process of medical certification. See Substances of Dependence/Abuse .",
+   "html": "<p>Arrest(s), conviction(s), and/or administrative action(s) affecting driving privileges may raise questions about the applicant&#x27;s qualifications for airman medical certification. All incidents must be reported (even if reported on a previous application), to include even a single driving while intoxicated ( <a href=\"https://www.faa.gov/ame_guide/media/DUIDWI_Alcohol_Incidents_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">DWI</a> ) arrest, conviction and/or administrative action. Incidents reported under 18.v. are just part of many factors considered in the overall process of medical certification. See <a href=\"https://www.faa.gov/ame_guide/abuse_dep/\" target=\"_blank\" rel=\"noopener\">Substances of Dependence/Abuse</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "NOTE: Remind your airman that once he/she has checked yes to any item in #18, especially items 18 n., 18 o. or 18 v., they must ALWAYS mark yes to these numbers, even if the condition has been reviewed and granted an eligibility letter from the FAA.",
+   "html": "<p><strong>NOTE: </strong>Remind your airman that once he/she has checked yes to any item in #18, <strong>especially items 18 n., 18 o. or 18 v</strong>., they must <strong>ALWAYS mark yes</strong> to these numbers, even if the condition has been reviewed and granted an eligibility letter from the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.w. History of nontraffic convictions. The applicant must report any other (nontraffic) convictions (e.g., assault, battery, public intoxication, robbery, etc.). The applicant must name the charge for which convicted and the date of the conviction(s), and copies of court documents (if available). (See Item 47)",
+   "html": "<p><strong>18.w. History of nontraffic convictions.</strong> The applicant must report any other (nontraffic) convictions (e.g., assault, battery, public intoxication, robbery, etc.). The applicant must name the charge for which convicted and the date of the conviction(s), and copies of court documents (if available). (See <strong>Item 47</strong>)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 51,
+   "text": "18.x. Other illness, disability, or surgery. The applicant should describe the nature of these illnesses in the EXPLANATIONS box. If additional records, tests, or specialty reports are necessary in order to make a certification decision, the applicant should so be",
+   "html": "<p><strong>18.x. Other illness, disability, or surgery.</strong> The applicant should describe the nature of these illnesses in the EXPLANATIONS box. If additional records, tests, or specialty reports are necessary in order to make a certification decision, the applicant should so be</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "advised. If the applicant does not wish to provide the information requested by the AME, the AME should defer issuance.",
+   "html": "<p>advised. If the applicant does not wish to provide the information requested by the AME, the AME should defer issuance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "If the applicant wishes to have the FAA review the application and decide what ancillary documentation is needed, the AME should defer issuance of the medical certificate and",
+   "html": "<p>If the applicant wishes to have the FAA review the application and decide what ancillary documentation is needed, the AME should defer issuance of the medical certificate and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "forward the completed FAA Form 8500-8 to the AMCD. If the AME proceeds to obtain documentation, but all data will not be received with the 2 weeks, FAA Form 8500-8 should be transmitted immediately to the AMCD with a note that additional documents will be forwarded later under separate cover.",
+   "html": "<p>forward the completed FAA Form 8500-8 to the AMCD. If the AME proceeds to obtain documentation, but all data will not be received with the 2 weeks, FAA Form 8500-8 should be transmitted immediately to the AMCD with a note that additional documents will be forwarded later under separate cover.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "18. y. Medical Disability Benefits. The applicant must report any disability benefits received, regardless of source or amount. If the applicant checks “yes” on this item, the FAA may verify with other Federal Agencies (i.e. Social Security Administration, Veteran’s Affairs) whether the applicant is receiving a disability benefit that may present a conflict in issuing an FAA medical certificate. The AME must document the specifics and nature of the disability in findings in Item 60.",
+   "html": "<p><strong>18. y. Medical Disability Benefits.</strong> The applicant must report any disability benefits received, regardless of source or amount. If the applicant checks “yes” on this item, the FAA may verify with other Federal Agencies (i.e. Social Security Administration, Veteran’s Affairs) whether the applicant is receiving a disability benefit that may present a conflict in issuing an FAA medical certificate. The AME must document the specifics and nature of the disability in findings in <strong>Item 60</strong>.</p>"
+  }
+ ]
+}

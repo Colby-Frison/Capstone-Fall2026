@@ -1,0 +1,130 @@
+{
+ "id": "hypertension-htn",
+ "name": "Hypertension (HTN)",
+ "subtitle": null,
+ "name_in_guide": "HYPERTENSION (HTN)",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "10/28/2015",
+ "order": 55,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current status report from treating physician with treatment plan, prognosis and how long the condition has been stable;",
+  "Specific mention if there is a secondary cause for HTN or any evidence of a co-morbid condition (ex. diabetes or OSA), or end organ damage (ex. renal insufficiency, kidney disease, eye disease, MI, CVA heart failure, etc.); and",
+  "List of medications, dates started and stopped, and any side effects."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "No medication (If treating physician discontinued medications 30 days ago or longer.)",
+   "condition_html": "<p>A. No medication</p>\n<p>(If treating physician discontinued medications 30 days ago or longer.)</p>",
+   "evaluation_data": "If airman meets standards:",
+   "evaluation_data_html": "<p>If airman meets standards:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p>ISSUE</p>\n<p>Summarize this history in Block 60.</p>",
+   "pdf_page": 172,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Treated with 3 or fewer* acceptable medications .",
+   "condition_html": "<p>B. Treated with 3 or fewer*</p>\n<p><a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">acceptable medications</a> .</p>",
+   "evaluation_data": "See CACI – Hypertension Worksheet For additional information, see Hypertension FAQs",
+   "evaluation_data_html": "<p>See CACI – Hypertension Worksheet</p>\n<p>For additional information, see <a href=\"https://www.faa.gov/ame_guide/media/HypertensionFAQs.pdf\" target=\"_blank\" rel=\"noopener\">Hypertension FAQs</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Hypertension Worksheet . Annotate Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Hypertension Worksheet</a> .</p>\n<p>Annotate Block 60.</p>",
+   "pdf_page": 172,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Any of the following: - Treated with 4 or more* acceptable medications; - HTN is clinically uncontrolled; - Unacceptable medications are used; - Side effects are present; - Medical status of the airman is unclear; or Certification has been specifically reserved to the FAA",
+   "condition_html": "<p>C. Any of the following:</p>\n<ul><li>Treated with 4 or more* acceptable medications;</li><li>HTN is clinically uncontrolled;</li><li><a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">• Unacceptable medications</a> are used;</li><li>Side effects are present;</li><li>Medical status of the airman is unclear; or</li></ul>\n<p>Certification has been specifically reserved to the FAA</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current status report from treating physician with treatment plan, prognosis and how long the condition has been stable; - Specific mention if there is a secondary cause for HTN or any evidence of a co-morbid condition (ex. diabetes or OSA), or end organ damage (ex. renal insufficiency, kidney disease, eye disease, MI, CVA heart failure, etc.); and - List of medications, dates started and stopped, and any side effects.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Current status report from treating physician with treatment plan, prognosis and how long the condition has been stable;</li><li> Specific mention if there is a secondary cause for HTN or any evidence of a co-morbid condition (ex. diabetes or OSA), or end organ damage (ex. renal insufficiency, kidney disease, eye disease, MI, CVA heart failure, etc.); and</li><li> List of medications, dates started and stopped, and any side effects.</li></ul>",
+   "what_to_bring": [
+    "Current status report from treating physician with treatment plan, prognosis and how long the condition has been stable;",
+    "Specific mention if there is a secondary cause for HTN or any evidence of a co-morbid condition (ex. diabetes or OSA), or end organ damage (ex. renal insufficiency, kidney disease, eye disease, MI, CVA heart failure, etc.); and",
+    "List of medications, dates started and stopped, and any side effects."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Follow up Issuance</p>\n<p>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 172,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Hypertension Worksheet",
+   "updated": "04/13/2022",
+   "criteria": [],
+   "block_60_options": [
+    "CACI qualified hypertension. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified hypertension.",
+    "NOT CACI qualified hypertension. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>Notes: *Number of medications counts each component. (Example: lisinopril/HCTZ is 2 medications.)</p>\n<p>If this airman is new to you or you are not certain of their HTN control, you may request a current status report from the treating physician for your review.</p>\n<p>If the airman did not meet standards on exam, See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd/\" target=\"_blank\" rel=\"noopener\">Item 55. Blood Pressure.</a></p>\n<p>(Updated 04/13/2022)</p>\n<table><tbody><tr><td><p><strong>AME MUST REVIEW </strong></p></td><td><p><strong>ACCEPTABLE CERTIFICATION CRITERIA </strong></p></td></tr><tr><td><p>Treating physician or the AME</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>finds the condition stable on current regimen for at least 7 days and no changes recommended.</p></td><td></td></tr><tr><td><p>Symptoms</p></td><td><p>[ ] None</p></td></tr><tr><td><p>Blood pressure in office</p></td><td><p>[ ] Less than or equal to 155 systolic and 95 diastolic</p></td></tr><tr><td></td><td><p>(Although 155/95 is acceptable for certification, the airman should be referred to their primary provider for further management, if the blood pressure is above clinical practice standards)</p></td></tr><tr><td><p>Acceptable medication(s) See Pharmaceuticals - <a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">Antihypertensive</a></p></td><td><p>[ ] Combinations of up to 3 of the following: Alpha blockers, Beta-blockers, calcium channel blockers, diuretics, ACE inhibitors, ARBs, direct renin inhibitors, and/or direct vasodilators are allowed.</p>\n<p><strong>NOT acceptable</strong>: Centrally acting antihypertensive (ex: clonidine)</p></td></tr><tr><td><p>Side effects from medications</p></td><td><p>[ ] No</p></td></tr></tbody></table>\n<p><strong>HYPERTENSION (HTN) - FREQUENTLY ASKED QUESTIONS (FAQs) </strong></p>\n<p>(Updated: 10/28/2015)</p>\n<p>We continue to see deferrals when an airman has HTN and is on medications. Please review the following FAQs before making a determination.</p>\n<p><strong>GENERAL:</strong></p>\n<ul><li><strong>1. What is the FAA specified limit for blood pressure during an exam? </strong></li></ul>\n<p>The maximum systolic during exam is 155mmHg and the maximum diastolic is 95mmHg during the exam. (See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item55/\" target=\"_blank\" rel=\"noopener\">Item 55. Blood Pressure</a> .)</p>\n<ul><li><strong>2. If during the exam the airman’s blood pressure is higher than 155/95, do I have to defer? </strong></li></ul>\n<p>Not necessarily. If the airman’s blood pressure is elevated in clinic, you have any the following options:</p>\n<ul><li><ul><li><ul><li>Recheck the blood pressure. If the airman meets FAA specified limits on the second attempt, note this in Block 60 along with both readings. If the airman is still elevated, follow B:</li></ul></li></ul></li></ul>\n<ul><li><ul><li><ul><li>Have the airman return to clinic 3 separate days over a 7-day period. If the airman meets FAA specified limits during these re-checks, note this and the readings in Block 60. Also note if there was a reason for the blood pressure elevation. If the airman does not demonstrate good control on re-checks, follow C:</li></ul></li></ul></li></ul>\n<ul><li><ul><li><ul><li>Send the airman back to his/her treating physician for re-evaluation. If medication adjustment is needed, a 7-day no-fly period applies to verify no problems with the medication. If this can be done within the 14-day exam transmission period, you could then follow the Hypertension Disposition Table.</li></ul></li></ul></li></ul>\n<ul><li><strong>3. Can I hold an exam longer than 14 days to allow the airman time to provide the necessary information? </strong></li></ul>\n<p>No.</p>\n<p><strong>MEDICATION(S):</strong></p>\n<ul><li><strong>4. Can an airman fly while on HTN medication? </strong></li></ul>\n<p>Yes, the majority of common blood pressure medications can be approved for flight. If the airman’s blood pressure is controlled with 3 or fewer medications and there are no adverse medication side effects, the AME can often issue an unrestricted medical certificate (if otherwise qualified). See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/\" target=\"_blank\" rel=\"noopener\">Hypertension Disposition Table.</a></p>\n<ul><li><strong>5. What HTN medications are acceptable/not acceptable by the FAA? </strong></li></ul>\n<p>See <a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals – Antihypertensive</a> .</p>\n<ul><li><strong>6. The airman had medication(s) adjusted and now meets the standards, but it took longer than 14 days and the exam was deferred. What can the airman do now? </strong></li></ul>\n<ul><li><ul><li><ul><li>If the airman is now well controlled and is on 3 or fewer medications, direct them to the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Hypertension Worksheet</a> . They should obtain the required information from their treating physician and submit it to the FAA.</li></ul></li></ul></li></ul>\n<ul><li><ul><li><ul><li>If the airman is on 4 or more medications (combination medications count as the sum of their parts), direct them to the <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/\" target=\"_blank\" rel=\"noopener\">Hypertension Disposition Table</a> . They should obtain the required information from their treating physician and submit it to the FAA.</li></ul></li></ul></li></ul>\n<ul><li><strong>7. What if the treating physician stopped the medications less than 30 days ago? </strong></li></ul>\n<p>See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/\" target=\"_blank\" rel=\"noopener\">Section B of the Hypertensive Disposition Table</a> and follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Hypertension Worksheet</a> .</p>\n<ul><li><strong>8. What if the airman stopped the medication on his/her own so they could fly? </strong></li></ul>\n<p>Educate your airman (and their treating physician, if needed) that most HTN medications are acceptable and almost no one is denied for HTN.</p>\n<ul><li><strong>9. What if the airman has multiple conditions, e.g., HTN, Obstructive Sleep Apnea, and/or prior heart attack?</strong></li></ul>\n<p>The airman must provide the required information for<strong> each condition</strong>.</p>\n<ul><li><strong>10. What if the airman is on a HTN medication that is not allowed by the FAA? </strong></li></ul>\n<p>The treating physician can evaluate if the airman can safely be changed to an acceptable HTN medication.</p>\n<ul><li><ul><li><ul><li>If the medication(s) can be changed and the airman meets the required criteria, they should submit the items as detailed in <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/\" target=\"_blank\" rel=\"noopener\">Section C of the Hypertensive Disposition Table</a> for FAA review. The treating physician note should describe the clinical rationale as to why the unacceptable medication was previously chosen and why it is ok for the airmen to be on a different medication now.</li></ul></li></ul></li></ul>\n<ul><li><ul><li><ul><li>If the airman cannot safely be changed to an acceptable HTN medication, defer the exam and send in the documents listed in <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/\" target=\"_blank\" rel=\"noopener\">Section C of the Hypertensive Disposition Table</a> for FAA review.</li></ul></li></ul></li></ul>",
+ "links": [
+  {
+   "text": "Item 55. Blood Pressure.",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/amd/"
+  },
+  {
+   "text": "Antihypertensive",
+   "href": "https://www.faa.gov/ame_guide/pharm/antihyp/"
+  },
+  {
+   "text": "Item 55. Blood Pressure",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item55/"
+  },
+  {
+   "text": "Hypertension Disposition Table.",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/hypertension/"
+  },
+  {
+   "text": "CACI - Hypertension Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_Hypertension.pdf"
+  },
+  {
+   "text": "Hypertension FAQs",
+   "href": "https://www.faa.gov/ame_guide/media/HypertensionFAQs.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "coronary-heart-disease",
+  "section_title": "CORONARY HEART DISEASE",
+  "pdf_pages": [
+   172,
+   173,
+   174,
+   175
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,1434 @@
+{
+ "slug": "use-of-antidepressant-medications",
+ "title": "USE OF ANTIDEPRESSANT MEDICATIONS",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  380,
+  381,
+  382,
+  383,
+  384,
+  385,
+  386,
+  387,
+  388,
+  389,
+  390,
+  391,
+  392,
+  393,
+  394,
+  395,
+  396,
+  397,
+  398,
+  399,
+  400,
+  401,
+  402,
+  403,
+  404,
+  405,
+  406
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "Antidepressants Protocol Expansion - Effective April 24, 2024:",
+   "html": "<p><strong>Antidepressants Protocol Expansion - Effective April 24, 2024</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "Additional medications have been added as allowed for special issuance consideration, representing an additional class of antidepressant medications beyond SSRIs. This change, along with the addition of Wellbutrin (a Dopamine/Norepinephrine-Reuptake Inhibitor) on 05/31/2023, has resulted in the FAA’s SSRI Protocol being renamed the Antidepressant Protocol.",
+   "html": "<p>Additional medications have been added as allowed for special issuance consideration, representing an additional class of antidepressant medications beyond SSRIs. This change, along with the addition of Wellbutrin (a Dopamine/Norepinephrine-Reuptake Inhibitor) on 05/31/2023, has resulted in the FAA’s SSRI Protocol being renamed the <strong>Antidepressant Protocol.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "PLEASE NOTE: All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol and include all conditionally approved medications.",
+   "html": "<p><strong>PLEASE NOTE:</strong> All references to SSRIs, SSRI Protocol, or SSRI program in existing checklists, worksheets, charts, or protocol pages in the AME Guide are considered encompassed in the Antidepressant Protocol and include all <a href=\"https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf\" target=\"_blank\" rel=\"noopener\">conditionally approved medications.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "If you are an AIRMAN taking an SSRI – see Airman Information - SSRI INITIAL Certification",
+   "html": "<p>If you are an <strong>AIRMAN</strong> taking an SSRI – see <a href=\"https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">Airman Information - SSRI INITIAL Certification</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "If you are an ATCS taking an SSRI – see FAA ATCS How to Guide",
+   "html": "<p>If you are an <strong>ATCS</strong> taking an SSRI – see <a href=\"https://www.faa.gov/ame_guide/media/FAA_ATCS_Guide.pdf\" target=\"_blank\" rel=\"noopener\">FAA ATCS How to Guide</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "The FAA has determined that pilots or FAA Air Traffic Control Specialists (FAA ATCS) requesting medical certificates while being treated with one of several specific antidepressant medications may be considered. The Authorization decision is made on a case-by-case basis. The AME may not issue.",
+   "html": "<p>The FAA has determined that pilots or FAA Air Traffic Control Specialists (FAA ATCS) requesting medical certificates while being treated with one of several specific antidepressant medications may be considered. The Authorization decision is made on a case-by-case basis. <strong>The AME may not issue.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "If the airman/FAA ATCS opts to discontinue use of the medication, the AME must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance. To reapply for regular issuance, the applicant must be off the SSRI for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects. See SSRI Decision Path I",
+   "html": "<p>If the airman/FAA ATCS opts to discontinue use of the medication, the AME must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance. To reapply for regular issuance, the applicant must be off the SSRI for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects. See <a href=\"https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-I.pdf\" target=\"_blank\" rel=\"noopener\">SSRI Decision Path I</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "An individual may be considered for an FAA Authorization of a Special Issuance (SI) or Special Consideration (SC) of a Medical Certificate (Authorization) if:",
+   "html": "<p>An individual may be considered for an FAA Authorization of a Special Issuance (SI) or Special Consideration (SC) of a Medical Certificate (Authorization) if:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "1.) The applicant has one of the following diagnoses:",
+   "html": "<p><strong>1.) The applicant has one of the following diagnoses: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 380,
+   "text": "- Major depressive disorder (mild to moderate) either single episode or recurrent episode;\n- Dysthymic disorder;\n- Adjustment disorder with depressed mood; or\n- Any non-depression related condition for which the SSRI is used",
+   "html": "<ul><li>Major depressive disorder (mild to moderate) either single episode or recurrent episode;</li><li>Dysthymic disorder;</li><li>Adjustment disorder with depressed mood; or</li><li>Any non-depression related condition for which the SSRI is used</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "2.) For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms. If the applicant has been on the medication under 3 months, the AME must advise that 3 months of continuous use is required before SI/SC consideration.",
+   "html": "<p><strong>2.) For a minimum of 3 continuous months prior, the applicant has been clinically stable as well as on a stable dose of medication without any aeromedically significant side effects and/or an increase in symptoms.</strong> If the applicant has been on the medication under 3 months, the AME must advise that 3 months of continuous use is required before SI/SC consideration.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 380,
+   "text": "3.) The medication used is one of the conditionally acceptable Antidepressant Medications . (single use only; not combined).",
+   "html": "<p><strong>3.) </strong>The medication used is one of the <strong>conditionally acceptable</strong> <a href=\"https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf\" target=\"_blank\" rel=\"noopener\">Antidepressant Medications</a> . (single use only; not combined)<strong>. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "If the applicant is on a medication that is not listed in Antidepressant Medications , the Examiner must advise that the medication is not acceptable for SI/SC.\"",
+   "html": "<p>If the applicant is on a medication that is not listed in <a href=\"https://cms.faa.gov/ame_guide/media/Antidepressant_Medications.pdf\" target=\"_blank\" rel=\"noopener\">Antidepressant Medications</a> , the Examiner must advise that the medication is not acceptable for SI/SC.&quot;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "4.) The applicant DOES NOT have symptoms or history of:",
+   "html": "<p><strong>4.) The applicant DOES NOT have symptoms or history of: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- Psychosis\n- Suicidal ideation\n- Electro convulsive therapy\n- Treatment with multiple SSRIs concurrently\n- Multi-agent drug protocol use (prior use of other psychiatric drugs in conjunction with SSRIs.)",
+   "html": "<ul><li>Psychosis</li><li>Suicidal ideation</li><li>Electro convulsive therapy</li><li>Treatment with multiple SSRIs concurrently</li><li>Multi-agent drug protocol use (prior use of other psychiatric drugs in conjunction with SSRIs.)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "If applicant meets all of the above criteria and wishes to continue use of the medication, advise the applicant that he/she must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.",
+   "html": "<p>If applicant meets all of the above criteria and wishes to continue use of the medication, advise the applicant that he/she must be further evaluated by a Human Intervention Motivation Study (HIMS) AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "Off Medication for 60 Days:",
+   "html": "<p><strong>Off Medication for 60 Days: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "SSRI Decision Path I",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-I.pdf\" target=\"_blank\" rel=\"noopener\">SSRI Decision Path I</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "Initial Certification/Clearance:",
+   "html": "<p><strong>Initial Certification/Clearance: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- SSRI Decision Path II (HIMS AME - Initial Certification/Clearance)",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-II.pdf\" target=\"_blank\" rel=\"noopener\">• SSRI Decision Path II (HIMS AME - Initial Certification/Clearance)</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- Airman Information - SSRI INITIAL Certification",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">• Airman Information - SSRI INITIAL Certification</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- FAA ATCS HOW TO GUIDE - SSRI",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/FAA_ATCS_Guide.pdf\" target=\"_blank\" rel=\"noopener\">• FAA ATCS HOW TO GUIDE - SSRI</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- HIMS AME Checklist - SSRI Certification/Clearance",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">• HIMS AME Checklist - SSRI Certification/Clearance</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- FAA Certification Aid - SSRI Initial Certification/Clearance",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">• FAA Certification Aid - SSRI Initial Certification/Clearance</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf\" target=\"_blank\" rel=\"noopener\">• Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 381,
+   "text": "Recertification/ Follow Up Clearance:",
+   "html": "<p><strong>Recertification/ Follow Up Clearance: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- Airman SSRI Follow Up Path for the HIMS AME",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/SSRI_Follow_Up_Path.pdf\" target=\"_blank\" rel=\"noopener\">• Airman SSRI Follow Up Path for the HIMS AME</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- FAA ATCS SSRI Follow Up Path for the HIMS AME",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ATCS_SSRI_Follow-Up_Path_for_the_HIMS_AME.pdf\" target=\"_blank\" rel=\"noopener\">• FAA ATCS SSRI Follow Up Path for the HIMS AME</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- HIMS AME Checklist - SSRI Recertification/ Follow Up Clearance",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf\" target=\"_blank\" rel=\"noopener\">• HIMS AME Checklist - SSRI Recertification/ Follow Up Clearance</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- FAA Certification Aid - SSRI Recertification/ Follow Up Clearance",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf\" target=\"_blank\" rel=\"noopener\">• FAA Certification Aid - SSRI Recertification/ Follow Up Clearance</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- HIMS AME Change Request",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/HIMSAMEChangeRequest.pdf\" target=\"_blank\" rel=\"noopener\">• HIMS AME Change Request</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 381,
+   "text": "- Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf\" target=\"_blank\" rel=\"noopener\">• Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "figure",
+   "page": 382,
+   "text": "ㅐ㔶㠱礣卉1",
+   "html": "<figure><img src=\"images/p382_fig1.png\" alt=\"ㅐ㔶㠱礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "See:",
+   "html": "<p><strong>See: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "List of current Antidepressant Medications",
+   "html": "<p>List of current <a href=\"https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf\" target=\"_blank\" rel=\"noopener\">Antidepressant Medications</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "Airman Information - SSRI INITIAL Certification",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">Airman Information - SSRI INITIAL Certification</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "FAA ATCS How to Guide – SSRI",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/media/FAA_ATCS_Guide.pdf\" target=\"_blank\" rel=\"noopener\">FAA ATCS How to Guide – SSRI</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 382,
+   "text": "FAA Certification Aid - SSRI Initial Certification/Clearance",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">FAA Certification Aid - SSRI Initial Certification/Clearance</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 383,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "figure",
+   "page": 383,
+   "text": "ㅐ㔶㜴礣卉1",
+   "html": "<figure><img src=\"images/p383_fig2.png\" alt=\"ㅐ㔶㜴礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 383,
+   "text": "List of current Antidepressant Medications",
+   "html": "<p>List of current <a href=\"https://www.faa.gov/ame_guide/media/Antidepressant_Medications.pdf\" target=\"_blank\" rel=\"noopener\">Antidepressant Medications</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "AIRMAN INFORMATION - SSRI INITIAL CERTIFICATION (Updated 08/26/2026)",
+   "html": "<p><strong>AIRMAN INFORMATION - SSRI INITIAL CERTIFICATION</strong> (Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "Note: SSRI term updated to “Antidepressant”",
+   "html": "<p>Note: SSRI term updated to “Antidepressant”</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "If you are an FAA ATCS: See the FAA ATCS HOW TO GUIDE – SSRI below and contact your RFS",
+   "html": "<p><strong>If you are an FAA ATCS: See the FAA ATCS HOW TO GUIDE – SSRI below and contact your RFS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "If you are an AIRMAN:",
+   "html": "<p><strong>If you are an AIRMAN: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 384,
+   "text": "- 1. See your treating physician/therapist and/or psychiatrist and get healthy.\n- 2. Do not fly in accordance with 14 CFR 61.53 until you have an Authorization from the FAA.\n- 3. Select and contact a Human Intervention Motivation Study Aviation Medical Examiner ( HIMS AME ) to work with you through the FAA process. - a. Provide the HIMS AME with a copy of ALL of your treatment records (no matter how many years have passed) from the time you: - 1. Sought treatment for any condition that required an SSRI or psychiatric medication or - 2. Had symptoms but were NOT on an SSRI - b. Have a copy of your complete FAA file sent to the HIMS AME AND to a board certified psychiatrist if your treating physician is not a board certified psychiatrist. See Release of Information on how to request a copy of your file. - c. At this time, make sure you also tell your HIMS AME about any other medical conditions you may have. They should be able to help you identify and collect the information that will be needed for a CACI/Special Issuance for these other conditions.\n- 4. Print a copy of the FAA CERTIFICATION AID – SSRI INITIAL Certification/Clearance - a. Review what reports, providers, or testing will be required. - b. Take the correct CERTIFICATION AID page to each of the required physicians or providers so they understand what their report must include for FAA purposes. (This should save time and decrease the letters asking for more information.) - c. Make sure the providers specifically address in their report the “FAA SSRI “Rule-Outs.”\n- 5. When you have been stable with no symptoms or side effects and on the same dose of medication for",
+   "html": "<ul><li>1. See your treating physician/therapist and/or psychiatrist and get healthy.</li><li>2. Do not fly in accordance with 14 CFR 61.53 until you have an Authorization from the FAA.</li><li><p>3. Select and contact a Human Intervention Motivation Study Aviation Medical Examiner (</p>\n<p><a href=\"https://www.faa.gov/pilots/amelocator\" target=\"_blank\" rel=\"noopener\">HIMS AME</a></p>\n<p>) to work with you through the FAA process.</p>\n<ul><li><p>a. Provide the HIMS AME with a copy of ALL of your treatment records (no matter how many years have passed) from the time you:</p>\n<ul><li>1. Sought treatment for any condition that required an SSRI or psychiatric medication or</li><li>2. Had symptoms but were NOT on an SSRI</li></ul></li><li>b. Have a copy of your complete FAA file sent to the HIMS AME AND to a board certified psychiatrist if your treating physician is not a board certified psychiatrist. See <a href=\"https://www.faa.gov/ame_guide/app_process/general/release\" target=\"_blank\" rel=\"noopener\">Release of Information</a> on how to request a copy of your file.</li><li>c. At this time, make sure you also tell your HIMS AME about any other medical conditions you may have. They should be able to help you identify and collect the information that will be needed for a CACI/Special Issuance for these other conditions.</li></ul></li><li><p>4. Print a copy of the</p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">FAA CERTIFICATION AID – SSRI INITIAL Certification/Clearance</a></p>\n<ul><li>a. Review what reports, providers, or testing will be required.</li><li>b. Take the correct CERTIFICATION AID page to each of the required physicians or providers so they understand what their report must include for FAA purposes. (This should save time and decrease the letters asking for more information.)</li><li>c. Make sure the providers specifically address in their report the <a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">“FAA SSRI “Rule-Outs.”</a></li></ul></li><li>5. When you have been stable with no symptoms or side effects and on the same dose of medication for</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "3 months (this must be documented), you should meet with your HIMS AME to determine if it is appropriate to submit an INITIAL SSRI Special Issuance packet for FAA review.",
+   "html": "<p><strong>3 months</strong> (this must be documented), you should meet with your HIMS AME to determine if it is appropriate to submit an INITIAL SSRI Special Issuance packet for FAA review.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "***Remember to bring all documents to this evaluation, including information on any other condition you may have that requires a CACI or Special Issuance. ***",
+   "html": "<p>***<strong>Remember to bring all documents to this evaluation, including information on any other condition you may have that requires a CACI or </strong>Special Issuance. ***</p>"
+  },
+  {
+   "type": "list",
+   "page": 384,
+   "text": "- 6. When your HIMS AME determines you are ready to submit a Special Issuance package they will: - a. Review and complete the HIMS AME checklist ; - b. Complete a new 8500-8 exam; - c. Place notes in Block 60 stating that the SSRI evaluation is complete; - d. Place notes in Block 60 regarding any other conditions the airman may have (Special Issuance/CACI); - e. Submit the SSRI information and information on any other condition that may require a Special Issuance to the FAA.\n- 7. When submitting information:\n- The AME must submit your exam as DEFERRED.\n- Coordinate with your AME to make sure that ALL ITEMS LISTED on the AME Checklist and a COMPLETE package is sent to the FAA at the address below WITHIN 14 DAYS.\n- Partial or incomplete packages WILL NOT BE REVIEWED and will cause a DELAY IN CERTIFICATION.",
+   "html": "<ul><li><p>6. When your HIMS AME determines you are ready to submit a Special Issuance package they will:</p>\n<ul><li>a. Review and complete the <a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">HIMS AME checklist</a> ;</li><li>b. Complete a new 8500-8 exam;</li><li>c. Place notes in Block 60 stating that the SSRI evaluation is complete;</li><li>d. Place notes in Block 60 regarding any other conditions the airman may have (Special Issuance/CACI);</li><li>e. Submit the SSRI information and information on any other condition that may require a Special Issuance to the FAA.</li></ul></li><li>7. When submitting information:</li><li>The AME must submit your exam as <strong>DEFERRED. </strong></li><li>Coordinate with your AME to make sure that ALL ITEMS LISTED on the AME Checklist and a COMPLETE package is sent to the FAA at the address below WITHIN 14 DAYS.</li><li>Partial or incomplete packages WILL NOT BE REVIEWED and will cause a DELAY IN CERTIFICATION.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "AIRMAN - Initial Certification",
+   "html": "<p><strong>AIRMAN - Initial Certification </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "FAA, Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>FAA, Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "Aerospace Medical Certification Division, Room 308 - AAM-300",
+   "html": "<p>Aerospace Medical Certification Division, Room 308 - AAM-300</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "PO Box 25082",
+   "html": "<p>PO Box 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "IMPORTANT NOTE: While your exam is under review, continue to submit your Air Traffic Manager (ATCS) reports EVERY 3 months AND your HIMS AME evaluations and treating psychiatrist reports EVERY 6 months. This will ensure the FAA has the most current information and will decrease wait time. If we do not have current information when we review your case, we will have to request it, which will slow down your certification review.",
+   "html": "<p><strong>IMPORTANT NOTE: </strong>While your exam is under review, <strong>continue to submit your Air Traffic Manager (ATCS) reports EVERY 3 months AND your HIMS AME evaluations and treating psychiatrist reports EVERY 6 months. </strong>This will ensure the FAA has the most current information and will <strong>decrease wait time. </strong>If we do not have <strong>current information</strong> when we review your case, we will have to request it, which will slow down your certification review.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 384,
+   "text": "For RECERTIFICATION, see t he HIMS AME Checklist – SSRI Recertification/ Follow up Clearance .",
+   "html": "<p>For <strong>RECERTIFICATION</strong>, see t <a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf\" target=\"_blank\" rel=\"noopener\">he HIMS AME Checklist – SSRI Recertification/ Follow up Clearance</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 385,
+   "text": "FAA ATCS HOW-TO GUIDE – SSRI",
+   "html": "<p><strong>FAA ATCS HOW-TO GUIDE – SSRI </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 385,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "list",
+   "page": 385,
+   "text": "- 1. Notify Regional Flight Surgeon (RFS) of your diagnosis and treatment with a Selective Serotonin Reuptake Inhibitor (SSRI). - In conjunction with the Regional Flight Surgeon’s office (RFS), select a Human Intervention Motivation Study Aviation Medical Examiner (HIMS AME). - Sign a release to send a copy of your FAA ATCS medical file the HIMS AME. - You will be placed in an Incapacitated Status. - Any fees involved in obtaining medical tests and/or documentation to support a Special Consideration are the responsibility of the employee/applicant.",
+   "html": "<ul><li><p>1. Notify Regional Flight Surgeon (RFS) of your diagnosis and treatment with a Selective Serotonin Reuptake Inhibitor (SSRI).</p>\n<ul><li>In conjunction with the Regional Flight Surgeon’s office (RFS), select a Human Intervention Motivation Study Aviation Medical Examiner (HIMS AME).</li><li>Sign a release to send a copy of your FAA ATCS medical file the HIMS AME.</li><li>You will be placed in an Incapacitated Status.</li><li>Any fees involved in obtaining medical tests and/or documentation to support a Special Consideration are the responsibility of the employee/applicant.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 385,
+   "text": "- 2. Contact the HIMS AME who will assist you in locating an acceptable psychiatrist and neuropsychologist for the required evaluations. - You must be on a stable dose with of one of the approved SSRIs for three (3) months with no symptoms or side effects. - Your condition must be well controlled before review for a Special Consideration. - Provide your HIMS AME with all the items listed on the FAA Certification Aid – SSRI INITIAL Certification/Clearance.",
+   "html": "<ul><li><p>2. Contact the HIMS AME who will assist you in locating an acceptable psychiatrist and neuropsychologist for the required evaluations.</p>\n<ul><li>You must be on a stable dose with of one of the approved SSRIs for three (3) months with no symptoms or side effects.</li><li>Your condition must be well controlled before review for a Special Consideration.</li><li>Provide your HIMS AME with all the items listed on the <a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">FAA Certification Aid – SSRI INITIAL Certification/Clearance.</a></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 385,
+   "text": "- 3. When the above criteria have been met, you should meet with your HIMS AME for a face-to-face, in-office evaluation. The HIMS AME will prepare a report, recommendation, and submit an INITIAL SSRI Special Consideration packet to the RFS for determination.",
+   "html": "<ul><li>3. When the above criteria have been met, you should meet with your HIMS AME for a face-to-face, in-office evaluation. The HIMS AME will prepare a report, recommendation, and submit an INITIAL SSRI Special Consideration packet to the RFS for determination.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 385,
+   "text": "- 4. RFS will process packet within the Office of Aerospace Medicine.",
+   "html": "<ul><li>4. RFS will process packet within the Office of Aerospace Medicine.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 385,
+   "text": "- 5. If Special Consideration is granted, the RFS will issue a time-limited clearance with Special Consideration for six (6) months.",
+   "html": "<ul><li>5. If Special Consideration is granted, the RFS will issue a time-limited clearance with Special Consideration for six (6) months.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 385,
+   "text": "For follow up Clearance, you must provide all items listed on the FAA Certification Aid – SSRI Recertification/ Follow Up Clearance.",
+   "html": "<p>For follow up Clearance, you must provide all items listed on the <a href=\"https://www.faa.gov/ame_guide/media/SSRI_Recertification_Aid.pdf\" target=\"_blank\" rel=\"noopener\">FAA Certification Aid – SSRI Recertification/ Follow Up Clearance.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "HIMS AME Checklist - SSRI INITIAL Certification/Clearance",
+   "html": "<p><strong>HIMS AME Checklist - SSRI INITIAL Certification/Clearance </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "(Antidepressant) (Updated 08/26/2026)",
+   "html": "<p>(Antidepressant) (Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Name: ____________________________________________ Airman MID or PI#: __________________________",
+   "html": "<p>Name: ____________________________________________ Airman MID or PI#: __________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Submit this checklist ALL supporting information for INITIAL SSRI consideration within 14 days of deferred exam to:",
+   "html": "<p><strong>Submit this checklist ALL supporting information for INITIAL SSRI consideration within 14 days of deferred exam to: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "FAA ATCS",
+   "html": "<p><strong>FAA ATCS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "AIRMAN",
+   "html": "<p><strong>AIRMAN </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "FAA, Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>FAA, Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Regional Flight Surgeon (RFS) office",
+   "html": "<p><a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">Regional Flight Surgeon (RFS) office</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Aerospace Medical Certification Division, Room 308",
+   "html": "<p>Aerospace Medical Certification Division, Room 308</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "PO BOX 25082",
+   "html": "<p>PO BOX 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "All numbered (#) items below refer to the corresponding section of the FAA CERTIFICATION AID - SSRI INITIAL Certification/Clearance.",
+   "html": "<p>All numbered (#) items below refer to the corresponding section of the <a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">FAA CERTIFICATION AID - SSRI INITIAL Certification/Clearance.</a></p>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "1. Airman/FAA ATCS statement and records",
+   "html": "<p>1. <strong>Airman/FAA ATCS statement and records </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Addresses/describes ALL items in FAA Certification Aid .……………………………………………….\n- Is signed and dated ………………………………………………………………………………………….\n- Provides all medical/treatment records related to mental health history.…………………...",
+   "html": "<ul><li>Addresses/describes ALL items in FAA Certification Aid .……………………………………………….</li><li>Is signed and dated ………………………………………………………………………………………….</li><li>Provides all <strong>medical/treatment records</strong> related to mental health history.…………………...</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "2. HIMS AME FACE-TO-FACE, IN-OFFICE EVALUATION:",
+   "html": "<p>2. <strong>HIMS AME FACE-TO-FACE, IN-OFFICE EVALUATION: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Describes ALL items in #1-7 of “HIMS AME” checklist…….……..……………………..………………\n- Verifies the airman/ FAA ATCS has been on the same medication at the same dose for a minimum of 3 months………….………………………………………………….....................................\n- Is signed and dated ………………………………………………………………………………………….\n- Copies of all reports have been submitted to the FAA or are enclosed with this checklist ………….\n- Any other condition(s) that would require Special Issuance (SI)/Special Consideration (SC). Do not include CACI qualified condition(s)………....................................................................................\n- List conditions:",
+   "html": "<ul><li>Describes ALL items in #1-7 of “HIMS AME” checklist…….……..……………………..………………</li><li>Verifies the airman/ FAA ATCS has been <strong>on the same medication at the same dose</strong> for a minimum of 3 months………….………………………………………………….....................................</li><li>Is signed and dated ………………………………………………………………………………………….</li><li>Copies of all reports have been submitted to the FAA or are enclosed with this checklist ………….</li><li>Any other condition(s) that would require Special Issuance (SI)/Special Consideration (SC). Do not include CACI qualified condition(s)………....................................................................................</li><li>List conditions:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "3. TREATING PHYSICIAN (non-psychiatrist) REPORT (If the treating physician is a",
+   "html": "<p>3. <strong>TREATING PHYSICIAN (non-psychiatrist) REPORT </strong>(If the treating physician is a</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "Board Certified Psychiatrist, check N/A and skip to #4.):",
+   "html": "<p>Board Certified Psychiatrist, check N/A and skip to #4.):</p>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "N/A",
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>N/A</th><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Verifies the airman/FAA ATCS has been on the same medication at the same dose for a minimum of 3 months …………………………………………………...........................................\n- Is signed and dated …………………………………………..……………………………………….",
+   "html": "<ul><li>Verifies the airman/FAA ATCS has been <strong>on the same medication at the same dose</strong> for a minimum of 3 months …………………………………………………...........................................</li><li>Is signed and dated …………………………………………..……………………………………….</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "4. Board Certified PSYCHIATRIST REPORT:",
+   "html": "<p>4. <strong>Board Certified PSYCHIATRIST REPORT</strong>:</p>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Describes ALL items in #1-8 of PSYCHIATRIST requirements (including FAA SSRI “Rule-Outs.”)\n- Verifies the airman/FAA ATCS has been on the same medication at the same dose for a minimum of 3 months.........................................................................................................................\n- Is signed and dated…………………………………………………………………………………………..",
+   "html": "<ul><li>Describes ALL items in #1-8 of PSYCHIATRIST requirements (including FAA SSRI “Rule-Outs.”)</li><li>Verifies the airman/FAA ATCS has been <strong>on the same medication at the same dose</strong> for a minimum of 3 months.........................................................................................................................</li><li>Is signed and dated…………………………………………………………………………………………..</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "5. NEUROPSYCHOLOGIST REPORT:",
+   "html": "<p>5. <strong>NEUROPSYCHOLOGIST REPORT</strong>:</p>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Describes ALL items in #1-8 of the NEUROPSYCHOLOGIST requirements ………………………..\n- CogScreen-AE computerized report is attached …..…………………………………………………….\n- Additional neuropsychological testing (if performed or required) score summary sheet is attached.\n- Is signed and dated ………………………………………………..………………………………………..",
+   "html": "<ul><li>Describes ALL items in #1-8 of the NEUROPSYCHOLOGIST requirements ………………………..</li><li>CogScreen-AE computerized report is attached …..…………………………………………………….</li><li>Additional neuropsychological testing (if performed or required) score summary sheet is attached.</li><li>Is signed and dated ………………………………………………..………………………………………..</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 386,
+   "header": [
+    "N/A",
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>N/A</th><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "6. ADDITIONAL REPORTS",
+   "html": "<p>6<strong>. ADDITIONAL REPORTS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 386,
+   "text": "- Air Traffic Manager (ATM) for FAA ATCS (N/A for pilots)............................………….………\n- SSRI related (drug testing, therapy reports, etc.) …...…………………………………………..\n- Reports from other providers or for non-SSRI conditions that may require SI or SC.........….",
+   "html": "<ul><li>Air Traffic Manager (ATM) for FAA ATCS (N/A for pilots)............................………….………</li><li>SSRI related (drug testing, therapy reports, etc.) …...…………………………………………..</li><li>Reports from other providers or for non-SSRI conditions that may require SI or SC.........….</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "HIMS AME Signature___________________________ Date of Evaluation_______________",
+   "html": "<p>HIMS AME Signature___________________________ Date of Evaluation_______________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "IF ANY ITEMS ARE MISSING OR ARE INCOMPLETE, CERTIFICATION WILL BE DELAYED.",
+   "html": "<p><strong>IF ANY ITEMS ARE MISSING OR ARE INCOMPLETE, CERTIFICATION WILL BE DELAYED. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "IMPORTANT NOTE: While your exam is under review, continue to submit your Air Traffic Manager reports (ATCS) EVERY",
+   "html": "<p><strong>IMPORTANT NOTE: </strong>While your exam is under review, <strong>continue to submit your Air Traffic Manager reports (ATCS) EVERY </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 386,
+   "text": "3 months AND your HIMS AME evaluations and treating psychiatrist reports EVERY 6 months. This will ensure the FAA has the most current information and will decrease wait time. If we do not have current information when we review your case, we will have to request it, which will slow down your certification review.",
+   "html": "<p><strong>3 months AND your HIMS AME evaluations and treating psychiatrist reports EVERY 6 months. </strong>This will ensure the FAA has the most current information and will <strong>decrease wait time. </strong>If we do not have <strong>current information</strong> when we review your case, we will have to request it, which will slow down your certification review.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 387,
+   "text": "FAA CERTIFICATION AID – SSRI INITIAL Certification (Page 1 of 5)",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI INITIAL Certification </strong>(Page 1 of 5)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 387,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 387,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or clearance for FAA ATCS. You should strongly consider taking<strong> a copy to each evaluator so they understand what specific information is needed in their report to the FAA. </strong>If each item is not addressed by the corresponding provider, there may be a <strong>delay</strong> in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 387,
+   "header": [
+    "REPORT FROM",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)"
+   ],
+   "rows": [
+    [
+     "AIRMAN or FAA ATCS",
+     "1. A typed statement, in your own words, describing your mental health history, antidepressant use, and any other treatment. At a minimum, you must include the following information: - - b. Symptoms: when started, what type, and when/how you first sought treatment. - c. List all providers you have seen for any mental health condition(s) and dates. - d. List all medications you have taken, dates they were started and stopped, whether they helped or not. - e. List any other treatment(s) you have utilized, dates they were started and stopped, if they helped or not. - f. List dates and locations of any hospitalizations due to any mental health condition. If you have not had any, that must be stated. f. Describe your current status: current medication dose, how long you have been on it, and how you function both on and off the medication. 2. Sign and date your statement. 3. Provide copies of all of your medical/treatment records related to your mental health history (to include any treatment records for past related symptoms where you were NOT on SSRI as well as from the date you began treatment to the present) and sign two release forms * for the FAA to release a complete copy of your FAA medical file to your HIMS AME and to a board certified psychiatrist (if your treating physician is not a psychiatrist). *For ATCS release form information, contact your RFS office ."
+    ],
+    [
+     "HIMS AME Must be in letter/report format. Due to length and detail required, we cannot accept Block 60 notes for this section.",
+     "- 1. Evaluation MUST be a face-to-face, in person, and this must be noted in your report. - 2. Record review verification: Verify that you have reviewed (a) complete copy of the airman/FAA ATCS’s Agency medical file, (b) the treating physician and/or/psychiatrist reports (as required), and (c) neuropsychologist report (see below). If you reviewed additional clinical and/or mental health records provided by the airman/FAA ATCS, the reports should be noted as reviewed and submitted to the FAA. 3. Medication verification - - a. Verify the current medication name, dose, and how long has the airman/ FAA ATCS been on this medication at this dosage. - b. When was the most recent change in medication (discontinuation, dose, or change in medication type)? - c. Are additional changes in dose or medication recommended or anticipated? 4. Summarize your aeromedical impression and evaluation as a HIMS AME based on the face-to-face evaluation AND review of the supporting documents. a. If you do not agree with the supporting documents, or if you have additional concerns not noted in the documentation, please discuss your observations or concerns. b. Review and specifically comment on whether or not the airman/FAA ATCS has any of the FAA SSRI “Rule-Outs” (e.g., suicide attempt, etc. See the table on page 3 of this document). 5. Special Issuance/ Consideration Recommendation - a. Do you recommend Special Issuance (SI)/Special Consideration (SC) for this airman/FAA ATCS? - b. Do you have any clinical concerns or recommend a change in the treatment plan? - c. Will you agree to continue to follow the airman/FAA ATCS as his/her HIMS AME per FAA policy? If so, at what interval? 6. Agreement to immediately notify the FAA (for Airmen: 405-954-4821; for FAA ATCS contact the RFS office ) if there is: - a. Change in condition; - b. Deterioration in psychiatric status or stability; - c. Change in the medication dosage; or - d. Plan to reduce or discontinue any medication. 7. Additional conditions - a. Does this airman/FAA ATCS have ANY other medical conditions that are potentially disqualifying or required a special issuance/consideration? - b. Is all documentation present for those other conditions?"
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)</th></tr></thead><tbody><tr><td><p><strong>AIRMAN or </strong></p>\n<p><strong>FAA ATCS </strong></p></td><td><p>1. A typed statement, in your own words, describing your mental health history, antidepressant use, and any other treatment.</p>\n<p><strong> At a minimum, you must include the following information: </strong></p>\n<ul><li><ul><li>b. Symptoms: when started, what type, and when/how you first sought treatment.</li><li>c. List all providers you have seen for any mental health condition(s) and <strong>dates.</strong></li><li>d. List all medications you have taken, dates they were started and stopped, whether they helped or not.</li><li>e. List any other treatment(s) you have utilized, dates they were started and stopped, if they helped or not.</li><li>f. List dates and locations of any hospitalizations due to any mental health condition. If you have not had any, that must be stated.</li></ul></li></ul>\n<p>f. Describe your current status: current medication dose, how long you have been on it, and how you function both on and off the medication.</p>\n<p>2. Sign and date your statement.</p>\n<p>3. Provide copies of<strong> all of your medical/treatment records</strong> related to your mental health history (to include any treatment records for past related symptoms where you were NOT on SSRI as well as from the date you began treatment to the present) and <strong>sign </strong> <a href=\"https://www.faa.gov/ame_guide/app_process/general/release\" target=\"_blank\" rel=\"noopener\"><strong>two release forms</strong></a> <strong>* for the FAA to release a complete copy of your FAA medical file</strong> to your HIMS AME and to a board certified psychiatrist (if your treating physician is not a psychiatrist). *<strong>For ATCS release form </strong>information, contact your <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> .</p></td></tr><tr><td><p><strong>HIMS AME </strong></p>\n<p>Must be in letter/report format. Due to length and detail required, we cannot accept Block 60 notes for this section.</p></td><td><ul><li><strong>1. </strong>Evaluation MUST be a face-to-face, in person, and this must be noted in your report.</li><li><strong>2. Record review verification</strong>: Verify that you have reviewed <strong>(a) complete copy</strong> of the airman/FAA ATCS’s Agency medical file,<strong> (b) </strong>the treating physician and/or/psychiatrist reports (as required), and (<strong>c</strong>) neuropsychologist report (see below). If you reviewed additional clinical and/or mental health records provided by the airman/FAA ATCS, the reports should be noted as reviewed and submitted to the FAA.</li></ul>\n<p>3<strong>. Medication verification </strong></p>\n<ul><li><ul><li>a. Verify the current medication name, dose, and how long has the airman/ FAA ATCS been on this medication at this dosage.</li><li>b. When was the most recent change in medication (discontinuation, dose, or change in medication type)?</li><li>c. Are additional changes in dose or medication recommended or anticipated?</li></ul></li></ul>\n<p>4. <strong> Summarize your aeromedical impression and evaluation as a HIMS AME</strong> based on the face-to-face evaluation AND review of the supporting documents.</p>\n<p>a. If you do not agree with the supporting documents, or if you have additional concerns not noted in the documentation, please discuss your observations or concerns.</p>\n<p>b. Review and specifically comment on whether or not the airman/FAA ATCS has any of the FAA SSRI “Rule-Outs” (e.g., suicide attempt, etc. See the table on page 3 of this document).</p>\n<p>5<strong>. Special Issuance/ Consideration Recommendation </strong></p>\n<ul><li>a. Do you recommend Special Issuance (SI)/Special Consideration (SC) for this airman/FAA ATCS?</li><li>b. Do you have any clinical concerns or recommend a change in the treatment plan?</li><li>c. Will you agree to continue to follow the airman/FAA ATCS as his/her HIMS AME per FAA policy? If so, at what interval?</li></ul>\n<p>6<strong>. Agreement to immediately notify the FAA</strong> (for Airmen: 405-954-4821; for FAA ATCS contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> ) if there is:</p>\n<ul><li>a. Change in condition;</li><li>b. Deterioration in psychiatric status or stability;</li><li>c. Change in the medication dosage; or</li><li>d. Plan to reduce or discontinue any medication.</li></ul>\n<p>7. <strong>Additional conditions </strong></p>\n<ul><li>a. Does this airman/FAA ATCS have ANY other medical conditions that are potentially disqualifying or required a special issuance/consideration?</li><li>b. Is all documentation present for those other conditions?</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 388,
+   "text": "FAA CERTIFICATION AID – SSRI INITIAL Certification (Page 2 of 5)",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI INITIAL Certification </strong>(Page 2 of 5)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 388,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 388,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or clearance for FAA ATCS. You should strongly consider taking<strong> a copy to each evaluator so they understand what specific information is needed in their report to the FAA. </strong>If each item is not addressed by the corresponding provider, there may be a <strong>delay</strong> in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 388,
+   "header": [
+    "REPORT FROM",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)"
+   ],
+   "rows": [
+    [
+     "TREATING PHYSICIAN Use this section if the person prescribing your medication is NOT a board certified psychiatrist. (You will also have to submit an evaluation from a board certified psychiatrist - see next section.) IF the physician prescribing your medication is a BOARD CERTIFIED PSYCHIATRIST, you do not need to submit this “Treating Physician” section. Go to “Psychiatrist” section below.",
+     "A Current detailed evaluation report that summarizes clinical findings and status of how the airman/FAA ATCS is doing. At a minimum, it must include the following: 1. Qualifications: State your board certifications and specialty. 2. History: a. Review the overall symptom and treatment history, with a timeline of evaluations and treatments (including start and stop dates). b. Discuss the severity of the condition and any relapse/recurrence. 3. Medication - a. Current name and dose of medication. - b. How long has the airman/FAA ATCS been on this medication at this dosage? - c. Any side effects from the current medications? (If none, that should be stated.) - d. When was the most recent change in medication? (Dose, medication type, or discontinuation of medication) - e. Previous medications that have been tried. List name, dosage, dates of use, and presence or absence of any side effects and outcomes. - f. Are additional changes in dose or medication recommended or anticipated? 4. Diagnosis: a. Specify the current diagnosis (es). b. Discuss the severity of the condition 5. Summary, Treatment and follow-up recommendations: - a. Discuss the airman/FAA ATCS’s overall psychiatric and behavioral status and risk of recurrence. - b. How will this airman/FAA ATCS be followed? At what interval? - c. Do you have any clinical concerns or recommend a change in treatment plan? 6. Agreement to immediately notify the FAA (for airmen: 405-954-4821; for FAA ATCS, contact the RFS office ) if there are any: changes in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped."
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)</th></tr></thead><tbody><tr><td><p><strong>TREATING PHYSICIAN </strong></p>\n<p><strong>Use this section if</strong> the person prescribing your medication is NOT a board certified psychiatrist.</p>\n<p>(You will also have to submit an evaluation from a board certified psychiatrist - see next section.)</p>\n<p>IF the physician prescribing your medication is a BOARD CERTIFIED PSYCHIATRIST, you do not need to submit this “Treating Physician” section. Go to “Psychiatrist” section below.</p></td><td><p>A Current detailed evaluation report that summarizes clinical findings and status of how the airman/FAA ATCS is doing. At a minimum, it must include the following:</p>\n<p>1. <strong>Qualifications:</strong> State your board certifications and specialty.</p>\n<p>2. <strong>History</strong>:</p>\n<p>a. Review the overall symptom and treatment history, <strong>with a timeline of evaluations and treatments (including start and stop dates). </strong></p>\n<p>b. Discuss the severity of the condition and any relapse/recurrence<strong>. </strong></p>\n<p>3. <strong>Medication</strong></p>\n<ul><li>a. <strong>Current name and dose of medication</strong>.</li><li>b. How long has the airman/FAA ATCS been on this medication at this dosage?</li><li>c. Any side effects from the current medications? (If none, that should be stated.)</li><li>d. When was the most recent change in medication? (Dose, medication type, or discontinuation of medication)</li><li>e. Previous medications that have been tried. List name, dosage, dates of use, and presence or absence of any side effects and outcomes.</li><li>f. Are additional changes in dose or medication recommended or anticipated?</li></ul>\n<p>4.<strong> Diagnosis:</strong></p>\n<p>a. Specify the current diagnosis (es).</p>\n<p>b. Discuss the severity of the condition</p>\n<p>5. <strong>Summary, Treatment and follow-up recommendations: </strong></p>\n<ul><li>a. Discuss the airman/FAA ATCS’s overall psychiatric and behavioral status and risk of recurrence.</li><li>b. How will this airman/FAA ATCS be followed? At what interval?</li><li>c. Do you have any clinical concerns or recommend a change in treatment plan?</li></ul>\n<p>6. <strong>Agreement to immediately notify the FAA </strong>(for airmen: 405-954-4821; for FAA ATCS, contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> )<strong> if there are any: </strong>changes in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 389,
+   "text": "FAA CERTIFICATION AID – SSRI INITIAL Certification (Page 3 of 5)",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI INITIAL Certification </strong>(Page 3 of 5)</p>"
+  },
+  {
+   "type": "table",
+   "page": 389,
+   "header": [
+    "REPORT FROM",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)"
+   ],
+   "rows": [
+    [
+     "PSYCHIATRIST Must be a board certified psychiatrist (If your treating physician IS a board- certified psychiatrist, you should submit this section.)",
+     "A Current detailed evaluation report that summarizes clinical findings and status of how the airman/FAA ATCS is doing. At a minimum, it must include the following: 1. Qualifications: State your board certifications, specialty, and any other pertinent qualifications. 2. Records review: What documents were reviewed? a. Specify if using your own clinic notes and/or notes from other providers or hospitals. b. Verify if you were provided with and reviewed a complete copy of the airman/FAA ATCS’s FAA medical file. 3. History: a. Review the overall symptom and treatment history, with a timeline of evaluations and treatments (including start and stop dates). b. Discuss the severity of the condition and any relapse/recurrence. c. Each of the FAA SSRI “Rule-Outs” below MUST be individually addressed. The report must specifically detail if there have been any symptoms or any history of the following: 4. Medication - a. Current name and dose of medication. - b. How long has the airman/FAA ATCS been on this medication at this dosage? - c. Any side effects from the current medications? (If none, that should be stated.) - d. When was the most recent change in medication? (Dose, medication type, or discontinuation of medication.) - e. Previous medications that have been tried. List name, dosage, dates of use, and presence or absence of any side effects and outcomes. - f. Are additional changes in dose or medication recommended or anticipated? 5. Diagnosis: a. Specify the current diagnosis (es). b. Discuss any prior diagnostic questions or issues and explain why/how these are no longer under consideration or have been ruled-out. c. Discuss the severity of the condition, both current and historically. 6. Summary, Treatment and follow-up recommendations: - d. Discuss the airman/FAA ATCS’s overall psychiatric and behavioral status and risk of recurrence. - e. How will this airman/FAA ATCS be followed? At what interval? - f. Do you have any clinical concerns or recommend a change in treatment plan? 7. Agreement to immediately notify the FAA if there is any changes in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped. (For airmen: 405-954-4821; for FAA ATCS: contact the RFS office ) 8. Submit copies of all treatment records such as clinic or hospital notes for any period of time which the airman/FAA ATCS has sought treatment or taken medication. (You do not need to submit any records received from the FAA.)"
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)</th></tr></thead><tbody><tr><td><p><strong>PSYCHIATRIST </strong></p>\n<p>Must be a board certified psychiatrist</p>\n<p>(If your treating physician IS a board- certified psychiatrist, you should submit this section.)</p></td><td><p>A Current detailed evaluation report that summarizes clinical findings and status of how the airman/FAA ATCS is doing.</p>\n<p>At a minimum, it must include the following:</p>\n<p>1. <strong>Qualifications:</strong> State your board certifications, specialty, and any other pertinent qualifications.</p>\n<p>2.<strong> Records review: </strong>What documents were reviewed?</p>\n<p>a. Specify if using your own clinic notes and/or notes from other providers or hospitals.</p>\n<p>b. Verify if you were provided with and reviewed a complete copy of the airman/FAA ATCS’s FAA medical file.</p>\n<p>3. <strong>History</strong>:</p>\n<p>a. Review the overall symptom and treatment history, <strong>with a timeline of evaluations and treatments (including start and stop dates). </strong></p>\n<p>b. Discuss the severity of the condition and any relapse/recurrence<strong>. </strong></p>\n<p>c. Each of the <strong>FAA SSRI “Rule-Outs” below MUST be individually addressed. The report must specifically detail if there have been any symptoms or any history of the following: </strong></p>\n<p>4. <strong>Medication</strong></p>\n<ul><li>a. <strong>Current name and dose of medication</strong>.</li><li>b. How long has the airman/FAA ATCS been on this medication at this dosage?</li><li>c. Any side effects from the current medications? (If none, that should be stated.)</li><li>d. When was the most recent change in medication? (Dose, medication type, or discontinuation of medication.)</li><li>e. <strong>Previous </strong>medications that have been tried. List name, dosage, dates of use, and presence or absence of any side effects and outcomes.</li><li>f. Are additional changes in dose or medication recommended or anticipated?</li></ul>\n<p>5.<strong> Diagnosis:</strong></p>\n<p>a. Specify the current diagnosis (es).</p>\n<p>b. Discuss any prior diagnostic questions or issues and explain why/how these are no longer under consideration or have been ruled-out.</p>\n<p>c. Discuss the severity of the condition, both current and historically.</p>\n<p>6. <strong>Summary, Treatment and follow-up recommendations: </strong></p>\n<ul><li>d. Discuss the airman/FAA ATCS’s overall psychiatric and behavioral status and risk of recurrence.</li><li>e. How will this airman/FAA ATCS be followed? At what interval?</li><li>f. Do you have any clinical concerns or recommend a change in treatment plan?</li></ul>\n<p>7. <strong>Agreement to immediately notify the FAA if there is any</strong> changes in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped. <strong>(For airmen: 405-954-4821; for FAA ATCS: contact the</strong> <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\"><strong> RFS office</strong></a> <strong>)</strong></p>\n<p>8. <strong>Submit </strong>copies of all treatment records such as clinic or hospital notes for any period of time which the airman/FAA ATCS has sought treatment or taken medication. (You do not need to submit any records received from the FAA.)</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 389,
+   "text": "- ㅐ㤶㐳㑃㉔㠳礣卉1",
+   "html": "<ul><li><figure><img src=\"images/p389_fig3.png\" alt=\"ㅐ㤶㐳㑃㉔㠳礣卉1\" loading=\"lazy\"></figure></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 390,
+   "text": "FAA CERTIFICATION AID – SSRI INITIAL Certification (Page 4 of 5)",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI INITIAL Certification </strong>(Page 4 of 5)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 390,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 390,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/medical clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/medical clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 390,
+   "header": [
+    "REPORT FROM",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)"
+   ],
+   "rows": [
+    [
+     "NEUROPSYCHOLOGIST CogScreen Results AND Neurocognitive evaluation",
+     "The neuropsychologist report MUST address: 1. Qualifications: State your certifications and pertinent qualifications. 2. Records review: What documents were reviewed, if any? a. Specify clinic notes and/or notes from other providers or hospitals. b. Verify if you were provided with and reviewed a complete copy of the airman/FAA ATCS’s FAA medical file. 3. History: Items from the clinical, educational, training, social, family, legal, medical, or other history pertinent to the context of the neuropsychological testing and interpretation. 4. Testing results: a. CogScreen-AE information: - i. Date(s) of evaluation - ii. CogScreen-AE Session number. (Note: Session 1 should be for initial test only; retests should be Session 2 or incrementally higher.) - iii. Normative group used for comparison: - Major Carrier (age-corrected); or - Regional Carrier (NOT age-corrected) [also acceptable for GA pilots]; or - General Aviation Pilot Norms (age-corrected) b. CogScreen-AE results with specific review of and discussion when any threshold values exceeded: - i. LRPV (threshold: if score > 0.80) - ii. Base Rate for scores at-or-below the 5th percentile (threshold: if any T-scores < 40) [age corrected acceptable] - iii. Base Rate for scores at-or-below the 15th percentile (threshold: if any T-scores < 40) [age corrected acceptable] - iv. Taylor Aviation Factors (threshold: if any T-scores < 40) c. Results of any additional focused testing or a comprehensive test battery 5. Interpretation: a. The overall neurocognitive status of the airman/FAA ATCS b. Clinical diagnosis (es) suggested or established base on testing (if any). c. Discuss any weaknesses or concerning deficiencies that may potentially affect safe performance of pilot or aviation safety-related duties (if any). d. Discuss rationale and interpretation of any additional focused testing or comprehensive test battery that was performed. e. Any other concerns. 6. Recommendations: additional testing, follow-up testing, referral for medical evaluation (e.g., neurology evaluation and/or imaging), rehabilitation, etc. 7. Agreement to immediately notify the FAA (for airmen: 405-954-4821; for FAA ATCS contact the RFS office ) if there are any changes or deterioration in the airman/FAA ATCS’s psychological status or stability. 8. Submit the CogScreen-AE computerized summary report (approximately 13 pages) and summary score sheet for any additional testing (if performed)."
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)</th></tr></thead><tbody><tr><td><p><strong>NEUROPSYCHOLOGIST </strong></p>\n<p>CogScreen Results</p>\n<p>AND</p>\n<p>Neurocognitive evaluation</p></td><td><p><strong> The neuropsychologist report MUST address: </strong></p>\n<p>1. <strong>Qualifications:</strong> State your certifications and pertinent qualifications.</p>\n<p>2.<strong> Records review: </strong>What documents were reviewed, if any?</p>\n<p>a. Specify clinic notes and/or notes from other providers or hospitals.</p>\n<p>b. Verify if you were provided with and reviewed a <strong>complete copy</strong> of the airman/FAA ATCS’s FAA medical file.</p>\n<p>3. <strong>History</strong>: Items from the clinical, educational, training, social, family, legal, medical, or other history pertinent to the context of the neuropsychological testing and interpretation.</p>\n<p>4. <strong>Testing results: </strong></p>\n<p>a. <strong>CogScreen-AE information: </strong></p>\n<ul><li>i. Date(s) of evaluation</li><li>ii. CogScreen-AE Session number. (Note: Session 1 should be for initial test only; retests should be Session 2 or incrementally higher.)</li><li>iii. Normative group used for comparison:</li><li>Major Carrier (age-corrected); or</li><li>Regional Carrier (NOT age-corrected) [also acceptable for GA pilots]; or</li><li>General Aviation Pilot Norms (age-corrected)</li></ul>\n<p>b. <strong>CogScreen-AE results with specific review of and discussion when any threshold values exceeded: </strong></p>\n<ul><li>i. LRPV (threshold: if score &gt; 0.80)</li><li>ii. Base Rate for scores at-or-below the 5th percentile (threshold: if any T-scores &lt; 40) [age corrected acceptable]</li><li>iii. Base Rate for scores at-or-below the 15th percentile (threshold: if any T-scores &lt; 40) [age corrected acceptable]</li><li>iv. Taylor Aviation Factors (threshold: if any T-scores &lt; 40)</li></ul>\n<p>c. Results of any additional focused testing or a comprehensive test battery</p>\n<p>5. <strong>Interpretation: </strong></p>\n<p>a. The overall neurocognitive status of the airman/FAA ATCS</p>\n<p>b. Clinical diagnosis (es) suggested or established base on testing (if any).</p>\n<p>c. Discuss any weaknesses or concerning deficiencies that may potentially affect safe performance of pilot or aviation safety-related duties (if any).</p>\n<p>d. Discuss rationale and interpretation of any additional focused testing or comprehensive test battery that was performed.</p>\n<p>e. Any other concerns.</p>\n<p>6. <strong>Recommendations:</strong> additional testing, follow-up testing, referral for medical evaluation (e.g., neurology evaluation and/or imaging), rehabilitation, etc.</p>\n<p>7. <strong>Agreement to immediately notify the FAA </strong>(for airmen: 405-954-4821; for FAA ATCS contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> )<strong> if there are any</strong> changes or deterioration in the airman/FAA ATCS’s psychological status or stability.</p>\n<p>8. <strong>Submit</strong> the CogScreen-AE computerized summary report (approximately 13 pages) and summary score sheet for any additional testing (if performed).</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 391,
+   "text": "FAA CERTIFICATION AID – SSRI INITIAL Certification (Page 5 of 5)",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI INITIAL Certification </strong>(Page 5 of 5)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 391,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 391,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/medical clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification/medical clearance requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider, there may be a delay in the processing of your medical certification or clearance until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 391,
+   "header": [
+    "REPORT FROM",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)"
+   ],
+   "rows": [
+    [
+     "AIR TRAFFIC MANAGER (ATM) FAA ATCS employees FAA ATCS Applicant for Hire – Not applicable",
+     "Report should address: For FAA ATCS: - 1. Issues related to safety and safe operations. - 2. Interaction with other FAA ATCSs. - 3. Mood and behavioral changes. - 4. Any other concerns. For Pilots: Chief pilot reports no longer required."
+    ],
+    [
+     "REPORTS FROM ADDITIONAL PROVIDERS OR REPORTS REGARDING OTHER CONDITIONS",
+     "Supplemental reports (if any) that may be related to the condition for which the SSRI is prescribed: - Any drug testing results - Psychotherapist records and reports - Social worker reports Special Issuance/ Special Consideration conditions: The airman/FAA ATCS should bring reports and documentation for any other conditions that may require Special Issuance/Special Consideration to the HIMS AME for review. CACI conditions (airman only): The airman should bring reports or other documentation listed on the CACI worksheet to the HIMS AME for review."
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI INITIAL Certification/Clearance Evaluation)</th></tr></thead><tbody><tr><td><p><strong>AIR TRAFFIC MANAGER (ATM) </strong></p>\n<p>FAA ATCS employees</p>\n<p>FAA ATCS Applicant for Hire – Not applicable</p></td><td><p><strong>Report should address</strong>:</p>\n<p><strong>For FAA ATCS: </strong></p>\n<ul><li>1. Issues related to safety and safe operations.</li><li>2. Interaction with other FAA ATCSs.</li><li>3. Mood and behavioral changes.</li><li>4. Any other concerns.</li></ul>\n<p>For Pilots: Chief pilot reports no longer required.</p></td></tr><tr><td><p><strong>REPORTS FROM </strong></p>\n<p><strong>ADDITIONAL PROVIDERS </strong></p>\n<p><strong>OR </strong></p>\n<p><strong>REPORTS REGARDING OTHER CONDITIONS </strong></p></td><td><p><strong>Supplemental reports (if any) that may be related to the condition for which the SSRI is prescribed:</strong></p>\n<ul><li>Any drug testing results</li><li>Psychotherapist records and reports</li><li>Social worker reports</li></ul>\n<p><strong>Special Issuance/ Special Consideration conditions: The airman/FAA ATCS should bring reports and documentation for any other conditions that may require Special Issuance/Special Consideration to the HIMS AME for review. </strong></p>\n<p><strong>CACI conditions (airman only): The airman should bring reports or other documentation listed on the CACI worksheet to the HIMS AME for review. </strong></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "SSRI RECERTIFICATION/FOLLOW-UP CLEARANCE",
+   "html": "<p><strong>SSRI RECERTIFICATION/FOLLOW-UP CLEARANCE </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "(Updated 12/28/2022)",
+   "html": "<p>(Updated 12/28/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "Policy Change in SSRI Program Cognitive Testing Requirements for Renewal of Special Issuance:",
+   "html": "<p>Policy Change in SSRI Program Cognitive Testing Requirements for Renewal of Special Issuance:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "After careful study of data from 425 pilots in the SSRI Program, the FAA has determined that the neuropsychologist evaluation and routine CogScreen-AE administration are no longer necessary for RENEWAL of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter. This policy change does NOT affect initial evaluations and the current AME checklists and Specifications for Neuropsychological Evaluations should still be used. This policy is effective immediately (12/15/2022).",
+   "html": "<p>After careful study of data from 425 pilots in the SSRI Program, the FAA has determined that the neuropsychologist evaluation and routine CogScreen-AE administration are no longer necessary for<strong> RENEWAL</strong> of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter. This policy change does NOT affect <strong>initial</strong> evaluations and the current AME checklists and Specifications for Neuropsychological Evaluations should still be used. This policy is effective immediately (12/15/2022).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "Frequently Asked Questions (FAQs)",
+   "html": "<p><strong>Frequently Asked Questions (FAQs) </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- 1. Does the policy change apply to all classes of pilots and ATCS?",
+   "html": "<ul><li><strong>1. Does the policy change apply to all classes of pilots and ATCS? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "Yes.",
+   "html": "<p>Yes.</p>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- 2. Is a Neuropsychology follow up evaluation still required?",
+   "html": "<ul><li><strong>2. Is a Neuropsychology follow up evaluation still required? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "No. This policy change eliminates both the neuropsychologist evaluation and CogScreen for follow up evaluations (unless the pilot/ATCS receives a specific request for follow-up).",
+   "html": "<p>No. This policy change eliminates both the neuropsychologist evaluation and CogScreen for follow up evaluations (unless the pilot/ATCS receives a specific request for follow-up).</p>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- 3. My pilot/ATCS is currently on an Authorization for the SSRI program. Their current Authorization letter states they need CogScreen. Can I issue without a follow-up CogScreen and Neuropsychology evaluation based on the 12/15/2022 policy change?",
+   "html": "<ul><li><strong>3. My pilot/ATCS is currently on an Authorization for the SSRI program. Their current Authorization letter states they need CogScreen. Can I issue without a follow-up CogScreen and Neuropsychology evaluation based on the 12/15/2022 policy change? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "Yes. If all other items of the HIMS AME Checklist – SSRI Recertification/Follow-Up Clearance are in the clear column and they are otherwise qualified, issue with a 6-month time limitation. Submit all information to the FAA for review.",
+   "html": "<p>Yes. If all other items of the HIMS AME Checklist – SSRI Recertification/Follow-Up Clearance are in the clear column and they are otherwise qualified, issue with a 6-month time limitation. Submit all information to the FAA for review.</p>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- 4. What will happen when the case is reviewed at the FAA?",
+   "html": "<ul><li><strong>4. What will happen when the case is reviewed at the FAA? </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- All SSRI cases are reviewed by a FAA psychiatrist.\n- As each case is reviewed, a new Authorization letter may be generated.",
+   "html": "<ul><li>All SSRI cases are reviewed by a FAA psychiatrist.</li><li>As each case is reviewed, a new Authorization letter may be generated.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "In most cases, the requirement for a follow-up CogScreen will be removed.",
+   "html": "<p>In most cases, the requirement for a follow-up CogScreen will be removed.</p>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- For a small number of cases, a follow up CogScreen may be required. This information will be on the Authorization Letter.",
+   "html": "<ul><li>For a small number of cases, a follow up CogScreen may be required. This information will be on the Authorization Letter.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 392,
+   "text": "- 5. If my pilot/ATCS receives a letter asking for a new CogScreen, can they fly in the meantime?",
+   "html": "<ul><li><strong>5. If my pilot/ATCS receives a letter asking for a new CogScreen, can they fly in the meantime? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "Yes, if otherwise qualified. There will be some overlap in letters that were sent out prior to 12/15/2022 which asked for a follow-up CogScreen. If the pilot/ATCS has already completed the CogScreen from the previous letter, the AME should review and send it to the FAA.",
+   "html": "<p>Yes, if otherwise qualified. There will be some overlap in letters that were sent out prior to 12/15/2022 which asked for a follow-up CogScreen. If the pilot/ATCS has already completed the CogScreen from the previous letter, the AME should review and send it to the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 392,
+   "text": "If the pilot/ATCS has provided all items to the HIMS AME except the CogScreen and Neuropsychology evaluation (for follow-up SSRI Authorization), the AME can issue if all items are in the clear column of the HIMS AME Checklist – SSRI Recertification/ Follow-Up Clearance .",
+   "html": "<p>If the pilot/ATCS has provided all items to the HIMS AME <strong>except the CogScreen and Neuropsychology evaluation </strong>(for follow-up SSRI Authorization), the AME can issue if all items are in the clear column of the <a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf\" target=\"_blank\" rel=\"noopener\">HIMS AME Checklist – SSRI Recertification/ Follow-Up Clearance</a> .</p>"
+  },
+  {
+   "type": "list",
+   "page": 393,
+   "text": "- 6. Is there a possibility that the aviator will be grounded due to the results of the CogScreen results?",
+   "html": "<ul><li><strong>6. Is there a possibility that the aviator will be grounded due to the results of the CogScreen results? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 393,
+   "text": "If the results were severe and were thought to identify significant cognitive deficits, the Special Issuance would be temporarily withdrawn while further evaluation is completed.",
+   "html": "<p>If the results were severe and were thought to identify significant cognitive deficits, the Special Issuance would be temporarily withdrawn while further evaluation is completed.</p>"
+  },
+  {
+   "type": "list",
+   "page": 393,
+   "text": "- 7. Does the policy change apply to pilots/ATCS who are not yet on an Authorization for SSRI?",
+   "html": "<ul><li><strong>7. Does the policy change apply to pilots/ATCS who are not yet on an Authorization for SSRI? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 393,
+   "text": "Not at this time. There is no change to the current INITIAL Authorization requirements.",
+   "html": "<p>Not at this time. There is no change to the current INITIAL Authorization requirements.</p>"
+  },
+  {
+   "type": "figure",
+   "page": 394,
+   "text": "ㅐㄷ㠵礣卉1",
+   "html": "<figure><img src=\"images/p394_fig4.png\" alt=\"ㅐㄷ㠵礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 394,
+   "text": "________________________________________________________________________",
+   "html": "<p><strong>________________________________________________________________________ </strong></p>"
+  },
+  {
+   "type": "figure",
+   "page": 394,
+   "text": "ㅐㄷㄶ礣卉1",
+   "html": "<figure><img src=\"images/p394_fig5.png\" alt=\"ㅐㄷㄶ礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 394,
+   "text": "Note: See important update in black boxes above. Neuropsychologist report and routine CogScreen-AE administration are no longer necessary for RENEWAL of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter. This policy change does NOT affect initial evaluations and the current AME checklists and neuropsychological protocol should still be used. (Policy change 12/15/2022)",
+   "html": "<p><strong>Note: </strong>See important update in<strong> black boxes </strong>above. Neuropsychologist report and routine CogScreen-AE administration are no longer necessary for<strong> RENEWAL</strong> of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter. This policy change does NOT affect<strong> initial </strong>evaluations and the current AME checklists and neuropsychological protocol should still be used. (Policy change 12/15/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "HIMS AME Checklist - SSRI Recertification /Follow Up Clearance (Updated 08/26/2026)",
+   "html": "<p><strong>HIMS AME Checklist - SSRI Recertification /Follow Up Clearance</strong> (Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "[Note: SSRI now called Antidepressant]",
+   "html": "<p>[Note: SSRI now called Antidepressant]</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "Name ____________________________ Airman PI#____________________________",
+   "html": "<p>Name ____________________________ Airman PI#____________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "Instructions to the HIMS AME:",
+   "html": "<p><strong>Instructions to the HIMS AME: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- Address the following items based on your in-office exam and documentation review;\n- Submit this Checklist (signed and dated by the HIMS AME); AND include supporting documentation reviewed to complete this Checklist (including your HIMS AME report) within 14 days to:",
+   "html": "<ul><li>Address the following items based on your in-office exam and documentation review;</li><li>Submit this Checklist (signed and dated by the HIMS AME); AND include supporting documentation reviewed to complete this Checklist (including your HIMS AME report) within 14 days to:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "AIRMAN",
+   "html": "<p><strong>AIRMAN</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "FAA, Civil Aerospace Medical Institute, Bldg. 13",
+   "html": "<p>FAA, Civil Aerospace Medical Institute, Bldg. 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "FAA ATCS: Regional Flight Surgeon (RFS) office",
+   "html": "<p><strong>FAA ATCS: </strong> <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">Regional Flight Surgeon (RFS) office</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "Aerospace Medical Certification Division, Room 308 - AAM-300",
+   "html": "<p>Aerospace Medical Certification Division, Room 308 - AAM-300</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "PO Box 25082",
+   "html": "<p>PO Box 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "I reviewed the airman’s SSRI Authorization or the FAA ATCS’s Special Consideration Letter dated: ________________",
+   "html": "<p>I reviewed the airman’s SSRI Authorization or the FAA ATCS’s Special Consideration Letter dated: ________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "(Date of Letter)",
+   "html": "<p>(Date of Letter)</p>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- - 1. HIMS AME FACE-TO-FACE, IN OFFICE EVALUATION: Required EVERY 6 months for ALL CLASSES",
+   "html": "<ul><li><ul><li>1. <strong>HIMS AME FACE-TO-FACE, IN OFFICE EVALUATION: Required EVERY 6 months for ALL CLASSES</strong></li></ul></li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "No",
+    "Yes"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- Interval visit summaries (if any) are unfavorable or reflect concerns………………………………………\n- Any concerns about the airman/FAA ATCS’s current psychiatric status based on your clinical interview, evaluation, and review of reports? ………………………………………………….....................\n- Any new psychiatric conditions identified or change in medication or dose during this period? ............\n- Any abnormal physical exam or mental exam findings? ……………………………………………………\n- Any NEW condition(s) that would require Special Issuance/Consideration? (Do not include any new CACI qualified condition.) ……………………………………………………………………………………….",
+   "html": "<ul><li>Interval visit summaries (if any) are unfavorable or reflect concerns………………………………………</li><li>Any concerns about the airman/FAA ATCS’s current psychiatric status based on your clinical interview, evaluation, and review of reports? ………………………………………………….....................</li><li>Any new psychiatric conditions identified or change in medication or dose during this period? ............</li><li>Any abnormal physical exam or mental exam findings? ……………………………………………………</li><li>Any NEW condition(s) that would require Special Issuance/Consideration? (Do not include any new CACI qualified condition.) ……………………………………………………………………………………….</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- - 2. TREATING PSYCHIATRIST REPORT: Required EVERY 6 months for ALL CLASSES",
+   "html": "<ul><li><ul><li>2. <strong>TREATING PSYCHIATRIST REPORT</strong>: <strong>Required EVERY 6 months for ALL CLASSES </strong></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "OR",
+   "html": "<p>OR</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "HIMS PSYCHIATRIST REPORT plus PRESCRIBING PHYSICIAN REPORT",
+   "html": "<p><strong>HIMS PSYCHIATRIST REPORT </strong>plus <strong>PRESCRIBING PHYSICIAN REPORT </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- Report(s) is/are favorable with no anticipated or interim treatment changes ……………………………..\n- The airman/FAA ATCS is on the same medication at the same dose stated in the Authorization letter or Special Consideration Letter.………...........................................................................................",
+   "html": "<ul><li>Report(s) is/are favorable with no anticipated or interim treatment changes ……………………………..</li><li>The airman/FAA ATCS is <strong>on the same medication at the same dose</strong> stated in the Authorization letter or Special Consideration Letter.………...........................................................................................</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- - 3. NEUROPSYCHOLOGIST REPORT and routine CogScreen-AE administration are no longer necessary for renewal of an SSRI special issuance, except when clinically indicated or specified on the Authorization Letter /Special Consideration Letter. (Policy change 12/15/2022)",
+   "html": "<ul><li><ul><li>3. <strong>NEUROPSYCHOLOGIST REPORT</strong> and routine CogScreen-AE administration are no longer necessary for<strong> renewal</strong> of an SSRI special issuance, <strong>except when clinically indicated or specified on the Authorization Letter /Special Consideration Letter</strong>. (Policy change 12/15/2022)</li></ul></li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "N/A",
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>N/A</th><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "If indicated/specified, answer the following items:",
+   "html": "<p>If indicated/specified, answer the following items:</p>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- Concludes NO aeromedically significant cognitive deficits or adverse changes? ....................................................\n- CogScreen is attached? ……………………………………………………………………………………………………..\n- Additional neuropsych testing (if performed or required) is attached? .....................................................................",
+   "html": "<ul><li>Concludes NO aeromedically significant cognitive deficits or adverse changes? ....................................................</li><li>CogScreen is attached? ……………………………………………………………………………………………………..</li><li>Additional neuropsych testing (if performed or required) is attached? .....................................................................</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "4. (ATCS only) AIR TRAFFIC MANAGER (ATM) REPORT(S): Required EVERY 3 months",
+   "html": "<p>4<strong>. (ATCS only) AIR TRAFFIC MANAGER (ATM) REPORT(S)</strong>: <strong>Required EVERY 3 months </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "N/A",
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>N/A</th><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "(Mark N/A for pilots) Reports are favorable? .........................…………………………………………...",
+   "html": "<p>(Mark N/A for pilots) Reports are favorable? .........................…………………………………………...</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "If any report is unfavorable immediately FAA RFS office .",
+   "html": "<p>If any report is unfavorable immediately FAA <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "5. ADDITIONAL REPORTS required by Authorization letter",
+   "html": "<p>5<strong>. ADDITIONAL REPORTS required by Authorization letter </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "N/A",
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>N/A</th><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 395,
+   "text": "- SSRI-related (drug testing, therapy reports, etc.) reports are favorable…………….................\n- Reports required for other non-SSRI conditions meet Authorization requirements……………",
+   "html": "<ul><li>SSRI-related (drug testing, therapy reports, etc.) reports are favorable…………….................</li><li>Reports required for other non-SSRI conditions meet Authorization requirements……………</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 395,
+   "header": [
+    "Yes",
+    "No"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Yes</th><th>No</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "6. I have no other concerns about this airman/FAA ATCS and I recommend re-certification for Special Issuance/Consideration……………………………………………………………………………………….................",
+   "html": "<p>6. I have no other concerns about this airman/FAA ATCS and I recommend re-certification for Special Issuance/Consideration……………………………………………………………………………………….................</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "______________________________ __________________________________",
+   "html": "<p>______________________________ __________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "HIMS AME Signature Date of Evaluation",
+   "html": "<p>HIMS AME Signature Date of Evaluation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 395,
+   "text": "For Airman: If ALL items fall into the clear column, the AME may issue with the time limitation specified in the Authorization Letter or Special Consideration Letter. If Any Single Item falls into the shaded column, the AME MUST DEFER or contact the FAA and Explain in the HIMS report. For FAA ATCS: When Checklist is complete, immediately contact RFS with results and submit all documents within 14 days.",
+   "html": "<p><strong>For Airman:</strong> If <strong>ALL</strong> items fall into the clear column, the AME may issue with the time limitation specified in the Authorization Letter or Special Consideration Letter. If <strong>Any Single </strong>Item falls into the shaded column, the <strong>AME MUST DEFER</strong> or contact the FAA and Explain in the HIMS report. <strong>For FAA ATCS</strong>: When Checklist is complete, immediately contact RFS with results and submit all documents within 14 days.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 396,
+   "text": "FAA CERTIFICATION AID – SSRI Recertification",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI Recertification </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 396,
+   "text": "Page 1 of 2 (Updated 08/26/2026)",
+   "html": "<p>Page 1 of 2 (Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 396,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider there may be a delay in the processing of your medical certification until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking<strong> a copy to each evaluator so they understand what specific information is needed in their report to the FAA. </strong>If each item is not addressed by the corresponding provider there may be a <strong>delay</strong> in the processing of your medical certification until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 396,
+   "header": [
+    "REPORT FROM",
+    "REQUIRED INTERVAL",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI Recertification/ Follow Up Clearance)"
+   ],
+   "rows": [
+    [
+     "HIMS AME All classes and FAA ATCS",
+     "Every 6 months or as stated in the airman Authorization letter Or FAA ATCS Special Consideration Letter",
+     "1. Must be a face-to-face, in person evaluation every 6 months. 2. Summarize findings from additional interim evaluations that were performed by any other venue (phone/ video/ email), either at the AME’s discretion or as required by the Authorization or Special Consideration Letter (every 1-3 months). 3. Summarize your aeromedical impression and evaluation as a HIMS AME based on the face-to-face evaluation AND review of the supporting documents. 4. If you do not agree with the supporting documents, or if you have additional concerns not noted in the documentation, please discuss your observations or concerns. 5. State if the airman/FAA ATCS meets all the requirements of the Authorization Letter/Special Consideration Letter or describe why they do not. 6. Review and comment if there has been any change in the dose, type, or discontinuation of medication stated in the Authorization Letter/ Special Consideration Letter. 7. Do you recommendation continued Special Issuance/Special Consideration in this airman/FAA ATCS? 8. Agreement to continue to serve as the airman/FAA ATCS’s HIMS AME and follow this airman/FAA ATCS per FAA policy. 9. Agreement to immediately notify the FAA (for airmen: 405-954-4821; for FAA ATCS contact the RFS office ) if there is any change in condition, deterioration in psychiatric status or stability, if the medication dosage has changed, or there is a plan to reduce or discontinue any medication. 10. Using the HIMS AME Checklist –SSRI Recertification/ Follow Up Clearance , comment on any items that fall into the shaded category. 11. Submit the SSRI check list, your HIMS AME written report, and all required supporting documentation that you reviewed with your package."
+    ],
+    [
+     "PSYCHIATRIST INTERIM HISTORY REPORT (or treating physician as noted in the Authorization letter) If the prescribing physician is not a psychiatrist, items #2-7 must be submitted from the prescribing physician IN ADDITION TO the psychiatrist report.",
+     "Every 6 months or per Authorization Letter Or FAA ATCS Special Consideration Letter",
+     "1. Summarize clinical findings and status of how the airman/FAA ATCS is doing. 2. Have there been any new symptoms or hospitalizations? 3. Did a change in dose or medication occur or is one recommended or anticipated? 4. Have there been any clinical concerns or changes in treatment plan? 5. Has the clinical diagnosis changed? 6. Agreement to immediately notify the FAA (for Airmen: 405-954-4821; for FAA ATCS: contact the RFS office ) if there is any change in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped. 7. Interval treatment records such as clinic or hospital notes should also be submitted."
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>REQUIRED INTERVAL</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI Recertification/ Follow Up Clearance)</th></tr></thead><tbody><tr><td><p><strong>HIMS AME </strong></p>\n<p><strong>All classes </strong></p>\n<p><strong>and FAA ATCS </strong></p></td><td><p>Every 6 months or as stated in the airman Authorization letter</p>\n<p>Or FAA ATCS Special Consideration Letter</p></td><td><p>1. Must be a face-to-face, in person evaluation every 6 months.</p>\n<p>2. Summarize findings from additional interim evaluations that were performed by any other venue (phone/ video/ email), either at the AME’s discretion or as required by the Authorization or Special Consideration Letter (every 1-3 months).</p>\n<p>3. Summarize your aeromedical impression and evaluation as a HIMS AME based on the face-to-face evaluation AND review of the supporting documents.</p>\n<p>4. If you do not agree with the supporting documents, or if you have additional concerns not noted in the documentation, please discuss your observations or concerns.</p>\n<p>5. State if the airman/FAA ATCS meets all the requirements of the Authorization Letter/Special Consideration Letter or describe why they do not.</p>\n<p>6. Review and comment if there has been any change in the <strong>dose, type, or discontinuation of medication</strong> stated in the Authorization Letter/ Special Consideration Letter.</p>\n<p>7. Do you recommendation continued Special Issuance/Special Consideration in this airman/FAA ATCS?</p>\n<p>8. Agreement to continue to serve as the airman/FAA ATCS’s HIMS AME and follow this airman/FAA ATCS per FAA policy.</p>\n<p>9. Agreement to immediately notify the FAA (for airmen: 405-954-4821; for FAA ATCS contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> ) <strong>if there is any</strong> change in condition, deterioration in psychiatric status or stability, if the medication dosage has changed, or there is a plan to reduce or discontinue any medication.</p>\n<p>10. Using the <a href=\"https://www.faa.gov/ame_guide/media/HIMS_AME_Checklist_SSRI_Recertification.pdf\" target=\"_blank\" rel=\"noopener\">HIMS AME Checklist –SSRI Recertification/ Follow Up Clearance</a> , comment on any items that fall into the shaded category.</p>\n<p>11. Submit the SSRI check list, your HIMS AME written report, and all required supporting documentation that you reviewed with your package.</p></td></tr><tr><td><p><strong>PSYCHIATRIST </strong></p>\n<p><strong>INTERIM HISTORY REPORT </strong></p>\n<p>(or treating physician as noted in the Authorization letter)</p>\n<p>If the prescribing physician is not a psychiatrist, items #2-7 must be submitted from the prescribing physician IN ADDITION TO the psychiatrist report.</p></td><td><p>Every 6 months or per Authorization Letter</p>\n<p>Or FAA ATCS Special Consideration Letter</p></td><td><p>1. Summarize clinical findings and status of how the airman/FAA ATCS is doing.</p>\n<p>2. Have there been any new symptoms or hospitalizations?</p>\n<p>3. Did a change in dose or medication occur or is one recommended or anticipated?</p>\n<p>4. Have there been any clinical concerns or changes in treatment plan?</p>\n<p>5. Has the clinical diagnosis changed?</p>\n<p>6. <strong>Agreement to immediately notify the FAA </strong>(for Airmen<strong>:</strong> 405-954-4821; for FAA ATCS: contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> )<strong> if there is any</strong> change in the airman/FAA ATCS’s condition, dosage, change in medication or if the medication is stopped.</p>\n<p>7. Interval treatment records such as clinic or hospital notes should also be submitted.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 397,
+   "text": "FAA CERTIFICATION AID – SSRI Recertification",
+   "html": "<p><strong>FAA CERTIFICATION AID – SSRI Recertification</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 397,
+   "text": "Page 1 of 2 Updated 08/26/2026)",
+   "html": "<p>Page 1 of 2 Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 397,
+   "text": "The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking a copy to each evaluator so they understand what specific information is needed in their report to the FAA. If each item is not addressed by the corresponding provider there may be a delay in the processing of your medical certification until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.",
+   "html": "<p>The following information is to assist your treating physician/ provider who may be unfamiliar with FAA medical certification requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on a medical certificate for airmen or medical clearance for FAA ATCS. You should strongly consider taking<strong> a copy to each evaluator so they understand what specific information is needed in their report to the FAA. </strong>If each item is not addressed by the corresponding provider there may be a <strong>delay</strong> in the processing of your medical certification until that information is submitted. Additional information such as clinic notes or explanations should also be submitted as needed. All reports must be CURRENT (within the last 90 days) for FAA purposes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 397,
+   "header": [
+    "REPORT FROM",
+    "REQUIRED INTERVAL",
+    "MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI Recertification/ Follow Up Clearance)"
+   ],
+   "rows": [
+    [
+     "CLINICAL PSYCHOLOGIST OR NEUROPSYCHOLOGIST* *Neuropsychologist report and routine CogScreen-AE administration are no longer necessary for RENEWAL of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter. (Policy change 12/15/2022)",
+     "1st and 2nd class: Every 12 months or per Authorization Letter FAA ATCS: Every 12 months or per the Special Consideration Letter 3rd class: Every 24 months or per Authorization Letter",
+     "CogScreen information results that must be addressed in the narrative: 1. Specify the norm used: - Major Carrier (age-corrected); or - Regional Carrier (NOT age-corrected) [also acceptable for GA pilots]; or - General Aviation Pilot Norms (age-corrected) 2. Specify Session Number administered (listed on Page 1 and Page 2 of printout). Session 1 for initial test only; retests should be Session 2 or incrementally higher. Clinical report MUST specifically comment on the following CogScreen items. If they have changed or are not normal, the narrative must discuss these findings and if they are of any clinical or aeromedical concern: 1. Any increase in LRPV (page 4) 2. Taylor Factor scores (page 5) 3. Base Rate for Speed, Accuracy, or Process (page 4) The psychologist or neuropsychologist report should also specifically mention: 1. The overall neurocognitive status of the airman/FAA ATCS. 2. Any adverse neurocognitive findings or a decline in condition. 3. If additional focused neuropsych testing is/was required or recommended. If any additional testing was performed, the report must explain why the testing was performed, the results, and how that fits into the airman/FAA ATCS’s overall neurocognitive status. 4. Any other concerns or absence of concerns. 5. Agreement to immediately notify the FAA (for Airmen: 405-954-4821; for FAA ATCS: contact the RFS office ) if there is any change or deterioration in the psychological status or stability in the airman/FAA ATCS’s condition. 6. Submit the entire CogScreen report (approximately 13 pages) and any additional testing (if performed)."
+    ],
+    [
+     "AIR TRAFFIC MANAGER (ATM) FAA ATCS employee ATCS Applicant for hire – Not applicable",
+     "FAA ATCS: Every 3 months (bring cumulative reports to AME evaluation every 6 months.)",
+     "Report must address: For FAA ATCS: - 1. Issues related to safety and safe operations. - 2. Interaction with other FAA ATCSs. - 3. Mood and behavioral changes. - 4. Any other concerns. For Pilots: Chief pilot reports no longer required."
+    ],
+    [
+     "ADDITIONAL PROVIDERS Additional reports for SSRI or any other condition noted in Authorization or FAA ATCS Special Consideration Letter",
+     "Every 6 months or per Authorization or FAA ATCS Special Consideration Letter",
+     "Varies. See the Authorization Letter or Special Consideration Letter. Include any drug testing results, therapist follow up reports, social worker reports, etc. If the prescribing physician is NOT a psychiatrist, reports from the prescribing physician and their clinic office notes must be submitted in addition to the required psychiatric evaluations (see above). If the airman/FAA ATCS has other non-SSRI conditions that require a special issuance/consideration, those reports should also be submitted according to the Authorization or FAA ATCS Special Consideration Letter."
+    ]
+   ],
+   "html": "<table><thead><tr><th>REPORT FROM</th><th>REQUIRED INTERVAL</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (SSRI Recertification/ Follow Up Clearance)</th></tr></thead><tbody><tr><td><p><strong>CLINICAL PSYCHOLOGIST </strong></p>\n<p><strong>OR </strong></p>\n<p><strong>NEUROPSYCHOLOGIST* </strong></p>\n<p>*Neuropsychologist report and routine CogScreen-AE administration are no longer necessary for<strong> RENEWAL</strong> of an SSRI special issuance, except when clinically indicated or specified on the Authorization/Special Consideration Letter.</p>\n<p>(Policy change 12/15/2022)</p></td><td><p>1st and 2nd class: Every 12 months or per Authorization Letter</p>\n<p>FAA ATCS: Every 12 months or per the Special Consideration Letter</p>\n<p>3rd class: Every 24 months or per Authorization Letter</p></td><td><p><strong>CogScreen information results that must be addressed in the narrative: </strong></p>\n<p>1. Specify the norm used:</p>\n<ul><li>Major Carrier (age-corrected); or</li><li>Regional Carrier (NOT age-corrected) [also acceptable for GA pilots]; or</li><li>General Aviation Pilot Norms (age-corrected)</li></ul>\n<p>2. Specify Session Number administered (listed on Page 1 and Page 2 of printout).</p>\n<p>Session 1 for initial test only; retests should be Session 2 or incrementally higher.</p>\n<p><strong>Clinical report </strong>MUST specifically comment on the following CogScreen items. If they have changed or are not normal, the narrative must discuss these findings and if they are of any clinical or aeromedical concern:</p>\n<p>1. Any increase in LRPV (page 4)</p>\n<p>2. Taylor Factor scores (page 5)</p>\n<p>3. Base Rate for Speed, Accuracy, or Process (page 4)</p>\n<p><strong>The psychologist or neuropsychologist report should also specifically mention: </strong></p>\n<p>1. The overall neurocognitive status of the airman/FAA ATCS.</p>\n<p>2. Any adverse neurocognitive findings or a decline in condition.</p>\n<p>3. If additional focused neuropsych testing is/was required or recommended. If any additional testing</p>\n<p>was performed, the report must explain why the testing was performed, the results, and how that fits into the airman/FAA ATCS’s overall neurocognitive status.</p>\n<p>4. Any other concerns or absence of concerns.</p>\n<p>5. <strong>Agreement to immediately notify the FAA </strong>(for Airmen<strong>:</strong> 405-954-4821; for FAA ATCS: contact the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS office</a> ) if there is any change or deterioration in the psychological status or stability in the airman/FAA ATCS’s condition.</p>\n<p>6. Submit the entire CogScreen report (approximately 13 pages) and any additional testing (if performed).</p></td></tr><tr><td><p><strong>AIR TRAFFIC MANAGER (ATM) </strong></p>\n<p>FAA ATCS employee</p>\n<p>ATCS Applicant for hire – Not applicable</p></td><td><p>FAA ATCS: Every 3 months (bring cumulative reports to AME evaluation every 6 months.)</p></td><td><p><strong>Report must address</strong>:</p>\n<p><strong>For FAA ATCS: </strong></p>\n<ul><li>1. Issues related to safety and safe operations.</li><li>2. Interaction with other FAA ATCSs.</li><li>3. Mood and behavioral changes.</li><li>4. Any other concerns.</li></ul>\n<p>For Pilots: Chief pilot reports no longer required.</p></td></tr><tr><td><p><strong>ADDITIONAL PROVIDERS </strong></p>\n<p>Additional reports for SSRI or any other condition noted in Authorization or FAA ATCS Special Consideration Letter</p></td><td><p>Every 6 months or per Authorization or FAA ATCS Special Consideration Letter</p></td><td><p>Varies. See the Authorization Letter or Special Consideration Letter. Include any drug testing results, therapist follow up reports, social worker reports, etc.</p>\n<p>If the prescribing physician is NOT a psychiatrist, reports from the prescribing physician and their clinic office notes must be submitted in addition to the required psychiatric evaluations (see above).</p>\n<p>If the airman/FAA ATCS has other non-SSRI conditions that require a special issuance/consideration, those reports should also be submitted according to the Authorization or FAA ATCS Special Consideration Letter.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "HIMS AME CHANGE REQUEST",
+   "html": "<p><strong>HIMS AME CHANGE REQUEST </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "(Updated 09/25/2024)",
+   "html": "<p>(Updated 09/25/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "The Authorization for Special Issuance requires that individuals DO NOT change his/her HIMS AME without prior FAA approval.",
+   "html": "<p>The Authorization for Special Issuance requires that individuals <strong>DO NOT change his/her HIMS AME without prior FAA approval. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "In rare cases in which the HIMS AME listed on the Authorization Letter is no longer available to the individual (ex: HIMS AME retires, is no longer a HIMS AME, is deceased, or the individual or HIMS AME relocates to a new state, etc.), a change request is required.",
+   "html": "<p>In <strong>rare</strong> cases in which the HIMS AME listed on the Authorization Letter is no longer available to the individual (ex: HIMS AME retires, is no longer a HIMS AME, is deceased, or the individual or HIMS AME relocates to a new state, etc.), a change request is required.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "The FAA requires the following to consider any request:",
+   "html": "<p>The FAA requires the following to consider any request:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "1. The INDIVIUAL must send a written request to the FAA (address below) describing why there is a requirement to work with the new requested/prospective HIMS AME.",
+   "html": "<p>1. The INDIVIUAL must send a written request to the FAA (address below) describing why there is a requirement to work with the new requested/prospective HIMS AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "In addition, the individual must give FAA Office of Aerospace Medicine authorization to release a complete copy of their FAA Medical File to the new requested/prospective HIMS AME in advance of the new requested/prospective HIMS AME’s agreement to monitor the individual. For information on how to accomplish this, see Requesting Medical Records .",
+   "html": "<p>In addition, the individual must give FAA Office of Aerospace Medicine <strong>authorization to release a complete copy of their FAA Medical File</strong> to the new requested/prospective HIMS AME <strong>in advance</strong> of the new requested/prospective HIMS AME’s agreement to monitor the individual. For information on how to accomplish this, see <a href=\"https://www.faa.gov/pilots/medical_certification/requesting_medical_records\" target=\"_blank\" rel=\"noopener\">Requesting Medical Records</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "2. The CURRENT HIMS AME must write a closeout status report describing why the change is requested and agree to release HIMS AME monitoring services to the new requested/prospective HIMS AME (list the name of new HIMS AME).",
+   "html": "<p>2. The CURRENT HIMS AME must write a closeout status report describing why the change is requested and agree to release HIMS AME monitoring services to the new requested/prospective HIMS AME (list the name of new HIMS AME).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "The closeout report must note if there are any concerns regarding the individual’s compliance.",
+   "html": "<p>The closeout report must note if there are any concerns regarding the individual’s compliance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "If the (current) HIMS AME is deceased, his/her office staff should contact AAM-200 Manager, Medical Specialties in Washington, DC at (202) 267-8035.",
+   "html": "<p>If the (current) HIMS AME is deceased, his/her office staff should contact AAM-200 Manager, Medical Specialties in Washington, DC at (202) 267-8035.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "3. NEW REQUESTED/PROSPECTIVE HIMS AME must review the individual’s records and, in writing, agree to monitor the individual in accordance with the terms of the FAA SI Authorization Letter.",
+   "html": "<p>3. NEW REQUESTED/PROSPECTIVE HIMS AME must review the individual’s records and, in writing, agree to monitor the individual in accordance with the terms of the FAA SI Authorization Letter.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "The FAA will review the submitted information, and IF the change is approved*, will send an updated Authorization Letter with the new HIMS AME information to the individual.",
+   "html": "<p>The FAA will review the submitted information, and IF the change is approved*, will send an updated Authorization Letter with the new HIMS AME information to the individual.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "Submit requests to:",
+   "html": "<p>Submit requests to:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "Civil Aerospace Medical Institute, Bldg. 13",
+   "html": "<p>Civil Aerospace Medical Institute, Bldg. 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "Aerospace Medical Certification Division, AAM-313",
+   "html": "<p>Aerospace Medical Certification Division, AAM-313</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "PO Box 25082, Oklahoma City, OK 73125-9867",
+   "html": "<p>PO Box 25082, Oklahoma City, OK 73125-9867</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 398,
+   "text": "*NOTE: Submission of a HIMS AME Change Request does not automatically guarantee approval of the request.",
+   "html": "<p><strong>*NOTE: Submission of a HIMS AME Change Request does not automatically guarantee approval of the request.</strong></p>"
+  }
+ ]
+}

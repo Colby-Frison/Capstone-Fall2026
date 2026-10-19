@@ -1,0 +1,141 @@
+{
+ "id": "hypoglycemia",
+ "name": "Hypoglycemia",
+ "subtitle": null,
+ "name_in_guide": "HYPOGLYCEMIA",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 166,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Hospital History & Physical (H&P);",
+  "Hospital discharge summary;",
+  "Emergency Department notes;",
+  "Office visit notes; and",
+  "Lab or other testing results.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist no more than 90 days before the AME exam.",
+  "It must specifically include frequency of episodes, symptoms, all testing performed, diagnosis, treatment, and likelihood of recurrent hypoglycemia.",
+  "Results of all testing (e.g. lab work, imaging) performed for this",
+  "condition/evaluation or deemed clinically necessary.",
+  "Copies of records to include (if applicable):",
+  "Clinic visits (progress notes) including other specialty evaluations",
+  "Hospital records:",
+  "Discharge Summary",
+  "Emergency Department notes",
+  "Operative reports",
+  "Pathology reports"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Associated with diabetes mellitus or diabetes medication",
+   "condition_html": "<p><strong>A. </strong>Associated with diabetes mellitus or diabetes medication</p>",
+   "evaluation_data": "See corresponding diabetes page .",
+   "evaluation_data_html": "<p>See corresponding <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes\" target=\"_blank\" rel=\"noopener\">diabetes page</a> .</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 434,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Asymptomatic and incidental findings on labs ONLY OR A single episode due to a specific cause which is unlikely to recur. Examples: decreased intake in setting of extreme exercise (marathon), critical illness",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Asymptomatic and incidental findings on labs ONLY</p>\n<p>OR</p>\n<p>A <strong>single episode</strong> due to a specific cause which is unlikely to recur.</p>\n<p>Examples: decreased intake in setting of extreme exercise (marathon), critical illness</p>",
+   "evaluation_data": "The AME should review any applicable records: - Hospital History & Physical (H&P); - Hospital discharge summary; - Emergency Department notes; - Office visit notes; and - Lab or other testing results. If the AME can determine that the condition has fully resolved without sequelae, with no evidence of or concern for recurrence or problems that would interfere with flight duties:",
+   "evaluation_data_html": "<p>The AME should review any applicable records:</p>\n<ul><li>Hospital History &amp; Physical (H&amp;P);</li><li>Hospital discharge summary;</li><li>Emergency Department notes;</li><li>Office visit notes; and</li><li>Lab or other testing results.</li></ul>\n<p>If the AME can determine that the condition has fully resolved without sequelae, with no evidence of or concern for recurrence or problems that would interfere with flight duties:</p>",
+   "what_to_bring": [
+    "Hospital History & Physical (H&P);",
+    "Hospital discharge summary;",
+    "Emergency Department notes;",
+    "Office visit notes; and",
+    "Lab or other testing results."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>",
+   "pdf_page": 434,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Single episode WITHOUT specific cause OR Multiple episodes (recurrent) OR Hypoglycemia related to metabolic disorder Note: If a secondary cause is identified (e.g. adrenal insufficiency, hypothyroidism, or tumor), see that page.",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Single episode WITHOUT specific cause</p>\n<p>OR</p>\n<p>Multiple episodes (recurrent)</p>\n<p>OR</p>\n<p>Hypoglycemia related to metabolic disorder</p>\n<p>Note: If a secondary cause is identified (e.g. adrenal insufficiency, hypothyroidism, or tumor), see that page.</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include frequency of episodes, symptoms, all testing performed, diagnosis, treatment, and likelihood of recurrent hypoglycemia. - 3. Results of all testing (e.g. lab work, imaging) performed for this",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with a board-certified <strong>endocrinologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>It<strong> must specifically</strong> include frequency of episodes, symptoms, all testing performed, diagnosis, treatment, and likelihood of recurrent hypoglycemia.</li><li><strong>3. </strong>Results of all testing (e.g. lab work, imaging) performed for this</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist no more than 90 days before the AME exam.",
+    "It must specifically include frequency of episodes, symptoms, all testing performed, diagnosis, treatment, and likelihood of recurrent hypoglycemia.",
+    "Results of all testing (e.g. lab work, imaging) performed for this"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 434,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "",
+   "condition_html": "",
+   "evaluation_data": "- condition/evaluation or deemed clinically necessary. - 4. Copies of records to include (if applicable): - Clinic visits (progress notes) including other specialty evaluations - Hospital records: - Admission (H&P) - Discharge Summary - Emergency Department notes - Operative reports - Pathology reports",
+   "evaluation_data_html": "<ul><li>condition/evaluation or deemed clinically necessary.</li></ul>\n<ul><li><strong>4. </strong>Copies of records to include (if applicable):</li></ul>\n<ul><li>Clinic visits (progress notes) including other specialty evaluations</li><li><p>• Hospital records:</p>\n<ul><li>Admission (H&amp;P)</li><li>Discharge Summary</li><li>Emergency Department notes</li><li>Operative reports</li><li>Pathology reports</li></ul></li></ul>",
+   "what_to_bring": [
+    "condition/evaluation or deemed clinically necessary.",
+    "Copies of records to include (if applicable):",
+    "Clinic visits (progress notes) including other specialty evaluations",
+    "Hospital records:",
+    "Discharge Summary",
+    "Emergency Department notes",
+    "Operative reports",
+    "Pathology reports"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 434,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "diabetes page",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item48/amd/diabetes"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "cushing-syndrome",
+  "section_title": "CUSHING SYNDROME",
+  "pdf_pages": [
+   434
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

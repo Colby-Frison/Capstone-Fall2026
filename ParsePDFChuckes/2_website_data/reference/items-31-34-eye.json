@@ -1,0 +1,420 @@
+{
+ "slug": "items-31-34-eye",
+ "title": "ITEMS 31-34. Eye",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 88,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "31. Eyes, general (vision under Items 50 to 54)",
+     "",
+     ""
+    ],
+    [
+     "32. Ophthalmoscopic",
+     "",
+     ""
+    ],
+    [
+     "33. Pupils (Equity and reaction)",
+     "",
+     ""
+    ],
+    [
+     "34. Ocular motility (Associated parallel movement nystagmus)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>31. Eyes, general (vision under Items 50 to 54)</p></td><td></td><td></td></tr><tr><td><p>32. Ophthalmoscopic</p></td><td></td><td></td></tr><tr><td><p>33. Pupils (Equity and reaction)</p></td><td></td><td></td></tr><tr><td><p>34. Ocular motility (Associated parallel movement nystagmus)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "All Classes: 14 CFR 67.103(e), 67.203(e), and 67.303(d)",
+   "html": "<p><strong>All Classes: 14 CFR 67.103(e), 67.203(e), and 67.303(d) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "(e) No acute or chronic pathological condition of either the eye or adnexa that",
+   "html": "<p>(e) No acute or chronic pathological condition of either the eye or adnexa that</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "interferes with the proper function of the eye, that may reasonably be",
+   "html": "<p>interferes with the proper function of the eye, that may reasonably be</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "expected to progress to that degree, or that may reasonably be expected to",
+   "html": "<p>expected to progress to that degree, or that may reasonably be expected to</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "be aggravated by flying.",
+   "html": "<p>be aggravated by flying.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "II. Examination Techniques For guidance regarding the conduction of visual acuity, field of vision, heterophoria, and color vision tests, please see Items 50-54.",
+   "html": "<p><strong>II. Examination Techniques</strong> For guidance regarding the conduction of visual acuity, field of vision, heterophoria, and color vision tests, please see <strong>Items 50-54</strong>.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 88,
+   "text": "The examination of the eyes should be directed toward the discovery of diseases or defects that may cause a failure in visual function while flying or discomfort sufficient to interfere with safely performing airman duties. The AME should personally explore the applicant's history by asking questions concerning any changes in vision, unusual visual experiences (halos, scintillations, etc.), sensitivity to light, injuries, surgery, or current use of medication. Does the applicant report inordinate difficulties with eye fatigue or strain? Is there a history of serious eye disease such as glaucoma or other disease commonly associated with secondary eye changes, such as diabetes? (See Item 53. Field of Vision and Item 54. Heterophoria)",
+   "html": "<p>The examination of the eyes should be directed toward the discovery of diseases or defects that may cause a failure in visual function while flying or discomfort sufficient to interfere with safely performing airman duties. The AME should personally explore the applicant&#x27;s history by asking questions concerning any changes in vision, unusual visual experiences (halos, scintillations, etc.), sensitivity to light, injuries, surgery, or current use of medication. Does the applicant report inordinate difficulties with eye fatigue or strain? Is there a history of serious eye disease such as glaucoma or other disease commonly associated with secondary eye changes, such as diabetes? (See <strong>Item 53. Field of Vision</strong> and <strong>Item 54. Heterophoria</strong>)</p>"
+  },
+  {
+   "type": "list",
+   "page": 88,
+   "text": "- 1. It is recommended that the AME consider the following signs during the course of the eye examination:",
+   "html": "<ul><li>1. It is recommended that the AME consider the following signs during the course of the eye examination:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 88,
+   "text": "- - a. Color — redness or suffusion of allergy, drug use, glaucoma, infection, trauma, jaundice, ciliary flush of Iritis, and the green or brown Kayser- Fleischer Ring of Wilson's disease.",
+   "html": "<ul><li><ul><li>a. Color — redness or suffusion of allergy, drug use, glaucoma, infection, trauma, jaundice, ciliary flush of Iritis, and the green or brown Kayser- Fleischer Ring of Wilson&#x27;s disease.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 88,
+   "text": "- - b. Swelling — abscess, allergy, cyst, exophthalmos, myxedema, or tumor.",
+   "html": "<ul><li><ul><li>b. Swelling — abscess, allergy, cyst, exophthalmos, myxedema, or tumor.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 88,
+   "text": "- - c. Other — clarity, discharge, dryness, ptosis, protosis, spasm (tic), tropion, or ulcer.",
+   "html": "<ul><li><ul><li>c. Other — clarity, discharge, dryness, ptosis, protosis, spasm (tic), tropion, or ulcer.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 88,
+   "text": "- 2. It is suggested that a routine be established for ophthalmoscopic examinations to aid in the conduct of a comprehensive eye assessment.",
+   "html": "<ul><li>2. It is suggested that a routine be established for ophthalmoscopic examinations to aid in the conduct of a comprehensive eye assessment.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- - a. Cornea — observe for abrasions, calcium deposits, contact lenses, dystrophy, keratoconus, pterygium, scars, or ulceration.",
+   "html": "<ul><li><ul><li>a. Cornea — observe for abrasions, calcium deposits, contact lenses, dystrophy, keratoconus, pterygium, scars, or ulceration.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- - b. Pupils and Iris — check for the presence of synechiae and uveitis. Size, shape, and reaction to light should be evaluated during the ophthalmoscopic examination. Observe for coloboma, reaction to light, or disparity in size.",
+   "html": "<ul><li><ul><li>b. Pupils and Iris — check for the presence of synechiae and uveitis. Size, shape, and reaction to light should be evaluated during the ophthalmoscopic examination. Observe for coloboma, reaction to light, or disparity in size.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- - c. Aqueous — hyphema or iridocyclitis.",
+   "html": "<ul><li><ul><li>c. Aqueous — hyphema or iridocyclitis.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- - d. Lens — observe for aphakia, discoloration, dislocation, cataract, or an implanted lens.\n- e. Vitreous — note discoloration, hyaloid artery, floaters, or strands.\n- f. Optic nerve — observe for atrophy, hemorrhage, cupping, or papilledema.\n- g. Retina and choroid — examine for evidence of coloboma, choroiditis, detachment of the retina, diabetic retinopathy, retinitis, retinitis pigmentosa, retinal tumor, macular or other degeneration, toxoplasmosis, etc.",
+   "html": "<ul><li><ul><li>d. Lens — observe for aphakia, discoloration, dislocation, cataract, or an implanted lens.</li><li>e. Vitreous — note discoloration, hyaloid artery, floaters, or strands.</li><li>f. Optic nerve — observe for atrophy, hemorrhage, cupping, or papilledema.</li><li>g. Retina and choroid — examine for evidence of coloboma, choroiditis, detachment of the retina, diabetic retinopathy, retinitis, retinitis pigmentosa, retinal tumor, macular or other degeneration, toxoplasmosis, etc.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- 3. Ocular Motility. Motility may be assessed by having the applicant follow a point light source with both eyes, the AME moving the light into right and left upper and lower quadrants while observing the individual and the conjugate motions of each eye. The AME then brings the light to center front and advances it toward the nose observing for convergence. End point nystagmus is a physiologic nystagmus and is not considered to be significant. It need not be reported. (For further consideration of nystagmus, see Item 50., Distant Vision.)",
+   "html": "<ul><li>3. Ocular Motility. Motility may be assessed by having the applicant follow a point light source with both eyes, the AME moving the light into right and left upper and lower quadrants while observing the individual and the conjugate motions of each eye. The AME then brings the light to center front and advances it toward the nose observing for convergence. End point nystagmus is a physiologic nystagmus and is not considered to be significant. It need not be reported. (For further consideration of nystagmus, see <strong>Item 50., Distant Vision</strong>.)</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 89,
+   "text": "- 4. Monocular Vision. An applicant will be considered monocular when there is only one eye or when the best corrected distant visual acuity in the poorer eye is no better than 20/200. An individual with one eye, or effective visual acuity equivalent to monocular, may be considered for medical certification, any class, through the special issuance section of part 67 (14 CFR 67.401).",
+   "html": "<ul><li>4. Monocular Vision. An applicant will be considered monocular when there is only one eye or when the best corrected distant visual acuity in the poorer eye is no better than 20/200. An individual with one eye, or effective visual acuity equivalent to monocular, may be considered for medical certification, any class, through the special issuance section of part 67 (14 CFR 67.401).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 89,
+   "text": "Although it has been repeatedly demonstrated that binocular vision is not a prerequisite for flying, some aspects of depth perception, either by stereopsis or by monocular cues, are necessary. It takes time for the monocular airman to develop the techniques to interpret the monocular cues that substitute for stereopsis; such as, the interposition of objects, convergence, geometrical perspective, distribution of light and shade, size of known objects, aerial perspective, and motion parallax. In addition, it takes time for the monocular airman to compensate for his or her decrease in effective visual field. A monocular airman’s effective visual field is reduced by as much as 30% by monocularity. This is especially important because of speed smear; i.e., the effect of speed diminishes the effective visual field such that normal visual field is decreased from 180 degrees to as narrow as",
+   "html": "<p>Although it has been repeatedly demonstrated that binocular vision is not a prerequisite for flying, some aspects of depth perception, either by stereopsis or by monocular cues, are necessary. It takes time for the monocular airman to develop the techniques to interpret the monocular cues that substitute for stereopsis; such as, the interposition of objects, convergence, geometrical perspective, distribution of light and shade, size of known objects, aerial perspective, and motion parallax. In addition, it takes time for the monocular airman to compensate for his or her decrease in effective visual field. A monocular airman’s effective visual field is reduced by as much as 30% by monocularity. This is especially important because of speed smear; i.e., the effect of speed diminishes the effective visual field such that normal visual field is decreased from 180 degrees to as narrow as</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "text": "42 degrees or less as speed increases. A monocular airman’s reduced effective visual field would be reduced even further than 42 degrees by speed smear. For the above reasons, a waiting period of 6 months is recommended to permit an adequate adjustment period for learning techniques to interpret monocular cues and accommodation to the reduction in the effective visual field. Applicants who have had monovision secondary to refractive surgery may be certificated, providing they have corrective vision available that would provide binocular vision in accordance with the vision standards, while exercising the privileges of the certificate. The certificate issued must have the appropriate vision limitations statement.",
+   "html": "<p>42 degrees or less as speed increases. A monocular airman’s reduced effective visual field would be reduced even further than 42 degrees by speed smear. For the above reasons, a waiting period of 6 months is recommended to permit an adequate adjustment period for learning techniques to interpret monocular cues and accommodation to the reduction in the effective visual field. Applicants who have had monovision secondary to refractive surgery may be certificated, providing they have corrective vision available that would provide binocular vision in accordance with the vision standards, while exercising the privileges of the certificate. The certificate issued must have the appropriate vision limitations statement.</p>"
+  },
+  {
+   "type": "list",
+   "page": 90,
+   "text": "- 5. Contact Lenses. The use of contact lens(es) for monovision correction is not allowed:",
+   "html": "<ul><li>5. Contact Lenses. The use of contact lens(es) for monovision correction is not allowed:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 90,
+   "text": "- - - The use of a contact lens in one eye for near vision and in the other eye for distant vision is not acceptable (for example: pilots with myopia plus presbyopia).",
+   "html": "<ul><li><ul><li><ul><li>The use of a contact lens in one eye for near vision and in the other eye for distant vision is not acceptable (for example: pilots with myopia plus presbyopia).</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 90,
+   "text": "- - - The use of a contact lens in one eye for near vision and the use of no contact lens in the other eye is not acceptable (for example: pilots with presbyopia but no myopia).",
+   "html": "<ul><li><ul><li><ul><li>The use of a contact lens in one eye for near vision and the use of no contact lens in the other eye is not acceptable (for example: pilots with presbyopia but no myopia).</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "text": "Additionally, designer contact lenses that introduce color (tinted lenses), restrict the field of vision, or significantly diminish transmitted light are not allowed.",
+   "html": "<p>Additionally, designer contact lenses that introduce color (tinted lenses), restrict the field of vision, or significantly diminish transmitted light are not allowed.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 90,
+   "text": "Please note: the use of binocular contact lenses for distance-correction-only is acceptable. In this instance, no special evaluation or SODA is routinely required for a distance-vision-only contact lens wearer who meets the standard and has no complications. Binocular bifocal or binocular multifocal contact lenses are acceptable under the Protocol for Binocular Multifocal and Accommodating Devices .",
+   "html": "<p>Please note: the use of binocular contact lenses for distance-correction-only is acceptable. In this instance, no special evaluation or SODA is routinely required for a distance-vision-only contact lens wearer who meets the standard and has no complications. Binocular bifocal or binocular multifocal contact lenses are acceptable under the <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/binocular/\" target=\"_blank\" rel=\"noopener\">Protocol for Binocular Multifocal and Accommodating Devices</a> .</p>"
+  },
+  {
+   "type": "list",
+   "page": 90,
+   "text": "- 6. Intraocular Devices. Binocular airman using multifocal or accommodating ophthalmic devices may be issued an airman medical certificate in accordance with the Protocol for Binocular Multifocal and Accommodating Devices.\n- 7. Orthokeratology (Ortho-K) is the use of rigid gas-permeable contact lenses, normally worn only during sleep, to improve vision through reshaping of the cornea. It is used as an alternative to eyeglasses, refractive surgery, or for those who prefer not to wear contact lenses while awake. The correction is not permanent and visual acuity can regress while not wearing the Ortho-K lenses. There is no reasonable or reliable way to determine standards for the entire period the lenses are removed. Therefore, to be found qualified, applicants who use Ortho-K lenses must meet the applicable vision standard while wearing the Ortho-K lenses AND must wear the Ortho-K lenses while piloting aircraft. The limitation “must use Ortho-K lenses while performing pilot duties” must be placed on the medical certificate.",
+   "html": "<ul><li>6. Intraocular Devices. Binocular airman using multifocal or accommodating ophthalmic devices may be issued an airman medical certificate in accordance with the Protocol for Binocular Multifocal and Accommodating Devices.</li><li>7. Orthokeratology (Ortho-K) is the use of rigid gas-permeable contact lenses, normally worn only during sleep, to improve vision through reshaping of the cornea. It is used as an alternative to eyeglasses, refractive surgery, or for those who prefer not to wear contact lenses while awake. The correction is not permanent and visual acuity can regress while not wearing the Ortho-K lenses. There is no reasonable or reliable way to determine standards for the entire period the lenses are removed. Therefore, to be found qualified, applicants who use Ortho-K lenses <strong>must meet the applicable vision standard while wearing the Ortho-K lenses AND must wear the Ortho-K lenses while piloting aircraft.</strong> The limitation “must use Ortho-K lenses while performing pilot duties” must be placed on the medical certificate.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 91,
+   "text": "- 8. Glaucoma. The AME should deny or defer issuance of a medical certificate to an applicant if there is a loss of visual fields or a significant change in visual acuity.",
+   "html": "<ul><li>8. Glaucoma. The AME should deny or defer issuance of a medical certificate to an applicant if there is a loss of visual fields or a significant change in visual acuity.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "text": "The FAA may grant an Authorization under the special issuance section of Part 67 (14 CFR 67.401) on an individual basis. The AME must obtain a report of Ophthalmological Evaluation for Glaucoma (FAA Form 8500-14) from an ophthalmologist. See Glaucoma Worksheet. Because secondary glaucoma is caused by known pathology such as; uveitis or trauma, eligibility must largely depend upon that pathology. Secondary glaucoma is often unilateral, and if the cause or disease process is no longer active and the other eye remains normal, certification is likely.",
+   "html": "<p>The FAA may grant an Authorization under the special issuance section of Part 67 (14 CFR 67.401) on an individual basis. The AME must obtain a report of Ophthalmological Evaluation for Glaucoma (FAA Form 8500-14) from an ophthalmologist. See Glaucoma Worksheet. Because secondary glaucoma is caused by known pathology such as; uveitis or trauma, eligibility must largely depend upon that pathology. Secondary glaucoma is often unilateral, and if the cause or disease process is no longer active and the other eye remains normal, certification is likely.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "text": "Applicants with primary or secondary narrow angle glaucoma are usually denied because of the risk of an attack of angle closure, because of incapacitating symptoms of severe pain, nausea, transitory loss of accommodative power, blurred vision, halos, epiphora, or iridoparesis. Central venous occlusion can occur with catastrophic loss of vision. However, when surgery such as iridectomy or iridoclesis has been performed satisfactorily more than 3 months before the application, the likelihood of difficulties is considerably more remote, and applicants in that situation may be favorably considered.",
+   "html": "<p>Applicants with primary or secondary narrow angle glaucoma are usually denied because of the risk of an attack of angle closure, because of incapacitating symptoms of severe pain, nausea, transitory loss of accommodative power, blurred vision, halos, epiphora, or iridoparesis. Central venous occlusion can occur with catastrophic loss of vision. However, when surgery such as iridectomy or iridoclesis has been performed satisfactorily more than 3 months before the application, the likelihood of difficulties is considerably more remote, and applicants in that situation may be favorably considered.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 91,
+   "text": "An applicant with unilateral or bilateral open angle glaucoma may be certified by the FAA (with follow-up required) when a current ophthalmological report substantiates that pressures are under adequate control, there is little or no visual field loss or other complications, and the person tolerates small to moderate doses of allowable medications. Individuals who have had filter surgery for their glaucoma, or combined glaucoma/cataract surgery, can be considered when stable and without complications. Applicants using miotic or mydriatic eye drops or taking an oral medication for glaucoma may be considered for Special Issuance certification following their demonstration of adequate control. These medications DO NOT qualify for the CACI program. Miotics such as pilocarpine cause pupillary constriction and could conceivably interfere with night vision. Although the FAA no longer routinely prohibits pilots who use such medications from flying at night, it may be worthwhile for the AME to discuss this aspect of the use of miotics with applicants. If considerable disturbance in night vision is documented, the FAA may limit the medical certificate: NOT VALID FOR NIGHT FLYING.",
+   "html": "<p>An applicant with unilateral or bilateral open angle glaucoma may be certified by the FAA (with follow-up required) when a current ophthalmological report substantiates that pressures are under adequate control, there is little or no visual field loss or other complications, and the person tolerates small to moderate doses of allowable medications. Individuals who have had filter surgery for their glaucoma, or combined glaucoma/cataract surgery, can be considered when stable and without complications. Applicants using miotic or mydriatic eye drops or taking an oral medication for glaucoma may be considered for Special Issuance certification following their demonstration of adequate control. These medications DO NOT qualify for the CACI program. Miotics such as pilocarpine cause pupillary constriction and could conceivably interfere with night vision. Although the FAA no longer routinely prohibits pilots who use such medications from flying at night, it may be worthwhile for the AME to discuss this aspect of the use of miotics with applicants. If considerable disturbance in night vision is documented, the FAA may limit the medical certificate: NOT VALID FOR NIGHT FLYING.</p>"
+  },
+  {
+   "type": "list",
+   "page": 91,
+   "text": "- 9. Sunglasses. Sunglasses are not acceptable as the only means of correction to meet visual standards, but may be used for backup purposes if they provide the necessary correction. Airmen should be encouraged to use sunglasses in bright daylight but must be cautioned that, under conditions of low illumination, they may compromise vision. Mention should be made that sunglasses do not protect the eyes from the effects of ultraviolet radiation without special glass or coatings and that photosensitive lenses are unsuitable for aviation purposes because they respond to changes in light intensity too slowly. The so-called \"blue blockers\" may not be suitable since they block the blue light used in many current panel displays. Polarized sunglasses are unacceptable if the windscreen is also polarized.",
+   "html": "<ul><li>9. Sunglasses. Sunglasses are not acceptable as the only means of correction to meet visual standards, but may be used for backup purposes if they provide the necessary correction. Airmen should be encouraged to use sunglasses in bright daylight but must be cautioned that, under conditions of low illumination, they may compromise vision. Mention should be made that sunglasses do not protect the eyes from the effects of ultraviolet radiation without special glass or coatings and that photosensitive lenses are unsuitable for aviation purposes because they respond to changes in light intensity too slowly. The so-called &quot;blue blockers&quot; may not be suitable since they block the blue light used in many current panel displays. Polarized sunglasses are unacceptable if the windscreen is also polarized.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 92,
+   "text": "- 10. Refractive Procedures. The FAA accepts the following Food and Drug Administration approved refractive procedures for visual acuity correction:\n- Radial Keratotomy (RK)\n- Epikeratophakia\n- Laser-Assisted In Situ Keratomileusis (LASIK), including Wavefront-guided LASIK\n- SMILE (Small Incisional Lenticular Extraction)\n- Photorefractive Keratectomy (PRK)\n- Conductive Keratoplasty (CK)*",
+   "html": "<ul><li>10. Refractive Procedures. The FAA accepts the following Food and Drug Administration approved refractive procedures for visual acuity correction:</li><li>Radial Keratotomy (RK)</li><li>Epikeratophakia</li><li>Laser-Assisted In Situ Keratomileusis (LASIK), including Wavefront-guided LASIK</li><li>SMILE (Small Incisional Lenticular Extraction)</li><li>Photorefractive Keratectomy (PRK)</li><li>Conductive Keratoplasty (CK)*</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "Please be advised that these procedures have potential adverse effects that could be incompatible with flying duties, including: corneal scarring or opacities; worsening or variability of vision; and night-glare.",
+   "html": "<p>Please be advised that these procedures have potential adverse effects that could be incompatible with flying duties, including: corneal scarring or opacities; worsening or variability of vision; and night-glare.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "The FAA expects that airmen will not resume airman duties until their treating health care professional determines that their post-operative vision has stabilized, there are no significant adverse effects or complications (such as halos, rings, haze, impaired night vision and glare), the appropriate vision standards are met, and they have been reviewed by an AME or AMCD. When this determination is made, the airman should have the treating health care professional document this in the health care record, a copy of which should be forwarded to the AMCD before resumption of airman duties. If the health care professional's determination is favorable and after consultation and review by an AME, the applicant may resume airman duties, unless informed otherwise by the FAA.",
+   "html": "<p>The FAA expects that airmen will not resume airman duties until their treating health care professional determines that their post-operative vision has stabilized, there are no significant adverse effects or complications (such as halos, rings, haze, impaired night vision and glare), the appropriate vision standards are met, and they have been reviewed by an AME or AMCD. When this determination is made, the airman should have the treating health care professional document this in the health care record, a copy of which should be forwarded to the AMCD before resumption of airman duties. If the health care professional&#x27;s determination is favorable and after consultation and review by an AME, the applicant may resume airman duties, unless informed otherwise by the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "An applicant treated with a refractive procedure may be issued a medical certificate by the AME as outlined on the Eyes-Refractive Surgery Disposition Table . There should be no other pathology of the affected eye(s).",
+   "html": "<p>An applicant treated with a refractive procedure may be issued a medical certificate by the AME as outlined on the <a href=\"https://www.faa.gov/ame_guide/media/Refractive_Surgery_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Eyes-Refractive Surgery Disposition Table</a> . There should be no other pathology of the affected eye(s).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "If the procedure was done 3 months ago or longer, the FAA may accept the AME's eye evaluation and a statement regarding the absence of adverse sequela.",
+   "html": "<p>If the procedure was done 3 months ago or longer, the FAA may accept the AME&#x27;s eye evaluation and a statement regarding the absence of adverse sequela.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "If the procedure was performed within the last 3 months, The AME should reference the Eyes-Refractive Surgery Status Summary .",
+   "html": "<p>If the procedure was performed within the last 3 months, The AME should reference the <a href=\"https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Eyes-Refractive Surgery Status Summary</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 92,
+   "text": "* Conductive Keratoplasty (CK): CK is used for correction of farsightedness. As this procedure is not considered permanent and there is expected regression of visual acuity in time, the FAA may grant an Authorization for special issuance of a medical certificate under 14 CFR 67.401 to an applicant who has had CK.",
+   "html": "<p><strong>*</strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/keratoplasty\" target=\"_blank\" rel=\"noopener\"><strong>Conductive Keratoplasty</strong></a> <strong> (CK)</strong>: CK is used for correction of farsightedness. As this procedure is not considered permanent and there is expected regression of visual acuity in time, the FAA may grant an Authorization for special issuance of a medical certificate under 14 CFR 67.401 to an applicant who has had CK.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "The FAA evaluates CK procedures on an individual basis following a waiting period of 6 months. The waiting period is required to permit adequate adjustment period for fluctuating visual acuity. The AME can facilitate FAA review by obtaining all pre- and post-operative medical records, a Report of Eye Evaluation (FAA Form 8500-7) from a treating or evaluating eye specialist with comment regarding any adverse effects or complications related to the procedure.",
+   "html": "<p>The FAA evaluates CK procedures on an individual basis following a waiting period of 6 months. The waiting period is required to permit adequate adjustment period for fluctuating visual acuity. The AME can facilitate FAA review by obtaining all pre- and post-operative medical records, a Report of Eye Evaluation (FAA Form 8500-7) from a treating or evaluating eye specialist with comment regarding any adverse effects or complications related to the procedure.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "Applicants with many visual conditions may be found qualified for FAA certification following the receipt and review of specialty evaluations and pertinent medical records.",
+   "html": "<p>Applicants with many visual conditions may be found qualified for FAA certification following the receipt and review of specialty evaluations and pertinent medical records.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "Examples include retinal detachment with surgical correction, open angle glaucoma under adequate control with medication, and narrow angle glaucoma following surgical correction.",
+   "html": "<p>Examples include retinal detachment with surgical correction, open angle glaucoma under adequate control with medication, and narrow angle glaucoma following surgical correction.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "The AME may not issue a certificate under such circumstances for the initial application, except in the case of applicants following cataract surgery. The AME may issue a certificate after cataract surgery for applicants who have undergone cataract surgery with or without lens(es) implant. If pertinent medical records and a current ophthalmologic evaluation (using FAA Form 8500-7 or FAA Form 8500-14)",
+   "html": "<p>The AME may not issue a certificate under such circumstances for the initial application, except in the case of applicants following cataract surgery. The AME may issue a certificate after cataract surgery for applicants who have undergone cataract surgery with or without lens(es) implant. If pertinent medical records and a current ophthalmologic evaluation (using FAA Form 8500-7 or FAA Form 8500-14)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "indicate that the applicant meets the standards, the FAA may delegate authority to the AME to issue subsequent certificates.",
+   "html": "<p>indicate that the applicant meets the standards, the FAA may delegate authority to the AME to issue subsequent certificates.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 93,
+   "text": "The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.",
+   "html": "<p>The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "QUALITY OF VISION QUESTIONNAIRE FOR PILOT/ATCS",
+   "html": "<p><strong>QUALITY OF VISION QUESTIONNAIRE FOR PILOT/ATCS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "The following questions should be answered by the PILOT/ATCS. Complete all sections as appropriate. Please add additional comments at the bottom as necessary. Bring this page to your AME for upload into your file as Eye – Quality of Vision Questionnaire.",
+   "html": "<p>The following questions should be answered by the PILOT/ATCS. Complete all sections as appropriate. Please add additional comments at the bottom as necessary. Bring this page to your AME for upload into your file as <strong>Eye – Quality of Vision Questionnaire</strong>.</p>"
+  },
+  {
+   "type": "table",
+   "page": 94,
+   "header": [
+    "- A. Do you have any of these visual symptoms? (Circle) Blurred vision Glare Halos Starbursts Loss of contrast",
+    "NO",
+    "YES*"
+   ],
+   "rows": [
+    [
+     "- B. Do the symptoms impair your visual functioning? (If no symptoms, mark “NO”)",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- C. Do you notice any areas of your vision that are distorted, dark, or missing? (Central vision or peripheral field of vision.)",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- D. Do you have difficulty driving at night or in low light conditions due to your vision?",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- E. Do you have double vision (diplopia) in any direction of gaze or under any special condition such as fatigue? If YES, describe in the space below what you see (ex. prisms, etc.) and any treatments.",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- F. Do you have any history of past or current abnormalities affecting your eyes or vision? (Check “YES” even if resolved).",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- G. Have you ever had any eye-related procedures/surgery? Include intraocular, refractive, orbit, eyelid, lasers, injections, corneal sculpting with contacts, etc.",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- H. Have you ever been told you have weakness with color vision?",
+     "NO",
+     "YES*"
+    ],
+    [
+     "- I. Are you taking any medication(s) for your eyes?",
+     "NO",
+     "YES*"
+    ]
+   ],
+   "html": "<table><thead><tr><th>- A. Do you have any of these visual symptoms? (Circle) Blurred vision Glare Halos Starbursts Loss of contrast</th><th>NO</th><th>YES*</th></tr></thead><tbody><tr><td><ul><li><strong>B. </strong>Do the symptoms impair your visual functioning? (If no symptoms, mark “NO”)</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li><strong>C. </strong>Do you notice any areas of your vision that are distorted, dark, or missing? (Central vision or peripheral field of vision.)</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li><strong>D. </strong>Do you have difficulty driving at night or in low light conditions due to your vision?</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li>E. Do you have double vision (diplopia) in any direction of gaze or under any special condition such as fatigue? If YES, describe in the space below what you see (ex. prisms, etc.) and any treatments.</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li>F. Do you have any history of past or current abnormalities affecting your eyes or vision? (Check “YES” even if resolved).</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li><strong>G. </strong>Have you ever had any eye-related procedures/surgery? Include intraocular, refractive, orbit, eyelid, lasers, injections, corneal sculpting with contacts, etc.</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li><strong>H. </strong>Have you ever been told you have weakness with color vision?</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><ul><li><strong>I. </strong>Are you taking any medication(s) for your eyes?</li></ul></td><td><p>NO</p></td><td><p>YES*</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "If you responded YES* to any above questions, please explain below. Include how often, how severe, and does it affect your day-to-day activities. Please enter additional explanation or comments for ANY part of this questionnaire:",
+   "html": "<p>If you responded YES* to any above questions, please explain below. Include how often, how severe, and does it affect your day-to-day activities. Please enter additional explanation or comments for ANY part of this questionnaire:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "Pilot/ATCS Name ___________________________ MID#, PI#, or App ID#_________________",
+   "html": "<p><strong>Pilot/ATCS Name ___________________________ MID#, PI#, or App ID#_________________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 94,
+   "text": "Pilot/ATCS Signature ________________________ Date completed ___________________",
+   "html": "<p><strong>Pilot/ATCS Signature ________________________ Date completed ___________________</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 95,
+   "text": "ITEM 31. Eyes – General",
+   "html": "<p><strong>ITEM 31. Eyes – General </strong></p>"
+  }
+ ]
+}

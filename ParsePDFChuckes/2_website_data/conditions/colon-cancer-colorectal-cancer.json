@@ -1,0 +1,182 @@
+{
+ "id": "colon-cancer-colorectal-cancer",
+ "name": "Colon Cancer/ Colorectal Cancer",
+ "subtitle": null,
+ "name_in_guide": "COLON CANCER/ COLORECTAL CANCER",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 81,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Local lesion only (TNM stage 0 or I);",
+  "Complete resection with no additional treatment needed;",
+  "Follow up is annual or less frequent colonoscopy;",
+  "No clinical concerns.",
+  "Status report or treatment records from treating oncologist that provide the following information:",
+  "Disease course including recurrence(s);",
+  "Location(s) of metastatic disease (if any);",
+  "Treatments used;",
+  "How long the condition has been stable; and",
+  "If any upcoming treatment change is planned or expected and prognosis.",
+  "Medication list. Dates started and stopped. Description of side effects.",
+  "Treatment records including clinic notes.",
+  "Operative notes and discharge summary, if applicable.",
+  "Colonoscopy reports.",
+  "Pathology reports."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Non metastatic - treatment completed 5 or more years ago",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Non metastatic -</p>\n<p>treatment completed</p>\n<p><strong> 5 or more years ago</strong></p>",
+   "evaluation_data": "If no recurrence or ongoing treatment:",
+   "evaluation_data_html": "<p>If no recurrence or ongoing treatment:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60.</p>",
+   "pdf_page": 227,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Pedunculated cancerous polyp (Adenocarcinoma) removed by colonoscopy Less than 5 years ago",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Pedunculated</p>\n<p>cancerous polyp</p>\n<p>(Adenocarcinoma)</p>\n<p>removed by<strong> colonoscopy </strong></p>\n<p><strong>Less than 5 years ago </strong></p>",
+   "evaluation_data": "Review current, detailed Clinical Progress Note. If it shows: - Local lesion only (TNM stage 0 or I); - Complete resection with no additional treatment needed; - Follow up is annual or less frequent colonoscopy; - No clinical concerns.",
+   "evaluation_data_html": "<p>Review <strong>current, detailed Clinical Progress Note</strong>.</p>\n<p>If it shows:</p>\n<ul><li>Local lesion only (TNM stage 0 or I);</li><li>Complete resection with no additional treatment needed;</li><li>Follow up is annual or less frequent colonoscopy;</li><li>No clinical concerns.</li></ul>",
+   "what_to_bring": [
+    "Local lesion only (TNM stage 0 or I);",
+    "Complete resection with no additional treatment needed;",
+    "Follow up is annual or less frequent colonoscopy;",
+    "No clinical concerns."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 227,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Non metastatic and no High- Risk features* Treatment completed Less than 5 years ago",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Non metastatic and no High- Risk features*</p>\n<p>Treatment completed</p>\n<p><strong> Less than 5 years ago </strong></p>",
+   "evaluation_data": "Follow CACI worksheet.",
+   "evaluation_data_html": "<p>Follow CACI worksheet.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI-Colon Cancer/ Colorectal Cancer Worksheet Note in Block 60",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACIColonCancer.pdf\" target=\"_blank\" rel=\"noopener\">CACI-Colon Cancer/ Colorectal Cancer Worksheet</a></p>\n<p>Note in Block 60</p>",
+   "pdf_page": 227,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "HIGH RISK features* Or Metastatic disease (Refers to distant metastatic disease such as: lung, liver, lymph nodes, peritoneum, brain.)",
+   "condition_html": "<p><strong>D. </strong></p>\n<p><strong>HIGH RISK features* </strong></p>\n<p><strong>Or </strong></p>\n<p><strong>Metastatic disease </strong></p>\n<p>(Refers to distant metastatic disease such as: lung, liver, lymph nodes, peritoneum, brain.)</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Status report or treatment records from treating oncologist that provide the following information: - Initial staging; - Disease course including recurrence(s); - Location(s) of metastatic disease (if any); - Treatments used; - How long the condition has been stable; and - If any upcoming treatment change is planned or expected and prognosis. - Medication list. Dates started and stopped. Description of side effects. - Treatment records including clinic notes. - Operative notes and discharge summary, if applicable. - Colonoscopy reports. - Pathology reports.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Status report or treatment records from treating oncologist that provide the following information:<ul><li>Initial staging;</li><li>Disease course including recurrence(s);</li><li>Location(s) of metastatic disease (if any);</li><li>Treatments used;</li><li>How long the condition has been stable; and</li><li>If any upcoming treatment change is planned or expected and prognosis.</li></ul></li><li> Medication list. Dates started and stopped. Description of side effects.</li><li> Treatment records including clinic notes.</li><li> Operative notes and discharge summary, if applicable.</li><li> Colonoscopy reports.</li><li> Pathology reports.</li></ul>",
+   "what_to_bring": [
+    "Status report or treatment records from treating oncologist that provide the following information:",
+    "Disease course including recurrence(s);",
+    "Location(s) of metastatic disease (if any);",
+    "Treatments used;",
+    "How long the condition has been stable; and",
+    "If any upcoming treatment change is planned or expected and prognosis.",
+    "Medication list. Dates started and stopped. Description of side effects.",
+    "Treatment records including clinic notes.",
+    "Operative notes and discharge summary, if applicable.",
+    "Colonoscopy reports.",
+    "Pathology reports."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Follow-up Special Issuance – Will be per the airman’s authorization letter - Results of MRI/CT or PET scan reports that have already been performed (In some cases, the actual CDs will be required in DICOM format for FAA review.) - Lab reports. - CBC and CEA performed within the last 90 days; - - Previous tumor marker lab results (such as CEA).",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p><strong>Follow-up Special Issuance</strong> –</p>\n<p>Will be per the airman’s authorization letter</p>\n<ul><li> Results of MRI/CT or PET scan reports that have already been performed (In some cases, the actual CDs will be required in DICOM format for FAA review.)</li><li> Lab reports.<ul><li>CBC and CEA performed within</li></ul></li></ul>\n<p>the last 90 days;</p>\n<ul><li><ul><li>Previous tumor marker lab results (such as CEA).</li></ul></li></ul>",
+   "pdf_page": 227,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Colon Cancer/ Colorectal Cancer Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies the condition is stable with no concerns and the airman is back to full daily activities with no treatment needed.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "High Risk – any evidence of the following features ever: - CEA increase or CEA did not decrease with colectomy; - Chemotherapy ever (including neoadjuvant); - Familial Adenomatous Polyposis (FAP); - High-risk pathology per the treating oncologist; - Incomplete resection or positive margins; - Lynch syndrome; - Metastatic disease - refers to distant metastatic disease such as lung, liver, lymph nodes, peritoneum, brain, etc.; - Pathology of any type other than adenoma (ex: lymphoma, GIST, carcinoid); - Radiation therapy; - Recurrence; and/or - Sessile polyp with invasive cancer surgically treated only, no additional chemo/radiation.",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Recurrence - any evidence or concern based on colonoscopy or imaging studies per acceptable current practice guidelines.",
+     "acceptable_certification_criteria": "[ ] No"
+    },
+    {
+     "ame_must_review": "Metastatic disease ever (distant to liver, lung, lymph nodes, peritoneum, brain, etc.) or symptoms such as: - Headache or vision changes; - Focal neurologic dysfunction; - Gait disturbance; and/or - Cognitive dysfunction, including memory problems and mood or personality changes.",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "TNM stage at diagnosis was 0, I, II or III.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "CEA at diagnosis was less than 5 ng/ml.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "CEA within the last 90 days is normal and has no increase from previous levels.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "CBC within the last 90 days shows a hemoglobin greater than 11 and no other significant abnormalities.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified colon cancer/colorectal cancer.",
+    "Has current OR previous SI/AASI but now CACI qualified colon cancer/colorectal cancer.",
+    "NOT CACI qualified colon cancer/colorectal cancer. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>*Notes: <strong>High-Risk features</strong> for FAA purposes include the following. These <strong>DO NOT CACI</strong> qualify:</p>\n<ul><li>CEA increase or CEA did not decrease with colectomy;</li><li>Chemotherapy ever (including neoadjuvant);</li><li>Familial Adenomatous Polyposis (FAP);</li><li>High risk pathology per the treating oncologist;</li><li>Incomplete resection or positive margins;</li><li>Lynch syndrome;</li><li>Metastatic disease (Refers to distant metastatic disease such as: lung, liver, lymph nodes, peritoneum, brain)</li><li>Pathology of any type other than adenoma (ex: lymphoma, GIST, carcinoid)</li><li>Radiation therapy;</li><li>Recurrence; and or</li><li>Sessile polyp with invasive cancer surgically treated only, no additional chemo/radiation.</li></ul>\n<p>An applicant with an ileostomy or colostomy may also receive FAA consideration. A report is necessary to confirm that the applicant has fully recovered from the surgery and is completely asymptomatic.</p>\n<p>In the case of a history of bowel obstruction, a report on the cause and present status of the condition must be obtained from the treating physician.</p>\n<p>(Updated 04/27/2022)</p>",
+ "links": [
+  {
+   "text": "CACI-Colon Cancer/ Colorectal Cancer Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACIColonCancer.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "eosinophilic-esophagitis",
+  "section_title": "Eosinophilic Esophagitis",
+  "pdf_pages": [
+   227,
+   228,
+   229
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

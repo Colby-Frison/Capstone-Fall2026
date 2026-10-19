@@ -1,0 +1,79 @@
+{
+ "id": "premature-atrial-contraction-pac",
+ "name": "Premature Atrial Contraction (PAC)",
+ "subtitle": null,
+ "name_in_guide": "PREMATURE ATRIAL CONTRACTION (PAC)",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/27/2022",
+ "order": 48,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with your treating physician or cardiologist no more than 90 days before your AME exam. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; applicable test results; assessment; plan (prognosis); and follow-up.",
+  "ECG performed within the past 90 days or most recent (already performed).",
+  "24-hour cardiac ambulatory monitor (CAM) such as holter.",
+  "Echocardiogram ( echo ).",
+  "Any other testing deemed necessary by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Asymptomatic, not requiring treatment Current or history of PACs",
+   "condition_html": "<p><strong>A. Asymptomatic, </strong></p>\n<p><strong> not requiring treatment </strong></p>\n<p><strong>Current or history of PACs</strong></p>",
+   "evaluation_data": "If the AME can determine the pilot has no symptoms, required no treatment, and does not require medication: This includes PACs found incidentally on ECG. Asymptomatic PACs are considered a Normal Variant. No evaluation is required unless symptomatic or AME has concerns.",
+   "evaluation_data_html": "<p>If the AME can determine the pilot has no symptoms, required no treatment, and does not require medication: This includes PACs found incidentally on ECG. Asymptomatic PACs are considered a Normal Variant. No evaluation is required unless symptomatic or AME has concerns.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60</p>",
+   "pdf_page": 152,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Symptomatic OR Requiring treatment",
+   "condition_html": "<p><strong>B. Symptomatic </strong></p>\n<p><strong> OR </strong></p>\n<p><strong> Requiring treatment</strong></p>",
+   "evaluation_data": "The pilot should submit the following for FAA review: - A current, detailed Clinical Progress Note generated from a clinic visit with your treating physician or cardiologist no more than 90 days before your AME exam. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; applicable test results; assessment; plan (prognosis); and follow-up. - ECG performed within the past 90 days or most recent (already performed). - 24-hour cardiac ambulatory monitor (CAM) such as holter. - Echocardiogram (echo). - Any other testing deemed necessary by the treating physician.",
+   "evaluation_data_html": "<p>The pilot should submit the following for FAA review:</p>\n<ul><li> A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with your treating physician or <strong>cardiologist no more than 90 days</strong> before your AME exam. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; applicable test results; assessment; plan (prognosis); and follow-up.</li><li> <strong>ECG</strong> performed within the past 90 days or most recent (already performed).</li><li> <strong>24-hour cardiac ambulatory monitor </strong>(CAM) such as holter.</li><li> <strong>Echocardiogram </strong>(<strong>echo</strong>).</li><li> <strong>Any other testing deemed necessary</strong> by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with your treating physician or cardiologist no more than 90 days before your AME exam. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; applicable test results; assessment; plan (prognosis); and follow-up.",
+    "ECG performed within the past 90 days or most recent (already performed).",
+    "24-hour cardiac ambulatory monitor (CAM) such as holter.",
+    "Echocardiogram ( echo ).",
+    "Any other testing deemed necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings such as test abnormalities or symptoms) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings such as test abnormalities or symptoms) in Block 60.</p>",
+   "pdf_page": 152,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-36-heart",
+  "section_title": "ITEM 36. Heart",
+  "pdf_pages": [
+   152
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

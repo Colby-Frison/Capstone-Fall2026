@@ -1,0 +1,38 @@
+{
+ "slug": "item-56-pulse",
+ "title": "ITEM 56. Pulse",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  490
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 490,
+   "header": [
+    "56. Pulse (Resting)"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>56. Pulse (Resting)</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 490,
+   "text": "The medical standards do not specify pulse rates that, per se, are disqualifying for medical certification. These tests are used, however, to determine the status and responsiveness of the cardiovascular system. Abnormal pulse rates may be reason to conduct additional cardiovascular system evaluations.",
+   "html": "<p>The medical standards do not specify pulse rates that, per se, are disqualifying for medical certification. These tests are used, however, to determine the status and responsiveness of the cardiovascular system. Abnormal pulse rates may be reason to conduct additional cardiovascular system evaluations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 490,
+   "text": "II. Examination Techniques The pulse rate is determined with the individual relaxed in a sitting position.",
+   "html": "<p><strong>II. Examination Techniques</strong> The pulse rate is determined with the individual relaxed in a sitting position.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 490,
+   "text": "III. Aerospace Medical Disposition If there is bradycardia, tachycardia, or arrhythmia, further evaluation is warranted and deferral may be indicated (see Item 36., Heart). A cardiac evaluation may be needed to determine the applicant’s qualifications. Temporary stresses or fever may, at times, result in abnormal pulse readings. If the AME believes this to be the case, the applicant should be given a few days to recover and then be retested. If this is not possible, the AME should defer issuance, pending further evaluation.",
+   "html": "<p><strong>III. Aerospace Medical Disposition</strong> If there is bradycardia, tachycardia, or arrhythmia, further evaluation is warranted and deferral may be indicated (see Item 36., Heart). A cardiac evaluation may be needed to determine the applicant’s qualifications. Temporary stresses or fever may, at times, result in abnormal pulse readings. If the AME believes this to be the case, the applicant should be given a few days to recover and then be retested. If this is not possible, the AME should defer issuance, pending further evaluation.</p>"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "eyes-general-other-conditions",
+ "name": "Eyes – General, Other Conditions",
+ "subtitle": null,
+ "name_in_guide": "EYES – GENERAL, OTHER CONDITIONS",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 24,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Provide completed FAA Form 8500-7 Submit all pertinent medical information and current status report For keratoconus, include if available results of imaging studies such as kertatometry, videokeratography, etc., with clinical correlation Note: applicant should be at best corrected visual acuity before evaluation",
+  "Submit all pertinent medical information and current status report. (If applicable, see Diabetes and Hypertensive Protocols)"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Congenital or acquired conditions (whether acute or chronic) of either eye or adnexa, that may interfere with visual functions, may progress to that degree, or may be aggravated by flying (tumors and ptosis obscuring the pupil, acute inflammatory disease of the eyes and lids, or keratoconus.)",
+   "condition_html": "<p>Congenital or acquired conditions (whether acute or chronic) of either eye or adnexa, that may interfere with visual functions, may progress to that degree, or may be aggravated by flying (tumors and ptosis obscuring the pupil, acute inflammatory disease of the eyes and lids, or keratoconus.)</p>",
+   "evaluation_data": "Provide completed FAA Form 8500-7 Submit all pertinent medical information and current status report For keratoconus, include if available results of imaging studies such as kertatometry, videokeratography, etc., with clinical correlation Note: applicant should be at best corrected visual acuity before evaluation",
+   "evaluation_data_html": "<p>Provide completed FAA Form 8500-7</p>\n<p>Submit all pertinent medical information and current status report</p>\n<p>For keratoconus, include if available results of imaging studies such as kertatometry, videokeratography, etc., with clinical correlation</p>\n<p>Note: applicant should be at best corrected visual acuity before evaluation</p>",
+   "what_to_bring": [
+    "Provide completed FAA Form 8500-7 Submit all pertinent medical information and current status report For keratoconus, include if available results of imaging studies such as kertatometry, videokeratography, etc., with clinical correlation Note: applicant should be at best corrected visual acuity before evaluation"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 102,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Pterygium",
+   "condition_html": "<p>Pterygium</p>",
+   "evaluation_data": "Document findings in Item 60",
+   "evaluation_data_html": "<p>Document findings in Item 60</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If less than 50% of the cornea and not affecting central vision - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If less than 50% of the cornea and not affecting central vision - Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 102,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic and hypertensive retinopathy)",
+   "condition_html": "<p>Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic and hypertensive retinopathy)</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report. (If applicable, see Diabetes and Hypertensive Protocols)",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report. (If applicable, see Diabetes and Hypertensive Protocols)</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report. (If applicable, see Diabetes and Hypertensive Protocols)"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 102,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Congenital or acquired conditions (whether acute or chronic) of either eye or ad",
+  "Pterygium",
+  "Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic a"
+ ],
+ "source": {
+  "section": "diplopia-double-vision",
+  "section_title": "DIPLOPIA (DOUBLE VISION)",
+  "pdf_pages": [
+   102
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

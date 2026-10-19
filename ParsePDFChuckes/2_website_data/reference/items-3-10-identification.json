@@ -1,0 +1,108 @@
+{
+ "slug": "items-3-10-identification",
+ "title": "ITEMS 3-10. Identification",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  44,
+  45
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "Items 3-10 on the FAA Form 8500-8 must be entered as identification. While most of the items are self-explanatory (as indicated in the MedXPress drop-down menu next to individual items) specific instructions include:",
+   "html": "<p>Items 3-10 on the FAA Form 8500-8 must be entered as identification. While most of the items are self-explanatory (as indicated in the MedXPress drop-down menu next to individual items) specific instructions include:</p>"
+  },
+  {
+   "type": "list",
+   "page": 44,
+   "text": "- Item 3. Last Name; First Name; Middle Name",
+   "html": "<ul><li><strong>Item 3. Last Name; First Name; Middle Name </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "The applicant’s legal last, first, and middle name* (or initial if appropriate) must be provided.",
+   "html": "<p>The applicant’s legal last, first, and middle name* (or initial if appropriate) must be provided.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "*If an applicant has no middle name, leave the middle name box blank. Do not use nomenclature which indicates no middle name (i.e. NMN, NMI, etc.). If the applicant has used such a nomenclature on their MedXPress application, delete it and leave the middle name box blank.",
+   "html": "<p>*If an applicant has no middle name, leave the middle name box blank. Do <strong>not </strong>use nomenclature which indicates no middle name (i.e. NMN, NMI, etc.). If the applicant has used such a nomenclature on their MedXPress application, delete it and leave the middle name box blank.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "Note: If the applicant's name changed for any reason, the current name is listed on the application and any former name(s) in the EXPLANATIONS box of Item 18 on the application.",
+   "html": "<p><strong>Note</strong>: If the applicant&#x27;s name changed for any reason, the current name is listed on the application and any former name(s) in the EXPLANATIONS box of <a href=\"http://www.faa.gov/ame_guide/app_process/app_history/item18/\" target=\"_blank\" rel=\"noopener\">Item 18</a> on the application.</p>"
+  },
+  {
+   "type": "list",
+   "page": 44,
+   "text": "- Item 4. Social Security Number (SSN) (Updated 07/27/2022)",
+   "html": "<ul><li><strong>Item 4. Social Security Number (SSN) </strong>(Updated 07/27/2022)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "If the applicant does not wish to provide their SSN, they may leave the SSN blank and click the box next to International/Declined to Submit. Clicking this option will assign the applicant a pseudo SSN.",
+   "html": "<p>If the applicant does not wish to provide their SSN, they may leave the SSN blank and click the box next to <strong>International/Declined to Submit. </strong>Clicking this option will assign the applicant a pseudo SSN.</p>"
+  },
+  {
+   "type": "list",
+   "page": 44,
+   "text": "- Item 5. Address and Telephone Number The applicant must print a permanent mailing address, including country, and the zip code (full nine digits if known). The person must also provide a current daytime area code and telephone number.",
+   "html": "<ul><li><strong>Item 5. Address and Telephone Number</strong> The applicant must print a permanent mailing address, including country, and the zip code (full nine digits if known). The person must also provide a current daytime area code and telephone number.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 45,
+   "text": "- Item 6. Date of Birth (Updated 05/31/2023)",
+   "html": "<ul><li><strong>Item 6. Date of Birth </strong>(Updated 05/31/2023)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "The applicant must enter the numbers for the month, day, and year of birth in order. Name, date of birth, and Social Security Number (SSN)* are the basic pilot identifiers. When an AME communicates with the FAA concerning an applicant, the AME must give the applicant's full name, date of birth, and if at all possible, SSN. The applicant should indicate citizenship (e.g., USA).",
+   "html": "<p>The applicant <strong>must</strong> enter the numbers for the month, day, and year of birth in order. Name, date of birth, and Social Security Number (SSN)* are the basic pilot identifiers. When an AME communicates with the FAA concerning an applicant, the AME must give the applicant&#x27;s full name, date of birth, and if at all possible, SSN. The applicant should indicate citizenship (e.g., USA).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "*Providing an SSN is not mandatory. See instructions for applicants who do not wish to use their SSN (Item 4).",
+   "html": "<p><strong>*</strong>Providing an SSN is not mandatory. See instructions for <a href=\"https://www.faa.gov/ame_guide/app_process/app_history/item4\" target=\"_blank\" rel=\"noopener\">applicants who do not wish to use their SSN</a> (Item 4).</p>"
+  },
+  {
+   "type": "list",
+   "page": 45,
+   "text": "- Item 7. Color of Hair Color of hair should be entered as brown, black, blonde, gray, or red. Lack of hair should be entered as bald. No abbreviations or other colors should be used. This information is for identification only.",
+   "html": "<ul><li><strong>Item 7. Color of Hair </strong>Color of hair should be entered as brown, black, blonde, gray, or red. Lack of hair should be entered as bald. No abbreviations or other colors should be used. This information is for identification only.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 45,
+   "text": "- Item 8. Color of Eyes Color of eyes should be entered as brown, black, blue, hazel, gray, or green. No abbreviations or other colors should be used. This information is for identification only.",
+   "html": "<ul><li><strong>Item 8. Color of Eyes </strong>Color of eyes should be entered as brown, black, blue, hazel, gray, or green. No abbreviations or other colors should be used. This information is for identification only.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 45,
+   "text": "- Item 9. Sex",
+   "html": "<ul><li><strong>Item 9. Sex </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "The applicant should enter either male or female.",
+   "html": "<p>The applicant should enter either male or female.</p>"
+  },
+  {
+   "type": "list",
+   "page": 45,
+   "text": "- Item 10. Type of Airman Certificate(s) You Hold Applicant checks appropriate block(s).",
+   "html": "<ul><li><strong>Item 10. Type of Airman Certificate(s) You Hold</strong> Applicant checks appropriate block(s).</li></ul>"
+  }
+ ]
+}

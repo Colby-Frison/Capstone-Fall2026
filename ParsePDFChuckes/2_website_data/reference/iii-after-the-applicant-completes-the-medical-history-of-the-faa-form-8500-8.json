@@ -1,0 +1,47 @@
+{
+ "slug": "iii-after-the-applicant-completes-the-medical-history-of-the-faa-form-8500-8",
+ "title": "III. After the Applicant Completes the Medical History of the FAA Form 8500-8",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  43
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "The AME must review all Items 1 through 20 for accuracy. The applicant must answer all questions. The date for Item 16 may be estimated if the applicant does not recall the actual date of the last examination. However, for the sake of electronic transmission, it must be placed in the mm/dd/yyyy format.",
+   "html": "<p>The AME must review all Items 1 through 20 for accuracy. The applicant must answer all questions. The date for <a href=\"https://www.faa.gov/ame_guide/app_process/app_history/item16/\" target=\"_blank\" rel=\"noopener\">Item 16</a> may be estimated if the applicant does not recall the actual date of the last examination. However, for the sake of electronic transmission, it must be placed in the mm/dd/yyyy format.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "Verify that the name on the applicant's identification media matches the name on the FAA Form 8500-8. If it does not, question the applicant for an explanation. If the explanation is not reasonable (legal name change, subsequent marriage, etc.), do not continue the medical examination or issue a medical certificate. Contact your RFS for guidance.",
+   "html": "<p>Verify that the name on the applicant&#x27;s identification media matches the name on the FAA Form 8500-8. If it does not, question the applicant for an explanation. If the explanation is not reasonable (legal name change, subsequent marriage, etc.), do not continue the medical examination or issue a medical certificate. Contact your RFS for guidance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "The applicant's Social Security Number (SSN) is not mandatory. Failure to provide is not grounds for refusal to issue a medical certificate. (See Item 4). All other items on the form must be completed.",
+   "html": "<p>The applicant&#x27;s Social Security Number (SSN) is not mandatory. Failure to provide is not grounds for refusal to issue a medical certificate. (See <strong>Item 4</strong>). All other items on the form must be completed.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "Applicants must provide their home address on the FAA Form 8500-8. Applicants may use a private mailing address (e.g., a P.O. Box number or a mail drop) if that is their preferred mailing address; however, under Item 18 (in the \"Explanations\" box) of the FAA Form 8500-8, they must provide their home address.",
+   "html": "<p>Applicants must provide their home address on the FAA Form 8500-8. Applicants may use a private mailing address (e.g., a P.O. Box number or a mail drop) if that is their preferred mailing address; however, under Item 18 (in the &quot;Explanations&quot; box) of the FAA Form 8500-8, they must provide their home address.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "An applicant cannot make updates to their application once they have certified and submitted it. If the AME discovers the need for corrections to the application during the review, the AME is required to discuss these changes with the applicant and obtain their approval. The AME must make any changes to the application in AMCS.",
+   "html": "<p>An applicant cannot make updates to their application once they have certified and submitted it. If the AME discovers the need for corrections to the application during the review, the AME is required to discuss these changes with the applicant and obtain their approval. The AME must make any changes to the application in AMCS.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 43,
+   "text": "Strict compliance with this procedure is essential in case it becomes necessary for the FAA to take legal action for falsification of the application.",
+   "html": "<p>Strict compliance with this procedure is essential in case it becomes necessary for the FAA to take legal action for falsification of the application.</p>"
+  }
+ ]
+}

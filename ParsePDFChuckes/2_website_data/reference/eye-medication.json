@@ -1,0 +1,120 @@
+{
+ "slug": "eye-medication",
+ "title": "EYE MEDICATION",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  653
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "(Updated 04/27/2022)",
+   "html": "<p>(Updated 04/27/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 14 CFR 67.103(e) and 67.113(b)(c); 67.203(e) and 67.213 (b)(c); 67.303(e) and 67.313(b)(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS - 14 CFR 67.103(e) and 67.113(b)(c); 67.203(e) and 67.213 (b)(c); 67.303(e) and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "II. MEDICAL HISTORY: Item 18.d. Medical History, eye or vision trouble except glasses.",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>Item 18.d. </strong>Medical History, eye or vision trouble except glasses.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Item 32, Ophthalmoscopic",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See <strong>Item 32</strong>, Ophthalmoscopic</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "For applicants using eye drops in the ACCEPTABLE category (below), determination will depend on whether the underlying condition for use is acceptable or disqualifying.",
+   "html": "<p>For applicants using eye drops in the ACCEPTABLE category (below), determination will depend on whether the <strong>underlying condition</strong> for use is acceptable or disqualifying.</p>"
+  },
+  {
+   "type": "list",
+   "page": 653,
+   "text": "- In general, do not instill antihistamine eye drops immediately before or during flight/safety related duties. It is common to develop temporary blurred vision each time the drops are applied.",
+   "html": "<ul><li>In general, do not instill <strong>antihistamine eye drops</strong> immediately before or during flight/safety related duties. It is common to develop temporary blurred vision each time the drops are applied.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 653,
+   "text": "- Pilocarpine (Vuity) is a prescription eye drop used for presbyopia (age-related, blurry near vision). It creates a temporary chemical correction of visual acuity by decreasing pupil size. This can increase depth of focus and give transient improvement to near vision in individuals with presbyopia. There are overt FDA-required warnings from the manufacturer regarding night vision and operating machinery. Since medication and the availability of ambient lighting impact visual acuity, pilocarpine is unacceptable.",
+   "html": "<ul><li><strong>Pilocarpine (Vuity)</strong> is a prescription eye drop used for presbyopia (age-related, blurry near vision). It creates a temporary chemical correction of visual acuity by decreasing pupil size. This can increase depth of focus and give <strong>transient </strong>improvement to near vision in individuals with presbyopia. There are overt FDA-required warnings from the manufacturer regarding night vision and operating machinery. Since medication and the availability of ambient lighting impact visual acuity, pilocarpine is <strong>unacceptable.</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 653,
+   "text": "Eye Conditions found in a separate section:",
+   "html": "<p>Eye Conditions found in a separate section:</p>"
+  },
+  {
+   "type": "list",
+   "page": 653,
+   "text": "- - a. Allergy – See Allergy – Antihistamine and Immunotherapy Medication\n- b. Glaucoma – See Glaucoma and Ocular Hypertension Medication",
+   "html": "<ul><li><ul><li>a. Allergy – See <a href=\"https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf\" target=\"_blank\" rel=\"noopener\">Allergy – Antihistamine and Immunotherapy Medication</a></li><li>b. Glaucoma – See <a href=\"https://www.faa.gov/ame_guide/media/GlaucomaOcularHypertensionMedications.pdf\" target=\"_blank\" rel=\"noopener\">Glaucoma and Ocular Hypertension Medication</a></li></ul></li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 653,
+   "header": null,
+   "rows": [
+    [
+     "ACEPTABLE Medications if the underlying condition is acceptable"
+    ],
+    [
+     "(as a single agent or combination product)"
+    ],
+    [
+     "Calcineurin Inhibitor Pain management; Postoperative cyclosporine (Restasis) surgery NSAID (Nonsteroidal Anti-inflammatory Drug)"
+    ],
+    [
+     "Carbonic anhydrase inhibitors Antibiotics"
+    ],
+    [
+     "Most Mydriatic cyclopentolate (Cyclogyl) – 24 hour no-fly phenylephrine (Altafrin) – 8 hour no-fly tropicamide (Mydriacyl) – 8 hour no-fly"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>ACEPTABLE Medications if the underlying condition is acceptable </strong></p></td></tr><tr><td><p>(as a single agent or combination product)</p></td></tr><tr><td><p> Calcineurin Inhibitor Pain management; Postoperative cyclosporine (Restasis) surgery NSAID (Nonsteroidal Anti-inflammatory Drug)</p></td></tr><tr><td><p> Carbonic anhydrase inhibitors Antibiotics</p></td></tr><tr><td><p> Most Mydriatic cyclopentolate (Cyclogyl) – 24 hour no-fly phenylephrine (Altafrin) – 8 hour no-fly tropicamide (Mydriacyl) – 8 hour no-fly</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 653,
+   "header": null,
+   "rows": [
+    [
+     "",
+     "UNACCEPTABLE Medications due to the underlying condition"
+    ],
+    [
+     "",
+     "Some Mydriatic Cholinergic Agonist atropine (Isopto Atropine) e.g., pilocarpine (Isopto Carpine; Vuity)"
+    ],
+    [
+     "",
+     "Recombinant Human Nerve Growth Factor Steroid intravitreal implant cenegermin (Oxervate) fluocinolone (Iluvien; Retisert; Yutiq)"
+    ]
+   ],
+   "html": "<table><tbody><tr><td></td><td><p><strong>UNACCEPTABLE Medications due to the underlying condition </strong></p></td></tr><tr><td></td><td><p>Some Mydriatic Cholinergic Agonist atropine (Isopto Atropine) e.g., pilocarpine (Isopto Carpine; Vuity)</p></td></tr><tr><td></td><td><p>Recombinant Human Nerve Growth Factor Steroid intravitreal implant cenegermin (Oxervate) fluocinolone (Iluvien; Retisert; Yutiq)</p></td></tr></tbody></table>"
+  }
+ ]
+}

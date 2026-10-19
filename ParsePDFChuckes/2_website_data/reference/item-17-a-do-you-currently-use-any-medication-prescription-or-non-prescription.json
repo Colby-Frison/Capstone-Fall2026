@@ -1,0 +1,42 @@
+{
+ "slug": "item-17-a-do-you-currently-use-any-medication-prescription-or-non-prescription",
+ "title": "ITEM 17.a. Do You Currently Use Any Medication (Prescription or NON prescription)?",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  46,
+  47
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "If the applicant checks yes, give name of medication(s) and indicate if the medication was listed in a previous FAA medical examination.",
+   "html": "<p>If the applicant checks yes, give name of medication(s) and indicate if the medication was listed in a previous FAA medical examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "This includes both prescription and nonprescription medication. (Additional guidelines for the certification of airmen who use medication may be found throughout the Guide).",
+   "html": "<p>This includes both prescription and nonprescription medication. (Additional guidelines for the certification of airmen who use medication may be found throughout the Guide).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "For example, any airman who is undergoing continuous treatment with anticoagulants, antiviral agents, anxiolytics, barbiturates, chemotherapeutic agents, experimental hypoglycemic, investigational, mood-ameliorating, motion sickness, narcotic, sedating antihistaminic, sedative, steroid drugs, or tranquilizers must be deferred certification unless the treatment has previously been cleared by FAA medical authority. In such an instance, the applicant should provide the AME with a copy of any FAA correspondence that supports the clearance.",
+   "html": "<p>For example, any airman who is undergoing continuous treatment with anticoagulants, antiviral agents, anxiolytics, barbiturates, chemotherapeutic agents, experimental hypoglycemic, investigational, mood-ameliorating, motion sickness, narcotic, sedating antihistaminic, sedative, steroid drugs, or tranquilizers must be deferred certification unless the treatment has previously been cleared by FAA medical authority. In such an instance, the applicant should provide the AME with a copy of any FAA correspondence that supports the clearance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "During periods in which the foregoing medications are being used for treatment of acute illnesses, the airman is under obligation to refrain from exercising the privileges of his/her airman medical certificate unless cleared by the FAA.",
+   "html": "<p>During periods in which the foregoing medications are being used for treatment of acute illnesses, the airman is under obligation to refrain from exercising the privileges of his/her airman medical certificate unless cleared by the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 47,
+   "text": "Further information concerning an applicant's use of medication may be found under the items pertaining to specific medical condition(s) for which the medication is used, or you may contact your RFS.",
+   "html": "<p>Further information concerning an applicant&#x27;s use of medication may be found under the items pertaining to specific medical condition(s) for which the medication is used, or you may contact your RFS.</p>"
+  }
+ ]
+}

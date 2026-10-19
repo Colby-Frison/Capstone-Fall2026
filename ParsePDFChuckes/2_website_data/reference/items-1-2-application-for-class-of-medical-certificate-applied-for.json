@@ -1,0 +1,29 @@
+{
+ "slug": "items-1-2-application-for-class-of-medical-certificate-applied-for",
+ "title": "ITEMS 1-2. Application for; Class of Medical Certificate Applied For",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  44
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "The applicant indicates the class of medical certificate desired. The class of medical certificate sought by the applicant is needed so that the appropriate medical standards may be applied. The class of certificate issued must correspond with that for which the applicant has applied.",
+   "html": "<p>The applicant indicates the class of medical certificate desired. The class of medical certificate sought by the applicant is needed so that the appropriate medical standards may be applied. The class of certificate issued must correspond with that for which the applicant has applied.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "The applicant may ask for a medical certificate of a higher class than needed for the type of flying or duties currently performed. For example, an aviation student may ask for a first-class medical certificate to see if he or she qualifies medically before entry into an aviation career. A recreational pilot may ask for a first- or second-class medical certificate if they desire.",
+   "html": "<p>The applicant may ask for a medical certificate of a higher class than needed for the type of flying or duties currently performed. For example, an aviation student may ask for a first-class medical certificate to see if he or she qualifies medically before entry into an aviation career. A recreational pilot may ask for a first- or second-class medical certificate if they desire.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 44,
+   "text": "The AME applies the standards appropriate to the class sought, not to the airman's duties - either performed or anticipated. The AME should never issue more than one certificate based on the same examination.",
+   "html": "<p>The AME applies the standards appropriate to the class sought, not to the airman&#x27;s duties - either performed or anticipated. The AME should never issue more than one certificate based on the same examination.</p>"
+  }
+ ]
+}

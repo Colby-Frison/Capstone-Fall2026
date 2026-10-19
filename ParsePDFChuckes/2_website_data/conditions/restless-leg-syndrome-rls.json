@@ -1,0 +1,65 @@
+{
+ "id": "restless-leg-syndrome-rls",
+ "name": "Restless Leg Syndrome (RLS)",
+ "subtitle": null,
+ "name_in_guide": "RESTLESS LEG SYNDROME (RLS)",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 46,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis), and follow-up.",
+  "It must specifically include :",
+  "Current medication list. Specifically annotate medication used to treat RLS or sleep disorder(s) (name, dose, frequency, and side effects, if any).",
+  "Lab performed no more than 90 days before the AME exam to include:",
+  "Ferritin level",
+  "Sleep study (polysomnography) results if already performed."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Restless Leg Syndrome (RLS)",
+   "condition_html": "<p>Restless Leg Syndrome (RLS)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis), and follow-up. - 2. It must specifically include: - Etiology and presence or absence of excessive daytime sleepiness (EDS), disruptive sleep, and presenting symptoms (if any); and - Current medication list. Specifically annotate medication used to treat RLS or sleep disorder(s) (name, dose, frequency, and side effects, if any). - 3. Lab performed no more than 90 days before the AME exam to include: - Complete blood count (CBC); and - Ferritin level - 4. Sleep study (polysomnography)results if already performed. Note: The FAA may request a sleep study for certification determination in some cases.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> from a clinic visit with the treating physician <strong>no more than 90 days before</strong> the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis), and follow-up.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong>:<ul><li>Etiology and presence or absence of excessive daytime sleepiness (EDS), disruptive sleep, and presenting symptoms (if any); and</li><li>Current medication list. Specifically annotate <strong>medication used to treat RLS or sleep disorder(s) </strong>(name, dose, frequency, and side effects, if any).</li></ul></li></ul>\n<ul><li>3. <strong>Lab </strong>performed <strong>no more than 90 days before</strong> the AME exam to include:<ul><li>Complete blood count (CBC); and</li><li>Ferritin level</li></ul></li></ul>\n<ul><li>4. <strong>Sleep study (polysomnography)</strong>results <strong>if already performed.</strong></li></ul>\n<p><strong>Note:</strong> The FAA may request a sleep study for certification determination in some cases.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a detailed summary of the history of the condition, current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis), and follow-up.",
+    "It must specifically include :",
+    "Current medication list. Specifically annotate medication used to treat RLS or sleep disorder(s) (name, dose, frequency, and side effects, if any).",
+    "Lab performed no more than 90 days before the AME exam to include:",
+    "Ferritin level",
+    "Sleep study (polysomnography) results if already performed."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 145,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   145
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

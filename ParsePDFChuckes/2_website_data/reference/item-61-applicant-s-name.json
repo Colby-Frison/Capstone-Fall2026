@@ -1,0 +1,26 @@
+{
+ "slug": "item-61-applicant-s-name",
+ "title": "ITEM 61. Applicant's Name",
+ "group": "APPLICATION REVIEW",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  499
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 499,
+   "header": [
+    "Item 61. Applicant’s Name"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Item 61. Applicant’s Name</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "The legal name applicant's name should be entered.",
+   "html": "<p>The legal name applicant&#x27;s name should be entered.</p>"
+  }
+ ]
+}

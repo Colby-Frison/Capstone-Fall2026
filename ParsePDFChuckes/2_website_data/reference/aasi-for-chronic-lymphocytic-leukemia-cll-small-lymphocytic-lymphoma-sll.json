@@ -1,0 +1,53 @@
+{
+ "slug": "aasi-for-chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+ "title": "AASI for Chronic Lymphocytic Leukemia (CLL) Small Lymphocytic Lymphoma (SLL)",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  692
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 692,
+   "text": "(Updated 05/31/2023)",
+   "html": "<p>(Updated 05/31/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 692,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 692,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 692,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 692,
+   "text": "- An Authorization granted by the FAA;\n- A CLL/SLL Status Summary and a current, detailed Clinical Progress Note from the treating physician that includes all of the required information; and\n- The results of a complete blood count (CBC) performed no more than 90 days before the AME exam.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>A <a href=\"https://www.faa.gov/ame_guide/media/CLL_SLL_status_summary.pdf\" target=\"_blank\" rel=\"noopener\">CLL/SLL Status Summary</a> and a current, detailed Clinical Progress Note from the treating physician that includes all of the required information; and</li><li>The results of a complete blood count (CBC) performed no more than 90 days before the AME exam.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 692,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 692,
+   "text": "- The condition worsens, individual becomes symptomatic, or new treatment is initiated;\n- The condition currently requires treatment with a chemotherapeutic agent;\n- Rai stage is 3 or higher or Binet stage is C;\n- Evidence of active disease;\n- The hemoglobin is less than 10, the platelet count is less than 100,000/microL, or the total or absolute lymphocytic count doubling time is less than 6 months.",
+   "html": "<ul><li>The condition worsens, individual becomes symptomatic, or new treatment is initiated;</li><li>The condition currently requires treatment with a chemotherapeutic agent;</li><li>Rai stage is 3 or higher or Binet stage is C;</li><li>Evidence of active disease;</li><li>The hemoglobin is less than 10, the platelet count is less than 100,000/microL, or the total or absolute lymphocytic count doubling time is less than 6 months.</li></ul>"
+  }
+ ]
+}

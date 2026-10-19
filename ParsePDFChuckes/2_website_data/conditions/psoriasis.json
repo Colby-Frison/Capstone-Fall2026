@@ -1,0 +1,140 @@
+{
+ "id": "psoriasis",
+ "name": "Psoriasis",
+ "subtitle": null,
+ "name_in_guide": "PSORIASIS",
+ "category": {
+  "id": "skin",
+  "name": "Skin",
+  "exam_item": "40",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 83,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and",
+  "Follow-up.",
+  "If any co-morbid conditions are present",
+  "Documentation of counseling on guideline-directed screening for co-morbid conditions"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Mild to moderate disease confined to the skin AND Treated with topical medication only",
+   "condition_html": "<ul><li><strong>A. </strong>Mild to moderate disease confined to the skin</li></ul>\n<p>AND</p>\n<p>Treated with topical</p>\n<p>medication only</p>",
+   "evaluation_data": "If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 234,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- B. Mild to moderate disease AND Treated with oral or injectable medication If psoriatic arthritis present, see CACI – Arthritis Worksheet",
+   "condition_html": "<ul><li><strong>B. </strong>Mild to moderate disease</li></ul>\n<p>AND</p>\n<p>Treated with oral or</p>\n<p>injectable medication</p>\n<p>If psoriatic arthritis present, see <a href=\"https://www.faa.gov/ame_guide/media/ArthritisDispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Arthritis Worksheet</a></p>",
+   "evaluation_data": "See the CACI - Psoriasis Worksheet . This requires a current, detailed Clinical Progress Note from the treating physician. If the pilot meets all CACI worksheet criteria and is otherwise qualified:",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/C_CACI-Psoriaisis.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Psoriasis Worksheet</a> .</p>\n<p>This requires a current, detailed Clinical Progress Note from the treating physician.</p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE Annotate (elements or findings) in Block 60. Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>\n<p>Annotate the correct CACI statement in</p>\n<p>Block 60 and keep the required supporting information on file.</p>",
+   "pdf_page": 234,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others including: - Erythrodermic psoriasis - Pustular psoriasis - Severe psoriasis",
+   "condition_html": "<p><strong>C.</strong> All others including:</p>\n<ul><li>Erythrodermic psoriasis</li><li>Pustular psoriasis</li><li>Severe psoriasis</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating Dermatologist or Rheumatologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and - Follow-up. The Clinical Progress Note must specifically include: - If any co-morbid conditions are present - Documentation of counseling on guideline-directed screening for co-morbid conditions See Pilot Information – Clinical Progress Note .",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>Dermatologist </strong>or <strong>Rheumatologist </strong>no more than 90 days prior to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and</li><li>Follow-up.</li></ul>\n<p>The Clinical Progress Note must specifically include:</p>\n<ul><li>If any co-morbid conditions are present</li><li>Documentation of counseling on guideline-directed screening for co-morbid conditions</li></ul>\n<p>See <a href=\"http://www.faa.gov/ame_guide/DCPN\" target=\"_blank\" rel=\"noopener\">Pilot Information – Clinical Progress Note</a> .</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and",
+    "Follow-up.",
+    "If any co-morbid conditions are present",
+    "Documentation of counseling on guideline-directed screening for co-morbid conditions"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 234,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Psoriasis Worksheet",
+   "updated": "08/27/2025",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed Clinical Progress Note from the treating physician",
+     "acceptable_certification_criteria": "[ ] Condition is stable with NO systemic symptoms and NO limitation to strength, function, or range of motion which would interfere with flight duties. [ ] Severity is mild to moderate. NOTE: If co-morbid conditions are present, see corresponding page. If psoriatic arthritis, see arthritis page."
+    },
+    {
+     "ame_must_review": "Causes",
+     "acceptable_certification_criteria": "[ ] Most subtypes to include: guttate psoriasis, plaque psoriasis. Not acceptable: pustular psoriasis, erythrodermic psoriasis."
+    },
+    {
+     "ame_must_review": "Medications for condition Combinations acceptable for CACI Include: - Topical medication + - Methotrexate + - Any single agent listed KEY: Interleukin Inhibitors (IL) Phosphodiesterase-4 Enzyme Inhibitor (PDE4) Tumor necrosis factor inhibitors (TNF) *Biologics do not have generic; they have biosimilar.",
+     "acceptable_certification_criteria": "[ ] Topical medication(s) and/or [ ] azathioprine (Imuran) and/or [ ] methotrexate (Trexall) and/or [ ] Any single medication listed below after a 2-week ground trial and: - - No post-dose observation time: - o apremilast (Otezla) - PD4E - 4-hour post-dose observation time: - o adalimumab (Humira or FDA approved biosimilar*) - TNF - o certolizumab (Cimzia) - TNF - o etanercept (Enbrel) - TNF - o guselkumab (Tremfya) - IL - o ixekizumab (Taltz) - IL - o risankizumab (Skyrizi) - IL - o secukinumab (Cosentyx) – IL - o tildrakizumab (Ilumya) - IL - o ustekinumab (Stelara) - IL - 24-hour post-dose observation time: - o infliximab (Inflect; Remicade; Renflexis) - TNF"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Psoriasis. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified Psoriasis.",
+    "NOT CACI qualified Psoriasis. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 08/27/2025)</p>",
+ "links": [
+  {
+   "text": "CACI - Psoriasis Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C_CACI-Psoriaisis.pdf"
+  },
+  {
+   "text": "Pilot Information – Clinical Progress Note",
+   "href": "http://www.faa.gov/ame_guide/DCPN"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-40-skin",
+  "section_title": "ITEM 40. Skin",
+  "pdf_pages": [
+   234,
+   235
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

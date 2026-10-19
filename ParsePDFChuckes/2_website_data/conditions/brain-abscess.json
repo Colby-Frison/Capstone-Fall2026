@@ -1,0 +1,71 @@
+{
+ "id": "brain-abscess",
+ "name": "Brain Abscess",
+ "subtitle": null,
+ "name_in_guide": "BRAIN ABSCESS",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 116,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+  "The most recent MRI and/or CT imaging of the brain. (If not already performed, a current brain MRI is required.)",
+  "The most recent electroencephalogram (EEG)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "All classes Any history (current or ever in their lifetime)",
+   "condition_html": "<p><strong>A.</strong> All classes</p>\n<p><strong>Any history</strong> (current or ever in their lifetime)</p>\n<p></p>",
+   "evaluation_data": "After appropriate recovery period* Submit the following for FAA review 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3. The most recent MRI and/or CT imaging of the brain. (If not already performed, a current brain MRI is required.) • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. The most recent electroencephalogram (EEG). • (If not already performed, a current EEG is required.) • The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). • Include any previous EEG(s) available for comparison. • Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.",
+   "evaluation_data_html": "<p>After appropriate recovery period* Submit the following for FAA review</p>\n<p>1. A <strong>current, detailed neurological evaluation, </strong>in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA</a> Specifications for Neurologic evaluation, generated from a clinic visit with the <strong>treating neurologist no more than 90 days before </strong>the AME exam.</p>\n<p>2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the <strong>treating neuropsychologist no more than 90 days </strong>before the AME exam.</p>\n<p>3. The most recent MRI and/or CT imaging of the brain. (If not already performed, a current brain MRI is required.)</p>\n<p>• Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</p>\n<p>4. The most recent electroencephalogram (EEG).</p>\n<p>• (If not already performed, a current EEG is required.)</p>\n<p>• The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light).</p>\n<p>• Include any previous EEG(s) available for comparison.</p>\n<p>• Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+    "The most recent MRI and/or CT imaging of the brain. (If not already performed, a current brain MRI is required.)",
+    "The most recent electroencephalogram (EEG)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 295,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<table><tbody><tr><td><p><strong>DISEASE/CONDITION A.</strong> All classes</p>\n<p><strong>Any history</strong> (current or ever in their lifetime)</p>\n<p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><ul><li><ul><li>The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.</li></ul></li></ul>\n<ul><li>5. Other testing deemed clinically necessary by the treating physician.</li></ul>\n<p><strong>*Note:</strong> Applicants with prior brain abscess should have a minimum of</p>\n<p>6 months observation following completion of treatment. If residual cortical lesion(s) are seen on MRI, a longer recovery period may be required. If surgery was performed (penetrating the dura), a minimum two (2)-year recovery period will apply. If associated with a seizure, refer to that section, as a longer recovery period may then apply.</p></td></tr></tbody></table>\n<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">Encephalitis or Meningitis</a> .</p>",
+ "links": [
+  {
+   "text": "Encephalitis or Meningitis",
+   "href": "https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf"
+  },
+  {
+   "text": "FAA",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   295,
+   296
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

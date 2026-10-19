@@ -1,0 +1,17 @@
+{
+ "slug": "item-16-date-of-last-faa-medical-application",
+ "title": "ITEM 16. Date of Last FAA Medical Application",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  46
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "If a prior application was made, the applicant should indicate the date of the last application, even if it is only an estimate of the year. This item should be completed even if the application was made many years ago or the previous application did not result in the issuance of a medical certificate. If no prior application was made, the applicant should check the appropriate block in Item 16.",
+   "html": "<p>If a prior application was made, the applicant should indicate the date of the last application, even if it is only an estimate of the year. This item should be completed even if the application was made many years ago or the previous application did not result in the issuance of a medical certificate. If no prior application was made, the applicant should check the appropriate block in Item 16.</p>"
+  }
+ ]
+}

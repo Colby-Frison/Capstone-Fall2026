@@ -1,0 +1,71 @@
+{
+ "slug": "11-operations-not-requiring-a-medical-certificate",
+ "title": "11. Operations Not Requiring a Medical Certificate",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  23
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 23,
+   "text": "(Updated 05/31/2023)",
+   "html": "<p>(Updated 05/31/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "text": "The following do not require a medical certificate; however, applicants must certify that they do not know or have reason to know of any medical condition that would make them unable to operate any of the following in a safe manner.",
+   "html": "<p>The following do not require a medical certificate; however, applicants must certify that they do not know or have reason to know of any medical condition that would make them unable to operate any of the following in a safe manner.</p>"
+  },
+  {
+   "type": "list",
+   "page": 23,
+   "text": "- a. Glider pilots are not required to hold a medical certificate of any class.",
+   "html": "<ul><li><strong>a. Glider pilots </strong>are not required to hold a medical certificate of any class.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 23,
+   "text": "- b. Free Balloon Pilots exercising private or student pilot privileges.",
+   "html": "<ul><li><strong>b. Free Balloon Pilots</strong> exercising private or student pilot privileges.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 23,
+   "text": "- c. Student Pilot. See Student Pilot Rule Change Note: Student pilot will need a valid medical certificate prior to solo flight.",
+   "html": "<ul><li><strong>c. Student Pilot</strong>. <a href=\"http://www.faa.gov/ame_guide/media/StudentPilotRuleChange.pdf\" target=\"_blank\" rel=\"noopener\">See Student Pilot Rule Change</a> <strong>Note:</strong> Student pilot will need a valid medical certificate prior to solo flight.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 23,
+   "text": "- d. “Sport” pilots are required to hold either a valid pilot medical certificate or a current and valid U.S. driver’s license. When using a current and valid U.S. driver’s license to qualify, sport pilots must comply with each restriction and limitation on their U.S. driver’s license and any judicial or administrative order applying to the operation of a motor vehicle.",
+   "html": "<ul><li><strong>d. </strong>“<strong>Sport” pilots</strong> are required to hold either a valid pilot medical certificate or a current and valid U.S. driver’s license. When using a current and valid U.S. driver’s license to qualify, sport pilots must comply with each restriction and limitation on their U.S. driver’s license and any judicial or administrative order applying to the operation of a motor vehicle.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "text": "To exercise sport pilot privileges using a current and valid U.S. driver’s license as evidence of qualification, sport pilots must:",
+   "html": "<p>To exercise sport pilot privileges using a current and valid U.S. driver’s license as evidence of qualification, sport pilots must:</p>"
+  },
+  {
+   "type": "list",
+   "page": 23,
+   "text": "- Not have been denied the issuance of at least a third-class airman medical certificate (if they have applied for an airman medical certificate)\n- Not have had their most recent airman medical certificate revoked or suspended (if they have held an airman medical certificate); and\n- Not have had an Authorization withdrawn (if they have ever been granted an Authorization).",
+   "html": "<ul><li>Not have been denied the issuance of at least a third-class airman medical certificate (if they have applied for an airman medical certificate)</li><li>Not have had their most recent airman medical certificate revoked or suspended (if they have held an airman medical certificate); and</li><li>Not have had an Authorization withdrawn (if they have ever been granted an Authorization).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "text": "Sport pilots may not use a current and valid U.S. driver’s license in lieu of a valid airman medical certificate if they know or have reason to know of any medical condition that would make them unable to operate a light-sport aircraft in a safe manner. Sport pilot medical provisions are found under 14 CFR §§ 61.3, 61.23, 61.53, and 61.303).",
+   "html": "<p>Sport pilots may not use a current and valid U.S. driver’s license in lieu of a valid airman medical certificate if they know or have reason to know of any medical condition that would make them unable to operate a light-sport aircraft in a safe manner. Sport pilot medical provisions are found under 14 CFR §§ 61.3, 61.23, 61.53, and 61.303).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 23,
+   "text": "For more information about the sport pilot final rule, see the 2/1/2010 Certification of Aircraft and Airmen for the Operation of Light-Sport Aircraft; Final Rule.",
+   "html": "<p>For more information about the sport pilot final rule, see the 2/1/2010 <a href=\"https://www.federalregister.gov/articles/2010/02/01/2010-2056/certification-of-aircraft-and-airmen-for-the-operation-of-light-sport-aircraft-modifications-to\" target=\"_blank\" rel=\"noopener\">Certification of Aircraft and Airmen for the Operation of Light-Sport Aircraft; Final Rule.</a></p>"
+  }
+ ]
+}

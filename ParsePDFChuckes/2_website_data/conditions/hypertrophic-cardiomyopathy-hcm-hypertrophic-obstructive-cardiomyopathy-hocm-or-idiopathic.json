@@ -1,0 +1,91 @@
+{
+ "id": "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or-idiopathic",
+ "name": "Hypertrophic Cardiomyopathy (HCM), Hypertrophic Obstructive Cardiomyopathy (HOCM), or Idiopathic Hypertrophic Subaortic Stenosis (IHSS)",
+ "subtitle": null,
+ "name_in_guide": "Hypertrophic Cardiomyopathy (HCM), Hypertrophic Obstructive Cardiomyopathy (HOCM), or Idiopathic Hypertrophic Subaortic Stenosis (IHSS)",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 65,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+  "b. Any personal history of non-sustained Ventricular Tachycardia, or unexplained syncope.",
+  "Echocardiogram (Echo) performed WITH Valsalva maneuver. Report and digital images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. Must include complete measurements and specific attention to maximal LV wall thickness, left atrial size, and maximal LV outflow tract gradient (rest vs. Valsalva).",
+  "Cardiac monitor. 72 hours minimum performed no more than 90 days prior to the AME exam. Note: Some cases may require a 30-day monitor.",
+  "Maximal Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+  "Protocol: 3-minute Bruce treadmill test. Must complete Stage 3 (>= 9 minutes) and reach 100% predicted maximal heart rate unless medically contraindicated or prevented by symptoms or medication.",
+  "Medication: Stop beta-blockers, calcium blockers (Diltiazem/Verapamil), and digoxin for 48 hours before the test. If it is unsafe to stop, attach a doctor's note describing the contraindication.",
+  "Treadmill Not Possible: Provide a doctor's note to explain why and perform either bicycle ergometry (Must reach 100% max Heart Rate and greater than METS) or a Nuclear Stress Test (pharmacological stress radionuclide myocardial perfusion scintigraphy).",
+  "ECG Printouts Required: Full 12-lead taken at rest (supine and standing). 12 lead tracings + rhythm strips during each stage, at the end of each stage, at peak, and every minute during recovery for at least 5-minutes or until the tracings return to baseline level. Computer generated, sample-cycle ECG tracings or summary sheets are not acceptable.",
+  "Submit original printouts only (by mail or electronic upload). Faxes or photocopies are not accepted.",
+  "EKG (resting) performed no more than 90 days prior to the AME exam.",
+  "Cardiac MRI performed no more than 12 months prior to the AME exam. Include report and actual digital images.",
+  "Historical Medical Records",
+  "Past Cardiac Care: Submit all prior heart evaluation and treatment records. Include records for any procedures (e.g., myomectomy, alcohol ablation, chordal realignment).",
+  "Operative Reports: Submit official operative reports for all past heart surgeries. (If applicable)",
+  "Advanced Imaging & Tests: Submit all prior test results and advanced imaging (e.g., Chest CT, MRI). Provide both the written reports AND the actual image files."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history or suspected history (all classes)",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Any history or suspected history</p>\n<p>(all classes)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. It MUST include - - a. Complete history detailing any family history of unexplained sudden cardiac death, and - b. Any personal history of non-sustained Ventricular Tachycardia, or unexplained syncope. Hypertrophic Cardiomyopathy 5-Year SCD Score: Documentation of a 5-year sudden cardiac death risk score (compiled using the most recent version of the American Heart Association (AHA) risk calculator). - 2. Echocardiogram (Echo) performed WITH Valsalva maneuver. Report and digital images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. Must include complete measurements and specific attention to maximal LV wall thickness, left atrial size, and maximal LV outflow tract gradient (rest vs. Valsalva). Submit the video resulting from this study on CD- ROM in DICOM compatible format. - 3. Cardiac monitor. 72 hours minimum performed no more than 90 days prior to the AME exam. Note: Some cases may require a 30-day monitor. The report must include the data summary and representative EKG tracings. - 4. Maximal Exercise stress test (EST) performed no more than 90 days prior to the AME exam. Submit the report with worksheet and representative EKG tracings (to exclude CAD). STRESS TEST REQUIREMENTS - Protocol: 3-minute Bruce treadmill test. Must complete Stage 3 (>= 9 minutes) and reach 100% predicted maximal heart rate unless medically contraindicated or prevented by symptoms or medication. - Medication: Stop beta-blockers, calcium blockers (Diltiazem/Verapamil), and digoxin for 48 hours before the test. If it is unsafe to stop, attach a doctor's note describing the contraindication. - Treadmill Not Possible: Provide a doctor's note to explain why and perform either bicycle ergometry (Must reach 100% max Heart Rate and greater than METS) or a Nuclear Stress Test (pharmacological stress radionuclide myocardial perfusion scintigraphy). - ECG Printouts Required: Full 12-lead taken at rest (supine and standing). 12 lead tracings + rhythm strips during each stage, at the end of each stage, at peak, and every minute during recovery for at least 5-minutes or until the tracings return to baseline level. Computer generated, sample-cycle ECG tracings or summary sheets are not acceptable. - Submit original printouts only (by mail or electronic upload). Faxes or photocopies are not accepted. - 5. EKG (resting) performed no more than 90 days prior to the AME exam. - 6. Cardiac MRI performed no more than 12 months prior to the AME exam. Include report and actual digital images. - 7. Historical Medical Records - Past Cardiac Care: Submit all prior heart evaluation and treatment records. Include records for any procedures (e.g., myomectomy, alcohol ablation, chordal realignment). - Operative Reports: Submit official operative reports for all past heart surgeries. (If applicable) - Advanced Imaging & Tests: Submit all prior test results and advanced imaging (e.g., Chest CT, MRI). Provide both the written reports AND the actual image files. Note: once these records are reviewed, additional testing or information may be required.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p>It <strong>MUST</strong> include</p>\n<ul><li><ul><li>a. Complete history detailing any family history of unexplained sudden cardiac death, and</li><li>b. Any personal history of non-sustained Ventricular Tachycardia, or unexplained syncope.</li></ul></li></ul>\n<p><strong>Hypertrophic Cardiomyopathy 5-Year SCD Score:</strong> Documentation of a 5-year sudden cardiac death risk score (compiled using the most recent version of the American Heart Association (AHA) risk calculator).</p>\n<ul><li><strong>2. Echocardiogram</strong> (Echo) performed WITH Valsalva maneuver. Report and digital images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. Must include complete measurements and specific attention to maximal LV wall thickness, left atrial size, and maximal LV outflow tract gradient (rest vs. Valsalva).</li></ul>\n<p>Submit the video resulting from this study on CD- ROM in DICOM compatible format.</p>\n<ul><li><strong>3. Cardiac monitor. 72 hours minimum</strong> performed no more than 90 days prior to the AME exam. Note: Some cases may require a 30-day monitor.</li></ul>\n<p>The report must include the data summary and representative EKG tracings.</p>\n<ul><li><strong>4. Maximal Exercise stress test (EST)</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<p>Submit the report with worksheet and representative EKG tracings (to exclude CAD).</p>\n<p><strong>STRESS TEST REQUIREMENTS</strong></p>\n<ul><li><strong>Protocol:</strong> 3-minute Bruce treadmill test. Must complete Stage 3 (&gt;= 9 minutes) and reach 100% predicted maximal heart rate unless medically contraindicated or prevented by symptoms or medication.</li><li><strong>Medication:</strong> Stop beta-blockers, calcium blockers (Diltiazem/Verapamil), and digoxin for 48 hours before the test. If it is unsafe to stop, attach a doctor&#x27;s note describing the contraindication.</li><li><strong>Treadmill Not Possible: </strong>Provide a doctor&#x27;s note to explain why and perform either bicycle ergometry (Must reach 100% max Heart Rate and greater than METS) or a Nuclear Stress Test (pharmacological stress radionuclide myocardial perfusion scintigraphy).</li><li><strong>ECG Printouts Required:</strong> Full 12-lead taken at rest (supine and standing). 12 lead tracings + rhythm strips during each stage, at the end of each stage, at peak, and every minute during recovery for at least 5-minutes or until the tracings return to baseline level. Computer generated, sample-cycle ECG tracings or summary sheets are not acceptable.</li><li><strong>Submit</strong> original printouts only (by mail or electronic upload). Faxes or photocopies are not accepted.</li></ul>\n<ul><li><strong>5. EKG (resting)</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>6. Cardiac MRI</strong> performed no more than <strong>12 months prior</strong> to the AME exam. Include report and actual digital images.</li></ul>\n<ul><li><strong>7. Historical Medical Records </strong></li></ul>\n<ul><li><strong>Past Cardiac Care:</strong> Submit all prior heart evaluation and treatment records. Include records for any procedures (e.g., myomectomy, alcohol ablation, chordal realignment).</li><li><strong>Operative Reports:</strong> Submit official operative reports for all past heart surgeries. (If applicable)</li><li><strong>Advanced Imaging &amp; Tests:</strong> Submit all prior test results and advanced imaging (e.g., Chest CT, MRI). <strong>Provide both the written reports AND the actual image files.</strong></li></ul>\n<p><strong>Note: </strong> once these records are reviewed, additional testing or information may be required.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+    "b. Any personal history of non-sustained Ventricular Tachycardia, or unexplained syncope.",
+    "Echocardiogram (Echo) performed WITH Valsalva maneuver. Report and digital images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. Must include complete measurements and specific attention to maximal LV wall thickness, left atrial size, and maximal LV outflow tract gradient (rest vs. Valsalva).",
+    "Cardiac monitor. 72 hours minimum performed no more than 90 days prior to the AME exam. Note: Some cases may require a 30-day monitor.",
+    "Maximal Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+    "Protocol: 3-minute Bruce treadmill test. Must complete Stage 3 (>= 9 minutes) and reach 100% predicted maximal heart rate unless medically contraindicated or prevented by symptoms or medication.",
+    "Medication: Stop beta-blockers, calcium blockers (Diltiazem/Verapamil), and digoxin for 48 hours before the test. If it is unsafe to stop, attach a doctor's note describing the contraindication.",
+    "Treadmill Not Possible: Provide a doctor's note to explain why and perform either bicycle ergometry (Must reach 100% max Heart Rate and greater than METS) or a Nuclear Stress Test (pharmacological stress radionuclide myocardial perfusion scintigraphy).",
+    "ECG Printouts Required: Full 12-lead taken at rest (supine and standing). 12 lead tracings + rhythm strips during each stage, at the end of each stage, at peak, and every minute during recovery for at least 5-minutes or until the tracings return to baseline level. Computer generated, sample-cycle ECG tracings or summary sheets are not acceptable.",
+    "Submit original printouts only (by mail or electronic upload). Faxes or photocopies are not accepted.",
+    "EKG (resting) performed no more than 90 days prior to the AME exam.",
+    "Cardiac MRI performed no more than 12 months prior to the AME exam. Include report and actual digital images.",
+    "Historical Medical Records",
+    "Past Cardiac Care: Submit all prior heart evaluation and treatment records. Include records for any procedures (e.g., myomectomy, alcohol ablation, chordal realignment).",
+    "Operative Reports: Submit official operative reports for all past heart surgeries. (If applicable)",
+    "Advanced Imaging & Tests: Submit all prior test results and advanced imaging (e.g., Chest CT, MRI). Provide both the written reports AND the actual image files."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 192,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Other Cardiac Conditions </strong></p>\n<p>(Updated 06/24/2026)</p>\n<p>Note: Some conditions previously on this list have been moved to a disposition table.</p>\n<p>The following conditions <strong>must be deferred: </strong></p>\n<ul><li>1. Non-compaction cardiomyopathy.</li><li>2. Cardiac decompensation</li><li>3. Hypertrophy or dilatation of the heart as evidenced by clinical examination and supported by diagnostic studies. (Concentric LVH with no dilatation can be issued by the AME if no symptoms.)</li><li>4. Pericarditis or myocarditis</li><li>5. Cardiac enlargement or other evidence of cardiovascular abnormality, If the applicant wishes further consideration, a consultation is required, preferably from the applicant’s treating physician. It must include a narrative report of evaluation and be accompanied by an ECG with report and appropriate laboratory test results which may include, as appropriate, 24-hour Holter monitoring, thyroid function studies, ECHO, and an assessment of coronary artery status.</li><li>6. Anti-tachycardia devices</li><li>7. Implantable defibrillators (ICDs)</li><li>8. Anticoagulants may be allowed, if the condition is allowed.</li><li>9. Cardioversion (electrical or pharmacologic) may be allowed. A current, complete cardiovascular evaluation (CVE) and follow up Holter monitoring test is required. A <strong>1-month observation period</strong> must elapse after the procedure before consideration for certification.</li><li>10. Any other cardiac disorder not otherwise covered in this section.</li><li>11. Hypotension. A history of low blood pressure requires elaboration. If the AME is in doubt, it is usually better to defer issuance rather than to deny certification for such a history.</li></ul>\n<p>For all classes, certification decisions will be based on the applicant&#x27;s medical history and current clinical findings. Evidence of extensive multi-vessel disease, impaired cardiac functioning, precarious coronary circulation, etc., will preclude certification. Before an applicant undergoes coronary angiography, it is recommended that all records and the report of a current cardiovascular evaluation (CVE), including a maximal electrocardiographic exercise stress test, be submitted to the FAA for preliminary review. Based upon this information, it may be possible to advise an applicant of the likelihood of favorable consideration.</p>",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or",
+  "section_title": "Hypertrophic Cardiomyopathy (HCM), Hypertrophic Obstructive Cardiomyopathy (HOCM), or Idiopathic Hypertrophic Subaortic Stenosis (IHSS)",
+  "pdf_pages": [
+   192,
+   195
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "guillain-barre-syndrome",
+ "name": "Guillain-Barre Syndrome",
+ "subtitle": null,
+ "name_in_guide": "GUILLAIN-BARRE SYNDROME",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 128,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include if there is any persisting deficit and period of stability without symptoms.",
+  "Other testing already performed or deemed necessary by the pilot's physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Single episode,",
+   "condition_html": "<p><strong>A.</strong> Single episode,</p>",
+   "evaluation_data": "If the AME can determine this was a",
+   "evaluation_data_html": "<p>If the AME can determine this was a</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "<p></p>",
+   "pdf_page": 319,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "No complications, Fully resolved and recovered with a minimum of six (6) months stability",
+   "condition_html": "<p>No complications, Fully resolved and recovered with a minimum of six</p>\n<p>(6) months stability</p>",
+   "evaluation_data": "single episode, fully resolved with no complications or sequelae: Note: If the episode occurred within the previous 12 months, the AME must review documentation from the treating physician. If six (6) months of stability has not been met, go to Row B.",
+   "evaluation_data_html": "<p>single episode, fully resolved with no complications or sequelae: <strong>Note:</strong> If the episode occurred within the <strong>previous 12 months</strong>, the AME must review documentation from the treating physician. If six (6) months of stability has not been met, go to Row B.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit any evaluations to the FAA for retention in the pilot's file. If any underlying cause found, see that section.",
+   "disposition_html": "<p><strong>ISSUE </strong>Annotate Block 60 and submit any evaluations to the FAA for retention in the pilot&#x27;s file. If any underlying cause found, see that section.</p>",
+   "pdf_page": 319,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Less than six (6) months of stability after episode, Two or more episodes in a lifetime, Continued symptoms, OR Complications",
+   "condition_html": "<p><strong>B.</strong> Less than six (6) months of stability after episode, Two or more episodes in a lifetime, Continued symptoms, OR Complications</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. It must specifically include if there is any persisting deficit and period of stability without symptoms. 3. Other testing already performed or deemed necessary by the pilot's physician. Note: If associated with a seizure, refer to the Seizure section. A recovery period may apply.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed neurological evaluation, </strong>in accordance with the FAA Specifications for Neurologic <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">Evaluation,</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before </strong>the AME exam.</p>\n<p>2. It must specifically include if there is any persisting deficit and period of stability without symptoms.</p>\n<p>3. Other testing already performed or deemed necessary by the pilot&#x27;s physician.</p>\n<p><strong>Note</strong>: If associated with a seizure, refer to the Seizure section. A recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include if there is any persisting deficit and period of stability without symptoms.",
+    "Other testing already performed or deemed necessary by the pilot's physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 319,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Evaluation,",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   319
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

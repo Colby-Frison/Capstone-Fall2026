@@ -1,0 +1,122 @@
+{
+ "slug": "glaucoma-and-ocular-hypertension-medications",
+ "title": "GLAUCOMA AND OCULAR HYPERTENSION MEDICATIONS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  654
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113(b)(c); 67.213 (b)(c); and 67.313(b)(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong>- <strong>67.113(b)(c); 67.213 (b)(c); and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "II. MEDICAL HISTORY: Item 18.d. Medical History, Eye or vision trouble except glasses. The applicant should provide a current, detailed Clinical Progress Note from the treating physician generated from a clinic visit no more than 90 days prior to the AME exam. It must include a summary of the history of the condition; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>Item 18.d. </strong>Medical History, Eye or vision trouble except glasses. The applicant should provide a current, detailed Clinical Progress Note from the treating physician generated from a clinic visit no more than 90 days prior to the AME exam. It must include a summary of the history of the condition; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Item 32, Ophthalmoscopic",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See <strong>Item 32</strong>, <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item32\" target=\"_blank\" rel=\"noopener\">Ophthalmoscopic</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 654,
+   "text": "- Cholinergic agonists cause pupillary constriction which can interfere with visual acuity and night vision. They are no longer first-line Glaucoma agents",
+   "html": "<ul><li>Cholinergic agonists cause pupillary constriction which can interfere with visual acuity and night vision. They are no longer first-line Glaucoma agents</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "CACI Glaucoma Medications",
+   "html": "<p><strong>CACI Glaucoma Medications </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "(as a single agent or in a combination product)",
+   "html": "<p>(as a single agent or in a combination product)</p>"
+  },
+  {
+   "type": "table",
+   "page": 654,
+   "header": [
+    "Beta-Blocker - betaxolol (Kerlone) - carteolol (Ocupress - levobunolol (Betagan) timolol (Timoptic)",
+    "Carbonic Anhydrase Inhibitor - brinzolamide (Azopt) - dorzolamide (Trusopt) - methazolamide"
+   ],
+   "rows": [
+    [
+     "Alpha2 Agonist - apraclonidine (Iopidine) brimonidine (Alphagan P)",
+     "Rho Kinase Inhibitor netarsudil (Rhopressa)"
+    ],
+    [
+     "Prostaglandin - bimatoprost (Latisse; Lumigan) - latanoprost (Xalatan) - latanoprostene bunod (Vyzulta) - omidenepag isopropyl (Omlonti) - tafluprost (Zioptan) travoprost (Travatan)",
+     "Combination - brimonidine + timolol (Combigan) - brinzolamide + brimonidine tartrate (Simbrinza) - netarsudil + latanoprost (Rocklatan) dorzolamide + timolol (Cosopt)"
+    ]
+   ],
+   "html": "<table><thead><tr><th> Beta-Blocker - betaxolol (Kerlone) - carteolol (Ocupress - levobunolol (Betagan) timolol (Timoptic)</th><th> Carbonic Anhydrase Inhibitor - brinzolamide (Azopt) - dorzolamide (Trusopt) - methazolamide</th></tr></thead><tbody><tr><td><p> Alpha2 Agonist</p>\n<ul><li>apraclonidine (Iopidine)</li></ul>\n<p>brimonidine (Alphagan P)</p></td><td><p> Rho Kinase Inhibitor</p>\n<p>netarsudil (Rhopressa)</p></td></tr><tr><td><p> Prostaglandin</p>\n<ul><li>bimatoprost (Latisse; Lumigan)</li><li>latanoprost (Xalatan)</li><li>latanoprostene bunod (Vyzulta)</li><li>omidenepag isopropyl (Omlonti)</li><li>tafluprost (Zioptan)</li></ul>\n<p>travoprost (Travatan)</p></td><td><p> Combination</p>\n<ul><li>brimonidine + timolol (Combigan)</li><li>brinzolamide + brimonidine tartrate (Simbrinza)</li><li>netarsudil + latanoprost (Rocklatan)</li></ul>\n<p>dorzolamide + timolol (Cosopt)</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "CONDITIONALLY ACCEPTABLE Glaucoma Medications (Requires SI)",
+   "html": "<p><strong>CONDITIONALLY ACCEPTABLE Glaucoma Medications (Requires SI)</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "(As a single agent or in a combination product.)",
+   "html": "<p>(As a single agent or in a combination product.)</p>"
+  },
+  {
+   "type": "table",
+   "page": 654,
+   "header": [
+    "Oral medications e.g., acetazolamide (Diamox)",
+    ""
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Oral medications e.g., acetazolamide (Diamox)</th><th></th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 654,
+   "text": "UNACCEPTABLE Glaucoma Medications",
+   "html": "<p><strong>UNACCEPTABLE Glaucoma Medications</strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 654,
+   "header": [
+    "Cycloplegics e.g., atropine",
+    "Cholinergic Agonist e.g., pilocarpine (Isopto Carpine, Vuity)"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Cycloplegics e.g., atropine</th><th>Cholinergic Agonist e.g., pilocarpine (Isopto Carpine, Vuity)</th></tr></thead><tbody></tbody></table>"
+  }
+ ]
+}

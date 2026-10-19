@@ -1,0 +1,263 @@
+{
+ "slug": "acceptable-combinations-of-diabetes-medications",
+ "title": "ACCEPTABLE COMBINATIONS OF DIABETES MEDICATIONS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  649,
+  650,
+  651
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 649,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 649,
+   "text": "The following pages outline acceptable combinations of medications for treatment of diabetes.",
+   "html": "<p>The following pages outline acceptable combinations of medications for treatment of diabetes.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 649,
+   "text": "PHARMACEUTICAL CONSIDERATIONS:",
+   "html": "<p><strong>PHARMACEUTICAL CONSIDERATIONS: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- Initial Certification/Clearance decision is made by the FAA. The AME must defer.\n- Unlisted Medications: Consult AMCD or RFS.\n- See below for acceptable medication combinations and required observation times.",
+   "html": "<ul><li>Initial Certification/Clearance decision is made by the FAA. The AME must defer.</li><li><strong> Unlisted Medications:</strong> Consult AMCD or RFS.</li><li>See below for acceptable medication combinations and required observation times.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- 1. Combination Medication: Count each component in a combination medication separately (e.g., rosiglitazone + metformin = 2 medications).",
+   "html": "<ul><li><strong>1. Combination Medication:</strong> Count each component in a combination medication separately (e.g., rosiglitazone + metformin = 2 medications).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment according to generally accepted standards of care for diabetes (American Diabetes Association, American Association of Clinical Endocrinologists). Follow up/recertification may be under the AASI program .",
+   "html": "<ul><li>Combinations of up to 3 non-insulin medications are considered acceptable for routine treatment according to generally accepted standards of care for diabetes (American Diabetes Association, American Association of Clinical Endocrinologists). Follow up/recertification may be under the <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes\" target=\"_blank\" rel=\"noopener\">AASI program</a> .</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- 4 or more medications may be considered on a case-by-case basis.",
+   "html": "<ul><li>4 or more medications may be considered on a case-by-case basis.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- 2. Only ONE Medication allowed from each group (A–G).",
+   "html": "<ul><li><strong>2. Only ONE Medication allowed from each group </strong>(A–G).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- - - Insulin Exception: An insulin regimen containing multiple insulin types (e.g., short-acting [aspart] + long-acting [glargine]) counts as 1 medication.",
+   "html": "<ul><li><ul><li><ul><li><strong>Insulin Exception</strong>: An insulin regimen containing multiple insulin types (e.g., short-acting [aspart] + long-acting [glargine]) counts as <strong>1 medication</strong>.</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- - - If using insulin (any type), see Medical Certification Using Insulin",
+   "html": "<ul><li><ul><li><ul><li>If using insulin (any type), see <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm\" target=\"_blank\" rel=\"noopener\">Medical Certification Using Insulin</a></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 649,
+   "text": "- 3. Follow observation times on tables.",
+   "html": "<ul><li><strong>3. Follow observation times on tables.</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 649,
+   "text": "**NOTE: ALL medication Group Letters have been updated **",
+   "html": "<p><strong>**NOTE: ALL medication Group Letters have been updated **</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "Observation Times",
+   "html": "<p>Observation Times</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "Non-Insulin",
+   "html": "<p><strong>Non-Insulin</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "When initiating NEW diabetes therapy (monotherapy or combination medications):",
+   "html": "<p>When initiating NEW diabetes therapy (monotherapy or combination medications):</p>"
+  },
+  {
+   "type": "table",
+   "page": 650,
+   "header": null,
+   "rows": [
+    [
+     "Starting Medication",
+     "Observation Time"
+    ],
+    [
+     "Group B ONLY",
+     "14 days"
+    ],
+    [
+     "Group C - G",
+     "30 days"
+    ],
+    [
+     "Group A2",
+     "60 days"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Starting Medication </strong></p></td><td><p><strong>Observation Time </strong></p></td></tr><tr><td><p>Group B ONLY</p></td><td><p>14 days</p></td></tr><tr><td><p>Group C - G</p></td><td><p>30 days</p></td></tr><tr><td><p>Group A2</p></td><td><p>60 days</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "When ADDING a new medication to an ESTABLISHED TREATMENT regimen:",
+   "html": "<p>When ADDING a new medication to an ESTABLISHED TREATMENT regimen:</p>"
+  },
+  {
+   "type": "table",
+   "page": 650,
+   "header": null,
+   "rows": [
+    [
+     "Current Medication",
+     "Adding Medication",
+     "Observation Time"
+    ],
+    [
+     "on Group A - G",
+     "+ new Group B - G",
+     "14 days"
+    ],
+    [
+     "on Group B - G",
+     "+ new Group A2",
+     "60 days"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Current Medication</strong></p></td><td><p><strong>Adding Medication</strong></p></td><td><p><strong>Observation Time</strong></p></td></tr><tr><td><p>on Group A - G</p></td><td><p>+ new Group B - G</p></td><td><p>14 days</p></td></tr><tr><td><p>on Group B - G</p></td><td><p>+ new Group A2</p></td><td><p>60 days</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "Insulin",
+   "html": "<p><strong>Insulin </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "When starting insulin or adding insulin to an existing treatment plan.",
+   "html": "<p>When starting insulin or adding insulin to an existing treatment plan.</p>"
+  },
+  {
+   "type": "table",
+   "page": 650,
+   "header": [
+    "Adding/Starting Insulin",
+    "Observation Time"
+   ],
+   "rows": [
+    [
+     "Group A1 (insulin): - 3rd class pilots or agency ATCS - 1st or 2nd class pilots (must use CGM protocol)",
+     "90 days 180 days"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Adding/Starting Insulin</th><th>Observation Time</th></tr></thead><tbody><tr><td><p>Group A1 (insulin):</p>\n<ul><li>3rd class pilots or agency ATCS</li></ul>\n<ul><li>1st or 2nd class pilots (must use CGM protocol)</li></ul></td><td><p>90 days</p>\n<p>180 days</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "Medication Adjustment",
+   "html": "<p><strong>Medication Adjustment </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "When changing the dose, formulation (e.g., immediate vs. extended release), or switching to a different drug/device within the same class.",
+   "html": "<p>When changing the dose, formulation (e.g., immediate vs. extended release), or switching to a different drug/device within the same class.</p>"
+  },
+  {
+   "type": "table",
+   "page": 650,
+   "header": null,
+   "rows": [
+    [
+     "Adjusting Medication",
+     "Observation Time"
+    ],
+    [
+     "Within Group B-G",
+     "48 hours"
+    ],
+    [
+     "Within Group A",
+     "7 days"
+    ],
+    [
+     "If transition between insulin injection to/from pump; or new insulin/CGM devices",
+     "7 days"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Adjusting Medication</strong></p></td><td><p><strong>Observation Time</strong></p></td></tr><tr><td><p>Within Group B-G</p></td><td><p>48 hours</p></td></tr><tr><td><p>Within Group A</p></td><td><p>7 days</p></td></tr><tr><td><p>If transition between insulin injection to/from pump; or new insulin/CGM devices</p></td><td><p>7 days</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 650,
+   "text": "**NOTE: ALL medication Group Letters have been updated **",
+   "html": "<p><strong>**NOTE: ALL medication Group Letters have been updated **</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 651,
+   "text": "ACCEPTABLE COMBINATIONS OF DIABETES MEDICATIONS",
+   "html": "<p><strong>ACCEPTABLE COMBINATIONS OF DIABETES MEDICATIONS </strong></p>"
+  },
+  {
+   "type": "figure",
+   "page": 651,
+   "text": "**NOTE: ALL medication Group Letters have been updated ** (Updated 08/26/2026) Insulin A1 - All injection formulations - Inhaled insulin (Afrezza) - Any combination counts as 1 medication Meglitinides not A allowed withOR Group D A2 B Biguanides - metformin (Glucophage, Fortamet, Glutetza, Riomet) C Thiazolidinediones (TZD) - pioglitazone (Actos) - rosiglitazone (Avandia) GLP1 mimetics - albiglutide (Tanzeum) - dulaglutide (Trulicity) - exenatide (Byetta) - exenatide-ED (Bydureon) USE NO - liraglutide (Victoza) MORE THAN - lixisenatide (Adlyxin) 1 D - semaglutide (Ozempic, Rybelsus) Group D not MEDICATION GLP-1 / GIP allowed with- tirzepatide (Mounjaro) FROM ANY Meglitinides GROUP (A-G) DPP4 - alogliptin (Nesina) - linagliptin (Tradjenta) - saxagliptin (Onglyza) - sitagliptin (Januvia) E Alpha-glucosidase inhibitors - acarbose (Precose) - miglitol (Glyset) SGLT2 Inhibitors - bexagliflozin (Brenzavvy) F - canagliflozin (Invokana) - dapagliflozin (Farxiga) - empagliflozin (Jardiance) - ertugliflozin (Steglatro)",
+   "html": "<figure><img src=\"images/p651_diagram.png\" alt=\"**NOTE: ALL medication Group Letters have been updated ** (Updated 08/26/2026) Insulin A1 - All injection formulations - Inhaled insulin (Afrezza) - Any combination counts as 1 medication Meglitinides not A allowed withOR Group D A2 B Biguanides - metformin (Glucophage, Fortamet, Glutetza, Riomet) C\" loading=\"lazy\"><details><summary>Text version of this diagram</summary><p><strong>**NOTE: ALL medication Group Letters have been updated ** </strong>(Updated 08/26/2026) <strong>Insulin</strong></p><p>A1 - All injection formulations - Inhaled insulin (Afrezza) - <strong>Any combination counts as 1 medication</strong></p><p>Meglitinides <strong>not </strong>A <strong>allowed </strong>withOR Group D</p><p>A2</p><p>B <strong>Biguanides </strong>- metformin (Glucophage, Fortamet, Glutetza, Riomet)</p><p>C <strong>Thiazolidinediones (TZD) </strong>- pioglitazone (Actos) - rosiglitazone (Avandia)</p><p><strong>GLP1 mimetics</strong></p><p>- albiglutide (Tanzeum) - dulaglutide (Trulicity) - exenatide (Byetta) - exenatide-ED (Bydureon) <strong>USE NO </strong>- liraglutide (Victoza) <strong>MORE THAN </strong>- lixisenatide (Adlyxin)</p><p><strong>1 </strong>D - semaglutide (Ozempic, Rybelsus) Group D <strong>not MEDICATION GLP-1 / GIP allowed </strong>with- tirzepatide (Mounjaro) <strong>FROM ANY </strong>Meglitinides <strong>GROUP (A-G) DPP4 </strong>- alogliptin (Nesina) - linagliptin (Tradjenta) - saxagliptin (Onglyza) - sitagliptin (Januvia)</p><p>E <strong>Alpha-glucosidase inhibitors </strong>- acarbose (Precose) - miglitol (Glyset)</p><p><strong>SGLT2 Inhibitors</strong></p><p>- bexagliflozin (Brenzavvy)</p><p>F - canagliflozin (Invokana) - dapagliflozin (Farxiga) - empagliflozin (Jardiance) - ertugliflozin (Steglatro)</p></details></figure>"
+  },
+  {
+   "type": "table",
+   "page": 651,
+   "header": null,
+   "rows": [
+    [
+     "Meglitinides - nateglinide (Starlix) - repaglinide (Prandin)"
+    ],
+    [
+     "Sulfonylureas (SFU) - chlorpropamide (Diabenase) - glimepiride (Amaryl) - glipizide (Glucotrol) - glyburide (Diabeta) - tolbutamide (Orinase) - tolazamide (Tolinase) - gliclazide (Diamicron) - International"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Meglitinides</strong></p>\n<p>- nateglinide (Starlix) - repaglinide (Prandin)</p></td></tr><tr><td><p><strong>Sulfonylureas (SFU)</strong></p>\n<p>- chlorpropamide (Diabenase) - glimepiride (Amaryl) - glipizide (Glucotrol) - glyburide (Diabeta) - tolbutamide (Orinase) - tolazamide (Tolinase) - gliclazide (Diamicron) - International</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 651,
+   "header": null,
+   "rows": [
+    [
+     "G",
+     "Amylinomimetics"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p>G</p></td><td><p><strong>Amylinomimetics</strong></p></td></tr></tbody></table>"
+  }
+ ]
+}

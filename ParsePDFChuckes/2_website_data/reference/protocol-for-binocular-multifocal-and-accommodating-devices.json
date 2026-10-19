@@ -1,0 +1,68 @@
+{
+ "slug": "protocol-for-binocular-multifocal-and-accommodating-devices",
+ "title": "Protocol for Binocular Multifocal and Accommodating Devices",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  522
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 522,
+   "text": "(Updated 04/29/2026)",
+   "html": "<p>(Updated 04/29/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 522,
+   "text": "See Lens Implant Status Summary",
+   "html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Lens Implant Status Summary</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 522,
+   "text": "VISION STANDARDS:",
+   "html": "<p><strong>VISION STANDARDS: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 522,
+   "header": [
+    "",
+    "First or Second Class",
+    "Third Class"
+   ],
+   "rows": [
+    [
+     "Distant Vision",
+     "20/20",
+     "20/40"
+    ],
+    [
+     "Near Vision Measured at 16 inches",
+     "20/40",
+     "20/40"
+    ],
+    [
+     "Intermediate Vision Measured at 32 inches; Age 50 and over only",
+     "20/40",
+     "No requirement"
+    ]
+   ],
+   "html": "<table><thead><tr><th></th><th>First or Second Class</th><th>Third Class</th></tr></thead><tbody><tr><td><p><strong>Distant Vision </strong></p></td><td><p><strong>20/20 </strong></p></td><td><p>20/40</p></td></tr><tr><td><p><strong>Near Vision </strong></p>\n<p>Measured at 16 inches</p></td><td><p>20/40</p></td><td><p>20/40</p></td></tr><tr><td><p><strong>Intermediate Vision </strong></p>\n<p>Measured at 32 inches;</p>\n<p>Age 50 and over only</p></td><td><p>20/40</p></td><td><p>No requirement</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 522,
+   "text": "Contact lenses (bifocal or multifocal) requires",
+   "html": "<p><strong>Contact lenses (bifocal or multifocal)</strong> requires</p>"
+  },
+  {
+   "type": "list",
+   "page": 522,
+   "text": "- One month of use minimum for adaptation\n- Must meet visual acuity standards\n- Current Detailed Clinical Progress Note from the eye doctor verifying visual acuity stable, and no significant side effects.\n- AME can issue",
+   "html": "<ul><li>One month of use minimum for adaptation</li><li>Must meet visual acuity standards</li><li>Current Detailed Clinical Progress Note from the eye doctor verifying visual acuity stable, and no significant side effects.</li><li>AME can issue</li></ul>"
+  }
+ ]
+}

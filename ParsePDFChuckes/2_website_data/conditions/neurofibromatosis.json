@@ -1,0 +1,158 @@
+{
+ "id": "neurofibromatosis",
+ "name": "Neurofibromatosis",
+ "subtitle": "(Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)",
+ "name_in_guide": "NEUROFIBROMATOSIS (Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 138,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the following for FAA review:",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Brain MRI with and without contrast performed no more than 90 days before the AME exam (reports and CD)*.",
+  "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*.",
+  "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). Submit a current, detailed Clinical Progress Note, generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+  "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an",
+  "interpretation of the visual field testing by the treating ophthalmologist.",
+  "Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing.",
+  "If there is a history or suspicion of learning disability or ADHD: FAA Specifications for Neuropsychological Evaluation for ADHD is required needed;",
+  "If no history: FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items.",
+  "Any other testing deemed clinically necessary by the treating physician.",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Audiologic evaluation including pure tone and speech discrimination and speech audiometry with interpretation performed no more than 90 days before the AME exam.",
+  "Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*.",
+  "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other",
+  "areas, most recent, if already performed (reports and CD)*.",
+  "Eye evaluation from a board-certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist.",
+  "If there is a history or suspicion of learning disability or ADHD: FAA Specifications for",
+  "If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Neurofibromatosis",
+   "condition_html": "<p><strong>A.</strong> Neurofibromatosis</p>",
+   "evaluation_data": "Submit the following for FAA review:",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>",
+   "what_to_bring": [
+    "Submit the following for FAA review:"
+   ],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 345,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Type 1 (NF1) von Recklinghausen disease",
+   "condition_html": "<p>Type 1 (NF1)</p>\n<p></p>\n<p>von Recklinghausen disease</p>\n<p></p>",
+   "evaluation_data": "1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. Brain MRI with and without contrast performed no more than 90 days before the AME exam (reports and CD)*. 3. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*. • For all images (CT/MRI), submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Eye evaluation from a board- certified ophthalmologist (NOT optometrist). Submit a current, detailed Clinical Progress Note, generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 5. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an",
+   "evaluation_data_html": "<p>1. A <strong>current, detailed neurological evaluation </strong>that meets FAA Specifications for Neurologic <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">Evaluation,</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before </strong>the AME exam.</p>\n<p>2. <strong>Brain MRI with and without contrast </strong>performed <strong>no more than 90 days before </strong>the AME exam (reports and CD)*.</p>\n<p>3. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*.</p>\n<p>• For all images (CT/MRI), submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</p>\n<p>4. Eye evaluation from a <strong>board- certified ophthalmologist </strong>(NOT optometrist). Submit a <strong>current, detailed Clinical Progress Note, </strong>generated from a clinic visit with the <strong>treating ophthalmologist no more than 90 days before </strong>the AME exam. It must include a detailed summary of the any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p>5. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days <strong>with an</strong></p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Brain MRI with and without contrast performed no more than 90 days before the AME exam (reports and CD)*.",
+    "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*.",
+    "Eye evaluation from a board- certified ophthalmologist (NOT optometrist). Submit a current, detailed Clinical Progress Note, generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+    "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 345,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "",
+   "condition_html": "",
+   "evaluation_data": "- interpretation of the visual field testing by the treating ophthalmologist. - 6. Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing. - If a history of cognitive impairment, brain lesion, or brain surgery: FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment is required; - If there is a history or suspicion of learning disability or ADHD: FAA Specifications for Neuropsychological Evaluation for ADHD is required needed; - If no history: FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items. - 7. Any other testing deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<ul><li><strong>interpretation </strong>of the visual field testing by the treating ophthalmologist.</li></ul>\n<ul><li>6. <strong>Neuropsychological (NP) evaluation is required in most cases. </strong> The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing.<ul><li>If a history of cognitive impairment, brain lesion, or brain surgery: <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> is required;</li><li>If there is a history or suspicion of learning disability or ADHD: FAA <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd\" target=\"_blank\" rel=\"noopener\">Specifications for Neuropsychological Evaluation for ADHD</a> is required needed;</li><li>If no history: FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items.</li></ul></li></ul>\n<ul><li>7. Any other testing deemed clinically necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "interpretation of the visual field testing by the treating ophthalmologist.",
+    "Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing.",
+    "If there is a history or suspicion of learning disability or ADHD: FAA Specifications for Neuropsychological Evaluation for ADHD is required needed;",
+    "If no history: FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items.",
+    "Any other testing deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 345,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Neurofibromatosis Type 2 (NF2) Wishart Disease",
+   "condition_html": "<p><strong>B. </strong> Neurofibromatosis Type 2 (NF2)</p>\n<p>Wishart Disease</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Audiologic evaluation including pure tone and speech discrimination and speech audiometry with interpretation performed no more than 90 days before the AME exam. - 3. Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*. - 4. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other - areas, most recent, if already performed (reports and CD)*. * For all images (CT/MRI). Submit BOTH the interpretive report and the actual images on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 6. Eye evaluation from a board-certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 7. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist. - 8. Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing. - If a history of cognitive impairment, brain lesion, or history or brain surgery: FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment is required; - If there is a history or suspicion of learning disability or ADHD: FAA Specifications for - - Neuropsychological Evaluation for ADHD is required; - If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items. - 9. Any other testing deemed clinically necessary by the treating physician. Note: Brain surgery including resection of benign tumors that requires dural penetration (except resection of vestibular Schwannomas) requires a 2-year recovery period.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation </strong>that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> , generated from a clinic visit with the <strong>treating neurologist no more than 90 days before </strong>the AME exam.</li></ul>\n<ul><li>2. <strong>Audiologic evaluation </strong>including pure tone and speech discrimination and speech audiometry with interpretation performed<strong> no more than 90 days </strong>before the AME exam.</li></ul>\n<ul><li>3. <strong>Brain MRI with and without </strong>contrast <strong>with fine cuts through the posterior fossa </strong>performed no more than <strong>90 days before </strong>the AME exam (reports and CD)*.</li></ul>\n<ul><li>4. Any other neuroimaging such as MRI spine, plexus, optic nerves, or other</li></ul>\n<ul><li>areas, most recent, if already performed (reports and CD)*.</li></ul>\n<p>* For all images (CT/MRI). Submit BOTH the interpretive report and the actual images on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</p>\n<ul><li>6. Eye evaluation from a <strong>board-certified ophthalmologist </strong>(NOT optometrist). A current, detailed <strong>Clinical Progress Note </strong>generated from a clinic visit with the <strong>treating ophthalmologist no more than 90 days before </strong>the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li></ul>\n<ul><li>7. Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days <strong>with an interpretation </strong>of the visual field testing by the treating ophthalmologist.</li></ul>\n<ul><li><p>8. <strong>Neuropsychological (NP) evaluation is required </strong>in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing.</p>\n<ul><li>If a history of cognitive impairment, brain lesion, or history or brain surgery: <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> is required;</li><li>If there is a history or suspicion of learning disability or ADHD: FAA <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd\" target=\"_blank\" rel=\"noopener\">Specifications for</a></li></ul></li></ul>\n<ul><li><ul><li><a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd\" target=\"_blank\" rel=\"noopener\">Neuropsychological Evaluation for ADHD</a> is required;</li><li>If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items.</li></ul></li></ul>\n<ul><li>9. Any other testing deemed clinically necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> Brain surgery including resection of benign tumors that requires dural penetration (except resection of vestibular Schwannomas) requires a <strong>2-year recovery period.</strong></p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Audiologic evaluation including pure tone and speech discrimination and speech audiometry with interpretation performed no more than 90 days before the AME exam.",
+    "Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*.",
+    "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other",
+    "areas, most recent, if already performed (reports and CD)*.",
+    "Eye evaluation from a board-certified ophthalmologist (NOT optometrist). A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days before the AME exam. It must include a detailed summary of the history of any eye conditions; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist.",
+    "Neuropsychological (NP) evaluation is required in most cases. The type of evaluation may vary. The applicant may want to wait until FAA review of other items above before obtaining NP testing.",
+    "If there is a history or suspicion of learning disability or ADHD: FAA Specifications for",
+    "If no history - FAA may accept an abbreviated evaluation after review of the other neurologic evaluation items.",
+    "Any other testing deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 345,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/AASI_NF1.pdf\" target=\"_blank\" rel=\"noopener\">AASI for Neurofibromatosis</a> .</p>",
+ "links": [
+  {
+   "text": "AASI for Neurofibromatosis",
+   "href": "https://www.faa.gov/ame_guide/media/AASI_NF1.pdf"
+  },
+  {
+   "text": "Evaluation,",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  },
+  {
+   "text": "Specifications for Neuropsychological Evaluation for ADHD",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   345,
+   348
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

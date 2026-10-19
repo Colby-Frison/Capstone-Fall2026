@@ -1,0 +1,115 @@
+{
+ "id": "cutaneous",
+ "name": "Cutaneous",
+ "subtitle": null,
+ "name_in_guide": "CUTANEOUS",
+ "category": {
+  "id": "skin",
+  "name": "Skin",
+  "exam_item": "40",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All classes",
+ "updated": "09/24/2025",
+ "order": 82,
+ "decisions": [
+  "see_reference",
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report.",
+  "Submit all pertinent medical information and current status report. See HIV Protocol"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Raynaud’s Syndrome (Primary Raynaud’s/ Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+   "condition_html": "<p>Raynaud’s Syndrome</p>\n<p>(Primary Raynaud’s/ Raynaud’s Disease</p>\n<p>or Secondary Raynaud’s/Raynaud’s Phenomenon)</p>",
+   "evaluation_data": "See Vascular Section",
+   "evaluation_data_html": "<p>See Vascular Section</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "see_reference"
+   ],
+   "disposition": "See Vascular Section",
+   "disposition_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item37/amd\" target=\"_blank\" rel=\"noopener\">Vascular Section</a></p>",
+   "pdf_page": 232,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Dermatomyositis; Deep mycotic infections; Eruptive Xanthomas; Hansen's Disease; Lupus Erythematosus; or Scleroderma",
+   "condition_html": "<p>Dermatomyositis; Deep mycotic infections; Eruptive Xanthomas; Hansen&#x27;s Disease;</p>\n<p>Lupus Erythematosus; or Scleroderma</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 232,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Kaposi's Sarcoma",
+   "condition_html": "<p>Kaposi&#x27;s Sarcoma</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report. See HIV Protocol",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report.</p>\n<p>See HIV Protocol</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report. See HIV Protocol"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 232,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Use of isotretinoin (Accutane)",
+   "condition_html": "<p>Use of isotretinoin (Accutane)</p>",
+   "evaluation_data": "For applicants using isotretinoin, there is a mandatory 2-week waiting period after starting isotretinoin prior to consideration. This medication can be associated with vision and psychiatric side effects of aeromedical concern - specifically decreased night vision/night blindness and depression. These side-effects can occur even after cessation of isotretinoin. A report must be provided with detailed, specific comment on presence or absence of psychiatric and vision side-effects. The AME must document these findings in Item 60., Comments on History and Findings.",
+   "evaluation_data_html": "<p>For applicants using isotretinoin, there is a mandatory 2-week waiting period after starting isotretinoin prior to consideration. This medication can be associated with vision and psychiatric side effects of aeromedical concern - specifically decreased night vision/night blindness and depression. These side-effects can occur even after cessation of isotretinoin. A report must be provided with detailed, specific comment on presence or absence of psychiatric and vision side-effects. The AME must document these findings in Item 60., Comments on History and Findings.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision",
+    "issue"
+   ],
+   "disposition": "Any history of psychiatric side-effect requires FAA Decision. If there is no vision, psychiatric, or other aeromedically unacceptable side-effects: Issue with restriction “NOT VALID FOR NIGHT FLYING.” To remove restriction: *See notes on next page",
+   "disposition_html": "<p>Any history of psychiatric side-effect requires FAA Decision.</p>\n<p>If there is no vision, psychiatric, or other aeromedically unacceptable side-effects:</p>\n<p><strong>Issue with restriction “NOT VALID FOR NIGHT FLYING.”</strong></p>\n<p>To remove restriction:</p>\n<p>*See notes on next page</p>",
+   "pdf_page": 232,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>*Notes:</p>\n<ul><li>Use of isotretinoin must be permanently discontinued for at least 2 weeks prior to consideration date (confirmed by the prescribing physician);</li><li>An eye evaluation in accordance with specifications in 8500-7; and</li><li><p>• Airman must provide a statement of discontinuation</p>\n<ul><li>Confirming the absence of any visual disturbances and psychiatric symptoms, and</li><li>Acknowledging requirement to notify the FAA and obtain clearance prior to performing any aviation safety-related duties if use of isotretinoin is resumed.</li></ul></li></ul>",
+ "links": [
+  {
+   "text": "Vascular Section",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item37/amd"
+  }
+ ],
+ "aliases": [
+  "Raynaud’s Syndrome (Primary Raynaud’s/ Raynaud’s Disease or Secondary Raynaud’s/",
+  "Dermatomyositis; Deep mycotic infections; Eruptive Xanthomas; Hansen's Disease;",
+  "Kaposi's Sarcoma",
+  "Use of isotretinoin (Accutane)"
+ ],
+ "source": {
+  "section": "item-40-skin",
+  "section_title": "ITEM 40. Skin",
+  "pdf_pages": [
+   232,
+   233
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

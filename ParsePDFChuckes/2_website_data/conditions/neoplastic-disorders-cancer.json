@@ -1,0 +1,125 @@
+{
+ "id": "neoplastic-disorders-cancer",
+ "name": "Neoplastic Disorders/Cancer",
+ "subtitle": "BLADDER CANCER",
+ "name_in_guide": "NEOPLASTIC DISORDERS/CANCER BLADDER CANCER",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2015",
+ "order": 91,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Current, detailed Clinical Progress Note from the treating oncologist describing treatment plan and prognosis;",
+  "List of medications with attention to any chemotherapy agents and dates used;",
+  "Treatment records including clinic notes or summary letter describing initial staging and treatment course;",
+  "Operative notes and discharge summary (if applicable);",
+  "Pathology report(s) (if applicable); and",
+  "MRI/CT or PET scan reports (In some cases, the actual CDs will be required in DICOM format for FAA review.)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Non metastatic and treatment completed 5 or more years ago",
+   "condition_html": "<p><strong>A. Non metastatic </strong></p>\n<p>and treatment completed <strong>5 or more years ago </strong></p>",
+   "evaluation_data": "No recurrence or ongoing treatment:",
+   "evaluation_data_html": "<p>No recurrence or ongoing treatment:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 250,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Non metastatic and treatment completed less than 5 years ago",
+   "condition_html": "<p><strong>B. Non metastatic </strong></p>\n<p>and treatment completed <strong>less than 5 years ago </strong></p>",
+   "evaluation_data": "See CACI worksheet. Local recurrence within the bladder only: Follow CACI – Bladder Cancer Worksheet.",
+   "evaluation_data_html": "<p>See CACI worksheet.</p>\n<p>Local recurrence within the bladder only: Follow CACI – Bladder Cancer Worksheet.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI - Bladder Cancer Worksheet . Note in Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Bladder Cancer Worksheet</a> .</p>\n<p>Note in Block 60.</p>",
+   "pdf_page": 250,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Metastatic disease, muscle invasion, or Recurrent disease that has spread outside the bladder",
+   "condition_html": "<p><strong>C. Metastatic disease, </strong></p>\n<p><strong>muscle invasion, </strong></p>\n<p><strong>or </strong></p>\n<p><strong>Recurrent disease </strong></p>\n<p><strong>that has spread </strong></p>\n<p><strong>outside the bladder </strong></p>",
+   "evaluation_data": "Information that needs to be submitted to the FAA for review: - Current, detailed Clinical Progress Note from the treating oncologist describing treatment plan and prognosis; - List of medications with attention to any chemotherapy agents and dates used; - Treatment records including clinic notes or summary letter describing initial staging and treatment course; - Operative notes and discharge summary (if applicable); - Pathology report(s) (if applicable); and - MRI/CT or PET scan reports (In some cases, the actual CDs will be required in DICOM format for FAA review.)",
+   "evaluation_data_html": "<p>Information that needs to be submitted to the FAA for review:</p>\n<ul><li> Current, detailed Clinical Progress Note from the treating oncologist describing treatment plan and prognosis;</li><li> List of medications with attention to any chemotherapy agents and dates used;</li><li> Treatment records including clinic notes or summary letter describing initial staging and treatment course;</li><li> Operative notes and discharge summary (if applicable);</li><li> Pathology report(s) (if applicable); and</li><li> MRI/CT or PET scan reports (In some cases, the actual CDs will be required in DICOM format for FAA review.)</li></ul>",
+   "what_to_bring": [
+    "Current, detailed Clinical Progress Note from the treating oncologist describing treatment plan and prognosis;",
+    "List of medications with attention to any chemotherapy agents and dates used;",
+    "Treatment records including clinic notes or summary letter describing initial staging and treatment course;",
+    "Operative notes and discharge summary (if applicable);",
+    "Pathology report(s) (if applicable); and",
+    "MRI/CT or PET scan reports (In some cases, the actual CDs will be required in DICOM format for FAA review.)"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Initial Issuance - Submit the information to the FAA Follow up Issuance - Will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p><strong>Initial Issuance</strong> - Submit the information to the FAA</p>\n<p><strong>Follow up Issuance -</strong></p>\n<p>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 250,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Bladder Cancer Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies: - Condition is stable; - If recurrence, there has been NO spread outside the bladder; - There is no current or historic evidence of any metastatic disease or muscle invasion; - Active treatment is completed (chemotherapy/radiation, etc.) and no new treatment is recommended at this time; and/or - If surgery has been performed, the airman is off pain medication(s), has made a full recovery, and has been released by the surgeon.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Symptoms",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Current treatment Notes: If it has been 5 or more years since the airman has had any treatment for this condition, with no history of metastatic disease, and no reoccurrence, CACI is not required. Note this in Block 60. ( See disposition table ). If the airman is currently on chemotherapy or radiation treatment, defer the exam. ( See disposition table.",
+     "acceptable_certification_criteria": "[ ] None or maintenance intravesical BCG or mitomycin. (If these medications are used, the airman should not fly until 24 hours post treatment and asymptomatic.)"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified bladder cancer. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified bladder cancer.",
+    "NOT CACI qualified bladder cancer. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note: </strong>If the airman is currently on radiation or chemotherapy, the treatment course must be completed before medical certification can be considered.</p>",
+ "links": [
+  {
+   "text": "CACI - Bladder Cancer Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIBladderCancer.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   250,
+   251
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

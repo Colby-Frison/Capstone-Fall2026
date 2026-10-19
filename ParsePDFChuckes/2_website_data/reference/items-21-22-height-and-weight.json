@@ -1,0 +1,73 @@
+{
+ "slug": "items-21-22-height-and-weight",
+ "title": "ITEMS 21-22. Height and Weight",
+ "group": "EXAMINATION TECHNIQUES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  55,
+  56
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "21. Height (inches) 22. Weight (pounds)",
+   "html": "<p>21. Height (inches) 22. Weight (pounds)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "ITEM 21. Height",
+   "html": "<p><strong>ITEM 21. Height </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "Measure and record the applicant's height in inches. Although there are no medical standards for height, exceptionally short individuals may not be able to effectively reach all flight controls and must fly specially modified aircraft. If required, the FAA will place operational limitations on the pilot certificate.",
+   "html": "<p>Measure and record the applicant&#x27;s height in inches. Although there are no medical standards for height, exceptionally short individuals may not be able to effectively reach all flight controls and must fly specially modified aircraft. If required, the FAA will place operational limitations on the pilot certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "ITEM 22. Weight",
+   "html": "<p><strong>ITEM 22. Weight </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "Measure and record the applicant's weight in pounds.",
+   "html": "<p>Measure and record the applicant&#x27;s weight in pounds.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 56,
+   "text": "BMI CHART AND FORMULA TABLE",
+   "html": "<p><strong>BMI CHART AND FORMULA TABLE </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 56,
+   "header": [
+    "Measurement Units",
+    "BMI Formula and Calculation"
+   ],
+   "rows": [
+    [
+     "Pounds and inches",
+     "Formula: weight (lb) / [height (in)]2 x 703 Calculate BMI by dividing weight in pounds (lbs) by height in inches (in) squared and multiplying by a conversion factor of 703. Example: Weight = 150 lbs, Height = 5'5\" (65\") Calculation: [150 ÷ (65)2] x 703 = 24.96"
+    ],
+    [
+     "Kilograms and meters (or centimeters)",
+     "Formula: weight (kg) / [height (m)]2 With the metric system, the formula for BMI is weight in kilograms divided by height in meters squared. Since height is commonly measured in centimeters, divide height in centimeters by 100 to obtain height in meters. Example: Weight = 68 kg, Height = 165 cm (1.65 m) Calculation: 68 ÷ (1.65)2 = 24.98"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Measurement Units</th><th>BMI Formula and Calculation</th></tr></thead><tbody><tr><td><p>Pounds and inches</p></td><td><p>Formula: weight (lb) / [height (in)]2 x 703</p>\n<p>Calculate BMI by dividing weight in pounds (lbs) by height in inches (in) squared and multiplying by a conversion factor of 703.</p>\n<p>Example: Weight = 150 lbs, Height = 5&#x27;5&quot; (65&quot;) Calculation: [150 ÷ (65)2] x 703 = 24.96</p></td></tr><tr><td><p>Kilograms and meters (or centimeters)</p></td><td><p>Formula: weight (kg) / [height (m)]2</p>\n<p>With the metric system, the formula for BMI is weight in kilograms divided by height in meters squared. Since height is commonly measured in centimeters, divide height in centimeters by 100 to obtain height in meters.</p>\n<p>Example: Weight = 68 kg, Height = 165 cm (1.65 m) Calculation: 68 ÷ (1.65)2 = 24.98</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "figure",
+   "page": 56,
+   "text": "",
+   "html": "<figure><img src=\"images/p056_fig1.png\" alt=\"\" loading=\"lazy\"></figure>"
+  }
+ ]
+}

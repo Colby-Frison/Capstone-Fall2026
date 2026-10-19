@@ -1,0 +1,55 @@
+{
+ "id": "motion-sickness",
+ "name": "Motion Sickness",
+ "subtitle": null,
+ "name_in_guide": "MOTION SICKNESS",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 13,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Motion Sickness",
+   "condition_html": "<p>Motion Sickness</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If occurred during flight training and resolved - Issue If condition requires medication - Requires FAA Decision",
+   "disposition_html": "<p>If occurred during flight training and <strong>resolved </strong>- Issue</p>\n<p>If condition requires medication - Requires FAA Decision</p>",
+   "pdf_page": 78,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   78
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

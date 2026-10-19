@@ -1,0 +1,159 @@
+{
+ "slug": "3-equipment-requirements",
+ "title": "3. Equipment Requirements",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  12,
+  13,
+  14
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 12,
+   "text": "AME EQUIPMENT AND MEDICAL CONFIDENTIALITY",
+   "html": "<p><strong>AME EQUIPMENT AND MEDICAL CONFIDENTIALITY </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "text": "AMEs must have adequate facilities and equipment for performing the required physical examinations. AMEs shall certify, at the time of designation, prior to conducting any FAA examinations, re-designation, or upon request, that they possess and maintain as necessary the equipment specified below.",
+   "html": "<p>AMEs must have adequate facilities and equipment for performing the required physical examinations. AMEs shall certify, at the time of designation, prior to conducting any FAA examinations, re-designation, or upon request, that they possess and maintain as necessary the equipment specified below.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 12,
+   "text": "Indicate the items available in your office with a checkmark:",
+   "html": "<p>Indicate the items available in your office with a checkmark:</p>"
+  },
+  {
+   "type": "table",
+   "page": 12,
+   "header": [
+    "ITEM",
+    "SPECIFICATIONS"
+   ],
+   "rows": [
+    [
+     "VISION TESTING - 1. VISUAL ACUITY - - 1. A. PHORIA TESTING Must have ALL in either 1.A. OR Exception 1.B.",
+     "VISUAL ACUITY TESTING: Must have all the following: - Standard Snellen test for distance visual acuity, with appropriate eye lane and lighting. - FAA Form 8500-1, Near Vision Acuity Card for near and intermediate vision testing - Opaque eye occluder PHORIA TESTING: Must have at least one option from EACH category: Prisms, Red Maddox Rod, and Eye Muscle Test Light: Prisms - Must have at least one of the following: To measure heterophoria, must begin with 1 prism diopter and increase to at least 8 prism diopters for BOTH horizontal and vertical. - Risley rotary prism device - Prism bars: BOTH horizontal and vertical - Individual hand prisms Red Maddox Rod - Must have at least one of the following: - Maddox Rod included in Risley rotary prism device - Maddox Rod handheld Eye Muscle Test Light - Must have at least one of the following: - Muscle light - Ophthalmoscope light - Penlight 0.5cm in diameter"
+    ],
+    [
+     "- 1. B. COMMERCIAL TESTING EXCEPTION",
+     "Optional substitute: Any commercially available visual acuity and heterophoria- testing device that gives distance and near acuity in Snellen equivalents is acceptable for the equipment listed in 1.A. It is strongly recommended that if using a commercial device, that both a Snellen wall chart and near vision acuity card are available to recheck testing, if needed. If applicable, check the box below and write the name of the device. - I use the following commercially available visual acuity and heterophoria testing device(s) in my office: Device name:"
+    ]
+   ],
+   "html": "<table><thead><tr><th>ITEM</th><th>SPECIFICATIONS</th></tr></thead><tbody><tr><td><p><strong>VISION TESTING </strong></p>\n<ul><li><strong>1. VISUAL ACUITY </strong></li></ul>\n<ul><li><ul><li> <strong> 1. A. </strong></li></ul></li></ul>\n<p><strong>PHORIA TESTING </strong></p>\n<p>Must have ALL in either 1.A.</p>\n<p>OR Exception 1.B.</p></td><td><p><strong>VISUAL ACUITY TESTING: </strong>Must have all the following:</p>\n<ul><li> Standard Snellen test for distance visual <strong>acuity, with appropriate eye lane </strong></li></ul>\n<p>and lighting.</p>\n<ul><li> FAA Form 8500-1, Near Vision Acuity Card for near and intermediate vision testing</li><li> Opaque eye occluder</li></ul>\n<p><strong>PHORIA TESTING: </strong>Must have at least one option from EACH category: Prisms, Red Maddox Rod, and Eye Muscle Test Light:</p>\n<p>Prisms - Must have at least one of the following:</p>\n<p><strong>To measure heterophoria, must begin with 1 prism diopter and increase to at least 8 prism diopters for BOTH horizontal and vertical. </strong></p>\n<ul><li> Risley rotary prism device</li><li> Prism bars: BOTH horizontal and vertical</li><li> Individual hand prisms</li></ul>\n<p><strong>Red Maddox Rod - </strong>Must have at least one of the following:</p>\n<ul><li> Maddox Rod included in Risley rotary prism device</li><li> Maddox Rod handheld</li></ul>\n<p><strong>Eye Muscle Test Light - </strong>Must have at least one of the following:</p>\n<ul><li> Muscle light</li><li> Ophthalmoscope light</li><li> Penlight 0.5cm in diameter</li></ul></td></tr><tr><td><ul><li> <strong> 1. B. </strong></li></ul>\n<p><strong>COMMERCIAL </strong></p>\n<p><strong>TESTING </strong></p>\n<p><strong>EXCEPTION </strong></p></td><td><p>Optional substitute: Any commercially available visual acuity and heterophoria- testing device that gives distance and near acuity in Snellen equivalents is acceptable for the equipment listed in 1.A. It is strongly recommended that if using a commercial device, that both a Snellen wall chart and near vision acuity card are available to recheck testing, if needed.</p>\n<p>If applicable, check the box below and write the name of the device.</p>\n<ul><li> I use the following commercially available visual acuity and heterophoria testing device(s) in my office:</li></ul>\n<p>Device name:</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 13,
+   "text": "AME REQUIRED EQUIPMENT",
+   "html": "<p><strong>AME REQUIRED EQUIPMENT </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 13,
+   "header": [
+    "ITEM",
+    "SPECIFICATIONS"
+   ],
+   "rows": [
+    [
+     "2. COLOR VISION TESTING Must have in office: OR Access to: OR Ability to give the applicant a referral for testing with one of the approved color vision tests:",
+     "- Color Assessment & Diagnosis (CAD test) - Rabin Cone Test (RCCT) Air Force/Army/Navy/Coast Guard Version - Waggoner Computerized Color Vision Test - Referred out for testing"
+    ],
+    [
+     "3. FIELD OF VISION TESTING – must have at least ONE of the following:",
+     "- Direct confrontation field-testing (must test all 4 quadrants). No equipment required - Wall Target (50-inch square surface made of black felt or dull/matte finish paper; and a 2-mm white test object, which may be a pin with a handle the same color as the wall target. - Visual Field Perimeter (must test all 4 quadrants)."
+    ],
+    [
+     "4. OTHER OFFICE EQUIPMENT – must have ALL of the following:",
+     "- Computer with internet access and printer - Diagnostic instruments necessary to complete FAA exam - Equipment to measure height and weight - Urinalysis Test Strips to test for albumin and sugar Urine dipstick expiration date on package:"
+    ],
+    [
+     "5. SENIOR AME - SPECIAL EQUIPMENT REQUIRED – must have the following:",
+     "- Access to electrocardiograph (EKG/ECG) equipment (preferably at your office location). A full 12-lead recorded at 25mm/sec at 10mV is required. Anything less will not be accepted. Brand of ECG equipment"
+    ],
+    [
+     "6. EMPLOYEE AME - SPECIAL EQUIPMENT REQUIRED - must have the following 6. 1. Color Vision Equipment",
+     "- Audiometric Equipment. Brand: - Calibration date: - Color Vision Equipment: Name: ________________________"
+    ]
+   ],
+   "html": "<table><thead><tr><th>ITEM</th><th>SPECIFICATIONS</th></tr></thead><tbody><tr><td><p><strong>2. COLOR VISION TESTING </strong></p>\n<p><strong>Must have in office: </strong></p>\n<p><strong>OR </strong></p>\n<p><strong>Access to: </strong></p>\n<p><strong>OR </strong></p>\n<p><strong>Ability to give the applicant a referral for testing with one of the approved color vision tests: </strong></p></td><td><ul><li><a href=\"http://www.aeglia.nl/\" target=\"_blank\" rel=\"noopener\"> Color Assessment &amp; Diagnosis (CAD test)</a></li></ul>\n<ul><li><a href=\"https://www.innovasystemsusa.com/partners/ods-on-finance#request\" target=\"_blank\" rel=\"noopener\"> Rabin Cone Test (RCCT) Air Force/Army/Navy/Coast Guard Version</a></li></ul>\n<ul><li><a href=\"https://waggonerdiagnostics.com/pages/wccvt\" target=\"_blank\" rel=\"noopener\"> Waggoner Computerized Color Vision Test</a></li></ul>\n<ul><li> Referred out for testing</li></ul></td></tr><tr><td><p><strong>3. FIELD OF VISION </strong></p>\n<p><strong>TESTING </strong>– must have at least ONE of the following:</p></td><td><ul><li> Direct confrontation field-testing (must test all 4 quadrants). No equipment</li></ul>\n<p>required</p>\n<ul><li> Wall Target (50-inch square surface made of black felt or dull/matte finish paper; and a 2-mm white test object, which may be a pin with a handle the same color as the wall target.</li><li> Visual Field Perimeter (must test all 4 quadrants).</li></ul></td></tr><tr><td><p><strong>4. OTHER OFFICE </strong></p>\n<p><strong>EQUIPMENT – must have ALL of the following: </strong></p></td><td><ul><li> Computer with internet access and printer</li><li> Diagnostic instruments necessary to complete FAA exam</li><li> Equipment to measure height and weight</li><li> Urinalysis Test Strips to test for albumin and sugar</li></ul>\n<p>Urine dipstick expiration date on package:</p></td></tr><tr><td><p><strong>5. SENIOR AME - SPECIAL EQUIPMENT REQUIRED – </strong></p>\n<p><strong>must have the following: </strong></p></td><td><ul><li> Access to electrocardiograph (EKG/ECG) equipment (preferably at your office</li></ul>\n<p>location). A full 12-lead recorded at 25mm/sec at 10mV is required. Anything less will not be accepted.</p>\n<p>Brand of ECG equipment</p></td></tr><tr><td><p><strong>6. EMPLOYEE AME - SPECIAL EQUIPMENT </strong></p>\n<p><strong>REQUIRED - </strong>must have the following</p>\n<p><strong>6. 1. Color Vision Equipment</strong></p></td><td><ul><li> <strong>Audiometric Equipment. Brand: </strong></li><li> Calibration date:</li></ul>\n<ul><li> <strong>Color Vision Equipment: Name: ________________________</strong></li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "AME EQUIPMENT AND MEDICAL CONFIDENTIALITY",
+   "html": "<p><strong>AME EQUIPMENT AND MEDICAL CONFIDENTIALITY </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "I hereby certify that I possess and maintain as necessary the equipment specified above in my office or available at the designated location below:",
+   "html": "<p>I hereby certify that I possess and maintain as necessary the equipment specified above in my office or available at the designated location below:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Address: ___________________________________________________________________________",
+   "html": "<p><strong>Address: ___________________________________________________________________________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "City: ______________________ State: __________________________ Zip Code: _______________",
+   "html": "<p><strong>City: ______________________ State</strong>: <strong>__________________________ Zip Code</strong>:<strong> _______________</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Country (if outside the US): ___________________________________",
+   "html": "<p><strong>Country (if outside the US): ___________________________________</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Telephone Number (Include Area Code): ________________________",
+   "html": "<p><strong>Telephone Number (Include Area Code): ________________________</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Signature: _____________________________ Date: ____________",
+   "html": "<p><strong>Signature: _____________________________ Date: ____________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "AND",
+   "html": "<p><strong>AND </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "I hereby certify that I maintain confidentiality of medical records at all times.",
+   "html": "<p>I hereby certify that I maintain confidentiality of medical records at all times.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Signature: _________________________________________ Date: _________________________",
+   "html": "<p><strong>Signature: _________________________________________ Date: _________________________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 14,
+   "text": "Printed Name: _______________________________________ AME number: ________________",
+   "html": "<p><strong>Printed Name: _______________________________________ AME number: ________________</strong></p>"
+  }
+ ]
+}

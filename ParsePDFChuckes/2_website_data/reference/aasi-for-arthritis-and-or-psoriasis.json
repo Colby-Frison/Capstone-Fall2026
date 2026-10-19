@@ -1,0 +1,41 @@
+{
+ "slug": "aasi-for-arthritis-and-or-psoriasis",
+ "title": "AASI for Arthritis and/or Psoriasis",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  684
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 684,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67. An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401 . The Authorization letter is accompanied by attachments which specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination. AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67. An FAA physician provides the initial certification decision and grants the Authorization in accordance with <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401\" target=\"_blank\" rel=\"noopener\">14 CFR § 67.401</a> . The Authorization letter is accompanied by attachments which specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> for the initial determination. AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 684,
+   "text": "- An Authorization granted by the FAA;\n- The type of arthritis;\n- A general assessment of the condition and its effect on daily activities;\n- The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects; and\n- Comments regarding range of motion of neck, upper and lower extremities, hands, etc.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>The type of arthritis;</li><li>A general assessment of the condition and its effect on daily activities;</li><li>The name and dosage of medication(s) used for treatment and/or prevention with comment regarding side effects; and</li><li>Comments regarding range of motion of neck, upper and lower extremities, hands, etc.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 684,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 684,
+   "text": "- The applicant has developed any associated systemic manifestations;\n- New joints have become involved;\n- The applicant required change in medication used for control of the disease; or\n- The applicant is taking steroid doses equivalent to more than 20 mg of prednisone per day ( steroid conversion calculator )",
+   "html": "<ul><li>The applicant has developed any associated systemic manifestations;</li><li>New joints have become involved;</li><li>The applicant required change in medication used for control of the disease; or</li><li>The applicant is taking steroid doses equivalent to more than 20 mg of prednisone per day ( <a href=\"https://www.mdcalc.com/calc/2040/steroid-conversion-calculator\" target=\"_blank\" rel=\"noopener\">steroid conversion calculator</a> )</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 684,
+   "text": "684",
+   "html": "<p>684</p>"
+  }
+ ]
+}

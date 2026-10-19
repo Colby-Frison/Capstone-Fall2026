@@ -1,0 +1,47 @@
+{
+ "slug": "protocol-for-peptic-ulcer",
+ "title": "Protocol for Peptic Ulcer",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  613
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 613,
+   "text": "An applicant with a history of an active ulcer within the past 3-months or a bleeding ulcer within the past 6-months must provide evidence that the ulcer is healed if consideration for medical certification is desired.",
+   "html": "<p>An applicant with a history of an active ulcer within the past 3-months or a bleeding ulcer within the past 6-months must provide evidence that the ulcer is healed if consideration for medical certification is desired.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 613,
+   "text": "Evidence of healing must be verified by a report from the attending physician that includes the following information:",
+   "html": "<p>Evidence of healing must be verified by a report from the attending physician that includes the following information:</p>"
+  },
+  {
+   "type": "list",
+   "page": 613,
+   "text": "- Confirmation that the applicant is free of symptoms\n- Radiographic or endoscopic evidence that the ulcer has healed\n- The name and dosage medication(s) used for treatment and/or prevention, along with a statement describing side effects or removal",
+   "html": "<ul><li>Confirmation that the applicant is free of symptoms</li><li>Radiographic or endoscopic evidence that the ulcer has healed</li><li>The name and dosage medication(s) used for treatment and/or prevention, along with a statement describing side effects or removal</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 613,
+   "text": "This information should be submitted to the AMCD. Under favorable circumstances, the FAA may issue a certificate with special requirements. For example, an applicant with a history of bleeding ulcer may be required to have the physician submit follow-up reports every 6-months for 1 year following initial certification.",
+   "html": "<p>This information should be submitted to the AMCD. Under favorable circumstances, the FAA may issue a certificate with special requirements. For example, an applicant with a history of bleeding ulcer may be required to have the physician submit follow-up reports every 6-months for 1 year following initial certification.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 613,
+   "text": "The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.",
+   "html": "<p>The prophylactic use of medications including simple antacids, H-2 inhibitors or blockers, proton pump inhibitors, and/or sucralfates may not be disqualifying, if free from side effects.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 613,
+   "text": "An applicant with a history of gastric resection for ulcer may be favorably considered if free of sequela.",
+   "html": "<p>An applicant with a history of gastric resection for ulcer may be favorably considered if free of sequela.</p>"
+  }
+ ]
+}

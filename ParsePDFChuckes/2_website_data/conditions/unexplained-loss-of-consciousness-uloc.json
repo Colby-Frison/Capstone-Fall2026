@@ -1,0 +1,105 @@
+{
+ "id": "unexplained-loss-of-consciousness-uloc",
+ "name": "Unexplained Loss of Consciousness (ULOC)",
+ "subtitle": "(Unexplained Disturbance of Consciousness or Transient LOC Without Satisfactory Medical Explanation)",
+ "name_in_guide": "UNEXPLAINED LOSS OF CONSCIOUSNESS (ULOC) (Unexplained Disturbance of Consciousness or Transient LOC Without Satisfactory Medical Explanation)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 148,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "The neurologic evaluation must specifically include:",
+  "A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause;",
+  "If there has been any recurrence and the length of time without symptoms; and",
+  "If no cause was identified, that should be stated.",
+  "Copies of any testing already performed such as lab, imaging, EEG, or other testing.",
+  "Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable).",
+  "Cardiovascular evaluation from a cardiologist;",
+  "Exercise stress test;",
+  "Holter monitor; and/or",
+  "TTE Transthoracic echocardiogram (TTE)",
+  "If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want",
+  "to wait until FAA review of their case before undergoing additional testing."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "ULOC Unexplained Loss of Consciousness current or historical",
+   "condition_html": "<p><strong>A.</strong> ULOC</p>\n<p>Unexplained Loss of Consciousness</p>\n<p>current or historical</p>",
+   "evaluation_data": "After a 2-year, symptom-free recovery period, obtain and submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. The neurologic evaluation must specifically include: - A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause; - If there has been any recurrence and the length of time without symptoms; and - If no cause was identified, that should be stated. - 3. Copies of any testing already performed such as lab, imaging, EEG, or other testing. - 4. Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable). If no neurological explanation is found, additional evaluations may be required on a case-by-case basis such as: - Cardiovascular evaluation from a cardiologist; - Exercise stress test; - Holter monitor; and/or - TTE Transthoracic echocardiogram (TTE) - If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want - to wait until FAA review of their case before undergoing additional testing. Note: Upon review of the above items, additional information or testing may be required. If a cause is identified - see that section.",
+   "evaluation_data_html": "<p>After a <strong>2-year, symptom-free recovery period</strong>, obtain and submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the<strong> treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. The neurologic evaluation must specifically include:</li><li>A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause;</li><li>If there has been any recurrence and the length of time without symptoms; and</li><li>If no cause was identified, that should be stated.</li></ul>\n<ul><li>3. Copies of any testing already performed such as lab, imaging, EEG, or other testing.</li></ul>\n<ul><li>4. Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&amp;P), operative notes, and hospital discharge summary (if applicable).</li></ul>\n<p><strong>If no neurological explanation is found</strong>, additional evaluations may be required on a case-by-case basis such as:</p>\n<ul><li>Cardiovascular evaluation from a cardiologist;</li><li>Exercise stress test;</li><li>Holter monitor; and/or</li><li>TTE Transthoracic echocardiogram (TTE)</li><li>If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want</li></ul>\n<ul><li>to wait until FAA review of their case before undergoing additional testing.</li></ul>\n<p><strong>Note: </strong>Upon review of the above items, additional information or testing may be required.</p>\n<p>If a cause is identified - see that section.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "The neurologic evaluation must specifically include:",
+    "A description of the event(s) and a summary of all testing or evaluation(s) performed to identify the cause;",
+    "If there has been any recurrence and the length of time without symptoms; and",
+    "If no cause was identified, that should be stated.",
+    "Copies of any testing already performed such as lab, imaging, EEG, or other testing.",
+    "Hospital or clinic records from this episode and follow-up. This may include History and Physical (H&P), operative notes, and hospital discharge summary (if applicable).",
+    "Cardiovascular evaluation from a cardiologist;",
+    "Exercise stress test;",
+    "Holter monitor; and/or",
+    "TTE Transthoracic echocardiogram (TTE)",
+    "If the above items have already been performed, they should be submitted to the FAA. If not yet performed, the applicant may want",
+    "to wait until FAA review of their case before undergoing additional testing."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 369,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Disturbance of consciousness without satisfactory medical explanation of the cause OR Transient loss of control of nervous system function(s) without satisfactory medical explanation of the cause",
+   "condition_html": "<p><strong>B.</strong> Disturbance of consciousness without satisfactory medical explanation of the cause</p>\n<p>OR</p>\n<p>Transient loss of control of nervous system function(s) without satisfactory medical explanation of the cause</p>",
+   "evaluation_data": "See Row A.",
+   "evaluation_data_html": "<p>See Row A.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 369,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note: </strong></p>\n<p>§ 67.109, 67.209, 67.309 Neurologic - Neurologic standards for an airman <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Medical%20certificate)\" target=\"_blank\" rel=\"noopener\">medical certificate</a> are:</p>\n<p>(a) No established medical history or clinical diagnosis of any of the following:</p>\n<p>(1) Epilepsy;</p>\n<p>(2) A disturbance of consciousness without satisfactory medical explanation of the cause; or</p>\n<p>(3) A transient loss of control of nervous system function(s) without satisfactory medical explanation of the cause.</p>",
+ "links": [
+  {
+   "text": "medical certificate",
+   "href": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Medical%20certificate)"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   369,
+   370
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

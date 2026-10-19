@@ -1,0 +1,72 @@
+{
+ "id": "hyperthyroidism",
+ "name": "Hyperthyroidism",
+ "subtitle": null,
+ "name_in_guide": "HYPERTHYROIDISM",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 170,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician (family medicine, internal medicine, endocrinology) no more than 90 days before the AME exam.",
+  "Lab: Performed no more than 90 days before the AME exam to include",
+  "Thyroid Stimulating Hormone (TSH), and",
+  "Any other lab already performed (e.g. T3, Free T4) by the treating physician.",
+  "Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.",
+  "Any other testing deemed clinically necessary by the treating physician.",
+  "If previous thyroidectomy, submit operative report, History and Physical, and Discharge summary."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history",
+   "condition_html": "<p><strong>A. Any history </strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician (family medicine, internal medicine, endocrinology) no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. Lab: Performed no more than 90 days before the AME exam to include - Thyroid Stimulating Hormone (TSH), and - Any other lab already performed (e.g. T3, Free T4) by the treating physician. - 3. Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed. - 4. Any other testing deemed clinically necessary by the treating physician. - 5. If previous thyroidectomy, submit operative report, History and Physical, and Discharge summary.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their <strong>treating physician (family medicine, internal medicine, endocrinology)</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>Lab: Performed no more than 90 days before the AME exam to include</li><li>Thyroid Stimulating Hormone (TSH), and</li><li>Any other lab already performed (e.g. T3, Free T4) by the treating physician.</li></ul>\n<ul><li><strong>3. </strong>Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.</li></ul>\n<ul><li><strong>4. </strong>Any other testing deemed clinically necessary by the treating physician.</li></ul>\n<ul><li><strong>5. </strong>If previous thyroidectomy, submit operative report, History and Physical, and Discharge summary.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician (family medicine, internal medicine, endocrinology) no more than 90 days before the AME exam.",
+    "Lab: Performed no more than 90 days before the AME exam to include",
+    "Thyroid Stimulating Hormone (TSH), and",
+    "Any other lab already performed (e.g. T3, Free T4) by the treating physician.",
+    "Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.",
+    "Any other testing deemed clinically necessary by the treating physician.",
+    "If previous thyroidectomy, submit operative report, History and Physical, and Discharge summary."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 441,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "hyperthyroidism",
+  "section_title": "HYPERTHYROIDISM",
+  "pdf_pages": [
+   441
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

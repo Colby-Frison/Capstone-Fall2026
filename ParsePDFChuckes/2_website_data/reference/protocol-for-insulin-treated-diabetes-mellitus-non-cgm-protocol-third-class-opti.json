@@ -1,0 +1,41 @@
+{
+ "slug": "protocol-for-insulin-treated-diabetes-mellitus-non-cgm-protocol-third-class-opti",
+ "title": "Protocol for Insulin Treated Diabetes Mellitus NON-CGM Protocol - Third Class Option",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  567
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 567,
+   "text": "See following pages for:",
+   "html": "<p>See following pages for:</p>"
+  },
+  {
+   "type": "list",
+   "page": 567,
+   "text": "- A. INITIAL CERTIFICATION",
+   "html": "<ul><li><strong>A. </strong>INITIAL CERTIFICATION</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 567,
+   "text": "- B. MONITORING AND ACTIONS REQUIRED DURING FLIGHT OPERATIONS",
+   "html": "<ul><li><strong>B. </strong>MONITORING AND ACTIONS REQUIRED DURING FLIGHT OPERATIONS</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 567,
+   "text": "- C. RECERTIFICATION",
+   "html": "<ul><li><strong>C. </strong>RECERTIFICATION</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 567,
+   "text": "- D. DIABETES ON INSULIN RE-CERTIFICATION STATUS REPORT NON-CGM – THIRD CLASS OPTION",
+   "html": "<ul><li><strong>D. </strong>DIABETES ON INSULIN RE-CERTIFICATION STATUS REPORT NON-CGM – THIRD CLASS OPTION</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "slug": "plaquenil-status-report",
+ "title": "PLAQUENIL STATUS REPORT",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  655,
+  656
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Use for hydroxychloroquine/Aralen/Chloroquine (Updated 09/25/2024)",
+   "html": "<p><strong>Use for hydroxychloroquine/Aralen/Chloroquine</strong> (Updated 09/25/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Name __________________________________ Birthdate _________________________",
+   "html": "<p>Name __________________________________ Birthdate _________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Applicant ID# ____________________________ PI#______________________________",
+   "html": "<p>Applicant ID# ____________________________ PI#______________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Please have the ophthalmologist or optometrist who monitors your medication provide the requested information in the space provided. Return this status summary to your AME for electronic upload to the FAA.",
+   "html": "<p>Please have the ophthalmologist or optometrist who monitors your medication provide the requested information in the space provided. Return this status summary to your AME for electronic upload to the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "1. Provider printed name/title: ___________________________ Phone number ___________________",
+   "html": "<p>1. Provider printed name/title: ___________________________ Phone number ___________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "2. Date hydroxychloroquine (HCQ) or chloroquine (CQ) treatment initiated________________________",
+   "html": "<p>2. Date hydroxychloroquine (HCQ) or chloroquine (CQ) treatment initiated________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "3. Date of most recent HCQ/CQ screening _________________",
+   "html": "<p>3. Date of most recent HCQ/CQ screening _________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "4. Type of screening: Baseline or Annual",
+   "html": "<p>4. Type of screening: <strong>Baseline </strong>or <strong> Annual</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "5. Screening result: Low-Risk or High-Risk",
+   "html": "<p>5. Screening result: <strong> Low-Risk </strong>or <strong>High-Risk </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "5. Evidence of bull’s-eye lesion or other macular/extra-macular retinopathy:",
+   "html": "<p>5. Evidence of bull’s-eye lesion or other macular/extra-macular retinopathy:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Yes No",
+   "html": "<p> Yes No</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "If yes, explain: _______________________________________________________",
+   "html": "<p>If yes, explain: _______________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "6. Abnormality on automated threshold visual field testing:",
+   "html": "<p>6. Abnormality on automated threshold visual field testing:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Yes No",
+   "html": "<p> Yes No</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "If yes, explain: _______________________________________________________",
+   "html": "<p>If yes, explain: _______________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "7. Abnormality on Spectral-domain optical coherence tomography (SD-OCT):",
+   "html": "<p>7. Abnormality on Spectral-domain optical coherence tomography (SD-OCT):</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Yes No",
+   "html": "<p> Yes No</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "If yes, explain: _______________________________________________________",
+   "html": "<p>If yes, explain: _______________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "8. Any other eye pathology, symptoms, color vision loss, or clinical concerns?",
+   "html": "<p>8. Any other eye pathology, symptoms, color vision loss, or clinical concerns?</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Yes No",
+   "html": "<p> Yes No</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "If yes, explain: ______________________________________________________",
+   "html": "<p>If yes, explain: ______________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 655,
+   "text": "Treating Provider Signature ______________________________ Date ____________",
+   "html": "<p>Treating Provider Signature ______________________________ Date ____________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 656,
+   "text": "Modified from 2016 American Academy of Ophthalmology (AAO) guideline recommendations",
+   "html": "<p>Modified from <a href=\"https://www.aao.org/clinical-statement/revised-recommendations-on-screening-chloroquine-h\" target=\"_blank\" rel=\"noopener\">2016 American Academy of Ophthalmology (AAO) guideline recommendations</a></p>"
+  }
+ ]
+}

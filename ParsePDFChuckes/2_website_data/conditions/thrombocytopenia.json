@@ -1,0 +1,107 @@
+{
+ "id": "thrombocytopenia",
+ "name": "Thrombocytopenia",
+ "subtitle": null,
+ "name_in_guide": "THROMBOCYTOPENIA",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/25/2019",
+ "order": 158,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the following to the FAA for review: Current status report from the treating Hematologist with diagnosis, treatment plan and prognosis; If an underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis, and adherence to treatment for this condition; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); Copies of imaging reports or other lab (if already performed by treating hematologist); and CBC within the past 90 days."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "5 or more years ago Most recent event/diagnosis",
+   "condition_html": "<p><strong>A. 5 or more years ago </strong>Most recent event/diagnosis</p>",
+   "evaluation_data": "No symptoms or current problems. No ongoing treatment OR surveillance needed.",
+   "evaluation_data_html": "<p>No symptoms or current problems. No ongoing treatment OR surveillance needed.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 420,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Less than 5 years ago Due to: Drugs (including HIT*), Infection (now resolved), Pregnancy, etc. *Heparin induced thrombocytopenia",
+   "condition_html": "<p><strong>B. Less than 5 years ago </strong>Due to: Drugs (including HIT*), Infection (now resolved), Pregnancy, etc.</p>\n<p>*Heparin induced thrombocytopenia</p>",
+   "evaluation_data": "• Treating physician report verifies condition has resolved or, if due to a medication, it has been stopped with no plan to re-start. • No symptoms or current problems. • No ongoing treatment OR surveillance needed. Note: If an underlying condition is identified, see that section. Example: Thrombocytopenia due to chemotherapy, malignancy, autoimmune disorders, or alcohol use.",
+   "evaluation_data_html": "<p>• Treating physician report verifies condition has resolved or, if due to a medication, it has been stopped with no plan to re-start.</p>\n<p>• No symptoms or current problems.</p>\n<p>• No ongoing treatment OR surveillance needed.</p>\n<p>Note: If an underlying condition is identified, <strong>see that section</strong>. Example: Thrombocytopenia due to chemotherapy, malignancy, autoimmune disorders, or alcohol use.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history in Block 60</p>",
+   "pdf_page": 420,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Less than 5 years ago Immune thrombocytopenia (ITP)",
+   "condition_html": "<p><strong>C. Less than 5 years ago </strong>Immune thrombocytopenia (ITP)</p>",
+   "evaluation_data": "See CACI worksheet Note: CACI is for Chronic ITP only. All other causes of thrombocytopenia, See item “D. All Others” below.",
+   "evaluation_data_html": "<p>See CACI worksheet</p>\n<p><strong>Note: </strong>CACI is for Chronic ITP <strong>only. </strong>All other causes of thrombocytopenia, See item “<strong>D. All Others” </strong>below.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Chronic Immune Thrombocytopenia (cITP) Worksheet Annotate Block 60.",
+   "disposition_html": "<p>Follow the CACI – Chronic Immune <a href=\"https://www.faa.gov/ame_guide/media/C-CACIChronicImmuneThrombocytopenia.pdf\" target=\"_blank\" rel=\"noopener\">Thrombocytopenia</a> (cITP) Worksheet</p>\n<p>Annotate Block 60.</p>",
+   "pdf_page": 420,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "All others",
+   "condition_html": "<p><strong>D. All others</strong></p>",
+   "evaluation_data": "Submit the following to the FAA for review: Current status report from the treating Hematologist with diagnosis, treatment plan and prognosis; If an underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis, and adherence to treatment for this condition; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); Copies of imaging reports or other lab (if already performed by treating hematologist); and CBC within the past 90 days.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review: Current status report from the treating <strong>Hematologist </strong>with diagnosis, treatment plan and prognosis; If an underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis, and adherence to treatment for this condition; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); Copies of imaging reports or other lab (if already performed by treating hematologist); and <strong>CBC </strong>within the past 90 days.</p>",
+   "what_to_bring": [
+    "Submit the following to the FAA for review: Current status report from the treating Hematologist with diagnosis, treatment plan and prognosis; If an underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis, and adherence to treatment for this condition; List of medications and side effects, if any; Operative notes and discharge summary (if applicable); Copies of imaging reports or other lab (if already performed by treating hematologist); and CBC within the past 90 days."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>will be per the airman’s authorization letter.</p>",
+   "pdf_page": 420,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Thrombocytopenia",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIChronicImmuneThrombocytopenia.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "thrombocytopenia",
+  "section_title": "THROMBOCYTOPENIA",
+  "pdf_pages": [
+   420
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

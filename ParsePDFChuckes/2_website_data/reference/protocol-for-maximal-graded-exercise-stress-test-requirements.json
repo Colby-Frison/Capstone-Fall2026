@@ -1,0 +1,46 @@
+{
+ "slug": "protocol-for-maximal-graded-exercise-stress-test-requirements",
+ "title": "Protocol for Maximal Graded Exercise Stress Test Requirements",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  573
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 573,
+   "text": "(Updated 05/29/2024)",
+   "html": "<p>(Updated 05/29/2024)</p>"
+  },
+  {
+   "type": "list",
+   "page": 573,
+   "text": "- If a plain GXT is required and is uninterpretable for any reason, a radionuclide GXT will then be required before further consideration. - In patients with bundle branch blocks (BBB), LVH, or diffuse ST/T wave changes at rest, a stress echo or nuclear stress test will be required.\n- GXT requirements: - o 100% of predicted maximal heart rate (PMHR), unless medically contraindicated or prevented either by symptoms or medications; - Complete Stage 3 (equivalent to at least 9 minutes); - Studies of less than 85% of maximum predicted heart rate and less than 9 minutes of exercise (6 minutes for age 70 or greater) may serve a basis for denial; and - Beta blockers and calcium channel blockers (specifically diltiazem and verapamil) or digitalis preparations should be discontinued for 24-48 hours prior to testing (if not contraindicated and only with the consent of the treating physician) in order to obtain maximum heart rate. - If the GXT is done on beta blockers, calcium blockers, or digitalis medications, the applicant must provide explanation from the treating cardiologist as to why the medication(s) cannot be held.\n- The worksheet with blood pressure/pulse recordings at various stages, interpretive report, and actual ECG tracings* must be submitted. - Tracings must include a rhythm strip; - A full 12-lead ECG recorded at rest - supine and standing. (Anything less than a full 12-lead will not be accepted); and - One or more times during each stage of exercise, at the end of each stage, at peak exercise, and every minute during recovery for at least 5 minutes or until the tracings return to baseline level. *Computer generated; sample-cycle ECG tracings are unacceptable in lieu of the standard tracings. If submitted alone, this may result in deferment until this requirement is met.",
+   "html": "<ul><li><p>• If a plain GXT is required and is uninterpretable for any reason, a radionuclide GXT will then be required before further consideration.</p>\n<ul><li>In patients with bundle branch blocks (BBB), LVH, or diffuse ST/T wave changes at rest, a stress echo or nuclear stress test will be required.</li></ul></li><li><p>• GXT requirements:</p>\n<ul><li>o 100% of predicted maximal heart rate (PMHR), unless medically contraindicated or prevented either by symptoms or medications;</li><li>Complete Stage 3 (equivalent to at least 9 minutes);</li><li>Studies of less than 85% of maximum predicted heart rate and less than 9 minutes of exercise (6 minutes for age 70 or greater) may serve a basis for denial; and</li><li><p>o Beta blockers and calcium channel blockers (specifically diltiazem and verapamil) or digitalis preparations should be discontinued for 24-48 hours prior to testing (if not contraindicated and only with the consent of the treating physician) in order to obtain maximum heart rate.</p>\n<ul><li>If the GXT is done on beta blockers, calcium blockers, or digitalis medications, the applicant must provide explanation from the treating cardiologist as to why the medication(s) cannot be held.</li></ul></li></ul></li><li><p>• The worksheet with blood pressure/pulse recordings at various stages, interpretive report, and actual ECG tracings<strong>*</strong> must be submitted.</p>\n<ul><li>Tracings must include a rhythm strip;</li><li>A full 12-lead ECG recorded at rest - supine and standing. (Anything less than a full 12-lead will not be accepted); and</li><li>One or more times during each stage of exercise, at the end of each stage, at peak exercise, and every minute during recovery for at least 5 minutes or until the tracings return to baseline level. *<strong>Computer generated; sample-cycle ECG tracings are unacceptable </strong>in lieu of the standard tracings. If submitted alone, this may result in deferment until this requirement is met.</li></ul></li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 573,
+   "header": [
+    "TEST",
+    "IF ANY OF THE FOLLOWING ARE NOTED, THE AME MAY NOT ISSUE."
+   ],
+   "rows": [
+    [
+     "Exercise stress test (EST)",
+     "PMHR less than 85%; (predicted maximal heart rate) Time less than 9 minutes - under age 70; Time less than 6 minutes - age 70 or greater 1 mm ST depression or greater at any time during stress testing - UNLESS the applicant has additional medical evidence such as a nuclear imaging study or a stress echocardiogram showing the absence of reversible ischemia or wall motion abnormalities reviewed and reported by a qualified cardiologist."
+    ],
+    [
+     "Nuclear stress test",
+     "Evidence of reversible ischemia OR Negative change from the prior study of the same type OR Ejection Fraction (EF) reported as 40% or less OR EF decrease by 10% or more from a prior study"
+    ],
+    [
+     "Stress echo",
+     "Exercised induced wall motion abnormalities (WMA) OR Negative change from the prior study of the same type OR EF 40% or less OR EF decreased by 10% or more from a prior study"
+    ]
+   ],
+   "html": "<table><thead><tr><th>TEST</th><th>IF ANY OF THE FOLLOWING ARE NOTED, THE AME MAY NOT ISSUE.</th></tr></thead><tbody><tr><td><p>Exercise stress test</p>\n<p>(EST)</p></td><td><p><strong>PMHR less than 85</strong>%; (predicted maximal heart rate)</p>\n<p>Time <strong>less than 9</strong> minutes - under age 70;</p>\n<p>Time less than 6 minutes - age 70 or greater</p>\n<p><strong>1 mm ST depression</strong> or greater at any time during stress testing - UNLESS the applicant has additional medical evidence such as a nuclear imaging study or a stress echocardiogram showing the absence of reversible ischemia or wall motion abnormalities reviewed and reported by a qualified cardiologist.</p></td></tr><tr><td><p>Nuclear</p>\n<p>stress test</p></td><td><p>Evidence of reversible ischemia OR</p>\n<p>Negative change from the prior study of the same type OR</p>\n<p>Ejection Fraction (EF) reported as 40% or less OR</p>\n<p>EF decrease by 10% or more from a prior study</p></td></tr><tr><td><p>Stress echo</p></td><td><p>Exercised induced wall motion abnormalities (WMA) OR</p>\n<p>Negative change from the prior study of the same type OR</p>\n<p>EF 40% or less OR</p>\n<p>EF decreased by 10% or more from a prior study</p></td></tr></tbody></table>"
+  }
+ ]
+}

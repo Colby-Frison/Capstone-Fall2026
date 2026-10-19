@@ -1,0 +1,75 @@
+{
+ "id": "heart-murmur",
+ "name": "Heart Murmur",
+ "subtitle": null,
+ "name_in_guide": "HEART MURMUR",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 57,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+  "It must specifically include clinical correlation with echocardiogram findings.",
+  "Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Systolic Grade 1/6 or 2/6 OR flow, functional, innocent, or physiological",
+   "condition_html": "<p><strong>A. </strong>Systolic</p>\n<p>Grade 1/6 or 2/6</p>\n<p>OR</p>\n<p>flow, functional, innocent, or physiological</p>",
+   "evaluation_data": "If the AME can determine the murmur is not pathologic and the individual has no symptoms that would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the murmur is not pathologic and the individual has no symptoms that would interfere with flight duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60.</p>",
+   "pdf_page": 179,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Systolic grade 3 or higher OR any diastolic murmur OR symptomatic (chest pain, shortness of breath, etc.)",
+   "condition_html": "<p><strong>B. </strong>Systolic</p>\n<p>grade 3 or higher</p>\n<p>OR</p>\n<p>any diastolic murmur</p>\n<p>OR</p>\n<p>symptomatic (chest pain, shortness of breath, etc.)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 2. It must specifically include clinical correlation with echocardiogram findings. 3. Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A current, detailed Clinical Progress Note generated from a clinic visit with their treating <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p><strong>2. </strong> It must specifically include clinical correlation with echocardiogram findings.</p>\n<p><strong>3. Echocardiogram (Echo).</strong> Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+    "It must specifically include clinical correlation with echocardiogram findings.",
+    "Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Follow up Issuance</p>\n<p>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 179,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "heart-murmur",
+  "section_title": "HEART MURMUR",
+  "pdf_pages": [
+   179
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

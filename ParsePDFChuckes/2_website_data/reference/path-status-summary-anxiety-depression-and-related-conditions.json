@@ -1,0 +1,151 @@
+{
+ "slug": "path-status-summary-anxiety-depression-and-related-conditions",
+ "title": "PATH Status Summary Anxiety, Depression, and Related Conditions",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  407
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "(Updated 07/29/2026)",
+   "html": "<p>(Updated 07/29/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Name: _______________________________ Birthdate: ______________________",
+   "html": "<p>Name: _______________________________ Birthdate: ______________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Applicant ID: __________________________ PI#: ___________________________",
+   "html": "<p>Applicant ID: __________________________ PI#: ___________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Pilots/ATCS (Air Traffic Control Specialists). If you do not have a Special Issuance (SI) /Special Consideration (SC), STOP. Do not use this page.",
+   "html": "<p><strong>Pilots/ATCS </strong>(Air Traffic Control Specialists<strong>). If you do not have a Special Issuance (SI) /Special Consideration (SC), STOP. Do not use this page</strong>.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "If your SI/SC letter places you in the PATH program, have your treating clinician complete Section 1, then bring this signed page and all interim detailed clinical progress notes (DCPN) to your AME for review and upload them into your FAA file.",
+   "html": "<p>If your SI/SC letter places you in the PATH program, have your treating clinician complete Section 1, then bring this signed page and all interim <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">detailed clinical progress notes</a> (DCPN) to your AME for review and upload them into your FAA file.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Section 1. Treating clinician. Please answer questions 1 and 2, sign, and return this form to the patient or their Aviation Medical Examiner (AME). See the DCPN criteria, as a letter to the FAA may not contain all the needed information.",
+   "html": "<p><strong>Section 1. Treating clinician.</strong> Please answer questions 1 and 2, sign, and return this form to the patient or their Aviation Medical Examiner (AME). See the DCPN criteria, as a letter to the FAA may not contain all the needed information.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "In the past 12 months, did the individual have:",
+   "html": "<p><strong>In the past 12 months, did the individual have: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 407,
+   "text": "- 1. Any prolonged, clinically significant worsening in cognition, judgment, emotional stability, insight, or function?",
+   "html": "<ul><li><strong>1. </strong>Any prolonged, clinically significant worsening in cognition, judgment, emotional stability, insight, or function?</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 407,
+   "header": [
+    "No",
+    "Yes*"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>No</th><th>Yes*</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 407,
+   "text": "- 2. Any newly disclosed arrests, convictions, incarcerations, or significant episodes of intense anger or affect, hostility, threats, coercive/controlling behavior, stalking, domestic violence, significant impulsivity or risk-taking, assault, restraining orders, or other interpersonal violence?",
+   "html": "<ul><li><strong>2. </strong>Any newly disclosed arrests, convictions, incarcerations, or significant episodes of intense anger or affect, hostility, threats, coercive/controlling behavior, stalking, domestic violence, significant impulsivity or risk-taking, assault, restraining orders, or other interpersonal violence?</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Your patient should self-report and abstain from safety-related duties (pilot/ATCS) when they have a medical deficiency (e.g., worsening of condition, symptoms, etc). However, if your patient experiences a significant clinical deterioration in cognition, judgment, emotional stability, or insight and lacks the awareness to ground themselves, please notify the FAA Aeromedical Certification Division (405-954-4821) or their AME.",
+   "html": "<p>Your patient should self-report and abstain from safety-related duties (pilot/ATCS) when they have a medical deficiency (e.g., worsening of condition, symptoms, etc). However, if your patient experiences a significant clinical deterioration in cognition, judgment, emotional stability, or insight and lacks the awareness to ground themselves, please notify the FAA Aeromedical Certification Division (405-954-4821) or their AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "______________________________________________________________________________________",
+   "html": "<p>______________________________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Treating Clinician Printed Name Office Phone Number Date of Evaluation",
+   "html": "<p>Treating Clinician Printed Name Office Phone Number Date of Evaluation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "______________________________________________________________ _________________ Signature MD, DO, PA-C, NP",
+   "html": "<p>______________________________________________________________ _________________ Signature MD, DO, PA-C, NP</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Section 2. AME Actions. Review Section 1 and all detailed clinical progress notes. Complete #3 and #4, and sign. Upload this page (as “Beh Hlth - PATH Status Summary”) and all interim detailed clinical progress notes.",
+   "html": "<p><strong>Section 2. AME Actions.</strong> Review Section 1 and all detailed clinical progress notes. Complete #3 and #4, and sign. Upload this page (as “Beh Hlth - PATH Status Summary”) and all interim detailed clinical progress notes.</p>"
+  },
+  {
+   "type": "table",
+   "page": 407,
+   "header": [
+    "No",
+    "Yes*"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>No</th><th>Yes*</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 407,
+   "text": "- 3. Any evidence of symptom exacerbation, functional decline, or clinical deterioration concerning for impaired ability to safely operate in the National Airspace?",
+   "html": "<ul><li><strong>3. </strong>Any evidence of symptom exacerbation, functional decline, or clinical deterioration concerning for impaired ability to safely operate in the National Airspace?</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 407,
+   "text": "- 4. I HAVE CONCERNS regarding their status [e.g., identified concerns in the progress notes or performed a standard screening tool for their condition(s) and identified concern(s)].",
+   "html": "<ul><li><strong>4. I HAVE CONCERNS</strong> regarding their status [e.g., identified concerns in the progress notes or performed a standard screening tool for their condition(s) and identified concern(s)].</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "Explain any “Yes*” answers or other concerns (attach any supporting documents).",
+   "html": "<p>Explain any “Yes*” answers or other concerns (attach any supporting documents).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "I will notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in this individual’s cognition, judgment, emotional stability, or insight.",
+   "html": "<p>I will notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in this individual’s cognition, judgment, emotional stability, or insight.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "________________________________________ _______________",
+   "html": "<p>________________________________________ _______________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 407,
+   "text": "AME signature Date of Evaluation *IF ANY ANSWER FALLS IN THE YES* COLUMN, OR THERE HAS BEEN SIGNIFICANT INTERVAL HISTORY WORSENING OR ANY CONCERNS, THE AME MUST DEFER.",
+   "html": "<p>AME signature Date of Evaluation <strong>*IF ANY </strong>ANSWER FALLS IN THE<strong> YES* </strong>COLUMN, <strong>OR THERE HAS BEEN SIGNIFICANT INTERVAL HISTORY WORSENING OR ANY CONCERNS, THE AME MUST DEFER. </strong></p>"
+  }
+ ]
+}

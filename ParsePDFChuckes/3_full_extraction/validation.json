@@ -1,0 +1,217 @@
+{
+ "spec": "sections:50",
+ "mode": "virtual",
+ "strategy": "sections",
+ "size": 50,
+ "chunks": 21,
+ "avg_pages": 44.4,
+ "parse_seconds": 37.1,
+ "total_seconds": 37.5,
+ "sections": 240,
+ "tables": 438,
+ "table_rows": 2429,
+ "disposition_rows": 485,
+ "repairs": {
+  "table re-joined": 4
+ },
+ "validation": {
+  "words_checked": 221860,
+  "missing_words": 684,
+  "missing_pct": 0.308,
+  "duplicated_words": 3594,
+  "duplicated_pct": 1.62,
+  "pages_flagged": [
+   {
+    "page": 10,
+    "missing": 24,
+    "words": 528,
+    "examples": [
+     "ame",
+     "an",
+     "and",
+     "as",
+     "aviation",
+     "certification",
+     "duties",
+     "faa"
+    ]
+   },
+   {
+    "page": 20,
+    "missing": 17,
+    "words": 314,
+    "examples": [
+     "all",
+     "ame",
+     "applicant",
+     "copies",
+     "guidance",
+     "received",
+     "records",
+     "referred"
+    ]
+   },
+   {
+    "page": 24,
+    "missing": 6,
+    "words": 155,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 27,
+    "missing": 11,
+    "words": 349,
+    "examples": [
+     "a",
+     "any",
+     "in",
+     "meet",
+     "required",
+     "s",
+     "to"
+    ]
+   },
+   {
+    "page": 28,
+    "missing": 31,
+    "words": 301,
+    "examples": [
+     "amcd",
+     "ames",
+     "and",
+     "be",
+     "by",
+     "examination",
+     "faa",
+     "is"
+    ]
+   },
+   {
+    "page": 42,
+    "missing": 26,
+    "words": 381,
+    "examples": [
+     "60",
+     "a",
+     "airman",
+     "and",
+     "applicants",
+     "certificate",
+     "guidance",
+     "have"
+    ]
+   },
+   {
+    "page": 44,
+    "missing": 15,
+    "words": 385,
+    "examples": [
+     "a",
+     "appropriate",
+     "first",
+     "has",
+     "if",
+     "indicates",
+     "items",
+     "may"
+    ]
+   },
+   {
+    "page": 45,
+    "missing": 15,
+    "words": 310,
+    "examples": [
+     "be",
+     "date",
+     "enter",
+     "information",
+     "only",
+     "or",
+     "should",
+     "this"
+    ]
+   },
+   {
+    "page": 208,
+    "missing": 8,
+    "words": 264,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 261,
+    "missing": 4,
+    "words": 55,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 288,
+    "missing": 3,
+    "words": 79,
+    "examples": [
+     "interpretive",
+     "paper",
+     "report"
+    ]
+   },
+   {
+    "page": 324,
+    "missing": 6,
+    "words": 147,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 435,
+    "missing": 5,
+    "words": 41,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 450,
+    "missing": 6,
+    "words": 172,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 496,
+    "missing": 8,
+    "words": 255,
+    "examples": [
+     "3238",
+     "405",
+     "954",
+     "desk",
+     "o",
+     "support"
+    ]
+   },
+   {
+    "page": 597,
+    "missing": 15,
+    "words": 421,
+    "examples": [
+     "o"
+    ]
+   },
+   {
+    "page": 817,
+    "missing": 8,
+    "words": 176,
+    "examples": [
+     "attentiondeficit"
+    ]
+   }
+  ]
+ }
+}

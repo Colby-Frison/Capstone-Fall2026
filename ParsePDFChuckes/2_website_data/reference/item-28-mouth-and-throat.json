@@ -1,0 +1,23 @@
+{
+ "slug": "item-28-mouth-and-throat",
+ "title": "ITEM 28. Mouth and Throat",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  69,
+  70
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 69,
+   "header": [
+    "Palate: Extensive adhesion of the soft palate to the pharynx",
+    "Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea",
+    "Requires FAA Decision"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Palate: Extensive adhesion of the soft palate to the pharynx</th><th>Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea</th><th>Requires FAA Decision</th></tr></thead><tbody></tbody></table>"
+  }
+ ]
+}

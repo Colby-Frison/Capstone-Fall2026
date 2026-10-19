@@ -1,0 +1,118 @@
+{
+ "id": "heart-transplant-cardiac-transplant-heart-replacement",
+ "name": "Heart Transplant (cardiac transplant, heart replacement)",
+ "subtitle": null,
+ "name_in_guide": "HEART TRANSPLANT (cardiac transplant, heart replacement)",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 64,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the following for FAA review: The most recent detailed Clinical Progress Note generated from a clinic visit with their cardiologist or cardiac surgeon which verifies the transplant has been performed.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or transplant surgeon no more than 90 days prior to the AME exam.",
+  "It must specifically include:",
+  "Any evidence of rejection and complete documentation of all rejection history, whether treated or not;",
+  "A complete history regarding any infectious process;",
+  "A complete history regarding any malignancy; and",
+  "Comment on the donor heart status, including any evidence of allograft vasculopathy or any disease state.",
+  "Labs performed no more than 90 days prior to the AME exam:",
+  "Hemoglobin A1C and",
+  "Lipid profile to include total cholesterol, HDL, LDL, and triglycerides.",
+  "Hospital records to include:",
+  "Operative report;",
+  "Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital);",
+  "Admission (history & physical);",
+  "Pathology report (if performed); and",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+  "Coronary Angiogram [cardiac cath] performed no more than 12 months before the AME exam:",
+  "Must submit both of the report(s); and",
+  "Actual imaging on CD in DICOM format.",
+  "24-hour cardiac monitor performed no more than 90 days prior to the AME exam:",
+  "Stress Echo . Graded Exercise Stress ECHO (with electrical tracings) no more than 90 days prior to the AME exam in accordance with the enclosed specification sheet.",
+  "Any other testing already completed or deemed necessary by the treating physician (e.g., myocardial biopsy)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "1st or 2nd class and ATCS",
+   "condition_html": "<p><strong>A. 1st or 2nd class and ATCS</strong></p>",
+   "evaluation_data": "Submit the following for FAA review: The most recent detailed Clinical Progress Note generated from a clinic visit with their cardiologist or cardiac surgeon which verifies the transplant has been performed.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>The most recent <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">detailed Clinical Progress Note</a> generated from a clinic visit with their <strong>cardiologist or cardiac surgeon </strong>which verifies the transplant has been performed.</p>",
+   "what_to_bring": [
+    "Submit the following for FAA review: The most recent detailed Clinical Progress Note generated from a clinic visit with their cardiologist or cardiac surgeon which verifies the transplant has been performed."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA verifying the procedure and reason it was performed.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA verifying the procedure and reason it was performed.</p>",
+   "pdf_page": 190,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "3rd class only",
+   "condition_html": "<p><strong>B. 3rd class only</strong></p>",
+   "evaluation_data": "There is NO mandatory recovery period per Public Law 114-190 May 2017, but should be released by the treating physician. After the treating cardiologist and/or transplant surgeon has determined that the condition is stable, obtain the following evaluation(s) and submit them to the FAA for review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or transplant surgeon no more than 90 days prior to the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include: - A statement regarding functional capacity, modifiable cardiovascular risk factors, and prognosis for incapacitation; - Any evidence of rejection and complete documentation of all rejection history, whether treated or not; - A complete history regarding any infectious process; - A complete history regarding any malignancy; and - Comment on the donor heart status, including any evidence of allograft vasculopathy or any disease state. - 3. Labs performed no more than 90 days prior to the AME exam: - Hemoglobin A1C and - Lipid profile to include total cholesterol, HDL, LDL, and triglycerides. - 4. Hospital records to include: - Operative report; - Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital); - Admission (history & physical); - Pathology report (if performed); and - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records. - 5. Coronary Angiogram [cardiac cath] performed no more than 12 months before the AME exam: - Must submit both of the report(s); and - Actual imaging on CD in DICOM format. - 6. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam: ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should include atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses 2.5 seconds or greater; heart rate (max, min, and average); other histograms and frequency graphs; and the percentage of atrial fibrillation/flutter. - 7. Stress Echo. Graded Exercise Stress ECHO (with electrical tracings) no more than 90 days prior to the AME exam in accordance with the enclosed specification sheet. - 8. Any other testing already completed or deemed necessary by the treating physician (e.g., myocardial biopsy)",
+   "evaluation_data_html": "<p>There is NO mandatory recovery period per Public Law 114-190 May 2017, but should be released by the treating physician.</p>\n<p>After the treating cardiologist and/or transplant surgeon has determined that the condition is stable, obtain the following evaluation(s) and submit them to the FAA for review:</p>\n<ul><li><strong>1. </strong>A current, detailed Clinical Progress Note generated from a clinic visit with the treating <strong>cardiologist or transplant surgeon</strong> no more than 90 days prior to the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><p><strong>2. </strong>It must specifically include:</p>\n<ul><li>A statement regarding functional capacity, modifiable cardiovascular risk factors, and prognosis for incapacitation;</li><li>Any evidence of rejection and complete documentation of all rejection history, whether treated or not;</li><li>A complete history regarding any infectious process;</li><li>A complete history regarding any malignancy; and</li><li>Comment on the donor heart status, including any evidence of allograft vasculopathy or any disease state.</li></ul></li></ul>\n<ul><li><strong>3. Labs </strong>performed no more than 90 days prior to the AME exam:</li><li>Hemoglobin A1C and</li><li>Lipid profile to include total cholesterol, HDL, LDL, and triglycerides.</li></ul>\n<ul><li><strong>4. </strong>Hospital records to include:</li><li><strong>Operative report;</strong></li><li><strong>Discharge summary from the physician</strong> (NOT the discharge instructions/paperwork given to the patient when leaving the hospital);</li><li>Admission (history &amp; physical);</li><li>Pathology report (if performed); and</li><li><strong>DO NOT submit </strong>miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.</li></ul>\n<ul><li><strong>5. Coronary Angiogram [cardiac cath]</strong> performed no more than 12 months before the AME exam:</li><li>Must submit both of the report(s); and</li><li>Actual imaging on CD in DICOM format.</li></ul>\n<ul><li><strong>6. 24-hour cardiac monitor</strong> performed no more than 90 days prior to the AME exam:</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should include atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses 2.5 seconds or greater; heart rate (max, min, and average); other histograms and frequency graphs; and the percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>7. Stress Echo</strong>. Graded Exercise Stress ECHO (with electrical tracings) no more than 90 days prior to the AME exam in accordance with the enclosed specification sheet.</li></ul>\n<ul><li><strong>8. </strong>Any other testing already completed or deemed necessary by the treating physician (e.g., myocardial biopsy)</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or transplant surgeon no more than 90 days prior to the AME exam.",
+    "It must specifically include:",
+    "Any evidence of rejection and complete documentation of all rejection history, whether treated or not;",
+    "A complete history regarding any infectious process;",
+    "A complete history regarding any malignancy; and",
+    "Comment on the donor heart status, including any evidence of allograft vasculopathy or any disease state.",
+    "Labs performed no more than 90 days prior to the AME exam:",
+    "Hemoglobin A1C and",
+    "Lipid profile to include total cholesterol, HDL, LDL, and triglycerides.",
+    "Hospital records to include:",
+    "Operative report;",
+    "Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital);",
+    "Admission (history & physical);",
+    "Pathology report (if performed); and",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+    "Coronary Angiogram [cardiac cath] performed no more than 12 months before the AME exam:",
+    "Must submit both of the report(s); and",
+    "Actual imaging on CD in DICOM format.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam:",
+    "Stress Echo . Graded Exercise Stress ECHO (with electrical tracings) no more than 90 days prior to the AME exam in accordance with the enclosed specification sheet.",
+    "Any other testing already completed or deemed necessary by the treating physician (e.g., myocardial biopsy)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Once all information is received, these cases are reviewed by a FAS Cardiothoracic Surgery consultant.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Once all information is received, these cases are reviewed by a FAS Cardiothoracic Surgery consultant.</p>",
+   "pdf_page": 190,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "heart-transplant-cardiac-transplant-heart-replacement",
+  "section_title": "HEART TRANSPLANT (cardiac transplant, heart replacement)",
+  "pdf_pages": [
+   190
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

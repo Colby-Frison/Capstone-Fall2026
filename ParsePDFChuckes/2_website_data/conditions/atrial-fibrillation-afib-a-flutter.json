@@ -1,0 +1,159 @@
+{
+ "id": "atrial-fibrillation-afib-a-flutter",
+ "name": "Atrial Fibrillation (Afib)/A-Flutter",
+ "subtitle": null,
+ "name_in_guide": "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/25/2026",
+ "order": 49,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary",
+  "Detailed clinical progress notes from the treating physician(s) describing the new event or finding.",
+  "Current ≥ 24-hour cardiac monitor.",
+  "Detailed clinical progress notes from any provider seen for this condition (PCP, cardiology, urgent care) which identify symptoms, testing performed, diagnosis and treatment.",
+  "Hospital records (if applicable), including:",
+  "Discharge summary",
+  "Current ≥ 24-hour cardiac monitor",
+  "Initial etiology work-up as follows:",
+  "Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study",
+  "Cardiac echocardiogram; and",
+  "Exercise stress test",
+  "If taking warfarin, submit info listed on Pharmaceutical Anticoagulants – Emboli Mitigation.",
+  "Cardiologist evaluation that describes why the procedure/device was indicated, treatment regimen throughout the process, any procedure complications, whether device is working properly, and the current status of AFib;",
+  "Current CHA2DS2-VASc score ;",
+  "Initial AFib etiology work up (TSH, sleep study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study [Type III or Type IV not allowed], cardiac echocardiogram, exercise stress test), if not previously submitted;",
+  "Procedure report;",
+  "TEE report from time of implantation, if performed (images not required in most cases); and",
+  "TEE report from ≥ 45 days post procedure to evaluate for peri-device leaks (Recommended images at 0, 45, 90, and 135 degrees with 2-4 heartbeats to show appendage and occlusion device or in accordance with industry standards)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Previously reported to FAA and the airman has a letter from the FAA that monitoring is not required.",
+   "condition_html": "<p><strong>A. Previously reported to FAA </strong>and the airman has a letter from the FAA that monitoring is not required.</p>",
+   "evaluation_data": "The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review. If the AME’s history and exam do not reveal any evidence or concern of recurrence:",
+   "evaluation_data_html": "<p>The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review.</p>\n<p>If the AME’s history and exam do not reveal any evidence or concern of recurrence:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60.</p>",
+   "pdf_page": 154,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Previously warned; Now with New event or Findings:",
+   "condition_html": "<p><strong>B. Previously warned; </strong></p>\n<p>Now with <strong>New event or Findings: </strong></p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary AND - Detailed clinical progress notes from the treating physician(s) describing the new event or finding. PLUS: - Current ≥ 24-hour cardiac monitor.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf\" target=\"_blank\" rel=\"noopener\"> Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary</a></li></ul>\n<p><strong>AND </strong></p>\n<ul><li> Detailed clinical progress notes from the treating physician(s) describing the new event or finding.</li></ul>\n<p><strong>PLUS:</strong></p>\n<ul><li> Current ≥ 24-hour cardiac monitor.</li></ul>",
+   "what_to_bring": [
+    "Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary",
+    "Detailed clinical progress notes from the treating physician(s) describing the new event or finding.",
+    "Current ≥ 24-hour cardiac monitor."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow-up Special Issuance – Will be per the Airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow-up Special Issuance</strong> –</p>\n<p>Will be per the Airman’s authorization letter</p>",
+   "pdf_page": 154,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Non-Valvular AFib/A-Flutter History of at any time OR current: Single or multiple episodes Paroxysmal Persistent Permanent/chronic Untreated or treated AFib treated with ablation (3-month recovery period) or cardioversion (1-month recovery period) Use this row for Atypical, symptomatic, or untreated atrial flutter",
+   "condition_html": "<p><strong>C. Non-Valvular </strong></p>\n<p><strong>AFib/A-Flutter </strong></p>\n<p>History of at <strong>any time</strong></p>\n<p><strong>OR</strong> current:</p>\n<p>Single or multiple episodes</p>\n<p>Paroxysmal</p>\n<p>Persistent</p>\n<p>Permanent/chronic</p>\n<p>Untreated or treated</p>\n<p>AFib treated with ablation (3-month recovery period)</p>\n<p><strong>or</strong> cardioversion (1-month recovery period)</p>\n<p>Use this row for Atypical, symptomatic, or untreated atrial flutter</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary AND - Detailed clinical progress notes from any provider seen for this condition (PCP, cardiology, urgent care) which identify symptoms, testing performed, diagnosis and treatment. - Hospital records (if applicable), including: - Admission (H&P) - Discharge summary - Current ≥ 24-hour cardiac monitor - Initial etiology work-up as follows: - TSH; - Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study - - (Type III or Type IV NOT allowed); - Cardiac echocardiogram; and - Exercise stress test - If taking warfarin, submit info listed on Pharmaceutical Anticoagulants – Emboli Mitigation.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf\" target=\"_blank\" rel=\"noopener\"> Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary</a></li></ul>\n<p><strong>AND </strong></p>\n<ul><li> Detailed clinical progress notes from any provider seen for this condition (PCP, cardiology, urgent care) which identify symptoms, testing performed, diagnosis and treatment.</li><li> Hospital records (if applicable), including:<ul><li>Admission (H&amp;P)</li><li>Discharge summary</li></ul></li><li> Current ≥ 24-hour cardiac monitor</li><li> Initial etiology work-up as follows:<ul><li>TSH;</li><li>Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study</li></ul></li></ul>\n<ul><li><ul><li>(Type III or Type IV NOT allowed);</li><li>Cardiac echocardiogram; and</li><li>Exercise stress test</li></ul></li><li> If taking warfarin, submit info listed on Pharmaceutical Anticoagulants – <a href=\"https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">Emboli Mitigation.</a></li></ul>",
+   "what_to_bring": [
+    "Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary",
+    "Detailed clinical progress notes from any provider seen for this condition (PCP, cardiology, urgent care) which identify symptoms, testing performed, diagnosis and treatment.",
+    "Hospital records (if applicable), including:",
+    "Discharge summary",
+    "Current ≥ 24-hour cardiac monitor",
+    "Initial etiology work-up as follows:",
+    "Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study",
+    "Cardiac echocardiogram; and",
+    "Exercise stress test",
+    "If taking warfarin, submit info listed on Pharmaceutical Anticoagulants – Emboli Mitigation."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow-up Special Issuance – Will be per the Airman’s authorization letter See Non-Valvular Atrial Fibrillation (AFib)/A- Flutter Status Summary",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow-up Special Issuance</strong> –</p>\n<p>Will be per the Airman’s authorization letter</p>\n<p>See <a href=\"https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf\" target=\"_blank\" rel=\"noopener\">Non-Valvular Atrial Fibrillation (AFib)/A- Flutter Status Summary</a></p>",
+   "pdf_page": 154,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "Treated with left atrial appendage (LAA) closure device ex: Watchman",
+   "condition_html": "<p><strong>D. Treated with </strong></p>\n<p><strong>left atrial appendage (LAA) closure device </strong></p>\n<p>ex: Watchman</p>",
+   "evaluation_data": "After a 3-month recovery period, submit the following to the FAA for review: - Cardiologist evaluation that describes why the procedure/device was indicated, treatment regimen throughout the process, any procedure complications, whether device is working properly, and the current status of AFib; - Current CHA2DS2-VASc score ; - Current ≥ 24-hour cardiac monitor - Initial AFib etiology work up (TSH, sleep study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study [Type III or Type IV not allowed], cardiac echocardiogram, exercise stress test), if not previously submitted; - Procedure report; - TEE report from time of implantation, if performed (images not required in most cases); and - TEE report from ≥ 45 days post procedure to evaluate for peri-device leaks (Recommended images at 0, 45, 90, and 135 degrees with 2-4 heartbeats to show appendage and occlusion device or in accordance with industry standards).",
+   "evaluation_data_html": "<p>After a <strong>3-month recovery period</strong>, submit the following to the FAA for review:</p>\n<ul><li> Cardiologist evaluation that describes why the procedure/device was indicated, treatment regimen throughout the process, any procedure complications, whether device is working properly, and the current status of AFib;</li><li> Current <a href=\"https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">CHA2DS2-VASc score</a> ;</li><li> Current ≥ 24-hour cardiac monitor</li><li> Initial AFib etiology work up (TSH, sleep study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study [Type III or Type IV not allowed], cardiac echocardiogram, exercise stress test), if not previously submitted;</li><li> Procedure report;</li><li> TEE report from time of implantation, if performed (images not required in most cases); and</li><li> TEE report from ≥ 45 days post procedure to evaluate for peri-device leaks (Recommended images at 0, 45, 90, and 135 degrees with 2-4 heartbeats to show appendage and occlusion device or in accordance with industry standards).</li></ul>",
+   "what_to_bring": [
+    "Cardiologist evaluation that describes why the procedure/device was indicated, treatment regimen throughout the process, any procedure complications, whether device is working properly, and the current status of AFib;",
+    "Current CHA2DS2-VASc score ;",
+    "Current ≥ 24-hour cardiac monitor",
+    "Initial AFib etiology work up (TSH, sleep study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study [Type III or Type IV not allowed], cardiac echocardiogram, exercise stress test), if not previously submitted;",
+    "Procedure report;",
+    "TEE report from time of implantation, if performed (images not required in most cases); and",
+    "TEE report from ≥ 45 days post procedure to evaluate for peri-device leaks (Recommended images at 0, 45, 90, and 135 degrees with 2-4 heartbeats to show appendage and occlusion device or in accordance with industry standards)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow-up Special Issuance – Will be per the Airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow-up Special Issuance</strong> –</p>\n<p>Will be per the Airman’s authorization letter</p>",
+   "pdf_page": 154,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>NON-VALVULAR ATRIAL FIBRILLATION (AFIB)/A-FLUTTER </strong></p>\n<p><strong>STATUS SUMMARY </strong></p>\n<p>(Updated 03/27/2024)</p>\n<p>Name ______________________________ Birthdate _______________________________</p>\n<p>Applicant ID# ___________________________ PI# ____________________________________</p>\n<p><strong>Instructions: </strong></p>\n<p>• Please have the <strong>cardiologist </strong>who treats your AFib or A-Flutter <strong>complete, sign, and date </strong>this sheet or submit a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> that addresses ALL items below.</p>\n<p>• Return this sheet (or a current, Detailed Clinical Progress note from the cardiologist) <strong>AND a current cardiac monitor report</strong> to your AME for electronic upload to the FAA:</p>\n<table><thead><tr><th>NO</th><th>YES*</th></tr></thead><tbody><tr><td><p>NOT indicated OR</p>\n<p>NO problems</p>\n<p>With</p>\n<p>treatment</p></td><td><p>YES*</p>\n<p>Indicated</p>\n<p>but NOT</p>\n<p>being</p>\n<p>treated*</p></td></tr><tr><td><p>CHA2DS2- VASc score</p></td><td></td></tr><tr><td><p>Treatment</p>\n<p>NOT</p>\n<p>indicated</p>\n<p>OR</p>\n<p>treatment</p>\n<p>goals met</p></td><td><p>*Indicated</p>\n<p>but NOT</p>\n<p>treated</p>\n<p>OR</p>\n<p>goals</p>\n<p>NOT met</p></td></tr></tbody></table>\n<ul><li><strong>1. Has the patient’s condition worsened within the past year?</strong> (Check YES* if there are any required or recommended treatment changes, procedures, if stroke risk factors [e.g., hypertension, hyperlipidemia] have not been well controlled, any bleeding episodes requiring medical attention, or other concerns.)..........................................................................................</li></ul>\n<ul><li><strong>2. </strong>Is there a definitive or suspicious history for stroke, TIA, or any other thromboembolic event?</li></ul>\n<ul><li><strong>3. Is treatment for AFib/A-Flutter currently indicated?</strong> If YES*, identify reason(s) AND</li></ul>\n<p>treatment* (circle): Symptoms Rate control Rhythm control Other_____________</p>\n<p>Treatment _______________________________________________________________</p>\n<ul><li><strong>4. </strong> What is your patient’s <strong>current </strong> <a href=\"https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">CHA2DS2-VASc score</a> ? (Circle components for score.)</li></ul>\n<table><thead><tr><th>Vascular disease (prior MI, PAD, or aortic plaque/atheroma)</th><th>1</th></tr></thead><tbody><tr><td><p>Age 65-74</p></td><td><p>1</p></td></tr><tr><td><p>Female (Male = 0)</p></td><td><p>1</p></td></tr></tbody></table>\n<table><thead><tr><th>Congestive heart failure</th><th>1</th></tr></thead><tbody><tr><td><p>Hypertension</p></td><td><p>1</p></td></tr><tr><td><p>Age &gt; = 75</p></td><td><p>2</p></td></tr><tr><td><p>Diabetes mellitus</p></td><td><p>1</p></td></tr><tr><td><p>Previous stroke/TIA/TE</p></td><td><p>2</p></td></tr></tbody></table>\n<ul><li><strong>5. </strong>If CHA2DS2-VASc is <strong>2 or more,</strong> is the patient treated with NOAC/DOAC, LAA closure, or warfarin (Jantoven)? Warfarin (Jantoven) requires 6 weeks of stabilization with 80% of INRs between 2.0 and 3.0. Submit a copy of the last 6 monthly INR values.</li></ul>\n<p>If other <a href=\"https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">emboli mitigation strategy</a> utilized, describe: ________________________________</p>\n<ul><li><strong>6. </strong>Does a current <strong>≥ 24hr cardiac monitor </strong>show poor rate control or is the patient functionally symptomatic? (Address any concerns if average heart rate is &gt; 100, maximum [non-exertional] is &gt; 120, or a single pause is &gt; 3 seconds. You must <strong>submit the 1-page computerized summary and the representative full-scale multi-lead ECG tracings, EVEN IF FINDINGS ARE NORMAL.</strong>)</li></ul>\n<ul><li><strong>7. </strong>Is the patient non-compliant or not tolerating AFib/A-Flutter treatment and/or emboli mitigation medication? (Also check YES* if significant side effects.) ........................................</li></ul>\n<ul><li><strong>8. </strong>Describe any significant clinical history changes since last evaluation, any YES* items, or other concerns:</li><li>__________________________________________________________________________</li></ul>\n<p>___________________________________________________________________________________________________________________________</p>\n<p>_____________________________ _____________________</p>\n<p>Cardiologist Signature Date of evaluation</p>\n<p>AME instructions:</p>\n<p>INITIAL A-Fib consideration. AME must defer.</p>\n<p>Recertification. If the pilot has a valid AASI for Atrial Fibrillation and each item on the AFib/A-Flutter Status Summary is in the left-hand column (NO “yes” answers) follow AASI instructions.</p>\n<p><strong>IF ANY ANSWER FALLS IN YES* COLUMN ABOVE, THE AME MUST DEFER.</strong></p>",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "CHA2DS2-VASc score",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/EmboliMitigationAFib.pdf"
+  },
+  {
+   "text": "emboli mitigation strategy",
+   "href": "https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf"
+  },
+  {
+   "text": "Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-36-heart",
+  "section_title": "ITEM 36. Heart",
+  "pdf_pages": [
+   154,
+   156
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

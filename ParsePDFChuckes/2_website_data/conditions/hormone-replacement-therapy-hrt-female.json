@@ -1,0 +1,98 @@
+{
+ "id": "hormone-replacement-therapy-hrt-female",
+ "name": "Hormone Replacement Therapy (HRT) - Female",
+ "subtitle": null,
+ "name_in_guide": "HORMONE REPLACEMENT THERAPY (HRT) - Female",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 176,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "no side effects which would interfere with flight duties,",
+  "no history of VTE (PE/DVT)",
+  "no history or increased risk of stroke, severe migraine, or uncontrolled HTN",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and Plan;",
+  "Prognosis and Follow-up.",
+  "It must specifically include if any history of:",
+  "VTE (PE/DVT) or stroke.",
+  "Labs or imaging already performed or determined necessary by the treating provider."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Hormone replacement (e.g. estrogen, progesterone, or testosterone) near physiologic levels",
+   "condition_html": "<p>A.</p>\n<p>Hormone replacement</p>\n<p>(e.g. estrogen, progesterone, or testosterone)</p>\n<p>near physiologic levels</p>",
+   "evaluation_data": "If the AME can determine there are - no side effects which would interfere with flight duties, - no history of VTE (PE/DVT) - no history or increased risk of stroke, severe migraine, or uncontrolled HTN Note: if the AME determines the individual is at increased risk for VTE (e.g. hypercoagulable condition), go to row B.",
+   "evaluation_data_html": "<p>If the AME can determine there are</p>\n<ul><li>no side effects which would interfere with flight duties,</li><li>no history of VTE (PE/DVT)</li><li>no history or increased risk of stroke, severe migraine, or uncontrolled HTN</li></ul>\n<p>Note: if the AME determines the individual is at increased risk for VTE (e.g. hypercoagulable condition), go to row B.</p>",
+   "what_to_bring": [
+    "no side effects which would interfere with flight duties,",
+    "no history of VTE (PE/DVT)",
+    "no history or increased risk of stroke, severe migraine, or uncontrolled HTN"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize in Item 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Summarize in Item 60.</p>",
+   "pdf_page": 453,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others If history of VTE or stroke, see that page",
+   "condition_html": "<p>B. All others</p>\n<p>If history of VTE or stroke, see that page</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and Plan; - Prognosis and Follow-up. - 2. It must specifically include if any history of: - Hypercoagulable condition - VTE (PE/DVT) or stroke. - 3. Labs or imaging already performed or determined necessary by the treating provider.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the <strong>treating physician</strong> no more than 90 days prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and Plan;</li><li>Prognosis and Follow-up.</li></ul>\n<ul><li>2. It must specifically include if any history of:<ul><li>Hypercoagulable condition</li><li>VTE (PE/DVT) or stroke.</li></ul></li></ul>\n<ul><li>3. Labs or imaging already performed or determined necessary by the treating provider.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and Plan;",
+    "Prognosis and Follow-up.",
+    "It must specifically include if any history of:",
+    "VTE (PE/DVT) or stroke.",
+    "Labs or imaging already performed or determined necessary by the treating provider."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize elements or findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize elements or findings in Item 60.</p>",
+   "pdf_page": 453,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "breast-cancer",
+  "section_title": "BREAST CANCER",
+  "pdf_pages": [
+   453
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

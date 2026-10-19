@@ -1,0 +1,169 @@
+{
+ "id": "neuralgia",
+ "name": "Neuralgia",
+ "subtitle": "(Trigeminal Neuralgia, Post Herpetic Neuralgia)",
+ "name_in_guide": "NEURALGIA (Trigeminal Neuralgia, Post Herpetic Neuralgia)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 137,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Has fully resolved;",
+  "Medications have been discontinued; and",
+  "Individual has no symptoms that would interfere with flight or safety related duties:",
+  "Fully resolved 5 or more years ago;",
+  "Does not require any medication;",
+  "Was never treated with surgery; and",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include medications prescribed for this condition. Include start and stop dates; dosages, and side effects (if any).",
+  "Imaging performed at any time after symptoms started:",
+  "MRI brain",
+  "MRA head",
+  "Any other imaging (such as CT, MRI, CTA, MRA, or cerebral",
+  "catheter angiography/cath angio of the head) already performed.",
+  "Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "Row B evaluation data",
+  "Brain imaging performed AFTER the procedure.",
+  "Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition.",
+  "Admission History and Physical (H&P);",
+  "Emergency Medical Services (EMS)/ambulance run sheet (if applicable);",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Lab report(s) including all drug or alcohol testing performed;",
+  "Operative/procedure report(s);",
+  "Pathology report(s); and",
+  "Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed.",
+  "DO NOT submit miscellaneous hospital records such as",
+  "flowsheets, nursing notes, physician orders, or medication administration records.",
+  "For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "A1. Post Herpetic Neuralgia, Occipital Neuralgia Fully resolved AND off medications",
+   "condition_html": "<p><strong>A1. Post Herpetic Neuralgia, </strong></p>\n<p><strong>Occipital Neuralgia</strong></p>\n<p>Fully resolved</p>\n<p>AND</p>\n<p>off medications</p>",
+   "evaluation_data": "If the AME can determine that the Post herpetic or occipital neuralgia - Has fully resolved; - Medications have been discontinued; and - Individual has no symptoms that would interfere with flight or safety related duties:",
+   "evaluation_data_html": "<p>If the AME can determine that the</p>\n<p><strong>Post herpetic or occipital neuralgia </strong></p>\n<ul><li>Has fully resolved;</li><li>Medications have been discontinued; and</li><li>Individual has no symptoms that would interfere with flight or safety related duties:</li></ul>",
+   "what_to_bring": [
+    "Has fully resolved;",
+    "Medications have been discontinued; and",
+    "Individual has no symptoms that would interfere with flight or safety related duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If no AME explanation the individual may be asked to provide documentation.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>\n<p>If no AME explanation the individual may be asked to provide documentation.</p>",
+   "pdf_page": 342,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "A2. Trigeminal Neuralgia Symptom free and treatment completed 5 or more years ago AND did NOT require surgery, gamma knife, or other procedure",
+   "condition_html": "<p><strong>A2. Trigeminal Neuralgia</strong></p>\n<p>Symptom free and treatment completed</p>\n<p><strong>5 or more years ago</strong></p>\n<p><strong>AND</strong></p>\n<p>did <strong>NOT </strong>require surgery,</p>\n<p>gamma knife, or other procedure</p>",
+   "evaluation_data": "If the AME can determine that the Trigeminal Neuralgia - Fully resolved 5 or more years ago; - Does not require any medication; - Was never treated with surgery; and - Individual has no symptoms that would interfere with flight or safety related duties: If the AME is unable to determine the above, request a current, detailed Clinical Progress Note from the treating physician. If medications are currently used, the AME should check with the Do Not Issue - Do Not Fly list .",
+   "evaluation_data_html": "<p>If the AME can determine that the</p>\n<p><strong>Trigeminal Neuralgia</strong></p>\n<ul><li>Fully resolved 5 or more years ago;</li><li>Does not require any medication;</li><li>Was never treated with surgery; and</li><li>Individual has no symptoms that would interfere with flight or safety related duties:</li></ul>\n<p>If the AME is unable to determine the above, request a current, detailed Clinical Progress Note from the treating physician. If medications are currently used, the AME should check with the <a href=\"https://www.faa.gov/ame_guide/pharm/dni_dnf\" target=\"_blank\" rel=\"noopener\">Do Not Issue - Do Not Fly list</a> .</p>",
+   "what_to_bring": [
+    "Fully resolved 5 or more years ago;",
+    "Does not require any medication;",
+    "Was never treated with surgery; and",
+    "Individual has no symptoms that would interfere with flight or safety related duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If no AME explanation the individual may be asked to provide documentation.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>\n<p>If no AME explanation the individual may be asked to provide documentation.</p>",
+   "pdf_page": 342,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Trigeminal Neuralgia Symptomatic, unresolved OR requiring treatment within the past 5 years",
+   "condition_html": "<p><strong>B. Trigeminal Neuralgia</strong></p>\n<p>Symptomatic, unresolved</p>\n<p>OR</p>\n<p>requiring treatment <strong>within the past 5 years</strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include medications prescribed for this condition. Include start and stop dates; dosages, and side effects (if any). - 3. Imaging performed at any time after symptoms started: - MRI brain - MRA head - Any other imaging (such as CT, MRI, CTA, MRA, or cerebral - catheter angiography/cath angio of the head) already performed. - Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. Note: If due to Multiple Sclerosis or other condition - see that section.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation </strong>that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist <strong>no more than 90 days before </strong>the AME exam.</li></ul>\n<ul><li>2. <strong>It must specifically include </strong>medications prescribed for this condition. Include start and stop dates; dosages, and side effects (if any).</li><li>3. Imaging performed at any time after symptoms started:</li><li><strong>MRI brain </strong></li><li><strong>MRA head </strong></li><li><strong>Any other imaging </strong>(such as CT, MRI, CTA, MRA, or cerebral</li></ul>\n<ul><li>catheter angiography/cath angio of the head) already performed.</li></ul>\n<ul><li>Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<p><strong>Note:</strong> If due to Multiple Sclerosis or other condition - see that section.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include medications prescribed for this condition. Include start and stop dates; dosages, and side effects (if any).",
+    "Imaging performed at any time after symptoms started:",
+    "MRI brain",
+    "MRA head",
+    "Any other imaging (such as CT, MRI, CTA, MRA, or cerebral",
+    "catheter angiography/cath angio of the head) already performed.",
+    "Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 342,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Trigeminal Neuralgia Treated with surgery or gamma knife (ever)",
+   "condition_html": "<p><strong>C. Trigeminal Neuralgia</strong></p>\n<p>Treated with surgery or gamma knife (ever)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. Row B evaluation data - 2. Brain imaging performed AFTER the procedure. - 3. Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition. - Admission History and Physical (H&P); - Emergency Medical Services (EMS)/ambulance run sheet (if applicable); - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); - Lab report(s) including all drug or alcohol testing performed; - Operative/procedure report(s); - Pathology report(s); and - Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed. - DO NOT submit miscellaneous hospital records such as - flowsheets, nursing notes, physician orders, or medication administration records. - For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. Note: If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. Row B evaluation data</li></ul>\n<ul><li>2. Brain imaging performed AFTER the procedure.</li></ul>\n<ul><li>3. Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition.</li><li>Admission History and Physical (H&amp;P);</li><li>Emergency Medical Services (EMS)/ambulance run sheet (if applicable);</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Lab report(s) including all drug or alcohol testing performed;</li><li>Operative/procedure report(s);</li><li>Pathology report(s); and</li><li>Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed.</li><li>DO NOT submit miscellaneous hospital records such as</li></ul>\n<ul><li>flowsheets, nursing notes, physician orders, or medication administration records.</li><li>For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<p><strong>Note:</strong> If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA.</p>",
+   "what_to_bring": [
+    "Row B evaluation data",
+    "Brain imaging performed AFTER the procedure.",
+    "Hospital records. Include these specific hospital records for any hospitalization, surgery, or procedures related to this condition.",
+    "Admission History and Physical (H&P);",
+    "Emergency Medical Services (EMS)/ambulance run sheet (if applicable);",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Lab report(s) including all drug or alcohol testing performed;",
+    "Operative/procedure report(s);",
+    "Pathology report(s); and",
+    "Radiology reports. The interpretive report(s) of all diagnostic imaging (CT, MRI, X-ray, ultrasound, or others) performed.",
+    "DO NOT submit miscellaneous hospital records such as",
+    "flowsheets, nursing notes, physician orders, or medication administration records.",
+    "For all imaging, submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 342,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Do Not Issue - Do Not Fly list",
+   "href": "https://www.faa.gov/ame_guide/pharm/dni_dnf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   342
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

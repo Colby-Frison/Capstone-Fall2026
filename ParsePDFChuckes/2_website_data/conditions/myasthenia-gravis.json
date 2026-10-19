@@ -1,0 +1,101 @@
+{
+ "id": "myasthenia-gravis",
+ "name": "Myasthenia Gravis",
+ "subtitle": null,
+ "name_in_guide": "MYASTHENIA GRAVIS",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 134,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include : Medications prescribed for this condition including start and stop dates, dosages, and side effects (if any).",
+  "Any periods of weakness, motor fluctuations, or fatigability;",
+  "Any history of myasthenic crisis; and",
+  "Any evidence of ocular myasthenia . If yes, also address:",
+  "Any current finding of eye motility abnormality, symptoms of double vision; or",
+  "Any clinically significant ptosis.",
+  "Lab studies already performed.",
+  "CT Chest (performed at any time as a screening for Thymoma). Submit the report.",
+  "Previous Imaging (e.g., CT, MRI, CTA, MRA, or catheter angiography of the head) performed at any time after the symptoms occurred.*",
+  "Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail.",
+  "All items listed in Row A above.",
+  "If ocular status is not addressed, an evaluation from an ophthalmologist may be required."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Generalized Myasthenia Gravis",
+   "condition_html": "<p>A. <strong>Generalized</strong> Myasthenia Gravis</p>",
+   "evaluation_data": "Requires one (1)-year recovery period after diagnosis. After 1-year recovery, submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include: Medications prescribed for this condition including start and stop dates, dosages, and side effects (if any). - How long has the condition been stable; - Any periods of weakness, motor fluctuations, or fatigability; - Any history of myasthenic crisis; and - Any evidence of ocular myasthenia. If yes, also address: - Presence or absence of eye exam findings: - Any current finding of eye motility abnormality, symptoms of double vision; or - Any clinically significant ptosis. - 3. Lab studies already performed. - 4. CT Chest (performed at any time as a screening for Thymoma). Submit the report. - 5. Previous Imaging (e.g., CT, MRI, CTA, MRA, or catheter angiography of the head) performed at any time after the symptoms occurred.* - 6. Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail. Note: If associated with a seizure see that page. An additional recovery period may apply.",
+   "evaluation_data_html": "<p>Requires <strong>one (1)-year </strong>recovery period after diagnosis.</p>\n<p>After 1-year recovery, submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation </strong>that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> , generated from a clinic visit with the treating <strong>neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong>: Medications prescribed for this condition including start and stop dates, dosages, and side effects (if any).<ul><li>How long has the condition been stable;</li><li>Any periods of weakness, motor fluctuations, or fatigability;</li><li>Any history of myasthenic crisis; and</li><li>Any evidence of <strong>ocular myasthenia</strong>. If yes, also address:<ul><li>Presence or absence of eye exam findings:</li><li>Any current finding of eye motility abnormality, symptoms of double vision; or</li><li>Any clinically significant ptosis.</li></ul></li></ul></li></ul>\n<ul><li>3. Lab studies already performed.</li></ul>\n<ul><li>4. CT Chest (performed at any time as a screening for Thymoma). Submit the report.</li></ul>\n<ul><li>5. <strong>Previous Imaging </strong>(e.g., CT, MRI, CTA, MRA, or catheter angiography of the head) performed at any time after the symptoms occurred.*</li></ul>\n<ul><li>6. Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail.</li></ul>\n<p><strong>Note:</strong> If associated with a seizure see that page. An additional recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include : Medications prescribed for this condition including start and stop dates, dosages, and side effects (if any).",
+    "Any periods of weakness, motor fluctuations, or fatigability;",
+    "Any history of myasthenic crisis; and",
+    "Any evidence of ocular myasthenia . If yes, also address:",
+    "Any current finding of eye motility abnormality, symptoms of double vision; or",
+    "Any clinically significant ptosis.",
+    "Lab studies already performed.",
+    "CT Chest (performed at any time as a screening for Thymoma). Submit the report.",
+    "Previous Imaging (e.g., CT, MRI, CTA, MRA, or catheter angiography of the head) performed at any time after the symptoms occurred.*",
+    "Other testing already performed such as an Electromyogram (EMG) or nerve conduction studies. *For all imaging, submit BOTH the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 335,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Ocular Myasthenia Gravis",
+   "condition_html": "<p>B. <strong> Ocular</strong> Myasthenia Gravis</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. All items listed in Row A above. - 2. If ocular status is not addressed, an evaluation from an ophthalmologist may be required.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. All items listed in Row A above.</li><li>2. If ocular status is not addressed, an evaluation from an ophthalmologist may be required.</li></ul>",
+   "what_to_bring": [
+    "All items listed in Row A above.",
+    "If ocular status is not addressed, an evaluation from an ophthalmologist may be required."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 335,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   335
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

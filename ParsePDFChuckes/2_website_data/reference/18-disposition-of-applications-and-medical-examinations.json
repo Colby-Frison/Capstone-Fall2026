@@ -1,0 +1,23 @@
+{
+ "slug": "18-disposition-of-applications-and-medical-examinations",
+ "title": "18. Disposition of Applications and Medical Examinations",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  28
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 28,
+   "text": "All completed applications and medical examinations, unless otherwise directed by the FAA, must be transmitted electronically via AMCS within 14 days after completion to the AMCD. These requirements also apply to submissions by International AMEs.",
+   "html": "<p>All completed applications and medical examinations, unless otherwise directed by the FAA, must be transmitted electronically via AMCS within 14 days after completion to the AMCD. These requirements also apply to submissions by International AMEs.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "text": "A record of the examination is stored in AMCS, however, AMEs are encouraged to print a copy for their own files. While not required, the AME may also print a summary sheet for the applicant.",
+   "html": "<p>A record of the examination is stored in AMCS, however, AMEs are encouraged to print a copy for their own files. While not required, the AME may also print a summary sheet for the applicant.</p>"
+  }
+ ]
+}

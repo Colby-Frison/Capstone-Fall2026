@@ -1,0 +1,112 @@
+{
+ "id": "eosinophilic-esophagitis",
+ "name": "Eosinophilic Esophagitis",
+ "subtitle": null,
+ "name_in_guide": "Eosinophilic Esophagitis",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 76,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the Gastroenterologist (GI) no more than 90 days prior to the AME exam. It must include:",
+  "It must specifically include if any history of:",
+  "complications such as food impaction,",
+  "need for endoscopic dilation",
+  "Copies of most recent endoscopy and pathology reports.",
+  "Labs or imaging already performed or determined necessary by the treating provider."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "In clinical AND histologic remission AND Treated with medication",
+   "condition_html": "<p>A.</p>\n<p>In clinical AND histologic remission</p>\n<p>AND</p>\n<p>Treated with medication</p>",
+   "evaluation_data": "See the CACI (name here) Worksheet. (Link to the CACI worksheets.) This will require a detailed Clinical Progress Note",
+   "evaluation_data_html": "<p>See the CACI (name here) Worksheet. (Link to the CACI worksheets.)</p>\n<p>This will require a detailed Clinical Progress Note</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE If the pilot meets all CACI worksheet criteria and is otherwise qualified, with no time limitation. Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified,</p>\n<p>with no time limitation.</p>\n<p>Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.</p>",
+   "pdf_page": 213,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others - History of food impaction within the past year; - Symptomatic; - Not adequately treated; - Fibrostenotic disease",
+   "condition_html": "<p>B. All others</p>\n<ul><li>History of food impaction within the past year;</li></ul>\n<ul><li>Symptomatic;</li></ul>\n<ul><li>Not adequately treated;</li></ul>\n<ul><li>Fibrostenotic disease</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the Gastroenterologist (GI) no more than 90 days prior to the AME exam. It must include: It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include if any history of: - complications such as food impaction, - need for endoscopic dilation - 3. Copies of most recent endoscopy and pathology reports. - 4. Labs or imaging already performed or determined necessary by the treating provider.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the <strong>Gastroenterologist (GI)</strong> no more than 90 days prior to the AME exam. It must include:</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li>2. It must specifically include if any history of:</li><li>complications such as food impaction,</li><li>need for endoscopic dilation</li></ul>\n<ul><li>3. Copies of most recent endoscopy and pathology reports.</li></ul>\n<ul><li>4. Labs or imaging already performed or determined necessary by the treating provider.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the Gastroenterologist (GI) no more than 90 days prior to the AME exam. It must include:",
+    "It must specifically include if any history of:",
+    "complications such as food impaction,",
+    "need for endoscopic dilation",
+    "Copies of most recent endoscopy and pathology reports.",
+    "Labs or imaging already performed or determined necessary by the treating provider."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize elements or findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize elements or findings in Item 60.</p>",
+   "pdf_page": 213,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Eosinophilic Esophagitis",
+   "updated": "04/29/2026",
+   "criteria": [
+    {
+     "ame_must_review": "Treating physician finds the individual is compliant with treatment, condition is well-controlled, and no medication side-effects.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Documentation of the most recent endoscopy with biopsy, performed within a timeframe consistent with the treating gastroenterologist’s recommended surveillance interval, shows: Evidence of histologic remission (less than 15 eos/hpf) and no evidence of fibrostenotic disease, (no esophageal rings, no strictures, and no narrow-caliber esophagus.)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "NO history of food impaction: - In the last 12 months OR - While on treatment",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Treated with one or more of the following: - Proton pump inhibitor - Topical or oral steroids that do not exceed 20 mg prednisone per day - dupilumab (Dupixent) (requires 4-hour post dose observation/no-fly)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Eosinophilic Esophagitis.",
+    "Has current OR previous SI/AASI but now CACI qualified Eosinophilic Esophagitis.",
+    "NOT CACI qualified Eosinophilic Esophagitis. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 04/29/2026)</p>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "eosinophilic-esophagitis",
+  "section_title": "Eosinophilic Esophagitis",
+  "pdf_pages": [
+   213,
+   214
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

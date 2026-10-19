@@ -1,0 +1,108 @@
+{
+ "id": "disease-of-the-lungs-pleura-or-mediastinum",
+ "name": "Disease of the Lungs, Pleura, or Mediastinum",
+ "subtitle": null,
+ "name_in_guide": "DISEASE OF THE LUNGS, PLEURA, OR MEDIASTINUM",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "9/24/2025",
+ "order": 40,
+ "decisions": [
+  "faa_decision",
+  "see_reference"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Abscesses Active Mycotic disease Active Tuberculosis",
+   "condition_html": "<p>Abscesses</p>\n<p>Active Mycotic disease</p>\n<p>Active Tuberculosis</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 137,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Fistula, Bronchopleural, to include Thoracostomy",
+   "condition_html": "<p>Fistula, Bronchopleural, to include Thoracostomy</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 137,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Lobectomy",
+   "condition_html": "<p>Lobectomy</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 137,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Pulmonary Embolism",
+   "condition_html": "<p>Pulmonary Embolism</p>",
+   "evaluation_data": "See Thromboembolic Disease Protocol",
+   "evaluation_data_html": "<p>See Thromboembolic Disease Protocol</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "see_reference"
+   ],
+   "disposition": "See Thromboembolic Disease Protocol",
+   "disposition_html": "<p>See Thromboembolic Disease Protocol</p>",
+   "pdf_page": 137,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Abscesses Active Mycotic disease Active Tuberculosis",
+  "Fistula, Bronchopleural, to include Thoracostomy",
+  "Lobectomy",
+  "Pulmonary Embolism"
+ ],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   137
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

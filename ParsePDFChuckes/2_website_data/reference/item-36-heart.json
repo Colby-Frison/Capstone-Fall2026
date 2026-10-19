@@ -1,0 +1,308 @@
+{
+ "slug": "item-36-heart",
+ "title": "ITEM 36. Heart",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 146,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "36. Heart (Precordial activity, rhythm, sounds, and murmurs)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>36. Heart (Precordial activity, rhythm, sounds, and murmurs)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "I. Code of Federal Regulations:",
+   "html": "<p><strong>I. Code of Federal Regulations: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "First-Class: 14 CFR 67.111(a)(b)(c)",
+   "html": "<p><strong>First-Class: 14 CFR 67.111(a)(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "Cardiovascular standards for first-class airman medical certificate are:",
+   "html": "<p>Cardiovascular standards for first-class airman medical certificate are:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(a) No established medical history or clinical diagnosis of any of the following:",
+   "html": "<p>(a) No established medical history or clinical diagnosis of any of the following:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(1) Myocardial infarction",
+   "html": "<p>(1) Myocardial infarction</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(2) Angina pectoris",
+   "html": "<p>(2) Angina pectoris</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(3) Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant",
+   "html": "<p>(3) Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(4) Cardiac valve replacement",
+   "html": "<p>(4) Cardiac valve replacement</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(5) Permanent cardiac pacemaker implantation; or",
+   "html": "<p>(5) Permanent cardiac pacemaker implantation; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(6) Heart replacement",
+   "html": "<p>(6) Heart replacement</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(b) A person applying for first-class airman medical certification must demonstrate an absence of myocardial infarction and other clinically significant abnormality on electrocardiographic examination:",
+   "html": "<p>(b) A person applying for first-class airman medical certification must demonstrate an absence of myocardial infarction and other clinically significant abnormality on electrocardiographic examination:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(1) At the first application after reaching the 35th birthday; and",
+   "html": "<p>(1) At the first application after reaching the 35th birthday; and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(2) On an annual basis after reaching the 40th birthday",
+   "html": "<p>(2) On an annual basis after reaching the 40th birthday</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "(c) An electrocardiogram will satisfy a requirement of paragraph (b) of this",
+   "html": "<p>(c) An electrocardiogram will satisfy a requirement of paragraph (b) of this</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 146,
+   "text": "section if it is dated no earlier than 60 days before the date of the application it is to accompany and was performed and transmitted according to acceptable standards and techniques.",
+   "html": "<p>section if it is dated no earlier than 60 days before the date of the application it is to accompany and was performed and transmitted according to acceptable standards and techniques.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "Second- and Third-Class: 14 CFR 67.211(a)(b)(c)(d)(e)(f) and 67.311(a)(b)(c)(d)(e)(f)",
+   "html": "<p><strong>Second- and Third-Class: 14 CFR 67.211(a)(b)(c)(d)(e)(f) and 67.311(a)(b)(c)(d)(e)(f) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "Cardiovascular standards for a second- and third-class airman medical certificate are no established medical history or clinical diagnosis of any of the following:",
+   "html": "<p>Cardiovascular standards for a second- and third-class airman medical certificate are no established medical history or clinical diagnosis of any of the following:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(a) Myocardial infarction",
+   "html": "<p>(a) Myocardial infarction</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(b) Angina pectoris",
+   "html": "<p>(b) Angina pectoris</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(c) Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant",
+   "html": "<p>(c) Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(d) Cardiac valve replacement",
+   "html": "<p>(d) Cardiac valve replacement</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(e) Permanent cardiac pacemaker implantation; or",
+   "html": "<p>(e) Permanent cardiac pacemaker implantation; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "(f) Heart replacement",
+   "html": "<p>(f) Heart replacement</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 147,
+   "text": "A. General Physical Examination. (Updated 06/24/2026)",
+   "html": "<p>A. General Physical Examination. (Updated 06/24/2026)</p>"
+  },
+  {
+   "type": "list",
+   "page": 147,
+   "text": "- 1. A brief description of any comment-worthy personal characteristics as well as height, weight, representative blood pressure readings in both arms, funduscopic examination, condition of peripheral arteries, carotid artery auscultation, heart size, heart rate, heart rhythm, description of murmurs (location, intensity, timing, and opinion as to significance), and other findings of consequence must be provided.",
+   "html": "<ul><li>1. A brief description of any comment-worthy personal characteristics as well as height, weight, representative blood pressure readings in both arms, funduscopic examination, condition of peripheral arteries, carotid artery auscultation, heart size, heart rate, heart rhythm, description of murmurs (location, intensity, timing, and opinion as to significance), and other findings of consequence must be provided.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 147,
+   "text": "- 2. The AME should keep in mind some of the special cardiopulmonary demands of flight, such as changes in heart rates at takeoff and landing. High G-forces of aerobatics or agricultural flying may stress both systems considerably. Degenerative changes are often insidious and may produce subtle performance decrements that may require special investigative techniques. - a. Inspection. Observe and report any thoracic deformity (e.g., pectus excavatum), signs of surgery or other trauma, and clues to ventricular hypertrophy. Check the hematopoietic and vascular system by observing for pallor, edema, varicosities, stasis ulcers, and venous distention. Check the nail beds for capillary pulsation and color. - b. Palpation. Check for thrills and the vascular system for arteriosclerotic changes, shunts, or AV anastomoses. The pulses should be examined to determine their character, to note if they are diminished or absent, and to observe for synchronicity. The medical standards do not specify pulse rates that, per se, are disqualifying for medical certification. These tests are used, however, to determine the status and responsiveness of the cardiovascular system. Abnormal pulse rates may be reason to conduct additional cardiovascular system evaluations.",
+   "html": "<ul><li><p>2. The AME should keep in mind some of the special cardiopulmonary demands of flight, such as changes in heart rates at takeoff and landing. High G-forces of aerobatics or agricultural flying may stress both systems considerably. Degenerative changes are often insidious and may produce subtle performance decrements that may require special investigative techniques.</p>\n<ul><li>a. Inspection. Observe and report any thoracic deformity (e.g., pectus excavatum), signs of surgery or other trauma, and clues to ventricular hypertrophy. Check the hematopoietic and vascular system by observing for pallor, edema, varicosities, stasis ulcers, and venous distention. Check the nail beds for capillary pulsation and color.</li><li>b. Palpation. Check for thrills and the vascular system for arteriosclerotic changes, shunts, or AV anastomoses. The pulses should be examined to determine their character, to note if they are diminished or absent, and to observe for synchronicity. The medical standards do not specify pulse rates that, per se, are disqualifying for medical certification. These tests are used, however, to determine the status and responsiveness of the cardiovascular system. Abnormal pulse rates may be reason to conduct additional cardiovascular system evaluations.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 148,
+   "text": "- - - i. Bradycardia of less than 50 beats per minute, any episode of tachycardia during the course of the examination, and any other irregularities of pulse other than an occasional ectopic beat or sinus arrhythmia must be noted and reported. If there is bradycardia, tachycardia, or arrhythmia further evaluation may be warranted and deferral may be indicated.\n- ii. A cardiac evaluation may be needed to determine the applicant's qualifications. Temporary stresses or fever may, at times, result in abnormal results from these tests. If the AME believes this to be the case, the applicant should be given a few days to recover and then be retested. If this is not possible, the AME should defer issuance, pending further evaluation.\n- c. Percussion. Determine heart size, diaphragmatic elevation/excursion, abnormal densities in the pulmonary fields, and mediastinal shift.\n- d. Auscultation. Check for resonance, asthmatic wheezing, ronchi, rales, cavernous breathing of emphysema, pulmonary or pericardial friction rubs, quality of the heart sounds, murmurs, heart rate, and rhythm. If a murmur is discovered during the course of conducting a routine FAA examination, see the Heart Murmur Disposition Table .",
+   "html": "<ul><li><ul><li><ul><li>i. Bradycardia of less than 50 beats per minute, any episode of tachycardia during the course of the examination, and any other irregularities of pulse other than an occasional ectopic beat or sinus arrhythmia must be noted and reported. If there is bradycardia, tachycardia, or arrhythmia further evaluation may be warranted and deferral may be indicated.</li><li>ii. A cardiac evaluation may be needed to determine the applicant&#x27;s qualifications. Temporary stresses or fever may, at times, result in abnormal results from these tests. If the AME believes this to be the case, the applicant should be given a few days to recover and then be retested. If this is not possible, the AME should defer issuance, pending further evaluation.</li></ul></li><li>c. Percussion. Determine heart size, diaphragmatic elevation/excursion, abnormal densities in the pulmonary fields, and mediastinal shift.</li><li>d. Auscultation. Check for resonance, asthmatic wheezing, ronchi, rales, cavernous breathing of emphysema, pulmonary or pericardial friction rubs, quality of the heart sounds, murmurs, heart rate, and rhythm. If a murmur is discovered during the course of conducting a routine FAA examination, see the <a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Heart_Murmur.pdf\" target=\"_blank\" rel=\"noopener\">Heart Murmur Disposition Table</a> .</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "text": "It is recommended that the AME conduct the auscultation of the heart with the applicant both in a sitting and in a recumbent position. Aside from murmur, irregular rhythm, and enlargement, the AME should be careful to observe for specific signs that are pathognomonic for specific disease entities or for serious generalized heart disease. Examples of such evidence are: (1) the opening snap at the apex or fourth left intercostal space signifying mitral stenosis; (2) gallop rhythm indicating serious impairment of cardiac function; and (3) the middiastolic rumble of mitral stenosis.",
+   "html": "<p>It is recommended that the AME conduct the auscultation of the heart with the applicant both in a sitting and in a recumbent position. Aside from murmur, irregular rhythm, and enlargement, the AME should be careful to observe for specific signs that are pathognomonic for specific disease entities or for serious generalized heart disease. Examples of such evidence are: (1) the opening snap at the apex or fourth left intercostal space signifying mitral stenosis; (2) gallop rhythm indicating serious impairment of cardiac function; and (3) the middiastolic rumble of mitral stenosis.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "text": "B. When General Examinations Reveal Heart Problems.",
+   "html": "<p>B. When General Examinations Reveal Heart Problems.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "text": "These specifications have been developed by the FAA to determine an applicant’s eligibility for airman medical certification. Standardization of examination methods and reporting is essential to provide sufficient basis for making determinations and the prompt processing of applications.",
+   "html": "<p>These specifications have been developed by the FAA to determine an applicant’s eligibility for airman medical certification. Standardization of examination methods and reporting is essential to provide sufficient basis for making determinations and the prompt processing of applications.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "text": "1. This cardiovascular evaluation (CVE), therefore, must be reported in sufficient detail to permit a clear and objective evaluation of the cardiovascular disorder(s) with emphasis on the degree of functional recovery and prognosis. It should be forwarded to the FAA immediately upon completion. Inadequate evaluation, reporting, or failure to promptly submit the report to the FAA may delay the certification decision.",
+   "html": "<p>1. This cardiovascular evaluation (CVE), therefore, must be reported in sufficient detail to permit a clear and objective evaluation of the cardiovascular disorder(s) with emphasis on the degree of functional recovery and prognosis. It should be forwarded to the FAA immediately upon completion. Inadequate evaluation, reporting, or failure to promptly submit the report to the FAA may delay the certification decision.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 148,
+   "text": "a. Medical History. Particular reference should be given to cardiovascular abnormalities cerebral, visceral, and/or peripheral. A statement must be included as to whether medications are currently or have been recently used, and if so, the type, purpose,",
+   "html": "<p>a. Medical History. Particular reference should be given to cardiovascular abnormalities cerebral, visceral, and/or peripheral. A statement must be included as to whether medications are currently or have been recently used, and if so, the type, purpose,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "dosage, duration of use, and other pertinent details must be provided. A specific history of any anticoagulant drug therapy is required. In addition, any history of hypertension must be fully developed to also include all medications used, dosages, and comments on side effects.",
+   "html": "<p>dosage, duration of use, and other pertinent details must be provided. A specific history of any anticoagulant drug therapy is required. In addition, any history of hypertension must be fully developed to also include all medications used, dosages, and comments on side effects.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "b. Family, Personal, and Social History. A statement of the ages and health status of parents and siblings is required; if deceased, cause and age at death should be included. Also, any indication of whether any near blood relative has had a “heart attack,” hypertension, diabetes, or known disorder of lipid metabolism must be provided. Smoking, drinking, and recreational habits of the applicant are pertinent as well as whether a program of physical fitness is being maintained. Comments on the level of physical activities, functional limitations, occupational, and avocational pursuits are essential.",
+   "html": "<p>b. Family, Personal, and Social History. A statement of the ages and health status of parents and siblings is required; if deceased, cause and age at death should be included. Also, any indication of whether any near blood relative has had a “heart attack,” hypertension, diabetes, or known disorder of lipid metabolism must be provided. Smoking, drinking, and recreational habits of the applicant are pertinent as well as whether a program of physical fitness is being maintained. Comments on the level of physical activities, functional limitations, occupational, and avocational pursuits are essential.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "c. Records of Previous Medical Care. If not previously furnished to the FAA, a copy of pertinent hospital records as well as out-patient treatment records with clinical data, x-ray, laboratory observations, and originals or copies of all electrocardiographic (ECG) tracings should be provided. Detailed reports of surgical procedures as well as cerebral and coronary arteriography and other major diagnostic studies are of prime importance.",
+   "html": "<p>c. Records of Previous Medical Care. If not previously furnished to the FAA, a copy of pertinent hospital records as well as out-patient treatment records with clinical data, x-ray, laboratory observations, and originals or copies of all electrocardiographic (ECG) tracings should be provided. Detailed reports of surgical procedures as well as cerebral and coronary arteriography and other major diagnostic studies are of prime importance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "d. Surgery. The presence of an aneurysm or obstruction of a major vessel of the body is disqualifying for medical certification of any class. Following successful surgical intervention and correction, the applicant may ask for FAA consideration. The FAA recommends that the applicant recover for at least 3 months for ATCS’s and 6 months for airmen.",
+   "html": "<p>d. Surgery. The presence of an aneurysm or obstruction of a major vessel of the body is disqualifying for medical certification of any class. Following successful surgical intervention and correction, the applicant may ask for FAA consideration. The FAA recommends that the applicant recover for at least 3 months for ATCS’s and 6 months for airmen.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "A history of coronary artery bypass surgery is disqualifying for certification. Such surgery does not negate a past history of coronary heart disease. The presence of permanent cardiac pacemakers and artificial heart valves is also disqualifying for certification.",
+   "html": "<p>A history of coronary artery bypass surgery is disqualifying for certification. Such surgery does not negate a past history of coronary heart disease. The presence of permanent cardiac pacemakers and artificial heart valves is also disqualifying for certification.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "The FAA will consider an Authorization for a Special Issuance of a Medical Certificate (Authorization) for most cardiac conditions. Applicants seeking further FAA consideration should be prepared to submit all past records and a report of a complete current cardiovascular evaluation (CVE) in accordance with FAA specifications.",
+   "html": "<p>The FAA will consider an Authorization for a Special Issuance of a Medical Certificate (Authorization) for most cardiac conditions. Applicants seeking further FAA consideration should be prepared to submit all past records and a report of a complete current cardiovascular evaluation (CVE) in accordance with FAA specifications.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "C. Medication",
+   "html": "<p>C. Medication</p>"
+  },
+  {
+   "type": "list",
+   "page": 149,
+   "text": "- Medications acceptable to the FAA for treatment of hypertension can be found in Pharmaceuticals (Therapeutic Medications) Antihypertensive\n- Medication NOT ACCEPTABLE to the FAA can be found on the Do Not Issue/Do Not Fly",
+   "html": "<ul><li>Medications acceptable to the FAA for treatment of hypertension can be found in <a href=\"https://www.faa.gov/ame_guide/pharm/antihyp\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals (Therapeutic Medications) Antihypertensive</a></li><li><strong>Medication NOT ACCEPTABLE</strong> to the FAA can be found on <a href=\"https://www.faa.gov/ame_guide/media/DNI_DNF_tables.pdf\" target=\"_blank\" rel=\"noopener\">the Do Not Issue/Do Not Fly</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 149,
+   "text": "The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in",
+   "html": "<p>The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 150,
+   "text": "the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.",
+   "html": "<p>the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.</p>"
+  }
+ ]
+}

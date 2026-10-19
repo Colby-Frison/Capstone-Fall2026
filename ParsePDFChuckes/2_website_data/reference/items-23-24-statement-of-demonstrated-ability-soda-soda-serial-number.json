@@ -1,0 +1,72 @@
+{
+ "slug": "items-23-24-statement-of-demonstrated-ability-soda-soda-serial-number",
+ "title": "ITEMS 23-24. Statement of Demonstrated Ability (SODA); SODA Serial Number",
+ "group": "ITEMS 21-22. Height and Weight",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  56,
+  57
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "23. Statement of Demonstrated Ability (SODA)",
+   "html": "<p>23. Statement of Demonstrated Ability (SODA)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "Yes No Defect Noted:",
+   "html": "<p>Yes No Defect Noted:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "ITEM 23. Has a SODA ever been issued?",
+   "html": "<p><strong>ITEM 23. Has a SODA ever been issued? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "Ask the applicant if a SODA has ever been issued. If the answer is \"yes,\" ask the applicant to show you the document. Then check the \"yes\" block and record the nature and degree of the defect.",
+   "html": "<p>Ask the applicant if a SODA has ever been issued. If the answer is &quot;yes,&quot; ask the applicant to show you the document. Then check the &quot;yes&quot; block and record the nature and degree of the defect.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "SODA's are valid for an indefinite period or until an adverse change occurs that results in a level of defect worse than that stated on the face of the document.",
+   "html": "<p>SODA&#x27;s are valid for an indefinite period or until an adverse change occurs that results in a level of defect worse than that stated on the face of the document.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "The FAA issues SODA's for certain static defects, but not for disqualifying conditions or conditions that may be progressive. The extent of the functional loss that has been cleared by the FAA is stated on the face of the SODA. If the AME finds the condition has become worse, a medical certificate should not be issued even if the applicant is otherwise qualified. The AME should also defer issuance if it is unclear whether the applicant's present status represents an adverse change.",
+   "html": "<p>The FAA issues SODA&#x27;s for certain static defects, but not for disqualifying conditions or conditions that may be progressive. The extent of the functional loss that has been cleared by the FAA is stated on the face of the SODA. If the AME finds the condition has become worse, a medical certificate should not be issued even if the applicant is otherwise qualified. The AME should also defer issuance if it is unclear whether the applicant&#x27;s present status represents an adverse change.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "The AME must take special care not to issue a medical certificate of a higher class than that specified on the face of the SODA even if the applicant appears to be otherwise medically qualified. The AME may note in Item 60 the applicant's desire for a higher class.",
+   "html": "<p>The AME must take special care not to issue a medical certificate of a higher class than that specified on the face of the SODA even if the applicant appears to be otherwise medically qualified. The AME may note in <strong>Item 60</strong> the applicant&#x27;s desire for a higher class.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "ITEM 24. SODA Serial Number",
+   "html": "<p><strong>ITEM 24. SODA Serial Number </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "24. SODA Serial Number",
+   "html": "<p>24. SODA Serial Number</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 57,
+   "text": "Enter the assigned serial number in the space provided.",
+   "html": "<p>Enter the assigned serial number in the space provided.</p>"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "id": "polycystic-kidney-disease",
+ "name": "Polycystic Kidney Disease",
+ "subtitle": null,
+ "name_in_guide": "POLYCYSTIC KIDNEY DISEASE",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2020",
+ "order": 98,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing:",
+  "Treatment plan and prognosis; and",
+  "If airman has hypertension, the physician should comment if it is controlled.",
+  "Medication list and side effects (if any);",
+  "Lab (recent) to include at a minimum:",
+  "Spot urine protein/creatinine ratio",
+  "Imaging to include:",
+  "Current transthoracic echocardiogram .",
+  "Medication list and side effects if any;"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Autosomal Dominant (AD-PKD)",
+   "condition_html": "<p><strong>A. Autosomal Dominant </strong></p>\n<p>(AD-PKD)</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - A current, detailed Clinical Progress Note generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing: - History, diagnosis, physical exam; - Treatment plan and prognosis; and - If airman has hypertension, the physician should comment if it is controlled. - Medication list and side effects (if any); - Lab (recent) to include at a minimum: Serum creatinine; - - o eGFR; and - Spot urine protein/creatinine ratio - Imaging to include: - Brain MRA (preferred) or CTA (if MRI contraindications) for aneurysm; and - Current transthoracic echocardiogram.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li><p> A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing:</p>\n<ul><li>History, diagnosis, physical exam;</li><li>Treatment plan and prognosis; and</li><li>If airman has hypertension, the physician should comment if it is controlled.</li></ul></li><li> <strong>Medication list</strong> and side effects (if any);</li><li> <strong>Lab</strong> (recent) to include at a minimum:</li></ul>\n<p>Serum creatinine;</p>\n<ul><li><ul><li>o eGFR; and</li><li>Spot urine protein/creatinine ratio</li></ul></li><li> <strong>Imaging</strong> to include:<ul><li>o <strong>Brain MRA</strong> (preferred) or CTA (if MRI contraindications) for aneurysm; and</li><li>o <strong>Current transthoracic echocardiogram</strong>.</li></ul></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing:",
+    "Treatment plan and prognosis; and",
+    "If airman has hypertension, the physician should comment if it is controlled.",
+    "Medication list and side effects (if any);",
+    "Lab (recent) to include at a minimum:",
+    "Spot urine protein/creatinine ratio",
+    "Imaging to include:",
+    "Current transthoracic echocardiogram ."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 260,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Autosomal recessive (AR-PKD)",
+   "condition_html": "<p><strong>B. Autosomal recessive</strong></p>\n<p>(AR-PKD)</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - A current, detailed Clinical Progress Note generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing: - History, diagnosis, physical exam; - Treatment plan and prognosis; and - If airman has hypertension, the physician should comment if it is controlled. - Medication list and side effects if any;",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing:<ul><li>History, diagnosis, physical exam;</li><li>Treatment plan and prognosis; and</li><li>If airman has hypertension, the physician should comment if it is controlled.</li></ul></li><li> <strong>Medication list</strong> and side effects if any;</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Nephrologist no more than 90 days before the AME exam, detailing:",
+    "Treatment plan and prognosis; and",
+    "If airman has hypertension, the physician should comment if it is controlled.",
+    "Medication list and side effects if any;"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter. - Lab (recent) to include at a minimum: - Serum creatinine; - o eGFR; and - o spot urine protein/creatinine ratio - Gastroenterologist current evaluation detailing: - History, diagnosis, physical exam; - Current status; - Treatment plan and prognosis; - Abdominal ultrasound; and Liver function testing plus any additional testing deemed clinically indicated.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>\n<ul><li> <strong>Lab</strong> (recent) to include at a minimum:<ul><li>Serum creatinine;</li><li>o eGFR; and</li><li>o spot urine protein/creatinine ratio</li></ul></li><li> <strong>Gastroenterologist current evaluation</strong> detailing:<ul><li>History, diagnosis, physical exam;</li><li>Current status;</li><li>Treatment plan and prognosis;</li><li>Abdominal ultrasound; and</li></ul></li></ul>\n<p>Liver function testing plus any additional testing deemed clinically indicated.</p>",
+   "pdf_page": 260,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   260
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "slug": "over-the-counter-otc-medications-reference-guide",
+ "title": "OVER-THE-COUNTER (OTC) MEDICATIONS REFERENCE GUIDE",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  664,
+  665,
+  666,
+  667,
+  668,
+  669,
+  670,
+  671
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "What OTC Medications Can I Take and Still Be Safe to Fly?",
+   "html": "<p><strong>What OTC Medications Can I Take and Still Be Safe to Fly? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "(Updated 08-28-2024)",
+   "html": "<p>(Updated 08-28-2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "1. First, ask yourself “Do I have an underlying condition that makes me unsafe to fly?”",
+   "html": "<p><strong>1. First, ask yourself “Do I have an underlying condition that makes me unsafe to fly?”</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "Title 14 CFR 61.53 is the regulation, which prohibits fight with a known medical deficiency (unless cleared by the FAA) and requires that you determine that you are ft to fly prior to each fight.",
+   "html": "<p>Title 14 CFR 61.53 is the regulation, which prohibits fight with a known medical deficiency (unless cleared by the FAA) and requires that you determine that you are ft to fly prior to each fight.</p>"
+  },
+  {
+   "type": "list",
+   "page": 664,
+   "text": "- Am I sick?\n- Am I having trouble clearing my ears at ground level?\n- Do I feel bad enough that I keep thinking about how I feel?\n- Are others asking me if I am ok?\n- Do I feel good enough to fly ONLY if I take medication?\n- Am I getting worse?",
+   "html": "<ul><li> Am I sick?</li><li>Am I having trouble clearing my ears at ground level?</li><li>Do I feel bad enough that I keep thinking about how I feel?</li><li>Are others asking me if I am ok?</li><li>Do I feel good enough to fly ONLY if I take medication?</li><li>Am I getting worse?</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "2. Next, consider these issues before operating an aircraft:",
+   "html": "<p><strong>2. Next, consider these issues before operating an aircraft: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 664,
+   "text": "- In the last few days, have you taken, or do you plan to take any medications before flying?\n- If currently taking a medication only for symptom relief, would you be safe to fly without it?\n- Do you have any other underlying health conditions?\n- Discuss these conditions with your AME or family physician to determine if you are safe to fly.\n- Specifically ask about your ability “to operate machinery” (including any aircraft).\n- Discuss if the medication, OTC or otherwise, will pose a problem with the underlying condition or other health conditions and/or other medications that you are taking.",
+   "html": "<ul><li> In the last few days, have you taken, or do you plan to take any medications before flying?</li><li> If currently taking a medication only for symptom relief, would you be safe to fly without it?</li><li> Do you have any other underlying health conditions?</li><li>Discuss these conditions with your AME or family physician to determine if you are safe to fly.</li><li>Specifically ask about your ability “to operate machinery” (including any aircraft).</li><li>Discuss if the medication, OTC or otherwise, will pose a problem with the underlying condition or other health conditions and/or other medications that you are taking.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "3. When choosing an OTC Medication, follow these steps:",
+   "html": "<p><strong>3. When choosing an OTC Medication, follow these steps: </strong></p>"
+  },
+  {
+   "type": "figure",
+   "page": 664,
+   "text": "㉐㠷〲礣卉1",
+   "html": "<figure><img src=\"images/p664_fig1.png\" alt=\"㉐㠷〲礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "!! IMPORTANT !!",
+   "html": "<p><strong>!! IMPORTANT !! </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL",
+   "html": "<p><strong>NEVER FLY AFTER TAKING A NEW MEDICATION FOR THE FIRST TIME UNTIL </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED.",
+   "html": "<p><strong>AT LEAST 48 HOURS HAVE PASSED AND NO SIDE EFFECTS ARE NOTED. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 664,
+   "text": "664",
+   "html": "<p>664</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "4. NO GO Medications:",
+   "html": "<p><strong>4. NO GO Medications: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "If you take any of the NO GO medications listed in the OTC Medications Reference Table OR if you have previously had side effects from the medication, wait at least five (5) dosage intervals after the last dose before flying. See examples on the following page of dosage interval wait time for the recommended grounding period after discontinuation of the medication.",
+   "html": "<p>If you take any of the NO GO medications listed in the OTC Medications Reference Table OR if you have previously had side effects from the medication, <strong>wait at least five (5) dosage intervals after the last dose before flying</strong>. See examples on the following page of dosage interval wait time for the recommended grounding period after discontinuation of the medication.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "Dosage Interval Wait Time",
+   "html": "<p><strong>Dosage Interval Wait Time </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 665,
+   "header": [
+    "PACKAGE INSTRUCTIONS",
+    "5 TIMES DOSAGE INTERVAL",
+    "NO FLY TIME",
+    "RECOMMENDATION"
+   ],
+   "rows": [
+    [
+     "Every 4-6 hours^ (Up to 6 times daily)",
+     "x 5",
+     "30 hours",
+     "Wait at least 30 hours before flying if taking a medication directed to take every 4-6 hours."
+    ],
+    [
+     "Every 8 hours (OR three times daily)",
+     "x 5",
+     "40 hours",
+     "Wait at least 40 hours before flying if taking a medication directed to take every 8 hours."
+    ],
+    [
+     "Every 12 hours (OR twice daily)",
+     "x 5",
+     "60 hours",
+     "Wait at least 60 hours before flying if taking a medication directed to take every 12 hours."
+    ]
+   ],
+   "html": "<table><thead><tr><th>PACKAGE INSTRUCTIONS</th><th>5 TIMES DOSAGE INTERVAL</th><th>NO FLY TIME</th><th>RECOMMENDATION</th></tr></thead><tbody><tr><td><p>Every 4-6 hours^</p>\n<p>(Up to 6 times daily)</p></td><td><p>x 5</p></td><td><p>30 hours</p></td><td><p>Wait at least 30 hours before flying if taking a medication directed to take every 4-6 hours.</p></td></tr><tr><td><p>Every 8 hours</p>\n<p>(OR three times daily)</p></td><td><p>x 5</p></td><td><p>40 hours</p></td><td><p>Wait at least 40 hours before flying if taking a medication directed to take every 8 hours.</p></td></tr><tr><td><p>Every 12 hours</p>\n<p>(OR twice daily)</p></td><td><p>x 5</p></td><td><p>60 hours</p></td><td><p>Wait at least 60 hours before flying if taking a medication directed to take every 12 hours.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "^If there is a range, use the higher number",
+   "html": "<p>^If there is a range, use the higher number</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "Caution: Sedating antihistamine medications have a long half-life so wait time is 60 hours for both diphenhydramine (Benadryl) and doxylamine (Unisom), 5 days for both chlorpheniramine and clemastine.",
+   "html": "<p><strong>Caution:</strong> Sedating antihistamine medications have a long half-life so wait time is <strong>60 hours</strong> for both diphenhydramine (<strong>Benadryl</strong>) and doxylamine (<strong>Unisom),</strong> 5 days for both chlorpheniramine and clemastine.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "Always follow 14 CFR 61.53. If it is not familiar to you, please review it. Not only is it a requirement, but it is for your safety and that of your passengers.",
+   "html": "<p>Always follow 14 CFR 61.53. If it is not familiar to you, please review it. Not only is it a requirement, but it is for your safety and that of your passengers.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "When in doubt, SAFETY FIRST - DO NOT FLY.",
+   "html": "<p><strong>When in doubt, SAFETY FIRST - DO NOT FLY. </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 665,
+   "text": "- Do one more check of your condition before considering flying.\n- Get well before considering return to fight status. Do not push it.\n- Remember, OTC medications help reduce the symptoms of an illness, but do not cure it.\n- Even though a medication has been determined to be safe for use by the Food and Drug Administration (FDA), this does not mean that the medication is compatible with flying or even driving.\n- If you choose to fly on medication, be certain that it will not impair safety. Do not simply hope for the best.",
+   "html": "<ul><li> Do one more check of your condition before considering flying.</li><li> Get well before considering return to fight status. Do not push it.</li><li> Remember, OTC medications help reduce the symptoms of an illness, but do not cure it.</li><li> Even though a medication has been determined to be safe for use by the Food and Drug Administration (FDA), this does not mean that the medication is compatible with flying or even driving.</li><li> If you choose to fly on medication, be certain that it will not impair safety. Do not simply hope for the best.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "See the OTC Medications Reference Table on the following page for specific information.",
+   "html": "<p>See the <strong>OTC Medications Reference Table</strong> on the following page for specific information.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 665,
+   "text": "665",
+   "html": "<p>665</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 666,
+   "text": "OVER THE COUNTER (OTC) MEDICATIONS REFERENCE TABLE",
+   "html": "<p><strong>OVER THE COUNTER (OTC) MEDICATIONS REFERENCE TABLE </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 666,
+   "text": "The following table is not all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.",
+   "html": "<p>The following table is <strong>not</strong> all-inclusive or intended to take the place of consultation(s) with your primary care physician and/or Aviation Medical Examiner.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 666,
+   "text": "Remember, if you have significant underlying health conditions, it is recommended that you discuss the use of any medication with your physician BEFORE taking the OTC medication. Some medications are not recommended (see column “NO GO” in the table below):",
+   "html": "<p>Remember, if you have significant underlying health conditions, it is recommended that you discuss the use of any medication with your physician <strong>BEFORE</strong> taking the OTC medication. <strong>Some medications are not recommended (see column “NO GO” in the table below): </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 666,
+   "header": [
+    "MEDICATIONS OR SYMPTOMS",
+    "COMMONLY FOUND IN",
+    "GENERALLY SAFE TO FLY Medication or active ingredient GO",
+    "AVOID *These can cause incapacitation. (Examples are not all-inclusive.) NO GO",
+    "RATIONALE"
+   ],
+   "rows": [
+    [
+     "Antihistamines",
+     "Allergy products Cough/cold products Pain products Motion sickness Sleep aid products",
+     "Non-sedating products: fexofenadine (Allegra) loratadine (Claritin) Melatonin (not an antihistamine)",
+     "Sedating products: brompheniramine (Dimetapp) cetirizine (Zyrtec) chlorpheniramine (Chlor- Trimeton) diphenhydramine (Benadryl) levocetirizine Xyzal) dimenhydrinate (Dramamine) meclizine (Antivert) diphenhydramine (e.g., Zzzquil, Benadryl). Doxylamine (e.g., Unisom)",
+     "Histamines affect allergies AND sleep/ wake cycle. Sedating antihistamines can cause drowsiness and impaired thinking and judgement. NOTE: Sedating antihistamines are commonly found in autopsy after aircraft accidents. The wait times for these medications are longer than noted in the “Dosage Interval Wait Timetable” due to their longer half-life. Consult your AME. “Hang-over effect” morning after safety concern. NOTE: Taking melatonin at the wrong time can actually worsen jetlag and cause daytime drowsiness."
+    ],
+    [
+     "Nasal steroid",
+     "Allergy products",
+     "azelastine (Astepro) fluticasone (Flonase) mometasone (Nasonex) triamcinolone (Nasacort)",
+     "",
+     ""
+    ],
+    [
+     "Nasal decongestants",
+     "Nasal congestion, sinus pressure, and cough/cold products",
+     "oxymetazoline (Afrin) phenylephrine (Sudafed PE) pseudoephedrine (Sudafed) Less convenient, but safer, are the nasal saltwater lavages: Saline nasal sprays Neti-pots",
+     "",
+     "CAUTION: Sudafed-like medications can speed up your heart rate; therefore, use caution if you have an underlying heart condition. Be very cautious of an extra cup of coffee or two when feeling sub-par. This has caused more than one pilot to end up in the emergency room for a racing heart rate."
+    ],
+    [
+     "Cough",
+     "Cough/cold products",
+     "Coricidin (allowed if it does not contain chlorpheniramine) guaifenesin (found in Mucinex and Robitussin)",
+     "dextromethorphan (Delsym) Also in Dayquil, and Mucinex Fast- Max Severe Congestion and Cough. Most “night-time” or “PM” medications contain a sedating antihistamine. Coricidin HBP cough & cold (contains chlorpheniramine) Nyquil (contains doxylamine)",
+     "Most cough medications are safe for flight. Use caution as combination products may contain sedating antihistamines. If the label states PM (for nighttime use) or DM (containing dextromethorphan), you should not fly while using these medications and for at least 5 dosage intervals after the last dose (see Dosage Interval Timetable)."
+    ],
+    [
+     "Aches and Pains",
+     "NSAIDs (non- steroidal anti- inflammatory drugs) and analgesics Additional options for headaches Topical rubs Pain patches",
+     "acetaminophen (Tylenol) aspirin (Bayer) ibuprofen (Advil/Motrin) naproxen (Naprosyn) Caffeine (Commonly found in Excedrin.) Lidocaine patch (Lidoderm) Muscle rub Capsaicin",
+     "Advil PM Tylenol PM Most “PM” medications contain diphenhydramine Read the label.",
+     "Most OTC pain meds are safe to fly as long as the underlying condition is acceptable. CAUTION: Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness (see antihistamine row). CAUTION: With lidocaine application, avoid getting on hands or open wounds as this can drop blood pressure or absorb faster."
+    ],
+    [
+     "Opioid Antidote",
+     "Opioid antidote",
+     "",
+     "naloxone (Narcan)",
+     "CAUTION: If medication is administered, DO NOT FLY until cleared by FAA."
+    ],
+    [
+     "Gastrointestinal Nausea Vomiting Diarrhea",
+     "Anti-emetics Anti-motility drugs",
+     "bismuth subsalicylate (Kaopectate, Pepto-Bismol)",
+     "loperamide (Imodium)",
+     "GI illness can cause dehydration, cramps, and pain with increase in altitude. NOTE: Loperamide should not be used during acute illness as it can cause dizziness. When taken daily for a chronic condition, it may require a special issuance."
+    ],
+    [
+     "Gastrointestinal Constipation Laxatives",
+     "",
+     "Bulk forming (e.g., Benefiber) Osmotic (e.g., MiraLAX) Stool softener (e.g., Colace) Stimulant (e.g., Senna)",
+     "magnesium citrate",
+     "Use in recommended doses."
+    ],
+    [
+     "Gastrointestinal Indigestion",
+     "Proton Pump Inhibitors (PPI) H2 blockers Antacids",
+     "esomeprazole (Nexium) lansoprazole (Prevacid) omeprazole (Prilosec) pantoprazole (Protonix) rabeprazole (Aciphex) cimetidine (Tagamet) famotidine (Pepcid) nizatidine (Axid) rantidine (Zantac) Aluminum hydroxide (Maalox) Calcium carbonate (Tums) Magnesium hydroxide (Milk of Magnesia)",
+     "",
+     "Be careful not to mask the underlying symptoms. Be careful not to mask the underlying symptoms. Be careful not to mask the underlying symptoms."
+    ],
+    [
+     "Urinary tract Infections",
+     "Pain reliever",
+     "phenazopyridine (AZO standard)",
+     "Oxybutynin (Oxytrol for women",
+     "Oxybutynin can cause sedation and dizziness. Phenazopyridine is generally allowed after adequate ground trial to monitor for side effects. Symptoms should be resolved, other than slight residual irritation."
+    ],
+    [
+     "Skin rash",
+     "Emollients Creams Lotions",
+     "Almost all are allowed. Anti-fungal topical Antipruritics Topical corticosteroid",
+     "",
+     "Ensure the underlying condition is not an issue with safe flight."
+    ],
+    [
+     "Dry or itchy eyes",
+     "Products for dry eyes Allergy/itchy eyes Eye lubrication",
+     "olopatadine (Pataday) alcaftadine (Lastacaft) artificial tears",
+     "Eye ointment or gel during flight.",
+     "Temporary blurry vision may occur with use of eye drops. Note: Eye ointment or gels should not be used in flight since the blurry vision may last for minutes."
+    ]
+   ],
+   "html": "<table><thead><tr><th>MEDICATIONS OR SYMPTOMS</th><th>COMMONLY FOUND IN</th><th>GENERALLY SAFE TO FLY Medication or active ingredient GO</th><th>AVOID *These can cause incapacitation. (Examples are not all-inclusive.) NO GO</th><th>RATIONALE</th></tr></thead><tbody><tr><td><p><strong>Antihistamines </strong></p></td><td><p>Allergy products</p>\n<p>Cough/cold products</p>\n<p>Pain products</p>\n<p>Motion sickness</p>\n<p>Sleep aid products</p></td><td><p>Non-sedating products:</p>\n<p>fexofenadine (Allegra)</p>\n<p>loratadine (Claritin)</p>\n<p>Melatonin (not an antihistamine)</p></td><td><p>Sedating products:</p>\n<p>brompheniramine (Dimetapp)</p>\n<p>cetirizine (Zyrtec)</p>\n<p>chlorpheniramine (Chlor- Trimeton)</p>\n<p>diphenhydramine (Benadryl)</p>\n<p>levocetirizine Xyzal)</p>\n<p>dimenhydrinate (Dramamine)</p>\n<p>meclizine (Antivert)</p>\n<p>diphenhydramine (e.g., Zzzquil, Benadryl).</p>\n<p>Doxylamine</p>\n<p>(e.g., Unisom)</p></td><td><p>Histamines affect allergies AND sleep/ wake cycle. Sedating antihistamines can cause drowsiness and impaired thinking and judgement.</p>\n<p><strong>NOTE:</strong> Sedating antihistamines are commonly found in autopsy after aircraft accidents. The wait times for these medications are longer than noted in the “Dosage Interval Wait Timetable” due to their longer half-life. Consult your AME.</p>\n<p>“Hang-over effect” morning after safety concern.</p>\n<p><strong>NOTE:</strong> Taking melatonin at the wrong time can actually worsen jetlag and cause daytime drowsiness.</p></td></tr><tr><td><p><strong>Nasal steroid </strong></p></td><td><p>Allergy products</p></td><td><p>azelastine (Astepro)</p>\n<p>fluticasone (Flonase)</p>\n<p>mometasone (Nasonex)</p>\n<p>triamcinolone (Nasacort)</p></td><td></td><td></td></tr><tr><td><p><strong>Nasal decongestants </strong></p></td><td><p>Nasal congestion,</p>\n<p>sinus pressure, and cough/cold products</p></td><td><p>oxymetazoline (Afrin)</p>\n<p>phenylephrine (Sudafed PE)</p>\n<p>pseudoephedrine (Sudafed)</p>\n<p>Less convenient, but safer, are the nasal saltwater lavages:</p>\n<p>Saline nasal sprays</p>\n<p>Neti-pots</p></td><td></td><td><p><strong>CAUTION</strong>: Sudafed-like medications can speed up your heart rate; therefore, use caution if you have an underlying heart condition. Be very cautious of an extra cup of coffee or two when feeling sub-par. This has caused more than one pilot to end up in the emergency room for a racing heart rate.</p></td></tr><tr><td><p><strong>Cough </strong></p></td><td><p>Cough/cold products</p></td><td><p>Coricidin (allowed</p>\n<p>if it does <strong>not</strong> contain chlorpheniramine)</p>\n<p>guaifenesin (found in Mucinex and Robitussin)</p></td><td><p>dextromethorphan (Delsym)</p>\n<p>Also in Dayquil, and Mucinex Fast- Max Severe Congestion and Cough.</p>\n<p><strong>Most “night-time” or “PM” medications contain a sedating antihistamine. </strong></p>\n<p>Coricidin HBP cough &amp; cold (contains chlorpheniramine)</p>\n<p>Nyquil (contains doxylamine)</p></td><td><p>Most cough medications are safe for flight. Use caution as combination products may contain sedating antihistamines. If the label states PM (for nighttime use) or DM (containing dextromethorphan), you should not fly while using these medications and for</p>\n<p>at least 5 dosage intervals after the last dose (see Dosage Interval Timetable).</p></td></tr><tr><td><p><strong>Aches and Pains </strong></p></td><td><p>NSAIDs (non- steroidal anti- inflammatory drugs) and analgesics</p>\n<p>Additional options for headaches</p>\n<p>Topical rubs</p>\n<p>Pain patches</p></td><td><p>acetaminophen (Tylenol)</p>\n<p>aspirin (Bayer)</p>\n<p>ibuprofen (Advil/Motrin)</p>\n<p>naproxen (Naprosyn)</p>\n<p>Caffeine</p>\n<p>(Commonly found in Excedrin.)</p>\n<p>Lidocaine patch (Lidoderm)</p>\n<p>Muscle rub</p>\n<p>Capsaicin</p></td><td><p>Advil PM</p>\n<p>Tylenol PM</p>\n<p><strong>Most “PM” medications contain diphenhydramine </strong></p>\n<p>Read the label.</p></td><td><p>Most OTC pain meds are safe to fly as long as the underlying condition is acceptable.</p>\n<p><strong>CAUTION:</strong> Some OTC meds are combined with a sedating antihistamine, which can cause drowsiness (see antihistamine row).</p>\n<p><strong>CAUTION</strong>: With lidocaine application, avoid getting on hands or open wounds as this can drop blood pressure or absorb faster.</p></td></tr><tr><td><p><strong>Opioid Antidote </strong></p></td><td><p>Opioid antidote</p></td><td></td><td><p>naloxone (Narcan)</p></td><td><p><strong>CAUTION:</strong> If</p>\n<p>medication is administered, <strong>DO NOT FLY</strong> until cleared by FAA.</p></td></tr><tr><td><p><strong>Gastrointestinal </strong></p>\n<p><strong>Nausea Vomiting Diarrhea </strong></p></td><td><p>Anti-emetics</p>\n<p>Anti-motility drugs</p></td><td><p>bismuth subsalicylate (Kaopectate, Pepto-Bismol)</p></td><td><p>loperamide (Imodium)</p></td><td><p>GI illness can cause dehydration, cramps, and pain with increase in altitude.</p>\n<p><strong>NOTE:</strong> Loperamide should not be used during acute illness as it can cause dizziness. When</p>\n<p>taken daily for a chronic condition, it may require a special issuance.</p></td></tr><tr><td><p><strong>Gastrointestinal </strong></p>\n<p><strong>Constipation</strong></p>\n<p><strong>Laxatives </strong></p></td><td></td><td><p>Bulk forming</p>\n<p>(e.g., Benefiber)</p>\n<p>Osmotic</p>\n<p>(e.g., MiraLAX)</p>\n<p>Stool softener</p>\n<p>(e.g., Colace)</p>\n<p>Stimulant</p>\n<p>(e.g., Senna)</p></td><td><p>magnesium citrate</p></td><td><p>Use in recommended doses.</p></td></tr><tr><td><p><strong>Gastrointestinal </strong></p>\n<p><strong>Indigestion </strong></p></td><td><p>Proton Pump Inhibitors (PPI)</p>\n<p>H2 blockers</p>\n<p>Antacids</p></td><td><p>esomeprazole (Nexium)</p>\n<p>lansoprazole (Prevacid)</p>\n<p>omeprazole (Prilosec)</p>\n<p>pantoprazole (Protonix)</p>\n<p>rabeprazole (Aciphex)</p>\n<p>cimetidine (Tagamet)</p>\n<p>famotidine (Pepcid)</p>\n<p>nizatidine (Axid)</p>\n<p>rantidine (Zantac)</p>\n<p>Aluminum hydroxide</p>\n<p>(Maalox)</p>\n<p>Calcium carbonate</p>\n<p>(Tums)</p>\n<p>Magnesium hydroxide (Milk of Magnesia)</p></td><td></td><td><p>Be careful not to mask the underlying symptoms.</p>\n<p>Be careful not to mask the underlying symptoms.</p>\n<p>Be careful not to mask the underlying symptoms.</p></td></tr><tr><td><p><strong>Urinary tract </strong></p>\n<p><strong>Infections</strong></p></td><td><p>Pain reliever</p></td><td><p>phenazopyridine (AZO standard)</p></td><td><p>Oxybutynin (Oxytrol for women</p></td><td><p>Oxybutynin can cause sedation and dizziness.</p>\n<p>Phenazopyridine is generally allowed after adequate ground trial to monitor for side effects. Symptoms should be resolved,</p>\n<p>other than slight residual irritation.</p></td></tr><tr><td><p><strong>Skin rash </strong></p></td><td><p>Emollients</p>\n<p>Creams</p>\n<p>Lotions</p></td><td><p>Almost all are allowed.</p>\n<p>Anti-fungal topical</p>\n<p>Antipruritics</p>\n<p>Topical corticosteroid</p></td><td></td><td><p>Ensure the underlying condition is not an issue with safe flight.</p></td></tr><tr><td><p><strong>Dry or </strong></p>\n<p><strong>itchy eyes </strong></p></td><td><p>Products for</p>\n<p>dry eyes</p>\n<p>Allergy/itchy eyes</p>\n<p>Eye lubrication</p></td><td><p>olopatadine (Pataday)</p>\n<p>alcaftadine (Lastacaft)</p>\n<p>artificial tears</p></td><td><p>Eye ointment or gel during flight.</p></td><td><p>Temporary blurry vision may occur with use of eye drops.</p>\n<p><strong>Note:</strong> Eye ointment or gels should not be used in flight since the blurry vision may last for minutes.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 666,
+   "text": "666",
+   "html": "<p>666</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 667,
+   "text": "667",
+   "html": "<p>667</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 668,
+   "text": "668",
+   "html": "<p>668</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 669,
+   "text": "669",
+   "html": "<p>669</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 670,
+   "text": "670",
+   "html": "<p>670</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 671,
+   "text": "ADDITIONAL RESOURCES",
+   "html": "<p><strong>ADDITIONAL RESOURCES </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- AAM-400 Medication Brochure",
+   "html": "<ul><li><a href=\"https://www.faa.gov/pilots/safety/pilotsafetybrochures/\" target=\"_blank\" rel=\"noopener\"> AAM-400 Medication Brochure</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Over-the-Counter Medication",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/AME_OTC_medications.pdf\" target=\"_blank\" rel=\"noopener\"> Over-the-Counter Medication</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Allergy - Antihistamine & Immunotherapy Medication",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf\" target=\"_blank\" rel=\"noopener\"> Allergy - Antihistamine &amp; Immunotherapy Medication</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Erectile Dysfunction Medication",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/pharm/ed/\" target=\"_blank\" rel=\"noopener\"> Erectile Dysfunction Medication</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Hypertension Medication",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\"> Hypertension Medication</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Acceptable Combinations of Diabetic Medications",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf\" target=\"_blank\" rel=\"noopener\"> Acceptable Combinations of Diabetic Medications</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Antidepressant Program",
+   "html": "<ul><li><a href=\"https://www.faa.gov/go/ssri\" target=\"_blank\" rel=\"noopener\"> Antidepressant Program</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Additional Medication Information in Guide for Aviation Medical Examiners",
+   "html": "<ul><li><a href=\"https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/pharm/\" target=\"_blank\" rel=\"noopener\"> Additional Medication Information in Guide for Aviation Medical Examiners</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- Do Not Issue (DNI) Do Not Fly (DNF)",
+   "html": "<ul><li><a href=\"https://www.faa.gov/go/dni\" target=\"_blank\" rel=\"noopener\"> Do Not Issue (DNI) Do Not Fly (DNF)</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 671,
+   "text": "- DNI - pilots should NOT take any of these medications or classes of medication and fly.\n- DNF - pilots should NOT fly until these medications are stopped and a period of time has elapsed.",
+   "html": "<ul><li>DNI - pilots should NOT take any of these medications or classes of medication and fly.</li><li>DNF - pilots should NOT fly until these medications are stopped and a period of time has elapsed.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 671,
+   "text": "671",
+   "html": "<p>671</p>"
+  }
+ ]
+}

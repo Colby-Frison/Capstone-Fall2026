@@ -1,0 +1,107 @@
+{
+ "id": "pulmonary-fibrosis",
+ "name": "Pulmonary Fibrosis",
+ "subtitle": null,
+ "name_in_guide": "PULMONARY FIBROSIS",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 41,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis; assessment and plan;",
+  "Prognosis; and follow-up.",
+  "The Clinical Progress Note must specifically include :",
+  "Current disease severity,",
+  "GAP score,",
+  "History of acute exacerbations or other complications",
+  "Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days",
+  "Current 6-Minute Walk Test (6MWT) per FAA protocol",
+  "Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas).",
+  "All Evaluation Data in Row A and",
+  "Any information required for the underlying condition."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Idiopathic Pulmonary Fibrosis",
+   "condition_html": "<ul><li>A. <strong>Idiopathic</strong> Pulmonary Fibrosis</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; - Prognosis; and follow-up. - 2. The Clinical Progress Note must specifically include: - Current disease severity, - GAP score, - History of acute exacerbations or other complications - 3. Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days - 4. Current 6-Minute Walk Test (6MWT) per FAA protocol - 5. Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified <strong>Pulmonologist</strong> no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan;</li><li>Prognosis; and follow-up.</li></ul>\n<ul><li>2. The Clinical Progress Note <strong>must specifically include</strong>:</li><li>Current disease severity,</li><li>GAP score,</li><li>History of acute exacerbations or other complications</li></ul>\n<ul><li>3. Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days</li></ul>\n<ul><li>4. Current <a href=\"https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6-Minute Walk Test</a> (6MWT) per FAA protocol</li></ul>\n<ul><li>5. Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas).</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis; assessment and plan;",
+    "Prognosis; and follow-up.",
+    "The Clinical Progress Note must specifically include :",
+    "Current disease severity,",
+    "GAP score,",
+    "History of acute exacerbations or other complications",
+    "Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days",
+    "Current 6-Minute Walk Test (6MWT) per FAA protocol",
+    "Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in Item 60.</p>",
+   "pdf_page": 138,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Secondary Pulmonary Fibrosis Due to a known cause (See corresponding page)",
+   "condition_html": "<p>B. <strong>Secondary</strong> Pulmonary Fibrosis</p>\n<p>Due to a known cause (See corresponding page)</p>",
+   "evaluation_data": "Submit the following for FAA review: - All Evaluation Data in Row A and - Any information required for the underlying condition.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>All Evaluation Data in Row A and</li><li>Any information required for the underlying condition.</li></ul>",
+   "what_to_bring": [
+    "All Evaluation Data in Row A and",
+    "Any information required for the underlying condition."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in Item 60.</p>",
+   "pdf_page": 138,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "6-Minute Walk Test",
+   "href": "https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   138
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

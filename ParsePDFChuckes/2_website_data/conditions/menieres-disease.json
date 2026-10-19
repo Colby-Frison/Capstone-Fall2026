@@ -1,0 +1,111 @@
+{
+ "id": "menieres-disease",
+ "name": "Meniere’s Disease",
+ "subtitle": null,
+ "name_in_guide": "MENIERE’S DISEASE",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 12,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence.",
+  "Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD).",
+  "Typed personal statement describing the history of the condition. It must include:",
+  "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+  "All treatment records associated with diagnosis."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Previously reviewed and warned by the FAA.",
+   "condition_html": "<p><strong>A. </strong>Previously reviewed and warned by the FAA.</p>",
+   "evaluation_data": "If the AME can determine there have been no further symptoms or episodes of vertigo: Note: The medical certificate should not be issued for any class until condition is fully resolved and reviewed by the FAA. Pilot duties must be discontinued while symptomatic or on medication for vertigo.",
+   "evaluation_data_html": "<p>If the AME can determine there have been no further symptoms or episodes of vertigo:</p>\n<p><strong>Note: </strong>The medical certificate should not be issued for any class until condition is fully resolved and reviewed by the FAA.</p>\n<p>Pilot duties must be discontinued while symptomatic or on medication for vertigo.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "defer"
+   ],
+   "disposition": "ISSUE If continued asymptomatic, annotate this information in Block 60. If return of symptoms, DEFER and submit the most recent ENT evaluation.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>If continued <strong>asymptomatic, </strong>annotate this information in Block</p>\n<p>60.</p>\n<p>If return of symptoms, DEFER and submit the most recent ENT evaluation.</p>",
+   "pdf_page": 77,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "The FIRST time the",
+   "condition_html": "<p><strong>B. </strong>The FIRST time the</p>",
+   "evaluation_data": "After a recovery period of six (6) months",
+   "evaluation_data_html": "<p>After a recovery period of <strong>six (6) months</strong></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "defer"
+   ],
+   "disposition": "ISSUE If continued asymptomatic, annotate this information in Block 60. If return of symptoms, DEFER and submit the most recent ENT evaluation.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>If continued <strong>asymptomatic, </strong>annotate this information in Block</p>\n<p>60.</p>\n<p>If return of symptoms, DEFER and submit the most recent ENT evaluation.</p>",
+   "pdf_page": 77,
+   "disposition_shared_with_previous_row": true
+  },
+  {
+   "label": null,
+   "condition": "condition is reported to the FAA.",
+   "condition_html": "<p>condition is reported to the FAA.</p>",
+   "evaluation_data": "showing: • Control of vertigo; • No further vertiginous attacks: AND • Hearing remains within standards. Submit the following for FAA review: 1. Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence. 2. Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD). 3. Typed personal statement describing the history of the condition. It must include: • If there is any family history; • If single side or bilateral; • Episodes of hearing loss over the last year; • The number of attacks; • A description of the severity of the attacks with type of symptoms; • Any history of migraine or drop attacks (collapsing suddenly without fainting); • Medication used for control/treatment given; • Any surgery; • Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and • Therapy/medication used for control. 4. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. 5. All treatment records associated with diagnosis. Note: Pilot and safety related duties (SRD) duties must be discontinued while on medication for vertigo. 14 CFR 61.53 applies. Medication: Betahistine (Serc, Beta-Serc) is NOT allowed.",
+   "evaluation_data_html": "<p>showing:</p>\n<p>• Control of vertigo;</p>\n<p>• No further vertiginous attacks: AND</p>\n<p>• Hearing remains within standards.</p>\n<p>Submit the following for FAA review:</p>\n<p>1. Current (performed within the past 90 days), detailed clinical <strong>otolaryngologist </strong>(ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence.</p>\n<p>2. Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD).</p>\n<p>3. Typed personal statement describing the history of the condition. It must include:</p>\n<p>• If there is any family history;</p>\n<p>• If single side or bilateral;</p>\n<p>• Episodes of hearing loss over the last year;</p>\n<p>• The number of attacks;</p>\n<p>• A description of the severity of the attacks with type of symptoms;</p>\n<p>• Any history of migraine or drop attacks (collapsing suddenly without fainting);</p>\n<p>• Medication used for control/treatment given;</p>\n<p>• Any surgery;</p>\n<p>• Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and</p>\n<p>• Therapy/medication used for control.</p>\n<p>4. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.</p>\n<p>5. All treatment records associated with diagnosis.</p>\n<p><strong>Note: </strong>Pilot and safety related duties (SRD) duties must be discontinued while on medication for vertigo. 14 CFR 61.53 applies.</p>\n<p>Medication: Betahistine (Serc, Beta-Serc) is <strong>NOT </strong>allowed.</p>",
+   "what_to_bring": [
+    "Current (performed within the past 90 days), detailed clinical otolaryngologist (ENT) evaluation and progress note that documents sustained control and no recurrence of symptoms. It must address if active disease exists. If in remission, when did remission commence.",
+    "Current (performed within the past 90 days) clinical audiogram with Air- Conduction/Bone-Conduction (AC/BC) and Speech Discrimination (SD).",
+    "Typed personal statement describing the history of the condition. It must include:",
+    "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+    "All treatment records associated with diagnosis."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the Authorization Letter</p>",
+   "pdf_page": 77,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "With associated hearing loss.",
+   "condition_html": "<p><strong>C. </strong>With associated hearing loss.</p>",
+   "evaluation_data": "If there is associated hearing loss, the individual should be evaluated to determine if they meet hearing standards. See Item 49. Hearing.",
+   "evaluation_data_html": "<p>If there is associated hearing loss, the individual should be evaluated to determine if they meet hearing standards.</p>\n<p>See Item 49. Hearing.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA</p>",
+   "pdf_page": 77,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   77
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

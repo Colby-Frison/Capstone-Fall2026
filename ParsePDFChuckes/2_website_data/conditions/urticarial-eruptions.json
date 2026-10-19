@@ -1,0 +1,74 @@
+{
+ "id": "urticarial-eruptions",
+ "name": "Urticarial Eruptions",
+ "subtitle": null,
+ "name_in_guide": "URTICARIAL ERUPTIONS",
+ "category": {
+  "id": "skin",
+  "name": "Skin",
+  "exam_item": "40",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 85,
+ "decisions": [
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical records and a current, detailed Clinical Progress Note to include treatment",
+  "Submit all records and a current, detailed Clinical Progress Note to include treatment"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Angioneurotic Edema",
+   "condition_html": "<p>Angioneurotic Edema</p>",
+   "evaluation_data": "Submit all pertinent medical records and a current, detailed Clinical Progress Note to include treatment",
+   "evaluation_data_html": "<p>Submit all pertinent medical records and a <strong>current, detailed Clinical Progress Note</strong> to include treatment</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records and a current, detailed Clinical Progress Note to include treatment"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 237,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Chronic Urticaria",
+   "condition_html": "<p>Chronic Urticaria</p>",
+   "evaluation_data": "Submit all records and a current, detailed Clinical Progress Note to include treatment",
+   "evaluation_data_html": "<p>Submit all records and a <strong>current, detailed Clinical Progress Note</strong> to include treatment</p>",
+   "what_to_bring": [
+    "Submit all records and a current, detailed Clinical Progress Note to include treatment"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 237,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Angioneurotic Edema",
+  "Chronic Urticaria"
+ ],
+ "source": {
+  "section": "item-40-skin",
+  "section_title": "ITEM 40. Skin",
+  "pdf_pages": [
+   237
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

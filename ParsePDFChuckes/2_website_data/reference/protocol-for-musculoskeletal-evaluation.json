@@ -1,0 +1,41 @@
+{
+ "slug": "protocol-for-musculoskeletal-evaluation",
+ "title": "Protocol for Musculoskeletal Evaluation",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  582
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 582,
+   "text": "The AME should defer issuance.",
+   "html": "<p>The AME should defer issuance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 582,
+   "text": "An applicant with a history of musculoskeletal conditions must submit the following if consideration for medical certification is desired:",
+   "html": "<p>An applicant with a history of musculoskeletal conditions must submit the following if consideration for medical certification is desired:</p>"
+  },
+  {
+   "type": "list",
+   "page": 582,
+   "text": "- Current status report\n- Functional status report\n- Degree of impairment as measured by strength, range of motion, pain",
+   "html": "<ul><li>Current status report</li><li>Functional status report</li><li>Degree of impairment as measured by strength, range of motion, pain</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 582,
+   "text": "NOTE: If the applicant is otherwise qualified, the FAA may issue a limited certificate. This certificate will permit the applicant to proceed with flight training until ready for a medical flight test. At that time, and at the applicant's request, the FAA (usually the AMCD) will authorize the student pilot to take a medical flight test in conjunction with the regular flight test. The medical flight test and regular private pilot flight test are conducted by an FAA inspector. This affords the student an opportunity to demonstrate the ability to control the aircraft despite the handicap. The FAA inspector prepares a written report and indicates whether there is a safety problem. A medical certificate and statement of demonstrated ability ( SODA ) may be provided to the airman from AMCD/RFS office if the MFT is successful and the airman is otherwise qualified.",
+   "html": "<p><strong>NOTE</strong>: If the applicant is otherwise qualified, the FAA may issue a limited certificate. This certificate will permit the applicant to proceed with flight training until ready for a medical flight test. At that time, and at the applicant&#x27;s request, the FAA (usually the AMCD) will authorize the student pilot to take a medical flight test in conjunction with the regular flight test. The medical flight test and regular private pilot flight test are conducted by an FAA inspector. This affords the student an opportunity to demonstrate the ability to control the aircraft despite the handicap. The FAA inspector prepares a written report and indicates whether there is a safety problem. A medical certificate and statement of demonstrated ability ( <a href=\"https://www.faa.gov/ame_guide/app_process/general/appeals/soda\" target=\"_blank\" rel=\"noopener\">SODA</a> ) may be provided to the airman from AMCD/RFS office if the MFT is successful and the airman is otherwise qualified.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 582,
+   "text": "When prostheses are used or additional control devices are installed in an aircraft to assist the amputee, those found qualified by special certification procedures will have their certificates limited to require that the device(s) (and, if necessary, even the specific aircraft) must always be used when exercising the privileges of the airman certificate.",
+   "html": "<p>When prostheses are used or additional control devices are installed in an aircraft to assist the amputee, those found qualified by special certification procedures will have their certificates limited to require that the device(s) (and, if necessary, even the specific aircraft) must always be used when exercising the privileges of the airman certificate.</p>"
+  }
+ ]
+}

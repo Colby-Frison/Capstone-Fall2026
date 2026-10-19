@@ -1,0 +1,92 @@
+{
+ "id": "bronchiectasis",
+ "name": "Bronchiectasis",
+ "subtitle": null,
+ "name_in_guide": "BRONCHIECTASIS",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 44,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis; assessment and plan;",
+  "Prognosis; and follow-up.",
+  "The Clinical Progress Note must specifically include :",
+  "current disease severity;",
+  "history of acute exacerbations or other complications; and",
+  "dates medication used",
+  "Spirometry within the past 90 days.",
+  "A 6-minute walk test performed within the past 90 days.",
+  "Lab.",
+  "Complete Blood Count (CBC) performed within the past 90 days.",
+  "Copies of other labs already performed or clinically indicated (such as alpha-1 antitrypsin).",
+  "Results of tests/ imaging already performed (such as Chest X-ray and/or High-Resolution CT (computed tomography)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "All stages/severity, symptomatic or asymptomatic If the cause of bronchiectasis is cystic fibrosis, see that section.",
+   "condition_html": "<p>A. All stages/severity, symptomatic or asymptomatic</p>\n<p>If the cause of bronchiectasis is cystic fibrosis, see that section.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; - Prognosis; and follow-up. - 2. The Clinical Progress Note must specifically include: - current disease severity; - history of acute exacerbations or other complications; and - dates medication used - 3. Spirometry within the past 90 days. - 4. A 6-minute walk test performed within the past 90 days. - 5. Lab. - Complete Blood Count (CBC) performed within the past 90 days. - Copies of other labs already performed or clinically indicated (such as alpha-1 antitrypsin). - 6. Results of tests/ imaging already performed (such as Chest X-ray and/or High-Resolution CT (computed tomography).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified <strong>Pulmonologist</strong> no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan;</li><li>Prognosis; and follow-up.</li></ul>\n<ul><li>2. The Clinical Progress Note <strong>must specifically include</strong>:</li><li>current disease severity;</li><li>history of acute exacerbations or other complications; and</li><li>dates medication used</li></ul>\n<ul><li>3. <strong>Spirometry </strong>within the past 90 days.</li></ul>\n<ul><li>4. A <a href=\"https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6-minute walk test</a> performed within the past 90 days.</li></ul>\n<ul><li>5. Lab.</li><li>Complete Blood Count (CBC) performed within the past 90 days.</li><li>Copies of other labs already performed or clinically indicated (such as alpha-1 antitrypsin).</li></ul>\n<ul><li>6. Results of tests/ imaging already performed (such as Chest X-ray and/or High-Resolution CT (computed tomography).</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis; assessment and plan;",
+    "Prognosis; and follow-up.",
+    "The Clinical Progress Note must specifically include :",
+    "current disease severity;",
+    "history of acute exacerbations or other complications; and",
+    "dates medication used",
+    "Spirometry within the past 90 days.",
+    "A 6-minute walk test performed within the past 90 days.",
+    "Lab.",
+    "Complete Blood Count (CBC) performed within the past 90 days.",
+    "Copies of other labs already performed or clinically indicated (such as alpha-1 antitrypsin).",
+    "Results of tests/ imaging already performed (such as Chest X-ray and/or High-Resolution CT (computed tomography)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in Item 60.</p>",
+   "pdf_page": 143,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "6-minute walk test",
+   "href": "https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   143
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

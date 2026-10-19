@@ -1,0 +1,109 @@
+{
+ "id": "pupils",
+ "name": "Pupils",
+ "subtitle": null,
+ "name_in_guide": "Pupils",
+ "category": {
+  "id": "pupils",
+  "name": "Pupils",
+  "exam_item": "33",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 34,
+ "decisions": [
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Disparity in size or reaction to light (afferent pupillary defect) requires clarification and/or further evaluation",
+   "condition_html": "<p>Disparity in size or reaction to light (afferent pupillary defect) requires clarification and/or further evaluation</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Nonreaction to light in either eye acute or chronic",
+   "condition_html": "<p>Nonreaction to light in either eye acute or chronic</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Nystagmus 1",
+   "condition_html": "<p>Nystagmus 1</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Synechiae, anterior or posterior",
+   "condition_html": "<p>Synechiae, anterior or posterior</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Disparity in size or reaction to light (afferent pupillary defect) requires clar",
+  "Nonreaction to light in either eye acute or chronic",
+  "Nystagmus 1",
+  "Synechiae, anterior or posterior"
+ ],
+ "source": {
+  "section": "item-33-pupils",
+  "section_title": "ITEM 33. Pupils",
+  "pdf_pages": [
+   125
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

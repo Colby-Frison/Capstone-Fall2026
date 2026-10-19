@@ -1,0 +1,137 @@
+{
+ "id": "hypoparathyroidism",
+ "name": "Hypoparathyroidism",
+ "subtitle": null,
+ "name_in_guide": "HYPOPARATHYROIDISM",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 168,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating SURGEON no more than 90 days before the AME exam.",
+  "It must specifically include the indication for surgery and clinical interpretation of lab results below.",
+  "Lab performed no more than 90 days before the AME exam to include:",
+  "Basic metabolic panel",
+  "Intact PTH",
+  "Magnesium",
+  "Phosphorus",
+  "Total serum or ionized calcium",
+  "25-hydroxy vitamin D",
+  "Any other testing already performed or deemed clinically necessary by the treating physician.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ENDOCRINOLOGIST no more than 90 days before the AME exam.",
+  "It must specifically include if any history (or not) of cardiac, renal (including nephrolithiasis) ,or skeletal manifestations; clinical interpretation of lab results below; and a detailed neurological exam.",
+  "24-hour urine calcium and creatinine excretion",
+  "Report from renal stone imaging of clinician’s choice (to identify presence of stones).",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified OPHTHALMOLOGIST no more than 90 days before the AME exam."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Post-surgical hypoPARAthyroidism hypoPARAthyroidism treated with surgery six (6) or more months ago AND - Condition resolved - Asymptomatic - No longer requires treatment.",
+   "condition_html": "<ul><li><strong>A. </strong></li></ul>\n<p>Post-surgical hypoPARAthyroidism</p>\n<p>hypoPARAthyroidism treated with surgery</p>\n<p><strong>six (6) or more </strong>months ago</p>\n<p><strong>AND </strong></p>\n<ul><li>Condition resolved</li><li>Asymptomatic</li><li>No longer requires treatment.</li></ul>",
+   "evaluation_data": "If the AME is able to determine through history and physical exam, the condition has resolved with surgery 6 or more months ago, is asymptomatic, and no longer requires treatment",
+   "evaluation_data_html": "<p>If the AME is able to determine through history and physical exam, the condition has resolved with surgery 6 or more months ago, is asymptomatic, and no longer requires treatment</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 437,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- B. Post-surgical hypoPARAthyroidism treated with surgery less than six (6) months ago OR Treated at any time and remains symptomatic AND/OR Currently requires treatment with medications and/or supplements (e.g., calcium carbonate or calcium citrate)",
+   "condition_html": "<ul><li><strong>B. </strong></li></ul>\n<p>Post-surgical hypoPARAthyroidism</p>\n<p>treated with surgery</p>\n<p><strong>less</strong> than six (6) months ago</p>\n<p>OR</p>\n<p>Treated at any time and remains symptomatic</p>\n<p>AND/OR</p>\n<p>Currently requires treatment with medications and/or supplements (e.g., calcium carbonate or calcium citrate)</p>",
+   "evaluation_data": "Submit the following: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating SURGEON no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include the indication for surgery and clinical interpretation of lab results below. - 3. Lab performed no more than 90 days before the AME exam to include: - Basic metabolic panel - Intact PTH - Magnesium - Phosphorus - Total serum or ionized calcium - 25-hydroxy vitamin D - 4. Any other testing already performed or deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the treating <strong>SURGEON</strong> no more than<strong> 90 days before </strong>the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>It must specifically include the indication for surgery and clinical interpretation of lab results below.</li></ul>\n<ul><li><strong>3. </strong>Lab performed no more than 90 days before the AME exam to include:</li><li>Basic metabolic panel</li><li>Intact PTH</li><li>Magnesium</li><li>Phosphorus</li><li>Total serum or ionized calcium</li><li>25-hydroxy vitamin D</li></ul>\n<ul><li><strong>4. </strong>Any other testing already performed or deemed clinically necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating SURGEON no more than 90 days before the AME exam.",
+    "It must specifically include the indication for surgery and clinical interpretation of lab results below.",
+    "Lab performed no more than 90 days before the AME exam to include:",
+    "Basic metabolic panel",
+    "Intact PTH",
+    "Magnesium",
+    "Phosphorus",
+    "Total serum or ionized calcium",
+    "25-hydroxy vitamin D",
+    "Any other testing already performed or deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 437,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- C. Chronic hypoPARAthyroidism due to autoimmune or other cause (treated or untreated)",
+   "condition_html": "<ul><li><strong>C. </strong></li></ul>\n<p><strong>Chronic </strong>hypoPARAthyroidism</p>\n<p>due to autoimmune or</p>\n<p>other cause (treated or untreated)</p>",
+   "evaluation_data": "Submit the following: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ENDOCRINOLOGIST no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include if any history (or not) of cardiac, renal (including nephrolithiasis) ,or skeletal manifestations; clinical interpretation of lab results below; and a detailed neurological exam. - 3. Lab performed no more than 90 days before the AME exam to include: - Basic metabolic panel - Intact PTH - Magnesium - Phosphorus - Total serum or ionized calcium - 25-hydroxy vitamin D - 24-hour urine calcium and creatinine excretion - 4. Report from renal stone imaging of clinician’s choice (to identify presence of stones). - 5. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified OPHTHALMOLOGIST no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 6. Any other testing already performed or deemed clinically necessary by the treating physician. Note: Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment may be required after review of the submitted information.",
+   "evaluation_data_html": "<p>Submit the following:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified ENDOCRINOLOGIST no more than<strong> 90 days before </strong>the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>It must specifically include if any history (or not) of cardiac, renal (including nephrolithiasis) ,or skeletal manifestations; clinical interpretation of lab results below; and a detailed neurological exam.</li></ul>\n<ul><li><strong>3. </strong>Lab performed no more than 90 days before the AME exam to include:</li><li>Basic metabolic panel</li><li>Intact PTH</li><li>Magnesium</li><li>Phosphorus</li><li>Total serum or ionized calcium</li><li>25-hydroxy vitamin D</li><li>24-hour urine calcium and creatinine excretion</li></ul>\n<ul><li><strong>4. </strong>Report from renal stone imaging of clinician’s choice (to identify presence of stones).</li></ul>\n<ul><li><strong>5. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified OPHTHALMOLOGIST no more than<strong> 90 days before </strong>the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>6. </strong>Any other testing already performed or deemed clinically necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> Neuropsychological evaluation that meets <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> <strong> may be required</strong> after review of the submitted information.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ENDOCRINOLOGIST no more than 90 days before the AME exam.",
+    "It must specifically include if any history (or not) of cardiac, renal (including nephrolithiasis) ,or skeletal manifestations; clinical interpretation of lab results below; and a detailed neurological exam.",
+    "Lab performed no more than 90 days before the AME exam to include:",
+    "Basic metabolic panel",
+    "Intact PTH",
+    "Magnesium",
+    "Phosphorus",
+    "Total serum or ionized calcium",
+    "25-hydroxy vitamin D",
+    "24-hour urine calcium and creatinine excretion",
+    "Report from renal stone imaging of clinician’s choice (to identify presence of stones).",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified OPHTHALMOLOGIST no more than 90 days before the AME exam.",
+    "Any other testing already performed or deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 437,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog"
+  }
+ ],
+ "aliases": [
+  "- A. Post-surgical hypoPARAthyroidism hypoPARAthyroidism treated with surgery si",
+  "- B. Post-surgical hypoPARAthyroidism treated with surgery less than six (6) mon",
+  "- C. Chronic hypoPARAthyroidism due to autoimmune or other cause (treated or unt"
+ ],
+ "source": {
+  "section": "hypoparathyroidism",
+  "section_title": "HYPOPARATHYROIDISM",
+  "pdf_pages": [
+   437
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "adjustment-disorder-with-depressed-mood-or-minor-depression",
+ "name": "Adjustment Disorder with Depressed Mood or Minor Depression",
+ "subtitle": null,
+ "name_in_guide": "Adjustment Disorder with Depressed Mood or MINOR Depression",
+ "category": {
+  "id": "psychiatric",
+  "name": "Psychiatric",
+  "exam_item": "47",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/27/2022",
+ "order": 153,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current, detailed Clinical Progress Note (actual clinical record) from a board-certified psychiatrist . It must include a summary of the history of the condition; current medications, dosage, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis;"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Single episode Completely resolved CAUTION: Depression(s) requiring treatment longer than 6 months OR NOT resolved within 6 months AFTER the resolution of the event/stressor ARE NOT adjustment disorders. While they may have a situational component, they are likely a Major Depressive Disorder (MDD) or other significant depressive diagnosis.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Single episode</p>\n<p>Completely resolved</p>\n<p><strong>CAUTION: </strong></p>\n<p>Depression(s) requiring treatment<strong> longer than 6 months </strong></p>\n<p><strong>OR </strong></p>\n<p><strong>NOT resolved within 6 months </strong></p>\n<p><strong>AFTER the resolution of the event/stressor </strong></p>\n<p>ARE NOT adjustment disorders. While they may have a situational component, they are likely a Major Depressive Disorder (MDD) or other significant depressive diagnosis.</p>",
+   "evaluation_data": "The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL of the questions on the Situational Depression Decision Tool for the AME. If 5 or more years ago; treatment was not more than 6 months from the resolution of the stressor; there is no history of self-harm, psychiatric hospitalization, or persisting symptoms - the FAA will accept the AME history and notes in Block 60. If the single episode was LESS than 5 years ago, the AME must review a current, detailed Clinical Progress Note and actual clinical record(s) from the treating provider to verify the diagnosis.",
+   "evaluation_data_html": "<p>The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address <strong>ALL</strong> of the questions on the <a href=\"https://www.faa.gov/ame_guide/media/Situational-Depression-Decision-Tool.pdf\" target=\"_blank\" rel=\"noopener\">Situational Depression Decision Tool for the AME.</a></p>\n<p>If 5 or more years ago; treatment was not more than 6 months from the resolution of the stressor; there is no history of self-harm, psychiatric hospitalization, or persisting symptoms - the FAA will accept the AME history and notes in Block 60.</p>\n<p>If the single episode was LESS than 5 years ago, the <strong>AME must review a current, detailed Clinical Progress Note and actual clinical record(s) </strong>from the treating provider to verify the diagnosis.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If ALL items on the Decision Tool have been marked “YES,” the AME may: ISSUE Summarize this history including dates of symptoms and resolution. Annotate Block 60 with “discussed the history of Situational Depression, no positives to screening questions, and no concerns.” If any “NO” answers, any AME concerns, or unable to verify history - go to Row B.",
+   "disposition_html": "<p>If<strong> ALL </strong>items on the Decision Tool have been marked<strong> “YES,” </strong>the AME may:</p>\n<p><strong>ISSUE </strong></p>\n<p>Summarize this history including dates of symptoms and resolution. Annotate Block 60 with <strong>“discussed the history of Situational Depression, no positives to screening questions, and no concerns.” </strong></p>\n<p>If any “<strong>NO</strong>” answers, any AME concerns, or unable to verify history - go to Row B.</p>",
+   "pdf_page": 410,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others No specific triggering event/stressor Treatment or symptoms lasted longer than 6 months from resolution of the stressor Continuing/persistent symptoms 2 or more episodes in a lifetime Any additional psychiatric conditions, symptoms, or history (e.g., intensive psychiatric treatment, suicide attempt(s), significant legal events, violence).",
+   "condition_html": "<p><strong>B</strong>. <strong>All others</strong></p>\n<p>No specific triggering event/stressor</p>\n<p>Treatment or symptoms</p>\n<p>lasted <strong>longer than 6 months from resolution of the stressor </strong></p>\n<p>Continuing/persistent symptoms</p>\n<p>2 or more episodes in a lifetime</p>\n<p><strong>Any</strong> additional psychiatric conditions, symptoms, or history (e.g., intensive psychiatric treatment, suicide attempt(s), significant legal events, violence).</p>",
+   "evaluation_data": "If currently taking an SSRI - see the SSRI protocol If no longer on medication, the individual should submit the following for FAA review: - 1. Current, detailed Clinical Progress Note (actual clinical record) from a board-certified psychiatrist. It must include a summary of the history of the condition; current medications, dosage, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; Medication is currently used for this condition, even if “as needed” (prn). Any treating provider concerns Any AME concerns",
+   "evaluation_data_html": "<p>If currently taking an SSRI - see the <a href=\"http://www.faa.gov/go/SSRI\" target=\"_blank\" rel=\"noopener\">SSRI protocol</a></p>\n<p>If no longer on medication, the individual should submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>Current, detailed Clinical Progress Note (actual clinical record) from a <strong>board-certified psychiatrist</strong>. It must include a summary of the history of the condition; current medications, dosage, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis;</li></ul>\n<p>Medication is currently used for this condition, even if “as needed” (prn).</p>\n<p><strong>Any</strong> treating provider concerns</p>\n<p><strong>Any</strong> AME concerns</p>",
+   "what_to_bring": [
+    "Current, detailed Clinical Progress Note (actual clinical record) from a board-certified psychiatrist . It must include a summary of the history of the condition; current medications, dosage, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis;"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the pilots’ authorization letter. - assessment; plan (prognosis), and follow-up. Note: A good template for the psychiatrist to follow is Page 3 of the FAA Specifications for Psychiatric Evaluation . The AME should also discuss any history of the rule out criteria listed (even if not on an SSRI). - 2. The Clinical Progress Note must specifically include, if applicable, - Description of the triggering event/stressor; - How long after the triggering event/stressor the condition started; - Characterize/specify the nature of the impairment(s), such as clinical symptom burden, list all behavioral symptoms, and describe social or other area(s) of impairment; - Describe treatment (medication and/or psychotherapy) with start and end dates; - Date of full resolution of symptoms or condition; - Risk of recurrence; and - Copies of all treatment records such as emergency room, urgent care, hospital, and primary care physician or psychiatry notes describing event(s)/stressor(s), diagnosis, and treatment.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Follow up Issuance will be per the pilots’ authorization letter.</p>\n<ul><li>assessment; plan (prognosis), and follow-up.</li></ul>\n<p><strong>Note:</strong> A good template for the psychiatrist to follow is<strong> Page 3</strong> of the <a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Psychiatric Evaluation</a> . The AME should also discuss any history of the rule out criteria listed (even if not on an SSRI).</p>\n<ul><li><strong>2. </strong>The Clinical Progress Note must specifically include, if applicable,</li><li>Description of the triggering event/stressor;</li><li>How long after the triggering event/stressor the condition started;</li><li>Characterize/specify the nature of the impairment(s), such as clinical symptom burden, list all behavioral symptoms, and describe social or other area(s) of impairment;</li><li>Describe treatment (medication and/or psychotherapy) with start and end dates;</li><li>Date of full resolution of symptoms or condition;</li><li>Risk of recurrence; and</li><li>Copies of all treatment records such as emergency room, urgent care, hospital, and primary care physician or psychiatry notes describing event(s)/stressor(s), diagnosis, and treatment.</li></ul>",
+   "pdf_page": 410,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note:</strong> If Major Depression, Major Depressive Disorder (MDD), recurrent depression, or depression requiring treatment - see that section in <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table\" target=\"_blank\" rel=\"noopener\">Psychiatric Conditions</a> . If any of the supporting documents contain a diagnosis<strong> other than </strong>Situational Depression, Adjustment Disorder With Depressed Mood, or Minor Depression - see the corresponding disposition table. <strong>See the </strong> <a href=\"https://www.faa.gov/ame_guide/media/Situational-Depression-Decision-Tool.pdf\" target=\"_blank\" rel=\"noopener\"><strong>Situational Depression Decision Tool for the AME</strong></a> <strong> on the following page. </strong></p>",
+ "links": [
+  {
+   "text": "Psychiatric Conditions",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/table"
+  },
+  {
+   "text": "Situational Depression Decision Tool for the AME",
+   "href": "https://www.faa.gov/ame_guide/media/Situational-Depression-Decision-Tool.pdf"
+  },
+  {
+   "text": "SSRI protocol",
+   "href": "http://www.faa.gov/go/SSRI"
+  },
+  {
+   "text": "FAA Specifications for Psychiatric Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_SSRI_Initial_Certification.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "situational-depression",
+  "section_title": "SITUATIONAL DEPRESSION",
+  "pdf_pages": [
+   410,
+   411
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

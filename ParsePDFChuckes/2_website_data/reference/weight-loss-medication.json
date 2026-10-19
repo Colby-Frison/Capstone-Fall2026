@@ -1,0 +1,134 @@
+{
+ "slug": "weight-loss-medication",
+ "title": "WEIGHT LOSS MEDICATION",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  677
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "((Updated 04/29/2026))",
+   "html": "<p>((Updated 04/29/2026))</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113(c); 67.213(c); & 67.313(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS - 67.113(c); 67.213(c); &amp; 67.313(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "II. MEDICAL HISTORY: ITEM 48. General Systemic",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: I<strong>TEM 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects. If the applicant has diabetes, see that page.",
+   "html": "<p>The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects. If the applicant has diabetes, see that page.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Item 48. General Systemic",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See Item 48. General Systemic</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "IV. PROTOCOL: See either the Prediabetes or Weight Loss Management disposition tables.",
+   "html": "<p><strong>IV. PROTOCOL</strong>: See either the <a href=\"https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Prediabetes</a> or <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Weight Loss Management</a> disposition tables.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS: Pilots exhibiting symptoms which may interfere with flight duties, regardless of the treatment used, must not fly in accordance with 61.53. The AME must notate the evaluation data in Block 60.",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS: </strong>Pilots exhibiting symptoms which may interfere with flight duties, regardless of the treatment used, must not fly in accordance with 61.53. The AME must notate the evaluation data in Block 60.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "DIABETIC MEDICATIONS USED FOR WEIGHT LOSS*:",
+   "html": "<p><strong>DIABETIC MEDICATIONS USED FOR WEIGHT LOSS*: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 677,
+   "text": "- A1C must be 6.4 or less with no diagnosis of diabetes AND\n- No history of hypoglycemia requiring intervention.",
+   "html": "<ul><li> A1C must be <strong>6.4 or less</strong> with no diagnosis of diabetes AND</li><li> No history of hypoglycemia requiring intervention.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "See Weight Loss Management or Prediabetes Status Report. If used for DIABETES, see www.faa.gov/go/diabetic",
+   "html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_prediabetes_status_report.pdf\" target=\"_blank\" rel=\"noopener\">Weight Loss Management or Prediabetes Status Report.</a> If used for DIABETES, see <a href=\"http://www.faa.gov/go/diabetic\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/diabetic</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "If taking insulin + weight loss medication, see www.faa.gov/go/ITDM",
+   "html": "<p>If taking insulin + weight loss medication, see <a href=\"http://www.faa.gov/go/ITDM\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ITDM</a></p>"
+  },
+  {
+   "type": "table",
+   "page": 677,
+   "header": null,
+   "rows": [
+    [
+     "ACCEPTABLE Weight Loss Medications"
+    ],
+    [
+     "When certification criteria are met."
+    ],
+    [
+     "Medication Drug Class Initial observation"
+    ],
+    [
+     "Lipase inhibitors – e.g., orlistat [Alli; Xenical]) - OTC 48 hours"
+    ],
+    [
+     "Treated with a single diabetic medication component: Two (2) weeks after starting for weight loss. metformin 48-hour observation with each dose increase, medication, or formulation GLP-1 agonist change. • liraglutide • semaglutide (Wegovy) See either the Prediabetes or Weight Loss • tirzepatide (Zepbound) [GIP + GLP-1 Agonist] Management disposition tables Combination of the following (only one diabetic medication): • orlistat + metformin orlistat + GLP-1 agonist"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>ACCEPTABLE Weight Loss Medications </strong></p></td></tr><tr><td><p>When certification criteria are met.</p></td></tr><tr><td><p><strong>Medication Drug Class Initial observation</strong></p></td></tr><tr><td><p> Lipase inhibitors – e.g., orlistat [Alli; Xenical]) - OTC 48 hours</p></td></tr><tr><td><p>Treated with a single diabetic medication component: Two (2) weeks after starting for weight loss. metformin 48-hour observation with each dose increase, medication, or formulation GLP-1 agonist change.</p>\n<p>• liraglutide</p>\n<p>• semaglutide (Wegovy) See either the <a href=\"https://www.faa.gov/ame_guide/media/Prediabetes_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Prediabetes</a> or Weight Loss</p>\n<p>• tirzepatide (Zepbound) [GIP + GLP-1 Agonist] <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Management</a> disposition tables Combination of the following (only one diabetic medication):</p>\n<p>• orlistat + metformin orlistat + GLP-1 agonist</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 677,
+   "header": [
+    "CONDITIONALLY ACCEPTABLE Weight Loss Medications *(Requires SI)"
+   ],
+   "rows": [
+    [
+     "Combination of two diabetic medications (2 components) e.g., metformin + GLP-1 agonist",
+     "See Acceptable Combinations of Diabetes Medications"
+    ]
+   ],
+   "html": "<table><thead><tr><th>CONDITIONALLY ACCEPTABLE Weight Loss Medications *(Requires SI)</th></tr></thead><tbody><tr><td><p>Combination of two diabetic medications (2 components)</p>\n<p>e.g., metformin + GLP-1 agonist</p></td><td><p>See <a href=\"https://www.faa.gov/ame_guide/media/diabetesmeds_acceptablecomb.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Combinations of Diabetes Medications</a></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 677,
+   "header": [
+    "UNACCEPTABLE Weight Loss Medications Use prohibited as a single agent or in any combination product."
+   ],
+   "rows": [
+    [
+     "Sympathomimetic (such as phentermine) - benzphetamine (Regimex) - diethylpropion (Tenuate, Tempanil) - phendimetrazine (Bontril) - phentermine (Adipex, Fastin) - phentermine + topiramate (Qsymia)",
+     "bupropion + naltrexone (Contrave) citric acid + cellulose (Plenity) Serotonin 5HT-2 Receptor Agonist - lorcaserin (Belviq) - fenfluramine hydrochloride (Pondimin)"
+    ]
+   ],
+   "html": "<table><thead><tr><th>UNACCEPTABLE Weight Loss Medications Use prohibited as a single agent or in any combination product.</th></tr></thead><tbody><tr><td><p>Sympathomimetic (such as phentermine)</p>\n<ul><li>benzphetamine (Regimex)</li><li>diethylpropion (Tenuate, Tempanil)</li><li>phendimetrazine (Bontril)</li><li>phentermine (Adipex, Fastin)</li><li>phentermine + topiramate (Qsymia)</li></ul></td><td><p>bupropion + naltrexone (Contrave)</p>\n<p>citric acid + cellulose (Plenity)</p>\n<p>Serotonin 5HT-2 Receptor Agonist</p>\n<ul><li>lorcaserin (Belviq)</li><li>fenfluramine hydrochloride (Pondimin)</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 677,
+   "text": "677",
+   "html": "<p>677</p>"
+  }
+ ]
+}

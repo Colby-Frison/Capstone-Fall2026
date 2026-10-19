@@ -1,0 +1,53 @@
+{
+ "id": "leukemia-acute-and-chronic",
+ "name": "Leukemia, Acute and Chronic",
+ "subtitle": null,
+ "name_in_guide": "LEUKEMIA, ACUTE AND CHRONIC",
+ "category": {
+  "id": "lymphatics",
+  "name": "Lymphatics",
+  "exam_item": "45",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/31/2023",
+ "order": 109,
+ "decisions": [
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Leukemia, Acute and Chronic – All Types",
+   "condition_html": "<p>Leukemia, Acute and Chronic – All Types</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+   "evaluation_data_html": "<p>Submit a <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician no more than <strong>90 days</strong> before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 278,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-45-lymphatics",
+  "section_title": "ITEM 45. Lymphatics",
+  "pdf_pages": [
+   278
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

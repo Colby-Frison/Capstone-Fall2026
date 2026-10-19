@@ -1,0 +1,41 @@
+{
+ "slug": "items-11-12-occupation-employer",
+ "title": "ITEMS 11-12. Occupation; Employer",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  45
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "Occupational data are principally used for statistical purposes. This information, along with information obtained from Items 10, 14 and 15 may be important in determining whether a SODA may be issued, if applicable.",
+   "html": "<p>Occupational data are principally used for statistical purposes. This information, along with information obtained from <strong>Items 10, 14 </strong>and<strong> 15 </strong>may be important in determining whether a SODA may be issued, if applicable.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "11. Occupation",
+   "html": "<p><strong>11. Occupation </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "This should reflect the applicant's major employment. \"Pilot\" should only be reported when the applicant earns a livelihood from flying.",
+   "html": "<p>This should reflect the applicant&#x27;s major employment. &quot;Pilot&quot; should only be reported when the applicant earns a livelihood from flying.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "12. Employer",
+   "html": "<p><strong>12. Employer </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "The employer's name should be entered by the applicant.",
+   "html": "<p>The employer&#x27;s name should be entered by the applicant.</p>"
+  }
+ ]
+}

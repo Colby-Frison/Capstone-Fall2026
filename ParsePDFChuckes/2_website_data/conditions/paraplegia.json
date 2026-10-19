@@ -1,0 +1,76 @@
+{
+ "id": "paraplegia",
+ "name": "Paraplegia",
+ "subtitle": null,
+ "name_in_guide": "PARAPLEGIA",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 139,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically address:",
+  "Medication use and side effects, if any;",
+  "Autonomic functions such as bowel, bladder, and blood pressure control;",
+  "Orthostatic episodes;",
+  "Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and",
+  "Description of movement, strength, and tone (ability to get into and out of an airplane)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Paraplegia",
+   "condition_html": "<p><strong>A.</strong> Paraplegia</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically address: - Cause of paraplegia; - Medication use and side effects, if any; - Autonomic functions such as bowel, bladder, and blood pressure control; - Orthostatic episodes; - Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and - Description of movement, strength, and tone (ability to get into and out of an airplane). Note: Most anticholinergic medications are not acceptable. If the neurology evaluation does not adequately describe movement, strength, and functional ability, the AME should describe any functional limitations that could affect the ability to operate aircraft controls. If not addressed, a PT/OT/PMR Functional Capacity Evaluation (FCE) may be required. In most cases, a Medical Flight Test (MFT) is required prior to medical certification and/or Special Issuance for all classes.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> , generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. It must specifically address:<ul><li>Cause of paraplegia;</li><li>Medication use and side effects, if any;</li><li>Autonomic functions such as bowel, bladder, and blood pressure control;</li><li>Orthostatic episodes;</li><li>Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and</li><li>Description of movement, strength, and tone (ability to get into and out of an airplane).</li></ul></li></ul>\n<p><strong>Note: </strong>Most anticholinergic medications are not acceptable. If the neurology evaluation does not adequately describe movement, strength, and functional ability, the AME should describe any functional limitations that could affect the ability to operate aircraft controls. If not addressed, a PT/OT/PMR Functional Capacity Evaluation (FCE) may be required.</p>\n<p>In most cases, a <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item42/amd\" target=\"_blank\" rel=\"noopener\">Medical Flight Test (MFT)</a> is required prior to medical certification and/or Special Issuance for all classes.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically address:",
+    "Medication use and side effects, if any;",
+    "Autonomic functions such as bowel, bladder, and blood pressure control;",
+    "Orthostatic episodes;",
+    "Hypotensive episodes on the ground. (This could be exacerbated with G-forces in flight.); and",
+    "Description of movement, strength, and tone (ability to get into and out of an airplane)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance or Medical Flight Test and SODA.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance or Medical Flight Test and SODA.</p>",
+   "pdf_page": 349,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "Medical Flight Test (MFT)",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item42/amd"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   349
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

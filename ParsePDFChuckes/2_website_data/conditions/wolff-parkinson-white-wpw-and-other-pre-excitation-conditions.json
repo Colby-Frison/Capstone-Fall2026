@@ -1,0 +1,129 @@
+{
+ "id": "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+ "name": "Wolff Parkinson White (WPW) and other pre-excitation conditions",
+ "subtitle": null,
+ "name_in_guide": "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 52,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating electrophysiologist or cardiologist no more than 90 days before the AME exam.",
+  "It must specifically include if the diagnosis is WPW pattern, WPW syndrome, or other.",
+  "Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+  "Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+  "Other testing. Copies of any testing deemed clinically necessary by the treating physician.",
+  "It must specifically include:",
+  "Date(s) of ablation procedure(s);",
+  "if anti-arrhythmia medications are needed; and",
+  "any continued symptoms.",
+  "Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed at least 90 days AFTER THE ABLATION and no more than 90 days prior to the AME exam.",
+  "Copies of all ablation procedure reports.",
+  "date(s) of all ablation procedure(s);",
+  "are anti-arrhythmia medications needed;",
+  "any symptoms; and",
+  "cause of recurrence/failure."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "WPW PATTERN on EKG/ECG - Incidental finding on EKG/ECG - NO symptoms - Never required treatment",
+   "condition_html": "<p><strong>A. </strong>WPW <strong>PATTERN</strong> on EKG/ECG</p>\n<ul><li>Incidental finding on EKG/ECG</li><li>NO symptoms</li><li>Never required treatment</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating electrophysiologist or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include if the diagnosis is WPW pattern, WPW syndrome, or other. - 3. Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. - 4. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter. - 5. Exercise stress test (EST) performed no more than 90 days prior to the AME exam. - 6. Other testing. Copies of any testing deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>electrophysiologist</strong> or <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. It must specifically include</strong> if the diagnosis is WPW pattern, WPW syndrome, or other.</li></ul>\n<ul><li><strong>3. Echocardiogram (Echo).</strong> Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>4. 24-hour cardiac monitor</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>5. Exercise stress test (EST)</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>6. Other testing. </strong>Copies of any testing deemed clinically necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating electrophysiologist or cardiologist no more than 90 days before the AME exam.",
+    "It must specifically include if the diagnosis is WPW pattern, WPW syndrome, or other.",
+    "Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+    "Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+    "Other testing. Copies of any testing deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 163,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "WPW SYNDROME TREATED with radiofrequency ablation - ANY time in the past AND - Does not need antiarrhythmic medication to sustain Note: Do NOT use the typical atrial flutter page.",
+   "condition_html": "<p><strong>B.</strong> WPW <strong>SYNDROME TREATED </strong></p>\n<p><strong>with radiofrequency ablation </strong></p>\n<ul><li>ANY time in the past</li></ul>\n<p>AND</p>\n<ul><li>Does not need antiarrhythmic medication to sustain</li></ul>\n<p>Note: <strong>Do NOT use the typical atrial flutter page. </strong></p>",
+   "evaluation_data": "After a 3-month recovery, obtain the following and submit for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating electrophysiologist or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include: - Date(s) of ablation procedure(s); - if anti-arrhythmia medications are needed; and - any continued symptoms. - 3. Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam. - 4. 24-hour cardiac monitor performed at least 90 days AFTER THE ABLATION and no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter. - 5. Exercise stress test (EST) performed no more than 90 days prior to the AME exam. - 6. Other testing. Copies of any testing deemed clinically necessary by the treating physician. - 7. Copies of all ablation procedure reports.",
+   "evaluation_data_html": "<p>After a <strong>3-month recovery,</strong> obtain the following and submit for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>electrophysiologist</strong> or <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. It must specifically include:</strong></li><li>Date(s) of ablation procedure(s);</li><li>if anti-arrhythmia medications are needed; and</li><li>any continued symptoms.</li></ul>\n<ul><li><strong>3. Echocardiogram (Echo).</strong> Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>4. 24-hour cardiac monitor</strong> performed <strong>at least 90 days AFTER THE ABLATION and </strong>no more than 90 days prior to the AME exam.</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>5. Exercise stress test (EST)</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>6. Other testing. </strong>Copies of any testing deemed clinically necessary by the treating physician.</li></ul>\n<ul><li><strong>7. </strong>Copies of all ablation procedure reports.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating electrophysiologist or cardiologist no more than 90 days before the AME exam.",
+    "It must specifically include:",
+    "Date(s) of ablation procedure(s);",
+    "if anti-arrhythmia medications are needed; and",
+    "any continued symptoms.",
+    "Echocardiogram (Echo). Report from a 2- D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed at least 90 days AFTER THE ABLATION and no more than 90 days prior to the AME exam.",
+    "Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+    "Other testing. Copies of any testing deemed clinically necessary by the treating physician.",
+    "Copies of all ablation procedure reports."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 163,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "WPW SYNDROME (had symptoms at any time) NOT ablated OR Previous ablation but requires medication to control rate or symptoms.",
+   "condition_html": "<p><strong>C. WPW SYNDROME </strong></p>\n<p>(had symptoms at any time)</p>\n<p><strong>NOT ablated </strong></p>\n<p><strong>OR </strong></p>\n<p>Previous ablation but <strong>requires medication</strong> to control rate or symptoms.</p>",
+   "evaluation_data": "Submit the following for FAA review: All information in row B The cardiology progress note must specifically include: - date(s) of all ablation procedure(s); - are anti-arrhythmia medications needed; - any symptoms; and - cause of recurrence/failure.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>All information in row <strong>B</strong></p>\n<p>The cardiology progress note <strong>must specifically include:</strong></p>\n<ul><li>date(s) of all ablation procedure(s);</li><li>are anti-arrhythmia medications needed;</li><li>any symptoms; and</li><li><strong>cause of recurrence/failure. </strong></li></ul>",
+   "what_to_bring": [
+    "date(s) of all ablation procedure(s);",
+    "are anti-arrhythmia medications needed;",
+    "any symptoms; and",
+    "cause of recurrence/failure."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 163,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+  "section_title": "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions",
+  "pdf_pages": [
+   163
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

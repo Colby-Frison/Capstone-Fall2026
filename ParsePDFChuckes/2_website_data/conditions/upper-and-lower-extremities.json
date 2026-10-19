@@ -1,0 +1,135 @@
+{
+ "id": "upper-and-lower-extremities",
+ "name": "Upper and Lower Extremities",
+ "subtitle": null,
+ "name_in_guide": "UPPER AND LOWER EXTREMITIES",
+ "category": {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 102,
+ "decisions": [
+  "issue",
+  "faa_decision",
+  "see_reference"
+ ],
+ "what_to_bring": [
+  "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Amputations",
+   "condition_html": "<p>Amputations</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports",
+   "evaluation_data_html": "<p>Submit a <strong>current, detailed Clinical Progress Note</strong> to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If applicant has a SODA issued on the basis of the amputation - Issue Otherwise - Requires FAA Decision After review of all medical data, the FAA may authorize a special medical flight test",
+   "disposition_html": "<p>If applicant has a SODA issued on the basis of the amputation - <strong>Issue</strong> Otherwise - Requires FAA Decision After review of all medical data, the FAA may authorize a special medical flight test</p>",
+   "pdf_page": 268,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Atrophy of any muscles that is progressive, Deformities, either congenital or acquired OR Limitation of motion of a major joint, that are sufficient to interfere with the performance of pilot duties",
+   "condition_html": "<p>Atrophy of any muscles that is progressive,</p>\n<p>Deformities, either congenital or acquired</p>\n<p>OR</p>\n<p>Limitation of motion of a major joint, that are sufficient to interfere with the performance of pilot duties</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports",
+   "evaluation_data_html": "<p>Submit a <strong>current, detailed Clinical Progress Note </strong>to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 268,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Neuralgia",
+   "condition_html": "<p>Neuralgia</p>",
+   "evaluation_data": "See Item 46. Neurologic, Other Conditions - Neuralgia (Trigeminal Neuralgia, Post Herpetic Neuralgia) Disposition Table",
+   "evaluation_data_html": "<p>See Item 46. Neurologic, Other Conditions - <a href=\"https://www.faa.gov/ame_guide/media/Neuralgia.pdf\" target=\"_blank\" rel=\"noopener\">Neuralgia (Trigeminal Neuralgia, Post Herpetic Neuralgia) Disposition Table</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "see_reference"
+   ],
+   "disposition": "See disposition table",
+   "disposition_html": "<p>See disposition table</p>",
+   "pdf_page": 268,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Sciatica, if sufficient to interfere with function or is likely to become incapacitating",
+   "condition_html": "<p>Sciatica, if sufficient to interfere with function or is likely to become incapacitating</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports",
+   "evaluation_data_html": "<p>Submit a <strong>current, detailed Clinical Progress Note</strong> to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note to include functional status (degree of impairment as measured by strength, range of motion, pain), medications with side effects (if any), and all pertinent medical reports"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 268,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Tremor",
+   "condition_html": "<p>Tremor</p>",
+   "evaluation_data": "See Item 46. Neurologic, Extrapyramidal, Hereditary, and Degenerative Diseases of the Nervous System- Tremor Disposition Table",
+   "evaluation_data_html": "<p>See Item 46. Neurologic, Extrapyramidal, Hereditary, and Degenerative Diseases of the Nervous System- <a href=\"https://www.faa.gov/ame_guide/media/Tremor.pdf\" target=\"_blank\" rel=\"noopener\">Tremor Disposition Table</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "see_reference"
+   ],
+   "disposition": "See disposition table",
+   "disposition_html": "<p>See disposition table</p>",
+   "pdf_page": 268,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Neuralgia (Trigeminal Neuralgia, Post Herpetic Neuralgia) Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/Neuralgia.pdf"
+  },
+  {
+   "text": "Tremor Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/Tremor.pdf"
+  }
+ ],
+ "aliases": [
+  "Amputations",
+  "Atrophy of any muscles that is progressive, Deformities, either congenital or ac",
+  "Neuralgia",
+  "Sciatica, if sufficient to interfere with function or is likely to become incapa",
+  "Tremor"
+ ],
+ "source": {
+  "section": "osteomyelitis-bone-infection",
+  "section_title": "OSTEOMYELITIS (BONE INFECTION)",
+  "pdf_pages": [
+   268
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

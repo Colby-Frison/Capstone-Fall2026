@@ -1,0 +1,17 @@
+{
+ "slug": "8-no-alternate-examiners-designated",
+ "title": "8. No \"Alternate\" Examiners Designated",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  20
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "The AME is to conduct all medical examinations at their designated address only. An AME is not permitted to conduct examinations at a temporary address and is not permitted to name an alternate examiner. During an AME's absence from the permanent office, applicants for airman medical certification shall be referred to another AME in the area.",
+   "html": "<p>The AME is to conduct all medical examinations at their designated address only. An AME <strong>is not permitted</strong> to conduct examinations at a temporary address and is not permitted to name an alternate examiner. During an AME&#x27;s absence from the permanent office, applicants for airman medical certification shall be referred to another AME in the area.</p>"
+  }
+ ]
+}

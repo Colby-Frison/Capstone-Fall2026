@@ -1,0 +1,71 @@
+{
+ "slug": "malaria-medications",
+ "title": "MALARIA MEDICATIONS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  657
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "(Updated 04/27/2016)",
+   "html": "<p>(Updated 04/27/2016)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "I. CODE OF FEDERAL REGULATIONS",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "First-Class Airman Medical Certificate: 67.113(c)",
+   "html": "<p><strong>First-Class Airman Medical Certificate: 67.113(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "Second-Class Airman Medical Certificate: 67.213(c)",
+   "html": "<p><strong>Second-Class Airman Medical Certificate: 67.213(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "Third-Class Airman Medical Certificate: 67.313(c)",
+   "html": "<p><strong>Third-Class Airman Medical Certificate: 67.313(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "II. MEDICAL HISTORY: This medication is absolutely disqualifying for pilots. Mefloquine (Lariam) is associated with adverse neuropsychiatric side-effects, even weeks after the drug is discontinued. Because of the association with adverse neuropsychiatric side-effects, even weeks after discontinuation, a pilot who elects to use mefloquine for malaria prophylaxis or who contracts malaria and is treated with mefloquine will be disqualified for pilot duties for the duration of use of mefloquine and for 4 weeks after the last dose. In this instance, the pilot must contact the FAA or his/her Aviation Medical Examiner prior to returning to flight duties after use.",
+   "html": "<p><strong>II. MEDICAL HISTORY:</strong> This medication is absolutely disqualifying for pilots. Mefloquine (Lariam) is associated with adverse neuropsychiatric side-effects, even weeks after the drug is discontinued. Because of the association with adverse neuropsychiatric side-effects, even weeks after discontinuation, a pilot who elects to use mefloquine for malaria prophylaxis or who contracts malaria and is treated with mefloquine will be disqualified for pilot duties for the duration of use of mefloquine and for 4 weeks after the last dose. In this instance, the pilot <strong>must contact the FAA</strong> or his/her Aviation Medical Examiner prior to returning to flight duties after use.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: For return to pilot duties there must be no history of neurologic or psychiatric symptoms during and or after mefloquine use. Examples of symptoms related to mefloquine use include dizziness or vertigo, tinnitus, and loss of balance; anxiety, paranoia, depression, restlessness or confusion, hallucinations and psychotic behavior.",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: For return to pilot duties there must be no history of neurologic or psychiatric symptoms during and or after mefloquine use. Examples of symptoms related to mefloquine use include dizziness or vertigo, tinnitus, and loss of balance; anxiety, paranoia, depression, restlessness or confusion, hallucinations and psychotic behavior.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 657,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS:",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "list",
+   "page": 657,
+   "text": "- Use of mefloquine must be discontinued for at least 4 weeks prior to consideration and:\n- The airman must contact the FAA agency flight surgeon or their AME before resuming pilot duties\n- For return to pilot duties there must be no history of neurologic or psychiatric symptoms during and or after mefloquine use",
+   "html": "<ul><li>Use of mefloquine must be discontinued for at least 4 weeks prior to consideration and:</li><li>The airman must contact the FAA agency flight surgeon or their AME before resuming pilot duties</li><li>For return to pilot duties there must be no history of neurologic or psychiatric symptoms during and or after mefloquine use</li></ul>"
+  }
+ ]
+}

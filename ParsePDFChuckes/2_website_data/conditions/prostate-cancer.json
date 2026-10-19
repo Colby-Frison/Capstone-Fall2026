@@ -1,0 +1,128 @@
+{
+ "id": "prostate-cancer",
+ "name": "Prostate Cancer",
+ "subtitle": null,
+ "name_in_guide": "PROSTATE CANCER",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/31/2023",
+ "order": 93,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit the following for FAA review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. Status It should describe treatment plan, how long the condition has been stable, and prognosis; List of medications and presence or absence of side effects (if any) with specific attention to any chemotherapy, steroids, or hormone agents and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Prostate Cancer Non metastatic With treatment completed 5 or more years ago",
+   "condition_html": "<p><strong>A. Prostate Cancer </strong>Non metastatic With treatment completed <strong>5 or more years ago </strong></p>",
+   "evaluation_data": "If NO recurrence or ongoing treatment:",
+   "evaluation_data_html": "<p>If NO recurrence or ongoing treatment:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong> ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 252,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Prostate Cancer Non metastatic with treatment completed less than 5 years ago or active surveillance/ watchful waiting.",
+   "condition_html": "<p></p>\n<p><strong>B. Prostate Cancer </strong>Non metastatic with treatment completed <strong>less than 5 years ago or active surveillance/ watchful waiting.</strong></p>",
+   "evaluation_data": "See CACI worksheet.",
+   "evaluation_data_html": "<p>See CACI worksheet.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI - Prostate Cancer Worksheet Note in Block 60.",
+   "disposition_html": "<p>Follow th<a href=\"https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf\" target=\"_blank\" rel=\"noopener\">e CACI -</a> Prostate Cancer Worksheet Note in Block 60.</p>",
+   "pdf_page": 252,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Prostate Cancer With Metastatic disease Current OR any time in the past OR Recurrence of disease Including a biochemical recurrence (BCR) after prostatectomy",
+   "condition_html": "<p><strong>C. Prostate Cancer </strong>With <strong>Metastatic disease</strong></p>\n<p>Current OR any time in the past</p>\n<p>OR</p>\n<p><strong>Recurrence of disease </strong>Including a biochemical recurrence (BCR) after prostatectomy</p>",
+   "evaluation_data": "Submit the following for FAA review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. Status It should describe treatment plan, how long the condition has been stable, and prognosis; List of medications and presence or absence of side effects (if any) with specific attention to any chemotherapy, steroids, or hormone agents and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong> <strong>Current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. Status It should describe treatment plan, how long the condition has been stable, and prognosis; List of medications and presence or absence of side effects (if any) with specific attention to any chemotherapy, steroids, or hormone agents and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease</p>",
+   "what_to_bring": [
+    "Submit the following for FAA review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. Status It should describe treatment plan, how long the condition has been stable, and prognosis; List of medications and presence or absence of side effects (if any) with specific attention to any chemotherapy, steroids, or hormone agents and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance",
+    "faa_decision"
+   ],
+   "disposition": "DEFER Initial Special Issuance – Requires FAA Decision Follow up Special Issuance will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p><strong>Initial Special Issuance </strong>– Requires FAA Decision</p>\n<p><strong>Follow up Special <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer\" target=\"_blank\" rel=\"noopener\">Issuance</a> </strong>will be per the airman’s authorization letter</p>",
+   "pdf_page": 252,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Prostate Cancer Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies: - Condition is stable with no spread or recurrence; - There is no current or historical evidence of any metastatic disease; - Active treatment is completed (Chemotherapy/radiation, etc.) and no further treatment is recommended at this time; and - If surgery has been performed, the airman - Is off pain medications; - Has made a full recovery; and - Has been released by the surgeon",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Current PSA (within the last 6 months)",
+     "acceptable_certification_criteria": "[ ] 20 or less if no prostatectomy [ ] 0.2 or less after prostatectomy"
+    },
+    {
+     "ame_must_review": "Symptoms",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Current treatment Notes: If it has been 5 or more years since the airman has had any treatment for this condition, with no history of metastatic disease and no reoccurrence, CACI is not required. Note this in Block 60. ( See disposition table .)",
+     "acceptable_certification_criteria": "[ ] None or active surveillance/watchful waiting or Brachytherapy"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified prostate cancer. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified prostate cancer.",
+    "NOT CACI qualified prostate cancer. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<table><tbody><tr><td><p><strong>B. Prostate Cancer </strong></p>\n<p>Non metastatic with treatment completed <strong>less than 5 years ago or active surveillance/ watchful waiting.</strong></p></td><td><p>See CACI worksheet.</p></td><td><p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Prostate Cancer Worksheet</a></p>\n<p>Note in Block 60.</p></td><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><ul><li>course, locations of metastatic disease, and stability;</li><li> Operative notes and discharge summary, if applicable;</li><li> Pathology report(s), if applicable; and</li><li> Results of MRI/CT or PET scan reports. (In some cases, the actual CDs will be required in DICOM format for FAA review).</li></ul></td></tr></tbody></table>\n<p><strong>Notes: </strong>If the airman is currently on radiation or chemotherapy, the treatment course should be completed before medical certification can be considered.</p>\n<p>(Updated 04/27/2022)</p>",
+ "links": [
+  {
+   "text": "CACI - Prostate Cancer Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_Prostate_Cancer.pdf"
+  },
+  {
+   "text": "Issuance",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/prostate_cancer"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   252,
+   253,
+   254
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

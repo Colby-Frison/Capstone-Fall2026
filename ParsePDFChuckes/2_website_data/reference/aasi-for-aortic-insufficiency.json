@@ -1,0 +1,59 @@
+{
+ "slug": "aasi-for-aortic-insufficiency",
+ "title": "AASI for Aortic Insufficiency",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  683
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 683,
+   "text": "- An Authorization granted by the FAA;\n- A summary of the applicant’s medical condition since the last FAA medical examination, including a statement regarding any further episodes of atrial fibrillation; and\n- A current 2-D echocardiogram with Doppler performed within the last 90 days.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>A summary of the applicant’s medical condition since the last FAA medical examination, including a statement regarding any further episodes of atrial fibrillation; and</li><li>A current 2-D echocardiogram with Doppler performed within the last 90 days.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 683,
+   "text": "- The mean gradient across the valve reaches 40 mm Hg;\n- New symptoms occur;\n- An arrhythmia develops; or\n- The treating physician or AME reports the murmur is now moderate to severe (Grade III or IV).",
+   "html": "<ul><li>The mean gradient across the valve reaches 40 mm Hg;</li><li>New symptoms occur;</li><li>An arrhythmia develops; or</li><li>The treating physician or AME reports the murmur is now moderate to severe (Grade III or IV).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 683,
+   "text": "683",
+   "html": "<p>683</p>"
+  }
+ ]
+}

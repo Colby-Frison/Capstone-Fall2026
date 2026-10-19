@@ -1,0 +1,160 @@
+{
+ "slug": "item-40-skin",
+ "title": "ITEM 40. Skin",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 231,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "NORMAL",
+    "ABNORMAL"
+   ],
+   "rows": [
+    [
+     "40. Skin",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>NORMAL</th><th>ABNORMAL</th></tr></thead><tbody><tr><td><p>40. Skin</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds -",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "medical certificate applied for or held, to make the person unable to",
+   "html": "<p>medical certificate applied for or held, to make the person unable to</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "perform those duties or exercise those privileges.",
+   "html": "<p>perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(c) No medication or other treatment that the Federal Air Surgeon, based on the",
+   "html": "<p>(c) No medication or other treatment that the Federal Air Surgeon, based on the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds:",
+   "html": "<p>case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "A careful examination of the skin may reveal underlying systemic disorders of clinical importance. For example, thyroid disease may produce changes in the skin and fingernails. Cushing's disease may produce abdominal striae, and abnormal pigmentation of the skin occurs with Addison's disease.",
+   "html": "<p>A careful examination of the skin may reveal underlying systemic disorders of clinical importance. For example, thyroid disease may produce changes in the skin and fingernails. Cushing&#x27;s disease may produce abdominal striae, and abnormal pigmentation of the skin occurs with Addison&#x27;s disease.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "Needle marks that suggest drug abuse should be noted and body marks and scars should be described and correlated with known history. Further history should be obtained as needed to explain findings.",
+   "html": "<p>Needle marks that suggest drug abuse should be noted and body marks and scars should be described and correlated with known history. Further history should be obtained as needed to explain findings.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 231,
+   "text": "The use of isotretinoin (Accutane) can be associated with vision and psychiatric side effects of aeromedical concern – specifically decreased night vision/night blindness and depression. These side-effects can occur even after the cessation of isotretinoin. See Aeromedical Decision Considerations.",
+   "html": "<p>The use of isotretinoin (Accutane) can be associated with vision and psychiatric side effects of aeromedical concern – specifically decreased night vision/night blindness and depression. These side-effects can occur even after the cessation of isotretinoin. See Aeromedical Decision Considerations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 232,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 232,
+   "text": "The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.",
+   "html": "<p>The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.</p>"
+  }
+ ]
+}

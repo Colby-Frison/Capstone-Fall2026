@@ -1,0 +1,162 @@
+{
+ "slug": "20-questions-requests-for-assistance-and-technical-support",
+ "title": "20. Questions, Requests for Assistance, and Technical Support",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  29,
+  30
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "(Updated 09/29/2021)",
+   "html": "<p>(Updated 09/29/2021)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "AMCS Technical Support: For any questions regarding technical issues related to transmitting exams, please contact the AMCS Support Team. Typical technical issues include AMCS password resets, data entry questions, corrections to transmitted exams, etc.",
+   "html": "<p><strong>AMCS Technical Support: </strong>For any questions regarding <strong>technical issues</strong> related to transmitting exams, please contact the AMCS Support Team. Typical technical issues include AMCS password resets, data entry questions, corrections to transmitted exams, etc.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "AMCS Support is available Monday-Friday, 8 a.m. to 4:15 p.m. (CT) and can be reached by:",
+   "html": "<p>AMCS Support is available Monday-Friday, 8 a.m. to 4:15 p.m. (CT) and can be reached by:</p>"
+  },
+  {
+   "type": "list",
+   "page": 29,
+   "text": "- Phone (405) 954-3238 or\n- Email at 9-amc-aam-certification@faa.gov .",
+   "html": "<ul><li>Phone (405) 954-3238 or</li><li>Email at <a href=\"mailto:9-amc-aam-certification@faa.gov\">9-amc-aam-certification@faa.gov</a> .</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Other Issues: When an AME has a question or needs assistance in carrying out responsibilities, the AME should contact one of the following individuals:",
+   "html": "<p><strong>Other Issues:</strong> When an AME has a question or needs assistance in carrying out responsibilities, the AME should contact one of the following individuals:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "A. Regional Flight Surgeon (RFS)",
+   "html": "<p>A. Regional Flight Surgeon (RFS)</p>"
+  },
+  {
+   "type": "list",
+   "page": 29,
+   "text": "- Questions pertaining to problem medical certification cases in which the RFS has initiated action;\n- Telephone interpretation of medical standards or policies involving an individual airman whom the AME is examining;\n- Matters regarding designation and re-designation of AMEs and the Aviation Medical Examiner Program; or\n- Attendance at Aviation Medical Examiner Seminars.",
+   "html": "<ul><li>Questions pertaining to problem medical certification cases in which the RFS has initiated action;</li><li>Telephone interpretation of medical standards or policies involving an individual airman whom the AME is examining;</li><li>Matters regarding designation and re-designation of AMEs and the Aviation Medical Examiner Program; or</li><li>Attendance at Aviation Medical Examiner Seminars.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "B. Manager, AMCD, AAM-300",
+   "html": "<p>B. Manager, AMCD, AAM-300</p>"
+  },
+  {
+   "type": "list",
+   "page": 29,
+   "text": "- Inquiries concerning guidance on problem medical certification cases;\n- Information concerning the overall airman medical certification program;\n- Matters involving FAA medical certification of military personnel; or\n- Information concerning medical certification of applicants in foreign countries",
+   "html": "<ul><li>Inquiries concerning guidance on problem medical certification cases;</li><li>Information concerning the overall airman medical certification program;</li><li>Matters involving FAA medical certification of military personnel; or</li><li>Information concerning medical certification of applicants in foreign countries</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "These inquiries should be made to:",
+   "html": "<p>These inquiries should be made to:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "MANAGER",
+   "html": "<p>MANAGER</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Aerospace Medical Certification Division, AAM-300",
+   "html": "<p>Aerospace Medical Certification Division, AAM-300</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "PO Box 25082",
+   "html": "<p>PO Box 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "C. Manager, Aeromedical Education Division, AAM-400",
+   "html": "<p>C. Manager, Aeromedical Education Division, AAM-400</p>"
+  },
+  {
+   "type": "list",
+   "page": 30,
+   "text": "- Matters regarding designation and re-designation of AMEs;\n- Requests for medical forms and stationery; or\n- Requests for airman medical educational material",
+   "html": "<ul><li>Matters regarding designation and re-designation of AMEs;</li><li>Requests for medical forms and stationery; or</li><li>Requests for airman medical educational material</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "These inquiries should be made to:",
+   "html": "<p>These inquiries should be made to:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "MANAGER",
+   "html": "<p>MANAGER</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "Aerospace Medical Certification Division, AAM-400",
+   "html": "<p>Aerospace Medical Certification Division, <strong>AAM-400</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "PO Box 25082",
+   "html": "<p>PO Box 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 30,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "hypothyroid-or-hypothyroidism",
+ "name": "Hypothyroid or Hypothyroidism",
+ "subtitle": null,
+ "name_in_guide": "HYPOTHYROID or HYPOTHYROIDISM",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 171,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician performed no more than 90 days before the AME exam. (Diagnosis of Central Hypothyroidism should be evaluated by an endocrinologist.) It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "Lab: Performed within 90 days of the AME exam to include:",
+  "Any other lab already performed (Ex. T3, Free T4) by the treating physician.",
+  "Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.",
+  "Any other testing deemed clinically necessary by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Resolved No treatment required",
+   "condition_html": "<p><strong>A. Resolved</strong></p>\n<p>No treatment required</p>",
+   "evaluation_data": "If the AME is able to determine through history and exam no treatment necessary, no symptoms, and no clinical concern:",
+   "evaluation_data_html": "<p>If the AME is able to determine through history and exam no treatment necessary, no symptoms, and no clinical concern:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 442,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Primary Hypothyroidism",
+   "condition_html": "<p><strong>B. Primary Hypothyroidism</strong></p>",
+   "evaluation_data": "See the CACI - Hypothyroidism Worksheet . This will require a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam AND TSH. Note: As of 1/25/2023, TSH up to 9.9 can be considered for CACI if other criteria are met.",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Hypothyroidism Worksheet</a> . This will require a <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician <strong>no more than 90 days before</strong> the AME exam AND TSH.</p>\n<p><strong>Note:</strong> As of 1/25/2023, TSH up to 9.9 can be considered for CACI if other criteria are met.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci",
+    "issue"
+   ],
+   "disposition": "If the pilot meets all CACI worksheet criteria and is otherwise qualified, ISSUE with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p>If the pilot meets <strong>all </strong>CACI worksheet criteria and is otherwise qualified,</p>\n<p><strong>ISSUE</strong></p>\n<p><strong>with no time limitation</strong></p>\n<p>Annotate the<strong> correct CACI statement</strong> in Block 60 <strong>and keep the required supporting information on file.</strong></p>",
+   "pdf_page": 442,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Primary Hypothyroidism Symptomatic TSH 10 mIU/L or higher Central Hypothyroidism (Due to pituitary or hypothalamic disease)",
+   "condition_html": "<p><strong>C. Primary Hypothyroidism </strong></p>\n<p><strong>Symptomatic</strong> TSH 10 mIU/L or higher <strong>Central Hypothyroidism</strong></p>\n<p>(Due to pituitary or hypothalamic disease)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician performed no more than 90 days before the AME exam. (Diagnosis of Central Hypothyroidism should be evaluated by an endocrinologist.) It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 2. Lab: Performed within 90 days of the AME exam to include: - Thyroid Stimulating Hormone (TSH), and - Any other lab already performed (Ex. T3, Free T4) by the treating physician. - 3. Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed. - - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 4. Any other testing deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating physician performed <strong>no more than 90 days before </strong>the AME exam. (Diagnosis of Central Hypothyroidism should be evaluated by an endocrinologist.) It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li></ul>\n<ul><li><p>2. <strong>Lab:</strong> Performed <strong>within 90 days</strong> of the AME exam to include:</p>\n<ul><li>Thyroid Stimulating Hormone (<strong>TSH</strong>), and</li><li>Any other lab already performed (Ex. T3, Free T4) by the treating physician.</li></ul></li><li>3. <strong>Imaging:</strong> Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.</li></ul>\n<ul><li><ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul></li><li>4. <strong>Any other testing</strong> deemed clinically necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician performed no more than 90 days before the AME exam. (Diagnosis of Central Hypothyroidism should be evaluated by an endocrinologist.) It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "Lab: Performed within 90 days of the AME exam to include:",
+    "Any other lab already performed (Ex. T3, Free T4) by the treating physician.",
+    "Imaging: Copies of any imaging reports (MRI, CT, ultrasound, X-ray) already performed.",
+    "Any other testing deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 442,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "CACI - Hypothyroidism Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIHypothyroidism.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "hypothyroid-or-hypothyroidism",
+  "section_title": "HYPOTHYROID or HYPOTHYROIDISM",
+  "pdf_pages": [
+   442
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

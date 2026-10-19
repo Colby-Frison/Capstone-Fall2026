@@ -1,0 +1,284 @@
+{
+ "slug": "introduction",
+ "title": "Introduction",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  1,
+  2,
+  7,
+  8
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "2026",
+   "html": "<p><strong>2026 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "GUIDE FOR AVIATION MEDICAL EXAMINERS",
+   "html": "<p><strong>GUIDE FOR AVIATION MEDICAL EXAMINERS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "Welcome to the Guide for Aviation Medical Examiners. The format of this version of the Guide provides instant access to information regarding regulations, medical history, examination procedures, dispositions, and protocols necessary for completion of the FAA Form 8500-8, Application for Airman Medical Certificate.",
+   "html": "<p>Welcome to the Guide for Aviation Medical Examiners. The format of this version of the Guide provides instant access to information regarding regulations, medical history, examination procedures, dispositions, and protocols necessary for completion of the FAA Form 8500-8, Application for Airman Medical Certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "To navigate through the Guide PDF by Item number or subject matter, simply click on the “BOOKMARK” tab in the left column to search specific certification decision-making criteria. To expand any “BOOKMARK” files, click on the corresponding + button located in the front of the text. To collapse any of the expanded files, click on the + button again.",
+   "html": "<p>To navigate through the Guide PDF by Item number or subject matter, simply click on the “BOOKMARK” tab in the left column to search specific certification decision-making criteria. To expand any “BOOKMARK” files, click on the corresponding + button located in the front of the text. To collapse any of the expanded files, click on the + button again.</p>"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "header": [
+    "AME ALERT New disposition tables: - Amblyopia and Status Summary - Chorioretinitis and Status Summary - Diplopia (Double Vision) - Retinoschisis - Arteriovenous Malformation (AVM) - Peripheral (lungs, liver, bone) - Buerger Disease or Thromboangiitis Obliterans (TAO) - Postural Tachycardia Syndrome (POTS) - Congenital Sucrase Isomaltase Deficiency (CSID) - Osteomyelitis (Bone Infection) - Subpoena for Medical Records or Testimony: AME Guidance Updated: - Removed Chief Pilot requirement from antidepressant pages. - Medication for: Migraine, Biologics, Osteoporosis, Diabetes See the Archives and Updates section for more information."
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>AME ALERT New disposition tables: - Amblyopia and Status Summary - Chorioretinitis and Status Summary - Diplopia (Double Vision) - Retinoschisis - Arteriovenous Malformation (AVM) - Peripheral (lungs, liver, bone) - Buerger Disease or Thromboangiitis Obliterans (TAO) - Postural Tachycardia Syndrome (POTS) - Congenital Sucrase Isomaltase Deficiency (CSID) - Osteomyelitis (Bone Infection) - Subpoena for Medical Records or Testimony: AME Guidance Updated: - Removed Chief Pilot requirement from antidepressant pages. - Medication for: Migraine, Biologics, Osteoporosis, Diabetes See the Archives and Updates section for more information.</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 1,
+   "text": "NOTE: Updates to the 2026 AME Guide are scheduled for the last Wednesday of each month, as indicated below. Please refer to the Archives and Updates section for a description of changes that are made.",
+   "html": "<p><strong>NOTE:</strong> Updates to the 2026 AME Guide are scheduled for the last Wednesday of each month, as indicated below. Please refer to the Archives and Updates section for a description of changes that are made.</p>"
+  },
+  {
+   "type": "table",
+   "page": 1,
+   "header": [
+    "JANUARY 28",
+    "MAY 27",
+    "SEPTEMBER 30"
+   ],
+   "rows": [
+    [
+     "FEBRUARY 25",
+     "JUNE 24",
+     "OCTOBER 28"
+    ],
+    [
+     "MARCH 25",
+     "JULY 29",
+     "NOVEMBER - No scheduled updates"
+    ],
+    [
+     "APRIL 29",
+     "AUGUST 26",
+     "DECEMBER - No scheduled updates"
+    ]
+   ],
+   "html": "<table><thead><tr><th>JANUARY 28</th><th>MAY 27</th><th>SEPTEMBER 30</th></tr></thead><tbody><tr><td><p>FEBRUARY 25</p></td><td><p>JUNE 24</p></td><td><p>OCTOBER 28</p></td></tr><tr><td><p>MARCH 25</p></td><td><p>JULY 29</p></td><td><p>NOVEMBER - No scheduled updates</p></td></tr><tr><td><p>APRIL 29</p></td><td><p>AUGUST 26</p></td><td><p>DECEMBER - No scheduled updates</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 2,
+   "text": "TABLE OF CONTENTS",
+   "html": "<p><strong>TABLE OF CONTENTS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "text": "Forms",
+   "html": "<p><a href=\"https://www.faa.gov/forms/\" target=\"_blank\" rel=\"noopener\"><strong>Forms</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "text": "Federal Aviation Administration Regional and Center Medical Office Addresses",
+   "html": "<p><a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\"><strong>Federal Aviation Administration Regional and Center Medical Office Addresses</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "text": "Title 14 Code of Federal Regulations Part 67 — Medical Standards and Certification",
+   "html": "<p><a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67\" target=\"_blank\" rel=\"noopener\"><strong>Title 14 Code of Federal Regulations Part 67 — Medical Standards and Certification</strong></a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "text": "Convention on International Civil Aviation International Standards on Personnel Licensing:",
+   "html": "<p><strong>Convention on International Civil Aviation International Standards on Personnel Licensing: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 7,
+   "text": "The international Standards on Personnel Licensing are contained in Annex 1 – Personnel Licensing to the Convention on International Civil Aviation. The FAA maintains an updated, hard copy of all the ICAO Annexes and also an on-line subscription. The FAA makes copies of Annex 1 available at seminars and can provide AMEs access upon request.",
+   "html": "<p>The international Standards on Personnel Licensing are contained in <a href=\"http://www.icao.int/safety/AirNavigation/Pages/peltrgFAQ.aspx\" target=\"_blank\" rel=\"noopener\">Annex 1 – Personnel Licensing</a> to the Convention on International Civil Aviation. The FAA maintains an updated, hard copy of all the ICAO Annexes and also an on-line subscription. The FAA makes copies of Annex 1 available at seminars and can provide AMEs access upon request.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "text": "FREQUENTLY USED PAGES",
+   "html": "<p><strong>FREQUENTLY USED PAGES </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "text": "(Updated 06/28/2023)",
+   "html": "<p>(Updated 06/28/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "text": "GENERAL",
+   "html": "<p><strong>GENERAL </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 8,
+   "header": [
+    "PAGE",
+    "HYPERLINK"
+   ],
+   "rows": [
+    [
+     "AME Guide",
+     "www.faa.gov/go/ameguide"
+    ],
+    [
+     "AME Home",
+     "www.faa.gov/go/ame"
+    ],
+    [
+     "AME Training Information",
+     "www.faa.gov/go/ametraining"
+    ],
+    [
+     "AME Seminar Schedule",
+     "www.faa.gov/go/ameseminars"
+    ],
+    [
+     "AMCS Support",
+     "www.faa.gov/go/amcssupport"
+    ],
+    [
+     "CAMI Library",
+     "www.faa.gov/go/aeromedlibrary"
+    ],
+    [
+     "FAA Home",
+     "http://www.faa.gov/go/"
+    ],
+    [
+     "FAA Neuropsychologists",
+     "https://www.faa.gov/ame_guide/media/FAA_ Neuropsychologists.pdf"
+    ],
+    [
+     "Federal Air Surgeon's Medical Bulletin",
+     "www.faa.gov/go/fasmb"
+    ],
+    [
+     "FSDO",
+     "www.faa.gov/go/fsdo"
+    ],
+    [
+     "HIMS AMEs",
+     "https://www.faa.gov/pilots/amelocator"
+    ],
+    [
+     "Pilot Safety Brochures",
+     "www.faa.gov/go/pilotsafetybrochures"
+    ],
+    [
+     "Regional Flight Surgeons",
+     "www.faa.gov/go/rfs"
+    ],
+    [
+     "Student Pilot Certificate Requirements",
+     "www.faa.gov/go/student_cert"
+    ]
+   ],
+   "html": "<table><thead><tr><th>PAGE</th><th>HYPERLINK</th></tr></thead><tbody><tr><td><p>AME Guide</p></td><td><p><a href=\"http://www.faa.gov/go/ameguide\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ameguide</a></p></td></tr><tr><td><p>AME Home</p></td><td><p><a href=\"http://www.faa.gov/go/ame\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ame</a></p></td></tr><tr><td><p>AME Training Information</p></td><td><p><a href=\"http://www.faa.gov/go/ametraining\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ametraining</a></p></td></tr><tr><td><p>AME Seminar Schedule</p></td><td><p><a href=\"http://www.faa.gov/go/ameseminars\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ameseminars</a></p></td></tr><tr><td><p>AMCS Support</p></td><td><p><a href=\"http://www.faa.gov/go/amcssupport\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/amcssupport</a></p></td></tr><tr><td><p>CAMI Library</p></td><td><p><a href=\"http://www.faa.gov/go/aeromedlibrary\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/aeromedlibrary</a></p></td></tr><tr><td><p>FAA Home</p></td><td><p><a href=\"http://www.faa.gov/go/\" target=\"_blank\" rel=\"noopener\">http://www.faa.gov/go/</a></p></td></tr><tr><td><p>FAA Neuropsychologists</p></td><td><p><a href=\"https://www.faa.gov/ame_guide/media/FAA_Neuropsychologists.pdf\" target=\"_blank\" rel=\"noopener\">https://www.faa.gov/ame_guide/media/FAA_ Neuropsychologists.pdf</a></p></td></tr><tr><td><p>Federal Air Surgeon&#x27;s Medical Bulletin</p></td><td><p><a href=\"http://www.faa.gov/go/fasmb\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/fasmb</a></p></td></tr><tr><td><p>FSDO</p></td><td><p><a href=\"http://www.faa.gov/go/fsdo\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/fsdo</a></p></td></tr><tr><td><p>HIMS AMEs</p></td><td><p><a href=\"https://www.faa.gov/pilots/amelocator\" target=\"_blank\" rel=\"noopener\">https://www.faa.gov/pilots/amelocator</a></p></td></tr><tr><td><p>Pilot Safety Brochures</p></td><td><p><a href=\"http://www.faa.gov/go/pilotsafetybrochures\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/pilotsafetybrochures</a></p></td></tr><tr><td><p>Regional Flight Surgeons</p></td><td><p><a href=\"http://www.faa.gov/go/rfs\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/rfs</a></p></td></tr><tr><td><p>Student Pilot Certificate Requirements</p></td><td><p><a href=\"http://www.faa.gov/go/student_cert\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/student_cert</a></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 8,
+   "text": "AME GUIDE",
+   "html": "<p><strong>AME GUIDE </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 8,
+   "header": [
+    "PAGE",
+    "HYPERLINK"
+   ],
+   "rows": [
+    [
+     "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+     "www.faa.gov/go/ADHD"
+    ],
+    [
+     "Bundle Branch Block",
+     "www.faa.gov/go/BBB"
+    ],
+    [
+     "CACI Worksheets",
+     "www.faa.gov/go/caci"
+    ],
+    [
+     "Color Vision",
+     "www.faa.gov/go/colorvision"
+    ],
+    [
+     "Detailed Clinical Progress Note explained",
+     "www.faa.gov/ame_guide/dcpn"
+    ],
+    [
+     "Diabetes on Medication (not insulin)",
+     "www.faa.gov/go/diabetic"
+    ],
+    [
+     "Diabetes – ITDM CGM and 3rd Class Option (insulin treated)",
+     "www.faa.gov/go/ITDM"
+    ],
+    [
+     "Do Not Issue – Do Not Fly Medications",
+     "www.faa.gov/go/dni"
+    ],
+    [
+     "HIMS Drug and Alcohol Monitoring Program",
+     "www.faa.gov/go/hims-da"
+    ],
+    [
+     "Insulin",
+     "http://www.faa.gov/go/insulin"
+    ],
+    [
+     "Obstructive Sleep Apnea",
+     "www.faa.gov/go/osa"
+    ],
+    [
+     "Over-the-Counter (OTC) Medications Reference Table – What OTC Medications Can I Take and Still Be Safe to Fly?",
+     "https://www.faa.gov/pilots/medical_certificat ion/media/OTCMedicationsforPilots.pdf"
+    ],
+    [
+     "Pharmacy Home",
+     "www.faa.gov/go/meds"
+    ],
+    [
+     "Psychiatric Conditions – Use of Antidepressant Medications",
+     "www.faa.gov/go/ssri"
+    ],
+    [
+     "Weight Loss Management",
+     "https://www.faa.gov/ame_guide/media/Wei ght_loss_management_dispo_table.pdf"
+    ]
+   ],
+   "html": "<table><thead><tr><th>PAGE</th><th>HYPERLINK</th></tr></thead><tbody><tr><td><p>Attention-Deficit/Hyperactivity Disorder (ADHD)</p></td><td><p><a href=\"http://www.faa.gov/go/ADHD\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ADHD</a></p></td></tr><tr><td><p>Bundle Branch Block</p></td><td><p><a href=\"http://www.faa.gov/go/BBB\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/BBB</a></p></td></tr><tr><td><p>CACI Worksheets</p></td><td><p><a href=\"http://www.faa.gov/go/caci\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/caci</a></p></td></tr><tr><td><p>Color Vision</p></td><td><p><a href=\"http://www.faa.gov/go/colorvision\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/colorvision</a></p></td></tr><tr><td><p>Detailed Clinical Progress Note explained</p></td><td><p><a href=\"http://www.faa.gov/ame_guide/dcpn\" target=\"_blank\" rel=\"noopener\">www.faa.gov/ame_guide/dcpn</a></p></td></tr><tr><td><p>Diabetes on Medication (not insulin)</p></td><td><p><a href=\"http://www.faa.gov/go/diabetic\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/diabetic</a></p></td></tr><tr><td><p>Diabetes – ITDM CGM and 3rd Class Option (insulin treated)</p></td><td><p><a href=\"http://www.faa.gov/go/ITDM\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ITDM</a></p></td></tr><tr><td><p>Do Not Issue – Do Not Fly Medications</p></td><td><p><a href=\"http://www.faa.gov/go/dni\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/dni</a></p></td></tr><tr><td><p>HIMS Drug and Alcohol Monitoring Program</p></td><td><p><a href=\"http://www.faa.gov/go/hims-da\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/hims-da</a></p></td></tr><tr><td><p>Insulin</p></td><td><p><a href=\"http://www.faa.gov/go/insulin\" target=\"_blank\" rel=\"noopener\">http://www.faa.gov/go/insulin</a></p></td></tr><tr><td><p>Obstructive Sleep Apnea</p></td><td><p><a href=\"http://www.faa.gov/go/osa\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/osa</a></p></td></tr><tr><td><p>Over-the-Counter (OTC) Medications Reference Table – What OTC Medications Can I Take and Still Be Safe to Fly?</p></td><td><p><a href=\"https://www.faa.gov/pilots/medical_certification/media/OTCMedicationsforPilots.pdf\" target=\"_blank\" rel=\"noopener\">https://www.faa.gov/pilots/medical_certificat ion/media/OTCMedicationsforPilots.pdf</a></p></td></tr><tr><td><p>Pharmacy Home</p></td><td><p><a href=\"http://www.faa.gov/go/meds\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/meds</a></p></td></tr><tr><td><p>Psychiatric Conditions – Use of Antidepressant Medications</p></td><td><p><a href=\"http://www.faa.gov/go/ssri\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ssri</a></p></td></tr><tr><td><p>Weight Loss Management</p></td><td><p><a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_management_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">https://www.faa.gov/ame_guide/media/Wei ght_loss_management_dispo_table.pdf</a></p></td></tr></tbody></table>"
+  }
+ ]
+}

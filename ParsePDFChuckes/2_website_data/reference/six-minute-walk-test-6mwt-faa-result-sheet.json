@@ -1,0 +1,194 @@
+{
+ "slug": "six-minute-walk-test-6mwt-faa-result-sheet",
+ "title": "Six-Minute Walk Test (6MWT) - FAA Result Sheet",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  620
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "(Updated 03/25/2026)",
+   "html": "<p>(Updated 03/25/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "NAME___________________________________________ DOB__________________________________",
+   "html": "<p>NAME___________________________________________ DOB__________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "APPLICANT ID#___________________________________ PI#___________________________________",
+   "html": "<p>APPLICANT ID#___________________________________ PI#___________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "Please have the provider who treats your cardiac or pulmonary condition complete this sheet. The test must be done in accordance with the American Thoracic Society (ATS) Guidelines for the Six-Minute Walk Test . In most cases, a minimum of 400 m is required for medical certification/clearance.",
+   "html": "<p>Please have the provider who treats your cardiac or pulmonary condition complete this sheet. The test must be done in accordance with the <a href=\"https://www.atsjournals.org/doi/10.1164/ajrccm.166.1.at1102#_i26\" target=\"_blank\" rel=\"noopener\">American Thoracic Society (ATS) Guidelines for the Six-Minute Walk Test</a> . In most cases, a minimum of 400 m is required for medical certification/clearance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "Submit this sheet and any other supporting documentation to your AME for upload into your file.",
+   "html": "<p>Submit this sheet and any other supporting documentation to your AME for upload into your file.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "1. Does the individual have any difficulty walking or use a mobility aid (e.g. cane, walker)? YES or NO. If YES describe _______________________________________________________________________",
+   "html": "<p><strong>1.</strong> Does the individual have any difficulty walking or use a mobility aid (e.g. cane, walker)? YES or NO. If YES describe _______________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "2. List ALL current cardiopulmonary medications:_______________________________________________",
+   "html": "<p><strong>2.</strong> List ALL current cardiopulmonary medications:_______________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "______________________________________________________________________________________",
+   "html": "<p>______________________________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "______________________________________________________________________________________",
+   "html": "<p>______________________________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "TEST RESULTS (For YES or NO questions, please circle answer.)",
+   "html": "<p><strong>TEST RESULTS</strong> (For YES or NO questions, please circle answer.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "3. Did they complete Six-Minute Walk Test? YES or NO. If YES, total distance walked ________ meters.",
+   "html": "<p><strong>3.</strong> Did they complete Six-Minute Walk Test? YES or NO. If YES, total distance walked ________ meters.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "4. Did they stop or pause before 6 minutes? YES or NO. If YES, reason(s):____________________",
+   "html": "<p><strong>4.</strong> Did they <strong>stop or pause</strong> before 6 minutes? YES or NO. If YES, reason(s):____________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "______________________________________________________________________________________",
+   "html": "<p>______________________________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "5. If stopped or paused, total time walked: _________ (min/sec); total distance walked: _________ meters.",
+   "html": "<p><strong>5.</strong> If <strong>stopped or paused</strong>, total time walked: _________ (min/sec); total distance walked: _________ meters.</p>"
+  },
+  {
+   "type": "table",
+   "page": 620,
+   "header": [
+    "",
+    "Baseline",
+    "End of 1 minute",
+    "End of 2 minutes",
+    "End of 3 minutes",
+    "End of 4 minutes",
+    "End of 5 minutes",
+    "End of 6 minutes"
+   ],
+   "rows": [
+    [
+     "HEART RATE",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "SpO2 (%)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "DYSPNEA Scale of 0 to 5 (none to severe)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "FATIGUE Scale of 0 to 5 (none to severe)",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th></th><th>Baseline</th><th>End of 1 minute</th><th>End of 2 minutes</th><th>End of 3 minutes</th><th>End of 4 minutes</th><th>End of 5 minutes</th><th>End of 6 minutes</th></tr></thead><tbody><tr><td><p><strong>HEART RATE </strong></p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><p><strong>SpO2 (%) </strong></p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><p><strong>DYSPNEA </strong></p>\n<p>Scale of 0 to 5 (none to severe)</p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><p><strong>FATIGUE</strong> Scale of 0 to 5 (none to severe)</p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "6. Supplemental oxygen used during the test: YES or NO. If YES, flow ________ (L/min)",
+   "html": "<p><strong>6.</strong> Supplemental oxygen used during the test: YES or NO. If YES, flow ________ (L/min)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "7. Rescue inhaler used shortly before or during test: YES or NO.",
+   "html": "<p><strong>7.</strong> Rescue inhaler used shortly before or during test: YES or NO.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "8. Other symptoms at end of test (e.g., angina; leg/hip/calf pain; dizziness, etc.) _______________________________________________________________________________________________ _______________________________________________________________________________",
+   "html": "<p><strong>8.</strong> Other symptoms at end of test (e.g., angina; leg/hip/calf pain; dizziness, etc.) _______________________________________________________________________________________________ _______________________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "9. Treating provider’s interpretation and comments:",
+   "html": "<p><strong>9.</strong> Treating provider’s interpretation and comments:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "_______________________________________________________________________________________________ _______________________________________________________________________________________________ _______________________________________________________________________",
+   "html": "<p>_______________________________________________________________________________________________ _______________________________________________________________________________________________ _______________________________________________________________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "Treating provider’s signature ________________________________ Date of evaluation ________________",
+   "html": "<p>Treating provider’s signature ________________________________ Date of evaluation ________________</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 620,
+   "text": "Treating provider’s printed name: ____________________________ Phone number: ________________",
+   "html": "<p>Treating provider’s printed name: ____________________________ Phone number: ________________</p>"
+  }
+ ]
+}

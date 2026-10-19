@@ -1,0 +1,92 @@
+{
+ "id": "pancreatitis",
+ "name": "Pancreatitis",
+ "subtitle": null,
+ "name_in_guide": "PANCREATITIS",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2020",
+ "order": 80,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Alcohol must be ruled out as a contributing factor (via hospital records or treating physician determination. If not available, AME should screen).",
+  "Common Bile Duct (CBD) was cleared of stones/debris;",
+  "Cholecystectomy; and",
+  "Cause of the condition , how long the condition has been stable, and prognosis;",
+  "If CBD stricture/stenosis or obstruction verify it has resolved;",
+  "If there is any evidence of alcohol involvement; and",
+  "Verify off all pain medication",
+  "Current, detailed Clinical Progress Note from the treating Gastroenterologist (GI) describing:",
+  "Current Medication list, dosages, and side effects, If any;",
+  "Lab (minimum amylase and lipase, from hospital admission, discharge, and current evaluation;",
+  "Operative notes, admission H&P and discharge summary, if applicable; and",
+  "Results of MRI/CT or other imaging, if performed."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Gallstone pancreatitis Single episode resolved",
+   "condition_html": "<p><strong>A. Gallstone pancreatitis</strong></p>\n<p>Single episode resolved</p>",
+   "evaluation_data": "1 month recovery period after release from treating physician. Must have specific documentation from General Surgery (GS) or Gastroenterology (GI) verifying definitive treatment: - Alcohol must be ruled out as a contributing factor (via hospital records or treating physician determination. If not available, AME should screen). - Common Bile Duct (CBD) was cleared of stones/debris; - Cholecystectomy; and Off all pain medications.",
+   "evaluation_data_html": "<p><strong>1 month</strong> recovery period after release from treating physician.</p>\n<p>Must have specific documentation from</p>\n<p>General Surgery (GS) or Gastroenterology (GI) verifying definitive treatment:</p>\n<ul><li><strong>Alcohol must be ruled out as a contributing factor (via hospital records or treating physician determination. If not available, AME should screen). </strong></li><li>Common Bile Duct (CBD) was cleared of stones/debris;</li><li>Cholecystectomy; and</li></ul>\n<p>Off all pain medications.</p>",
+   "what_to_bring": [
+    "Alcohol must be ruled out as a contributing factor (via hospital records or treating physician determination. If not available, AME should screen).",
+    "Common Bile Duct (CBD) was cleared of stones/debris;",
+    "Cholecystectomy; and"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60.</p>",
+   "pdf_page": 226,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Any others such as: - Alcohol induced or contributing factor - CBD - Stricture/stenosis - Chronic pancreatitis - Recurrent pancreatitis - Retained stones - Secondary to elevate Triglycerides - Etiology unknown - Other causes",
+   "condition_html": "<p><strong>B. Any others such as: </strong></p>\n<ul><li>Alcohol induced or</li></ul>\n<p>contributing factor</p>\n<ul><li>CBD</li><li>Stricture/stenosis</li><li>Chronic pancreatitis</li><li>Recurrent pancreatitis</li><li>Retained stones</li><li>Secondary to elevate Triglycerides</li><li>Etiology unknown</li><li>Other causes</li></ul>",
+   "evaluation_data": "3-month recovery period then: Submit the following for FAA review: 1. Current, detailed Clinical Progress Note from the treating Gastroenterologist (GI) describing: - Cause of the condition, how long the condition has been stable, and prognosis; - If CBD stricture/stenosis or obstruction verify it has resolved; - If there is any evidence of alcohol involvement; and - Verify off all pain medication 2. Current Medication list, dosages, and side effects, If any; 3. Lab (minimum amylase and lipase, from hospital admission, discharge, and current evaluation; 4. Operative notes, admission H&P and discharge summary, if applicable; and 5. Results of MRI/CT or other imaging, if performed.",
+   "evaluation_data_html": "<p><strong>3-month </strong>recovery period then:</p>\n<p><strong>Submit the following for FAA review: </strong></p>\n<p>1. Current, detailed Clinical Progress Note from the treating Gastroenterologist (GI) describing:</p>\n<ul><li><strong>Cause of the condition</strong>, how long the condition has been stable, and prognosis;</li><li>If CBD stricture/stenosis or obstruction verify it has resolved;</li><li>If there is any evidence of alcohol involvement; and</li><li>Verify off all pain medication</li></ul>\n<p>2. Current Medication list, dosages, and side effects, If any;</p>\n<p>3. Lab (minimum amylase and lipase, from hospital admission, discharge, and current evaluation;</p>\n<p>4. Operative notes, admission H&amp;P and discharge summary, if applicable; and</p>\n<p>5. Results of MRI/CT or other imaging, if performed.</p>",
+   "what_to_bring": [
+    "Cause of the condition , how long the condition has been stable, and prognosis;",
+    "If CBD stricture/stenosis or obstruction verify it has resolved;",
+    "If there is any evidence of alcohol involvement; and",
+    "Verify off all pain medication",
+    "Current, detailed Clinical Progress Note from the treating Gastroenterologist (GI) describing:",
+    "Current Medication list, dosages, and side effects, If any;",
+    "Lab (minimum amylase and lipase, from hospital admission, discharge, and current evaluation;",
+    "Operative notes, admission H&P and discharge summary, if applicable; and",
+    "Results of MRI/CT or other imaging, if performed."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for review Follow up Issuance Will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for review</p>\n<p><strong>Follow up Issuance </strong></p>\n<p>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 226,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Notes:</p>\n<ul><li>1. This applies to CLINICAL PANCREATITIS ONLY, not isolated elevations in amylase/lipase due to a concurrent illness.</li><li><strong>2. </strong>Gallstone pancreatitis with retained stones should NOT be certified by AME as the risk of recurrent pancreatitis with incapacitation remains. (Applicant may have had an endoscopic retrograde cholangio-pancreatography (ERCP) with ampulotomy and opened the CBD but etiology of pancreatitis (residual stone/microlith/sludge) likely not resolved without cholecystectomy).</li></ul>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "eosinophilic-esophagitis",
+  "section_title": "Eosinophilic Esophagitis",
+  "pdf_pages": [
+   226
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

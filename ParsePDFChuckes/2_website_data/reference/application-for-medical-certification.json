@@ -1,0 +1,30 @@
+{
+ "slug": "application-for-medical-certification",
+ "title": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  41,
+  42
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 41,
+   "text": "Items 1-20 of FAA Form 8500-8",
+   "html": "<p><strong>Items 1-20 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "ITEMS 1- 20 of FAA Form 8500-8",
+   "html": "<p><strong>ITEMS 1- 20 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "This section contains guidance for items on the Medical History and General Information page of FAA Form 8500-8, Application for Airman Medical Certificate.",
+   "html": "<p>This section contains guidance for items on the Medical History and General Information page of FAA Form 8500-8, Application for Airman Medical Certificate.</p>"
+  }
+ ]
+}

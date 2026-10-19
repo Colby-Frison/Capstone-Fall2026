@@ -1,0 +1,29 @@
+{
+ "slug": "19-protection-and-destruction-of-forms",
+ "title": "19. Protection and Destruction of Forms",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  29
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "(Updated 03/27/2024)",
+   "html": "<p>(Updated 03/27/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "Forms are available electronically in AMCS; paper forms are no longer used.",
+   "html": "<p>Forms are available electronically in AMCS; paper forms are no longer used.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 29,
+   "text": "AMEs are responsible for the destruction of any paper forms they may still have.",
+   "html": "<p>AMEs are responsible for the destruction of any paper forms they may still have.</p>"
+  }
+ ]
+}

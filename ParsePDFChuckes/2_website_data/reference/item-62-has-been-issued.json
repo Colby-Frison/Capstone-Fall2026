@@ -1,0 +1,75 @@
+{
+ "slug": "item-62-has-been-issued",
+ "title": "ITEM 62. Has Been Issued",
+ "group": "APPLICATION REVIEW",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  499,
+  500
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "(Updated 04/27/2022)",
+   "html": "<p>(Updated 04/27/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "The AME must check the proper box to indicate the status of the application for Medical Certificate. Note: The “x” will appear until the AME selects an option:",
+   "html": "<p>The AME must check the proper box to indicate the status of the application for Medical Certificate. <strong>Note:</strong> The “<strong>x</strong>” will appear until the AME selects an option:</p>"
+  },
+  {
+   "type": "table",
+   "page": 500,
+   "header": [
+    "62. X Has been Issued: - Medical Certificate - Medical and Student Pilot Certificate - No Certificate Issued – Deferred for Further Evaluation - Has Been Denied – Letter of Denial Issued (copy attached)"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>62. X Has been Issued: - Medical Certificate - Medical and Student Pilot Certificate - No Certificate Issued – Deferred for Further Evaluation - Has Been Denied – Letter of Denial Issued (copy attached)</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "A. Applicant's Refusal or Exam Not Complete: If applicant leaves before the exam is completed or elects not to continue if more information or evaluation is required: Note in Block 60, do not issue any certificate, and contact AMCS Support for instructions.",
+   "html": "<p><strong>A</strong>. <strong> Applicant&#x27;s Refusal or Exam Not Complete:</strong> If applicant leaves before the exam is completed or elects not to continue if more information or evaluation is required: Note in Block 60, <strong>do not issue any certificate</strong>, and contact <a href=\"https://www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/ame/amcs/contact\" target=\"_blank\" rel=\"noopener\">AMCS Support</a> for instructions.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "B. AME Issuance: When the AME receives all required information AND the applicant meets all FAA medical standards for the class sought, the AME may issue a medical certificate. If the applicant has an Authorization for Special Issuance, refer to the Authorization Letter to determine if you must also add a time limitation. If the AME or the applicant will send in supporting records or reports WITHIN 14 DAYS, note what items are coming in Block 60.",
+   "html": "<p><strong>B</strong>. <strong>AME Issuance:</strong> When the AME receives all required information AND the applicant meets all FAA medical standards for the class sought, the AME may issue a medical certificate. If the applicant has an Authorization for Special Issuance, refer to the Authorization Letter to determine if you must also add a time limitation. <strong>If the AME or the applicant will send in supporting records or reports WITHIN 14 DAYS, note what items are coming in Block 60.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "C. AME Deferral: AME should defer if:",
+   "html": "<p><strong>C. AME Deferral:</strong> AME should defer if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 500,
+   "text": "- The disposition table or Authorization Letter instructs the AME to defer;\n- More information or further evaluation is needed;\n- There is uncertainty about the significance of the findings; or\n- The applicant did not provide the required documents within 14 days of the AME exam. All exams must be transmitted WITHIN 14 DAYS.",
+   "html": "<ul><li>The disposition table or Authorization Letter instructs the AME to defer;</li><li>More information or further evaluation is needed;</li><li>There is uncertainty about the significance of the findings; or</li><li>The applicant did not provide the required documents within 14 days of the AME exam. <strong>All exams must be transmitted WITHIN 14 DAYS</strong>.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "Do not delay transmitting an exam (beyond 14 days) while waiting for the applicant to provide requested records or reports.",
+   "html": "<p><strong> Do not delay</strong> transmitting an exam (beyond 14 days) while waiting for the applicant to provide requested records or reports.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "Note in Block 60 any concerns, findings, or if more information was requested; do not issue any certificate, and transmit as deferred.",
+   "html": "<p>Note in Block 60 any concerns, findings, or if more information was requested; <strong>do not issue any certificate</strong>, and transmit as <strong>deferred. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "D. AME Denial: If the AME determines the applicant is clearly ineligible for certification (see Medical Certificate Decision Making ), give the applicant a signed and dated AME Letter of Denial . The letter provides the applicant with reasons for the denial and how to request reconsideration. The AME must send a copy of the AME Letter of Denial to the FAA.",
+   "html": "<p><strong>D. AME Denial:</strong> If the AME determines the applicant is clearly ineligible for certification (see <a href=\"https://www.faa.gov/ame_guide/app_process/general/decision\" target=\"_blank\" rel=\"noopener\">Medical Certificate Decision Making</a> ), give the applicant a <strong>signed and dated</strong> <a href=\"https://www.faa.gov/ame_guide/media/DenialLetter.pdf\" target=\"_blank\" rel=\"noopener\">AME Letter of Denial</a> . The letter provides the applicant with reasons for the denial and how to request reconsideration. <strong>The AME must send a copy of the AME Letter of Denial to the FAA. </strong></p>"
+  }
+ ]
+}

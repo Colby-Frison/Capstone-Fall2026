@@ -1,0 +1,111 @@
+{
+ "id": "congenital-heart-conditions",
+ "name": "Congenital Heart Conditions",
+ "subtitle": null,
+ "name_in_guide": "CONGENITAL HEART CONDITIONS",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 62,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+  "Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+  "Operative report if surgery was performed in the previous 5 years.",
+  "Echocardiogram (Echo). Report and images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+  "Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+  "Operative report(s) from all cardiac/heart surgery performed. (if applicable)",
+  "Copies of any advanced imaging [e.g., Chest Computed Tomography (CT) or Magnetic Resonance Imaging (MRI)] already performed. Include both Report AND actual images.",
+  "* Coarctation of the Aorta, must also include a Brain MRA performed no more than 90 days prior to the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Patent Foramen Ovale (PFO) which is: • Not surgically corrected, • Uncomplicated, • Asymptomatic. This may be identified as a finding on an imaging study such as echo.",
+   "condition_html": "<p><strong>A. </strong>Patent Foramen Ovale (PFO) which is:</p>\n<p>• Not surgically corrected,</p>\n<p>• Uncomplicated,</p>\n<p>• Asymptomatic.</p>\n<p>This may be identified as a finding on an imaging study such as echo.</p>",
+   "evaluation_data": "If the AME can determine the individual has no symptoms or current problems that would interfere with flight duties and no treatment is recommended:",
+   "evaluation_data_html": "<p>If the AME can determine the individual has no symptoms or current problems that would interfere with flight duties and no treatment is recommended:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Discuss the history and if any current symptoms in Item 60 If any concerns, go to row B.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Discuss the history and if any current symptoms in Item 60</p>\n<p>If any concerns, go to row B.</p>",
+   "pdf_page": 186,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Atrial Septal Defect (ASD)--simple surgical closure OR Patent Foramen Ovale (PFO) -- surgically closed And now Asymptomatic",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Atrial Septal Defect (ASD)--simple surgical closure</p>\n<p>OR</p>\n<p>Patent Foramen Ovale (PFO) -- surgically closed</p>\n<p>And now Asymptomatic</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. - 3. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter. - 4. Operative report if surgery was performed in the previous 5 years.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. Echocardiogram (Echo).</strong> Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.</li><li><strong>3. 24-hour cardiac monitor</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>4. Operative report</strong> if surgery was performed in the previous 5 years.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+    "Echocardiogram (Echo). Report from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+    "Operative report if surgery was performed in the previous 5 years."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 186,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "• Atrioventricular Septal Defect (ASD) • Coarctation of the Aorta* • Double-outlet Right Ventricle • d-Transposition of the Great Arteries • Ebstein Anomaly • Hypoplastic Left Heart Syndrome • Interrupted Aortic Arch •Patent Ductus Arteriosus (PDA) • Pulmonary Atresia • Single Ventricle • Tetralogy of Fallot • Total Anomalous Pulmonary Venous Return • Tricuspid Atresia • Truncus Arteriosus • Ventricular Septal Defect (VSD) OR Any other congenital heart/cardiac condition",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>• Atrioventricular Septal Defect (ASD)</p>\n<p>• Coarctation of the Aorta*</p>\n<p>• Double-outlet Right Ventricle</p>\n<p>• d-Transposition of the Great Arteries</p>\n<p>• Ebstein Anomaly</p>\n<p>• Hypoplastic Left Heart Syndrome</p>\n<p>• Interrupted Aortic Arch</p>\n<p>•Patent Ductus Arteriosus (PDA)</p>\n<p>• Pulmonary Atresia</p>\n<p>• Single Ventricle</p>\n<p>• Tetralogy of Fallot</p>\n<p>• Total Anomalous Pulmonary Venous Return</p>\n<p>• Tricuspid Atresia</p>\n<p>• Truncus Arteriosus</p>\n<p>• Ventricular Septal Defect (VSD)</p>\n<p>OR</p>\n<p>Any other congenital heart/cardiac condition</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. If surgery was remote, and they are no longer seeing their cardiologist, the progress note can be from a board-certified cardiologist. - 2. Echocardiogram (Echo). Report and images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam. - 3. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter. - 4. Exercise stress test (EST) performed no more than 90 days prior to the AME exam. - 5. Operative report(s) from all cardiac/heart surgery performed. (if applicable) - 6. Copies of any advanced imaging [e.g., Chest Computed Tomography (CT) or Magnetic Resonance Imaging (MRI)] already performed. Include both Report AND actual images. 7. * Coarctation of the Aorta, must also include a Brain MRA performed no more than 90 days prior to the AME exam. Note: Once these records are reviewed, additional testing or information may be required.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p>If surgery was remote, and they are no longer seeing their cardiologist, the progress note can be from a board-certified cardiologist.</p>\n<ul><li><strong>2. Echocardiogram (Echo). Report and images </strong>from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>3. 24-hour cardiac monitor</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>4. Exercise stress test (EST)</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>5. Operative report(s)</strong> from <strong>all </strong>cardiac/heart surgery performed. (if applicable)</li></ul>\n<ul><li><strong>6. </strong>Copies of any advanced imaging [e.g., Chest Computed Tomography (CT) or Magnetic Resonance Imaging (MRI)] already performed. Include both Report AND actual images.</li></ul>\n<p><strong>7. </strong>* <strong>Coarctation of the Aorta, </strong>must also include a <strong>Brain MRA</strong> performed no more than 90 days prior to the AME exam.</p>\n<p>Note: Once these records are reviewed, additional testing or information may be required.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating cardiologist no more than 90 days before the AME exam.",
+    "Echocardiogram (Echo). Report and images from a 2-D and Doppler flow study performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+    "Exercise stress test (EST) performed no more than 90 days prior to the AME exam.",
+    "Operative report(s) from all cardiac/heart surgery performed. (if applicable)",
+    "Copies of any advanced imaging [e.g., Chest Computed Tomography (CT) or Magnetic Resonance Imaging (MRI)] already performed. Include both Report AND actual images.",
+    "* Coarctation of the Aorta, must also include a Brain MRA performed no more than 90 days prior to the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 186,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "congenital-heart-conditions",
+  "section_title": "CONGENITAL HEART CONDITIONS",
+  "pdf_pages": [
+   186
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

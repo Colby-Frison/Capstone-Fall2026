@@ -1,0 +1,111 @@
+{
+ "id": "nose",
+ "name": "Nose",
+ "subtitle": "ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+ "name_in_guide": "NOSE ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+ "category": {
+  "id": "ear-nose-and-throat-ent",
+  "name": "Ear, Nose, and Throat (ENT)",
+  "exam_item": "25-30",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/28/2024",
+ "order": 3,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The condition is under control;",
+  "Current medications are acceptable;",
+  "Any no fly time is discussed with the individual; AND",
+  "No symptoms that would interfere with flight or safety related duties:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings; results of any testing performed;",
+  "diagnosis;",
+  "assessment and plan;",
+  "prognosis; and follow-up."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed",
+   "condition_html": "<p><strong>A. </strong>Allergies controlled by acceptable medications (single or in combination)</p>\n<p>Allergy shots/Sublingual Immunotherapy (SLIT)</p>\n<p>Epi pen is prescribed</p>",
+   "evaluation_data": "The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine: - The condition is under control; - Current medications are acceptable; - See the Pharmaceuticals Section, Allergy - Antihistamine & Immunotherapy Medication. - Any no fly time is discussed with the individual; AND - No symptoms that would interfere with flight or safety related duties:",
+   "evaluation_data_html": "<p>The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine:</p>\n<ul><li>The condition is under control;</li><li>Current medications are acceptable;<ul><li>See the <a href=\"https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/AllergyAntihistamineImmunotherapyMedication.pdf\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals Section, Allergy - Antihistamine &amp; Immunotherapy Medication.</a></li></ul></li><li>Any no fly time is discussed with the individual; AND</li><li>No symptoms that would interfere with flight or safety related duties:</li></ul>",
+   "what_to_bring": [
+    "The condition is under control;",
+    "Current medications are acceptable;",
+    "Any no fly time is discussed with the individual; AND",
+    "No symptoms that would interfere with flight or safety related duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this in Block 60. Warn for any required \"no fly\" time for conditionally acceptable (Sedating) Antihistamine Medications. If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA.",
+   "disposition_html": "<p>ISSUE</p>\n<p><strong>Annotate</strong> this in Block 60. Warn for any required &quot;no fly&quot; time for conditionally acceptable (Sedating) Antihistamine Medications.</p>\n<p>If not addressed in the progress note or AME notes, the individual may be asked to provide information to the FAA.</p>",
+   "pdf_page": 65,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Allergies indicated by; - Chronic or repeated steroid treatment or - Reaction requiring urgent medical intervention - airway closure - urticaria requiring treatment",
+   "condition_html": "<p><strong>B. </strong>Allergies indicated by;</p>\n<ul><li>Chronic or repeated steroid treatment or</li><li>Reaction requiring urgent medical intervention</li><li>airway closure</li><li>urticaria requiring treatment</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; results of any testing performed; - diagnosis; - assessment and plan; - prognosis; and follow-up.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>A current, detailed Clinical Progress Note generated from a clinic visit with the treating <strong>allergist, ENT, or pulmonologist </strong>no more than 90 days prior to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings; results of any testing performed;</li><li>diagnosis;</li><li>assessment and plan;</li><li>prognosis; and follow-up.</li></ul>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings; results of any testing performed;",
+    "diagnosis;",
+    "assessment and plan;",
+    "prognosis; and follow-up."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 65,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "History of anaphylaxis or allergic reactions requiring use of epi-pen",
+   "condition_html": "<p><strong>C</strong>. History of anaphylaxis or allergic reactions requiring use of epi-pen</p>",
+   "evaluation_data": "After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety related duties. Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist. It should verify the cause of the anaphylaxis or allergic reaction, likelihood it will re-occur and if it were to re-occur, how severe.",
+   "evaluation_data_html": "<p>After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety related duties. Submit the following for FAA review:</p>\n<p>A current, detailed Clinical Progress Note generated from a clinic visit with the treating <strong>allergist, ENT, or pulmonologist. It </strong></p>\n<p><strong>should verify the cause of the anaphylaxis or allergic reaction, likelihood it will re-occur and if it were to re-occur, how severe. </strong></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 65,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Pharmaceuticals Section, Allergy - Antihistamine & Immunotherapy Medication.",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "condition-not-listed",
+  "section_title": "Condition Not Listed",
+  "pdf_pages": [
+   65
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

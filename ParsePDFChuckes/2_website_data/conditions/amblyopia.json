@@ -1,0 +1,82 @@
+{
+ "id": "amblyopia",
+ "name": "Amblyopia",
+ "subtitle": null,
+ "name_in_guide": "AMBLYOPIA",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 20,
+ "decisions": [
+  "defer"
+ ],
+ "what_to_bring": [
+  "Amblyopia Status Summary",
+  "Any associated progress notes.",
+  "Complete eye evaluation by a board-certified ophthalmologist which specifically includes if there is evidence of any other eye pathology.",
+  "Copies of testing already performed for any eye condition(s)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Amblyopia or decreased distant vision which meets all the following: • Simple Refractive or Strabismic • One eye only • Unaffected eye Distance Vision is 20/20 or better (for all classes) Decreased vision caused by a process strictly limited to one eye with a fully normal fellow eye and an onset consistent with developmental adaptation",
+   "condition_html": "<p><strong>A</strong>. Amblyopia or decreased distant vision which meets all the following:</p>\n<p>• Simple Refractive or Strabismic</p>\n<p>• One eye only</p>\n<p>• Unaffected eye Distance Vision is 20/20 or better (for all classes)</p>\n<p>Decreased vision caused by a process strictly limited to one eye with a fully normal fellow eye and an onset consistent with developmental adaptation</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. Amblyopia Status Summary OR a current, detailed Clinical Progress Note generated from a clinic visit with their treating ophthalmologist or optometrist no more than 90 days before the AME exam which addresses all items on the Status Summary. - 2. Any associated progress notes.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>1. </strong>Amblyopia Status Summary</li></ul>\n<p>OR a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>ophthalmologist or optometrist</strong> no more than 90 days before the AME exam which addresses all items on the Status Summary.</p>\n<ul><li><strong>2. </strong>Any associated progress notes.</li></ul>",
+   "what_to_bring": [
+    "Amblyopia Status Summary",
+    "Any associated progress notes."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Summarize findings in Item 60. Submit the information to the FAA. In Item 60, specify the airman’s preferred FSDO if a Medical Flight Test (MFT) is required.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Summarize findings in Item 60.</p>\n<p>Submit the information to the FAA.</p>\n<p>In Item 60, specify the airman’s preferred FSDO if a Medical Flight Test (MFT) is required.</p>",
+   "pdf_page": 95,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others - Any “Yes*” items on the Amblyopia Status Summary - Both eyes affected - Not congenital/early childhood and adapted - Any other eye disease - Medication use - Concerns/unstable vision - Does not meet 20/20 DVA in unaffected eye - Both eyes fail to achieve corrected normal vision because of refractive errors (high hyperopia, myopia, or astigmatism).",
+   "condition_html": "<p><strong>B. </strong>All others</p>\n<ul><li>Any “Yes*” items on the Amblyopia Status Summary</li><li>Both eyes affected</li><li>Not congenital/early childhood and adapted</li><li>Any other eye disease</li><li>Medication use</li><li>Concerns/unstable vision</li><li>Does not meet 20/20 DVA in unaffected eye</li><li>Both eyes fail to achieve corrected normal vision because of refractive errors (high hyperopia, myopia, or astigmatism).</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 1. Amblyopia Status Summary - 2. Complete eye evaluation by a board-certified ophthalmologist which specifically includes if there is evidence of any other eye pathology. - 3. Any associated progress notes. - 4. Copies of testing already performed for any eye condition(s).",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>1. </strong>Amblyopia Status Summary</li><li><strong>2. </strong>Complete eye evaluation by a <strong>board-certified ophthalmologist</strong> which specifically includes if there is evidence of any other eye pathology.</li><li><strong>3. </strong>Any associated progress notes.</li><li><strong>4. </strong>Copies of testing already performed for any eye condition(s).</li></ul>",
+   "what_to_bring": [
+    "Amblyopia Status Summary",
+    "Complete eye evaluation by a board-certified ophthalmologist which specifically includes if there is evidence of any other eye pathology.",
+    "Any associated progress notes.",
+    "Copies of testing already performed for any eye condition(s)."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Summarize findings in Item 60. Submit the information to the FAA. In Item 60 specify the airman’s preferred FSDO if a Medical Flight Test (MFT) is required.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Summarize findings in Item 60.</p>\n<p>Submit the information to the FAA.</p>\n<p>In Item 60 specify the airman’s preferred FSDO if a Medical Flight Test (MFT) is required.</p>",
+   "pdf_page": 95,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "amblyopia",
+  "section_title": "AMBLYOPIA",
+  "pdf_pages": [
+   95
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

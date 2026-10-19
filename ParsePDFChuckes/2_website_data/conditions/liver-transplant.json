@@ -1,0 +1,205 @@
+{
+ "id": "liver-transplant",
+ "name": "Liver Transplant",
+ "subtitle": null,
+ "name_in_guide": "LIVER TRANSPLANT",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 79,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance",
+  "caci"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the transplant surgeon or transplant team physician no more than 90 days before the AME exam from transplant surgeon or transplant team physician. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; all pertinent test results obtained; assessment; plan (prognosis); and follow-up.",
+  "It must specifically include : Indication for transplant, any sequelae prior to transplant, if alcohol was a contributing factor (abuse or dependence), status of the transplant, functional capacity, modifiable risk factors, and prognosis for incapacitation.",
+  "Any recent or expected change in treatment plan.",
+  "Complication history such as:",
+  "Infection Hepatitis C (HCV) or CMV; and/or",
+  "Submit the required items for each individual organ transplanted.",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Hepatologist or treating physician no more than 90 days before the AME exam. It must include:",
+  "Lab. Current liver function testing, CBC, and any other testing clinically indicated.",
+  "Results of any imaging studies performed or clinically indicated. Fibrosis score such as FIB-4 or VCTE or Magnetic resonance elastography should be included.",
+  "Liver biopsy results (if performed)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Donor",
+   "condition_html": "<p><strong>A. </strong> Donor</p>",
+   "evaluation_data": "Surgery One year ago or longer If the AME can determine the condition has fully resolved with no issues affecting flight duties: Surgery Within the Last Year AME must review a detailed clinical progress note from the transplant team physician. If no complications or issues affecting flight duties:",
+   "evaluation_data_html": "<p>Surgery One year ago or longer</p>\n<p>If the AME can determine the condition has fully resolved with no issues affecting flight duties:</p>\n<p>Surgery Within the Last Year</p>\n<p>AME must review a detailed clinical progress note from the transplant team physician. If no complications or issues affecting flight duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "defer"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If any complications or concerns, DEFER.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this information in Block 60.</p>\n<p>If any complications or concerns, DEFER.</p>",
+   "pdf_page": 220,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Recipient",
+   "condition_html": "<p><strong>B. </strong>Recipient</p>",
+   "evaluation_data": "After a six (6) month post-transplant recovery period with documented stability for the last three (3) months: Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the transplant surgeon or transplant team physician no more than 90 days before the AME exam from transplant surgeon or transplant team physician. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; all pertinent test results obtained; assessment; plan (prognosis); and follow-up. - 2. It must specifically include: Indication for transplant, any sequelae prior to transplant, if alcohol was a contributing factor (abuse or dependence), status of the transplant, functional capacity, modifiable risk factors, and prognosis for incapacitation. - 3. Any recent or expected change in treatment plan. - 4. Complication history such as: - Rejection or graft versus host disease/GVHD; - Infection Hepatitis C (HCV) or CMV; and/or",
+   "evaluation_data_html": "<p>After a <strong>six (6) month post-transplant</strong> recovery period with <strong>documented stability for the last three (3) months:</strong></p>\n<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the <strong>transplant surgeon or transplant team physician no more than 90 days before</strong> the AME exam from transplant surgeon or transplant team physician. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; all pertinent test results obtained; assessment; plan (prognosis); and follow-up.</li></ul>\n<ul><li><strong>2. It must specifically include</strong>: Indication for transplant, any sequelae prior to transplant, if alcohol was a contributing factor (abuse or dependence), status of the transplant, functional capacity, modifiable risk factors, and prognosis for incapacitation.</li><li><strong>3. </strong>Any recent or expected change in treatment plan.</li><li><strong>4. </strong>Complication history such as:<ul><li>Rejection or graft versus host disease/GVHD;</li><li>Infection Hepatitis C (HCV) or CMV; and/or</li></ul></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the transplant surgeon or transplant team physician no more than 90 days before the AME exam from transplant surgeon or transplant team physician. It should include a detailed summary of the history of the condition or diagnosis; treatments and outcomes; current medications, dosages, and side effects (if any); physical exam findings; all pertinent test results obtained; assessment; plan (prognosis); and follow-up.",
+    "It must specifically include : Indication for transplant, any sequelae prior to transplant, if alcohol was a contributing factor (abuse or dependence), status of the transplant, functional capacity, modifiable risk factors, and prognosis for incapacitation.",
+    "Any recent or expected change in treatment plan.",
+    "Complication history such as:",
+    "Infection Hepatitis C (HCV) or CMV; and/or"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60. - - Malignancy due to hepatocellular carcinoma (HCC) or following transplant and initiation of immune-suppressants. - 5. Lab: Complete blood count (CBC), CMP with LFTs performed within the past 90 days. - 6. Imaging: Copies of the initial and most recent MRI, CT, or PET scan with clinical interpretation. - 7. Specific testing: Results of liver biopsy (already performed). - 8. Hospital records: History and Physical (H&P), operative notes, and discharge summary. - 9. Pre-transplant treatment notes that identify the diagnosis/underlying condition which required transplant.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>\n<ul><li><ul><li>Malignancy due to hepatocellular carcinoma (HCC) or following transplant and initiation of immune-suppressants.</li></ul></li><li><strong>5. Lab:</strong> Complete blood count <strong>(CBC), CMP </strong>with <strong>LFTs </strong>performed <strong>within the past 90 days</strong>.</li><li><strong>6. Imaging:</strong> Copies of the initial and most recent MRI, CT, or PET scan with clinical interpretation.</li><li><strong>7. Specific testing: </strong>Results of<strong> liver biopsy </strong>(already performed).</li><li><strong>8. Hospital records: </strong>History and Physical (H&amp;P), operative notes, and discharge summary.</li><li><strong>9. </strong>Pre-transplant treatment notes that identify the diagnosis/underlying condition which required transplant.</li></ul>",
+   "pdf_page": 220,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Combined Transplants Liver + kidney Liver + heart Liver + other",
+   "condition_html": "<p><strong>C. </strong>Combined Transplants</p>\n<p>Liver + kidney</p>\n<p>Liver + heart</p>\n<p>Liver + other</p>",
+   "evaluation_data": "Submit the required items for each individual organ transplanted.",
+   "evaluation_data_html": "<p>Submit the required items for <strong>each </strong>individual organ transplanted.</p>",
+   "what_to_bring": [
+    "Submit the required items for each individual organ transplanted."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 220,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "A",
+   "condition": "Metabolic dysfunction-associated steatotic liver disease (MASLD) OR Non-alcoholic fatty liver disease (NAFLD) NOT due to diabetes and/or substance use disorder",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Metabolic dysfunction-associated steatotic liver disease (MASLD)</p>\n<p>OR</p>\n<p>Non-alcoholic fatty liver disease (NAFLD)</p>\n<p>NOT due to diabetes and/or substance use disorder</p>",
+   "evaluation_data": "If the AME can determine the condition is under control, and no symptoms that would interfere with flight or safety related duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control, and no symptoms that would interfere with flight or safety related duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If any underlying cause is found, see that section.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60.</p>\n<p>If any underlying cause is found, see that section.</p>",
+   "pdf_page": 222,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Metabolic dysfunction-associated steatohepatitis (MASH) OR Non-alcoholic steatohepatitis (NASH) If diabetes present, see that section.",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Metabolic dysfunction-associated steatohepatitis (MASH)</p>\n<p>OR</p>\n<p>Non-alcoholic steatohepatitis (NASH)</p>\n<p>If <a href=\"https://www.faa.gov/ame_guide/media/Diabetes_mellitus_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">diabetes</a> present, see that section.</p>",
+   "evaluation_data": "See the CACI MASH/NASH Worksheet . This requires a current, detailed Clinical Progress Note from the Hepatologist (Liver Specialist) and fibrosis score. If the pilot meets all CACI worksheet criteria and is otherwise qualified:",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf\" target=\"_blank\" rel=\"noopener\">CACI MASH/NASH Worksheet</a> .</p>\n<p>This requires a current, detailed Clinical Progress Note from the Hepatologist (Liver Specialist) and fibrosis score.</p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci",
+    "issue"
+   ],
+   "disposition": "If the pilot meets all CACI worksheet criteria and is otherwise qualified, ISSUE with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file. If no AME explanation, the individual may be asked to provide documentation.",
+   "disposition_html": "<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified,</p>\n<p>ISSUE</p>\n<p>with no time limitation</p>\n<p>Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.</p>\n<p>If no AME explanation, the individual may be asked to provide documentation.</p>",
+   "pdf_page": 222,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others - Symptomatic - Fibrosis score F2 or greater - FIB-4 index 2.68 or greater - Liver biopsy showed cirrhosis Cirrhosis - See that section",
+   "condition_html": "<p><strong>C.</strong> All others</p>\n<ul><li>Symptomatic</li></ul>\n<ul><li>Fibrosis score F2 or greater</li></ul>\n<ul><li>FIB-4 index 2.68 or greater</li></ul>\n<ul><li>Liver biopsy showed cirrhosis</li></ul>\n<p><a href=\"https://www.faa.gov/ame_guide/media/Cirrhosis_Dispo_Table.pdf\" target=\"_blank\" rel=\"noopener\">Cirrhosis</a> - See that section</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Hepatologist or treating physician no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. Lab. Current liver function testing, CBC, and any other testing clinically indicated. 3. Results of any imaging studies performed or clinically indicated. Fibrosis score such as FIB-4 or VCTE or Magnetic resonance elastography should be included. 4. Liver biopsy results (if performed).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>Hepatologist </strong> or treating physician no more than <strong>90 days</strong> before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. <strong>Lab.</strong> Current liver function testing, CBC, and any other testing clinically indicated.</p>\n<p>3. Results of any imaging studies performed or clinically indicated. Fibrosis score such as FIB-4 or VCTE or Magnetic resonance elastography should be included.</p>\n<p>4. Liver biopsy results (if performed).</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Hepatologist or treating physician no more than 90 days before the AME exam. It must include:",
+    "Lab. Current liver function testing, CBC, and any other testing clinically indicated.",
+    "Results of any imaging studies performed or clinically indicated. Fibrosis score such as FIB-4 or VCTE or Magnetic resonance elastography should be included.",
+    "Liver biopsy results (if performed)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 222,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – MASH/NASH (Liver) Worksheet",
+   "updated": "04/29/2026",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed Clinical Progress Note from the Hepatologist or treating physician verifies:",
+     "acceptable_certification_criteria": "[ ] Condition is under control, insulin resistance (if present) is adequately treated, and no symptoms (such as fatigue or malaise) that would interfere with flight or safety related duties."
+    },
+    {
+     "ame_must_review": "Any clinical evidence or diagnosis of cirrhosis:",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Fibrosis score from lab or imaging performed no more than 90 day ago None of the values are exceeded:",
+     "acceptable_certification_criteria": "[ ] FIB-4 index* is less than 2.68; or [ ] Ultrasound-based vibration-controlled transient elastography (VCTE) is less than 8 kPa; or [ ] Magnetic resonance elastography is less than 2.55 kPa *If an imaging study has not been performed, calculate the FIB-4 index (requires age, platelet count, AST, and ALT)."
+    },
+    {
+     "ame_must_review": "Medications for condition (any combination of):",
+     "acceptable_certification_criteria": "[ ] None [ ] Vitamin E [ ] Weight loss medication (see that page)"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified MASH/NASH. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified MASH/NASH.",
+    "NOT CACI qualified MASH/NASH. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Metabolic dysfunction-Associated Liver Disease (MASLD)/Non-Alcoholic Fatty Liver Disease (NAFLD), and Metabolic dysfunction-Associated Steatohepatitis (MASH)/Non-Alcoholic Steatohepatitis (NASH) </strong></p>\n<p>All Classes</p>\n<p>(Updated 04/29/2026)</p>\n<p>(Updated 04/29/2026)</p>",
+ "links": [
+  {
+   "text": "CACI MASH/NASH Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_MASH_NASH_Liver.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "eosinophilic-esophagitis",
+  "section_title": "Eosinophilic Esophagitis",
+  "pdf_pages": [
+   220,
+   222,
+   224
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

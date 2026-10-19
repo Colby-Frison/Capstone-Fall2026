@@ -1,0 +1,130 @@
+{
+ "slug": "smoking-cessation-medications",
+ "title": "SMOKING CESSATION MEDICATIONS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  672
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "(Updated 04/29/2026)",
+   "html": "<p>(Updated 04/29/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113(c); 67.213(c) and 67.313(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong>- 67.113(c); 67.213(c) and 67.313(c)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "II. MEDICAL HISTORY: Item 47: Psychiatric",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: Item 47: Psychiatric</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "Verify why the medication is used. If taken for a psychiatric condition, see that section. Inquire if any side effects that could interfere with aviation safety have occurred.",
+   "html": "<p>Verify why the medication is used. If taken for a psychiatric condition, see that section. Inquire if any side effects that could interfere with aviation safety have occurred.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS:",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "See Item 47: Psychiatric",
+   "html": "<p>See Item 47: Psychiatric</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 672,
+   "text": "- Usual treatment duration is 12 weeks, however, extended maintenance therapy up to one year may have additional guidance.",
+   "html": "<ul><li>Usual treatment duration is 12 weeks, however, extended maintenance therapy up to one year may have additional guidance.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 672,
+   "header": null,
+   "rows": [
+    [
+     "",
+     "ACCEPTABLE Smoking Cessation Medications",
+     ""
+    ],
+    [
+     "",
+     "(as a single agent or in any combination product)",
+     ""
+    ],
+    [
+     "",
+     "Medication Initial Post-dose",
+     ""
+    ],
+    [
+     "",
+     "observation observation (no- (Ground fly time after Trial) each dose)",
+     ""
+    ],
+    [
+     "",
+     "• nicotine (gum, lozenge, patch) None None",
+     ""
+    ],
+    [
+     "",
+     "• nicotine (nasal spray) 48 hours None",
+     ""
+    ],
+    [
+     "",
+     "• varenicline (oral) (Chantix) 1 week None o AME can issue if no history of psychiatric condition(s) or concerns. Annotate Item 60. o If used as an antidepressant see Anxiety, Depression, and Related Conditions Table",
+     ""
+    ]
+   ],
+   "html": "<table><tbody><tr><td></td><td><p><strong>ACCEPTABLE Smoking Cessation Medications</strong></p></td><td></td></tr><tr><td></td><td><p>(as a single agent or in any combination product)</p></td><td></td></tr><tr><td></td><td><p><strong>Medication</strong> Initial Post-dose</p></td><td></td></tr><tr><td></td><td><p>observation observation (no- (Ground fly time after Trial) each dose)</p></td><td></td></tr><tr><td></td><td><p>• nicotine (gum, lozenge, patch) None None</p></td><td></td></tr><tr><td></td><td><p>• nicotine (nasal spray) 48 hours None</p></td><td></td></tr><tr><td></td><td><p>• varenicline (oral) (Chantix) 1 week None o AME can issue if no history of psychiatric condition(s) or concerns. Annotate Item 60.</p>\n<p>o If used as an antidepressant see <a href=\"https://www.faa.gov/ame_guide/media/Anxiety_Depression_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">Anxiety,</a> Depression, and Related Conditions Table</p>\n<p></p></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 672,
+   "header": [
+    "UNACCEPTABLE Smoking Cessation Medications"
+   ],
+   "rows": [
+    [
+     "- bupropion SR (Zyban) - FIRST treatment course - Do NOT issue a medical during active treatment. - Once treatment is complete, a 7 day no-fly after last dose is required. - RECURRENT treatment or EXTENDED therapy > 6 months - Refer to Anxiety, Depression, and Related Conditions Table"
+    ],
+    [
+     "- nortriptyline (Pamelor)"
+    ]
+   ],
+   "html": "<table><thead><tr><th>UNACCEPTABLE Smoking Cessation Medications</th></tr></thead><tbody><tr><td><ul><li><p>• bupropion SR (Zyban)</p>\n<ul><li>FIRST treatment course<ul><li>Do NOT issue a medical during active treatment.</li><li>Once treatment is complete, a 7 day no-fly after last dose is required.</li></ul></li><li>RECURRENT treatment or EXTENDED therapy &gt; 6 months<ul><li>Refer to <a href=\"https://www.faa.gov/ame_guide/media/Anxiety_Depression_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">Anxiety, Depression, and Related Conditions Table</a></li></ul></li></ul></li></ul></td></tr><tr><td><ul><li>nortriptyline (Pamelor)</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 672,
+   "text": "672",
+   "html": "<p>672</p>"
+  }
+ ]
+}

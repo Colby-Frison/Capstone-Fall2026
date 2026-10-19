@@ -1,0 +1,113 @@
+{
+ "id": "urinary-systems",
+ "name": "Urinary Systems",
+ "subtitle": null,
+ "name_in_guide": "URINARY SYSTEMS",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/30/2015",
+ "order": 99,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and a current, detailed Clinical Progress Note",
+  "Submit all pertinent medical records; current, detailed Clinical Progress Note to include names and dosage of medication(s) and side effects (if any)."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Hydronephrosis with impaired renal function",
+   "condition_html": "<p>Hydronephrosis with impaired renal function</p>",
+   "evaluation_data": "Submit all pertinent medical information and a current, detailed Clinical Progress Note",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and a <strong>current, detailed Clinical Progress Note </strong></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and a current, detailed Clinical Progress Note"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 262,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Nephrectomy (non-neoplastic)",
+   "condition_html": "<p>Nephrectomy</p>\n<p>(non-neoplastic)</p>",
+   "evaluation_data": "Submit all pertinent medical information and a current, detailed Clinical Progress Note",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and a <strong>current, detailed Clinical Progress Note</strong></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and a current, detailed Clinical Progress Note"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If the remaining kidney function and anatomy is normal, without other system disease, hypertension, uremia, or infection of the remaining kidney – Issue Otherwise – Requires FAA Decision",
+   "disposition_html": "<p>If the remaining kidney function and anatomy is normal, without other system disease, hypertension, uremia, or infection of the remaining kidney – <strong>Issue</strong></p>\n<p>Otherwise – Requires FAA Decision</p>",
+   "pdf_page": 262,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hematuria",
+   "condition_html": "<p>Hematuria</p>",
+   "evaluation_data": "Submit all pertinent medical information and a current, detailed Clinical Progress Note",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and a <strong>current, detailed Clinical Progress Note </strong></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and a current, detailed Clinical Progress Note"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If no underlying condition found after urology evaluation – Issue and submit evaluation to the FAA If underlying cause found, see that section.",
+   "disposition_html": "<p>If no underlying condition found after urology evaluation – <strong>Issue</strong> and submit evaluation to the FAA</p>\n<p>If underlying cause found, see that section.</p>",
+   "pdf_page": 262,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Proteinuria and Glycosuria",
+   "condition_html": "<p>Proteinuria and Glycosuria</p>",
+   "evaluation_data": "Submit all pertinent medical records; current, detailed Clinical Progress Note to include names and dosage of medication(s) and side effects (if any).",
+   "evaluation_data_html": "<p>Submit all pertinent medical records; <strong>current, detailed Clinical Progress Note</strong> to</p>\n<p>include names and dosage of medication(s) and side effects (if any).</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records; current, detailed Clinical Progress Note to include names and dosage of medication(s) and side effects (if any)."
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "Trace or 1+ protein and glucose intolerance ruled out - Issue Otherwise – Requires FAA Decision",
+   "disposition_html": "<p>Trace or 1+ protein</p>\n<p>and glucose intolerance ruled out</p>\n<p>- <strong>Issue</strong></p>\n<p>Otherwise – Requires FAA Decision</p>",
+   "pdf_page": 262,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Hydronephrosis with impaired renal function",
+  "Nephrectomy (non-neoplastic)",
+  "Hematuria",
+  "Proteinuria and Glycosuria"
+ ],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   262
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

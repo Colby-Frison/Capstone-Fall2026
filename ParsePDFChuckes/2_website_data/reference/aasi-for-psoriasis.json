@@ -1,0 +1,71 @@
+{
+ "slug": "aasi-for-psoriasis",
+ "title": "AASI for Psoriasis",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  714
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "All Classes",
+   "html": "<p><strong>All Classes </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "(Updated 08/28/2024)",
+   "html": "<p>(Updated 08/28/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 714,
+   "text": "- 1. An Authorization granted by the FAA; and",
+   "html": "<ul><li>1. An Authorization granted by the FAA; and</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 714,
+   "text": "- 2. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Rheumatologist or Dermatologist no more than 90 days before the AME exam. It must include:\n- A detailed interim summary;\n- Current medications, dosage, and side effects (if any);\n- Physical exam findings;\n- Results of all testing performed;\n- Diagnosis;\n- Assessment and plan (prognosis); and\n- Follow-up.",
+   "html": "<ul><li>2. <strong>A current, detailed Clinical Progress Note </strong>generated from a clinic visit with the <strong>treating Rheumatologist or Dermatologist no more than 90 days before </strong>the AME exam. It must include:</li><li>A detailed interim summary;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of all testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 714,
+   "text": "- 3. It must specifically describe if co-morbid conditions are present, they are appropriately managed, and that the individual was counseled regarding guideline-directed screening for co-morbid conditions.",
+   "html": "<ul><li>3. It must <strong>specifically describe </strong>if co-morbid conditions are present, they are appropriately managed, and that the individual was counseled regarding guideline-directed screening for co-morbid conditions.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 714,
+   "text": "AME must defer and describe in Block 60 what item(s) caused the deferral if the treating physician evaluation or AME exam identifies any of the following:",
+   "html": "<p><strong>AME must defer </strong>and describe in Block 60 what item(s) caused the deferral if the treating physician evaluation or AME exam identifies any of the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 714,
+   "text": "- Any other disqualifying medical conditions or therapy not previously reported;\n- Development of symptoms or medication side effects incompatible with aviation safety; or\n- Guideline directed screening for co-morbid conditions are not addressed.",
+   "html": "<ul><li><strong>Any other disqualifying medical conditions </strong>or therapy not previously reported;</li><li><strong>Development of symptoms or medication side effects incompatible with aviation safety; or</strong></li><li><strong>Guideline directed screening </strong>for co-morbid conditions are not addressed.</li></ul>"
+  }
+ ]
+}

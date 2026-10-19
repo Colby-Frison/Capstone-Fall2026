@@ -1,0 +1,145 @@
+{
+ "id": "ophthalmoscopic",
+ "name": "Ophthalmoscopic",
+ "subtitle": null,
+ "name_in_guide": "Ophthalmoscopic",
+ "category": {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "exam_item": "32",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 27,
+ "decisions": [
+  "faa_decision",
+  "caci",
+  "issue",
+  "special_issuance",
+  "aasi"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and detailed Clinical Progress Note.",
+  "Review all pertinent medical information and current detailed Clinical Progress Note, or Form 8500-14"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Corneal Ulcer or Dystrophy; Optic Atrophy; Papilledema; or Retinal Degeneration or Detachment; Uveitis",
+   "condition_html": "<p>Corneal Ulcer or Dystrophy;</p>\n<p>Optic Atrophy;</p>\n<p>Papilledema; or</p>\n<p>Retinal Degeneration or Detachment;</p>\n<p>Uveitis</p>",
+   "evaluation_data": "Submit all pertinent medical information and detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and detailed Clinical Progress Note.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 114,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Glaucoma (treated or untreated)",
+   "condition_html": "<p>Glaucoma (treated or untreated)</p>",
+   "evaluation_data": "Review all pertinent medical information and current detailed Clinical Progress Note, or Form 8500-14",
+   "evaluation_data_html": "<p>Review all pertinent medical information and current detailed Clinical Progress Note, or Form 8500-14</p>",
+   "what_to_bring": [
+    "Review all pertinent medical information and current detailed Clinical Progress Note, or Form 8500-14"
+   ],
+   "decisions": [
+    "caci",
+    "issue",
+    "faa_decision",
+    "special_issuance",
+    "aasi"
+   ],
+   "disposition": "Follow CACI - Glaucoma Worksheet . If airman meets all certification criteria – Issue. All others require FAA decision. Submit all evaluation data. Initial Special Issuance - Requires FAA Decision Follow-up Special Issuances - See AASI Protocol",
+   "disposition_html": "<p>Follow <a href=\"https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Glaucoma Worksheet</a> . If airman meets all certification criteria – <strong>Issue</strong>.</p>\n<p><strong>All others</strong> require FAA decision. Submit all evaluation data.</p>\n<p><strong>Initial Special Issuance</strong> - Requires FAA Decision <strong>Follow-up Special Issuances</strong> - See <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/glaucoma/\" target=\"_blank\" rel=\"noopener\">AASI Protocol</a></p>",
+   "pdf_page": 114,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Macular Degeneration; Macular Detachment",
+   "condition_html": "<p>Macular Degeneration; Macular Detachment</p>",
+   "evaluation_data": "Submit all pertinent medical information and detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and detailed Clinical Progress Note.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 114,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Tumors",
+   "condition_html": "<p>Tumors</p>",
+   "evaluation_data": "Submit all pertinent medical information and detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and detailed Clinical Progress Note.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 114,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Vascular Occlusion; Retinopathy",
+   "condition_html": "<p>Vascular Occlusion; Retinopathy</p>",
+   "evaluation_data": "Submit all pertinent medical information and detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and detailed Clinical Progress Note.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 114,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "CACI - Glaucoma Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIGlaucoma.pdf"
+  },
+  {
+   "text": "AASI Protocol",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/glaucoma/"
+  }
+ ],
+ "aliases": [
+  "Corneal Ulcer or Dystrophy; Optic Atrophy; Papilledema; or Retinal Degeneration",
+  "Glaucoma (treated or untreated)",
+  "Macular Degeneration; Macular Detachment",
+  "Tumors",
+  "Vascular Occlusion; Retinopathy"
+ ],
+ "source": {
+  "section": "item-32-ophthalmoscopic",
+  "section_title": "ITEM 32. Ophthalmoscopic",
+  "pdf_pages": [
+   114
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

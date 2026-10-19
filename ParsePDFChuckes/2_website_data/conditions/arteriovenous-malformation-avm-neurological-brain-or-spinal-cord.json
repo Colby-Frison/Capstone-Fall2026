@@ -1,0 +1,131 @@
+{
+ "id": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+ "name": "Arteriovenous Malformation (AVM) – Neurological (Brain or Spinal Cord)",
+ "subtitle": null,
+ "name_in_guide": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 114,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Imaging studies:",
+  "CTA (preferred) or MRA head performed no more than 12 months before the AME exam.",
+  "Previous Imaging (such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) performed at any time after the symptoms occurred.",
+  "Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail.",
+  "Any other testing performed or deemed necessary by the treating physician.",
+  "All items in Row A.",
+  "Imaging studies. Performed after any procedure to verify the condition has been fully treated.",
+  "Hospital records for each hospitalization related to this condition. It must include",
+  "information on surgeries and procedures such as embolization.",
+  "Emergency Medical; Services (EMS)/ambulance run sheet (if applicable);",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Lab report(s) including all drug or alcohol testing performed;",
+  "Operative/procedure report(s);",
+  "Pathology report(s); and",
+  "Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Brain or Spinal Cord Not requiring treatment",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Brain or Spinal Cord</p>\n<p>Not requiring treatment</p>",
+   "evaluation_data": "Submit to the FAA for review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Imaging studies: - - MRI brain to include sequences sensitive to the presence of hemosiderin performed no more than 12 months before the AME exam. - CTA (preferred) or MRA head performed no more than 12 months before the AME exam. - Previous Imaging (such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) performed at any time after the symptoms occurred. - Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail. - 3. Any other testing performed or deemed necessary by the treating physician. Note: If associated with a seizure – see that section. A recovery period may apply.",
+   "evaluation_data_html": "<p><strong>Submit to the FAA for review:</strong></p>\n<ul><li>1. A current, detailed neurological evaluation that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.</li></ul>\n<ul><li>2. <strong>Imaging studies: </strong></li></ul>\n<ul><li><ul><li><strong>MRI brain</strong> to<strong> include sequences sensitive to the presence of hemosiderin</strong> performed <strong>no more than 12 months before</strong> the AME exam.</li><li><strong>CTA (preferred) or MRA head</strong> performed <strong>no more than 12 months before </strong>the AME exam.</li><li><strong>Previous Imaging </strong>(such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) performed at any time after the symptoms occurred.</li><li>Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail.</li></ul></li></ul>\n<ul><li>3. Any other testing performed or deemed necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> If associated with a seizure – see that section. A recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Imaging studies:",
+    "CTA (preferred) or MRA head performed no more than 12 months before the AME exam.",
+    "Previous Imaging (such as CT, MRI, CTA, MRA, or cerebral catheter angiography/cath angio of the head) performed at any time after the symptoms occurred.",
+    "Submit BOTH the report and a copy of all images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or images as a safeguard if lost in the mail.",
+    "Any other testing performed or deemed necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 290,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Brain or Spinal Cord Treated with embolization procedure Ruptured or repaired",
+   "condition_html": "<p>B. Brain or Spinal Cord</p>\n<p>Treated with embolization procedure</p>\n<p>Ruptured or repaired</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. All items in Row A. - 2. Imaging studies. Performed after any procedure to verify the condition has been fully treated. - 3. Hospital records for each hospitalization related to this condition. It must include - information on surgeries and procedures such as embolization. - Admission History and Physical (H&P). - Emergency Medical; Services (EMS)/ambulance run sheet (if applicable); - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.); - Lab report(s) including all drug or alcohol testing performed; - Operative/procedure report(s); - Pathology report(s); and - Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. Note: If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. All items in Row A.</li></ul>\n<ul><li>2. <strong>Imaging studies.</strong> Performed after any procedure to verify the condition has been fully treated.</li></ul>\n<ul><li>3. Hospital records for each hospitalization related to this condition. It must include</li></ul>\n<ul><li><p>information on surgeries and procedures such as embolization.</p>\n<ul><li>Admission History and Physical (H&amp;P).</li><li>Emergency Medical; Services (EMS)/ambulance run sheet (if applicable);</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Lab report(s) including all drug or alcohol testing performed;</li><li>Operative/procedure report(s);</li><li>Pathology report(s); and</li><li>Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.</li></ul></li></ul>\n<p><strong>Note:</strong> If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA.</p>",
+   "what_to_bring": [
+    "All items in Row A.",
+    "Imaging studies. Performed after any procedure to verify the condition has been fully treated.",
+    "Hospital records for each hospitalization related to this condition. It must include",
+    "information on surgeries and procedures such as embolization.",
+    "Emergency Medical; Services (EMS)/ambulance run sheet (if applicable);",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Lab report(s) including all drug or alcohol testing performed;",
+    "Operative/procedure report(s);",
+    "Pathology report(s); and",
+    "Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 290,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "AVM - Peripheral (e.g. lungs, liver, or bone)",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>AVM - Peripheral</p>\n<p>(e.g. lungs, liver, or bone)</p>",
+   "evaluation_data": "See that page: AVM - Peripheral (e.g. lungs, liver, or bone)",
+   "evaluation_data_html": "<p>See that page:</p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Peripheral.pdf\" target=\"_blank\" rel=\"noopener\">AVM - Peripheral (e.g. lungs, liver, or bone)</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 290,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "AVM - Peripheral (e.g. lungs, liver, or bone)",
+   "href": "https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Peripheral.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   290
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

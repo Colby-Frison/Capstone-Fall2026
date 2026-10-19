@@ -1,0 +1,23 @@
+{
+ "slug": "protocol-for-renal-transplant",
+ "title": "Protocol for Renal Transplant",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  619
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 619,
+   "text": "An applicant with a history of renal transplant must submit the following if consideration for medical certification is desired:",
+   "html": "<p>An applicant with a history of renal transplant must submit the following if consideration for medical certification is desired:</p>"
+  },
+  {
+   "type": "list",
+   "page": 619,
+   "text": "- 1. Hospital admission, operative report and discharge summary\n- 2. Current, detailed Clinical Progress Note report including: - The etiology of the primary renal disease - History of hypertension or cardiac dysfunction - Sequela prior to transplant - A comment regarding rejection or graft versus host disease (GVHD) - Immunosuppressive therapy and side effects, if any - The results of the following laboratory results: CBC, BUN, creatinine, and electrolytes",
+   "html": "<ul><li>1. Hospital admission, operative report and discharge summary</li><li><p>2. Current, detailed Clinical Progress Note report including:</p>\n<ul><li>The etiology of the primary renal disease</li><li>History of hypertension or cardiac dysfunction</li><li>Sequela prior to transplant</li><li>A comment regarding rejection or graft versus host disease (GVHD)</li><li>Immunosuppressive therapy and side effects, if any</li><li>The results of the following laboratory results: CBC, BUN, creatinine, and electrolytes</li></ul></li></ul>"
+  }
+ ]
+}

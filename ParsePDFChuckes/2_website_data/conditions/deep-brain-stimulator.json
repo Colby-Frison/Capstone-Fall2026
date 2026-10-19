@@ -1,0 +1,58 @@
+{
+ "id": "deep-brain-stimulator",
+ "name": "Deep Brain Stimulator",
+ "subtitle": null,
+ "name_in_guide": "DEEP BRAIN STIMULATOR",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/22/2023",
+ "order": 124,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Deep Brain Stimulator (DBS) Status Summary (see following page).",
+  "Operative report."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Deep Brain Stimulator (DBS)",
+   "condition_html": "<p>Deep Brain Stimulator (DBS)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. Deep Brain Stimulator (DBS) Status Summary (see following page). - 2. Operative report. If applicant has two DBS devices, complete a status summary for each device.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. Deep Brain Stimulator (DBS) Status Summary (see following page).</li></ul>\n<ul><li>2. Operative report.</li></ul>\n<p>If applicant has <strong>two </strong>DBS devices, complete a status summary for<strong> each device.</strong></p>",
+   "what_to_bring": [
+    "Deep Brain Stimulator (DBS) Status Summary (see following page).",
+    "Operative report."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 312,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note</strong>: See underlying condition page for additional information requirements</p>\n<p><strong>DEEP BRAIN STIMULATOR (DBS) STATUS SUMMARY </strong></p>\n<p>(Updated 01/25/2023)</p>\n<p>Name _______________________________ Birthdate ________________</p>\n<p>Applicant ID# _________________________ PI# _________________</p>\n<p>Please have the treating neurologist complete this summary by entering the information in the space provided. Submit either this summary* or all supporting documentation (which addresses each item below) and <strong>a copy of the most recent device printout indicating the current device settings and status </strong>to your AME or to the FAA:</p>\n<p>Federal Aviation Administration</p>\n<p>Civil Aerospace Medical Institute, Building 13</p>\n<p>Aerospace Medical Certification Division, AAM-300, PO Box 25082,</p>\n<p>Oklahoma City, OK 73125-9867</p>\n<p>Lead stimulation site e.g., GPi, STN, ViM, CZi ____________________________________________________</p>\n<p>(Use a separate page for <strong>each </strong>DBS stimulator lead to report the specific site and information for <strong>each</strong> lead).</p>\n<ul><li>6. Diagnosis (Circle one): Parkinson’s disease/ essential tremor/ dystonia/ other (If other, list)…. ___________</li></ul>\n<ul><li>7. Date DBS data below was obtained………………………………………………………..…......____/____/____</li></ul>\n<ul><li>8. DBS manufacturer and model ………………….……………………………………..……...... ______________</li></ul>\n<ul><li>9. Date DBS leads implanted in the brain ………………………................................................. ____/____/____</li></ul>\n<ul><li>10. Battery (Circle one):……….……………………….………………….……………..rechargeable/ non-rechargeable</li></ul>\n<ul><li>11. Estimated battery longevity…...………………………………………………….………........... ________ months</li></ul>\n<ul><li>12. If battery was replaced, date of the last replacement ……………….………………......……….____/____/____</li></ul>\n<ul><li>13. Active contacts:_________________________________________________________________________</li></ul>\n<ul><li>14. Impedance for individual active leads……………………………………………………………._________ ohms</li></ul>\n<ul><li>15. Total Impedance for active leads…………………………………………………………………._________ ohms</li></ul>\n<ul><li>16. Voltage (V)………………………………………………………………………………………….__________ volts</li></ul>\n<ul><li>17. Frequency……….…………………………………………………………………………………..__________ hertz</li></ul>\n<ul><li>18. Pulse width………………….……………………………………………………............__________microseconds</li></ul>\n<ul><li>19. Patient-controlled setting parameters _________________________________________________________</li></ul>\n<ul><li>20. In the past 6 months, has the DBS functioned normally? (NO significant abnormality, impedance, or changes</li></ul>\n<p>in effectiveness.)…..…….……………………………………………………………………………………..Yes__ No__</p>\n<ul><li>21. To your knowledge, has the DBS lead(s) or generator been the subject of a recall?....…..………Yes__ No__</li></ul>\n<p>_______________________________ _________</p>\n<p>Neurologist signature Date</p>\n<p>*This DBS Status Summary is NOT required; however, it will help to streamline and significantly DECREASE FAA review time.</p>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   312,
+   313
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

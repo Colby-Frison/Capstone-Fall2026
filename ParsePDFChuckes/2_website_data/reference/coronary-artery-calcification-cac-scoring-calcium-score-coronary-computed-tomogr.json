@@ -1,0 +1,48 @@
+{
+ "slug": "coronary-artery-calcification-cac-scoring-calcium-score-coronary-computed-tomogr",
+ "title": "Coronary Artery Calcification (CAC) Scoring; Calcium Score; Coronary Computed Tomography Angiography (CCTA)",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  524,
+  525
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 524,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "list",
+   "page": 524,
+   "text": "- Do NOT use this guidance for individuals with known prior coronary artery disease (such as those who have had a heart attack, stent, or CABG), or those on a SI/SC for a cardiac condition.",
+   "html": "<ul><li>Do NOT use this guidance for individuals with known prior coronary artery disease (such as those who have had a heart attack, stent, or CABG), or those on a SI/SC for a cardiac condition.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 524,
+   "text": "- Higher calcium scores are associated with Major Adverse Cardiac Events (MACE) which can cause sudden incapacitation.",
+   "html": "<ul><li>Higher calcium scores are associated with Major Adverse Cardiac Events (MACE) which can cause sudden incapacitation.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 524,
+   "text": "- Coronary CT Angiography (CCTA) can assess some “soft” plaque and give an estimate of coronary obstruction, but it is NOT the same as a cardiac catheterization. If a CCTA is performed instead of a cardiac catheterization (such as in the setting of a high coronary artery calcium score), it must include the CT-FFR (fractional flow reserve) measurement for applicable/questionable lesions. The FAA requires either the CT-FFR results (as applicable) or a cardiac catheterization to assess eligibility for medical certification or clearance.",
+   "html": "<ul><li>Coronary CT Angiography (CCTA) can assess some “soft” plaque and give an estimate of coronary obstruction, but it is NOT the same as a cardiac catheterization. If a CCTA is performed instead of a cardiac catheterization (such as in the setting of a high coronary artery calcium score), it must include the CT-FFR (fractional flow reserve) measurement for applicable/questionable lesions. The FAA requires either the CT-FFR results (as applicable) or a cardiac catheterization to assess eligibility for medical certification or clearance.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 524,
+   "text": "- If the CT-FFR (Fractional Flow Reserve) is determined to be clinically significant, in most cases, the individual will need cardiac catheterization to determine if the obstruction will require treatment.",
+   "html": "<ul><li>If the CT-FFR (Fractional Flow Reserve) is determined to be clinically significant, in most cases, the individual will need cardiac catheterization to determine if the obstruction will require treatment.</li></ul>"
+  },
+  {
+   "type": "figure",
+   "page": 525,
+   "text": "㉐㠲㠱礣卉1",
+   "html": "<figure><img src=\"images/p525_fig2.png\" alt=\"㉐㠲㠱礣卉1\" loading=\"lazy\"></figure>"
+  }
+ ]
+}

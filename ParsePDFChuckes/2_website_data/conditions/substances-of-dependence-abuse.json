@@ -1,0 +1,136 @@
+{
+ "id": "substances-of-dependence-abuse",
+ "name": "Substances of Dependence/Abuse",
+ "subtitle": null,
+ "name_in_guide": "SUBSTANCES OF DEPENDENCE/ABUSE",
+ "category": {
+  "id": "substances-of-dependence-abuse",
+  "name": "Substances of Dependence/Abuse",
+  "exam_item": null,
+  "part": "Substances of Dependence/Abuse"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/26/2024",
+ "order": 180,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Airman’s personal statement",
+  "The Alcohol Event Status Report for the AME along with the supporting information used to review."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "History of alcohol related event(s) Previously reported to FAA and written proof from the FAA that monitoring is not required.",
+   "condition_html": "<p><strong>A</strong>. History of alcohol related event(s)</p>\n<p>Previously <strong>reported to FAA </strong>and <strong>written proof </strong>from the FAA that monitoring is not required.</p>",
+   "evaluation_data": "The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review. The AME should review the letter and obtain any additional history necessary from the airman to verify NO subsequent events have occurred.",
+   "evaluation_data_html": "<p>The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review.</p>\n<p>The AME should review the letter and <strong>obtain any additional history necessary from the airman to verify NO subsequent events have occurred.</strong></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "defer"
+   ],
+   "disposition": "ISSUE Annotate Block 60 with the mm/yyyy of the most recent event and that there have been no further events or changes in condition. If changes, consult with AMCD/RFS or Defer",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60 with the mm/yyyy of the most recent event and that there have been no further events or changes in condition.</p>\n<p>If changes, consult with AMCD/RFS or Defer</p>",
+   "pdf_page": 724,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Single event 5 or more years ago with Blood Alcohol Content (BAC) less than 0.15",
+   "condition_html": "<p><strong>B.</strong></p>\n<p><strong>Single</strong> event <strong>5 or more years ago </strong></p>\n<p><strong>with Blood Alcohol Content (BAC) less than 0.15</strong></p>",
+   "evaluation_data": "The AME should gather information regarding the incident including date, events surrounding the incident, history of other events, or any prior treatment programs (it is highly recommended that the AME obtain all items on the Airman Drugs and Alcohol Personal Statement . If AME determines, through exam and interview, there is no current or historical evidence of a substance abuse or dependence problem.",
+   "evaluation_data_html": "<p>The AME should gather information regarding the incident including date, events surrounding the incident, history of other events, or any prior treatment programs (it is highly recommended that the AME obtain all items on the <a href=\"https://www.faa.gov/ame_guide/media/FAACertificationAid-HIMSDrugandAlcohol-Initial.pdf\" target=\"_blank\" rel=\"noopener\">Airman Drugs and Alcohol Personal Statement</a> .</p>\n<p>If AME determines, through exam and interview, there is no current or historical evidence of a substance abuse or dependence problem.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history, annotate Block 60 including date (mm/yyyy) of the offense. Submit Airman Drugs and Alcohol Personal Statement and copy of BAC (if available) to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history, annotate Block 60 including date (mm/yyyy) of the offense.</p>\n<p>Submit <a href=\"https://www.faa.gov/ame_guide/media/FAACertificationAid-HIMSDrugandAlcohol-Initial.pdf\" target=\"_blank\" rel=\"noopener\">Airman Drugs and Alcohol Personal Statement</a> and copy of BAC (if available) to the FAA for retention in the file.</p>",
+   "pdf_page": 724,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Single event less than 5 years ago OR",
+   "condition_html": "<p><strong> C. </strong></p>\n<p><strong> Single</strong> event</p>\n<p><strong>less than 5 years ago </strong></p>\n<p>OR</p>",
+   "evaluation_data": "The AME must complete the Alcohol Event Status Report for the AME OR write a summary report that includes all of the items on",
+   "evaluation_data_html": "<p>The AME must complete the <a href=\"https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf\" target=\"_blank\" rel=\"noopener\">Alcohol Event Status Report for the AME</a> OR write a summary report that includes all of the items on</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "Follow the instructions on the Alcohol Event Status Report for the AME .",
+   "disposition_html": "<p>Follow the instructions on the <a href=\"https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf\" target=\"_blank\" rel=\"noopener\">Alcohol Event Status Report for the AME</a> .</p>",
+   "pdf_page": 724,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Single event at any time with Unknown BAC, Refused BAC/breathalyzer OR BAC .15 or above",
+   "condition_html": "<p>Single event <strong>at any time</strong> with <strong>Unknown BAC, </strong></p>\n<p><strong> Refused BAC/breathalyzer </strong></p>\n<p><strong>OR </strong></p>\n<p><strong> BAC .15 or above</strong></p>",
+   "evaluation_data": "the Alcohol Event Status Report. If the single event was 10 or more years ago, the BAC or court records are unavailable, and the AME has no concerns, call AMCD at 405-954-4821 or the RFS to discuss.",
+   "evaluation_data_html": "<p>the Alcohol Event Status Report.</p>\n<p>If the single event was 10 or more years ago, the BAC or court records are unavailable, and the AME has no concerns, call AMCD at 405-954-4821 or the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> to discuss.</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "Submit the information to the FAA for review. Follow up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p>Submit the information to the FAA for review.</p>\n<p>Follow up Issuance will be per the airman’s authorization letter.</p>",
+   "pdf_page": 724,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "Two or more events in the airman’s lifetime OR History of dependence or substance use disorder",
+   "condition_html": "<p><strong>D. </strong></p>\n<p><strong> Two or more </strong>events in the</p>\n<p>airman’s lifetime</p>\n<p><strong>OR </strong></p>\n<p><strong>History of dependence or substance use disorder </strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - Airman’s personal statement - The Alcohol Event Status Report for the AME along with the supporting information used to review. Additional information may be required after review of this documentation.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/FAACertificationAid-HIMSDrugandAlcohol-Initial.pdf\" target=\"_blank\" rel=\"noopener\"> Airman’s personal statement</a></li></ul>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf\" target=\"_blank\" rel=\"noopener\"> The Alcohol Event Status Report for the AME</a> along with the supporting information used to review.</li></ul>\n<p>Additional information may be required after review of this documentation.</p>",
+   "what_to_bring": [
+    "Airman’s personal statement",
+    "The Alcohol Event Status Report for the AME along with the supporting information used to review."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for review. Follow up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for review.</p>\n<p>Follow up Issuance will be per the airman’s authorization letter.</p>",
+   "pdf_page": 724,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>724</p>\n<p><strong>Note: </strong></p>\n<ul><li>If FAA letter(s) are not available or if the AME has questions, call AMCD at 405-954-4821 or their <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> and request a copy or to discuss with AMCD or their RFS.</li></ul>\n<ul><li>If unable to obtain and review the required reports within 14 days of the exam; the AME must defer and should inform the airman what reports will be needed.</li></ul>\n<p>If the airman does not qualify based on the results from the DUI/DWI/Alcohol Event History, all of that supporting information MUST be submitted for consideration of Medical Certification. See <a href=\"https://www.faa.gov/ame_guide/media/FAACertificationAid-HIMSDrugandAlcohol-Initial.pdf\" target=\"_blank\" rel=\"noopener\">FAA Certification Aid -Drug and Alcohol INITIAL</a> for details. Upon review, additional information may be required.</p>\n<p>725</p>\n<p><strong>Alcohol Event Status Report for the AME </strong></p>\n<p>(Updated 09/27/2017)</p>\n<p>Name _______________________________________________ Birthdate _______________________________</p>\n<p>Applicant ID# _________________________________________ PI# ____________________________________</p>\n<p><strong>Airmen - </strong>See the <a href=\"https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_DA_Initial.pdf\" target=\"_blank\" rel=\"noopener\">FAA Certification Aid - Drug and Alcohol INITIAL</a> to identify what information you should give the AME.</p>\n<p><strong>AME Instructions: </strong></p>\n<p>• Address the following items based on your in-office exam and documentation review;</p>\n<p>• <strong>Submit this Checklist </strong>(it must be signed and dated by the AME); and</p>\n<p>• Submit the <strong>supporting documentation reviewed </strong>to complete this checklist <strong>within 14 days to: </strong></p>\n<p>Federal Aviation Administration</p>\n<p>Civil Aerospace Medical Institute, Bldg. 13</p>\n<p>Aerospace Medical Certification Division, AAM-313</p>\n<p>PO Box 25082, Oklahoma City, OK 73125-9867</p>\n<ul><li>1. List DATE(s) of any arrest, conviction or administrative action here: _____________</li></ul>\n<table><thead><tr><th>One</th><th>Two or more</th></tr></thead><tbody></tbody></table>\n<ul><li>2. Number of alcohol related events in the airman’s lifetime? ..............................</li></ul>\n<p>3. <strong>AIRMAN’s STATEMENT</strong> Do you find any evidence of current or previous alcohol abuse, dependence or other concerning behaviors?.......................................................</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>\n<p>4. <strong>BLOOD/BREATH ALCOHOL CONTENT (BAC)</strong> from all offenses:</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody><tr><td><p>No</p></td><td><p>Yes (.15 or higher)</p></td></tr></tbody></table>\n<p>Did the airman ever <strong>REFUSE TO TEST</strong>.....................................................................</p>\n<p>Missing records of test performed (per the airman)? ....……………............................</p>\n<p>Any BAC in the records of <strong>0.15 g/dl or HIGHER </strong>……………………………………….</p>\n<p>List the highest BAC found on report(s) here: _________</p>\n<p>5. <strong>COURT RECORD</strong>(s) AND ARREST RECORD(s): (including military records)</p>\n<p>Did the airman <strong>fail to provide</strong> a copy of the narrative police/investigative report from all</p>\n<p>offenses and complete copies of all court records associated with the offense(s) including court-ordered education?..................................................................................................</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>\n<p>6. <strong>DRIVING RECORD</strong>: AME must review a complete Department of Motor Vehicles</p>\n<p>(DMV) record. List all states the airman held a driver’s license for the past 10 years.</p>\n<p>1. 3.</p>\n<p>2. 4.</p>\n<p>Any additional driving offenses involving alcohol or other concerns not listed in #1?.............</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>\n<p>7. <strong>EVIDENCE OF TREATMENT</strong>: Did the airman attend any inpatient or outpatient rehabilitation or treatment? (Do not include court-ordered education programs.) .....................................................</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>\n<p>8. Is there any history or evidence of any DRUG (illicit, Rx, etc.) offense at any time?.............</p>\n<table><thead><tr><th>No</th><th>Yes</th></tr></thead><tbody></tbody></table>\n<p>9. Do you have ANY concerns regarding this airman? If yes, notate in Block 60……………...</p>\n<p>_______________________________ __________________</p>\n<p>AME Signature Date of evaluation</p>\n<p>If ALL items fall into the clear column, the AME may issue with notes in Block 60 but must submit all documents to the FAA.</p>\n<p><strong>If ANY SINGLE ITEM falls into the SHADED COLUMN, or the actual records are not available to review, the AME MUST DEFER. The AME report should note what aspect caused the deferral and explain any answers in the shaded column. </strong></p>\n<p>Remind the airman to report any new event to <a href=\"https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi/\" target=\"_blank\" rel=\"noopener\">Security</a> .</p>\n<p>726</p>",
+ "links": [
+  {
+   "text": "RFS",
+   "href": "https://www.faa.gov/pilots/medical_certification/rfs"
+  },
+  {
+   "text": "FAA Certification Aid -Drug and Alcohol INITIAL",
+   "href": "https://www.faa.gov/ame_guide/media/FAACertificationAid-HIMSDrugandAlcohol-Initial.pdf"
+  },
+  {
+   "text": "FAA Certification Aid - Drug and Alcohol INITIAL",
+   "href": "https://www.faa.gov/ame_guide/media/FAA_Certification_Aid_DA_Initial.pdf"
+  },
+  {
+   "text": "Security",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi/"
+  },
+  {
+   "text": "Alcohol Event Status Report for the AME",
+   "href": "https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "substances-of-dependence-abuse",
+  "section_title": "SUBSTANCES OF DEPENDENCE/ABUSE",
+  "pdf_pages": [
+   724,
+   725,
+   726
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

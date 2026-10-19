@@ -1,0 +1,246 @@
+{
+ "id": "head-injury-or-brain-injury",
+ "name": "Head Injury or Brain Injury",
+ "subtitle": "Concussion, Closed Head Injury (CHI), Open Head Injury, Traumatic Brain Injury (TBI)",
+ "name_in_guide": "HEAD INJURY or BRAIN INJURY Concussion, Closed Head Injury (CHI), Open Head Injury, Traumatic Brain Injury (TBI)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 129,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+  "It must specifically include :",
+  "Any evidence of seizure;",
+  "Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.)",
+  "Any post-concussive symptoms such as headaches, dizziness, irritability;",
+  "Any changes in vision;",
+  "Any focal deficit;",
+  "Any imaging performed and if (CT/MRI) was negative;",
+  "Any clinical indication for further brain imaging; initial CT head/face negative.",
+  "Records from any hospitalization(s) for this condition to include:",
+  "Admission History and Physical;",
+  "Hospital discharge summary. (Typically, the patient portal notes or After Visit Summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+  "Operative/procedure report(s);",
+  "Pathology report(s);",
+  "Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others);",
+  "Lab report(s) including all drug or alcohol testing performed; and",
+  "Emergency Medical Services EMS)/ambulance run sheet.",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.",
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation , that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include if there is (or is NOT) any concern or history of seizure(s).",
+  "EEG only if a seizure occurred and an EEG was obtained, submit results. EEG* Sleep-deprived and sleep awake state with activating procedures (with provocation) performed at the time of event or later.",
+  "A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+  "from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+  "MRI brain with hemosiderin-sensitive sequences (with contrast as clinically appropriate) performed any time after the event.",
+  "Admission History and Physical.",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.).",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists).",
+  "Operative/procedure report(s).",
+  "Pathology report(s).",
+  "Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format.",
+  "Lab report(s) including all drug or alcohol testing performed.",
+  "Emergency Medical Services (EMS)/ambulance run sheet.",
+  "Progress notes from ALL clinic follow-up visits related to this condition.",
+  "Other tests already performed or clinically indicated.",
+  "All items in Row C"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Head injury ONLY This means: • NO brain injury • NO concussion • NO neurological symptoms DO NOT use this row if the individual had any items listed in Row B, C, or D (e.g., brain injury, seizure, skull fracture.)",
+   "condition_html": "<p><strong>A. </strong>Head injury ONLY<strong> This means: </strong></p>\n<p>• <strong>NO brain injury </strong></p>\n<p>• <strong>NO concussion </strong></p>\n<p>• <strong>NO neurological symptoms DO NOT use this row if the individual had any items listed in Row B, C, or D (e.g., brain injury, seizure, skull fracture.) </strong></p>",
+   "evaluation_data": "If the AME can determine the condition was • Head injury only (no brain injury) such as superficial scalp injury or globe (eyeball/eye injury) and/or musculoskeletal injuries (facial/maxilla/ mandible fractures) that do not persist and do not rise to the level of even a mild concussion; • No neurological symptoms; and • No “mild concussion symptoms” such as headache, dizziness, nausea, or non-focal neurological symptoms such as photo/phonophobia, tinnitus, irritability, mental fogginess, etc., as a result of the injury. • If imaging (CT/MRI) was performed, no evidence of brain trauma. • Has completely resolved and the individual has been released to full activity by the treating physician: Note: The AME should NOT use this row if any symptoms, concerns for concussion/brain injury, or any complications. If any concerns in history, the AME should review the most recent, detailed Clinical Progress Note describing the incident, recovery, and follow-up (if applicable).",
+   "evaluation_data_html": "<p>If the AME can determine the condition was</p>\n<p>• <strong>Head injury only (no brain injury) </strong>such as superficial scalp injury or globe (eyeball/eye injury) and/or musculoskeletal injuries (facial/maxilla/ mandible fractures) that do not persist and do not rise to the level of even a mild concussion;</p>\n<p>• No neurological symptoms; and</p>\n<p>• No “mild concussion symptoms” such as headache, dizziness, nausea, or non-focal neurological symptoms such as photo/phonophobia, tinnitus, irritability, mental fogginess, etc., as a result of the injury.</p>\n<p>• If imaging (CT/MRI) was performed, no evidence of brain trauma.</p>\n<p>• Has completely resolved and the individual has been released to full activity by the treating physician: <strong>Note: The AME should NOT use this row if any symptoms, concerns for concussion/brain injury, or any complications. If any concerns in history, the AME should review the most recent, detailed Clinical Progress Note describing the incident, recovery, and follow-up (if applicable).</strong></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60 including approximate mechanism and date of injury.",
+   "disposition_html": "<p></p>\n<p><strong>ISSUE</strong></p>\n<p>Annotate this information in Block 60 including approximate mechanism and date of injury.</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "B1. Brain injury 5 or more years ago This includes: • Concussion (a type of mild brain injury) • MILD brain Injury As long as NO seizure* *Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed using Row B criteria.) Note: High",
+   "condition_html": "<p><strong>B1. </strong>Brain injury 5 or more years ago <strong>This includes: </strong></p>\n<p>• <strong>Concussion</strong> (a type of mild brain injury)</p>\n<p>• <strong>MILD brain Injury </strong> As long as NO seizure* *Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed using Row B criteria.) <strong>Note:</strong> High</p>",
+   "evaluation_data": "The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL the questions on the Brain Injury Decision Tool for the AME. If all items on the decision tool are in the clear, “NO column, the AME may: Note: For a remote injury with no concerns, the most recent progress note is acceptable.",
+   "evaluation_data_html": "<p>The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address <strong>ALL </strong>the questions on the <a href=\"https://www.faa.gov/ame_guide/media/Brain_Injury_Decision_Tool.pdf\" target=\"_blank\" rel=\"noopener\">Brain</a> Injury Decision Tool for the AME.</p>\n<p><strong>If all items </strong>on the decision tool <strong>are in the clear, “NO column, the AME may:</strong></p>\n<p><strong>Note: </strong>For a remote injury with no concerns, the most recent progress note is acceptable.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history, diagnosis, and annotate Block 60: “Discussed the history of BRAIN INJURY, no positives to screening questions, and no concerns.” If any “YES” answers, any AME concerns, or",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history, diagnosis, and annotate Block 60: “Discussed the history of BRAIN INJURY, no positives to screening questions, and no concerns.”</p>\n<p>If any “<strong>YES</strong>” answers, any AME concerns, or</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "impact/ penetrating injuries (e.g., gunshot or severe trauma) may present with few or no concussive symptoms. For high impact injuries, see Row D.",
+   "condition_html": "<p>impact/ penetrating injuries (e.g., gunshot or severe trauma) may present with few or no concussive symptoms. For high impact injuries,</p>\n<p>see <strong>Row D. </strong></p>",
+   "evaluation_data": "",
+   "evaluation_data_html": "",
+   "what_to_bring": [],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "unable to verify history –DEFER",
+   "disposition_html": "<p>unable to verify history –<strong>DEFER</strong></p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "B2. Brain injury Within the past 5 years This includes: - Concussion - MILD brain Injury - Loss of Consciousness (LOC) - Alteration of Consciousness (AOC) - Post-Traumatic Amnesia (PTA) ALL less than 1 HOUR AND - No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed using Row B criteria. Note: High impact/penetrating injuries (e.g., gunshot or severe trauma) may present with few or no concussive symptoms. For high impact injuries, see Row D Do NOT use this row if the individual had any items listed in Row C or D (e.g., brain injury, seizure, skull fracture)",
+   "condition_html": "<p><strong>B2. </strong> Brain injury</p>\n<p>Within the past 5 years</p>\n<p><strong>This includes: </strong></p>\n<ul><li><strong>Concussion </strong></li></ul>\n<ul><li><strong>MILD brain Injury </strong></li></ul>\n<ul><li><strong>Loss of Consciousness (LOC) </strong></li></ul>\n<ul><li><strong>Alteration of Consciousness (AOC) </strong></li></ul>\n<ul><li><strong>Post-Traumatic Amnesia (PTA) </strong></li></ul>\n<p>ALL<strong> less than 1 HOUR</strong> AND</p>\n<ul><li><strong>No seizure </strong></li></ul>\n<p>Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed using Row B criteria.</p>\n<p><strong>Note:</strong> High impact/penetrating injuries (e.g., gunshot or severe trauma) may present with few or no concussive symptoms. For high impact injuries, see <strong>Row D </strong></p>\n<p><strong>Do NOT use this row if the individual had any items listed in Row C or D (e.g., brain injury, seizure, skull fracture) </strong></p>",
+   "evaluation_data": "After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include: - Any evidence of seizure; - Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.) - Any post-concussive symptoms such as headaches, dizziness, irritability; - Any changes in vision; - Any focal deficit; - Any imaging performed and if (CT/MRI) was negative; - Any clinical indication for further brain imaging; initial CT head/face negative. - 3. Records from any hospitalization(s) for this condition to include: - Admission History and Physical; - Hospital discharge summary. (Typically, the patient portal notes or After Visit Summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.); - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); - Operative/procedure report(s); - Pathology report(s); - Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others); - Lab report(s) including all drug or alcohol testing performed; and - Emergency Medical Services EMS)/ambulance run sheet. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. Note: If any abnormalities noted, go to Row C.",
+   "evaluation_data_html": "<p>After a<strong> 6-month recovery period</strong> obtain the following evaluation(s) and submit for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician <strong>or neurologist no more than 90 days before</strong> the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong>:</li><li>Any evidence of seizure;</li><li>Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.)</li><li>Any post-concussive symptoms such as headaches, dizziness, irritability;</li><li>Any changes in vision;</li><li>Any focal deficit;</li><li>Any imaging performed and if (CT/MRI) was negative;</li><li>Any clinical indication for further brain imaging; initial CT head/face negative.</li></ul>\n<ul><li>3. Records from any hospitalization(s) for this condition to include:</li><li>Admission History and Physical;</li><li>Hospital discharge summary. (Typically, the patient portal notes or After Visit Summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);</li><li>Operative/procedure report(s);</li></ul>\n<ul><li>Pathology report(s);</li><li>Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others);</li><li>Lab report(s) including all drug or alcohol testing performed; and</li><li>Emergency Medical Services EMS)/ambulance run sheet.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.</li><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<p><strong>Note: </strong> If any abnormalities noted, go to <strong>Row C.</strong></p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or neurologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+    "It must specifically include :",
+    "Any evidence of seizure;",
+    "Any post-traumatic amnesia or mental fogginess (incomplete memory of the incident, does not recall the impact/crash, etc.)",
+    "Any post-concussive symptoms such as headaches, dizziness, irritability;",
+    "Any changes in vision;",
+    "Any focal deficit;",
+    "Any imaging performed and if (CT/MRI) was negative;",
+    "Any clinical indication for further brain imaging; initial CT head/face negative.",
+    "Records from any hospitalization(s) for this condition to include:",
+    "Admission History and Physical;",
+    "Hospital discharge summary. (Typically, the patient portal notes or After Visit Summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+    "Operative/procedure report(s);",
+    "Pathology report(s);",
+    "Radiology reports*. The interpretive report(s) of all diagnostic imaging performed (CT scan, MRI, X-ray, ultrasound, or others);",
+    "Lab report(s) including all drug or alcohol testing performed; and",
+    "Emergency Medical Services EMS)/ambulance run sheet.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Moderate BRAIN Injury This includes: - LOC, AOC, or PTA 1 to 24 hours - Non-depressed skull fracture - Small parafalcine or tentorial subdural hematoma (resolved by MRI) - Small subarachnoid hemorrhage (resolved by MRI) Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin",
+   "condition_html": "<p><strong>C. Moderate BRAIN Injury </strong></p>\n<p><strong>This includes:</strong></p>\n<ul><li><strong>LOC, AOC, or PTA </strong></li></ul>\n<p><strong>1 to 24 hours </strong></p>\n<ul><li><strong>Non-depressed skull fracture </strong></li></ul>\n<ul><li><strong>Small parafalcine or tentorial subdural hematoma (resolved by MRI) </strong></li></ul>\n<ul><li><strong>Small subarachnoid hemorrhage (resolved by MRI) </strong></li></ul>\n<p>Any hemorrhage must be resolved on MRI. If the MRI shows signs of hemosiderin</p>",
+   "evaluation_data": "After a 12-month recovery period obtain the following evaluation(s) and submit for FAA review: - 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation , that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include if there is (or is NOT) any concern or history of seizure(s). - 3. EEG only if a seizure occurred and an EEG was obtained, submit results. EEG* Sleep-deprived and sleep awake state with activating procedures (with provocation) performed at the time of event or later. - 4. A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "evaluation_data_html": "<p>After a <strong>12-month recovery period</strong> obtain the following evaluation(s) and submit for FAA review:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed neurological evaluation, </strong>in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> , that is generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li><strong>2. It must specifically include </strong>if there is (or is NOT) any concern or history of seizure(s).</li></ul>\n<ul><li><strong>3. </strong>EEG only if a seizure occurred and an EEG was obtained, submit results. EEG* Sleep-deprived and sleep awake state with activating procedures (with provocation) performed at the time of event or later.</li></ul>\n<ul><li><strong>4. </strong>A <strong>Neuropsychological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a></li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation , that is generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include if there is (or is NOT) any concern or history of seizure(s).",
+    "EEG only if a seizure occurred and an EEG was obtained, submit results. EEG* Sleep-deprived and sleep awake state with activating procedures (with provocation) performed at the time of event or later.",
+    "A Neuropsychological evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "deposition, go to Row D.",
+   "condition_html": "<p>deposition, go to <strong>Row D. </strong></p>",
+   "evaluation_data": "- from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. - 5. MRI brain with hemosiderin-sensitive sequences (with contrast as clinically appropriate) performed any time after the event. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 6. Records from any hospitalization(s) for this condition to include: - Admission History and Physical. - Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.). - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists). - Operative/procedure report(s). - Pathology report(s). - Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format. - Lab report(s) including all drug or alcohol testing performed. - Emergency Medical Services (EMS)/ambulance run sheet. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. - 7. Progress notes from ALL clinic follow-up visits related to this condition. - 8. Other tests already performed or clinically indicated. Note: Small parafalcine or tentorial Subdural Hematoma: If asymptomatic and MRI 3-6 months after the injury shows complete resolution, FAA may consider after a 6-month recovery period. Submit the Evaluation Data in this row after the recovery period.",
+   "evaluation_data_html": "<ul><li>from a clinic visit with the <strong>treating neuropsychologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li><strong>5. MRI brain</strong> with hemosiderin-sensitive sequences (with contrast as clinically appropriate) performed any time after the event.</li></ul>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li><strong>6. </strong>Records from any hospitalization(s) for this condition to include:</li><li>Admission History and Physical.</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.).</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists).</li><li>Operative/procedure report(s).</li><li>Pathology report(s).</li><li>Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format.</li><li>Lab report(s) including all drug or alcohol testing performed.</li><li>Emergency Medical Services (EMS)/ambulance run sheet.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.</li></ul>\n<ul><li><strong>7. </strong>Progress notes from ALL clinic follow-up visits related to this condition.</li></ul>\n<ul><li><strong>8. </strong>Other tests already performed or clinically indicated.</li></ul>\n<p><strong>Note: Small parafalcine or tentorial Subdural Hematoma: </strong>If asymptomatic and MRI 3-6 months after the injury shows complete resolution, FAA may consider after a 6-month recovery period. Submit the Evaluation Data in this row after the recovery period.</p>",
+   "what_to_bring": [
+    "from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+    "MRI brain with hemosiderin-sensitive sequences (with contrast as clinically appropriate) performed any time after the event.",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "Records from any hospitalization(s) for this condition to include:",
+    "Admission History and Physical.",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary [AVS] printed from the electronic medical record are NOT sufficient for pilot medical certification purposes.).",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists).",
+    "Operative/procedure report(s).",
+    "Pathology report(s).",
+    "Radiology reports. The interpretive report(s) of all diagnostic imaging (CT scan, MRI, X-ray, ultrasound, or others) performed. For all imaging, submit the interpretive report(s) AND the actual images on CD in DICOM readable format.",
+    "Lab report(s) including all drug or alcohol testing performed.",
+    "Emergency Medical Services (EMS)/ambulance run sheet.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.",
+    "Progress notes from ALL clinic follow-up visits related to this condition.",
+    "Other tests already performed or clinically indicated."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": true
+  },
+  {
+   "label": "D",
+   "condition": "Severe BRAIN Injury This includes: - Blood in the Brain: - Brain contusion - Intracranial bleed - Hematoma - Epidural hematoma - Subdural hematoma - Diffuse axonal injury - LOC, AOC, PTA: 24 hours or more - Depressed skull fracture - Penetrating head injury",
+   "condition_html": "<p><strong>D. Severe BRAIN Injury </strong></p>\n<p><strong>This includes: </strong></p>\n<ul><li><strong>Blood in the Brain: </strong></li><li>Brain contusion</li><li>Intracranial bleed</li><li>Hematoma</li><li>Epidural hematoma</li><li>Subdural hematoma</li><li>Diffuse axonal injury</li></ul>\n<ul><li><strong>LOC, AOC, PTA: </strong></li></ul>\n<p><strong> 24 hours or more </strong></p>\n<ul><li><strong>Depressed skull fracture </strong></li></ul>\n<ul><li><strong>Penetrating head injury</strong></li></ul>",
+   "evaluation_data": "After a five (5)-year recovery period submit for FAA review: - All items in Row C",
+   "evaluation_data_html": "<p>After a <strong>five (5)-year recovery period</strong> submit for FAA review:</p>\n<ul><li>All items in <strong>Row C </strong></li></ul>",
+   "what_to_bring": [
+    "All items in Row C"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 320,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>LOC: Loss of Consciousness</p>\n<p>AOC: Alteration of Consciousness</p>\n<p>PTA: Post-Traumatic Amnesia</p>\n<p><strong>BRAIN INJURY DECISION TOOL FOR THE AME </strong></p>\n<p>Concussion, Closed Head Injury (CHI), Open Head Injury,</p>\n<p>Traumatic Brain Injury (TBI)</p>\n<p>(Updated 08/28/2024)</p>\n<p>AME Instructions: Address each of the following items in your in-office exam and history review:</p>\n<p>If head injury only, no brain injury, no concussion, no neurological symptoms: <strong>STOP. </strong>Go to the <a href=\"https://www.faa.gov/ame_guide/media/Head-Injury.pdf\" target=\"_blank\" rel=\"noopener\">HEAD INJURY or BRAIN INJURY Concussion, Closed Head Injury (CHI), Open Head Injury, Traumatic Brain Injury (TBI) Disposition Table, Row A</a> .</p>\n<p><strong>Date of most recent brain injury </strong>____________________ (if multiple injuries^)</p>\n<table><thead><tr><th>NO</th><th>YES*</th></tr></thead><tbody></tbody></table>\n<ul><li><strong>6. </strong>Did the injury occur <strong>within the past 5 years</strong>? .........................................................................</li></ul>\n<ul><li><p><strong>7. Any </strong>of the following for<strong> 1 hour or longer?</strong>...............................................................................</p>\n<ul><li>a. Loss of Consciousness (LOC).</li><li>b. Alteration of Consciousness (AOC)</li><li>c. Post-Traumatic Amnesia (PTA)</li></ul></li></ul>\n<ul><li><strong>8. </strong>Any seizure(s) 24 hours or more after the injury? ...................................................................</li></ul>\n<ul><li><strong>9. </strong>Was the mechanism of injury due to high impact/penetrating forces? (ex: gunshot or severe trauma) .....................................................................................................................................</li></ul>\n<ul><li><strong>10. </strong>Did brain imaging (CT/MRI) reveal any <strong>hemosiderin</strong> or <strong>blood in the brain</strong> (brain contusion, intracranial bleed, hematoma, epidural hematoma, subdural hematoma) or <strong>diffuse axonal injury</strong> or <strong>skull fracture</strong> (depressed or non-depressed)? If imaging not clinically indicated and not performed, mark “NO” .................................................................................................</li></ul>\n<ul><li><strong>11. </strong>Does this individual have any current cognitive or neurologic symptoms, any abnormalities on neurologic examination, or is the individual receiving disability benefits due to the injury?........................................................................................................................................</li></ul>\n<ul><li><strong>12. </strong>Do you have any clinical concerns about this individual?…………………..................…………</li></ul>\n<p>If ALL items fall into the “NO”/CLEAR COLUMN, the AME may issue with notes in Block 60 which show you discussed the history of brain injury, found no positives to the screening questions, AND had no concerns.</p>\n<p><strong>If ANY SINGLE ITEM falls into the “YES”/SHADED COLUMN, the AME MUST DEFER. The AME should note what aspect caused the deferral and explain any YES answers from the shaded column. </strong>For any “YES*” items or concerns, upload the most recent detailed Clinical Progress Note and/or copies of any imaging reports (CT/MRI) which addresses these items.</p>\n<ul><li>If the AME is unsure of any of the above criteria, DEFER and note in Block 60.</li><li>^Multiple brain injuries (e.g., football/soccer play or boxing) use <strong>date</strong> of most recent event, but ALL events must fall into the “No” column criteria.</li></ul>\n<p><strong>This decision tool is for AME use; it does not have to be submitted to the FAA. </strong></p>\n<p>.</p>",
+ "links": [
+  {
+   "text": "HEAD INJURY or BRAIN INJURY Concussion, Closed Head Injury (CHI), Open Head Injury, Traumatic Brain Injury (TBI) Disposition Table, Row A",
+   "href": "https://www.faa.gov/ame_guide/media/Head-Injury.pdf"
+  },
+  {
+   "text": "Brain",
+   "href": "https://www.faa.gov/ame_guide/media/Brain_Injury_Decision_Tool.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   320,
+   324,
+   325
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

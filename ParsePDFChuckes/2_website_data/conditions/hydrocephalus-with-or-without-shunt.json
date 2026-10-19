@@ -1,0 +1,89 @@
+{
+ "id": "hydrocephalus-with-or-without-shunt",
+ "name": "Hydrocephalus (With or Without Shunt)",
+ "subtitle": null,
+ "name_in_guide": "HYDROCEPHALUS (With or Without Shunt)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 132,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include",
+  "if the shunt is functional or non-functional.",
+  "Shunt series CT or MRI brain performed no more than 12 months before the AME exam.",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "With shunt placement",
+   "condition_html": "<p><strong>A. </strong> With shunt placement</p>",
+   "evaluation_data": "After a two (2) year symptom-free recovery period, submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include - - the reason a shunt was placed and - if the shunt is functional or non-functional. - 3. Shunt series CT or MRI brain performed no more than 12 months before the AME exam. - Include both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or image as a safeguard if lost in the mail. Note: After a review of the above information and due to the condition which caused the need for the shunt, a Neuropsychological (NP) evaluation in accordance with the FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment may be required. If associated with a seizure, brain tumor, or brain bleed – see the corresponding section. An additional recovery period may apply.",
+   "evaluation_data_html": "<p>After a <strong>two (2) year symptom-free</strong> recovery period, submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist <strong>no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. It <strong>must specifically include </strong></li></ul>\n<ul><li><ul><li>the reason a shunt was placed and</li><li>if the shunt is functional or non-functional.</li></ul></li></ul>\n<ul><li>3. <strong>Shunt series CT or MRI brain </strong>performed <strong>no more than 12 months before </strong>the AME exam.<ul><li>Include both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or image as a safeguard if lost in the mail.</li></ul></li></ul>\n<p><strong>Note</strong>: After a review of the above information and due to the condition which caused the need for the shunt, a Neuropsychological (NP) evaluation in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> may be required.</p>\n<p>If associated with a seizure, brain tumor, or brain bleed – see the corresponding section. An additional recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include",
+    "if the shunt is functional or non-functional.",
+    "Shunt series CT or MRI brain performed no more than 12 months before the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 330,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Without shunt placement (such as normal pressure hydrocephalus)",
+   "condition_html": "<p><strong>B.</strong> Without shunt placement</p>\n<p>(such as normal pressure hydrocephalus)</p>",
+   "evaluation_data": "Submit the following for FAA review: - A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a></li></ul>\n<p>generated from a clinic visit with the <strong>treating neurologist no more than</strong></p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. 90 days before the AME exam. - MRI and/or CT of the brain performed no more than 90 days before the AME exam. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>90 days before</strong> the AME exam.</p>\n<ul><li><strong>MRI and/or CT of the brain </strong>performed <strong>no more than 90 days before</strong> the AME exam.</li><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>",
+   "pdf_page": 330,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   330
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

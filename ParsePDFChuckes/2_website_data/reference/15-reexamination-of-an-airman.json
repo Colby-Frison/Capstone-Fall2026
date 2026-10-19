@@ -1,0 +1,17 @@
+{
+ "slug": "15-reexamination-of-an-airman",
+ "title": "15. Reexamination of an Airman",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  27
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 27,
+   "text": "A medical certificate holder may be required to undergo a reexamination at any time if, in the opinion of the Federal Air Surgeon or authorized representative within the FAA, there is a reasonable basis to question the airman's ability to meet the medical standards. An AME may NOT order such reexamination.",
+   "html": "<p>A medical certificate holder may be required to undergo a reexamination at any time if, in the opinion of the Federal Air Surgeon or authorized representative within the FAA, there is a reasonable basis to question the airman&#x27;s ability to meet the medical standards. An AME may <strong>NOT</strong> order such reexamination.</p>"
+  }
+ ]
+}

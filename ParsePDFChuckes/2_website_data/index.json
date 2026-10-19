@@ -1,0 +1,2832 @@
+[
+ {
+  "id": "condition-not-listed",
+  "name": "Condition Not Listed",
+  "category": "general",
+  "category_name": "General",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "03/25/2026"
+ },
+ {
+  "id": "head-face-neck-and-scalp",
+  "name": "Head, Face, Neck, and Scalp",
+  "category": "ear-nose-and-throat-ent",
+  "category_name": "Ear, Nose, and Throat (ENT)",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Active fistula of neck, either congenital or acquired, including tracheostomy",
+   "Loss of bony substance involving the two tables of the cranial vault",
+   "Deformities of the face or head that would interfere with the proper fitting and"
+  ],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "nose",
+  "name": "Nose",
+  "category": "ear-nose-and-throat-ent",
+  "category_name": "Ear, Nose, and Throat (ENT)",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/28/2024"
+ },
+ {
+  "id": "anosmia",
+  "name": "Anosmia",
+  "category": "ear-nose-and-throat-ent",
+  "category_name": "Ear, Nose, and Throat (ENT)",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated wit",
+   "- B. UNKNOWN (or uncertain) etiology For ANY duration."
+  ],
+  "rows": 2,
+  "updated": "06/29/2022"
+ },
+ {
+  "id": "sinus-conditions",
+  "name": "Sinus Conditions",
+  "category": "sinuses",
+  "category_name": "Sinuses",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "09/25/2024"
+ },
+ {
+  "id": "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma",
+  "name": "Speech Impediment, Stuttering, or Mechanical Conditions (from surgery or trauma)",
+  "category": "mouth-and-throat",
+  "category_name": "Mouth and Throat",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/28/2024"
+ },
+ {
+  "id": "cochlear-implant-ci",
+  "name": "Cochlear Implant (CI)",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "acoustic-neuroma",
+  "name": "Acoustic Neuroma",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "05/30/2018"
+ },
+ {
+  "id": "inner-ear",
+  "name": "Inner Ear",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Acute or chronic disease without disturbance of equilibrium and successful mirin",
+   "Acute or chronic disease that may disturb equilibrium"
+  ],
+  "rows": 2,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "benign-paroxysmal-positional-vertigo-bppv",
+  "name": "Benign Paroxysmal Positional Vertigo (BPPV)",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "labyrinthitis",
+  "name": "Labyrinthitis",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "menieres-disease",
+  "name": "Meniere’s Disease",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "motion-sickness",
+  "name": "Motion Sickness",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "perilymph-fistula-plf",
+  "name": "Perilymph Fistula (PLF)",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "persistent-postural-perceptual-dizziness-pppd-or-3pd",
+  "name": "Persistent Postural Perceptual Dizziness (PPPD or 3PD)",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "superior-semicircular-canal-dehiscence-syndrome-sscds",
+  "name": "Superior Semicircular Canal Dehiscence Syndrome (SSCDS)",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "11/29/2023"
+ },
+ {
+  "id": "mastoids",
+  "name": "Mastoids",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "faa_decision",
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 5,
+  "updated": null
+ },
+ {
+  "id": "outer-ear-abnormalities",
+  "name": "Outer Ear Abnormalities",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/31/2024"
+ },
+ {
+  "id": "ear-drums",
+  "name": "Ear Drums",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Perforation that has associated pathology",
+   "Perforation which has resolved without any other clinical symptoms"
+  ],
+  "rows": 2,
+  "updated": null
+ },
+ {
+  "id": "amblyopia",
+  "name": "Amblyopia",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "cataract-s",
+  "name": "Cataract(s)",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "diplopia-double-vision",
+  "name": "Diplopia (Double Vision)",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "ocular-histoplasmosis",
+  "name": "Ocular Histoplasmosis",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "eyes-general-other-conditions",
+  "name": "Eyes – General, Other Conditions",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Congenital or acquired conditions (whether acute or chronic) of either eye or ad",
+   "Pterygium",
+   "Any ophthalmic pathology reflecting a serious systemic disease (e.g., diabetic a"
+  ],
+  "rows": 3,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "eyes-procedures",
+  "name": "Eyes – Procedures",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "see_reference",
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 6,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "eyes-refractive-surgery",
+  "name": "Eyes - Refractive Surgery",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "faa_decision",
+   "caci",
+   "issue",
+   "special_issuance",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Corneal Ulcer or Dystrophy; Optic Atrophy; Papilledema; or Retinal Degeneration",
+   "Glaucoma (treated or untreated)",
+   "Macular Degeneration; Macular Detachment",
+   "Tumors",
+   "Vascular Occlusion; Retinopathy"
+  ],
+  "rows": 5,
+  "updated": null
+ },
+ {
+  "id": "chorioretinitis",
+  "name": "Chorioretinitis",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "coloboma",
+  "name": "Coloboma",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [
+   "- A. Isolated eyelid coloboma only Not associated with other eye pathology or sy",
+   "- B. Coloboma - All others Other structure affected Associated with syndrome Pro"
+  ],
+  "rows": 2,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "lattice-degeneration",
+  "name": "Lattice Degeneration",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/26/2024"
+ },
+ {
+  "id": "optic-neuritis",
+  "name": "Optic Neuritis",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "retinal-dystrophies-cone-rod-retinitis-pigmentosa",
+  "name": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa)",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "03/25/2026"
+ },
+ {
+  "id": "retinoschisis",
+  "name": "Retinoschisis",
+  "category": "ophthalmoscopic",
+  "category_name": "Ophthalmoscopic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "pupils",
+  "name": "Pupils",
+  "category": "pupils",
+  "category_name": "Pupils",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Disparity in size or reaction to light (afferent pupillary defect) requires clar",
+   "Nonreaction to light in either eye acute or chronic",
+   "Nystagmus 1",
+   "Synechiae, anterior or posterior"
+  ],
+  "rows": 4,
+  "updated": null
+ },
+ {
+  "id": "ocular-motility",
+  "name": "Ocular Motility",
+  "category": "ocular-motility",
+  "category_name": "Ocular Motility",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Absence of conjugate alignment in any quadrant",
+   "Inability to converge on a near object",
+   "Paralysis with loss of ocular motion in any direction"
+  ],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "allergies",
+  "name": "Allergies",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Allergies, severe",
+   "Hay fever controlled solely by desensitization without antihistamines or other m"
+  ],
+  "rows": 2,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "alpha-gal-syndrome-meat-allergy",
+  "name": "Alpha-Gal Syndrome (meat allergy)",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "asthma-reactive-airway-disease",
+  "name": "Asthma (Reactive Airway Disease)",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "pectus-excavatum",
+  "name": "Pectus Excavatum",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "08/28/2024"
+ },
+ {
+  "id": "disease-of-the-lungs-pleura-or-mediastinum",
+  "name": "Disease of the Lungs, Pleura, or Mediastinum",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "faa_decision",
+   "see_reference"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Abscesses Active Mycotic disease Active Tuberculosis",
+   "Fistula, Bronchopleural, to include Thoracostomy",
+   "Lobectomy",
+   "Pulmonary Embolism"
+  ],
+  "rows": 4,
+  "updated": "9/24/2025"
+ },
+ {
+  "id": "pulmonary-fibrosis",
+  "name": "Pulmonary Fibrosis",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "pleura-and-pleural-cavity",
+  "name": "Pleura and Pleural Cavity",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Acute fibrinous pleurisy; Empyema; Pleurisy with effusion; or Pneumonectomy",
+   "Malignant tumors or cysts of the lung, pleura or mediastinum",
+   "Other diseases or defects of the lungs or chest wall that require use of medicat",
+   "Pneumothorax - Traumatic",
+   "Spontaneous pneumothorax*"
+  ],
+  "rows": 5,
+  "updated": "9/24/2025"
+ },
+ {
+  "id": "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid",
+  "name": "Sarcoid (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "bronchiectasis",
+  "name": "Bronchiectasis",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "sleep-apnea",
+  "name": "Sleep Apnea",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "issue",
+   "special_issuance",
+   "faa_decision",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Obstructive Sleep Apnea",
+   "Periodic Limb Movement, etc."
+  ],
+  "rows": 2,
+  "updated": "05/27/2026"
+ },
+ {
+  "id": "restless-leg-syndrome-rls",
+  "name": "Restless Leg Syndrome (RLS)",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "arrhythmias",
+  "name": "Arrhythmias",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "faa_decision",
+   "defer",
+   "special_issuance",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Bradycardia (<50 bpm)",
+   "Bundle Branch Block (Left and Right) * IRBBB or ICVD",
+   "History of Implanted Pacemakers",
+   "PAC (2 or more on ECG) See next page",
+   "PVC’s (2 or more on standard ECG)",
+   "1st Degree AV Block with PR interval of LESS than 300 ms",
+   "1st Degree AV Block with PR interval of 300 ms or MORE",
+   "2nd Degree AV Block Mobitz I",
+   "2nd Degree AV Block Mobitz II",
+   "3rd Degree AV Block",
+   "Pre-excitation",
+   "Radio Frequency Ablation *If performed for atrial fibrillation, see that section",
+   "Supraventricular Tachycardia"
+  ],
+  "rows": 13,
+  "updated": "04/27/2022"
+ },
+ {
+  "id": "premature-atrial-contraction-pac",
+  "name": "Premature Atrial Contraction (PAC)",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "04/27/2022"
+ },
+ {
+  "id": "atrial-fibrillation-afib-a-flutter",
+  "name": "Atrial Fibrillation (Afib)/A-Flutter",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "03/25/2026"
+ },
+ {
+  "id": "atrial-flutter-typical-atrial-flutter",
+  "name": "Atrial Flutter / Typical Atrial Flutter",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "pacemaker",
+  "name": "Pacemaker",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "05/29/2024"
+ },
+ {
+  "id": "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+  "name": "Wolff Parkinson White (WPW) and other pre-excitation conditions",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "coronary-heart-disease",
+  "name": "Coronary Heart Disease",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "03/25/2026"
+ },
+ {
+  "id": "chest-pain",
+  "name": "Chest Pain",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "see_reference",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "03/27/2024"
+ },
+ {
+  "id": "hypertension-htn",
+  "name": "Hypertension (HTN)",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "10/28/2015"
+ },
+ {
+  "id": "syncope",
+  "name": "Syncope",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "05/29/2024"
+ },
+ {
+  "id": "heart-murmur",
+  "name": "Heart Murmur",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "valvular-disease",
+  "name": "Valvular Disease",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "special_issuance",
+   "faa_decision",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Aortic Insufficiency*",
+   "Single Valve Replacement (Tissue, Mechanical, or Valvuloplasty)",
+   "Multiple Valve Replacement",
+   "All Other Valvular Disease"
+  ],
+  "rows": 4,
+  "updated": "01/28/2026"
+ },
+ {
+  "id": "endocarditis",
+  "name": "Endocarditis",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "mitral-valve-disease",
+  "name": "Mitral Valve Disease",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/28/2026"
+ },
+ {
+  "id": "mitral-valve-repair",
+  "name": "Mitral Valve Repair",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "caci",
+   "defer"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 2,
+  "updated": "05/29/2024"
+ },
+ {
+  "id": "congenital-heart-conditions",
+  "name": "Congenital Heart Conditions",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "fibromuscular-dysplasia",
+  "name": "Fibromuscular Dysplasia",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "heart-transplant-cardiac-transplant-heart-replacement",
+  "name": "Heart Transplant (cardiac transplant, heart replacement)",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/24/2026"
+ },
+ {
+  "id": "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or-idiopathic",
+  "name": "Hypertrophic Cardiomyopathy (HCM), Hypertrophic Obstructive Cardiomyopathy (HOCM), or Idiopathic Hypertrophic Subaortic Stenosis (IHSS)",
+  "category": "heart",
+  "category_name": "Heart",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "vascular-conditions",
+  "name": "Vascular Conditions",
+  "category": "vascular-system",
+  "category_name": "Vascular System",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Aneurysm (Abdominal or Thoracic)",
+   "Aneurysm (Status Post Repair)",
+   "Arteriosclerotic Vascular disease with evidence of circulatory obstruction",
+   "Peripheral Edema",
+   "Phlebothrombosis or Thrombophlebitis",
+   "Phlebothrombosis or Thrombophlebitis"
+  ],
+  "rows": 6,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+  "name": "Arteriovenous Malformation (AVM) - Peripheral (lungs, liver, bone)",
+  "category": "vascular-system",
+  "category_name": "Vascular System",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "buerger-disease-or-thromboangiitis-obliterans-tao",
+  "name": "Buerger Disease or Thromboangiitis Obliterans (TAO)",
+  "category": "vascular-system",
+  "category_name": "Vascular System",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "postural-tachycardia-syndrome-pots",
+  "name": "Postural Tachycardia Syndrome (POTS)",
+  "category": "vascular-system",
+  "category_name": "Vascular System",
+  "decisions": [
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "raynauds-syndrome",
+  "name": "Raynaud's Syndrome",
+  "category": "vascular-system",
+  "category_name": "Vascular System",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "05/31/2023"
+ },
+ {
+  "id": "barretts-esophagus",
+  "name": "Barrett's Esophagus",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "4/27/2022"
+ },
+ {
+  "id": "cholelithiasis",
+  "name": "Cholelithiasis",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "05/29/2024"
+ },
+ {
+  "id": "cirrhosis",
+  "name": "Cirrhosis",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "abdomen-and-viscera-and-anus-conditions",
+  "name": "Abdomen and Viscera and Anus Conditions",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "caci",
+   "issue",
+   "special_issuance",
+   "faa_decision",
+   "aasi"
+  ],
+  "has_caci": true,
+  "aliases": [
+   "Colitis (Ulcerative, Regional Enteritis or Crohn's disease) or Irritable Bowel S",
+   "Hepatitis",
+   "Hepatitis C",
+   "Hernia - Inguinal, Ventral or Hiatal",
+   "Peptic Ulcer",
+   "Splenomegaly"
+  ],
+  "rows": 6,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "congenital-sucrase-isomaltase-deficiency-csid",
+  "name": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "eosinophilic-esophagitis",
+  "name": "Eosinophilic Esophagitis",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 2,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "esophageal-varices",
+  "name": "Esophageal Varices",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "gerd-gastroesophageal-reflux-disease-or-reflux",
+  "name": "GERD (gastroesophageal reflux disease or reflux)",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "03/25/2026"
+ },
+ {
+  "id": "liver-transplant",
+  "name": "Liver Transplant",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance",
+   "caci"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 6,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "pancreatitis",
+  "name": "Pancreatitis",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/24/2020"
+ },
+ {
+  "id": "colon-cancer-colorectal-cancer",
+  "name": "Colon Cancer/ Colorectal Cancer",
+  "category": "abdomen-and-viscera",
+  "category_name": "Abdomen and Viscera",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 4,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "cutaneous",
+  "name": "Cutaneous",
+  "category": "skin",
+  "category_name": "Skin",
+  "decisions": [
+   "see_reference",
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Raynaud’s Syndrome (Primary Raynaud’s/ Raynaud’s Disease or Secondary Raynaud’s/",
+   "Dermatomyositis; Deep mycotic infections; Eruptive Xanthomas; Hansen's Disease;",
+   "Kaposi's Sarcoma",
+   "Use of isotretinoin (Accutane)"
+  ],
+  "rows": 4,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "psoriasis",
+  "name": "Psoriasis",
+  "category": "skin",
+  "category_name": "Skin",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "skin-cancer",
+  "name": "Skin Cancer",
+  "category": "skin",
+  "category_name": "Skin",
+  "decisions": [
+   "more_info_needed",
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Unknown pathology",
+   "Basal cell cancer (BCC) Squamous cell cancer (SCC) Uncomplicated skin only No or",
+   "SCC or BCC Complicated lesion Metastatic lymph node or deep tissue involvement,",
+   "Melanoma Less than 0.75 mm in depth OR Melanoma in Situ",
+   "Melanoma Equal to 0.75 mm or greater in depth",
+   "Metastatic Melanoma OR Melanoma of Unknown Primary Origin"
+  ],
+  "rows": 6,
+  "updated": "08/26/2015"
+ },
+ {
+  "id": "urticarial-eruptions",
+  "name": "Urticarial Eruptions",
+  "category": "skin",
+  "category_name": "Skin",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Angioneurotic Edema",
+   "Chronic Urticaria"
+  ],
+  "rows": 2,
+  "updated": null
+ },
+ {
+  "id": "general-disorders",
+  "name": "General Disorders",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Congenital lesions of the kidney",
+   "Cystostomy and Neurogenic bladder",
+   "Renal Dialysis",
+   "Renal Transplant"
+  ],
+  "rows": 4,
+  "updated": null
+ },
+ {
+  "id": "chronic-kidney-disease-ckd",
+  "name": "Chronic Kidney Disease (CKD)",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 4,
+  "updated": "03/27/2019"
+ },
+ {
+  "id": "low-testosterone-low-t-hypogonadism",
+  "name": "Low Testosterone (LOW T) Hypogonadism",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "inflammatory-conditions",
+  "name": "Inflammatory Conditions",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Acute (Nephritis)",
+   "Chronic (Nephritis)",
+   "Nephrosis"
+  ],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "kidney-stone-s",
+  "name": "Kidney Stone(s)",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 4,
+  "updated": "06/28/2017"
+ },
+ {
+  "id": "neoplastic-disorders-cancer",
+  "name": "Neoplastic Disorders/Cancer",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/26/2015"
+ },
+ {
+  "id": "prostate-conditions",
+  "name": "Prostate Conditions",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "08/26/2015"
+ },
+ {
+  "id": "prostate-cancer",
+  "name": "Prostate Cancer",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance",
+   "faa_decision"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "05/31/2023"
+ },
+ {
+  "id": "renal-cancer",
+  "name": "Renal Cancer",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/30/2015"
+ },
+ {
+  "id": "testicular-cancer",
+  "name": "Testicular Cancer",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/26/2015"
+ },
+ {
+  "id": "other-g-u-cancers-neoplastic-disorders",
+  "name": "Other G-U Cancers/Neoplastic Disorders",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Other G-U Cancers when treatment was completed more than 5 years ago and there i",
+   "Other G-U cancers when treatment was completed less than 5 years ago or for whic"
+  ],
+  "rows": 2,
+  "updated": "09/30/2015"
+ },
+ {
+  "id": "nephritis",
+  "name": "Nephritis",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Pyelitis or Pyelonephritis",
+   "Pyonephrosis"
+  ],
+  "rows": 2,
+  "updated": null
+ },
+ {
+  "id": "polycystic-kidney-disease",
+  "name": "Polycystic Kidney Disease",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "07/29/2020"
+ },
+ {
+  "id": "urinary-systems",
+  "name": "Urinary Systems",
+  "category": "g-u-system",
+  "category_name": "G-U System",
+  "decisions": [
+   "faa_decision",
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Hydronephrosis with impaired renal function",
+   "Nephrectomy (non-neoplastic)",
+   "Hematuria",
+   "Proteinuria and Glycosuria"
+  ],
+  "rows": 4,
+  "updated": "09/30/2015"
+ },
+ {
+  "id": "neuropathy",
+  "name": "Neuropathy",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "osteomyelitis-bone-infection",
+  "name": "Osteomyelitis (BONE Infection)",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "upper-and-lower-extremities",
+  "name": "Upper and Lower Extremities",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "issue",
+   "faa_decision",
+   "see_reference"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Amputations",
+   "Atrophy of any muscles that is progressive, Deformities, either congenital or ac",
+   "Neuralgia",
+   "Sciatica, if sufficient to interfere with function or is likely to become incapa",
+   "Tremor"
+  ],
+  "rows": 5,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "arthritis",
+  "name": "Arthritis",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [
+   "- - - - A. Osteoarthritis",
+   "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
+   "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause wit"
+  ],
+  "rows": 3,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "cerebral-palsy",
+  "name": "Cerebral Palsy",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "defer",
+   "special_issuance",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "collagen-disease",
+  "name": "Collagen Disease",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "03/29/2023"
+ },
+ {
+  "id": "gout-and-pseudogout",
+  "name": "Gout and Pseudogout",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "issue",
+   "defer",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Gout Pseudogout Well controlled",
+   "Gout Pseudogout Functional impairment Joint deformity Kidney stones, recurrent M"
+  ],
+  "rows": 2,
+  "updated": "04/29/2015"
+ },
+ {
+  "id": "spine-other-musculoskeletal",
+  "name": "Spine, Other Musculoskeletal",
+  "category": "musculoskeletal",
+  "category_name": "Musculoskeletal",
+  "decisions": [
+   "faa_decision",
+   "see_reference"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Active disease of bones and joints If due to a specific condition – See those pa",
+   "Ankylosis, curvature, or other marked deformity of the spinal column sufficient",
+   "Intervertebral Disc Surgery",
+   "Musculoskeletal effects of: Muscular Dystrophy Or Myopathies",
+   "Musculoskeletal effect of Myasthenia Gravis",
+   "Other disturbances of musculoskeletal function, acquired or congenital, sufficie",
+   "Symptomatic herniation of intervertebral disc"
+  ],
+  "rows": 7,
+  "updated": "03/29/2023"
+ },
+ {
+  "id": "lymphoma-and-hodgkins-disease",
+  "name": "Lymphoma and Hodgkin's Disease",
+  "category": "lymphatics",
+  "category_name": "Lymphatics",
+  "decisions": [
+   "special_issuance",
+   "faa_decision",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": null
+ },
+ {
+  "id": "leukemia-acute-and-chronic",
+  "name": "Leukemia, Acute and Chronic",
+  "category": "lymphatics",
+  "category_name": "Lymphatics",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "05/31/2023"
+ },
+ {
+  "id": "chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+  "name": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
+  "category": "lymphatics",
+  "category_name": "Lymphatics",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "lymphatics",
+  "name": "Lymphatics",
+  "category": "lymphatics",
+  "category_name": "Lymphatics",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Adenopathy secondary to Systemic Disease or Metastasis",
+   "Lymphedema",
+   "Lymphosarcoma"
+  ],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": null
+ },
+ {
+  "id": "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
+  "name": "Amyotrophic Lateral Sclerosis (ALS) aka Lou Gehrig's Disease",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": null
+ },
+ {
+  "id": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "name": "Arteriovenous Malformation (AVM) – Neurological (Brain or Spinal Cord)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/26/2026"
+ },
+ {
+  "id": "bells-palsy",
+  "name": "Bell's Palsy",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "DISEASE/CONDITION",
+   "Any additional neurological condition, neurological symptoms, or concern"
+  ],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "brain-abscess",
+  "name": "Brain Abscess",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "brain-aneurysm",
+  "name": "Brain Aneurysm",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "brain-bleed",
+  "name": "Brain Bleed",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "brain-tumor-intracranial-tumor",
+  "name": "Brain Tumor (Intracranial Tumor)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "05/29/2024"
+ },
+ {
+  "id": "carotid-or-vertebral-artery-disease",
+  "name": "Carotid or Vertebral Artery Disease",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "central-sleep-apnea",
+  "name": "Central Sleep Apnea",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "- A. Central Sleep Apnea Noted on sleep study results ONLY",
+   "- B. Central Sleep Apnea Diagnosis"
+  ],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "chiari-malformation",
+  "name": "Chiari Malformation",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "03/27/2024"
+ },
+ {
+  "id": "cognitive-or-mental-impairment-or-dysfunction",
+  "name": "Cognitive or Mental Impairment or Dysfunction",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "deep-brain-stimulator",
+  "name": "Deep Brain Stimulator",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "02/22/2023"
+ },
+ {
+  "id": "dystonia-including-torticollis",
+  "name": "Dystonia (Including Torticollis)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "epilepsy",
+  "name": "Epilepsy",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "- A. Epilepsy by history Seizure-free for ten (10) years AND Off medication for",
+   "- B. SeLECTS (Self-limited Epilepsy with Centrotemporal Spikes). Seizure-free fo"
+  ],
+  "rows": 2,
+  "updated": "05/31/2023"
+ },
+ {
+  "id": "encephalitis",
+  "name": "Encephalitis",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "guillain-barre-syndrome",
+  "name": "Guillain-Barre Syndrome",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "head-injury-or-brain-injury",
+  "name": "Head Injury or Brain Injury",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 7,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "headache-or-migraine",
+  "name": "Headache or Migraine",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "huntingtons-disease",
+  "name": "Huntington's Disease",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "hydrocephalus-with-or-without-shunt",
+  "name": "Hydrocephalus (With or Without Shunt)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "meningitis",
+  "name": "Meningitis",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "myasthenia-gravis",
+  "name": "Myasthenia Gravis",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "multiple-sclerosis-ms",
+  "name": "Multiple Sclerosis (MS)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "narcolepsy-and-idiopathic-hypersomnia",
+  "name": "Narcolepsy and Idiopathic Hypersomnia",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "neuralgia",
+  "name": "Neuralgia",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "neurofibromatosis",
+  "name": "Neurofibromatosis",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "09/24/2025"
+ },
+ {
+  "id": "paraplegia",
+  "name": "Paraplegia",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "parkinsons-disease-and-parkinsonism-secondary",
+  "name": "Parkinson's Disease and Parkinsonism (Secondary)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "02/22/2023"
+ },
+ {
+  "id": "polio-poliomyelitis",
+  "name": "Polio (Poliomyelitis)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "pseudotumor-cerebri",
+  "name": "Pseudotumor Cerebri",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "seizure",
+  "name": "Seizure",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "stroke",
+  "name": "Stroke",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "04/26/2023"
+ },
+ {
+  "id": "transient-global-amnesia-tga",
+  "name": "Transient Global Amnesia (TGA)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "- A. TGA Single episode 5 or more years ago",
+   "- B. TGA Single episode less than 5 years ago OR If 2 or more lifetime episodes,"
+  ],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "tremor",
+  "name": "Tremor",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "tourette-syndrome-or-tic-disorder",
+  "name": "Tourette Syndrome or TIC Disorder",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "02/22/2023"
+ },
+ {
+  "id": "unexplained-loss-of-consciousness-uloc",
+  "name": "Unexplained Loss of Consciousness (ULOC)",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "other-neurologic-conditions",
+  "name": "Other Neurologic Conditions",
+  "category": "neurologic",
+  "category_name": "Neurologic",
+  "decisions": [
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Atypical Facial Pain",
+   "Immune-related demyelinating disease",
+   "Neurosyphilis",
+   "Orthostatic Hypotension",
+   "Slow Viral Disease (e.g., Creutzfeldt Jacobs Disease Wilson’s Disease"
+  ],
+  "rows": 5,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "attention-deficit-hyperactivity-disorder-adhd",
+  "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+  "category": "psychiatric",
+  "category_name": "Psychiatric",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "10/30/2024"
+ },
+ {
+  "id": "anxiety-depression-and-related-conditions",
+  "name": "Anxiety, Depression, and Related Conditions",
+  "category": "psychiatric",
+  "category_name": "Psychiatric",
+  "decisions": [
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/26/2024"
+ },
+ {
+  "id": "post-traumatic-stress-disorder-ptsd",
+  "name": "Post-Traumatic Stress Disorder (PTSD)",
+  "category": "psychiatric",
+  "category_name": "Psychiatric",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "06/26/2024"
+ },
+ {
+  "id": "adjustment-disorder-with-depressed-mood-or-minor-depression",
+  "name": "Adjustment Disorder with Depressed Mood or Minor Depression",
+  "category": "psychiatric",
+  "category_name": "Psychiatric",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "07/27/2022"
+ },
+ {
+  "id": "psychiatric-conditions",
+  "name": "Psychiatric Conditions",
+  "category": "psychiatric",
+  "category_name": "Psychiatric",
+  "decisions": [
+   "issue",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Psychotropic medications for Smoking Cessation",
+   "Substance Abuse",
+   "Substance Dependence",
+   "Suicide Attempt"
+  ],
+  "rows": 4,
+  "updated": null
+ },
+ {
+  "id": "blood-donation",
+  "name": "Blood Donation",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2017"
+ },
+ {
+  "id": "blood-and-blood-forming-tissue-disease",
+  "name": "Blood and Blood-Forming Tissue Disease",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "faa_decision",
+   "special_issuance",
+   "aasi"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Anemia",
+   "Hemophilia",
+   "Leukemia, Acute and Chronic – All Types",
+   "Chronic Lymphocytic Leukemia",
+   "Other disease of the blood or blood-forming tissues that could adversely affect",
+   "Polycythemia"
+  ],
+  "rows": 6,
+  "updated": "11/28/2018"
+ },
+ {
+  "id": "acute-lymphocytic-leukemia-all",
+  "name": "Acute Lymphocytic Leukemia (ALL)",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "04/26/2023"
+ },
+ {
+  "id": "thrombocytopenia",
+  "name": "Thrombocytopenia",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "09/25/2019"
+ },
+ {
+  "id": "covid-19-infections",
+  "name": "COVID-19 Infections",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "10/30/2024"
+ },
+ {
+  "id": "prediabetes",
+  "name": "Prediabetes",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "diabetes-mellitus",
+  "name": "Diabetes Mellitus",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/27/2023"
+ },
+ {
+  "id": "diabetes-insipidus-or-polyuria",
+  "name": "Diabetes Insipidus or Polyuria",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "09/27/2023"
+ },
+ {
+  "id": "acromegaly",
+  "name": "Acromegaly",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "adrenal-insufficiency-addisons-disease",
+  "name": "Adrenal Insufficiency (Addison’s Disease)",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "cushing-syndrome",
+  "name": "Cushing Syndrome",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "hypoglycemia",
+  "name": "Hypoglycemia",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 4,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "hyperparathyroidism",
+  "name": "Hyperparathyroidism",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "hypoparathyroidism",
+  "name": "Hypoparathyroidism",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "- A. Post-surgical hypoPARAthyroidism hypoPARAthyroidism treated with surgery si",
+   "- B. Post-surgical hypoPARAthyroidism treated with surgery less than six (6) mon",
+   "- C. Chronic hypoPARAthyroidism due to autoimmune or other cause (treated or unt"
+  ],
+  "rows": 3,
+  "updated": null
+ },
+ {
+  "id": "hyperprolactinemia",
+  "name": "Hyperprolactinemia",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "hyperthyroidism",
+  "name": "Hyperthyroidism",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "hypothyroid-or-hypothyroidism",
+  "name": "Hypothyroid or Hypothyroidism",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "01/25/2023"
+ },
+ {
+  "id": "pituitary-adenoma",
+  "name": "Pituitary Adenoma",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "07/29/2026"
+ },
+ {
+  "id": "human-immunodeficiency-virus-hiv",
+  "name": "Human Immunodeficiency Virus (HIV)",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "HIV medication taken for long-term prevention or Pre-Exposure Prophylaxis (PrEP)",
+   "Human Immunodeficiency Virus (HIV) Use this disposition if the airman has a hist",
+   "Acquired Immunodeficiency Syndrome (AIDS) Use this disposition if the airman has"
+  ],
+  "rows": 3,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "neoplasms",
+  "name": "Neoplasms",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 1,
+  "updated": "02/25/2026"
+ },
+ {
+  "id": "breast-cancer",
+  "name": "Breast Cancer",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/27/2021"
+ },
+ {
+  "id": "hormone-replacement-therapy-hrt-female",
+  "name": "Hormone Replacement Therapy (HRT) - Female",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "04/29/2026"
+ },
+ {
+  "id": "polycystic-ovarian-syndrome-pcos",
+  "name": "Polycystic Ovarian Syndrome (PCOS)",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "09/27/2023"
+ },
+ {
+  "id": "primary-hemochromatosis",
+  "name": "Primary Hemochromatosis",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 4,
+  "updated": "10/27/2021"
+ },
+ {
+  "id": "weight-loss-management",
+  "name": "Weight Loss Management",
+  "category": "general-systemic",
+  "category_name": "General Systemic",
+  "decisions": [
+   "issue",
+   "caci",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": true,
+  "aliases": [],
+  "rows": 3,
+  "updated": "03/27/2024"
+ },
+ {
+  "id": "substances-of-dependence-abuse",
+  "name": "Substances of Dependence/Abuse",
+  "category": "substances-of-dependence-abuse",
+  "category_name": "Substances of Dependence/Abuse",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 5,
+  "updated": "06/26/2024"
+ },
+ {
+  "id": "drug-use-past-or-present",
+  "name": "Drug Use - Past or Present",
+  "category": "substances-of-dependence-abuse",
+  "category_name": "Substances of Dependence/Abuse",
+  "decisions": [
+   "issue",
+   "defer"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "09/27/2017"
+ }
+]

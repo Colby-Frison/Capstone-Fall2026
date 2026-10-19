@@ -1,0 +1,48 @@
+{
+ "slug": "examination-techniques",
+ "title": "EXAMINATION TECHNIQUES",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  54,
+  55
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 54,
+   "text": "Items 21-58 of FAA Form 8500-8",
+   "html": "<p><strong>Items 21-58 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "ITEMS 21- 58 of FAA Form 8500-8",
+   "html": "<p><strong>ITEMS 21- 58 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "The AME must personally conduct the physical examination. This section provides guidance for completion of Items 21-58 of the Application for Airman Medical Certificate, FAA Form 8500-8.",
+   "html": "<p>The AME must personally conduct the physical examination. This section provides guidance for completion of Items 21-58 of the Application for Airman Medical Certificate, FAA Form 8500-8.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "The AME must carefully read the applicant's history page of FAA Form 8500-8 (Items 1-20) before conducting the physical examination and completing the Report of Medical Examination. This alerts the AME to possible pathological findings.",
+   "html": "<p>The AME must carefully read the applicant&#x27;s history page of FAA Form 8500-8 (Items 1-20) before conducting the physical examination and completing the Report of Medical Examination. This alerts the AME to possible pathological findings.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "The AME must note in Item 60 of the FAA Form 8500-8 any condition found in the course of the examination. The AME must list the facts, such as dates, frequency, and severity of occurrence.",
+   "html": "<p>The AME must note in <strong>Item 60</strong> of the FAA Form 8500-8 any condition found in the course of the examination. The AME must list the facts, such as dates, frequency, and severity of occurrence.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 55,
+   "text": "When a question arises, the Federal Air Surgeon encourages AMEs first to check this Guide for Aviation Medical Examiners and other FAA informational documents. If the question remains unresolved, the AME should seek advice from a RFS or AMCD.",
+   "html": "<p>When a question arises, the Federal Air Surgeon encourages AMEs first to check this Guide for Aviation Medical Examiners and other FAA informational documents. If the question remains unresolved, the AME should seek advice from a RFS or AMCD.</p>"
+  }
+ ]
+}

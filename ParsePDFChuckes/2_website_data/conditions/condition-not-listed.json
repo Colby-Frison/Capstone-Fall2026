@@ -1,0 +1,73 @@
+{
+ "id": "condition-not-listed",
+ "name": "Condition Not Listed",
+ "subtitle": null,
+ "name_in_guide": "Condition Not Listed",
+ "category": {
+  "id": "general",
+  "name": "General",
+  "exam_item": null,
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/25/2026",
+ "order": 1,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Most recent detailed Clinical Progress Note(s)",
+  "Results of recent testing already performed pertinent to the condition",
+  "Any related treatment records"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "AME determines the individual is NOT at increased risk for sudden or subtle incapacitation.",
+   "condition_html": "<p>A. AME determines the individual is</p>\n<p><strong>NOT at increased risk </strong></p>\n<p>for sudden or subtle incapacitation.</p>",
+   "evaluation_data": "When a diagnosis or condition is not listed in the disposition tables, the AME should assess whether the condition or its treatment could lead to sudden or subtle incapacitation. After reviewing the condition and submitted reports, document the rationale for issuance in Item 60 and upload supporting documentation. The FAA may request additional evaluation data. If uncertain, the AME may wish to contact AMCD or RFS and discuss.",
+   "evaluation_data_html": "<p>When a diagnosis or condition is not listed in the disposition tables, the AME should assess whether the condition or its treatment could lead to sudden or subtle incapacitation.</p>\n<p>After reviewing the condition and submitted reports, document the rationale for issuance in Item 60 and upload supporting documentation. The FAA may request additional evaluation data.</p>\n<p>If uncertain, the AME may wish to contact AMCD or RFS and discuss.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE and explain rationale in Item 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>and <strong>explain rationale</strong> in Item 60.</p>",
+   "pdf_page": 60,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "AME determines the individual IS at increased risk for sudden or subtle incapacitation.",
+   "condition_html": "<p>B. AME determines the individual</p>\n<p><strong>IS at increased risk </strong></p>\n<p>for sudden or subtle incapacitation.</p>",
+   "evaluation_data": "Medical certificates must not be issued to an individual with medical condition(s) that requires deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. To help expedite the review process, submit the following to the FAA for review: - Most recent detailed Clinical Progress Note(s) - Results of recent testing already performed pertinent to the condition - Any related treatment records After reviewing this documentation, the FAA may request additional evaluation data.",
+   "evaluation_data_html": "<p>Medical certificates must not be issued to an individual with medical condition(s) that requires deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS.</p>\n<p>To help expedite the review process, submit the following to the FAA for review:</p>\n<ul><li>Most recent detailed Clinical Progress Note(s)</li><li>Results of recent testing already performed pertinent to the condition</li><li>Any related treatment records</li></ul>\n<p>After reviewing this documentation, the FAA may request additional evaluation data.</p>",
+   "what_to_bring": [
+    "Most recent detailed Clinical Progress Note(s)",
+    "Results of recent testing already performed pertinent to the condition",
+    "Any related treatment records"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Upload copies of any documentation/reports to the FAA for review. Explain in Item 60 what aspect or concern caused the deferral.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Upload copies of any documentation/reports to the FAA for review.</p>\n<p>Explain in Item 60 what aspect or concern caused the deferral.</p>",
+   "pdf_page": 60,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "condition-not-listed",
+  "section_title": "Condition Not Listed",
+  "pdf_pages": [
+   60
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

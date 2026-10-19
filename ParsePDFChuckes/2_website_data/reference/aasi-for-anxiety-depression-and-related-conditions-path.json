@@ -1,0 +1,65 @@
+{
+ "slug": "aasi-for-anxiety-depression-and-related-conditions-path",
+ "title": "AASI for Anxiety, Depression, and Related Conditions PATH",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  682
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that the treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that the treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides all the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides all the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 682,
+   "text": "- 1. An Authorization granted by the FAA which states that AASI PATH has been approved;\n- 2. All interim Detailed Clinical Progress Notes (DCPN). At a MINIMUM, this must include: - a. EVERY 6 months (or more often as clinically indicated), progress notes from a clinic visit with a treating physician (MD/DO) or extender (PA-C/NP/midlevel); - b. At least one of these 6-month visits (and corresponding progress note) must come from a physician (MD/DO), such as a Primary Care Physician or Psychiatrist. - c. The most recent clinical progress note must be no more than 90 days before the AME exam; - d. Detailed Clinical Progress Notes must include a detailed interim summary; current medications, dosages, and side effects (if any); any changes in medication dose or type since last visit; physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up; and\n- 3. Anxiety, Depression, and Related Conditions PATH Status Summary completed by the treating physician and AME.",
+   "html": "<ul><li><strong>1. </strong>An Authorization granted by the FAA which states that <strong>AASI PATH</strong> has been approved;</li><li><p><strong>2. All interim Detailed Clinical Progress Notes (DCPN). At a MINIMUM, this must include: </strong></p>\n<ul><li><strong>a. EVERY 6 months </strong>(or more often as clinically indicated), progress notes from a clinic visit with a treating physician (MD/DO) or extender (PA-C/NP/midlevel);</li><li><strong>b. At least one of these 6-month visits </strong>(and corresponding progress note) <strong>must come from a physician (MD/DO),</strong> such as a Primary Care Physician or Psychiatrist.</li><li><strong>c. </strong>The most recent clinical progress note must be no more than 90 days before the AME exam;</li><li><strong>d. </strong>Detailed Clinical Progress Notes must include a detailed interim summary; current medications, dosages, and side effects (if any); any changes in medication dose or type since last visit; physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up; and</li></ul></li><li><a href=\"https://www.faa.gov/ame_guide/media/PATH_Status_Summary_Anxiety_Depression_Related_Conditions.pdf\" target=\"_blank\" rel=\"noopener\"><strong>3. Anxiety, Depression, and Related Conditions PATH Status Summary</strong></a> completed by the treating physician and AME.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "AME must defer and describe in Block 60 what item(s) caused the deferral if the psychiatrist, treating physician, or AME identifies any of the following:",
+   "html": "<p><strong>AME must defer</strong> and describe in Block 60 what item(s) caused the deferral if the psychiatrist, treating physician, or AME identifies any of the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 682,
+   "text": "- Any NEW “Yes*” answers on the PATH Status Summary;\n- Any new (or not previously reported) psychiatric symptoms, signs, or diagnosis;\n- Any new history of substance use disorder or FAA substance dependence;\n- Any progression (change in symptoms that persist despite modifications to medication and/or therapy) of the disease; and/or\n- AME, treating physician, or treating provider has concerns.",
+   "html": "<ul><li>Any NEW “Yes*” answers on the PATH Status Summary;</li><li>Any new (or not previously reported) psychiatric symptoms, signs, or diagnosis;</li><li>Any new history of substance use disorder or FAA substance dependence;</li><li>Any progression (change in symptoms that persist despite modifications to medication and/or therapy) of the disease; and/or</li><li>AME, treating physician, or treating provider has concerns.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "The AME must notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in my client's cognition, judgment, emotional stability, or insight.",
+   "html": "<p>The AME must notify the FAA Aeromedical Certification Division (405-954-4821) if there is a significant clinical deterioration in my client&#x27;s cognition, judgment, emotional stability, or insight.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 682,
+   "text": "682",
+   "html": "<p>682</p>"
+  }
+ ]
+}
