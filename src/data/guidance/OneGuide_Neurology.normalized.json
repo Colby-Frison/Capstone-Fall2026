@@ -6,7 +6,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "ALS - Amyotrophic Lateral Sclerosis aka (Lou Gehrig's",
+      "condition": "ALS - Amyotrophic Lateral Sclerosis (Lou Gehrig's Disease)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -43,7 +43,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "AVM (Arteriovenous Malformation) of the nervous",
+      "condition": "AVM (Arteriovenous Malformation) of the Nervous System",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -105,7 +105,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "AVM (Arteriovenous Malformation) of the nervous",
+      "condition": "AVM (Arteriovenous Malformation) of the Nervous System",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -116,7 +116,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Items in row A."
+          "text": "All items in row A."
         },
         {
           "kind": "TEST",
@@ -206,7 +206,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "AVM (Arteriovenous Malformation) of the nervous",
+      "condition": "AVM (Arteriovenous Malformation) of the Nervous System",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -259,7 +259,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow- up"
+          "text": "Follow-up"
         }
       ],
       "scenario": "Not requiring treatment",
@@ -334,17 +334,17 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow-up. In most cases, this condition is"
+          "text": "Follow-up."
         }
       ],
-      "scenario": "Alzheimer's disease OR Mild Cognitive Impairment (MCI) OR Dementia from:",
+      "scenario": "Alzheimer’s disease, Mild Cognitive Impairment (MCI), or dementia",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 20,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Alzheimer's disease OR Mild Cognitive Impairment (MCI) OR Dementia from:",
+      "subcondition": "Alzheimer’s disease, Mild Cognitive Impairment (MCI), or dementia",
       "time_constraints": [],
       "warnings": []
     },
@@ -356,7 +356,7 @@
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
-      "raw_text": "Pre-clinical Alzheimer's conditi on Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam 3. Brain MRI. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). • Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. Other testing: Already performed by the treating neurologist.",
+      "raw_text": "Pre-clinical Alzheimer's condition Submit the following for FAA review: 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam 3. Brain MRI. Magnetic Resonance Imaging (MRI) of the brain performed no more than 90 days prior to your AME exam. • Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). • Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. Other testing: Already performed by the treating neurologist.",
       "record_id": "oneguide-neurology-alzheimer-s-disease-or-mild-cognitive-impairment-mci-pre-clinical-alzheimer-s-conditi-on-p23",
       "requirements": [
         {
@@ -396,14 +396,14 @@
           "text": "Other testing: Already performed by the treating neurologist."
         }
       ],
-      "scenario": "Pre-clinical Alzheimer's conditi on",
+      "scenario": "Pre-clinical Alzheimer's condition",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 23,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Pre-clinical Alzheimer's conditi on",
+      "subcondition": "Pre-clinical Alzheimer's condition",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -684,14 +684,14 @@
           "text": "Any other testing performed by the treating physician for this condition"
         }
       ],
-      "scenario": "All others Lasted less than one (1) week (probably not Bells, needs further investigation); OR…",
+      "scenario": "All others lasting less than one (1) week (probably not Bell’s palsy; needs further investigation)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 41,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "All others Lasted less than one (1) week (probably not Bells, needs further investigation); OR…",
+      "subcondition": "All others lasting less than one (1) week (probably not Bell’s palsy; needs further investigation)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -708,12 +708,6 @@
       "raw_text": "All classes Any history (current or ever in their lifetime) After appropriate recovery period* Submit the following for FAA review: 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. 2.A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. 3.The most recent MRI and/or CT imaging of the brain. (If not already performed, a current brain MRI is required.) Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. You may wish to retain a copy of all films as a safeguard if lost in the mail. 4. The most recent electroencephalogram (EEG). • (If not already performed, a current EEG is required.) • The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). • Include any previous EEG(s) available for comparison. • Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. • The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10. 5. Other testing deemed clinically necessary by the treating physician. *Note: Applicants with prior brain abscess should have a minimum of 6 months observation following completion of treatment. If residual cortical lesion(s) are seen on MRI, a longer recovery period may be required. If surgery was performed (penetrating the dura), a minimum two (2)- year recovery period will apply. If associated with a seizure, refer to that section, as a longer recovery period may then apply",
       "record_id": "oneguide-neurology-brain-abscess-brain-infection-all-classes-any-history-current-or-ever-in-their-lifetime-p48",
       "requirements": [
-        {
-          "kind": "DOCUMENT",
-          "required": true,
-          "role": "bring_list",
-          "text": "After appropriate recovery period* Submit the following for FAA review"
-        },
         {
           "kind": "EVALUATION",
           "required": false,
@@ -772,7 +766,7 @@
           "kind": "TEST",
           "required": false,
           "role": "bring_list",
-          "text": "Other testing deemed clinically necessary by the treating physician. *Note: Applicants with prior brain abscess should have a minimum of 6 months observation following completion of treatment. If residual cortical lesion(s) are seen on MRI, a longer recovery period may be required. If surgery was performed (penetrating the dura), a minimum two (2)- year recovery period will apply. If associated with a seizure, refer to that section, as a longer recovery period may then apply"
+          "text": "Other testing deemed clinically necessary by the treating physician. Note: Applicants with prior brain abscess should have a minimum of 6 months observation following completion of treatment. If residual cortical lesion(s) are seen on MRI, a longer recovery period may be required. If surgery was performed (penetrating the dura), a minimum two (2)- year recovery period will apply. If associated with a seizure, refer to that section, as a longer recovery period may then apply"
         }
       ],
       "scenario": "All classes Any history (current or ever in their lifetime)",
@@ -855,7 +849,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Brain Aneurysm NOT RUPTURED (Intracranial aneurysm",
+      "condition": "Brain Aneurysm, Not Ruptured (intracranial aneurysm)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -872,13 +866,13 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "CT angiography (CTA is preferred) or MRA head (magnetic resonance angiography) performed no more than 12 months before the AME exam.*"
+          "text": "CT angiography (CTA is preferred) or MRA head (magnetic resonance angiography) performed no more than 12 months before the AME exam."
         },
         {
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Previous Imaging*. CT, MRI, CTA"
+          "text": "Previous Imaging. CT, MRI, CTA"
         }
       ],
       "scenario": "Existing Aneurysm which has not ruptured",
@@ -899,7 +893,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Brain Bleed (cerebral hemorrhage; intracranial",
+      "condition": "Brain Bleed (cerebral hemorrhage; intracranial hemorrhage)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -937,14 +931,14 @@
           "text": "A current, detailed neurological evaluation that meets FAA"
         }
       ],
-      "scenario": "Any history of a Spontaneous intracranial hemorrhage not due to trauma* [examples may include…",
+      "scenario": "Any history of a spontaneous intracranial hemorrhage not due to trauma",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 60,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Any history of a Spontaneous intracranial hemorrhage not due to trauma* [examples may include…",
+      "subcondition": "Any history of a spontaneous intracranial hemorrhage not due to trauma",
       "time_constraints": [],
       "warnings": []
     },
@@ -952,7 +946,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Brain Bleed (cerebral hemorrhage; intracranial",
+      "condition": "Brain Bleed (cerebral hemorrhage; intracranial hemorrhage)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -1056,14 +1050,14 @@
           "text": "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
         }
       ],
-      "scenario": "AVM, Subarachnoid hemorrhage (SAH) , Subdural or epidural hemorrhage] (*If due to TRAUMA, See -…",
+      "scenario": "Spontaneous hemorrhage examples: AVM, subarachnoid hemorrhage (SAH), subdural or epidural hemorrhage",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 61,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "AVM, Subarachnoid hemorrhage (SAH) , Subdural or epidural hemorrhage] (*If due to TRAUMA, See -…",
+      "subcondition": "Spontaneous hemorrhage examples: AVM, subarachnoid hemorrhage (SAH), subdural or epidural hemorrhage",
       "time_constraints": [
         "no more than 90 days",
         "no more than 12 months"
@@ -1076,7 +1070,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Brain Bleed (cerebral hemorrhage; intracranial",
+      "condition": "Brain Bleed (cerebral hemorrhage; intracranial hemorrhage)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -1090,14 +1084,14 @@
           "text": "Follow up Issuance will be per the pilot's Authorization letter."
         }
       ],
-      "scenario": "If due to TRAUMA - see Traumatic Brain Injury (TBI) section. Subdural hematoma (SDH), Epidural…",
+      "scenario": "If due to trauma: see Traumatic Brain Injury (TBI) section (subdural hematoma, epidural hematoma)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 63,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "If due to TRAUMA - see Traumatic Brain Injury (TBI) section. Subdural hematoma (SDH), Epidural…",
+      "subcondition": "If due to trauma: see Traumatic Brain Injury (TBI) section (subdural hematoma, epidural hematoma)",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -1193,14 +1187,14 @@
           "text": "After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required."
         }
       ],
-      "scenario": "Benign Brain Tumor (meningioma, gliomas, etc) not surgically treated Will consider once…",
+      "scenario": "Benign brain tumor (meningioma, gliomas, etc.) not surgically treated",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 67,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Benign Brain Tumor (meningioma, gliomas, etc) not surgically treated Will consider once…",
+      "subcondition": "Benign brain tumor (meningioma, gliomas, etc.) not surgically treated",
       "time_constraints": [
         "no more than 90 days",
         "no more than 12 months"
@@ -1222,13 +1216,13 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "After a two-year (2) recovery period, the obtain and submit the following for FAA review"
+          "text": "After a two-year (2) recovery period, then obtain and submit the following for FAA review"
         },
         {
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Information in Row A"
+          "text": "All information in Row A"
         },
         {
           "kind": "TEST",
@@ -1237,14 +1231,14 @@
           "text": "Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment. (Due to surgical resection, NP testing is required.)"
         }
       ],
-      "scenario": "Benign Brain Tumor (meningioma, gliomas, etc) surgically treated/resected Will consider once…",
+      "scenario": "Benign brain tumor (meningioma, gliomas, etc.) surgically treated/resected",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 69,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Benign Brain Tumor (meningioma, gliomas, etc) surgically treated/resected Will consider once…",
+      "subcondition": "Benign brain tumor (meningioma, gliomas, etc.) surgically treated/resected",
       "time_constraints": [],
       "warnings": []
     },
@@ -1269,7 +1263,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Information in Row A"
+          "text": "All information in Row A"
         },
         {
           "kind": "EVALUATION",
@@ -1278,14 +1272,14 @@
           "text": "The individual can submit the MOST RECENT detailed neurological evaluation (in lieu of one 90 days before the AME exam) that meets FAA Specifications for Neurologic Evaluation for initial case review"
         }
       ],
-      "scenario": "Malignant (cancerous) Brain Tumor Primary Tumor or Secondary metastatic tumor to the brain An…",
+      "scenario": "Malignant (cancerous) brain tumor: primary tumor or secondary metastatic tumor to the brain",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 70,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Malignant (cancerous) Brain Tumor Primary Tumor or Secondary metastatic tumor to the brain An…",
+      "subcondition": "Malignant (cancerous) brain tumor: primary tumor or secondary metastatic tumor to the brain",
       "time_constraints": [
         "90 days"
       ],
@@ -1352,14 +1346,14 @@
           "text": "49% or less blockage (both sides) Summarize findings in Item 60"
         }
       ],
-      "scenario": "49% or less by ultrasound, CTA or angiogram AND No history of TIA or",
+      "scenario": "49% or less by ultrasound, CTA, or angiogram AND no history of TIA or CVA",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 76,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "49% or less by ultrasound, CTA or angiogram AND No history of TIA or",
+      "subcondition": "49% or less by ultrasound, CTA, or angiogram AND no history of TIA or CVA",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -1383,14 +1377,14 @@
           "text": "No symptoms • no ongoing treatment with DOAC/NOAC or coumadin • no current problems that would interfere with flight duties"
         }
       ],
-      "scenario": "CVA (use row for highest % stenosis from either left or right side)",
+      "scenario": "Use the row for the highest % stenosis from either the left or right side",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 77,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "CVA (use row for highest % stenosis from either left or right side)",
+      "subcondition": "Use the row for the highest % stenosis from either the left or right side",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -1445,14 +1439,14 @@
           "text": "This will require a detailed Clinical Progress Note and vascular imaging (ultrasound, CTA, angiogram) performed within the previous one year."
         }
       ],
-      "scenario": "AND No history of TIA or CVA AND NOAC/DOAC/coum adin or surgery not recommended by treating…",
+      "scenario": "AND no history of TIA or CVA AND NOAC/DOAC/coumadin or surgery not recommended",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 78,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "AND No history of TIA or CVA AND NOAC/DOAC/coum adin or surgery not recommended by treating…",
+      "subcondition": "AND no history of TIA or CVA AND NOAC/DOAC/coumadin or surgery not recommended",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -1500,14 +1494,14 @@
           "text": "Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]."
         }
       ],
-      "scenario": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coum adin OR Surgery is recommended",
+      "scenario": "All others, including 80% stenosis or higher OR taking NOAC/DOAC/coumadin OR surgery is recommended",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 80,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coum adin OR Surgery is recommended",
+      "subcondition": "All others, including 80% stenosis or higher OR taking NOAC/DOAC/coumadin OR surgery is recommended",
       "time_constraints": [
         "90 days",
         "no more than 90 days"
@@ -1550,14 +1544,14 @@
           "text": "Any other testing deemed necessary by the treating physician or required per the FAA Authorization"
         }
       ],
-      "scenario": "50-79% stenosis AND No history of TIA or CVA AND NOAC/DOAC/couma din or surgery not recommended…",
+      "scenario": "50-79% stenosis AND no history of TIA or CVA AND NOAC/DOAC/coumadin or surgery not recommended",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 83,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "50-79% stenosis AND No history of TIA or CVA AND NOAC/DOAC/couma din or surgery not recommended…",
+      "subcondition": "50-79% stenosis AND no history of TIA or CVA AND NOAC/DOAC/coumadin or surgery not recommended",
       "time_constraints": [
         "90 days"
       ],
@@ -1722,14 +1716,14 @@
           "text": "Any other testing performed or deemed necessary by the treating physician"
         }
       ],
-      "scenario": "Central Sleep Apnea Diagnosis If diagnosed with Obstructive SLEEP APNEA - see that page",
+      "scenario": "Central Sleep Apnea diagnosis (if diagnosed with Obstructive Sleep Apnea, see that page)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 90,
         "printed_page": null,
         "section": "Sleep"
       },
-      "subcondition": "Central Sleep Apnea Diagnosis If diagnosed with Obstructive SLEEP APNEA - see that page",
+      "subcondition": "Central Sleep Apnea diagnosis (if diagnosed with Obstructive Sleep Apnea, see that page)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -1808,14 +1802,14 @@
           "text": "The reason the imaging was performed. If review of documentation verifies the Annotate Block 60 and submit the evaluation to the FAA for retention in the file"
         }
       ],
-      "scenario": "Type I (aka low-lying tonsils) Incidental finding on imaging OR",
+      "scenario": "Type I (aka low-lying tonsils), incidental finding on imaging",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 100,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Type I (aka low-lying tonsils) Incidental finding on imaging OR",
+      "subcondition": "Type I (aka low-lying tonsils), incidental finding on imaging",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -1871,14 +1865,14 @@
           "text": "No symptoms that would interfere with flight or safety related duties: (If an underlying condition is identified, such as a headaches, see that page)"
         }
       ],
-      "scenario": "Chiari 1 decompression surgery 2+ years ago AND Asymptomatic",
+      "scenario": "Chiari 1 decompression surgery 2+ years ago AND asymptomatic",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 101,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Chiari 1 decompression surgery 2+ years ago AND Asymptomatic",
+      "subcondition": "Chiari 1 decompression surgery 2+ years ago AND asymptomatic",
       "time_constraints": [
         "2 or more years"
       ],
@@ -1973,13 +1967,13 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow- up."
+          "text": "Follow-up."
         },
         {
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Is should specifically include"
+          "text": "It should specifically include"
         },
         {
           "kind": "OTHER",
@@ -2000,14 +1994,14 @@
           "text": "Any abnormalities in the neurological exam"
         }
       ],
-      "scenario": "Type 1 surgically corrected/ decompressed Within the past 2 years",
+      "scenario": "Type 1 surgically corrected/decompressed within the past 2 years",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 102,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Type 1 surgically corrected/ decompressed Within the past 2 years",
+      "subcondition": "Type 1 surgically corrected/decompressed within the past 2 years",
       "time_constraints": [
         "2 years",
         "no more than 90 days"
@@ -2092,7 +2086,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Cognitive or Mental Impairment or Dysfunction; ",
+      "condition": "Cognitive or Mental Impairment or Dysfunction",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -2129,7 +2123,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Cognitive or Mental Impairment or Dysfunction; ",
+      "condition": "Cognitive or Mental Impairment or Dysfunction",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "Summarize findings in Item 60.",
@@ -2149,14 +2143,14 @@
           "text": "Any other testing already performed or deemed necessary by the treating physician."
         }
       ],
-      "scenario": "Mental impairment/dys function Confusion Delirium Encephalopath y OR When the cause of the…",
+      "scenario": "Mental impairment/dysfunction (confusion, delirium, encephalopathy)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 109,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Mental impairment/dys function Confusion Delirium Encephalopath y OR When the cause of the…",
+      "subcondition": "Mental impairment/dysfunction (confusion, delirium, encephalopathy)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -2210,14 +2204,14 @@
       "raw_text": "NOTE: see underlying condition page for additional information requirements",
       "record_id": "oneguide-neurology-deep-brain-stimulator-dbs-note-see-underlying-condition-page-for-additional-information-requirements-p114",
       "requirements": [],
-      "scenario": "NOTE: see underlying condition page for additional information requirements",
+      "scenario": "Note: see underlying condition page for additional information requirements",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 114,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "NOTE: see underlying condition page for additional information requirements",
+      "subcondition": "Note: see underlying condition page for additional information requirements",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -2247,14 +2241,14 @@
           "text": "Any other testing performed or deemed necessary by the treating physician"
         }
       ],
-      "scenario": "Any history of Dystonia at any time This includes cervical dystonia (spasmodic torticollis or…",
+      "scenario": "Any history of dystonia at any time, including cervical dystonia (spasmodic torticollis)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 117,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Any history of Dystonia at any time This includes cervical dystonia (spasmodic torticollis or…",
+      "subcondition": "Any history of dystonia at any time, including cervical dystonia (spasmodic torticollis)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -2296,14 +2290,14 @@
           "text": "An electroencephalogram (EEG) if already performed, OR if any history of seizures. The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g. hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows"
         }
       ],
-      "scenario": "Current or historical diagnosis single episode",
+      "scenario": "Current or historical diagnosis, single episode",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 123,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Current or historical diagnosis single episode",
+      "subcondition": "Current or historical diagnosis, single episode",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -2339,14 +2333,14 @@
           "text": "Additional information may be required after review of above information"
         }
       ],
-      "scenario": "Current or historical diagnosis with 2 or more lifetime episodes, immunocompromis ed, or seizure…",
+      "scenario": "Current or historical diagnosis with 2 or more lifetime episodes, immunocompromised, or history of seizures",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 125,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Current or historical diagnosis with 2 or more lifetime episodes, immunocompromis ed, or seizure…",
+      "subcondition": "Current or historical diagnosis with 2 or more lifetime episodes, immunocompromised, or history of seizures",
       "time_constraints": [],
       "warnings": []
     },
@@ -2453,14 +2447,14 @@
           "text": "FAA Airman Seizure Questionnaire completed by the applicant"
         }
       ],
-      "scenario": "Epilepsy by history Seizure-free for Ten (10) years AND off medication for the last 3 years",
+      "scenario": "Epilepsy by history: seizure-free for ten (10) years AND off medication for the last 3 years",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 130,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Epilepsy by history Seizure-free for Ten (10) years AND off medication for the last 3 years",
+      "subcondition": "Epilepsy by history: seizure-free for ten (10) years AND off medication for the last 3 years",
       "time_constraints": [
         "3 years",
         "no more than 90 days",
@@ -2486,14 +2480,14 @@
           "text": "If the AME can determine this was a single episode, fully resolved for six (6) months or longer with no complications or sequelae"
         }
       ],
-      "scenario": "Single episode, no complications, fully resolved and recovered, with a minimum of six months of…",
+      "scenario": "Single episode, no complications, fully resolved and recovered, with a minimum of six months of stability",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 135,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Single episode, no complications, fully resolved and recovered, with a minimum of six months of…",
+      "subcondition": "Single episode, no complications, fully resolved and recovered, with a minimum of six months of stability",
       "time_constraints": [
         "12 months",
         "6 months"
@@ -2611,7 +2605,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -2622,7 +2616,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or REMOTE BRAIN INJURY page **********************************"
+          "text": "If head injury only or remote brain injury 5 or more years ago (B1): go to the Head Injury or Remote Brain Injury page."
         },
         {
           "kind": "EVALUATION",
@@ -2631,14 +2625,14 @@
           "text": "After a 6-month recovery period obtain the following evaluation(s) and submit for FAA review"
         }
       ],
-      "scenario": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or…",
+      "scenario": "Head injury only or remote brain injury 5 or more years ago (B1): go to the Head Injury or Remote Brain Injury page",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 141,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "If Head injury only or REMOTE Brain injury 5 or more years ago (B1) --go to HEAD INJURY or…",
+      "subcondition": "Head injury only or remote brain injury 5 or more years ago (B1): go to the Head Injury or Remote Brain Injury page",
       "time_constraints": [
         "5 or more years"
       ],
@@ -2648,7 +2642,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -2695,7 +2689,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow- up. 2."
+          "text": "Follow-up. 2."
         },
         {
           "kind": "OTHER",
@@ -2746,14 +2740,14 @@
           "text": "Hospital discharge summary. (Typically, the patient portal notes or After Visit Summary [AVS] printed from the electronic medical"
         }
       ],
-      "scenario": "B2. Brain injury Within the past 5 years This includes:",
+      "scenario": "B2. Brain injury within the past 5 years",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 142,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "B2. Brain injury Within the past 5 years This includes:",
+      "subcondition": "B2. Brain injury within the past 5 years",
       "time_constraints": [
         "5 years",
         "no more than 90 days"
@@ -2766,7 +2760,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -2828,14 +2822,14 @@
           "text": "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
         }
       ],
-      "scenario": "No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed…",
+      "scenario": "No seizure (exception: an immediate impact seizure within 24 hours of injury)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 143,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "No seizure Exception: An immediate impact seizure (within 24 hours of injury) can be reviewed…",
+      "subcondition": "No seizure (exception: an immediate impact seizure within 24 hours of injury)",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -2845,7 +2839,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -2877,14 +2871,14 @@
           "text": "EEG only if a seizure occurred and an EEG was obtained, submit results. EEG* Sleep-deprived and sleep awake state with activating"
         }
       ],
-      "scenario": "Moderate BRAIN Injury This includes:",
+      "scenario": "Moderate brain injury",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 145,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Moderate BRAIN Injury This includes:",
+      "subcondition": "Moderate brain injury",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -2894,7 +2888,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -2914,14 +2908,14 @@
           "text": "Items in Row C"
         }
       ],
-      "scenario": "Severe BRAIN Injury This includes:",
+      "scenario": "Severe brain injury",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 150,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Severe BRAIN Injury This includes:",
+      "subcondition": "Severe brain injury",
       "time_constraints": [],
       "warnings": []
     },
@@ -2929,7 +2923,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+      "condition": "Head Injury or Brain Injury (Concussion, Closed Head Injury)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "",
@@ -2985,14 +2979,14 @@
           "text": "No “mild concussion symptoms\" such as headache, dizziness, nausea, or non-focal neurological symptoms such as Summarize findings in Item 60 including mechanism and date of injury"
         }
       ],
-      "scenario": "Head injury ONLY This means:",
+      "scenario": "Head injury only",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 156,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Head injury ONLY This means:",
+      "subcondition": "Head injury only",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -3028,14 +3022,14 @@
           "text": "Has completely resolved and the individual has been released to full activity by the treating physician"
         }
       ],
-      "scenario": "DO NOT use this row if the individual had any items listed in Row B, C, or D (e.g., brain…",
+      "scenario": "Do not use this row if the individual had any items listed in Row B, C, or D (e.g., brain injury)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 157,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "DO NOT use this row if the individual had any items listed in Row B, C, or D (e.g., brain…",
+      "subcondition": "Do not use this row if the individual had any items listed in Row B, C, or D (e.g., brain injury)",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -3059,14 +3053,14 @@
           "text": "The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL the questions on the Brain Injury Decision Tool for the AME. Summarize this history, diagnosis, and annotate Block 60: “Discussed"
         }
       ],
-      "scenario": "B1. Brain injury 5 or more years ago This includes:",
+      "scenario": "B1. Brain injury 5 or more years ago",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 157,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "B1. Brain injury 5 or more years ago This includes:",
+      "subcondition": "B1. Brain injury 5 or more years ago",
       "time_constraints": [
         "5 or more years"
       ],
@@ -3092,14 +3086,14 @@
           "text": "If all items on the decision tool are in the clear, “NO column, the AME may"
         }
       ],
-      "scenario": "(a type of mild brain injury)",
+      "scenario": "Concussion (a type of mild brain injury)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 158,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "(a type of mild brain injury)",
+      "subcondition": "Concussion (a type of mild brain injury)",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -3147,14 +3141,14 @@
           "text": "Not associated with any neurological findings: Summarize findings in Item 60"
         }
       ],
-      "scenario": "Stress Headache Tension Headache Controlled with OTC meds",
+      "scenario": "Stress headache or tension headache controlled with OTC meds",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 162,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Stress Headache Tension Headache Controlled with OTC meds",
+      "subcondition": "Stress headache or tension headache controlled with OTC meds",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -3206,17 +3200,17 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Or neurologist. Detailed list of migraine medication can be found in the Pharmaceuticals Section, Migraine Medications. Pharmaceuticals - Migraine Medications (faa.gov) *Note: Migraine with any visual symptoms. Identify if peripheral and non- disabling. (If central loss or disabling, see row C). qualified, with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file"
+          "text": "Detailed list of migraine medication can be found in the Pharmaceuticals Section, Migraine Medications. Pharmaceuticals - Migraine Medications (faa.gov) *Note: Migraine with any visual symptoms. Identify if peripheral and non- disabling. (If central loss or disabling, see row C). qualified, with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file"
         }
       ],
-      "scenario": "(Classic migraine/ Common Mi graine) OR Chronic tension OR Chronic daily OR Cluster OR (Older…",
+      "scenario": "Classic/common migraine, chronic tension, chronic daily, or cluster headache",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 165,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "(Classic migraine/ Common Mi graine) OR Chronic tension OR Chronic daily OR Cluster OR (Older…",
+      "subcondition": "Classic/common migraine, chronic tension, chronic daily, or cluster headache",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -3252,14 +3246,14 @@
           "text": "*If an MRI is contraindicated or cannot be performed, the treating"
         }
       ],
-      "scenario": "Any history of a migraine which results in disabling visual symptoms such as loss of central…",
+      "scenario": "Any history of a migraine which results in disabling visual symptoms such as loss of central vision",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 167,
         "printed_page": "39",
         "section": "Neurology"
       },
-      "subcondition": "Any history of a migraine which results in disabling visual symptoms such as loss of central…",
+      "subcondition": "Any history of a migraine which results in disabling visual symptoms such as loss of central vision",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -3301,14 +3295,14 @@
           "text": "Other testing completed or deemed necessary by the treating physician."
         }
       ],
-      "scenario": "Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine (This type spreads across…",
+      "scenario": "Complicated migraine, post-traumatic headaches, or retinal migraine",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 168,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine (This type spreads across…",
+      "subcondition": "Complicated migraine, post-traumatic headaches, or retinal migraine",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -3332,14 +3326,14 @@
           "text": "A detailed Clinical Progress Note* performed within 90 days of exam from the treating neurologist. It should include a detailed interim summary, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up. Any other testing deemed necessary by the treating physician or required per the FAA Authorization letter. If placed on an AASI, the AME must The frequency of headaches and/or other symptoms increase since the last follow-up report; or The applicant is placed on Unacceptable medication(s), such"
         }
       ],
-      "scenario": "Migraine with aura (Classic migraine/ Common Migraine) OR Chronic tension OR Chronic daily OR…",
+      "scenario": "Migraine with aura (classic/common migraine), chronic tension, or chronic daily headache",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 170,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Migraine with aura (Classic migraine/ Common Migraine) OR Chronic tension OR Chronic daily OR…",
+      "subcondition": "Migraine with aura (classic/common migraine), chronic tension, or chronic daily headache",
       "time_constraints": [
         "90 days"
       ],
@@ -3587,14 +3581,14 @@
           "text": "If the AME can determine the condition has resolved with no complications and the the individual has no symptoms that would interfere with flight duties/SRD: If within the past one year, provide the AME with the most recent detailed, Clinical Progress Note from the treating physician describing the clinical course and resolution without complications."
         }
       ],
-      "scenario": "Single episode no complications, fully resolved and recovered AND No hospitalization OR…",
+      "scenario": "Single episode, no complications, fully resolved and recovered, no hospitalization",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 206,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Single episode no complications, fully resolved and recovered AND No hospitalization OR…",
+      "subcondition": "Single episode, no complications, fully resolved and recovered, no hospitalization",
       "time_constraints": [
         "5 or more years"
       ],
@@ -3791,14 +3785,14 @@
           "text": "Additional testing If the CT/MRI report identifies lesions or scarring on the brain or the clinical neurologic evaluation has concern for cognitive impairment, a Neuropsychological (NP) evaluation will be required. When required, it must meet FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist. Seizure: If associated with a seizure, refer to the Seizure section. A recovery period may apply"
         }
       ],
-      "scenario": "More than one episode (ever), Complications such as meningoencephaliti s, cortical involvement…",
+      "scenario": "More than one episode (ever), or complications such as meningoencephalitis or cortical involvement",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 209,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "More than one episode (ever), Complications such as meningoencephaliti s, cortical involvement…",
+      "subcondition": "More than one episode (ever), or complications such as meningoencephalitis or cortical involvement",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -3808,7 +3802,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum Disorder (NMOSD)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -3891,7 +3885,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow- up."
+          "text": "Follow-up."
         },
         {
           "kind": "TEST",
@@ -3972,7 +3966,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum Disorder (NMOSD)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -4001,7 +3995,7 @@
       "action": "Submit the information to the FAA for a possible",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum Disorder (NMOSD)",
       "disposition": "SPECIAL_ISSUANCE",
       "medication_notes": [],
       "raw_disposition": "SPECIAL ISSUANCE",
@@ -4030,7 +4024,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum Disorder (NMOSD)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "See Authorization letter.",
@@ -4137,7 +4131,7 @@
       "action": "limitations that could affect ability to operation aircraft controls during routine or emergency operations",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+      "condition": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum Disorder (NMOSD)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -4517,14 +4511,14 @@
           "text": "A current, detailed clinical progress note with a Board-Certified neurologist or sleep specialist no more than 90 days before the AME exam"
         }
       ],
-      "scenario": "Current or historical diagnosis on medical records WITH new information which rescinds this…",
+      "scenario": "Current or historical diagnosis on medical records, with new information that rescinds the diagnosis",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 243,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Current or historical diagnosis on medical records WITH new information which rescinds this…",
+      "subcondition": "Current or historical diagnosis on medical records, with new information that rescinds the diagnosis",
       "time_constraints": [
         "no more than 90 days",
         "12 months"
@@ -4564,17 +4558,17 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Individual has no symptoms that would interfere with flight or safety related duties: ------------------------------------------------------- Summarize findings in Item 60. If no AME explanatio n, the individual may be asked to provide documentation"
+          "text": "Individual has no symptoms that would interfere with flight or safety related duties: ------------------------------------------------------- Summarize findings in Item 60. If no AME explanation, the individual may be asked to provide documentation"
         }
       ],
-      "scenario": "A1. Post Herpetic Neuralgia, Occipital Neuralgia Fully resolved AND off medications",
+      "scenario": "A1. Post-herpetic neuralgia or occipital neuralgia: fully resolved AND off medications",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 248,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "A1. Post Herpetic Neuralgia, Occipital Neuralgia Fully resolved AND off medications",
+      "subcondition": "A1. Post-herpetic neuralgia or occipital neuralgia: fully resolved AND off medications",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -4622,14 +4616,14 @@
           "text": "Individual has no symptoms that would interfere with flight or safety related duties: If the AME is unable to determine the above, request a current, detailed Clinical Progress Note from the treating physician. If medications are currently used, the AME should check with the Do Not"
         }
       ],
-      "scenario": "A2. Trigeminal Neuralgia symptom free and treatment completed 5 or more years ago AND did NOT…",
+      "scenario": "A2. Trigeminal neuralgia: symptom free and treatment completed 5 or more years ago, no medication required, no surgery",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 249,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "A2. Trigeminal Neuralgia symptom free and treatment completed 5 or more years ago AND did NOT…",
+      "subcondition": "A2. Trigeminal neuralgia: symptom free and treatment completed 5 or more years ago, no medication required, no surgery",
       "time_constraints": [
         "5 or more years"
       ],
@@ -4661,14 +4655,14 @@
           "text": "Medications prescribed for this"
         }
       ],
-      "scenario": "Trigeminal Neuralgia symptomatic, unresolved OR",
+      "scenario": "Trigeminal neuralgia: symptomatic, unresolved",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 249,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Trigeminal Neuralgia symptomatic, unresolved OR",
+      "subcondition": "Trigeminal neuralgia: symptomatic, unresolved",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -4773,7 +4767,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Neurofibromatosis (Type 1/NF-1 von Recklinghausen",
+      "condition": "Neurofibromatosis (Type 1/NF-1; von Recklinghausen’s disease)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -4790,13 +4784,13 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Brain MRI with and without contrast performed no more than 90 days before the AME exam (reports and CD)*."
+          "text": "Brain MRI with and without contrast performed no more than 90 days before the AME exam (reports and CD)."
         },
         {
           "kind": "TEST",
           "required": false,
           "role": "bring_list",
-          "text": "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*. For all images (CT/MRI), submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+          "text": "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)."
         },
         {
           "kind": "DOCUMENT",
@@ -4850,7 +4844,7 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist."
+          "text": "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days."
         },
         {
           "kind": "TEST",
@@ -4883,14 +4877,14 @@
           "text": "Any other testing deemed clinically necessary by the treating physician"
         }
       ],
-      "scenario": "Neurofibromato sis type 1 (NF1) von Recklinghausen's disease",
+      "scenario": "Neurofibromatosis type 1 (NF1), von Recklinghausen’s disease",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 261,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Neurofibromato sis type 1 (NF1) von Recklinghausen's disease",
+      "subcondition": "Neurofibromatosis type 1 (NF1), von Recklinghausen’s disease",
       "time_constraints": [
         "no more than 90 days",
         "90 days"
@@ -4901,7 +4895,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Neurofibromatosis (Type 1/NF-1 von Recklinghausen",
+      "condition": "Neurofibromatosis (Type 1/NF-1; von Recklinghausen’s disease)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -4924,13 +4918,13 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)*."
+          "text": "Brain MRI with and without contrast with fine cuts through the posterior fossa performed no more than 90 days before the AME exam (reports and CD)."
         },
         {
           "kind": "TEST",
           "required": false,
           "role": "bring_list",
-          "text": "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)*. *For all images (CT/MRI). Submit BOTH the interpretive report and the actual images on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail."
+          "text": "Any other neuroimaging such as MRI spine, plexus, optic nerves, or other areas, most recent, if already performed (reports and CD)."
         },
         {
           "kind": "DOCUMENT",
@@ -4990,7 +4984,7 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days with an interpretation of the visual field testing by the treating ophthalmologist."
+          "text": "Threshold Visual field testing with good reliability (30-2 or 24-2) performed within the previous 90 days."
         },
         {
           "kind": "TEST",
@@ -5023,14 +5017,14 @@
           "text": "Any other testing deemed clinically necessary by the treating physician."
         }
       ],
-      "scenario": "Neurofibromato sis type 2 (NF2) Wishart Disease",
+      "scenario": "Neurofibromatosis type 2 (NF2), Wishart disease",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 267,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Neurofibromato sis type 2 (NF2) Wishart Disease",
+      "subcondition": "Neurofibromatosis type 2 (NF2), Wishart disease",
       "time_constraints": [
         "no more than 90 days",
         "90 days"
@@ -5041,7 +5035,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Neurofibromatosis (Type 1/NF-1 von Recklinghausen",
+      "condition": "Neurofibromatosis (Type 1/NF-1; von Recklinghausen’s disease)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": "See Authorization letter.",
@@ -5061,14 +5055,14 @@
           "text": "Any other imaging such or testing deemed necessary by the treating physician(s). See Authorization letter"
         }
       ],
-      "scenario": "Neurofibromatosis type 1 (NF1) von Recklinghausen's disease",
+      "scenario": "Neurofibromatosis type 1 (NF1), von Recklinghausen’s disease",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 270,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Neurofibromatosis type 1 (NF1) von Recklinghausen's disease",
+      "subcondition": "Neurofibromatosis type 1 (NF1), von Recklinghausen’s disease",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -5109,7 +5103,7 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "The individual has no symptoms that would interfere with flight duties: Summarize findings in Item 60. If no AME explanatio n, the pilot may be asked to provide documentation"
+          "text": "The individual has no symptoms that would interfere with flight duties: Summarize findings in Item 60. If no AME explanation, the pilot may be asked to provide documentation"
         }
       ],
       "scenario": "Neuropathy Without functional limitations",
@@ -5203,14 +5197,14 @@
           "text": "Any other testing or imaging deemed clinically necessary by the treating physician."
         }
       ],
-      "scenario": "Neuropathy with weakness/numbnes s or functional limitations",
+      "scenario": "Neuropathy with weakness/numbness or functional limitations",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 277,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Neuropathy with weakness/numbnes s or functional limitations",
+      "subcondition": "Neuropathy with weakness/numbness or functional limitations",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -5480,14 +5474,14 @@
           "text": "The individual has no functional limitations that could affect their ability to operation aircraft controls or perform safety related duties: Summarize findings in Item 60"
         }
       ],
-      "scenario": "Polio Any history including post-polio syndrome with NO functional limitation",
+      "scenario": "Polio: any history, including post-polio syndrome, with NO functional limitation",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 297,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Polio Any history including post-polio syndrome with NO functional limitation",
+      "subcondition": "Polio: any history, including post-polio syndrome, with NO functional limitation",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -5544,7 +5538,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Follow- up."
+          "text": "Follow-up."
         },
         {
           "kind": "EVALUATION",
@@ -5565,14 +5559,14 @@
           "text": "It must describe any functional deficits or limitations for both large- and small-muscle groups as well as dexterity to operate an aircraft. If not addressed in the Clinical Progress Note, the AME should describe any functional limitations that could affect the individual's ability to operate aircraft controls."
         }
       ],
-      "scenario": "Polio Any history including post-polio syndrome with a functional limitation that could…",
+      "scenario": "Polio: any history, including post-polio syndrome, with a functional limitation",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 299,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Polio Any history including post-polio syndrome with a functional limitation that could…",
+      "subcondition": "Polio: any history, including post-polio syndrome, with a functional limitation",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -5596,14 +5590,14 @@
           "text": "Follow up Issuance will be per the Authorization letter."
         }
       ],
-      "scenario": "Polio Any history including post-polio syndrome",
+      "scenario": "Polio: any history, including post-polio syndrome",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 301,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Polio Any history including post-polio syndrome",
+      "subcondition": "Polio: any history, including post-polio syndrome",
       "time_constraints": [],
       "warnings": [
         "missing_disposition"
@@ -5613,7 +5607,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Pseudotumor Cerebri (idiopathic intracranial",
+      "condition": "Pseudotumor Cerebri (idiopathic intracranial hypertension)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -5633,14 +5627,14 @@
           "text": "MRI of the brain performed no more than 90 days before the AME exam. Submit the interpretive report on paper"
         }
       ],
-      "scenario": "Pseudotumor Cerebri (idiopathic intracranial hypertension) previous name: benign intracranial",
+      "scenario": "Pseudotumor cerebri (idiopathic intracranial hypertension), previously named benign intracranial hypertension",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 304,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Pseudotumor Cerebri (idiopathic intracranial hypertension) previous name: benign intracranial",
+      "subcondition": "Pseudotumor cerebri (idiopathic intracranial hypertension), previously named benign intracranial hypertension",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -5737,14 +5731,14 @@
           "text": "The date of last seizure activity and dates medication discontinued"
         }
       ],
-      "scenario": "Single seizure event Provoked by a known cause which has been corrected May be due to:…",
+      "scenario": "Single seizure event provoked by a known cause which has been corrected",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 310,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Single seizure event Provoked by a known cause which has been corrected May be due to:…",
+      "subcondition": "Single seizure event provoked by a known cause which has been corrected",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -5768,14 +5762,14 @@
           "text": "*MRI brain performed at any time after the seizure activity started. • If not already performed, a current brain MRI is required. *Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: Awake, asleep, and with provocation (hyperventilation, photic/strobe light). • If not already performed, a current EEG is required. • Submit any previous EEG(s) available for comparison. • Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 5. FAA Airman Seizure Questionnaire completed by the applicant."
         }
       ],
-      "scenario": "Convulsive syncope; If due to TBI or post concussive seizure- -see that section; Drug or Alcohol…",
+      "scenario": "Convulsive syncope or drug/alcohol causes; if due to TBI or post-concussive seizure, see that section",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 311,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Convulsive syncope; If due to TBI or post concussive seizure- -see that section; Drug or Alcohol…",
+      "subcondition": "Convulsive syncope or drug/alcohol causes; if due to TBI or post-concussive seizure, see that section",
       "time_constraints": [
         "no more than 12 months"
       ],
@@ -5813,14 +5807,14 @@
           "text": "Upon review, additional information may be required"
         }
       ],
-      "scenario": "Single seizure event UNprovoked (no known cause) OR Complex febrile seizure; or atypical/complex…",
+      "scenario": "Single unprovoked seizure event (no known cause) OR complex febrile seizure",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 312,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Single seizure event UNprovoked (no known cause) OR Complex febrile seizure; or atypical/complex…",
+      "subcondition": "Single unprovoked seizure event (no known cause) OR complex febrile seizure",
       "time_constraints": [],
       "warnings": []
     },
@@ -5852,7 +5846,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Stroke or CVA (cerebrovascular accident) or TIA",
+      "condition": "Stroke or CVA (cerebrovascular accident) or TIA (transient ischemic attack)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -5878,14 +5872,14 @@
           "text": "Sub-cortical stroke: 1-year recovery"
         }
       ],
-      "scenario": "All Classes All types Ever in their life OR TIA (transient ischemic",
+      "scenario": "All classes, all types, ever in their life OR TIA (transient ischemic attack)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 322,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "All Classes All types Ever in their life OR TIA (transient ischemic",
+      "subcondition": "All classes, all types, ever in their life OR TIA (transient ischemic attack)",
       "time_constraints": [],
       "warnings": []
     },
@@ -5893,7 +5887,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "Stroke or CVA (cerebrovascular accident) or TIA",
+      "condition": "Stroke or CVA (cerebrovascular accident) or TIA (transient ischemic attack)",
       "disposition": "UNKNOWN",
       "medication_notes": [],
       "raw_disposition": ".",
@@ -6040,14 +6034,14 @@
           "text": "The individual has NO symptoms that would interfere with flight duties or communication"
         }
       ],
-      "scenario": "Tic disorder (Chronic motor or vocal tic) present 5 or more years not worsening",
+      "scenario": "Tic disorder (chronic motor or vocal tic) present 5 or more years, not worsening",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 333,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Tic disorder (Chronic motor or vocal tic) present 5 or more years not worsening",
+      "subcondition": "Tic disorder (chronic motor or vocal tic) present 5 or more years, not worsening",
       "time_constraints": [
         "5 or more years"
       ],
@@ -6079,14 +6073,14 @@
           "text": "Due to the strong association with tic disorder and ADHD, a current neuropsychological and cognitive evaluation (Specifications for Neuropsychological Evaluations for ADHD/ADD) MAY be required after review of the initial neurological evaluation"
         }
       ],
-      "scenario": "Tic disorder (Chronic motor or vocal Tic) Present less than 5 years Unknown cause OR Worsening…",
+      "scenario": "Tic disorder (chronic motor or vocal tic) present less than 5 years, unknown cause OR worsening",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 335,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Tic disorder (Chronic motor or vocal Tic) Present less than 5 years Unknown cause OR Worsening…",
+      "subcondition": "Tic disorder (chronic motor or vocal tic) present less than 5 years, unknown cause OR worsening",
       "time_constraints": [
         "less than 5 years",
         "no more than 90 days"
@@ -6111,14 +6105,14 @@
           "text": "Follow up Issuance will be per the Authorization letter."
         }
       ],
-      "scenario": "Tic disorder (Chronic motor or vocal tic) present 5 or more years not worsening",
+      "scenario": "Tic disorder (chronic motor or vocal tic) present 5 or more years, not worsening",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 338,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Tic disorder (Chronic motor or vocal tic) present 5 or more years not worsening",
+      "subcondition": "Tic disorder (chronic motor or vocal tic) present 5 or more years, not worsening",
       "time_constraints": [
         "5 or more years"
       ],
@@ -6337,17 +6331,17 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Follow the CACI –Essential Tremor Worksheet This requires a current, detailed Clinical Progress Note from the treating physician. Acceptable medication for CACI is NONE or a beta-blocker. (All others go to Row C). If the pilot meets all CACI worksheet criteria and is otherwise qualified: If the pilot meets all CACI worksheet criteria and is otherwise qualified, with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file. If no AME explanatio n, the pilot may be asked to provide documentation"
+          "text": "Follow the CACI –Essential Tremor Worksheet This requires a current, detailed Clinical Progress Note from the treating physician. Acceptable medication for CACI is NONE or a beta-blocker. (All others go to Row C). If the pilot meets all CACI worksheet criteria and is otherwise qualified: If the pilot meets all CACI worksheet criteria and is otherwise qualified, with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file. If no AME explanation, the pilot may be asked to provide documentation"
         }
       ],
-      "scenario": "Essential Tremor treated with an acceptable medication. (previous term benign essential tremor)",
+      "scenario": "Essential tremor treated with an acceptable medication (previously called benign essential tremor)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 355,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Essential Tremor treated with an acceptable medication. (previous term benign essential tremor)",
+      "subcondition": "Essential tremor treated with an acceptable medication (previously called benign essential tremor)",
       "time_constraints": [],
       "warnings": [
         "unrecognized_disposition"
@@ -6377,14 +6371,14 @@
           "text": "MRI and/or CT of the brain (the most recent test). Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will"
         }
       ],
-      "scenario": "All others The diagnosis is suspect or uncertain; The individual is dependent on medication to…",
+      "scenario": "All others (diagnosis suspect or uncertain; individual is dependent on medication)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 356,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "All others The diagnosis is suspect or uncertain; The individual is dependent on medication to…",
+      "subcondition": "All others (diagnosis suspect or uncertain; individual is dependent on medication)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -6438,14 +6432,14 @@
           "text": "Other testing already performed by the treating physician for this condition"
         }
       ],
-      "scenario": "Condition is clinically uncontrolled or disabling (limits any day-to-day function such as…",
+      "scenario": "Condition is clinically uncontrolled or disabling (limits day-to-day function)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 357,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Condition is clinically uncontrolled or disabling (limits any day-to-day function such as…",
+      "subcondition": "Condition is clinically uncontrolled or disabling (limits day-to-day function)",
       "time_constraints": [
         "no more than 12 months"
       ],
@@ -6537,14 +6531,14 @@
           "text": "Any other testing performed the treating physician(s)."
         }
       ],
-      "scenario": "Essential Tremor treated with an acceptable medication. (previous term benign essential tremor)",
+      "scenario": "Essential tremor treated with an acceptable medication (previously called benign essential tremor)",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 358,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Essential Tremor treated with an acceptable medication. (previous term benign essential tremor)",
+      "subcondition": "Essential tremor treated with an acceptable medication (previously called benign essential tremor)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -6554,7 +6548,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "ULOC (unexplained loss of consciousness) or",
+      "condition": "ULOC (unexplained loss of consciousness)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -6640,14 +6634,14 @@
           "text": "Additional testing."
         }
       ],
-      "scenario": "ULOC unexplained loss of consciousness current or historical",
+      "scenario": "ULOC (unexplained loss of consciousness), current or historical",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 364,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "ULOC unexplained loss of consciousness current or historical",
+      "subcondition": "ULOC (unexplained loss of consciousness), current or historical",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -6657,7 +6651,7 @@
       "action": "",
       "category": "Neurology",
       "certificate_classes": [],
-      "condition": "ULOC (unexplained loss of consciousness) or",
+      "condition": "ULOC (unexplained loss of consciousness)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -6671,14 +6665,14 @@
           "text": "This is a specifically disqualifying condition."
         }
       ],
-      "scenario": "Disturbance of consciousness without satisfactory medical explanation of the cause OR Transient…",
+      "scenario": "Disturbance of consciousness without satisfactory medical explanation of the cause",
       "source": {
         "document": "OneGuide_Neurology.pdf",
         "pdf_page": 366,
         "printed_page": null,
         "section": "Neurology"
       },
-      "subcondition": "Disturbance of consciousness without satisfactory medical explanation of the cause OR Transient…",
+      "subcondition": "Disturbance of consciousness without satisfactory medical explanation of the cause",
       "time_constraints": [],
       "warnings": []
     }

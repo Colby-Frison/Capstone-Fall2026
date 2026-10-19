@@ -222,7 +222,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "NOSE",
+      "condition": "Nose",
       "disposition": "ISSUE",
       "medication_notes": [],
       "raw_disposition": "ISSUE",
@@ -233,7 +233,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine"
+          "text": "The AME should inquire if the applicant has ever experienced any barotitis (‘ear block’), barosinusitis (‘sinus block’), alternobaric vertigo (‘dizziness’), difficulty breathing, rashes, or any other localized or systemic symptoms that could interfere with aviation safety. If the AME can determine:"
         },
         {
           "kind": "OTHER",
@@ -277,7 +277,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "NOSE",
+      "condition": "Nose",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -327,14 +327,14 @@
           "text": "Prognosis; and follow-up."
         }
       ],
-      "scenario": "Allergies indicated by",
+      "scenario": "Allergies indicated by chronic or repeated steroid treatment, or a reaction requiring urgent medical intervention (airway closure, urticaria requiring treatment)",
       "source": {
         "document": "ame_guide.pdf",
         "pdf_page": 65,
         "printed_page": "65",
         "section": "Nose and Sinuses"
       },
-      "subcondition": "Allergies indicated by",
+      "subcondition": "Allergies indicated by chronic or repeated steroid treatment, or a reaction requiring urgent medical intervention (airway closure, urticaria requiring treatment)",
       "time_constraints": [
         "no more than 90 days"
       ],
@@ -346,7 +346,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "NOSE",
+      "condition": "Nose",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -357,13 +357,13 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety related duties. Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist. It"
+          "text": "After using an epi-pen or similar, the individual should follow up with their treating physician before returning to flight or safety-related duties. Submit a current, detailed Clinical Progress Note from a clinic visit with the treating allergist, ENT, or pulmonologist; it should verify the cause of the anaphylaxis or allergic reaction, the likelihood it will re-occur, and how severe a recurrence would be."
         },
         {
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Allergies controlled by acceptable medications (single or in combination) Allergy shots/Sublingual Immunotherapy (SLIT) Epi pen is prescribed"
+          "text": "Allergies controlled by acceptable medications (single or in combination); allergy shots/Sublingual Immunotherapy (SLIT); epi-pen is prescribed"
         },
         {
           "kind": "OTHER",
@@ -387,13 +387,13 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "No symptoms that would interfere with flight or safety related duties: Submit the following for FAA review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating allergist, ENT, or pulmonologist no more than 90 days prior to the AME exam."
+          "text": "No symptoms that would interfere with flight or safety-related duties. Submit a current, detailed Clinical Progress Note from the treating allergist, ENT, or pulmonologist, no more than 90 days prior to the AME exam."
         },
         {
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Chronic or repeated steroid treatment or"
+          "text": "Chronic or repeated steroid treatment"
         },
         {
           "kind": "OTHER",
@@ -447,7 +447,7 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Prognosis; and follow-up. should verify the cause of the anaphylaxis or allergic reaction, likelihood it will re-occur and if it were to re-occur, how severe."
+          "text": "Prognosis; and follow-up."
         }
       ],
       "scenario": "History of anaphylaxis or allergic reactions requiring use of epi-pen",
@@ -469,7 +469,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ANOSMIA",
+      "condition": "Anosmia",
       "disposition": "ISSUE",
       "medication_notes": [],
       "raw_disposition": "ISSUE",
@@ -480,35 +480,17 @@
           "kind": "EVALUATION",
           "required": false,
           "role": "ame_review",
-          "text": "No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties: ***************************************** *** Discuss with the pilot"
-        },
-        {
-          "kind": "OTHER",
-          "required": true,
-          "role": "bring_list",
-          "text": "This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke)."
-        },
-        {
-          "kind": "OTHER",
-          "required": true,
-          "role": "bring_list",
-          "text": "Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine."
-        },
-        {
-          "kind": "OTHER",
-          "required": true,
-          "role": "bring_list",
-          "text": "CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight."
+          "text": "No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties. Discuss the following with the pilot:"
         }
       ],
-      "scenario": "KNOWN etiology",
+      "scenario": "Known etiology",
       "source": {
         "document": "ame_guide.pdf",
         "pdf_page": 67,
         "printed_page": "67",
         "section": "Nose and Sinuses"
       },
-      "subcondition": "KNOWN etiology",
+      "subcondition": "Known etiology",
       "time_constraints": [],
       "warnings": []
     },
@@ -518,7 +500,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ANOSMIA",
+      "condition": "Anosmia",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -541,17 +523,17 @@
           "kind": "OTHER",
           "required": true,
           "role": "bring_list",
-          "text": "Etiology, if found. condition is benign and the pilot has no other condition(s) that would interfere with flight duties: Annotate this information in identified underling condition(s), see that section."
+          "text": "It must specifically include etiology, if found."
         }
       ],
-      "scenario": "UNKNOWN (or uncertain) etiology",
+      "scenario": "Unknown (or uncertain) etiology",
       "source": {
         "document": "ame_guide.pdf",
         "pdf_page": 67,
         "printed_page": "67",
         "section": "Nose and Sinuses"
       },
-      "subcondition": "UNKNOWN (or uncertain) etiology",
+      "subcondition": "Unknown (or uncertain) etiology",
       "time_constraints": [],
       "warnings": []
     },
@@ -561,7 +543,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "SINUS CONDITIONS",
+      "condition": "Sinus Conditions",
       "disposition": "ISSUE",
       "medication_notes": [],
       "raw_disposition": "ISSUE",
@@ -572,7 +554,7 @@
           "kind": "EVALUATION",
           "required": false,
           "role": "ame_review",
-          "text": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+          "text": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties. Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
         }
       ],
       "scenario": "Acute infection(s) from any cause requiring medication(s) or not",
@@ -592,7 +574,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "SINUS CONDITIONS",
+      "condition": "Sinus Conditions",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -603,7 +585,7 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review"
+          "text": "If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review:"
         },
         {
           "kind": "DOCUMENT",
@@ -651,13 +633,13 @@
           "kind": "EVALUATION",
           "required": false,
           "role": "ame_review",
-          "text": "Follow-up. If the AME history and physical exam"
+          "text": "Follow-up."
         },
         {
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Follow-up. If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis. Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not"
+          "text": "Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
         },
         {
           "kind": "DOCUMENT",
@@ -675,7 +657,7 @@
           "kind": "TEST",
           "required": true,
           "role": "bring_list",
-          "text": "Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities; Pilots should NOT fly with a \"cold\" or viral upper respiratory tract infection, or with the condition of rhinosinusitis."
+          "text": "Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities."
         }
       ],
       "scenario": "Chronic or severe (hospitalized for infection)",
@@ -695,7 +677,7 @@
       "action": "",
       "category": "Nose and Sinuses",
       "certificate_classes": [],
-      "condition": "SINUS CONDITIONS",
+      "condition": "Sinus Conditions",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "Requires FAA Decision",
@@ -706,7 +688,7 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea"
+          "text": "Submit all pertinent medical information and a current, detailed Clinical Progress Note. See Protocol for Obstructive Sleep Apnea."
         }
       ],
       "scenario": "Palate: Extensive adhesion of the soft palate to the pharynx",
@@ -4946,7 +4928,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ALLERGIES",
+      "condition": "Allergies",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "Requires FAA Decision",
@@ -4979,7 +4961,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ALLERGIES",
+      "condition": "Allergies",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "Requires FAA Decision",
@@ -4990,17 +4972,17 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects Requires FAA Decision If responds to treatment and without side effects -"
+          "text": "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects"
         }
       ],
-      "scenario": "Hay fever controlled solely by desensitization without",
+      "scenario": "Hay fever controlled solely by desensitization",
       "source": {
         "document": "ame_guide.pdf",
         "pdf_page": 128,
         "printed_page": "128",
         "section": "Nose and Sinuses"
       },
-      "subcondition": "Hay fever controlled solely by desensitization without",
+      "subcondition": "Hay fever controlled solely by desensitization",
       "time_constraints": [],
       "warnings": [
         "requires_faa_decision_mapped_to_defer"
@@ -5012,7 +4994,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ALPHA-GAL SYNDROME (meat allergy)",
+      "condition": "Alpha-Gal Syndrome (Meat Allergy)",
       "disposition": "ISSUE",
       "medication_notes": [],
       "raw_disposition": "ISSUE",
@@ -5026,14 +5008,14 @@
           "text": "If the AME can determine the condition is under control, and no symptoms that would interfere with flight or safety-related duties"
         }
       ],
-      "scenario": "History of mild reactions (e.g., hives, swelling, nausea) Symptoms resolved with",
+      "scenario": "History of mild reactions (e.g., hives, swelling, nausea); symptoms resolved",
       "source": {
         "document": "ame_guide.pdf",
         "pdf_page": 129,
         "printed_page": "129",
         "section": "Nose and Sinuses"
       },
-      "subcondition": "History of mild reactions (e.g., hives, swelling, nausea) Symptoms resolved with",
+      "subcondition": "History of mild reactions (e.g., hives, swelling, nausea); symptoms resolved",
       "time_constraints": [],
       "warnings": []
     },
@@ -5043,7 +5025,7 @@
       "certificate_classes": [
         "All"
       ],
-      "condition": "ALPHA-GAL SYNDROME (meat allergy)",
+      "condition": "Alpha-Gal Syndrome (Meat Allergy)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
@@ -5054,7 +5036,7 @@
           "kind": "DOCUMENT",
           "required": true,
           "role": "bring_list",
-          "text": "Symptomatic All Submit the following for FAA review"
+          "text": "Submit the following for FAA review"
         },
         {
           "kind": "DOCUMENT",
@@ -5134,7 +5116,7 @@
       "action": "Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60",
       "category": "Nose and Sinuses",
       "certificate_classes": [],
-      "condition": "ALPHA-GAL SYNDROME (meat allergy)",
+      "condition": "Alpha-Gal Syndrome (Meat Allergy)",
       "disposition": "DEFER",
       "medication_notes": [],
       "raw_disposition": "DEFER",
