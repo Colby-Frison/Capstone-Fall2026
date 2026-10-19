@@ -1,0 +1,23 @@
+{
+ "slug": "protocol-for-diabetes-mellitus-diet-controlled",
+ "title": "Protocol for Diabetes Mellitus - Diet Controlled",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  539
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 539,
+   "text": "A medical history or clinical diagnosis of diabetes mellitus may be considered previously established when the diagnosis has been or clearly could be made because of supporting laboratory findings and/or clinical signs and symptoms. When an applicant with a history of diabetes is examined for the first time, the AME should explain the procedures involved and assist in obtaining prior records and current special testing.",
+   "html": "<p>A medical history or clinical diagnosis of diabetes mellitus may be considered previously established when the diagnosis has been or clearly could be made because of supporting laboratory findings and/or clinical signs and symptoms. When an applicant with a history of diabetes is examined for the first time, the AME should explain the procedures involved and assist in obtaining prior records and current special testing.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 539,
+   "text": "Applicants with a diagnosis of diabetes mellitus controlled by diet alone are considered eligible for all classes of medical certificates under the medical standards, provided they have no evidence of associated disqualifying cardiovascular, neurological, renal, or ophthalmological disease. Specialized examinations need not be performed unless indicated by history or clinical findings. The AME must document these determinations on FAA Form 8500-8.",
+   "html": "<p>Applicants with a diagnosis of diabetes mellitus controlled by diet alone are considered eligible for all classes of medical certificates under the medical standards, provided they have no evidence of associated disqualifying cardiovascular, neurological, renal, or ophthalmological disease. Specialized examinations need not be performed unless indicated by history or clinical findings. The AME must document these determinations on FAA Form 8500-8.</p>"
+  }
+ ]
+}

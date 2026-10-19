@@ -1,0 +1,140 @@
+{
+ "id": "kidney-stone-s",
+ "name": "Kidney Stone(s)",
+ "subtitle": "(NEPHROLITHIASIS, RENAL CALCULI) OR RENAL COLIC",
+ "name_in_guide": "KIDNEY STONE(S) (NEPHROLITHIASIS, RENAL CALCULI) OR RENAL COLIC",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/28/2017",
+ "order": 90,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current, detailed Clinical Progress Note generated from a clinic visit with the treating urologist no more than 90 days before the AME exam with treatment plan and prognosis.",
+  "If underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis and adherence to treatment for this condition;",
+  "List of medications and side effects (if any);",
+  "Operative notes and discharge summary (if applicable);and",
+  "Copies of imaging reports and lab (if already performed by treating physician)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Most recent event/diagnosis 5 or more years ago.",
+   "condition_html": "<p><strong>A. </strong> Most recent event/diagnosis</p>\n<p><strong>5 or more years ago.</strong></p>",
+   "evaluation_data": "No symptoms or current problems. Renal function has returned to normal. No ongoing treatment or surveillance needed.",
+   "evaluation_data_html": "<p>No symptoms or current problems. Renal function has returned to normal. No ongoing treatment or surveillance needed.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 248,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Single stone that passed Less than 5 years ago with no complications*",
+   "condition_html": "<p><strong>B. </strong>Single stone</p>\n<p>that passed</p>\n<p><strong>Less than 5 years ago </strong></p>\n<p>with no complications*</p>",
+   "evaluation_data": "If a single stone passed or is in the bladder with no further problems and imaging (such as a KUB) verifies no retained stones:",
+   "evaluation_data_html": "<p>If a <strong>single stone passed</strong> or is in the bladder with no further problems</p>\n<p>and imaging (such as a KUB) verifies <strong>no retained stones</strong>:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 248,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Multiple or Retained asymptomatic stone(s) Less than 5 years ago with no complications* Note: Use this for incidental findings.",
+   "condition_html": "<p><strong>C. Multiple</strong> or <strong>Retained </strong>asymptomatic stone(s)</p>\n<p><strong>Less than 5 years ago </strong></p>\n<p>with no complications*</p>\n<p><strong>Note:</strong> Use this for incidental findings.</p>",
+   "evaluation_data": "See CACI worksheet",
+   "evaluation_data_html": "<p>See CACI worksheet</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Retained Kidney Stone(s) Worksheet . Annotate Block 60",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Retained_Kidney_Stones.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Retained Kidney Stone(s) Worksheet</a> .</p>\n<p>Annotate Block 60</p>",
+   "pdf_page": 248,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "All others Complications* Symptomatic Underlying cause for recurrent stones",
+   "condition_html": "<p><strong>D. All others </strong></p>\n<p>Complications*</p>\n<p>Symptomatic</p>\n<p>Underlying cause for</p>\n<p>recurrent stones</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current, detailed Clinical Progress Note generated from a clinic visit with the treating urologist no more than 90 days before the AME exam with treatment plan and prognosis. - If underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis and adherence to treatment for this condition; - List of medications and side effects (if any); - Operative notes and discharge summary (if applicable);and - Copies of imaging reports and lab (if already performed by treating physician)",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> <strong>Current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating urologist no more than 90 days before the AME exam with treatment plan and prognosis.</li><li> If underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis and adherence to treatment for this condition;</li><li> List of medications and side effects (if any);</li><li> Operative notes and discharge summary (if applicable);and</li><li> Copies of imaging reports and lab (if already performed by treating physician)</li></ul>",
+   "what_to_bring": [
+    "Current, detailed Clinical Progress Note generated from a clinic visit with the treating urologist no more than 90 days before the AME exam with treatment plan and prognosis.",
+    "If underlying cause is identified, the status report should include diagnosis, treatment plan, prognosis and adherence to treatment for this condition;",
+    "List of medications and side effects (if any);",
+    "Operative notes and discharge summary (if applicable);and",
+    "Copies of imaging reports and lab (if already performed by treating physician)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 248,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Retained Kidney Stone(s) Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies that the condition is: - Asymptomatic; - Stable (no increase in number or size of stones); - Unlikely to cause a sudden incapacitating event; - If surgery has been performed, the airman: - Is off pain medication(s); - Has made a full recovery; and - Has a full release from the surgeon; - No history of complications (including chronic hydronephrosis; metabolic/underlying condition; procedures (3 or more in the last 5 years); renal failure or obstruction; sepsis; or recurrent UTIs due to stones.)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Is there an underlying cause for stone recurrence?",
+     "acceptable_certification_criteria": "[ ] No"
+    },
+    {
+     "ame_must_review": "Current or recommended treatment After a single stone event - if follow up imaging verifies no further stone(s) present, annotate this in Block 60. No further follow up is required unless there is a change in condition.",
+     "acceptable_certification_criteria": "[ ] None Supportive treatments such as hydration or medications (such as thiazides, allopurinol, or potassium citrate) to decrease recurrence (with no side effects) are allowed."
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Retained Kidney Stone(s). (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified Retained Kidney Stone(s).",
+    "NOT CACI qualified Retained Kidney Stone(s). I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>*Complications include</strong>:</p>\n<ul><li>Hydronephrosis (chronic).</li><li>Metabolic/underlying condition requiring treatment/surveillance/monitoring</li><li>Procedures (3 or more for kidney stones within the last 5 years)</li><li>Renal failure or obstruction (acute or chronic).</li><li>Sepsis or recurrent urinary tract infections due to stones</li></ul>\n<p><strong>Metabolic evaluations</strong> and <strong>imaging</strong> should be performed as clinically indicated by the treating physician. Acceptable imaging includes KUB, ultrasound, IVP, or CT/MRI as clinically appropriate per the treating physician.</p>",
+ "links": [
+  {
+   "text": "CACI – Retained Kidney Stone(s) Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_Retained_Kidney_Stones.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   248,
+   249
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

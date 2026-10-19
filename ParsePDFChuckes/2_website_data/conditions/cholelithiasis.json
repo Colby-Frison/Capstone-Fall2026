@@ -1,0 +1,93 @@
+{
+ "id": "cholelithiasis",
+ "name": "Cholelithiasis",
+ "subtitle": null,
+ "name_in_guide": "CHOLELITHIASIS",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/29/2024",
+ "order": 72,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "Admission History and Physical;",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from electronic medical records are NOT sufficient for medical certification purposes.); and",
+  "Operative/procedure report(s).",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or surgeon no more than 90 days before the AME exam. It must include:",
+  "Hospital records (if applicable):"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Asymptomatic OR Post-surgery with NO complications.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Asymptomatic</p>\n<p>OR</p>\n<p>Post-surgery with NO complications.</p>",
+   "evaluation_data": "If the AME can determine the condition is under control and the individual has no symptoms that would interfere with flight duties. Note: The AME should comment on the date of surgery, any complications, and if the individual has been released to full activity by the treating physician. If AME comments are absent, the individual may be asked to provide a current, detailed Clinical Progress Note from their physician.",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control and the individual has no symptoms that would interfere with flight duties.</p>\n<p><strong>Note:</strong> The<strong> AME should comment</strong> on the date of surgery, any complications, and if the individual has been released to full activity by the treating physician.</p>\n<p>If AME comments are absent, the individual may be asked to provide a current, detailed Clinical Progress Note from their physician.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60 including approximate date of surgery",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this information in</p>\n<p>Block 60 including approximate date of surgery</p>",
+   "pdf_page": 206,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others: Symptomatic or history of symptoms (e.g., biliary colic) OR Surgical complications (unresolved) If surgical complications such as DVT, see that page.",
+   "condition_html": "<p><strong>B.</strong> All others:</p>\n<p>Symptomatic or history of symptoms (e.g., biliary colic)</p>\n<p>OR</p>\n<p>Surgical complications (unresolved)</p>\n<p>If surgical complications such as DVT, see that page.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or surgeon no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. Hospital records (if applicable): - Admission History and Physical; - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from electronic medical records are NOT sufficient for medical certification purposes.); and - Operative/procedure report(s).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>physician or surgeon </strong>no more than <strong>90 days</strong> before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li></ul>\n<ul><li>Prognosis; and Follow-up.</li></ul>\n<p>2. Hospital records (if applicable):</p>\n<ul><li>Admission History and Physical;</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from electronic medical records are NOT sufficient for medical certification purposes.); and</li><li>Operative/procedure report(s).</li></ul>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "Admission History and Physical;",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from electronic medical records are NOT sufficient for medical certification purposes.); and",
+    "Operative/procedure report(s).",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or surgeon no more than 90 days before the AME exam. It must include:",
+    "Hospital records (if applicable):"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60</p>",
+   "pdf_page": 206,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-38-abdomen-and-viscera",
+  "section_title": "ITEM 38. Abdomen and Viscera",
+  "pdf_pages": [
+   206
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

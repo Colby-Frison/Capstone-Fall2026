@@ -1,0 +1,217 @@
+{
+ "slug": "12-medical-certificates-ame-completion",
+ "title": "12. Medical Certificates – AME Completion",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  24,
+  25
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 24,
+   "text": "(Updated 07-26-2017)",
+   "html": "<p>(Updated 07-26-2017)</p>"
+  },
+  {
+   "type": "list",
+   "page": 24,
+   "text": "- Date the medical certificate to reflect the date the medical examination was performed, NOT the date of import, issuance, or transmission.\n- Limitations must be selected from the list in the Aerospace Medical Certification System (AMCS). Additional limitations may NOT be typed/written in.\n- Signatures: Each medical certificate must be fully completed prior to being signed. - Both the AME and applicant must sign the medical certificate in ink. - The applicant must sign before leaving the AME’s office.",
+   "html": "<ul><li>Date the medical certificate to reflect the date the medical examination was performed, NOT the date of import, issuance, or transmission.</li><li>Limitations must be selected from the list in the Aerospace Medical Certification System (AMCS). Additional limitations may NOT be typed/written in.</li><li><p>• Signatures: Each medical certificate must be fully completed prior to being signed.</p>\n<ul><li>Both the AME and applicant must sign the medical certificate in ink.</li><li>The applicant must sign before leaving the AME’s office.</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 24,
+   "text": "- Give only ONE certificate to the airman\n- Use AMCS generated certificates only.\n- Transmit the exam electronically to the FAA using AMCS within 14 days.\n- The following are NOT valid: - Copies of medical Certificates; - Typewriter or handwritten certificates; - Obviously corrected certificates; - Paper 8500-8 certificates (any remaining paper forms should be destroyed by the AME).\n- Replacement medical certificates must be issued by the FAA.",
+   "html": "<ul><li>Give only ONE certificate to the airman</li><li>Use AMCS generated certificates only.</li><li>Transmit the exam electronically to the FAA using AMCS within 14 days.</li><li><p>• The following are NOT valid:</p>\n<ul><li>Copies of medical Certificates;</li><li>Typewriter or handwritten certificates;</li><li>Obviously corrected certificates;</li><li>Paper 8500-8 certificates (any remaining paper forms should be destroyed by the AME).</li></ul></li><li><a href=\"https://www.faa.gov/ame_guide/app_process/general/replacement/\" target=\"_blank\" rel=\"noopener\">Replacement medical certificates</a> must be issued by the FAA.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "text": "MEDICAL CERTIFICATE LIMITATIONS",
+   "html": "<p><strong>MEDICAL CERTIFICATE LIMITATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "text": "(Grouped by System)",
+   "html": "<p>(Grouped by System)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "text": "(Updated 12/12/2024)",
+   "html": "<p>(Updated 12/12/2024)</p>"
+  },
+  {
+   "type": "table",
+   "page": 25,
+   "header": [
+    "SYSTEM",
+    "LIMITATION IS RELATED TO:",
+    "AMCS NUMBER",
+    "LIMITATION DESCRIPTION"
+   ],
+   "rows": [
+    [
+     "N/A",
+     "N/A",
+     "0",
+     "None"
+    ],
+    [
+     "Eyes",
+     "Visual Acuity",
+     "102",
+     "Must use corrective lens(es) to meet vision standards at all required distances."
+    ],
+    [
+     "Eyes",
+     "Color Vision",
+     "5",
+     "Third-Class Letter of Evidence (LOE)."
+    ],
+    [
+     "Eyes",
+     "Color Vision",
+     "16",
+     "Not valid for flights requiring color signal control during daylight hours."
+    ],
+    [
+     "Eyes",
+     "Color Vision",
+     "17",
+     "Not valid for night flying or by color signal control."
+    ],
+    [
+     "Eyes",
+     "Color Vision",
+     "104",
+     "Valid for day visual flight rules (VFR) only"
+    ],
+    [
+     "Eyes",
+     "Night Flying",
+     "18",
+     "Not valid for night flying."
+    ],
+    [
+     "ENT",
+     "Hearing",
+     "9",
+     "Must use hearing amplification."
+    ],
+    [
+     "ENT",
+     "Hearing",
+     "22",
+     "Not valid for flying where radio use is required."
+    ],
+    [
+     "Miscellaneous",
+     "Limited 2nd class",
+     "27",
+     "Second class privileges limited to aerial application."
+    ],
+    [
+     "Miscellaneous",
+     "Limited 2nd class",
+     "28",
+     "Second class privileges limited to flight engineer duties."
+    ],
+    [
+     "Miscellaneous",
+     "Limited 2nd class",
+     "36",
+     "Limited second class/Full third-class privileges."
+    ],
+    [
+     "Miscellaneous",
+     "Limited 2nd class",
+     "60",
+     "Not valid for carrying passengers or cargo for compensation."
+    ],
+    [
+     "Miscellaneous",
+     "Limited 2nd class",
+     "61",
+     "Not valid for carrying passengers or cargo for compensation, except if serving as pilot of fully qualified 2-pilot crew."
+    ],
+    [
+     "Miscellaneous",
+     "Medical Flight Test (MFT)",
+     "39",
+     "Issued on basis of demonstrated medical fitness."
+    ],
+    [
+     "Miscellaneous",
+     "Pilot in Command (PIC)",
+     "13",
+     "Not valid for pilot in command."
+    ],
+    [
+     "Miscellaneous",
+     "Time limitation",
+     "41",
+     "Valid for 6 months following the month examined."
+    ],
+    [
+     "Miscellaneous",
+     "Time limitation",
+     "43",
+     "Valid for 12 months following the month examined."
+    ],
+    [
+     "Miscellaneous",
+     "Time limitation",
+     "47",
+     "Valid for 24 months following the month examined."
+    ],
+    [
+     "Miscellaneous",
+     "Time limitation",
+     "76",
+     "Not valid for any class after ________________"
+    ],
+    [
+     "Musculoskeletal",
+     "Orthopedic",
+     "10",
+     "Must wear artificial limb."
+    ],
+    [
+     "Pulmonary",
+     "Oxygen",
+     "11",
+     "Oxygen required when flying above 7,999 feet."
+    ],
+    [
+     "Specialty",
+     "Air Traffic Control Specialist (ATCS)",
+     "25",
+     "Valid for flight service station or center duties only."
+    ],
+    [
+     "Specialty",
+     "Air Traffic Control Specialist (ATCS)",
+     "31",
+     "Valid for and limited to air traffic control duty only."
+    ],
+    [
+     "Specialty",
+     "Balloon operations",
+     "103",
+     "Valid for balloon operations only."
+    ]
+   ],
+   "html": "<table><thead><tr><th>SYSTEM</th><th>LIMITATION IS RELATED TO:</th><th>AMCS NUMBER</th><th>LIMITATION DESCRIPTION</th></tr></thead><tbody><tr><td><p>N/A</p></td><td><p>N/A</p></td><td><p>0</p></td><td><p>None</p></td></tr><tr><td><p>Eyes</p></td><td><p>Visual Acuity</p></td><td><p>102</p></td><td><p>Must use corrective lens(es) to meet vision standards at all required distances.</p></td></tr><tr><td><p>Eyes</p></td><td><p>Color Vision</p></td><td><p>5</p></td><td><p>Third-Class Letter of Evidence (LOE).</p></td></tr><tr><td><p>Eyes</p></td><td><p>Color Vision</p></td><td><p>16</p></td><td><p>Not valid for flights requiring color signal control during daylight hours.</p></td></tr><tr><td><p>Eyes</p></td><td><p>Color Vision</p></td><td><p>17</p></td><td><p>Not valid for night flying or by color signal control.</p></td></tr><tr><td><p>Eyes</p></td><td><p>Color Vision</p></td><td><p>104</p></td><td><p>Valid for day visual flight rules (VFR) only</p></td></tr><tr><td><p>Eyes</p></td><td><p>Night Flying</p></td><td><p>18</p></td><td><p>Not valid for night flying.</p></td></tr><tr><td><p>ENT</p></td><td><p>Hearing</p></td><td><p>9</p></td><td><p>Must use hearing amplification.</p></td></tr><tr><td><p>ENT</p></td><td><p>Hearing</p></td><td><p>22</p></td><td><p>Not valid for flying where radio use is required.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Limited 2nd class</p></td><td><p>27</p></td><td><p>Second class privileges limited to aerial application.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Limited 2nd class</p></td><td><p>28</p></td><td><p>Second class privileges limited to flight engineer duties.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Limited 2nd class</p></td><td><p>36</p></td><td><p>Limited second class/Full third-class privileges.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Limited 2nd class</p></td><td><p>60</p></td><td><p>Not valid for carrying passengers or cargo for compensation.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Limited 2nd class</p></td><td><p>61</p></td><td><p>Not valid for carrying passengers or cargo for compensation, except if serving as pilot of fully qualified 2-pilot crew.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Medical Flight Test (MFT)</p></td><td><p>39</p></td><td><p>Issued on basis of demonstrated medical fitness.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Pilot in Command (PIC)</p></td><td><p>13</p></td><td><p>Not valid for pilot in command.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Time limitation</p></td><td><p>41</p></td><td><p>Valid for 6 months following the month examined.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Time limitation</p></td><td><p>43</p></td><td><p>Valid for 12 months following the month examined.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Time limitation</p></td><td><p>47</p></td><td><p>Valid for 24 months following the month examined.</p></td></tr><tr><td><p>Miscellaneous</p></td><td><p>Time limitation</p></td><td><p>76</p></td><td><p>Not valid for any class after ________________</p></td></tr><tr><td><p>Musculoskeletal</p></td><td><p>Orthopedic</p></td><td><p>10</p></td><td><p>Must wear artificial limb.</p></td></tr><tr><td><p>Pulmonary</p></td><td><p>Oxygen</p></td><td><p>11</p></td><td><p>Oxygen required when flying above 7,999 feet.</p></td></tr><tr><td><p>Specialty</p></td><td><p>Air Traffic Control Specialist (ATCS)</p></td><td><p>25</p></td><td><p>Valid for flight service station or center duties only.</p></td></tr><tr><td><p>Specialty</p></td><td><p>Air Traffic Control Specialist (ATCS)</p></td><td><p>31</p></td><td><p>Valid for and limited to air traffic control duty only.</p></td></tr><tr><td><p>Specialty</p></td><td><p>Balloon operations</p></td><td><p>103</p></td><td><p>Valid for balloon operations only.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 25,
+   "text": "Note: This table is provided for convenience. It should NOT be submitted to the FAA. For the most current limitations, see AMCS.",
+   "html": "<p><strong>Note: </strong> This table is provided for convenience. It should NOT be submitted to the FAA. For the most current limitations, see AMCS.</p>"
+  }
+ ]
+}

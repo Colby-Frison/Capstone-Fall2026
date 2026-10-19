@@ -1,0 +1,128 @@
+{
+ "id": "pleura-and-pleural-cavity",
+ "name": "Pleura and Pleural Cavity",
+ "subtitle": null,
+ "name_in_guide": "PLEURA AND PLEURAL CAVITY",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "9/24/2025",
+ "order": 42,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Acute fibrinous pleurisy; Empyema; Pleurisy with effusion; or Pneumonectomy",
+   "condition_html": "<p>Acute fibrinous pleurisy;</p>\n<p>Empyema;</p>\n<p>Pleurisy with effusion; or Pneumonectomy</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 139,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Malignant tumors or cysts of the lung, pleura or mediastinum",
+   "condition_html": "<p>Malignant tumors or cysts of the lung, pleura or mediastinum</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 139,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Other diseases or defects of the lungs or chest wall that require use of medication or that could adversely affect flying or endanger the applicant's well-being if permitted to fly",
+   "condition_html": "<p>Other diseases or defects of the lungs or chest wall that require use of medication or that could adversely affect flying or endanger the applicant&#x27;s well-being if permitted to fly</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 139,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Pneumothorax - Traumatic",
+   "condition_html": "<p>Pneumothorax - Traumatic</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If 3 months after resolution - Issue",
+   "disposition_html": "<p>If 3 months after resolution - Issue</p>",
+   "pdf_page": 139,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Spontaneous pneumothorax*",
+   "condition_html": "<p>Spontaneous pneumothorax*</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 139,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>*A history of a single episode of spontaneous pneumothorax is considered disqualifying for airman medical certification until there is x-ray evidence of resolution and until it can be determined that no condition that would be likely to cause recurrence is present (i.e., residual blebs). On the other hand, an individual who has sustained a repeat pneumothorax normally is not eligible for certification until surgical interventions are carried out to correct the underlying problem. A person who has such a history is usually able to resume airmen duties 3 months after the surgery. No special limitations on flying at altitude are applied.</p>",
+ "links": [],
+ "aliases": [
+  "Acute fibrinous pleurisy; Empyema; Pleurisy with effusion; or Pneumonectomy",
+  "Malignant tumors or cysts of the lung, pleura or mediastinum",
+  "Other diseases or defects of the lungs or chest wall that require use of medicat",
+  "Pneumothorax - Traumatic",
+  "Spontaneous pneumothorax*"
+ ],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   139
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

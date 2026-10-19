@@ -1,0 +1,123 @@
+{
+ "id": "meningitis",
+ "name": "Meningitis",
+ "subtitle": null,
+ "name_in_guide": "MENINGITIS",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 133,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "It must specifically include if the condition has resolved and if any residual side effects remain.",
+  "Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS).",
+  "MRI and/or CT brain imaging report (if already performed).",
+  "EEG - electroencephalogram report (if already performed).",
+  "A current, detailed",
+  "Remember to also submit all items listed under \"Prior Testing, Treatment, Or Other Records.”",
+  "MRI and or CT of the brain performed no more than 90 days before the AME exam.",
+  "Hospital records (admission H&P, discharge summary, all consultant reports, copies of imaging reports, etc.).",
+  "An electroencephalogram (EEG) if already performed OR if any history of seizures.",
+  "Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.",
+  "The CDs of EEG recordings must have proprietary opening software compatible with Windows 10."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Single episode No complications, fully resolved and recovered AND No hospitalization OR Hospitalized 5 or more years ago",
+   "condition_html": "<p><strong>A.</strong> Single episode No complications, fully resolved and recovered AND No hospitalization OR Hospitalized <strong>5 or more years ago</strong></p>",
+   "evaluation_data": "If the AME can determine the condition has resolved with no complications and the pilot has no symptoms that would interfere with flight duties: If within the past one year, the pilot should provide the AME with the most recent detailed, Clinical Progress Note from the treating physician describing the clinical course and resolution without complications. Note: If associated with a seizure or more than one episode, go to Row C.",
+   "evaluation_data_html": "<p>If the AME can determine the condition has resolved with no complications and the pilot has no symptoms that would interfere with flight duties:</p>\n<p>If <strong>within the past one year</strong>, the pilot should provide the AME with the <strong>most recent detailed, Clinical Progress Note </strong>from the treating physician describing the clinical course and resolution without complications.</p>\n<p><strong>Note:</strong> If associated with a seizure or more than one episode, go to Row C.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60 including approximate date of single episode",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60 including approximate date of single episode</p>",
+   "pdf_page": 332,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Single episode requiring hospitalization less than 5 years ago",
+   "condition_html": "<p><strong>B.</strong> Single episode</p>\n<p>requiring hospitalization</p>\n<p><strong>less than 5 years ago</strong></p>",
+   "evaluation_data": "Submit the following for AME and FAA review: - 1. The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 2. It must specifically include if the condition has resolved and if any residual side effects remain. - 3. Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS). - 4. MRI and/or CT brain imaging report (if already performed). - 5. EEG - electroencephalogram report (if already performed). Note: If the MRI or CT report verifies",
+   "evaluation_data_html": "<p>Submit the following for AME and FAA review:</p>\n<ul><li>1. The most <strong>recent detailed, Clinical Progress Note</strong> performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li></ul>\n<ul><li>2. It must specifically include if the condition has resolved and if any residual side effects remain.</li></ul>\n<ul><li>3. Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS).</li></ul>\n<ul><li>4. MRI and/or CT brain imaging report (if already performed).</li></ul>\n<ul><li>5. EEG - electroencephalogram report (if already performed).</li></ul>\n<p><strong>Note:</strong> If the MRI or CT report verifies</p>",
+   "what_to_bring": [
+    "The most recent detailed, Clinical Progress Note performed from the treating physician or neurologist. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "It must specifically include if the condition has resolved and if any residual side effects remain.",
+    "Hospital Discharge Summary. This is NOT the same as patient portal notes or After Visit Summary (AVS).",
+    "MRI and/or CT brain imaging report (if already performed).",
+    "EEG - electroencephalogram report (if already performed)."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If the AME can determine the condition has resolved with no residual symptoms, MRI, and EEG (if performed) are negative, and the pilot has no symptoms that would interfere with flight duties. ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the pilot’s file lesions or scarring on the brain; or the neurologic evaluation determines there is concern for cognitive impairment on clinical exam; or any history of seizure (a recovery period may apply), go to Row C.",
+   "disposition_html": "<p>If the AME can determine the condition has resolved with no residual symptoms, MRI, and EEG (if performed) are negative, and the pilot has no symptoms that would interfere with flight duties.</p>\n<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60 and submit the evaluation to the FAA for retention in the pilot’s file</p>\n<p>lesions or scarring on the brain; or the neurologic evaluation determines there is concern for cognitive impairment on clinical exam; or any history of seizure (a recovery period may apply), go to Row C.</p>",
+   "pdf_page": 332,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "More than one episode (ever) OR Complications such as meningoencephalitis, cortical involvement (stroke), seizure OR Abnormal MRI or EEG findings OR Not fully resolved or recovered",
+   "condition_html": "<p><strong>C. </strong> More than one episode (ever)</p>\n<p>OR</p>\n<p>Complications such as</p>\n<p>meningoencephalitis,</p>\n<p>cortical involvement (stroke), seizure</p>\n<p>OR</p>\n<p>Abnormal MRI or EEG findings</p>\n<p>OR Not fully resolved or</p>\n<p>recovered</p>",
+   "evaluation_data": "Submit the following for FAA review - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Remember to also submit all items listed under \"Prior Testing, Treatment, Or Other Records.” - 3. MRI and or CT of the brain performed no more than 90 days before the AME exam. - - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 4. Hospital records (admission H&P, discharge summary, all consultant reports, copies of imaging reports, etc.). - 5. An electroencephalogram (EEG) if already performed OR if any history of seizures. - - The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). - - Include any previous EEG(s) available for comparison. - Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. - The CDs of EEG recordings must have proprietary opening software compatible with Windows 10. Additional testing: If the CT/MRI report identifies lesions or scarring on the brain or the clinical neurologic evaluation has concern for cognitive impairment, a Neuropsychological (NP) evaluation will be required. When required, it must meet FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist. Seizure: If associated with a seizure, refer to the Seizure section. A recovery period may apply.",
+   "evaluation_data_html": "<p>Submit the following for FAA review</p>\n<ul><li><strong>1. A current, detailed </strong></li></ul>\n<p><strong>neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist <strong>no more than 90 days before</strong> the AME exam.</p>\n<ul><li>2. Remember to also submit all items listed under &quot;Prior Testing, Treatment, Or Other Records.”</li></ul>\n<ul><li>3. MRI and or CT of the brain <strong>performed no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li><ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul></li></ul>\n<ul><li>4. Hospital records (admission H&amp;P, discharge summary, all consultant reports, copies of imaging reports, etc.).</li></ul>\n<ul><li>5. An electroencephalogram (EEG) if already performed OR if any history of seizures.</li></ul>\n<ul><li><ul><li>The EEG recording should be sleep-deprived: awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light).</li></ul></li></ul>\n<ul><li><ul><li>Include any previous EEG(s) available for comparison.</li><li>Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.</li><li>The CDs of EEG recordings must have proprietary opening software compatible with Windows 10.</li></ul></li></ul>\n<p><strong>Additional testing: </strong>If the CT/MRI report identifies lesions or scarring on the brain or the clinical neurologic evaluation has concern for cognitive impairment, a</p>\n<p>Neuropsychological (NP) evaluation will be required. When required, it must meet <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> from a clinic visit with the treating neuropsychologist.</p>\n<p>Seizure: If associated with a seizure, refer to the Seizure section. A recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed",
+    "Remember to also submit all items listed under \"Prior Testing, Treatment, Or Other Records.”",
+    "MRI and or CT of the brain performed no more than 90 days before the AME exam.",
+    "Hospital records (admission H&P, discharge summary, all consultant reports, copies of imaging reports, etc.).",
+    "An electroencephalogram (EEG) if already performed OR if any history of seizures.",
+    "Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.",
+    "The CDs of EEG recordings must have proprietary opening software compatible with Windows 10."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 332,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">Brain Abscess and Encephalitis</a></p>",
+ "links": [
+  {
+   "text": "Brain Abscess and Encephalitis",
+   "href": "https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   332,
+   334
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

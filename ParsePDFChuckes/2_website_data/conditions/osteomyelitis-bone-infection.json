@@ -1,0 +1,82 @@
+{
+ "id": "osteomyelitis-bone-infection",
+ "name": "Osteomyelitis (BONE Infection)",
+ "subtitle": null,
+ "name_in_guide": "OSTEOMYELITIS (BONE INFECTION)",
+ "category": {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 101,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or treating physician no more than 90 days before the AME exam.",
+  "It must specifically include :",
+  "Etiology or any underlying cause with frequency of episodes (chronic or recurrent) and likelihood to reoccur .",
+  "Any functional limitations ."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Single episode fully resolved",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Single episode fully resolved</p>",
+   "evaluation_data": "If the AME can determine the condition has fully resolved with no residual sequelae which would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition has fully resolved with no residual sequelae which would interfere with flight duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 267,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others - Currently on antibiotics - 2 or more lifetime episodes - Chronic or recurrent infection - Functional limitation or required amputation",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>All others</p>\n<ul><li>Currently on antibiotics</li><li>2 or more lifetime episodes</li><li>Chronic or recurrent infection</li><li>Functional limitation or required amputation</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 15. A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or treating physician no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 16. It must specifically include: - Etiology or any underlying cause with frequency of episodes (chronic or recurrent) and likelihood to reoccur. - Any functional limitations.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>15. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with an <strong>infectious disease specialist</strong> or treating physician no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>16. </strong>It <strong>must specifically include</strong>:</li><li><strong>Etiology</strong> or any underlying cause with frequency of episodes (chronic or recurrent) and <strong>likelihood to reoccur</strong>.</li><li><strong>Any functional limitations</strong>.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or treating physician no more than 90 days before the AME exam.",
+    "It must specifically include :",
+    "Etiology or any underlying cause with frequency of episodes (chronic or recurrent) and likelihood to reoccur .",
+    "Any functional limitations ."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60. If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot's ability to operate aircraft controls.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>\n<p>If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot&#x27;s ability to operate aircraft controls.</p>",
+   "pdf_page": 267,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "osteomyelitis-bone-infection",
+  "section_title": "OSTEOMYELITIS (BONE INFECTION)",
+  "pdf_pages": [
+   267
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

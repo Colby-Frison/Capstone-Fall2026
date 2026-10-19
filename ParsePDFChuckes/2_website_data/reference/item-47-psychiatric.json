@@ -1,0 +1,391 @@
+{
+ "slug": "item-47-psychiatric",
+ "title": "ITEM 47. Psychiatric",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  372,
+  373,
+  374,
+  375
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(Updated 10/14/2021)",
+   "html": "<p>(Updated 10/14/2021)</p>"
+  },
+  {
+   "type": "table",
+   "page": 372,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "47. Psychiatric (Appearance, behavior, mood, communication, and memory)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>47. Psychiatric (Appearance, behavior, mood, communication, and memory)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "All Classes: 14 CFR 67.107(a)(b)(c), 67.207(a)(b)(c), and 67.307(a)(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.107(a)(b)(c), 67.207(a)(b)(c), and 67.307(a)(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(a) No established medical history or clinical diagnosis of any of the following:",
+   "html": "<p>(a) No established medical history or clinical diagnosis of any of the following:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(1) A personality disorder that is severe enough to have repeatedly manifested",
+   "html": "<p>(1) A personality disorder that is severe enough to have repeatedly manifested</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "itself by overt acts.",
+   "html": "<p>itself by overt acts.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(2) A psychosis. As used in this section, \"psychosis\" refers to a mental disorder",
+   "html": "<p>(2) A psychosis. As used in this section, &quot;psychosis&quot; refers to a mental disorder</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "in which:",
+   "html": "<p>in which:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(i) The individual has manifested delusions, hallucinations, grossly bizarre or",
+   "html": "<p>(i) The individual has manifested delusions, hallucinations, grossly bizarre or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "disorganized behavior, or other commonly accepted symptoms of this condition; or",
+   "html": "<p>disorganized behavior, or other commonly accepted symptoms of this condition; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(ii) The individual may reasonably be expected to manifest delusions,",
+   "html": "<p>(ii) The individual may reasonably be expected to manifest delusions,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "hallucinations, grossly bizarre or disorganized behavior, or other commonly accepted symptoms of this condition.",
+   "html": "<p>hallucinations, grossly bizarre or disorganized behavior, or other commonly accepted symptoms of this condition.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(3) A bipolar disorder.",
+   "html": "<p>(3) A bipolar disorder.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(4) Substance dependence, except where there is established clinical evidence,",
+   "html": "<p>(4) Substance dependence, except where there is established clinical evidence,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "satisfactory to the Federal Air Surgeon, of recovery, including sustained total abstinence from the substance(s) for not less than the preceding 2 years. As used in this section -",
+   "html": "<p>satisfactory to the Federal Air Surgeon, of recovery, including sustained total abstinence from the substance(s) for not less than the preceding 2 years. As used in this section -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(i) \"Substance\" includes: alcohol; other sedatives and hypnotics; anxiolytics;",
+   "html": "<p>(i) &quot;Substance&quot; includes: alcohol; other sedatives and hypnotics; anxiolytics;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "opioids; central nervous system stimulants such as cocaine, amphetamines, and similarly acting sympathomimetics; hallucinogens; phencyclidine or similarly acting arylcyclohexylamines; cannabis; inhalants; and other psychoactive drugs and chemicals; and",
+   "html": "<p>opioids; central nervous system stimulants such as cocaine, amphetamines, and similarly acting sympathomimetics; hallucinogens; phencyclidine or similarly acting arylcyclohexylamines; cannabis; inhalants; and other psychoactive drugs and chemicals; and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(ii) \"Substance dependence\" means a condition in which a person is",
+   "html": "<p>(ii) &quot;Substance dependence&quot; means a condition in which a person is</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "dependent on a substance, other than tobacco or ordinary xanthine-containing (e.g., caffeine) beverages, as evidenced by-",
+   "html": "<p>dependent on a substance, other than tobacco or ordinary xanthine-containing (e.g., caffeine) beverages, as evidenced by-</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(A) Increased tolerance (B) Manifestation of withdrawal symptoms; (C) Impaired control of use; or",
+   "html": "<p>(A) Increased tolerance (B) Manifestation of withdrawal symptoms; (C) Impaired control of use; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(D) Continued use despite damage to physical health or impairment of",
+   "html": "<p>(D) Continued use despite damage to physical health or impairment of</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "social, personal, or occupational functioning.",
+   "html": "<p>social, personal, or occupational functioning.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 372,
+   "text": "(b) No substance abuse within the preceding 2 years defined as:",
+   "html": "<p>(b) No substance abuse within the preceding 2 years defined as:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(1) Use of a substance in a situation in which that use was physically hazardous,",
+   "html": "<p>(1) Use of a substance in a situation in which that use was physically hazardous,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "if there has been at any other time an instance of the use of a substance also in a situation in which that use was physically hazardous;",
+   "html": "<p>if there has been at any other time an instance of the use of a substance also in a situation in which that use was physically hazardous;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(2) A verified positive drug test result, an alcohol test result of 0.04 or greater",
+   "html": "<p>(2) A verified positive drug test result, an alcohol test result of 0.04 or greater</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "alcohol concentration, or a refusal to submit to a drug or alcohol test required by the U.S. Department of Transportation or an agency of the U.S. Department of Transportation; or",
+   "html": "<p>alcohol concentration, or a refusal to submit to a drug or alcohol test required by the U.S. Department of Transportation or an agency of the U.S. Department of Transportation; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(3) Misuse of a substance that the Federal Air Surgeon, based on case history",
+   "html": "<p>(3) Misuse of a substance that the Federal Air Surgeon, based on case history</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "and appropriate, qualified medical judgment relating to the substance involved, finds-",
+   "html": "<p>and appropriate, qualified medical judgment relating to the substance involved, finds-</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(i) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(i) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(ii) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(ii) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(c) No other personality disorder, neurosis, or other mental condition that the Federal",
+   "html": "<p>(c) No other personality disorder, neurosis, or other mental condition that the Federal</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds-",
+   "html": "<p>Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds-</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "Medical certificate applied for or held, to make the person unable to perform",
+   "html": "<p>Medical certificate applied for or held, to make the person unable to perform</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "those duties or exercise those privileges.",
+   "html": "<p>those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "(Also see Items 18.m.,18.n., and 18.p.)",
+   "html": "<p>(Also see <strong>Items 18.m.,18.n., </strong>and <strong>18.p</strong>.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "II. Examination Techniques The FAA does not expect the AME to perform a formal psychiatric examination. However, the AME should form a general impression of the emotional stability and mental state of the applicant. There is a need for discretion in the AME/applicant relationship consonant with the FAA's aviation safety mission and the concerns of all applicants regarding disclosure to a public agency of sensitive information that may not be pertinent to aviation safety. AMEs must be sensitive to this need while, at the same time, collect what is necessary for a certification decision. When a question arises, the Federal Air Surgeon encourages AMES first to check this Guide for Aviation Medical Examiners and other FAA informational documents. If the question remains unresolved, the AMEs should seek advice from a RFS or the Manager of the AMCD.",
+   "html": "<p><strong>II. Examination Techniques</strong> The FAA does not expect the AME to perform a formal psychiatric examination. However, the AME should form a general impression of the emotional stability and mental state of the applicant. There is a need for discretion in the AME/applicant relationship consonant with the FAA&#x27;s aviation safety mission and the concerns of all applicants regarding disclosure to a public agency of sensitive information that may not be pertinent to aviation safety. AMEs must be sensitive to this need while, at the same time, collect what is necessary for a certification decision. When a question arises, the Federal Air Surgeon encourages AMES first to check this Guide for Aviation Medical Examiners and other FAA informational documents. If the question remains unresolved, the AMEs should seek advice from a RFS or the Manager of the AMCD.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 373,
+   "text": "Review of the applicant's history as provided on the application form may alert the AME to gather further important factual information. Information about the applicant may be found in items related to age, pilot time, and class of certificate for which applied. Information about the present occupation and employer also may be helpful. If any psychotropic drugs are or have been used, follow-up questions are appropriate. Previous medical denials or aircraft accidents may be related to psychiatric problems.",
+   "html": "<p>Review of the applicant&#x27;s history as provided on the application form may alert the AME to gather further important factual information. Information about the applicant may be found in items related to age, pilot time, and class of certificate for which applied. Information about the present occupation and employer also may be helpful. If any psychotropic drugs are or have been used, follow-up questions are appropriate. Previous medical denials or aircraft accidents may be related to psychiatric problems.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "Psychiatric information can be derived from the individual items in medical history (Item 18). Any affirmative answers to Item 18.m., “Mental disorders of any sort; depression, anxiety, etc.,\" or Item 18.p., \"Suicide attempt,\" are significant. Any disclosure of current or previous drug or alcohol problems requires further clarification. A record of traffic violations may reflect certain personality problems or indicate an alcohol problem. Affirmative answers related to rejection by military service or a military medical discharge require elaboration. Reporting symptoms such as headaches or dizziness, or even heart or stomach trouble, may reflect a history of anxiety rather than a primary medical problem in these areas. Sometimes, the information applicants give about their previous diagnoses is incorrect, either because the applicant is unsure of the correct information or because the applicant chooses to minimize past difficulties. If there was a hospital admission for any emotionally related problem, it will be necessary to obtain the entire record.",
+   "html": "<p>Psychiatric information can be derived from the individual items in medical history (<strong>Item 18</strong>). Any affirmative answers to Item 18.m., “Mental disorders of any sort; depression, anxiety, etc.,&quot; or Item 18.p., &quot;Suicide attempt,&quot; are significant. Any disclosure of current or previous drug or alcohol problems requires further clarification. A record of traffic violations may reflect certain personality problems or indicate an alcohol problem. Affirmative answers related to rejection by military service or a military medical discharge require elaboration. Reporting symptoms such as headaches or dizziness, or even heart or stomach trouble, may reflect a history of anxiety rather than a primary medical problem in these areas. Sometimes, the information applicants give about their previous diagnoses is incorrect, either because the applicant is unsure of the correct information or because the applicant chooses to minimize past difficulties. If there was a hospital admission for any emotionally related problem, it will be necessary to obtain the entire record.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "Valuable information can be derived from the casual conversation that occurs during the physical examination. Some of this conversation will reveal information about the family, the job, and special interests. Even some personal troubles may be revealed at this time. The AME’s questions should not be stilted or follow a regular pattern; instead, they should be a natural extension of the AME's curiosity about the person being examined. Information about the motivation for medical certification and interest in flying may be revealing. A formal Mental Status Examination is unnecessary. For example, it is not necessary to ask about time, place, or person to discover whether the applicant is oriented. Information about the flow of associations, mood, and memory, is generally available from the usual interactions during the examination. Indication of cognitive problems may become apparent during the examination. Such problems with concentration, attention, or confusion during the examination or slower, vague responses should be noted and may be cause for deferral.",
+   "html": "<p>Valuable information can be derived from the casual conversation that occurs during the physical examination. Some of this conversation will reveal information about the family, the job, and special interests. Even some personal troubles may be revealed at this time. The AME’s questions should not be stilted or follow a regular pattern; instead, they should be a natural extension of the AME&#x27;s curiosity about the person being examined. Information about the motivation for medical certification and interest in flying may be revealing. A formal Mental Status Examination is unnecessary. For example, it is not necessary to ask about time, place, or person to discover whether the applicant is oriented. Information about the flow of associations, mood, and memory, is generally available from the usual interactions during the examination. Indication of cognitive problems may become apparent during the examination. Such problems with concentration, attention, or confusion during the examination or slower, vague responses should be noted and may be cause for deferral.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "The AME should make observations about the following specific elements and should note on the form any gross or notable deviations from normal:",
+   "html": "<p>The AME should make observations about the following specific elements and should note on the form any gross or notable deviations from normal:</p>"
+  },
+  {
+   "type": "list",
+   "page": 374,
+   "text": "- 1. Appearance (abnormal if dirty, disheveled, odoriferous, or unkempt);\n- 2. Behavior (abnormal if uncooperative, bizarre, or inexplicable);\n- 3. Mood (abnormal if excessively angry, sad, euphoric, or labile);\n- 4. Communication (abnormal if incomprehensible, does not answer questions directly);\n- 5. Memory (abnormal if unable to recall recent events); and\n- 6. Cognition (abnormal if unable to engage in abstract thought, or if delusional or hallucinating).",
+   "html": "<ul><li>1. Appearance (abnormal if dirty, disheveled, odoriferous, or unkempt);</li><li>2. Behavior (abnormal if uncooperative, bizarre, or inexplicable);</li><li>3. Mood (abnormal if excessively angry, sad, euphoric, or labile);</li><li>4. Communication (abnormal if incomprehensible, does not answer questions directly);</li><li>5. Memory (abnormal if unable to recall recent events); and</li><li>6. Cognition (abnormal if unable to engage in abstract thought, or if delusional or hallucinating).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "Significant observations during this part of the medical examination should be recorded in Item 60 , of the application form. The AME, upon identifying any significant problems, should defer issuance of the medical certificate and report findings to the FAA. This could be accomplished by contacting a RFS or the Manager of the AMCD.",
+   "html": "<p>Significant observations during this part of the medical examination should be recorded in Item 60 , of the application form. The AME, upon identifying any significant problems, should defer issuance of the medical certificate and report findings to the FAA. This could be accomplished by contacting a RFS or the Manager of the AMCD.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "Drug and alcohol conditions are found in Substances of Dependence/Abuse .",
+   "html": "<p><strong>Drug and alcohol conditions are found in </strong> <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\"><strong>Substances of Dependence/Abuse</strong></a> <strong>. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 374,
+   "text": "A. General Considerations. It must be pointed out that considerations for safety, which in the \"mental\" area are related to a compromise of judgment and emotional control or to diminished mental capacity with loss of behavioral control, are not the same as concerns for emotional health in everyday life. Some problems may have only a slight impact on an individual's overall capacities",
+   "html": "<p>A. General Considerations. It must be pointed out that considerations for safety, which in the &quot;mental&quot; area are related to a compromise of judgment and emotional control or to diminished mental capacity with loss of behavioral control, are not the same as concerns for emotional health in everyday life. Some problems may have only a slight impact on an individual&#x27;s overall capacities</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "and the quality of life but may nevertheless have a great impact on safety. Conversely, many emotional problems that are of therapeutic and clinical concern have no impact on safety.",
+   "html": "<p>and the quality of life but may nevertheless have a great impact on safety. Conversely, many emotional problems that are of therapeutic and clinical concern have no impact on safety.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "B. Denials. The FAA has concluded that certain psychiatric conditions are such that their presence or a past history of their presence is sufficient to suggest a significant potential threat to aviation safety. It is, therefore, incumbent upon the AME to be aware of any indications of these conditions currently or in the past, and to deny or defer issuance of the medical certificate to an applicant who has a history of these conditions. An applicant who has a current diagnosis or history of these conditions may request the FAA to grant an Authorization under the special issuance section of part 67 ( 14 CFR 67.401 ) and, based upon individual considerations, the FAA may grant such an issuance.",
+   "html": "<p>B. Denials. The FAA has concluded that certain psychiatric conditions are such that their presence or a past history of their presence is sufficient to suggest a significant potential threat to aviation safety. It is, therefore, incumbent upon the AME to be aware of any indications of these conditions currently or in the past, and to deny or defer issuance of the medical certificate to an applicant who has a history of these conditions. An applicant who has a current diagnosis or history of these conditions may request the FAA to grant an Authorization under the special issuance section of part 67 ( <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67/subpart-E/section-67.401\" target=\"_blank\" rel=\"noopener\">14 CFR 67.401</a> ) and, based upon individual considerations, the FAA may grant such an issuance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "All applicants with any of the following conditions must be denied or deferred:",
+   "html": "<p><strong>All applicants with any of the following conditions must be denied or deferred:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "Attention deficit/hyperactivity, bipolar disorder, personality disorder, psychosis, substance abuse, substance dependence, suicide attempt.",
+   "html": "<p>Attention deficit/hyperactivity, bipolar disorder, personality disorder, psychosis, substance abuse, substance dependence, suicide attempt.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "In some instances, the following conditions may also warrant denial or deferral:",
+   "html": "<p><strong>In some instances, the following conditions may also warrant denial or deferral: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "Adjustment disorder; bereavement; dysthymic; or minor depression; use of psychotropic medications for smoking cessation",
+   "html": "<p>Adjustment disorder; bereavement; dysthymic; or minor depression; use of psychotropic medications for smoking cessation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "NOTE: The use of a psychotropic drug is disqualifying for aeromedical certification purposes. This includes all sedatives, tranquilizers, antipsychotic drugs, antidepressant drugs (including SSRI’s - see exceptions below), analeptics, anxiolytics, and hallucinogens. The AME should defer issuance and forward the medical records to the AMCD.",
+   "html": "<p><strong>NOTE</strong>: The use of a psychotropic drug is disqualifying for aeromedical certification purposes. This includes all sedatives, tranquilizers, antipsychotic drugs, antidepressant drugs (including SSRI’s - see exceptions below), analeptics, anxiolytics, and hallucinogens. The AME should defer issuance and forward the medical records to the AMCD.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "C. Use of Antidepressant Medications. (Updated 05/31/2023) The FAA has determined that applicants requesting first, second, or third-class medical certificates while being treated with one of several specific antidepressant medications may be considered. The Authorization decision is made on a case-by-case basis. The AME may not issue.",
+   "html": "<p>C. Use of Antidepressant Medications. (Updated 05/31/2023) The FAA has determined that applicants requesting first, second, or third-class medical certificates while being treated with one of several specific antidepressant medications may be considered. The Authorization decision is made on a case-by-case basis. <strong>The AME may not issue.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 375,
+   "text": "If the applicant opts to discontinue use of the SSRI, the AME must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance. To reapply for regular issuance, the applicant must be off the SSRI for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects. See SSRI Decision Path I",
+   "html": "<p>If the applicant opts to discontinue use of the SSRI, the AME must notate in Block 60, Comments on History and Findings, on FAA Form 8500-8 and defer issuance. To reapply for regular issuance, the applicant must be off the SSRI for a minimum of 60 days with a favorable report from the treating physician indicating stable mood and no aeromedically significant side effects. See <a href=\"https://www.faa.gov/ame_guide/media/SSRI_Decision_Path-I.pdf\" target=\"_blank\" rel=\"noopener\">SSRI Decision Path I</a></p>"
+  }
+ ]
+}

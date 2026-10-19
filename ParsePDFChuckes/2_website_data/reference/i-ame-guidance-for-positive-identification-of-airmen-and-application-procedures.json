@@ -1,0 +1,29 @@
+{
+ "slug": "i-ame-guidance-for-positive-identification-of-airmen-and-application-procedures",
+ "title": "I. AME Guidance for Positive Identification of Airmen and Application Procedures",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  42
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "All applicants must show proof of age and identity under 14 CFR §67.4. On occasion, individuals have attempted to be examined under a false name. If the applicant is unknown to the AME, the AME should request evidence of positive identification. A Government-issued photo identification (e.g., driver’s license, identification card issued by a driver’s license authority, military identification, or passport) provides age and identity and is preferred. Applicants may use other government-issued identification for age (e.g., certified copy of a birth certificate); however, the AME must request separate photo identification for identity (such as a work badge). Verify that the address provided is the same as that given under Item 5. Record the type of identification(s) provided and identifying number(s) under Item 60. Make a copy of the identification and keep it on file for 3 years with the AME work copy.",
+   "html": "<p><strong>All applicants must show proof of age and identity under 14 CFR §67.4. On occasion, individuals have attempted to be examined under a false name. If the applicant is unknown to the AME, the AME should request evidence of positive identification. A Government-issued photo identification (e.g., driver’s license, identification card issued by a driver’s license authority, military identification, or passport) provides age and identity and is preferred. Applicants may use other government-issued identification for age (e.g., certified copy of a birth certificate); however, the AME must request separate photo identification for identity (such as a work badge). Verify that the address provided is the same as that given under Item 5. Record the type of identification(s) provided and identifying number(s) under Item 60. Make a copy of the identification and keep it on file for 3 years with the AME work copy. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "An applicant who does not have government-issued photo identification may use non-photo government-issued identification (e.g. pilot certificate, birth certificate, voter registration card) in conjunction with a photo identification (e.g. work identification card, student identification card).",
+   "html": "<p>An applicant who does not have government-issued photo identification may use non-photo government-issued identification (e.g. pilot certificate, birth certificate, voter registration card) in conjunction with a photo identification (e.g. work identification card, student identification card).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "If an airman fails to provide identification, the AME must report this immediately to the AMCD, or the appropriate RFS for guidance.",
+   "html": "<p>If an airman fails to provide identification, the AME must report this immediately to the AMCD, or the appropriate RFS for guidance.</p>"
+  }
+ ]
+}

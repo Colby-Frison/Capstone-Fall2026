@@ -1,0 +1,86 @@
+{
+ "id": "retinoschisis",
+ "name": "Retinoschisis",
+ "subtitle": null,
+ "name_in_guide": "RETINOSCHISIS",
+ "category": {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "exam_item": "32",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 33,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating retina specialist ( ophthalmologist) no more than 90 days before the AME exam.",
+  "Visual acuity: The best corrected visual acuity for distant and near vision (intermediate if age 50 or older and 1st or 2nd class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Visual field testing (30-2) performed no more than 90 days prior to the AME exam.",
+  "Copies of any testing already performed such as electroretinogram (ERG) and optical coherence tomography (OCT)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history (Reported by the individual or seen on progress notes.)",
+   "condition_html": "<p><strong>A. </strong>Any history</p>\n<p>(Reported by the individual or seen on progress notes.)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 5. A current, detailed Clinical Progress Note generated from a clinic visit with their treating retina specialist (ophthalmologist) no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 6. Visual acuity: The best corrected visual acuity for distant and near vision (intermediate if age 50 or older and 1st or 2nd class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. - 7. Visual field testing (30-2) performed no more than 90 days prior to the AME exam. - 8. Copies of any testing already performed such as electroretinogram (ERG) and optical coherence tomography (OCT).",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>5. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>retina specialist</strong> (<strong>ophthalmologist) </strong>no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>6. Visual acuity: </strong>The best corrected visual acuity for distant and near vision (intermediate if age 50 or older and 1st or 2nd class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</li></ul>\n<ul><li><strong>7. </strong>Visual field testing (30-2) performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>8. </strong>Copies of any testing already performed such as electroretinogram (ERG) and optical coherence tomography (OCT).</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating retina specialist ( ophthalmologist) no more than 90 days before the AME exam.",
+    "Visual acuity: The best corrected visual acuity for distant and near vision (intermediate if age 50 or older and 1st or 2nd class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Visual field testing (30-2) performed no more than 90 days prior to the AME exam.",
+    "Copies of any testing already performed such as electroretinogram (ERG) and optical coherence tomography (OCT)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 124,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Due to a neurological condition",
+   "condition_html": "<p><strong>B. </strong> Due to a <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd\" target=\"_blank\" rel=\"noopener\">neurological condition</a></p>",
+   "evaluation_data": "If due to a neurological condition, see corresponding page.",
+   "evaluation_data_html": "<p>If due to a <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd\" target=\"_blank\" rel=\"noopener\">neurological condition,</a> see corresponding page.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 124,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "neurological condition,",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item46/amd"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "retinoschisis",
+  "section_title": "RETINOSCHISIS",
+  "pdf_pages": [
+   124
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

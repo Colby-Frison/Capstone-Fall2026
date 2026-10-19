@@ -1,0 +1,142 @@
+{
+ "slug": "item-45-lymphatics",
+ "title": "ITEM 45. Lymphatics",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  277,
+  278,
+  279,
+  280,
+  281,
+  282,
+  283
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 277,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "45. Lymphatics",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>45. Lymphatics</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds -",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(c) No medication or other treatment that the Federal Air Surgeon, based on the",
+   "html": "<p>(c) No medication or other treatment that the Federal Air Surgeon, based on the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds -",
+   "html": "<p>case history and appropriate, qualified medical judgment relating to the medication or other treatment involved, finds -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "A careful examination of the lymphatic system may reveal underlying systemic disorders of clinical importance. Further history should be obtained as needed to explain findings.",
+   "html": "<p>A careful examination of the lymphatic system may reveal underlying systemic disorders of clinical importance. Further history should be obtained as needed to explain findings.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 277,
+   "text": "The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.",
+   "html": "<p>The following is a table that lists the most common conditions of aeromedical significance, and course of action that should be taken by the AME as defined by the protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.</p>"
+  }
+ ]
+}

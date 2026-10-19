@@ -1,0 +1,74 @@
+{
+ "slug": "caci-hypothyroidism-worksheet",
+ "title": "CACI - Hypothyroidism Worksheet",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  444
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "(Updated 06/28/2023)",
+   "html": "<p>(Updated 06/28/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.",
+   "html": "<p>To determine the applicant’s eligibility for certification, the AME must review a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the treating physician or specialist <strong>no more than 90 days prior </strong>to the AME exam. If the applicant <strong>meets ALL the acceptable certification criteria</strong> listed below, the AME can issue. Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.</p>"
+  },
+  {
+   "type": "table",
+   "page": 444,
+   "header": [
+    "AME MUST REVIEW",
+    "ACCEPTABLE CERTIFICATION CRITERIA"
+   ],
+   "rows": [
+    [
+     "Treating physician finds the condition stable",
+     "[ ] Yes"
+    ],
+    [
+     "Symptoms and signs",
+     "[ ] None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems"
+    ],
+    [
+     "Acceptable medications",
+     "[ ] Levothyroxine sodium (Synthroid, Levothyroid), porcine thyroid (Armour), liothyronine sodium (Cytomel), or liotrix (Thyrolar)"
+    ],
+    [
+     "TSH less than 10 (uIU/mL or mlU/L) within the last one year (10 or higher must be deferred)",
+     "[ ] Yes"
+    ]
+   ],
+   "html": "<table><thead><tr><th>AME MUST REVIEW</th><th>ACCEPTABLE CERTIFICATION CRITERIA</th></tr></thead><tbody><tr><td><p>Treating physician finds the condition stable</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>Symptoms and signs</p></td><td><p>[ ] None of the following: fatigue, mental status impairment, or symptoms related to pulmonary, cardiac, or visual systems</p></td></tr><tr><td><p>Acceptable medications</p></td><td><p>[ ] Levothyroxine sodium (Synthroid, Levothyroid), porcine thyroid (Armour), liothyronine sodium (Cytomel), or liotrix (Thyrolar)</p></td></tr><tr><td><p>TSH <strong>less than 10</strong> (uIU/mL or mlU/L) within the last one year</p>\n<p>(10 or higher must be deferred)</p></td><td><p>[ ] Yes</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "AME MUST NOTE in Block 60 one of the following:",
+   "html": "<p><strong>AME MUST NOTE in Block 60 one of the following: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "[ ] CACI qualified hypothyroidism. (Documents do not need to be submitted to the FAA.)",
+   "html": "<p>[ ] CACI qualified hypothyroidism. (Documents do not need to be submitted to the FAA.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "[ ] Has current OR previous SI/AASI but now CACI qualified hypothyroidism.",
+   "html": "<p>[ ] Has current OR previous SI/AASI but now CACI qualified hypothyroidism.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 444,
+   "text": "[ ] NOT CACI qualified hypothyroidism. I have deferred. (Submit supporting documents.)",
+   "html": "<p>[ ] NOT CACI qualified hypothyroidism. I have deferred. (Submit supporting documents.)</p>"
+  }
+ ]
+}

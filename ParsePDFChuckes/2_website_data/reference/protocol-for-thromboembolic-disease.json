@@ -1,0 +1,65 @@
+{
+ "slug": "protocol-for-thromboembolic-disease",
+ "title": "Protocol for Thromboembolic Disease",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  622
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "(Updated 03/27/2024)",
+   "html": "<p>(Updated 03/27/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "An applicant with a history of thromboembolic disease must submit the following if consideration for medical certification is desired:",
+   "html": "<p>An applicant with a history of thromboembolic disease must submit the following if consideration for medical certification is desired:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "1. Hospital admission and discharge summary",
+   "html": "<p>1. Hospital admission and discharge summary</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "2. Current status report including:",
+   "html": "<p>2. Current status report including:</p>"
+  },
+  {
+   "type": "list",
+   "page": 622,
+   "text": "- Detailed family history of thromboembolic disease;\n- Neoplastic workup, if clinically indicated;\n- Blood clotting disorders (e.g., PT/PTT, Protein S & C, Factor V Leiden); AND\n- If still anticoagulated with warfarin (Jantoven), submit all (no less than monthly) INRs from time of hospital discharge to present",
+   "html": "<ul><li>Detailed family history of thromboembolic disease;</li><li>Neoplastic workup, if clinically indicated;</li><li>Blood clotting disorders (e.g., PT/PTT, Protein S &amp; C, Factor V Leiden); AND</li><li>If still anticoagulated with warfarin (Jantoven), submit all (no less than monthly) INRs from time of hospital discharge to present</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "Warfarin (Jantoven): For applicants who are just beginning warfarin (Jantoven) treatment the following is required:",
+   "html": "<p><strong>Warfarin (Jantoven): </strong>For applicants who are <strong>just beginning warfarin (Jantoven)</strong> treatment the following is required:</p>"
+  },
+  {
+   "type": "list",
+   "page": 622,
+   "text": "- Minimum observation time of 6 weeks after initiation of warfarin therapy;\n- Must also meet any required observation time for the underlying condition; AND\n- 6 INRs, no more frequently than 1 per week",
+   "html": "<ul><li>Minimum observation time of 6 weeks after initiation of warfarin therapy;</li><li>Must also meet any required observation time for the underlying condition; AND</li><li>6 INRs, no more frequently than 1 per week</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 622,
+   "text": "NOAC/DOACs: For applicants who are just beginning treatment the following is required:",
+   "html": "<p><strong>NOAC/DOACs</strong>: For applicants who are just beginning treatment the following is required:</p>"
+  },
+  {
+   "type": "list",
+   "page": 622,
+   "text": "- Minimum observation time of 2 weeks after initiation of therapy; AND\n- Must also meet any required observation time for the underlying condition.",
+   "html": "<ul><li>Minimum observation time of 2 weeks after initiation of therapy; AND</li><li>Must also meet any required observation time for the underlying condition.</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "nephritis",
+ "name": "Nephritis",
+ "subtitle": null,
+ "name_in_guide": "NEPHRITIS",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 97,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current, detailed Clinical Progress Note."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Pyelitis or Pyelonephritis",
+   "condition_html": "<p>Pyelitis or Pyelonephritis</p>",
+   "evaluation_data": "Submit all pertinent medical information and current, detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and c<strong>urrent, detailed Clinical Progress Note.</strong></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current, detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If asymptomatic - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If asymptomatic - <strong>Issue</strong> Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 259,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Pyonephrosis",
+   "condition_html": "<p>Pyonephrosis</p>",
+   "evaluation_data": "Submit all pertinent medical information and current, detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and <strong>current, detailed Clinical Progress Note.</strong></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current, detailed Clinical Progress Note."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 259,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Pyelitis or Pyelonephritis",
+  "Pyonephrosis"
+ ],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   259
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

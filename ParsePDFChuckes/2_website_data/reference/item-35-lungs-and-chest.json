@@ -1,0 +1,190 @@
+{
+ "slug": "item-35-lungs-and-chest",
+ "title": "ITEM 35. Lungs and Chest",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  126,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 126,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "35. Lungs and chest (Not including breast examination)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>35. Lungs and chest (Not including breast examination)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(b)(c), 67.213(b)(c), and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "medical judgment relating to the condition involved, finds -",
+   "html": "<p>medical judgment relating to the condition involved, finds -</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "medical certificate applied for or held, to make the person unable to",
+   "html": "<p>medical certificate applied for or held, to make the person unable to</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "perform those duties or exercise those privileges;",
+   "html": "<p>perform those duties or exercise those privileges;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(c) No medication or other treatment that the Federal Air Surgeon, based on the",
+   "html": "<p>(c) No medication or other treatment that the Federal Air Surgeon, based on the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "case history and appropriate, qualified medical judgment relating to the",
+   "html": "<p>case history and appropriate, qualified medical judgment relating to the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "medication or other treatment involved, finds:",
+   "html": "<p>medication or other treatment involved, finds:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "medical certificate applied for or held, to make the person unable to",
+   "html": "<p>medical certificate applied for or held, to make the person unable to</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "perform those duties or exercise those privileges.",
+   "html": "<p>perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "II. Examination Techniques (Updated 06/26/2024)",
+   "html": "<p><strong>II. Examination Techniques</strong> (Updated 06/26/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "Breast examination is not required unless indicated by past medical history (PMH) or symptoms. It may be performed at the discretion of the examiner and applicant.",
+   "html": "<p>Breast examination is not required unless indicated by past medical history (PMH) or symptoms. It may be performed at the discretion of the examiner and applicant.</p>"
+  },
+  {
+   "type": "list",
+   "page": 126,
+   "text": "- If PMH or symptoms do not warrant examination of these items, the AME should mark “normal” in AMCS and annotate in Item 60 that the exam was not indicated and not performed.",
+   "html": "<ul><li>If PMH or symptoms do not warrant examination of these items, the <strong>AME should mark “normal” in AMCS and annotate in Item 60 that the exam was not indicated and not performed.</strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 126,
+   "text": "- If PMH or symptoms warrant examination of these items, the AME should mark “abnormal” in AMCS and annotate in Item 60 the reason exam was performed and any findings.",
+   "html": "<ul><li>If PMH or symptoms warrant examination of these items, the <strong>AME should mark “abnormal” in AMCS and annotate in Item 60 the reason exam was performed and any findings.</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "III. Aerospace Medical Dispositions",
+   "html": "<p><strong>III. Aerospace Medical Dispositions </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 126,
+   "text": "The following tables list the most common conditions of aeromedical significance and course of action which should be taken by the AME, as defined by any corresponding protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. In most cases, medical documentation must be submitted for these conditions in order to support an issuance of a medical certificate.",
+   "html": "<p>The following tables list the most common conditions of aeromedical significance and course of action which should be taken by the AME, as defined by any corresponding protocol and disposition in the table. Medical certificates must not be issued to an applicant with medical conditions that require deferral, or for any condition not listed in the table that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS. In most cases, medical documentation must be submitted for these conditions in order to support an issuance of a medical certificate.</p>"
+  }
+ ]
+}

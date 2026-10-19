@@ -1,0 +1,111 @@
+{
+ "id": "parkinsons-disease-and-parkinsonism-secondary",
+ "name": "Parkinson's Disease and Parkinsonism (Secondary)",
+ "subtitle": null,
+ "name_in_guide": "PARKINSON'S DISEASE and PARKINSONISM (Secondary)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/22/2023",
+ "order": 140,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include:",
+  "Unified Parkinson's UPDRS-III motor rating scale;",
+  "Medication*: Comment on medications, side effects, and effectiveness of medication or treatment;",
+  "Describe findings if/when an individual misses a dose of medication;",
+  "Must discuss stability of the condition: Fluctuations of motor and cognitive function; dyskinesia, in response to the medication; and what is the pattern of fluctuations throughout the day; and",
+  "Autonomic dysfunction such as blood pressure fluctuation or orthostasis;",
+  "MRI brain (Magnetic Resonance Imaging) performed within the 12 months before the AME exam.",
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "A current Neuropsychological evaluation that meets FAA Specifications",
+  "for Neuropsychological Evaluations for Potential Neurocognitive Impairment , generated from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+  "All Row A evaluation data",
+  "Operative report",
+  "DBS Status Summary"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Parkinson’s Disease or Secondary Parkinsonism Current or historical diagnosis",
+   "condition_html": "<ul><li><strong>A. </strong> Parkinson’s Disease or Secondary Parkinsonism</li></ul>\n<p>Current or historical diagnosis</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include: - Unified Parkinson's UPDRS-III motor rating scale; - Medication*: Comment on medications, side effects, and effectiveness of medication or treatment; - Describe findings if/when an individual misses a dose of medication; - Must discuss stability of the condition: Fluctuations of motor and cognitive function; dyskinesia, in response to the medication; and what is the pattern of fluctuations throughout the day; and - Autonomic dysfunction such as blood pressure fluctuation or orthostasis; *Acceptable Medication(s): The only medication currently acceptable for aeromedical purposes is carbidopa + levodopa (in either long or short acting preparations). - 3. MRI brain (Magnetic Resonance Imaging) performed within the 12 months before the AME exam. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 4. A current Neuropsychological evaluation that meets FAA Specifications - for Neuropsychological Evaluations for Potential Neurocognitive Impairment , generated from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation </strong>that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> , generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. <strong>It must specifically include:</strong></li><li>Unified Parkinson&#x27;s UPDRS-III motor rating scale;</li><li>Medication*: Comment on medications, side effects, and effectiveness of medication or treatment;</li><li>Describe findings if/when an individual misses a dose of medication;</li><li>Must discuss stability of the condition: Fluctuations of motor and cognitive function; dyskinesia, in response to the medication; and what is the pattern of fluctuations throughout the day; and</li><li>Autonomic dysfunction such as blood pressure fluctuation or orthostasis;</li></ul>\n<p><strong>*Acceptable Medication(s)</strong>: The <strong>only</strong> medication currently acceptable for aeromedical purposes is<strong> carbidopa + levodopa</strong> (in either long or short acting preparations).</p>\n<ul><li>3. <strong>MRI brain </strong>(Magnetic Resonance Imaging) performed <strong>within the 12 months before the AME </strong>exam.</li></ul>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li>4. A current <strong>Neuropsychological evaluation </strong>that meets <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications</a></li></ul>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> , generated from a clinic visit with the <strong>treating neuropsychologist no more than 90 days before </strong>the AME exam.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include:",
+    "Unified Parkinson's UPDRS-III motor rating scale;",
+    "Medication*: Comment on medications, side effects, and effectiveness of medication or treatment;",
+    "Describe findings if/when an individual misses a dose of medication;",
+    "Must discuss stability of the condition: Fluctuations of motor and cognitive function; dyskinesia, in response to the medication; and what is the pattern of fluctuations throughout the day; and",
+    "Autonomic dysfunction such as blood pressure fluctuation or orthostasis;",
+    "MRI brain (Magnetic Resonance Imaging) performed within the 12 months before the AME exam.",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "A current Neuropsychological evaluation that meets FAA Specifications",
+    "for Neuropsychological Evaluations for Potential Neurocognitive Impairment , generated from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 350,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Parkinson's Treated with Deep Brain Stimulator (DBS)",
+   "condition_html": "<p><strong>B.</strong> Parkinson&#x27;s</p>\n<p>Treated with</p>\n<p><strong>Deep Brain Stimulator </strong>(DBS)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. All Row A evaluation data - 2. Operative report - 3. DBS Status Summary Note: DBS and lesioning therapy may carry a risk of cognitive impairment and are reviewed on a case-by-case basis.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. All Row A evaluation data</li><li>2. Operative report</li><li><a href=\"https://www.faa.gov/ame_guide/media/DBS_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">3. DBS Status Summary</a></li></ul>\n<p><strong>Note</strong>: DBS and lesioning therapy may carry a risk of cognitive impairment and are reviewed on a case-by-case basis.</p>",
+   "what_to_bring": [
+    "All Row A evaluation data",
+    "Operative report",
+    "DBS Status Summary"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 350,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  },
+  {
+   "text": "3. DBS Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/DBS_Status_Summary.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   350
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

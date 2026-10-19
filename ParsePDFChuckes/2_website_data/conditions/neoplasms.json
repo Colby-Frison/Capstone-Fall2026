@@ -1,0 +1,45 @@
+{
+ "id": "neoplasms",
+ "name": "Neoplasms",
+ "subtitle": null,
+ "name_in_guide": "NEOPLASMS",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 174,
+ "decisions": [],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Also see: G-U System Cancers Kaposi’s Sarcoma Leukemias and Lymphomas Malignant Melanomas Eye Tumors",
+   "condition_html": "<p>Also see:</p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item41/amd/nd/bladder\" target=\"_blank\" rel=\"noopener\">G-U System Cancers</a></p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/cutaneous\" target=\"_blank\" rel=\"noopener\">Kaposi’s Sarcoma</a></p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item45/amd\" target=\"_blank\" rel=\"noopener\">Leukemias and Lymphomas</a></p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item40/amd/malignantmelanoma\" target=\"_blank\" rel=\"noopener\">Malignant Melanomas</a></p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item32/amd\" target=\"_blank\" rel=\"noopener\">Eye Tumors</a></p>",
+   "evaluation_data": "",
+   "evaluation_data_html": "",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 449,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "neoplasms",
+  "section_title": "NEOPLASMS",
+  "pdf_pages": [
+   449
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

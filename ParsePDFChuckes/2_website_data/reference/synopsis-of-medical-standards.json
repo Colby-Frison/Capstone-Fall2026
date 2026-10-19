@@ -1,0 +1,114 @@
+{
+ "slug": "synopsis-of-medical-standards",
+ "title": "SYNOPSIS OF MEDICAL STANDARDS",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  757,
+  758
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 758,
+   "text": "(Updated 12/28/2022)",
+   "html": "<p>(Updated 12/28/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 758,
+   "text": "Applies to SPECIFIC Class of Medical Certificate",
+   "html": "<p>Applies to <strong>SPECIFIC</strong> Class of Medical Certificate</p>"
+  },
+  {
+   "type": "table",
+   "page": 758,
+   "header": [
+    "",
+    "First-Class Airline Transport Pilot",
+    "Second-Class Commercial Pilot",
+    "Third-Class Private Pilot"
+   ],
+   "rows": [
+    [
+     "DISTANT VISION",
+     "20/20 or better in each eye separately, with or without correction.",
+     "Same as First Class",
+     "20/40 or better in each eye separately, with or without correction."
+    ],
+    [
+     "INTERMEDIATE VISION",
+     "20/40 or better in each eye separately (Snellen equivalent), with or without correction at age 50 and over, as measured at 32 inches.",
+     "Same as First Class",
+     "No requirement."
+    ],
+    [
+     "ELECTRO-CARDIOGRAM (ECG)",
+     "At age 35 and annually after age 40",
+     "Not routinely required.",
+     "Not routinely required."
+    ]
+   ],
+   "html": "<table><thead><tr><th></th><th>First-Class Airline Transport Pilot</th><th>Second-Class Commercial Pilot</th><th>Third-Class Private Pilot</th></tr></thead><tbody><tr><td><p>DISTANT VISION</p></td><td><p>20/20 or better in each eye separately, with or without correction.</p></td><td><p>Same as First Class</p></td><td><p>20/40 or better in each eye separately, with or without correction.</p></td></tr><tr><td><p>INTERMEDIATE VISION</p></td><td><p>20/40 or better in each eye separately (Snellen equivalent), with or without correction at age 50 and over, as measured at 32 inches.</p></td><td><p>Same as First Class</p></td><td><p>No requirement.</p></td></tr><tr><td><p>ELECTRO-CARDIOGRAM (ECG)</p></td><td><p>At age 35 and annually after age 40</p></td><td><p>Not routinely required.</p></td><td><p>Not routinely required.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 758,
+   "text": "Applies to ALL CLASSES of Medical Certificate",
+   "html": "<p>Applies to <strong>ALL CLASSES</strong> of Medical Certificate</p>"
+  },
+  {
+   "type": "table",
+   "page": 758,
+   "header": [
+    "NEAR VISION",
+    "20/40 or better in each eye separately (Snellen equivalent), with or without correction, as measured at 16 inches."
+   ],
+   "rows": [
+    [
+     "COLOR VISION",
+     "Ability to perceive those colors necessary for safe performance of airman duties."
+    ],
+    [
+     "HEARING",
+     "Demonstrate hearing of an average conversational voice in a quiet room, using both ears at 6 feet, with the back turned to the AME OR pass one of the audiometric tests below."
+    ],
+    [
+     "AUDIOLOGY",
+     "Audiometric speech discrimination test: Score at least 70% reception in one ear at an intensity of no greater than 65 dB. Pure tone audiometric test. Unaided, with thresholds no worse than listed below: Ear Condition 500 Hz 1,000 Hz 2,000 Hz 3,000 Hz Better Ear 35 dB 30 dB 30 dB 40 dB Worst Ear 35 dB 50 dB 50 dB 60 dB"
+    ],
+    [
+     "ENT",
+     "No ear disease or condition manifested by, or that may reasonably be expected to be maintained by, vertigo or a disturbance of speech or equilibrium."
+    ],
+    [
+     "PULSE",
+     "Not disqualifying per se. Used to determine cardiac system status and responsiveness."
+    ],
+    [
+     "BLOOD PRESSURE",
+     "No specified values stated in the standards. The current guideline maximum value is 155/95."
+    ],
+    [
+     "MENTAL",
+     "No diagnosis of psychosis, or bipolar disorder, or severe personality disorders."
+    ],
+    [
+     "SUBSTANCE DEPENDENCE AND SUBSTANCE ABUSE",
+     "A diagnosis or medical history of \"substance dependence\" is disqualifying unless there is established clinical evidence, satisfactory to the Federal Air Surgeon, of recovery, including sustained total abstinence from the substance(s) for not less than the preceding 2 years. A history of \"substance abuse\" within the preceding 2 years is disqualifying. \"Substance\" includes alcohol and other drugs (i.e., PCP, sedatives and hypnotics, anxiolytics, marijuana, cocaine, opioids, amphetamines, hallucinogens, and other psychoactive drugs or chemicals)."
+    ],
+    [
+     "DISQUALIFYING CONDITIONS",
+     "Unless otherwise directed by the FAA, the AME must deny or defer if the applicant has a history of: (1) Diabetes mellitus requiring hypoglycemic medication; (2) Angina pectoris; (3) Coronary heart disease (CHD) that has been treated or, if untreated, that has been symptomatic or clinically significant; (4) Myocardial infarction; (5) Cardiac valve replacement; (6) Permanent cardiac pacemaker; (7) Heart replacement; (8) Psychosis; (9) Bipolar disorder; (10) Personality disorder that is severe enough to have repeatedly manifested itself by overt acts; (11) Substance dependence; (12) Substance abuse; (13) Epilepsy; (14) Disturbance of consciousness and without satisfactory explanation of cause, and (15) Transient loss of control of nervous system function(s) without satisfactory explanation of cause."
+    ]
+   ],
+   "html": "<table><thead><tr><th>NEAR VISION</th><th>20/40 or better in each eye separately (Snellen equivalent), with or without correction, as measured at 16 inches.</th></tr></thead><tbody><tr><td><p>COLOR VISION</p></td><td><p>Ability to perceive those colors necessary for safe performance of airman duties.</p></td></tr><tr><td><p>HEARING</p></td><td><p>Demonstrate hearing of an average conversational voice in a quiet room, using both ears at 6 feet, with the back turned to the AME OR pass one of the audiometric tests below.</p></td></tr><tr><td><p>AUDIOLOGY</p></td><td><p>Audiometric speech discrimination test: Score at least 70% reception in one ear at an intensity of no greater than 65 dB. Pure tone audiometric test. Unaided, with thresholds no worse than listed below:</p>\n<p><strong>Ear Condition 500 Hz 1,000 Hz 2,000 Hz 3,000 Hz </strong></p>\n<p><strong>Better Ear </strong> 35 dB 30 dB 30 dB 40 dB</p>\n<p><strong>Worst Ear </strong> 35 dB 50 dB 50 dB 60 dB</p></td></tr><tr><td><p>ENT</p></td><td><p>No ear disease or condition manifested by, or that may reasonably be expected to be maintained by, vertigo or a disturbance of speech or equilibrium.</p></td></tr><tr><td><p>PULSE</p></td><td><p>Not disqualifying per se. Used to determine cardiac system status and responsiveness.</p></td></tr><tr><td><p>BLOOD PRESSURE</p></td><td><p>No specified values stated in the standards. The current guideline maximum value is 155/95.</p></td></tr><tr><td><p>MENTAL</p></td><td><p>No diagnosis of psychosis, or bipolar disorder, or severe personality disorders.</p></td></tr><tr><td><p>SUBSTANCE DEPENDENCE AND SUBSTANCE ABUSE</p></td><td><p>A diagnosis or medical history of &quot;substance dependence&quot; is disqualifying unless there is established clinical evidence, satisfactory to the Federal Air Surgeon, of recovery, including sustained total abstinence from the substance(s) for not less than the preceding 2 years. A history of &quot;substance abuse&quot; within the preceding 2 years is disqualifying. &quot;Substance&quot; includes alcohol and other drugs (i.e., PCP, sedatives and hypnotics, anxiolytics, marijuana, cocaine, opioids, amphetamines, hallucinogens, and other psychoactive drugs or chemicals).</p></td></tr><tr><td><p>DISQUALIFYING CONDITIONS</p></td><td><p>Unless otherwise directed by the FAA, the AME must deny or defer if the applicant has a history of: (1) Diabetes mellitus requiring hypoglycemic medication; (2) Angina pectoris; (3) Coronary heart disease (CHD) that has been treated or, if untreated, that has been symptomatic or clinically significant; (4) Myocardial infarction; (5) Cardiac valve replacement; (6) Permanent cardiac pacemaker; (7) Heart replacement; (8) Psychosis; (9) Bipolar disorder; (10) Personality disorder that is severe enough to have repeatedly manifested itself by overt acts; (11) Substance dependence; (12) Substance abuse; (13) Epilepsy; (14) Disturbance of consciousness and without satisfactory explanation of cause, and (15) Transient loss of control of nervous system function(s) without satisfactory explanation of cause.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 758,
+   "text": "NOTE: For further information on Medical Standards, contact your Regional Flight Surgeon.",
+   "html": "<p><strong> NOTE:</strong> For further information on Medical Standards, contact your Regional Flight Surgeon.</p>"
+  }
+ ]
+}

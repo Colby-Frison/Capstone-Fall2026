@@ -1,0 +1,54 @@
+{
+ "id": "prostate-conditions",
+ "name": "Prostate Conditions",
+ "subtitle": null,
+ "name_in_guide": "PROSTATE CONDITIONS",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2015",
+ "order": 92,
+ "decisions": [
+  "issue"
+ ],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Benign Prostatic Hypertrophy (BPH) or elevated PSA DISEASE/CONDITION",
+   "condition_html": "<p><strong>Benign Prostatic Hypertrophy (BPH) or elevated PSA DISEASE/CONDITION</strong></p>",
+   "evaluation_data": "If the airman has findings consistent with uncomplicated BPH with no evidence of prostate cancer:",
+   "evaluation_data_html": "<p>If the airman has findings consistent with uncomplicated BPH with no evidence of prostate cancer:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history in Block 60</p>",
+   "pdf_page": 252,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Note: See <a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals section</a> for a list of medications usually allowed.</p>",
+ "links": [
+  {
+   "text": "Pharmaceuticals section",
+   "href": "https://www.faa.gov/ame_guide/pharm/antihyp/"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   252
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

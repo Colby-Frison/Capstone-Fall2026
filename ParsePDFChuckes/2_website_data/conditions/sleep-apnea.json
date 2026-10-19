@@ -1,0 +1,90 @@
+{
+ "id": "sleep-apnea",
+ "name": "Sleep Apnea",
+ "subtitle": null,
+ "name_in_guide": "SLEEP APNEA",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/27/2026",
+ "order": 45,
+ "decisions": [
+  "issue",
+  "special_issuance",
+  "faa_decision",
+  "aasi"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report. Include sleep study with a polysomnogram, use of medications and titration study results, along with a statement regarding Restless Leg Syndrome."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Obstructive Sleep Apnea",
+   "condition_html": "<p>Obstructive Sleep Apnea</p>",
+   "evaluation_data": "Requires risk evaluation, per OSA Protocol. Document history and Findings.",
+   "evaluation_data_html": "<p>Requires risk evaluation, per <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa/\" target=\"_blank\" rel=\"noopener\">OSA Protocol.</a> Document history and Findings.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "If meets OSA Criteria – Issue, if otherwise qualified Initial Special Issuance - Requires FAA Decision Follow-up Special Issuance See AASI",
+   "disposition_html": "<p>If meets <a href=\"https://www.faa.gov/ame_guide/media/FAA_OSA_Flow_Chart.pdf\" target=\"_blank\" rel=\"noopener\">OSA Criteria</a> – Issue, if otherwise qualified</p>\n<p><strong>Initial Special Issuance</strong> - Requires FAA Decision</p>\n<p><strong>Follow-up Special Issuance </strong></p>\n<p>See <a href=\"https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf\" target=\"_blank\" rel=\"noopener\">AASI</a></p>",
+   "pdf_page": 144,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Periodic Limb Movement, etc.",
+   "condition_html": "<p>Periodic Limb Movement, etc.</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report. Include sleep study with a polysomnogram, use of medications and titration study results, along with a statement regarding Restless Leg Syndrome.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report. Include sleep study with a polysomnogram, use of medications and titration study results, along with a statement regarding Restless Leg Syndrome.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report. Include sleep study with a polysomnogram, use of medications and titration study results, along with a statement regarding Restless Leg Syndrome."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 144,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "OSA Protocol.",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa/"
+  },
+  {
+   "text": "OSA Criteria",
+   "href": "https://www.faa.gov/ame_guide/media/FAA_OSA_Flow_Chart.pdf"
+  },
+  {
+   "text": "AASI",
+   "href": "https://www.faa.gov/ame_guide/media/AASI_Sleep_Apnea_OSA.pdf"
+  }
+ ],
+ "aliases": [
+  "Obstructive Sleep Apnea",
+  "Periodic Limb Movement, etc."
+ ],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   144
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

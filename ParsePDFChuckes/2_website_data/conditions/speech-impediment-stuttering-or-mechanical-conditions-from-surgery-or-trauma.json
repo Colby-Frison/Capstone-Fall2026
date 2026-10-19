@@ -1,0 +1,100 @@
+{
+ "id": "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma",
+ "name": "Speech Impediment, Stuttering, or Mechanical Conditions (from surgery or trauma)",
+ "subtitle": null,
+ "name_in_guide": "SPEECH IMPEDIMENT, STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)",
+ "category": {
+  "id": "mouth-and-throat",
+  "name": "Mouth and Throat",
+  "exam_item": "28",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/28/2024",
+ "order": 6,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Communication needed for flight (emergency procedures;",
+  "Effective communication with air traffic control; and",
+  "Crew-cockpit communication).",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include:",
+  "Detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment;",
+  "Plan (prognosis); and",
+  "Follow-up.",
+  "It must specifically include the cause for stuttering and the intelligible their speech is.",
+  "Speech Fluency/Intelligibility test for those with mechanical problems;",
+  "Any testing deemed necessary or already performed by the treating provider."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Resolved OR Does not impair voice communication.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Resolved</p>\n<p>OR</p>\n<p>Does not impair voice communication.</p>",
+   "evaluation_data": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: - Communication needed for flight (emergency procedures; - Effective communication with air traffic control; and - Crew-cockpit communication).",
+   "evaluation_data_html": "<p>If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties:</p>\n<ul><li>Communication needed for flight (emergency procedures;</li><li>Effective communication with air traffic control; and</li><li>Crew-cockpit communication).</li></ul>",
+   "what_to_bring": [
+    "Communication needed for flight (emergency procedures;",
+    "Effective communication with air traffic control; and",
+    "Crew-cockpit communication)."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p>ISSUE</p>\n<p><strong>Annotate</strong> this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 70,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Condition, including stuttering, that would impair voice communication",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Condition, including stuttering, that would impair voice communication</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include: - Detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment; - Plan (prognosis); and - Follow-up. - 2. It must specifically include the cause for stuttering and the intelligible their speech is. - Stuttering Severity Index for those who stutter; - Speech Fluency/Intelligibility test for those with mechanical problems; - 3. Any testing deemed necessary or already performed by the treating provider. The speech-language pathologist or AME should describe any functional limitations that could affect the pilot's ability to operate aircraft controls or communicate with other pilots or ATCS.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed <strong>Clinical Progress Note</strong> generated from a clinic visit with a <strong>speech-language pathologist</strong> no more than 90 days before the AME exam. It must include:</li><li>Detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment;</li><li>Plan (prognosis); and</li><li>Follow-up.</li><li>2. <strong>It must specifically include </strong>the cause for stuttering and the intelligible their speech is.<ul><li><strong>Stuttering Severity Index for those who stutter;</strong></li><li><strong>Speech Fluency/Intelligibility test for those with mechanical problems;</strong></li></ul></li><li>3. Any testing deemed necessary or already performed by the treating provider.</li></ul>\n<p>The speech-language pathologist or AME should describe any functional limitations that could affect the pilot&#x27;s ability to operate aircraft controls or communicate with other pilots or ATCS.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a speech-language pathologist no more than 90 days before the AME exam. It must include:",
+    "Detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment;",
+    "Plan (prognosis); and",
+    "Follow-up.",
+    "It must specifically include the cause for stuttering and the intelligible their speech is.",
+    "Speech Fluency/Intelligibility test for those with mechanical problems;",
+    "Any testing deemed necessary or already performed by the treating provider."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER AME should comment on how well they can communicate. Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p><strong> AME should comment on how well they can communicate.</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 70,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-28-mouth-and-throat",
+  "section_title": "ITEM 28. Mouth and Throat",
+  "pdf_pages": [
+   70
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

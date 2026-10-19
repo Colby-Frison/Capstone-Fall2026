@@ -1,0 +1,155 @@
+{
+ "slug": "item-51-a-near-vision-item-51-b-intermediate-vision",
+ "title": "ITEM 51.a. Near Vision / ITEM 51.b. Intermediate Vision",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  471,
+  472,
+  473
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "Visual Acuity Standards:",
+   "html": "<p><strong>Visual Acuity Standards</strong>:</p>"
+  },
+  {
+   "type": "list",
+   "page": 471,
+   "text": "- As listed below or better;\n- Each eye separately;\n- Snellen equivalent; and\n- With or without correction. If correction is used, it should be noted, and the correct limitation applied.",
+   "html": "<ul><li>As listed below or better;</li><li>Each eye separately;</li><li>Snellen equivalent; and</li><li>With or without correction. If correction is used, it should be noted, and the correct limitation applied.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 471,
+   "header": [
+    "",
+    "First or Second Class",
+    "Third Class"
+   ],
+   "rows": [
+    [
+     "Near Vision Measured at 16 inches",
+     "20/40",
+     "20/40"
+    ],
+    [
+     "Intermediate Vision Measured at 32 inches; Age 50 and over only",
+     "20/40",
+     "No requirement"
+    ]
+   ],
+   "html": "<table><thead><tr><th></th><th>First or Second Class</th><th>Third Class</th></tr></thead><tbody><tr><td><p><strong>Near Vision </strong></p>\n<p>Measured at 16 inches</p></td><td><p>20/40</p></td><td><p>20/40</p></td></tr><tr><td><p><strong>Intermediate Vision </strong></p>\n<p>Measured at 32 inches;</p>\n<p>Age 50 and over only</p></td><td><p>20/40</p></td><td><p>No requirement</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "First- and Second Classes: 14 CFR 67.103(b) and 67.203(b)",
+   "html": "<p><strong>First- and Second Classes: 14 CFR 67.103(b) and 67.203(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "(b) Near vision of 20/40 or better, Snellen equivalent, at 16 inches in each eye separately, with or without corrective lenses. If age 50 or older: Near vision of 20/40 or better, Snellen equivalent, at both 16 inches and 32 inches in each eye separately, with or without corrective lenses.",
+   "html": "<p>(b) Near vision of 20/40 or better, Snellen equivalent, at 16 inches in each eye separately, with or without corrective lenses. If age 50 or older: Near vision of 20/40 or better, Snellen equivalent, at both 16 inches <strong>and</strong> 32 inches in each eye separately, with or without corrective lenses.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "Third-Class: 14 CFR 67.303(b)",
+   "html": "<p><strong>Third-Class: 14 CFR 67.303(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "(b) Near vision of 20/40 or better, Snellen equivalent, at 16 inches in each eye separately, with or without corrective lenses.",
+   "html": "<p>(b) Near vision of 20/40 or better, Snellen equivalent, at 16 inches in each eye separately, with or without corrective lenses.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "II. Equipment and Examination Techniques",
+   "html": "<p><strong>II. Equipment and Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "Note: If correction is required to meet standards, only corrected visual acuity needs to be tested and recorded and the vision limitation must be applied.",
+   "html": "<p><strong>Note: </strong>If correction is required to meet standards, only corrected visual acuity needs to be tested and recorded and the vision limitation must be applied.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 471,
+   "text": "Equipment:",
+   "html": "<p><strong>Equipment: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 471,
+   "text": "- 1. FAA Form 8500-1, Near Vision Acuity Test Chart, dated April 1993.",
+   "html": "<ul><li>1. FAA Form 8500-1, Near Vision Acuity Test Chart, dated April 1993.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 471,
+   "text": "- 2. For testing near at 16 inches and intermediate at 32 inches, acceptable substitutes: Any commercially available visual acuities and heterophoria testing devices. For testing of intermediate vision, some equipment may require additional apparatus.",
+   "html": "<ul><li>2. For testing near at 16 inches and intermediate at 32 inches, acceptable substitutes: Any commercially available visual acuities and heterophoria testing devices. For testing of intermediate vision, some equipment may require additional apparatus.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 472,
+   "text": "Examination Techniques:",
+   "html": "<p><strong>Examination Techniques: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 472,
+   "text": "- 1. Near visual acuity and intermediate visual acuity, if the latter is required, are determined for each eye separately and for both eyes together. If the applicant needs glasses to meet visual acuity standards, the findings are recorded, and the certificate appropriately limited. If an applicant has no lenses that bring intermediate and/or near visual acuity to the required standards, or better, in each eye, no certificate may be issued. Refer the applicant to an eye specialist for appropriate visual evaluation and correction.\n- 2. FAA Form 8500-1, Near Vision Acuity Test Chart, dated April 1993, should be used as follows:\n- a. The examination is conducted in a well-lighted room with the source of light behind the applicant.\n- b. The applicant holds the chart 16 inches (near) and 32 inches (intermediate) from the eyes in a position that will provide uniform illumination. To ensure that the chart is held at exactly 16 inches or 32 inches from the eyes, a string of that length may be attached to the chart.\n- c. Each eye is tested separately, with the other eye covered. Both eyes are then tested together.\n- d. The smallest type correctly read with each eye separately and both eyes together is recorded in linear value. In performing the test using FAA Form 8500-1, the level of visual acuity will be recorded as the line of smallest type the applicant reads accurately. The applicant should be allowed no more than two misread letters on any line.\n- e. Common errors:\n- 1. Inadequate illumination of the test chart.\n- 2. Failure to hold the chart the specified distance from the eye.\n- 3. Failure to ensure that the untested eye is covered.\n- f. Practical Test. The bottom of FAA Form 8500-1 has a section for Aeronautical Chart Reading. Letter types and charts are reproduced from aeronautical charts in their actual size. This may be used when a borderline condition exists at the certifiable limits of an applicant's vision. If successfully completed, a favorable certification action may be taken.",
+   "html": "<ul><li>1. Near visual acuity and intermediate visual acuity, if the latter is required, are determined for each eye separately and for both eyes together. If the applicant needs glasses to meet visual acuity standards, the findings are recorded, and the certificate appropriately limited. If an applicant has no lenses that bring intermediate and/or near visual acuity to the required standards, or better, in each eye, no certificate may be issued. Refer the applicant to an eye specialist for appropriate visual evaluation and correction.</li><li>2. FAA Form 8500-1, Near Vision Acuity Test Chart, dated April 1993, should be used as follows:</li><li>a. The examination is conducted in a well-lighted room with the source of light behind the applicant.</li><li>b. The applicant holds the chart 16 inches (near) and 32 inches (intermediate) from the eyes in a position that will provide uniform illumination. To ensure that the chart is held at exactly 16 inches or 32 inches from the eyes, a string of that length may be attached to the chart.</li><li>c. Each eye is tested separately, with the other eye covered. Both eyes are then tested together.</li><li>d. The smallest type correctly read with each eye separately and both eyes together is recorded in linear value. In performing the test using FAA Form 8500-1, the level of visual acuity will be recorded as the line of smallest type the applicant reads accurately. The applicant should be allowed no more than two misread letters on any line.</li><li>e. Common errors:</li><li>1. Inadequate illumination of the test chart.</li><li>2. Failure to hold the chart the specified distance from the eye.</li><li>3. Failure to ensure that the untested eye is covered.</li><li>f. Practical Test. The bottom of FAA Form 8500-1 has a section for Aeronautical Chart Reading. Letter types and charts are reproduced from aeronautical charts in their actual size. This may be used when a borderline condition exists at the certifiable limits of an applicant&#x27;s vision. If successfully completed, a favorable certification action may be taken.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 472,
+   "text": "- 3. Acceptable substitute equipment may be used. Directions furnished by the manufacturer or distributor should be followed when using the acceptable substitute devices for the above testing.",
+   "html": "<ul><li>3. Acceptable substitute equipment may be used. Directions furnished by the manufacturer or distributor should be followed when using the acceptable substitute devices for the above testing.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 472,
+   "text": "III. Aerospace Medical Disposition (Updated 12/28/2022)",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong>(Updated 12/28/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "For any class of medical certificate, when corrective lenses are required to meet any part or combination of visual acuity standards, the AME must add the following limitation to the medical certificate:",
+   "html": "<p>For any class of medical certificate, when corrective lenses are required to meet any part or combination of visual acuity standards, the AME must add the following limitation to the medical certificate:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "Must Use Corrective Lens(es) to meet vision standards at all required distances",
+   "html": "<p><strong>Must Use Corrective Lens(es) to meet vision standards at all required distances</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "Note: As of 12/28/2022 the single, simplified visual acuity limitation replaces previous visual acuity limitations.",
+   "html": "<p><strong>Note:</strong> As of 12/28/2022 the single, simplified visual acuity limitation replaces previous visual acuity limitations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "Contact lenses that correct only for near or intermediate visual acuity are not acceptable for aviation duties.",
+   "html": "<p><strong>Contact lenses</strong> that correct <strong>only</strong> for near or intermediate visual acuity are not acceptable for aviation duties.</p>"
+  }
+ ]
+}

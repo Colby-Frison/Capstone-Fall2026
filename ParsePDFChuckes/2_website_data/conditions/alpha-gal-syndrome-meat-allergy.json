@@ -1,0 +1,89 @@
+{
+ "id": "alpha-gal-syndrome-meat-allergy",
+ "name": "Alpha-Gal Syndrome (meat allergy)",
+ "subtitle": null,
+ "name_in_guide": "ALPHA-GAL SYNDROME (meat allergy)",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 37,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the Allergist, Gastroenterologist, or treating physician no more than 90 days before the AME exam. It must include:",
+  "It must specifically include the severity and frequency of the reaction(s) or symptoms as well as the likelihood of them reoccurring.",
+  "Lab. Results of alpha-gal IgE level or any testing clinically indicated."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "History of mild reactions (e.g., hives, swelling, nausea) Symptoms resolved with dietary modification",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>History of mild reactions (e.g., hives, swelling, nausea)</p>\n<p>Symptoms resolved with dietary modification</p>",
+   "evaluation_data": "If the AME can determine the condition is under control, and no symptoms that would interfere with flight or safety-related duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control, and no symptoms that would interfere with flight or safety-related duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 129,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "- History of a severe reaction (e.g., angioedema, anaphylaxis, presyncope, or syncope) - Symptomatic",
+   "condition_html": "<p><strong>B.</strong></p>\n<ul><li>History of a severe reaction (e.g., angioedema, anaphylaxis, presyncope, or syncope)</li></ul>\n<ul><li>Symptomatic</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the Allergist, Gastroenterologist, or treating physician no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. It must specifically include the severity and frequency of the reaction(s) or symptoms as well as the likelihood of them reoccurring. 3. Lab. Results of alpha-gal IgE level or any testing clinically indicated.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A current, detailed Clinical Progress Note generated from a clinic visit with the <strong>Allergist, Gastroenterologist, or</strong> treating physician no more than <strong>90 days</strong> before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. It must specifically include the severity and frequency of the reaction(s) or symptoms as well as the likelihood of them reoccurring.</p>\n<p>3. <strong>Lab.</strong> Results of alpha-gal IgE level or any testing clinically indicated.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the Allergist, Gastroenterologist, or treating physician no more than 90 days before the AME exam. It must include:",
+    "It must specifically include the severity and frequency of the reaction(s) or symptoms as well as the likelihood of them reoccurring.",
+    "Lab. Results of alpha-gal IgE level or any testing clinically indicated."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 129,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   129
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

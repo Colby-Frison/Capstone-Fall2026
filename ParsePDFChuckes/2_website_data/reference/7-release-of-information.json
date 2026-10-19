@@ -1,0 +1,65 @@
+{
+ "slug": "7-release-of-information",
+ "title": "7. Release of Information",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  20
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Except in compliance with an order of a court of competent jurisdiction, or upon an applicant's written request, AMEs will not divulge or release copies of any reports prepared in connection with the examination to anyone other than the applicant or the FAA. A copy of the examination may be released to the applicant upon request. (See: Request for Airman Medical Records Form 8065-2 ).",
+   "html": "<p>Except in compliance with an order of a court of competent jurisdiction, or upon an applicant&#x27;s written request, AMEs will not divulge or release copies of any reports prepared in connection with the examination to anyone other than the applicant or the FAA. A copy of the examination may be released to the applicant upon request. (See: <a href=\"https://www.faa.gov/forms/index.cfm/go/document.information/documentID/181396\" target=\"_blank\" rel=\"noopener\">Request for Airman Medical Records Form 8065-2</a> ).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "If a court order or subpoena is received by the AME, see the Subpoena for Medical Records or Testimony: AME Guidance.",
+   "html": "<p>If a court order or subpoena is received by the AME, see the Subpoena for Medical Records or Testimony: AME Guidance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Other requests for information will be referred to:",
+   "html": "<p>Other requests for information will be referred to:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "MANAGER Federal Aviation Administration",
+   "html": "<p>MANAGER Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Aerospace Medical Certification Division, AAM-300",
+   "html": "<p>Aerospace Medical Certification Division, AAM-300</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "PO Box 25082",
+   "html": "<p>PO Box 25082</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Oklahoma City, OK 73125-9867",
+   "html": "<p>Oklahoma City, OK 73125-9867</p>"
+  }
+ ]
+}

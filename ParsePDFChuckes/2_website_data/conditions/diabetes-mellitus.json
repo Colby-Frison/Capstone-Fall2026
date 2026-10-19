@@ -1,0 +1,111 @@
+{
+ "id": "diabetes-mellitus",
+ "name": "Diabetes Mellitus",
+ "subtitle": null,
+ "name_in_guide": "DIABETES MELLITUS",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/27/2023",
+ "order": 161,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance",
+  "faa_decision"
+ ],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Diet Controlled/In Remission or treated with lifestyle intervention",
+   "condition_html": "<p><strong>A.</strong></p>\n<p>Diet Controlled/In Remission</p>\n<p>or treated with lifestyle intervention</p>",
+   "evaluation_data": "See Diabetes Mellitus – Diet Controlled Protocol",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_diet\" target=\"_blank\" rel=\"noopener\">Diabetes Mellitus – Diet Controlled Protocol</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history, annotate Block 60",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this history, annotate Block 60</p>",
+   "pdf_page": 426,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Treated with one or more (non-insulin) diabetic medications",
+   "condition_html": "<p><strong>B.</strong></p>\n<p>Treated with one or more (non-insulin) diabetic medications</p>",
+   "evaluation_data": "See: Protocol for Diabetes Mellitus Treated with Any Medication Other Than Insulin For acceptable medication and wait times, see Acceptable Combinations of Diabetes Medications .",
+   "evaluation_data_html": "<p>See: Protocol for <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med\" target=\"_blank\" rel=\"noopener\">Diabetes Mellitus Treated with Any Medication Other Than Insulin</a> For acceptable medication and wait times, see <a href=\"https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/diabetesmeds_acceptablecomb.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Combinations of Diabetes Medications</a> .</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance",
+    "faa_decision"
+   ],
+   "disposition": "DEFER Submit the information to the FAA. Initial Special Issuance – Requires FAA Decision Follow up Special Issuances - See Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA.</p>\n<p><strong>Initial Special Issuance</strong> – Requires FAA Decision Follow up Special Issuances - See <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes\" target=\"_blank\" rel=\"noopener\">Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)</a></p>",
+   "pdf_page": 426,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Treated with ANY type of insulin",
+   "condition_html": "<p><strong>C.</strong></p>\n<p>Treated with <strong>ANY</strong> type of insulin</p>",
+   "evaluation_data": "1st and 2nd class must use: Diabetes Mellitus Type I or Type II - Insulin Treated - CGM Option Protocol 3rd class may use the CGM protocol above OR the Insulin-Treated Diabetes Mellitus Non CGM – Third Class Option Protocol",
+   "evaluation_data_html": "<p><strong>1st and 2nd</strong> class must use:</p>\n<p><a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm\" target=\"_blank\" rel=\"noopener\">Diabetes Mellitus Type I or Type II - Insulin Treated - CGM Option Protocol</a></p>\n<p><strong>3rd class </strong>may use the CGM protocol above OR the</p>\n<p><a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin\" target=\"_blank\" rel=\"noopener\">Insulin-Treated Diabetes Mellitus Non CGM – Third Class Option Protocol</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance",
+    "faa_decision"
+   ],
+   "disposition": "DEFER Submit the information to the FAA. Initial Special Issuance – Requires FAA Decision",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA.</p>\n<p><strong>Initial Special Issuance</strong> – Requires FAA Decision</p>",
+   "pdf_page": 426,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Diabetes Mellitus – Diet Controlled Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_diet"
+  },
+  {
+   "text": "Diabetes Mellitus Treated with Any Medication Other Than Insulin",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_med"
+  },
+  {
+   "text": "Acceptable Combinations of Diabetes Medications",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/diabetesmeds_acceptablecomb.pdf"
+  },
+  {
+   "text": "Diabetes Mellitus - Type II, Medication Controlled (Not Insulin)",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/diabetes"
+  },
+  {
+   "text": "Diabetes Mellitus Type I or Type II - Insulin Treated - CGM Option Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/itdm"
+  },
+  {
+   "text": "Insulin-Treated Diabetes Mellitus Non CGM – Third Class Option Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "diabetes-mellitus",
+  "section_title": "DIABETES MELLITUS",
+  "pdf_pages": [
+   426
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

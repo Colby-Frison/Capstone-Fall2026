@@ -1,0 +1,77 @@
+{
+ "slug": "protocol-for-bundle-branch-block-bbb",
+ "title": "Protocol for Bundle Branch Block (BBB)",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  523
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 523,
+   "text": "(Updated 05/29/2024)",
+   "html": "<p>(Updated 05/29/2024)</p>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- A. PREVIOUSLY DOCUMENTED AND EVALUATED: No further evaluation required unless there is a change in condition.",
+   "html": "<ul><li><strong>A. PREVIOUSLY DOCUMENTED AND EVALUATED: </strong>No further evaluation required unless there is a change in condition.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- B. RIGHT (RBBB): If a complete RBBB is identified at:",
+   "html": "<ul><li><strong>B. RIGHT (RBBB):</strong> If a complete RBBB is identified at:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- Age 35* or younger - If otherwise healthy, will usually not require a Cardiovascular Evaluation (CVE) (unless there is some other indication). Annotate Block 60.",
+   "html": "<ul><li><strong>Age 35* or younger -</strong> If otherwise healthy, will usually not require a <a href=\"https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf\" target=\"_blank\" rel=\"noopener\">Cardiovascular Evaluation (CVE)</a> (unless there is some other indication). Annotate Block 60.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- Age 36 or older (or other indication) - Will require a cardiac evaluation to include:\n- CVE = Narrative + lab (hemoglobin A1c + Lipid Panel)\n- Stress echo",
+   "html": "<ul><li><strong>Age 36 or older </strong>(or other indication) - Will require a cardiac evaluation to include:</li><li><a href=\"https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf\" target=\"_blank\" rel=\"noopener\"> CVE</a> = Narrative + lab (hemoglobin A1c + Lipid Panel)</li><li> Stress echo</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- C. LEFT (LBBB): A LBBB in a person of any age will require a cardiac evaluation to include:\n- CVE = Narrative + lab (hemoglobin A1c + Lipid Panel)\n- Pharmaceutical radionuclide perfusion study",
+   "html": "<ul><li><strong>C. LEFT (LBBB): </strong>A LBBB in a person of any age will require a cardiac evaluation to include:</li><li><a href=\"https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf\" target=\"_blank\" rel=\"noopener\"> CVE</a> = Narrative + lab (hemoglobin A1c + Lipid Panel)</li><li> Pharmaceutical radionuclide perfusion study</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 523,
+   "text": "Note: The exercise radionuclide stress test can often show a false-positive reversible septal defect due to the wall motion abnormality associated with the LBBB. Specifically, according to the current literature, approximately 40% of individuals with LBBB will demonstrate a false positive radionuclide reperfusion defect in the septal area.",
+   "html": "<p>Note: The exercise radionuclide stress test can often show a false-positive reversible septal defect due to the wall motion abnormality associated with the LBBB. Specifically, according to the current literature, approximately 40% of individuals with LBBB will demonstrate a false positive radionuclide reperfusion defect in the septal area.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 523,
+   "text": "AME ACTIONS:",
+   "html": "<p><strong>AME ACTIONS: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- Individuals with a negative work-up may be issued the appropriate class of medical certificate with notes in Item 60 and submission of evaluation documents for retention in the file. No follow-up is required. If any future changes occur, a new current CVE may be required.",
+   "html": "<ul><li>Individuals with a negative work-up may be issued the appropriate class of medical certificate with <strong>notes in Item 60 and submission of evaluation documents for retention in the file</strong>. No follow-up is required. If any future changes occur, a new current CVE may be required.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 523,
+   "text": "- If areas of ischemia are noted, a coronary angiogram will usually be indicated for definitive diagnosis. If significant CAD is diagnosed, refer to Special Issuance guidelines.",
+   "html": "<ul><li>If areas of ischemia are noted, a coronary angiogram will usually be indicated for definitive diagnosis. If significant CAD is diagnosed, refer to Special Issuance guidelines.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 523,
+   "text": "*Age updated to 35 (4/2021)",
+   "html": "<p>*Age updated to 35 (4/2021)</p>"
+  }
+ ]
+}

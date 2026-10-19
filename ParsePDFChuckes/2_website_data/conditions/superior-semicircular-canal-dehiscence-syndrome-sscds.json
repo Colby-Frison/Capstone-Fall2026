@@ -1,0 +1,114 @@
+{
+ "id": "superior-semicircular-canal-dehiscence-syndrome-sscds",
+ "name": "Superior Semicircular Canal Dehiscence Syndrome (SSCDS)",
+ "subtitle": null,
+ "name_in_guide": "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 16,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "An incidental finding on imaging;",
+  "The individual never had symptoms*; and",
+  "No required treatment",
+  "One (1) month after surgery; and",
+  "Released to full duties by the treating physician; and",
+  "No further vertiginous attacks; and",
+  "Hearing remains within standards.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis); and",
+  "Follow-up.",
+  "It must specifically include:",
+  "If active disease exists.",
+  "If in remission, when did remission commence.",
+  "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days).",
+  "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+  "All Office treatment records.",
+  "Copy of Operative report (if surgery performed)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Incidental finding on imaging AND NO symptoms",
+   "condition_html": "<p><strong>A. </strong>Incidental finding on imaging</p>\n<p>AND</p>\n<p><strong>NO</strong> symptoms</p>",
+   "evaluation_data": "The AME should obtain why the imaging was performed. Review a detailed, Clinical Progress Note from ENT (otolaryngology) performed any time after identification on imaging. If the ENT evaluation verifies: - An incidental finding on imaging; - The individual never had symptoms*; and - No required treatment AND The AME verifies no symptoms since diagnosis and there is no other condition found (which warranted imaging): If ANY symptoms, go to Row B. *Symptoms may include vertigo induced by a loud noise, autophonia, chronic imbalance, tinnitus, and hyperacusis. If another condition is found, see that page.",
+   "evaluation_data_html": "<p>The AME should obtain why the imaging was performed.</p>\n<p>Review a detailed, Clinical Progress Note from ENT (otolaryngology) performed any time after identification on imaging. If the ENT evaluation verifies:</p>\n<ul><li>An incidental finding on imaging;</li><li>The individual never had symptoms*; and</li><li>No required treatment</li></ul>\n<p>AND</p>\n<p>The AME verifies no symptoms since diagnosis and there is no other condition found (which warranted imaging):</p>\n<p>If ANY symptoms, go to Row B.</p>\n<p>*Symptoms may include vertigo induced by a loud noise, autophonia, chronic imbalance, tinnitus, and hyperacusis.</p>\n<p>If another condition is found, see that page.</p>",
+   "what_to_bring": [
+    "An incidental finding on imaging;",
+    "The individual never had symptoms*; and",
+    "No required treatment"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the ENT evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong></p>\n<p>Block 60</p>\n<p><strong>and submit </strong>the ENT evaluation</p>\n<p>to the FAA</p>\n<p>for retention</p>\n<p>in the file.</p>",
+   "pdf_page": 82,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "History of symptoms",
+   "condition_html": "<p><strong>B. </strong>History of symptoms</p>",
+   "evaluation_data": "After: - One (1) month after surgery; and - Released to full duties by the treating physician; and - No further vertiginous attacks; and - Hearing remains within standards. Submit the following for FAA review: - 10. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); and - Follow-up. - 11. It must specifically include: - If active disease exists. - If in remission, when did remission commence. - 12. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days). - 13. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated. - 14. All Office treatment records. - 15. Copy of Operative report (if surgery performed).",
+   "evaluation_data_html": "<p>After:</p>\n<ul><li>One (1) month after surgery; <strong>and</strong></li><li>Released to full duties by the treating physician; <strong>and </strong></li><li>No further vertiginous attacks; <strong>and</strong></li><li>Hearing remains within standards.</li></ul>\n<p>Submit the following for FAA review:</p>\n<ul><li>10. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating<strong> ENT (otolaryngologist), preferably a neurotologist</strong> (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li></ul>\n<ul><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul>\n<ul><li>11. It must specifically include:</li><li>If active disease exists.</li><li>If in remission, when did remission commence.</li></ul>\n<ul><li>12. Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days).</li></ul>\n<ul><li>13. Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.</li></ul>\n<ul><li>14. All Office treatment records.</li></ul>\n<ul><li>15. Copy of Operative report (if surgery performed).</li></ul>",
+   "what_to_bring": [
+    "One (1) month after surgery; and",
+    "Released to full duties by the treating physician; and",
+    "No further vertiginous attacks; and",
+    "Hearing remains within standards.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis); and",
+    "Follow-up.",
+    "It must specifically include:",
+    "If active disease exists.",
+    "If in remission, when did remission commence.",
+    "Current clinical audiogram with Air- Conduction/Bone- Conduction (AC/BC) and Speech Discrimination (SD) (performed within the past 90 days).",
+    "Additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+    "All Office treatment records.",
+    "Copy of Operative report (if surgery performed)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the Authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong></p>\n<p>Will be per the Authorization</p>\n<p>Letter</p>",
+   "pdf_page": 82,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   82
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

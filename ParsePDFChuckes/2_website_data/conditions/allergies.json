@@ -1,0 +1,80 @@
+{
+ "id": "allergies",
+ "name": "Allergies",
+ "subtitle": null,
+ "name_in_guide": "ALLERGIES",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 36,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Allergies, severe",
+   "condition_html": "<p>Allergies, severe</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 128,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hay fever controlled solely by desensitization without antihistamines or other medications",
+   "condition_html": "<p>Hay fever controlled solely by <a href=\"https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf\" target=\"_blank\" rel=\"noopener\">desensitization</a> without antihistamines or other medications</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If responds to treatment and without side effects - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If responds to treatment and without side effects - Issue Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 128,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>For hay fever requiring antihistamines, </strong>see the Pharmaceuticals Section, <a href=\"https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf\" target=\"_blank\" rel=\"noopener\">Allergy - Antihistamine &amp; Immunotherapy Medication.</a></p>\n<p>For Alpha-Gal Syndrome (meat allergy), see following page.</p>",
+ "links": [
+  {
+   "text": "Allergy - Antihistamine & Immunotherapy Medication.",
+   "href": "https://www.faa.gov/ame_guide/media/AllergyAntihistamineImmunotherapyMedication.pdf"
+  }
+ ],
+ "aliases": [
+  "Allergies, severe",
+  "Hay fever controlled solely by desensitization without antihistamines or other m"
+ ],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   128
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

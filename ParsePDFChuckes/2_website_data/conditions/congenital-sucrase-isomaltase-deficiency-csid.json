@@ -1,0 +1,78 @@
+{
+ "id": "congenital-sucrase-isomaltase-deficiency-csid",
+ "name": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+ "subtitle": null,
+ "name_in_guide": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 75,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam.",
+  "Results of any other testing already performed by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Well-controlled AND No medication side effects",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Well-controlled</p>\n<p>AND</p>\n<p>No medication side effects</p>",
+   "evaluation_data": "If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties AND Verifies a 7-day waiting period has elapsed since starting medication sacrosidase (Sucraid):",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control, current medications are acceptable, and no symptoms that would interfere with flight or safety related duties</p>\n<p>AND</p>\n<p>Verifies a 7-day waiting period has elapsed since starting medication sacrosidase (Sucraid):</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 212,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "With severe complications",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>With severe complications</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. Results of any other testing already performed by the treating physician.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the <strong>treating physician</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>Results of any other testing already performed by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam.",
+    "Results of any other testing already performed by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 212,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "congenital-sucrase-isomaltase-deficiency-csid",
+  "section_title": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+  "pdf_pages": [
+   212
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

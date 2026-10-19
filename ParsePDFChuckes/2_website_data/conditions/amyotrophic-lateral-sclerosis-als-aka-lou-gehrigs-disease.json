@@ -1,0 +1,60 @@
+{
+ "id": "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
+ "name": "Amyotrophic Lateral Sclerosis (ALS) aka Lou Gehrig's Disease",
+ "subtitle": "And Other MOTOR NEURON DISEASES (01/25/2023)",
+ "name_in_guide": "AMYOTROPHIC LATERAL SCLEROSIS (ALS) aka LOU GEHRIG'S DISEASE And Other MOTOR NEURON DISEASES (01/25/2023)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 113,
+ "decisions": [
+  "defer"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation generated from a clinic visit from certified ALS clinic or associated clinic no more than 90 days before the AME exam.",
+  "Any other testing deemed clinically necessary or already performed for this condition by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "All classes Any history",
+   "condition_html": "<p>A. All classes Any history</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation generated from a clinic visit from certified ALS clinic or associated clinic no more than 90 days before the AME exam. 2. Any other testing deemed clinically necessary or already performed for this condition by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed neurological evaluation in accordance </strong>with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA</a> Specifications for Neurologic Evaluation generated from a clinic visit from <strong>certified ALS clinic or associated clinic no more than 90 days before </strong>the AME exam.</p>\n<p>2. Any other testing deemed clinically necessary or already performed for this condition by the treating physician.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation in accordance with the FAA Specifications for Neurologic Evaluation generated from a clinic visit from certified ALS clinic or associated clinic no more than 90 days before the AME exam.",
+    "Any other testing deemed clinically necessary or already performed for this condition by the treating physician."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA.</p>",
+   "pdf_page": 289,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-46-neurologic",
+  "section_title": "ITEM 46. Neurologic",
+  "pdf_pages": [
+   289
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "id": "arrhythmias",
+ "name": "Arrhythmias",
+ "subtitle": null,
+ "name_in_guide": "ARRHYTHMIAS",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/27/2022",
+ "order": 47,
+ "decisions": [
+  "issue",
+  "faa_decision",
+  "defer",
+  "special_issuance",
+  "aasi"
+ ],
+ "what_to_bring": [
+  "Submit the flowing: A current Holter and cardiac evaluation"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Bradycardia (<50 bpm)",
+   "condition_html": "<p>Bradycardia</p>\n<p>(&lt;50 bpm)</p>",
+   "evaluation_data": "Document history and findings, CVE Protocol, and submit any tests deemed appropriate",
+   "evaluation_data_html": "<p>Document history and findings, CVE Protocol, and submit any tests deemed appropriate</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If no evidence of structural, functional or coronary heart disease - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If no evidence of structural, functional or coronary heart disease - Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 151,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Bundle Branch Block (Left and Right) * IRBBB or ICVD",
+   "condition_html": "<p>Bundle Branch Block (Left and Right)</p>\n<p>* <a href=\"https://www.faa.gov/ame_guide/media/Normal_Variants.pdf\" target=\"_blank\" rel=\"noopener\">IRBBB or ICVD</a></p>",
+   "evaluation_data": "See Protocol for Bundle Branch Block (BBB)",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/go/bbb\" target=\"_blank\" rel=\"noopener\">Protocol for Bundle Branch Block (BBB)</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If no evidence of structural, functional or coronary heart disease - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If no evidence of structural, functional or coronary heart disease - Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 151,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "History of Implanted Pacemakers",
+   "condition_html": "<p>History of Implanted Pacemakers</p>",
+   "evaluation_data": "See Implanted Pacemaker Disposition Table",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/PacemakerDispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">Implanted Pacemaker Disposition Table</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 151,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "PAC (2 or more on ECG) See next page",
+   "condition_html": "<p>PAC (2 or more on ECG)</p>\n<p><strong>See next page</strong></p>",
+   "evaluation_data": "Requires evaluation, e.g., check for MVP, caffeine, pulmonary disease, thyroid, etc.",
+   "evaluation_data_html": "<p>Requires evaluation, e.g., check for MVP, caffeine, pulmonary disease, thyroid, etc.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If no evidence of structural, functional or coronary heart disease – Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If no evidence of structural, functional or coronary heart disease – Issue Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 151,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "PVC’s (2 or more on standard ECG)",
+   "condition_html": "<p>PVC’s</p>\n<p>(2 or more on standard ECG)</p>",
+   "evaluation_data": "Max GXT – to include a baseline ECG",
+   "evaluation_data_html": "<p>Max GXT – to include a baseline ECG</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If no evidence of structural, functional or coronary heart disease and PVC’s resolve with exercise - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If no evidence of structural, functional or coronary heart disease and PVC’s resolve with exercise - Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 151,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "1st Degree AV Block with PR interval of LESS than 300 ms",
+   "condition_html": "<p>1st Degree AV Block</p>\n<p>with PR interval of</p>\n<p>LESS than 300 ms</p>",
+   "evaluation_data": "If no symptoms or AME Concerns",
+   "evaluation_data_html": "<p>If no symptoms or AME Concerns</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate in Block 60",
+   "disposition_html": "<p>ISSUE</p>\n<p>Annotate in Block 60</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "1st Degree AV Block with PR interval of 300 ms or MORE",
+   "condition_html": "<p>1st Degree AV Block</p>\n<p>with PR interval of</p>\n<p>300 ms or MORE</p>",
+   "evaluation_data": "Submit the flowing: A current Holter and cardiac evaluation",
+   "evaluation_data_html": "<p>Submit the flowing:</p>\n<p>A current Holter and cardiac evaluation</p>",
+   "what_to_bring": [
+    "Submit the flowing: A current Holter and cardiac evaluation"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit information to the FAA for review",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit information to the FAA for review</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "2nd Degree AV Block Mobitz I",
+   "condition_html": "<p>2nd Degree</p>\n<p>AV Block Mobitz I</p>",
+   "evaluation_data": "Document history and findings, CVE Protocol, and submit any tests deemed appropriate",
+   "evaluation_data_html": "<p>Document history and findings, CVE Protocol, and submit any tests deemed appropriate</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If no evidence of structural, functional or coronary heart disease - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If no evidence of structural, functional or coronary heart disease - Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "2nd Degree AV Block Mobitz II",
+   "condition_html": "<p>2nd Degree</p>\n<p>AV Block Mobitz II</p>",
+   "evaluation_data": "CVE Protocol in accordance w/ Hypertensive Evaluation Specifications and 24-hour Holter",
+   "evaluation_data_html": "<p>CVE Protocol in accordance w/ Hypertensive Evaluation Specifications and 24-hour Holter</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "3rd Degree AV Block",
+   "condition_html": "<p>3rd Degree</p>\n<p>AV Block</p>",
+   "evaluation_data": "CVE Protocol in accordance w/ Hypertensive Evaluation Specifications and 24-hour Holter",
+   "evaluation_data_html": "<p>CVE Protocol in accordance w/ Hypertensive Evaluation Specifications and 24-hour Holter</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Pre-excitation",
+   "condition_html": "<p>Pre-excitation</p>",
+   "evaluation_data": "CVE Protocol, GXT , and 24-hour Holter",
+   "evaluation_data_html": "<p>CVE Protocol, <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/graded_exercise/\" target=\"_blank\" rel=\"noopener\">GXT</a> , and 24-hour Holter</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Radio Frequency Ablation *If performed for atrial fibrillation, see that section first.",
+   "condition_html": "<p>Radio Frequency Ablation</p>\n<p>*If performed for atrial fibrillation, see that section first.</p>",
+   "evaluation_data": "3-month wait, then 24-hour Holter",
+   "evaluation_data_html": "<p>3-month wait, then 24-hour Holter</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If Holter negative for arrhythmia and no recurrence – Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If Holter negative for arrhythmia and no recurrence – Issue</p>\n<p>Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Supraventricular Tachycardia",
+   "condition_html": "<p>Supraventricular Tachycardia</p>",
+   "evaluation_data": "CVE Protocol with ECHO and 24-hour Holter",
+   "evaluation_data_html": "<p>CVE Protocol</p>\n<p>with ECHO and 24-hour Holter</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "Initial Special Issuance - Requires FAA Decision Follow-up Special Issuances - See AASI Protocol",
+   "disposition_html": "<p>Initial Special Issuance - Requires FAA Decision</p>\n<p>Follow-up Special Issuances - See AASI Protocol</p>",
+   "pdf_page": 153,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Protocol for Bundle Branch Block (BBB)",
+   "href": "https://www.faa.gov/go/bbb"
+  },
+  {
+   "text": "Implanted Pacemaker Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/PacemakerDispositionTable.pdf"
+  },
+  {
+   "text": "GXT",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/graded_exercise/"
+  }
+ ],
+ "aliases": [
+  "Bradycardia (<50 bpm)",
+  "Bundle Branch Block (Left and Right) * IRBBB or ICVD",
+  "History of Implanted Pacemakers",
+  "PAC (2 or more on ECG) See next page",
+  "PVC’s (2 or more on standard ECG)",
+  "1st Degree AV Block with PR interval of LESS than 300 ms",
+  "1st Degree AV Block with PR interval of 300 ms or MORE",
+  "2nd Degree AV Block Mobitz I",
+  "2nd Degree AV Block Mobitz II",
+  "3rd Degree AV Block",
+  "Pre-excitation",
+  "Radio Frequency Ablation *If performed for atrial fibrillation, see that section",
+  "Supraventricular Tachycardia"
+ ],
+ "source": {
+  "section": "item-36-heart",
+  "section_title": "ITEM 36. Heart",
+  "pdf_pages": [
+   151,
+   153
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

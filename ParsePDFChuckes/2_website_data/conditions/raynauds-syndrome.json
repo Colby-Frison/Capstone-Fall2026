@@ -1,0 +1,71 @@
+{
+ "id": "raynauds-syndrome",
+ "name": "Raynaud's Syndrome",
+ "subtitle": "(Primary Raynaud’s/Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+ "name_in_guide": "RAYNAUD'S SYNDROME (Primary Raynaud’s/Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+ "category": {
+  "id": "vascular-system",
+  "name": "Vascular System",
+  "exam_item": "37",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/31/2023",
+ "order": 70,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Primary Raynaud's OR Raynaud's disease",
+   "condition_html": "<p><strong>A.</strong> Primary Raynaud&#x27;s</p>\n<p>OR</p>\n<p>Raynaud&#x27;s disease</p>",
+   "evaluation_data": "If the AME is able to determine through history and physical exam, there is no underlying cause, illness, or injury, the symptoms do not impede flight duties, and medication used to treat this condition is acceptable (see HTN meds):",
+   "evaluation_data_html": "<p>If the AME is able to determine through history and physical exam, there is no underlying cause, illness, or injury, the symptoms do not impede flight duties, and medication used to treat this condition is acceptable (see HTN meds):</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate (elements or findings) in Item 60",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60</p>",
+   "pdf_page": 202,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Secondary Raynaud's OR Raynaud's phenomenon OR with any impairment or disability due to the condition. If due to a known cause - see that section (Ex: systemic lupus erythematosus, Rheumatoid arthritis)",
+   "condition_html": "<p><strong>B.</strong> Secondary Raynaud&#x27;s</p>\n<p>OR</p>\n<p>Raynaud&#x27;s phenomenon</p>\n<p>OR</p>\n<p>with any impairment or disability due to the condition.</p>\n<p>If due to a known cause - see that section</p>\n<p>(Ex: systemic lupus erythematosus, Rheumatoid arthritis)</p>",
+   "evaluation_data": "Submit the following: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. Any other testing already performed or deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating physician no more than<strong> 90 days before </strong>the AME exam.</p>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p>Any other testing already performed or deemed clinically necessary by the treating physician.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60</p>",
+   "pdf_page": 202,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note:</strong> The names Raynaud&#x27;s disease, Raynaud&#x27;s phenomenon, or Raynaud&#x27;s syndrome are often used interchangeably.</p>\n<p>If the AME has any concerns regarding the type or severity of the condition, request a current, detailed Clinical Progress Note from the treating physician.</p>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "postural-tachycardia-syndrome-pots",
+  "section_title": "POSTURAL TACHYCARDIA SYNDROME (POTS)",
+  "pdf_pages": [
+   202
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

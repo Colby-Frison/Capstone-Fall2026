@@ -1,0 +1,91 @@
+{
+ "id": "ocular-motility",
+ "name": "Ocular Motility",
+ "subtitle": null,
+ "name_in_guide": "Ocular Motility",
+ "category": {
+  "id": "ocular-motility",
+  "name": "Ocular Motility",
+  "exam_item": "34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 35,
+ "decisions": [
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Absence of conjugate alignment in any quadrant",
+   "condition_html": "<p>Absence of conjugate alignment in any quadrant</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Inability to converge on a near object",
+   "condition_html": "<p>Inability to converge on a near object</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Paralysis with loss of ocular motion in any direction",
+   "condition_html": "<p>Paralysis with loss of ocular motion in any direction</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 125,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>1 Nystagmus of recent onset is cause to deny or defer certificate issuance. Any recent neurological or other evaluations available to the Examiner should be submitted to the AMCD. If nystagmus has been present for a number of years and has not recently worsened, it is usually necessary to consider only the impact that the nystagmus has upon visual acuity. The Examiner should be aware of how nystagmus may be aggravated by the forces of acceleration commonly encountered in aviation and by poor illumination.</p>",
+ "links": [],
+ "aliases": [
+  "Absence of conjugate alignment in any quadrant",
+  "Inability to converge on a near object",
+  "Paralysis with loss of ocular motion in any direction"
+ ],
+ "source": {
+  "section": "item-34-ocular-motility",
+  "section_title": "ITEM 34. Ocular Motility",
+  "pdf_pages": [
+   125
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

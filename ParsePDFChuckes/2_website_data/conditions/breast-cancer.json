@@ -1,0 +1,140 @@
+{
+ "id": "breast-cancer",
+ "name": "Breast Cancer",
+ "subtitle": null,
+ "name_in_guide": "BREAST CANCER",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/27/2021",
+ "order": 175,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Status report or treatment records from treating oncologist that provides the following information:",
+  "Disease course including recurrence(s),",
+  "Location(s) of metastatic disease (if any),",
+  "Treatments used,",
+  "How long the condition has been stable,",
+  "If any upcoming treatment change is planned or expected and prognosis;",
+  "Medication list. Dates started and stopped.",
+  "Description of side effects, if any;",
+  "Operative notes and discharge summary",
+  "Copies of lab including pathology reports, tumor markers (if already performed by treating physician);"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Non metastatic – treatment completed 5 or more years ago",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Non metastatic –</p>\n<p>treatment completed</p>\n<p><strong>5 or more years ago</strong></p>",
+   "evaluation_data": "If no recurrence, current problems, or ongoing treatment: Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)",
+   "evaluation_data_html": "<p>If no recurrence, current problems, or ongoing treatment:</p>\n<p>Continued hormone treatment is allowed (tamoxifen, aromatase inhibitor)</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 450,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Non metastatic – treatment completed Less than 5 years ago",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Non metastatic –</p>\n<p>treatment completed</p>\n<p><strong>Less than 5 years ago</strong></p>",
+   "evaluation_data": "See CACI worksheet",
+   "evaluation_data_html": "<p>See CACI worksheet</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Breast Cancer Worksheet. Annotate Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Breast Cancer Worksheet.</a></p>\n<p>Annotate Block 60.</p>",
+   "pdf_page": 450,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- C. All others Chemotherapy used Lymph node spread Metastatic disease Stage IA or higher",
+   "condition_html": "<ul><li><strong>C. </strong></li></ul>\n<p>All others</p>\n<p>Chemotherapy used</p>\n<p>Lymph node spread</p>\n<p>Metastatic disease</p>\n<p>Stage IA or higher</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - Status report or treatment records from treating oncologist that provides the following information: - Initial staging, - Disease course including recurrence(s), - Location(s) of metastatic disease (if any), - Treatments used, - How long the condition has been stable, - If any upcoming treatment change is planned or expected and prognosis; - Medication list. Dates started and stopped. - Description of side effects, if any; - Operative notes and discharge summary (if applicable); - Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging such as mammogram, MRI/CT or PET scan reports that have already been performed. (In some cases, the actual CDs will be required in DICOM format for FAA review).",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Status report or treatment records from treating oncologist that provides the following information:<ul><li>Initial staging,</li><li>Disease course including recurrence(s),</li><li>Location(s) of metastatic disease (if any),</li><li>Treatments used,</li><li>How long the condition has been stable,</li><li>If any upcoming treatment change is planned or expected and prognosis;</li></ul></li></ul>\n<ul><li> Medication list. Dates started and stopped.</li></ul>\n<ul><li>Description of side effects, if any;</li><li> Operative notes and discharge summary</li></ul>\n<p>(if applicable);</p>\n<ul><li> Copies of lab including pathology reports, tumor markers (if already performed by treating physician);</li></ul>\n<p>Copies of imaging such as mammogram, MRI/CT or PET scan reports that have already been performed.</p>\n<p>(In some cases, the actual CDs will be required in DICOM format for FAA review).</p>",
+   "what_to_bring": [
+    "Status report or treatment records from treating oncologist that provides the following information:",
+    "Disease course including recurrence(s),",
+    "Location(s) of metastatic disease (if any),",
+    "Treatments used,",
+    "How long the condition has been stable,",
+    "If any upcoming treatment change is planned or expected and prognosis;",
+    "Medication list. Dates started and stopped.",
+    "Description of side effects, if any;",
+    "Operative notes and discharge summary",
+    "Copies of lab including pathology reports, tumor markers (if already performed by treating physician);"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 450,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Breast Cancer Worksheet",
+   "updated": "04/27/2022",
+   "criteria": [
+    {
+     "ame_must_review": "The pathology showed: Carcinoma in Situ (Tis), Stage 0; Ductal Carcinoma in Situ (DCIS); Lobular Carcinoma in Situ (LCIS); Paget disease of the breast (Tis)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "The treating physician’s current, detailed Clinical Progress Note verifies: - Condition is stable with no spread or reoccurrence and no evidence of disease (NED). - Radiation therapy (if any) is completed - If surgery has been performed, the airman is off all pain medication(s), has made a full recovery, and has been released by the surgeon. - The airman is back to full, unrestricted activities and",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Any evidence of: - Stage IA or higher - Invasive or metastatic disease - Use of chemotherapy for this condition at any time",
+     "acceptable_certification_criteria": "[ ] No"
+    },
+    {
+     "ame_must_review": "Current medication(s): Approved medications include: tamoxifen (Nolvadex); Aromatase inhibitors: anastrozole (Arimidex), letrozole (Femara), or exemestane (Aromasin)",
+     "acceptable_certification_criteria": "[ ] None; or [ ] An approved medication that is being well tolerated with no side effects"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified breast cancer (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified breast cancer.",
+    "NOT CACI qualified breast cancer. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 04/27/2022)</p>\n<p><strong>Notes:</strong> If it has been 5 or more years since the airman has had any treatment (surgery or radiation) for this condition, has no history of metastatic disease, and no reoccurrence, CACI is not required. Note this in Block 60.</p>",
+ "links": [
+  {
+   "text": "CACI – Breast Cancer Worksheet.",
+   "href": "https://www.faa.gov/ame_guide/media/CACIBreastCancer.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "breast-cancer",
+  "section_title": "BREAST CANCER",
+  "pdf_pages": [
+   450,
+   451,
+   452
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

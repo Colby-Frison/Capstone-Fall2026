@@ -1,0 +1,105 @@
+{
+ "id": "atrial-flutter-typical-atrial-flutter",
+ "name": "Atrial Flutter / Typical Atrial Flutter",
+ "subtitle": null,
+ "name_in_guide": "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 50,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note",
+  "It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.)",
+  "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed at least 90 days after the procedure."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "- Typical Atrial Flutter successfully treated with ablation 2 or more years ago - Asymptomatic - No Anti-arrythmia medications required or recommended",
+   "condition_html": "<p><strong>A. </strong></p>\n<ul><li>Typical Atrial Flutter successfully treated <strong>with ablation 2 or more years ago </strong></li><li>Asymptomatic</li></ul>\n<ul><li><strong>No Anti-arrythmia medications </strong>required or recommended</li></ul>",
+   "evaluation_data": "The AME should review a completed and signed Typical Atrial Flutter Treated with Ablation Status Summary from the CARDIOLOGIST. If all items fall into the “YES” column, and the AME has no concerns:",
+   "evaluation_data_html": "<p>The AME should review a completed and signed <a href=\"https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf\" target=\"_blank\" rel=\"noopener\">Typical Atrial Flutter Treated with Ablation Status Summary</a> from the CARDIOLOGIST.</p>\n<p>If all items fall into the “YES” column, and the AME has no concerns:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate</p>\n<p>Block 60 and submit the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 157,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "TYPICAL Atrial Flutter successfully treated with ablation within the previous 2 years OR Treated with Anti-arrythmia medications",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong>TYPICAL Atrial Flutter </strong>successfully<strong> treated with ablation within the previous 2 years</strong></p>\n<p>OR</p>\n<p><strong>Treated with Anti-arrythmia medications </strong></p>",
+   "evaluation_data": "After a 90-day recovery period, Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.) - 3. Echocardiogram (Echo). Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam. 4. 24-hour cardiac monitor performed at least 90 days after the procedure. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.) It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.",
+   "evaluation_data_html": "<p><strong>After a 90-day recovery period, </strong></p>\n<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed <strong>Clinical Progress Note</strong></li></ul>\n<p>generated from a clinic visit with their treating physician or <strong>cardiologist</strong> no more than 90 days before the AME exam.</p>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li>2. It must include if they have been, or are <strong>currently symptomatic and the clinical interpretation of any studies performed</strong> (echo, ECG, stress test, etc.)</li></ul>\n<ul><li>3. <strong>Echocardiogram (Echo)</strong>. Copies of a 2- D and Doppler flow study report performed no more than <strong>90 days prior </strong>to the AME exam.</li></ul>\n<p>4. <strong> 24-hour cardiac monitor</strong> performed at <strong>least 90 days after the procedure.</strong></p>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.) It should have</p>\n<p>atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note",
+    "It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.)",
+    "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed at least 90 days after the procedure."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 157,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "History of: - Atypical Atrial Flutter - Any other type of flutter - Atrial Fibrillation - Symptomatic",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>History of:</p>\n<ul><li><strong>Atypical Atrial Flutter </strong></li><li><strong>Any other type of flutter </strong></li><li><strong>Atrial Fibrillation </strong></li><li><strong>Symptomatic </strong></li></ul>",
+   "evaluation_data": "See the Atrial Fibrillation, Row C .",
+   "evaluation_data_html": "<p>See the <a href=\"http://www.faa.gov/ame_guide/media/AtrialFibrillationDispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">Atrial Fibrillation, Row C</a> .</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 157,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [
+  "Typical Atrial Flutter Treated with Ablation Status Summary"
+ ],
+ "notes_html": "<p><strong>Typical Atrial Flutter Treated with Ablation Status Summary </strong></p>\n<p>(Updated 01/28/2026)</p>\n<p>Name: _______________________________ Birthdate: ______________________</p>\n<p>Applicant ID: __________________________ PI#: ___________________________</p>\n<p>Please have your <strong>Cardiologist</strong> provide the requested information in the space provided. Submit this summary or a detailed Clinical Progress Note describing all of the information below to your AME for upload into your FAA file:</p>\n<ul><li>Pilots: Submit either this summary or all supporting documentation addressing each item to your AME for electronic upload to the FAA.</li></ul>\n<ul><li>ATCS: Submit the information to your Regional Flight Surgeon’s Office.</li></ul>\n<table><thead><tr><th>YES</th><th>NO*</th></tr></thead><tbody></tbody></table>\n<ul><li>1. Was the individual diagnosed with TYPICAL Atrial Flutter?</li></ul>\n<ul><li>2. Were they successfully ablated 2 or more years ago?</li></ul>\n<p>Date of Ablation ____________________</p>\n<ul><li>3. Did a holter monitor or similar test performed at least 90 days <strong>after the ablation </strong>verify no new Atrioventricular Conduction abnormalities, no atrial fibrillation, and the Typical Atrial Flutter was successfully ablated?</li></ul>\n<ul><li>4. Medications. Has this patient been evaluated and determined not to require any type of antiarrhythmic medication, and you have not recommended any?</li></ul>\n<ul><li>5. Are you without clinical concerns with this individual?</li></ul>\n<p>________________________________________________ __________________</p>\n<p>Treating Cardiologist Signature Date of Evaluation</p>\n<p>________________________________________________ __________________</p>\n<p>Name or Office Stamp Phone Number</p>\n<p><strong>AME: </strong> If<strong> ALL </strong>items fall into the clear “YES” column, the AME may issue.</p>\n<p>If <strong>Any Single </strong>Item falls into the shaded “NO” column, the <strong>AME MUST DEFER. </strong>The AME should note what aspect caused the deferral and explain any “NO” answers. Attach the most recent detailed Clinical Progress Note(s) which addresses these items.</p>\n<p><strong>NOTE:</strong> This Status Summary is NOT required (clinical records may be submitted); however, it will help to streamline and significantly DECREASE FAA review time.</p>",
+ "links": [
+  {
+   "text": "Typical Atrial Flutter Treated with Ablation Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf"
+  },
+  {
+   "text": "Atrial Fibrillation, Row C",
+   "href": "http://www.faa.gov/ame_guide/media/AtrialFibrillationDispositionTable.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-36-heart",
+  "section_title": "ITEM 36. Heart",
+  "pdf_pages": [
+   157,
+   159
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

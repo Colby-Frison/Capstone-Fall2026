@@ -1,0 +1,95 @@
+{
+ "slug": "caci-prediabetes-worksheet",
+ "title": "CACI – Prediabetes Worksheet",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  425
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "(Metabolic Syndrome, Impaired Fasting Glucose,",
+   "html": "<p>(Metabolic Syndrome, Impaired Fasting Glucose,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "Insulin Resistance, Glucose Elevation/Intolerance)",
+   "html": "<p>Insulin Resistance, Glucose Elevation/Intolerance)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "(Updated 04/29/2026)",
+   "html": "<p>(Updated 04/29/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the Examiner can issue. Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam. NOTE: CACI expanded to include diabetic medication taken for weight loss.",
+   "html": "<p>To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist <strong>no more than 90 days prior</strong> to the AME exam. If the applicant <strong>meets ALL the acceptable certification criteria</strong> listed below, the Examiner can issue. Applicants for first or second- class must provide this information annually; applicants for third-class must provide the information with each required exam. <strong>NOTE: CACI expanded to include diabetic medication taken for weight loss. </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 425,
+   "header": [
+    "If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI."
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 425,
+   "header": [
+    "AME MUST REVIEW",
+    "ACCEPTABLE CERTIFICATION"
+   ],
+   "rows": [
+    [
+     "Medication is used for: Note: Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.",
+     "[ ] Prediabetes"
+    ],
+    [
+     "Treating physician finds the condition is stable and NONE of the following are present: - Symptoms or complications associated with diabetes; - Side effects from the medication; and/or - Hypoglycemic events (symptoms or glucose 70 mg/dl or less) which required intervention in the past 12 months",
+     "[ ] Yes"
+    ],
+    [
+     "ONLY ONE of the medications listed is used: - AME should verify two-week observation after starting medication. (See Pharmaceuticals, Weight Loss Medication .) 48-hour observation with each dose increase, medication or formulation change.",
+     "[ ] Yes Indicate which one medication is used: - metformin OR - liraglutide OR - semaglutide (Wegovy) OR - tirzepatide (Zepbound)"
+    ],
+    [
+     "Current A1C Note: A1C 6.5% or greater is diagnostic for diabetes (ADA).",
+     "[ ] Yes to all the following: - Within last 90 days; - 6.4 % or LESS; and - No history ever of A1C 6.5% or greater"
+    ]
+   ],
+   "html": "<table><thead><tr><th>AME MUST REVIEW</th><th>ACCEPTABLE CERTIFICATION</th></tr></thead><tbody><tr><td><p>Medication is used for:</p>\n<p><strong>Note:</strong> Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus <strong>DO NOT</strong> qualify for this CACI.</p></td><td><p>[ ] Prediabetes</p></td></tr><tr><td><p>Treating physician finds the condition is stable and <strong>NONE</strong> of the following are present:</p>\n<ul><li>Symptoms or complications associated with diabetes;</li><li>Side effects from the medication; and/or</li><li>Hypoglycemic events (symptoms or glucose 70 mg/dl or less) which required intervention in the past 12 months</li></ul></td><td><p>[ ] Yes</p></td></tr><tr><td><p><strong>ONLY ONE </strong>of the medications listed is used:</p>\n<ul><li>AME should verify <strong>two-week</strong> observation after starting medication. (See <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_pharm.pdf\" target=\"_blank\" rel=\"noopener\">Pharmaceuticals, Weight Loss Medication</a> .) <strong>48-hour observation with each dose increase, medication or formulation change.</strong></li></ul></td><td><p>[ ] Yes</p>\n<p>Indicate which <strong>one</strong> medication is used:</p>\n<ul><li> metformin <strong>OR </strong></li><li> liraglutide <strong>OR </strong></li><li> semaglutide (Wegovy) <strong>OR</strong></li><li> tirzepatide (Zepbound)</li></ul></td></tr><tr><td><p>Current A1C</p>\n<p><strong>Note:</strong> A1C 6.5% or greater is diagnostic for diabetes (ADA).</p></td><td><p>[ ] Yes to all the following:</p>\n<ul><li> Within last 90 days;</li><li> 6.4 % or LESS; and</li><li> <strong>No history ever </strong>of A1C 6.5% or greater</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "AME MUST NOTE in Block 60 either of the following:",
+   "html": "<p><strong> AME MUST NOTE in Block 60 either of the following:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "[ ] CACI qualified prediabetes.",
+   "html": "<p>[ ] CACI qualified prediabetes.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "[ ] Has current OR previous SI/AASI but now CACI qualified prediabetes.",
+   "html": "<p>[ ] Has current OR previous SI/AASI but now CACI qualified prediabetes.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 425,
+   "text": "[ ] NOT CACI qualified prediabetes. I have deferred. (Submit supporting documents.)",
+   "html": "<p>[ ] NOT CACI qualified prediabetes. I have deferred. (Submit supporting documents.)</p>"
+  }
+ ]
+}

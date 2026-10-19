@@ -1,0 +1,119 @@
+{
+ "slug": "emboli-mitigation-in-non-valvular-atrial-fibrillation-afib",
+ "title": "EMBOLI MITIGATION IN NON-VALVULAR ATRIAL FIBRILLATION (AFIB)",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  636
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "(Updated 3/27/2024)",
+   "html": "<p>(Updated 3/27/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "The CHA2DS2-VASc score is used to estimate thromboembolic risk in atrial fibrillation and inform emboli mitigation requirements. Annual stroke risk increases with increasing score. The following emboli mitigation strategies are acceptable for FAA medical certificate purposes:",
+   "html": "<p>The <strong>CHA2DS2-VASc </strong>score is used to estimate thromboembolic risk in atrial fibrillation and inform emboli mitigation requirements. Annual stroke risk increases with increasing score. The following emboli mitigation strategies are acceptable for FAA medical certificate purposes:</p>"
+  },
+  {
+   "type": "table",
+   "page": 636,
+   "header": [
+    "CHA2DS2-VASc Score",
+    "Required Emboli Mitigation"
+   ],
+   "rows": [
+    [
+     "2 or higher",
+     "Jantoven/warfarin; or NOAC/DOAC or LAA closure"
+    ],
+    [
+     "0-1",
+     "Emboli mitigation usually not required for FAA purposes."
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHA2DS2-VASc Score</th><th>Required Emboli Mitigation</th></tr></thead><tbody><tr><td><p><strong>2 or higher </strong></p></td><td><p>Jantoven/warfarin; or</p>\n<p>NOAC/DOAC or</p>\n<p>LAA closure</p></td></tr><tr><td><p><strong>0-1 </strong></p></td><td><p>Emboli mitigation usually not required for FAA purposes.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 636,
+   "header": [
+    "CHA2DS2-VASc",
+    "Score"
+   ],
+   "rows": [
+    [
+     "Congestive heart failure",
+     "1"
+    ],
+    [
+     "Hypertension",
+     "1"
+    ],
+    [
+     "Age > 75",
+     "2"
+    ],
+    [
+     "Diabetes mellitus",
+     "1"
+    ],
+    [
+     "Previous stroke/TIA/TE",
+     "2"
+    ],
+    [
+     "Vascular disease (prior MI, PAD, or aortic plaque/atheroma)",
+     "1"
+    ],
+    [
+     "Age 65-74",
+     "1"
+    ],
+    [
+     "Female (Male = 0)",
+     "1"
+    ],
+    [
+     "Total",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHA2DS2-VASc</th><th>Score</th></tr></thead><tbody><tr><td><p>Congestive heart failure</p></td><td><p>1</p></td></tr><tr><td><p>Hypertension</p></td><td><p>1</p></td></tr><tr><td><p>Age &gt; 75</p></td><td><p>2</p></td></tr><tr><td><p>Diabetes mellitus</p></td><td><p>1</p></td></tr><tr><td><p>Previous stroke/TIA/TE</p></td><td><p>2</p></td></tr><tr><td><p>Vascular disease (prior MI, PAD, or aortic plaque/atheroma)</p></td><td><p>1</p></td></tr><tr><td><p>Age 65-74</p></td><td><p>1</p></td></tr><tr><td><p>Female (Male = 0)</p></td><td><p>1</p></td></tr><tr><td><p>Total</p></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "Warfarin (Jantoven): For applicants who are just beginning warfarin (Jantoven) treatment the following is required:",
+   "html": "<p><strong>Warfarin (Jantoven): </strong>For applicants who are <strong>just beginning warfarin (Jantoven) </strong>treatment the following is required:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "Minimum observation time of 6 weeks after initiation of warfarin therapy; Must also meet any required observation time for the underlying condition; AND 6 INRs, no more frequently than 1 per week",
+   "html": "<p> Minimum observation time of 6 weeks after initiation of warfarin therapy; Must also meet any required observation time for the underlying condition; AND 6 INRs, no more frequently than 1 per week</p>"
+  },
+  {
+   "type": "list",
+   "page": 636,
+   "text": "- - o 80% or more of INR values should be between 2.0 and 3.0.\n- When used for heart valves, INR goal should be in accordance with standard of care for that type of valve: and\n- If INR is outside this target range, the physician should explain.",
+   "html": "<ul><li><ul><li>o 80% or more of INR values should be between 2.0 and 3.0.</li><li>When used for heart valves, INR goal should be in accordance with standard of care for that type of valve: and</li><li>If INR is outside this target range, the physician should explain.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "NOAC/DOACs: For applicants who are just beginning treatment the following is required:",
+   "html": "<p><strong>NOAC/DOACs</strong>: For applicants who are just beginning treatment the following is required:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 636,
+   "text": "Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition.",
+   "html": "<p> Minimum observation time of 2 weeks after initiation of therapy; AND Must also meet any required observation time for the underlying condition.</p>"
+  }
+ ]
+}

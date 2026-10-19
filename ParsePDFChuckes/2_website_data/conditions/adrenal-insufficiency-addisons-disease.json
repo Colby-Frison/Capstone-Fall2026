@@ -1,0 +1,62 @@
+{
+ "id": "adrenal-insufficiency-addisons-disease",
+ "name": "Adrenal Insufficiency (Addison’s Disease)",
+ "subtitle": null,
+ "name_in_guide": "ADRENAL INSUFFICIENCY (Addison’s Disease)",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 164,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam.",
+  "Copies of any testing already performed by the treating physician (e.g., labs, imaging)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history of",
+   "condition_html": "<p><strong>A. </strong>Any history of</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosages, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 2. Copies of any testing already performed by the treating physician (e.g., labs, imaging).",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li>1. A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the treating <strong>Endocrinologist </strong>no more than 90 days before the AME exam.</li></ul>\n<p>It must include a detailed summary of the history of the condition; current medications, dosages, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</p>\n<ul><li>2. Copies of any testing already performed by the treating physician (e.g., labs, imaging).</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam.",
+    "Copies of any testing already performed by the treating physician (e.g., labs, imaging)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 432,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "adrenal-insufficiency-addisons-disease",
+  "section_title": "ADRENAL INSUFFICIENCY (Addison’s Disease)",
+  "pdf_pages": [
+   432
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

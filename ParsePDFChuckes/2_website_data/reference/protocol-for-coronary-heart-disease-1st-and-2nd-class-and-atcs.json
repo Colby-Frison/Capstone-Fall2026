@@ -1,0 +1,212 @@
+{
+ "slug": "protocol-for-coronary-heart-disease-1st-and-2nd-class-and-atcs",
+ "title": "Protocol for Coronary Heart Disease – 1st and 2nd Class and ATCS",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  531,
+  532,
+  533
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "(Updated 03/25/2026)",
+   "html": "<p>(Updated 03/25/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "Use this guidance for:",
+   "html": "<p>Use this guidance for:</p>"
+  },
+  {
+   "type": "list",
+   "page": 531,
+   "text": "- CHD (aka coronary artery disease CAD) with 50% stenosis or greater in any single coronary artery vessel\n- Coronary Artery Bypass Graft (CABG)\n- Myocardial Infarction (MI)/heart attack- either ST Elevation MI (STEMI)",
+   "html": "<ul><li><strong>CHD </strong>(aka coronary artery disease CAD) <strong>with 50% stenosis </strong>or greater in any single coronary artery vessel</li><li><strong>Coronary Artery Bypass Graft </strong>(CABG)</li><li><strong>Myocardial Infarction </strong>(MI)/heart attack- either ST Elevation MI (STEMI)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "or Non-ST Elevation MI (NSTEMI)",
+   "html": "<p>or Non-ST Elevation MI (NSTEMI)</p>"
+  },
+  {
+   "type": "list",
+   "page": 531,
+   "text": "- Stent (Heart stent/coronary stent/PTCA, Drug Eluting Stent [DES])\n- Percutaneous Balloon Angioplasty, Atherectomy, Brachytherapy, or Rotoblation",
+   "html": "<ul><li><strong>Stent</strong> (Heart stent/coronary stent/PTCA, Drug Eluting Stent [DES])</li><li><strong>Percutaneous Balloon Angioplasty, Atherectomy, Brachytherapy, or Rotoblation </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "Recovery period:",
+   "html": "<p><strong>Recovery period: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 531,
+   "header": null,
+   "rows": [
+    [
+     "Condition",
+     "Pilots (1st or 2nd class)",
+     "ATCS (contract and employee)"
+    ],
+    [
+     "Coronary Artery Bypass Graft (CABG)",
+     "6 months",
+     "3 months"
+    ],
+    [
+     "Myocardial infarction (MI)/Heart attack",
+     "3 months",
+     "3 months"
+    ],
+    [
+     "Stent placed in any coronary artery including LEFT MAIN",
+     "3 months",
+     "3 months"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>Condition </strong></p></td><td><p><strong>Pilots (1st or 2nd class) </strong></p></td><td><p><strong>ATCS (contract and employee) </strong></p></td></tr><tr><td><p>Coronary Artery Bypass Graft (CABG)</p></td><td><p><strong>6 months</strong></p></td><td><p>3 months</p></td></tr><tr><td><p>Myocardial infarction <strong>(MI)/Heart attack</strong></p></td><td><p>3 months</p></td><td><p>3 months</p></td></tr><tr><td><p>Stent placed in any coronary artery including LEFT MAIN</p></td><td><p>3 months</p></td><td><p>3 months</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "After the required recovery period, obtain the following and submit to the FAA. Post-event testing should NOT be obtained until AFTER the recovery period. The AME is required to DEFER.",
+   "html": "<p><strong> After the required recovery period</strong>, obtain the following and submit to the FAA. Post-event testing should NOT be obtained until AFTER the recovery period. The AME is required to DEFER.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "1. Hospital records. Submit copies of:",
+   "html": "<p>1. <strong>Hospital records</strong>. Submit copies of:</p>"
+  },
+  {
+   "type": "list",
+   "page": 531,
+   "text": "- Admission history & physical (H&P);\n- Operative report, if applicable (CABG, stent, or other procedure performed);\n- Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital); and\n- Coronary catheterization (heart cath) or ischemia work up (if performed). Submit both the images on CD AND the printed report.",
+   "html": "<ul><li>Admission history &amp; physical (H&amp;P);</li><li>Operative report, if applicable (CABG, stent, or other procedure performed);</li><li>Discharge summary from the <strong>physician</strong> (NOT the discharge instructions/paperwork given to the patient when leaving the hospital); and</li><li>Coronary catheterization (heart cath) or ischemia work up (if performed). Submit <strong>both</strong> the images on CD AND the printed report.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "2. Cardiology narrative. A current evaluation by the cardiologist in the form of a detailed Clinical Progress Note which must include:",
+   "html": "<p>2. <strong>Cardiology narrative</strong>. A current evaluation by the cardiologist in the form of a detailed Clinical Progress Note which must include:</p>"
+  },
+  {
+   "type": "list",
+   "page": 531,
+   "text": "- A detailed summary of the history of any cardiac or co-morbid condition(s);\n- Personal and family medical history including premature heart disease;\n- Current medications, dosage, and side effects (if any);\n- Clinical cardiac and general physical exam findings;\n- Results of any testing performed;\n- Diagnosis;\n- Assessment and plan;\n- Prognosis and Follow-up.",
+   "html": "<ul><li>A detailed summary of the history of any cardiac or co-morbid condition(s);</li><li>Personal and family medical history including premature heart disease;</li><li>Current medications, dosage, and side effects (if any);</li><li>Clinical cardiac and general physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis and Follow-up.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 531,
+   "text": "It must specifically include:",
+   "html": "<p>It must specifically include:</p>"
+  },
+  {
+   "type": "list",
+   "page": 531,
+   "text": "- If hospitalization or procedure, include a summary of events that led to the cardiac intervention(s) or treatment;\n- A statement regarding the individual’s functional capacity and if they have been returned to their regular activity; • Attempts to meet the guidelines for modifiable risk factors (such as lipid levels, aspirin use, beta-blocker use, and smoking cessation per the American College of Cardiology and American Heart Association); and\n- Prognosis for incapacitation.",
+   "html": "<ul><li>If hospitalization or procedure, include a summary of events that led to the cardiac intervention(s) or treatment;</li><li>A statement regarding the individual’s functional capacity and if they have been returned to their regular activity; • Attempts to meet the guidelines for modifiable risk factors (such as lipid levels, aspirin use, beta-blocker use, and smoking cessation per the American College of Cardiology and American Heart Association); and</li><li>Prognosis for incapacitation.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "3. Labs performed no more than 90 days before AME exam",
+   "html": "<p>3. <strong>Labs </strong>performed no more than 90 days before AME exam</p>"
+  },
+  {
+   "type": "list",
+   "page": 532,
+   "text": "- Hemoglobin A1c;\n- Lipid profile to include total cholesterol, HDL, LDL, and triglycerides; and\n- INR monthly readings if on warfarin (Jantoven)",
+   "html": "<ul><li>Hemoglobin A1c;</li><li>Lipid profile to include total cholesterol, HDL, LDL, and triglycerides; and</li><li>INR monthly readings if on warfarin (Jantoven)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "4. Post-Event Radionuclide stress test (Stress RS) with imaging performed AFTER the event. Submit the report, images on CD in DICOM format (e.g., the “Rest/Stress multi-slice three-axis splash images”), and electrical tracings. Note: A Stress echo cannot take the place of the stress RS for 1st or 2nd class (full or limited). Due to poor image quality, Xeroxed or faxed images will not be accepted.",
+   "html": "<p>4. <strong>Post-Event Radionuclide stress test (Stress RS) with imaging performed AFTER the event</strong>. Submit the report, images on CD in DICOM format (e.g., the “Rest/Stress multi-slice three-axis splash images”), and electrical tracings. <strong>Note: </strong>A Stress echo cannot take the place of the stress RS for 1st or 2nd class (full or limited). Due to poor image quality, Xeroxed or faxed images will not be accepted.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "5. Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition. (Informs FAA if you will accept a lower-class medical certificate). It should be submitted regardless of the answer chosen.",
+   "html": "<p>5. <strong>Civil Aerospace Medical Institute (CAMI) Limited Certificate Petition</strong>. (Informs FAA if you will accept a lower-class medical certificate). It should be submitted regardless of the answer chosen.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "6. Post-Event Heart Catheterization (Heart cath/cardiac angiography) with imaging. Submit both the report AND actual images on CD.",
+   "html": "<p>6. <strong> Post-Event Heart Catheterization (Heart cath/cardiac angiography) with imaging.</strong> Submit both the report AND actual images on CD.</p>"
+  },
+  {
+   "type": "list",
+   "page": 532,
+   "text": "- Required for 1st class and for full 2nd class\n- Not required for Limited Second Class or ATCS\n- For new applicants, the post-event cath must have been performed within the last five (5) years.",
+   "html": "<ul><li>Required for 1st class and for full 2nd class</li><li>Not required for Limited Second Class or ATCS</li><li>For new applicants, the post-event cath must have been performed within the last five (5) years.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "It is the responsibility of each pilot/ATCS to provide the medical information required to determine his/her eligibility for airman medical certification.",
+   "html": "<p><strong>It is the responsibility of each pilot/ATCS to provide the medical information required to determine his/her eligibility for airman medical certification. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "To aid in the review process, it is critical that the individual’s full name and date of birth appear on all correspondence and reports. The AME may upload the reports electronically; however, the CD containing images must be mailed. Alternatively, the AME may mail all items together in one package—do not send items in separate shipments. Mail the CD or ONE complete package to one of the following:",
+   "html": "<p>To aid in the review process, it is critical that the individual’s <strong>full name and date of birth </strong>appear on all correspondence and reports. The AME may upload the reports electronically; however, the CD containing images <strong>must be mailed</strong>. Alternatively, the AME may mail all items <strong>together in one package</strong>—do <strong>not</strong> send items in separate shipments. Mail the CD or ONE complete package to <strong>one</strong> of the following:</p>"
+  },
+  {
+   "type": "table",
+   "page": 532,
+   "header": [
+    "Using regular mail (US Postal Service)",
+    "Using special mail (FedEx, UPS, etc.)"
+   ],
+   "rows": [
+    [
+     "Federal Aviation Administration Civil Aerospace Medical Institute, Building 13 Aerospace Medical Certification Division, AAM-313 PO Box 25082 Oklahoma City, OK 73125-9914",
+     "Federal Aviation Administration Medical Appeals Section, AAM-313 Aerospace Medical Certification Division 6700 S MacArthur Boulevard, Room B-13 Oklahoma City, OK 73169"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Using regular mail (US Postal Service)</th><th>Using special mail (FedEx, UPS, etc.)</th></tr></thead><tbody><tr><td><p>Federal Aviation Administration</p>\n<p>Civil Aerospace Medical Institute, Building 13</p>\n<p>Aerospace Medical Certification Division, AAM-313</p>\n<p>PO Box 25082</p>\n<p>Oklahoma City, OK 73125-9914</p></td><td><p>Federal Aviation Administration Medical Appeals Section, AAM-313</p>\n<p>Aerospace Medical Certification Division</p>\n<p>6700 S MacArthur Boulevard, Room B-13</p>\n<p>Oklahoma City, OK 73169</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "For employee ATCS, submit all information to your Regional Flight Surgeon’s office.",
+   "html": "<p>For employee ATCS, submit all information to your Regional Flight Surgeon’s office.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "NOTE: No consideration will be given for special issuance/special consideration until ALL the required data has been received.",
+   "html": "<p><strong>NOTE: </strong>No consideration will be given for special issuance/special consideration until ALL the required data has been received.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 532,
+   "text": "If an employee ATCS or contract tower ATCS also desires an airman medical certificate, then all the",
+   "html": "<p>If an employee ATCS or contract tower ATCS also desires an airman medical certificate, then all the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 533,
+   "text": "requirements for an airman medical certificate apply.",
+   "html": "<p>requirements for an airman medical certificate apply.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 533,
+   "text": "If FAS Cardiology Consultant or FAS Cardiac Panel is required, allow additional time for the package contents to be verified for completeness prior to cardiologist review.",
+   "html": "<p>If FAS Cardiology Consultant or FAS Cardiac Panel is required, allow additional time for the package contents to be verified for completeness prior to cardiologist review.</p>"
+  }
+ ]
+}

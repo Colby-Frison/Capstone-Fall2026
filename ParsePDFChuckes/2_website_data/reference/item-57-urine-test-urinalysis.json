@@ -1,0 +1,125 @@
+{
+ "slug": "item-57-urine-test-urinalysis",
+ "title": "ITEM 57. Urine Test/Urinalysis",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  491
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 491,
+   "header": null,
+   "rows": [
+    [
+     "57. Urine Test (If abnormal, give results)",
+     "Albumin",
+     "Sugar"
+    ],
+    [
+     "Normal Abnormal",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p>57. Urine Test (If abnormal, give results)</p></td><td><p>Albumin</p></td><td><p>Sugar</p></td></tr><tr><td><p> Normal Abnormal</p></td><td></td><td><p></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "All Classes: 14 CFR 67.113(a)(b), 67.213(a)(b), and 67.313(a)(b)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(a)(b), 67.213(a)(b), and 67.313(a)(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "(a) No established medical history or clinical diagnosis of diabetes mellitus that",
+   "html": "<p>(a) No established medical history or clinical diagnosis of diabetes mellitus that</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "requires insulin or any other hypoglycemic drug for control.",
+   "html": "<p>requires insulin or any other hypoglycemic drug for control.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds:",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition involved, finds:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "Any standard laboratory procedures are acceptable for these tests.",
+   "html": "<p>Any standard laboratory procedures are acceptable for these tests.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "Glycosuria or proteinuria is cause for deferral of medical certificate issuance until additional studies determine the status of the endocrine and/or urinary systems. If the glycosuria has been determined not to be due to carbohydrate intolerance, the AME may issue the certificate. Trace or 1+ proteinuria in the absence of a history of renal disease is not cause for denial.",
+   "html": "<p>Glycosuria or proteinuria is cause for deferral of medical certificate issuance until additional studies determine the status of the endocrine and/or urinary systems. If the glycosuria has been determined not to be due to carbohydrate intolerance, the AME may issue the certificate. Trace or 1+ proteinuria in the absence of a history of renal disease is not cause for denial.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "The AME may request additional urinary tests when they are indicated by history or examination. These should be reported on FAA Form 8500-8 or attached to the form as an addendum.",
+   "html": "<p>The AME may request additional urinary tests when they are indicated by history or examination. These should be reported on FAA Form 8500-8 or attached to the form as an addendum.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 491,
+   "text": "See Item 48., General Systemic.",
+   "html": "<p>See <strong>Item 48., General Systemic. </strong></p>"
+  }
+ ]
+}

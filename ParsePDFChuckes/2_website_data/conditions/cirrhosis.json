@@ -1,0 +1,120 @@
+{
+ "id": "cirrhosis",
+ "name": "Cirrhosis",
+ "subtitle": null,
+ "name_in_guide": "CIRRHOSIS",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 73,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Most recent detailed clinical progress note from the treating physician",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating hepatologist (liver specialist) or gastroenterologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "It must specifically include:",
+  "If there is ANY history of hepatic encephalopathy, ascites or varices.",
+  "Calculation of Child-Pugh score",
+  "Lab: Performed within 90 days of exam to include:",
+  "Comprehensive metabolic panel;",
+  "GGT;",
+  "Alpha-fetoprotein; and",
+  "PT/PTT/INR",
+  "All items in Row B",
+  "Once stable, all items for Substance Abuse/Dependence"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Cirrhosis identified on imaging only (e.g. ultrasound/ MRI)",
+   "condition_html": "<p><strong>A.</strong></p>\n<p>Cirrhosis identified on imaging only (e.g. ultrasound/ MRI)</p>",
+   "evaluation_data": "The AME should review the following: - Most recent detailed clinical progress note from the treating physician If this documentation verifies no history of or concern of a diagnosis of cirrhosis or liver disease: NOTE: If diagnosis of cirrhosis is confirmed, go to row B or C. If diagnosed with metabolic dysfunction associated steatotic liver disease (MASLD), non-alcoholic fatty liver disease (NAFLD), or non-alcoholic/metabolic associated steatohepatitis (MASH/NASH) , see that page.",
+   "evaluation_data_html": "<p>The AME should review the following:</p>\n<ul><li>Most recent detailed clinical progress note from the treating physician</li></ul>\n<p>If this documentation verifies no history of or concern of a diagnosis of cirrhosis or liver disease:</p>\n<p>NOTE:</p>\n<p>If diagnosis of cirrhosis is confirmed, go to row B or C.</p>\n<p>If diagnosed with <a href=\"https://www.faa.gov/ame_guide/media/MASLD_MASH_Dispo_Table.pdf\" target=\"_blank\" rel=\"noopener\">metabolic dysfunction associated steatotic liver disease (MASLD), non-alcoholic fatty liver disease (NAFLD), or non-alcoholic/metabolic associated steatohepatitis (MASH/NASH)</a> , see that page.</p>",
+   "what_to_bring": [
+    "Most recent detailed clinical progress note from the treating physician"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60 <strong>and submit</strong> the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 208,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Non-alcoholic cirrhosis",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Non-alcoholic cirrhosis</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating hepatologist (liver specialist) or gastroenterologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 2. It must specifically include: - How the condition was diagnosed, etiology, hospitalizations, - If there is ANY history of hepatic encephalopathy, ascites or varices. - Calculation of Child-Pugh score - 3. Lab: Performed within 90 days of exam to include: - CBC; - Comprehensive metabolic panel; - GGT; - Alpha-fetoprotein; and - PT/PTT/INR",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>hepatologist (liver specialist) or gastroenterologist</strong> no more than <strong>90 days before</strong> the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li><li><strong>2. </strong>It must specifically include:<ul><li>How the condition was diagnosed, etiology, hospitalizations,</li><li>If there is ANY history of hepatic encephalopathy, ascites or varices.</li><li>Calculation of <strong>Child-Pugh score</strong></li></ul></li><li><strong>3. Lab: </strong>Performed within 90 days of exam to include:<ul><li>CBC;</li><li>Comprehensive metabolic panel;</li><li>GGT;</li><li>Alpha-fetoprotein; and</li><li>PT/PTT/INR</li></ul></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating hepatologist (liver specialist) or gastroenterologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "It must specifically include:",
+    "If there is ANY history of hepatic encephalopathy, ascites or varices.",
+    "Calculation of Child-Pugh score",
+    "Lab: Performed within 90 days of exam to include:",
+    "Comprehensive metabolic panel;",
+    "GGT;",
+    "Alpha-fetoprotein; and",
+    "PT/PTT/INR"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60. - 4. Most recent imaging studies (e.g., ultrasound, MRI, etc.) - 5. Most recent upper endoscopy report and any associated pathology reports - 6. Biopsy results (if performed) - 7. Neuropsychological Evaluation with interpretation of CogScreen-Aeromedical Edition.* - 8. Results of any other testing deemed appropriate by the treating physician. *Note: If CogScreen-AE is interpreted as abnormal, completion of neurocognitive testing per specs for Potential Neurocognitive Impairment is indicated.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>\n<ul><li><strong>4. </strong>Most recent imaging studies (e.g., ultrasound, MRI, etc.)</li><li><strong>5. </strong>Most recent upper endoscopy report and any associated pathology reports</li><li><strong>6. </strong>Biopsy results (if performed)</li><li><strong>7. </strong>Neuropsychological Evaluation with interpretation of CogScreen-Aeromedical Edition.*</li><li><strong>8. </strong>Results of any other testing deemed appropriate by the treating physician.</li></ul>\n<p>*Note: If CogScreen-AE is interpreted as abnormal, completion of neurocognitive testing per specs for Potential Neurocognitive Impairment is indicated.</p>",
+   "pdf_page": 208,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Alcoholic Cirrhosis",
+   "condition_html": "<p><strong>C.</strong> Alcoholic Cirrhosis</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. All items in Row B - 2. Once stable, all items for Substance Abuse/Dependence",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>All items in Row B</li><li><strong>2. </strong>Once stable, all items for <a href=\"https://www.faa.gov/ame_guide/abuse_dep\" target=\"_blank\" rel=\"noopener\">Substance Abuse/Dependence</a></li></ul>",
+   "what_to_bring": [
+    "All items in Row B",
+    "Once stable, all items for Substance Abuse/Dependence"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 208,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "metabolic dysfunction associated steatotic liver disease (MASLD), non-alcoholic fatty liver disease (NAFLD), or non-alcoholic/metabolic associated steatohepatitis (MASH/NASH)",
+   "href": "https://www.faa.gov/ame_guide/media/MASLD_MASH_Dispo_Table.pdf"
+  },
+  {
+   "text": "Substance Abuse/Dependence",
+   "href": "https://www.faa.gov/ame_guide/abuse_dep"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-38-abdomen-and-viscera",
+  "section_title": "ITEM 38. Abdomen and Viscera",
+  "pdf_pages": [
+   208
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

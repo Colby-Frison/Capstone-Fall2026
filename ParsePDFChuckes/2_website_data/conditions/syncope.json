@@ -1,0 +1,123 @@
+{
+ "id": "syncope",
+ "name": "Syncope",
+ "subtitle": null,
+ "name_in_guide": "SYNCOPE",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/29/2024",
+ "order": 56,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Cardiac Evaluation ;",
+  "Echocardiogram (Echo);",
+  "Exercise Stress Test (EST);",
+  "14-day Holter (event) monitor;",
+  "Lab:",
+  "Lipid panel",
+  "Complete Blood Count",
+  "EMS/ambulance run sheet (if applicable);",
+  "Emergency Department records (if applicable); and",
+  "If age 40 or older at time of event, a carotid duplex ultrasound performed within the previous one (1) year.",
+  "Items in Row B",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Simple, known cause* (e.g., blood draw) AND Completely resolved *May be single or multiple events from known cause.",
+   "condition_html": "<p><strong>A.</strong></p>\n<p>Simple, <strong>known</strong> cause*</p>\n<p>(e.g., blood draw)</p>\n<p>AND</p>\n<p><strong>Completely</strong> resolved</p>\n<p>*May be single or multiple events from <strong>known</strong> cause.</p>",
+   "evaluation_data": "The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL of the questions on the Syncope Decision Tool for the AME. If an underlying cause if found, or if from head injury or associated with drugs or alcohol, see that section.",
+   "evaluation_data_html": "<p>The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address <strong>ALL </strong>of the questions on the <a href=\"https://www.faa.gov/ame_guide/media/Syncope_Decision_Tool.pdf\" target=\"_blank\" rel=\"noopener\">Syncope Decision Tool for the AME.</a></p>\n<p>If an underlying cause if found, or if from head injury or associated with drugs or alcohol, see that section.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If ALL items on the Syncope Decision Tool are in the “NO”/clear column, the AME may: ISSUE Summarize this history and annotate Block 60 with “Discussed the history of SYNCOPE, no positives to screening questions, and no concerns.” If any “YES” answers, any AME concerns, or unable to verify history - go to Row B.",
+   "disposition_html": "<p>If <strong>ALL</strong> items on the Syncope Decision Tool are in the<strong> “NO”/clear column, the AME may: </strong></p>\n<p><strong>ISSUE </strong></p>\n<p>Summarize this history and annotate Block 60 with <strong>“Discussed the history of SYNCOPE, no positives to screening questions, and no concerns.” </strong></p>\n<p>If any “<strong>YES</strong>” answers, any AME concerns,</p>\n<p>or unable to verify history - go to Row B.</p>",
+   "pdf_page": 176,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Unknown or unexplained cause OR Multiple unrelated syncopal events If due to a cardiac cause such as myocardial infarction or ischemia, see that page",
+   "condition_html": "<p><strong>B.</strong> Unknown or unexplained cause</p>\n<p>OR</p>\n<p>Multiple unrelated syncopal events</p>\n<p>If due to a cardiac cause such as myocardial infarction or ischemia, see that page</p>",
+   "evaluation_data": "Submit the following for FAA review: Testing must be performed within the past 90 days to be considered current. - Cardiac Evaluation ; - Echocardiogram (Echo); - Exercise Stress Test (EST); - 14-day Holter (event) monitor; - Lab: - Hemoglobin A1c - Lipid panel - Complete Blood Count - EMS/ambulance run sheet (if applicable); - Emergency Department records (if applicable); and - If age 40 or older at time of event, a carotid duplex ultrasound performed within the previous one (1) year.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>Testing must be <strong>performed within the past 90 days</strong> to be considered current.</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf\" target=\"_blank\" rel=\"noopener\">• Cardiac Evaluation</a> <strong>; </strong></li><li>Echocardiogram (Echo);</li><li>Exercise Stress Test (EST);</li><li>14-day Holter (event) monitor;</li><li>Lab:<ul><li>Hemoglobin A1c</li><li>Lipid panel</li><li>Complete Blood Count</li></ul></li><li>EMS/ambulance run sheet (if applicable);</li><li>Emergency Department records (if applicable); and</li><li>If age 40 or older at time of event, a carotid duplex ultrasound performed within the previous one (1) year.</li></ul>",
+   "what_to_bring": [
+    "Cardiac Evaluation ;",
+    "Echocardiogram (Echo);",
+    "Exercise Stress Test (EST);",
+    "14-day Holter (event) monitor;",
+    "Lab:",
+    "Lipid panel",
+    "Complete Blood Count",
+    "EMS/ambulance run sheet (if applicable);",
+    "Emergency Department records (if applicable); and",
+    "If age 40 or older at time of event, a carotid duplex ultrasound performed within the previous one (1) year."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 176,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Unexplained syncope AFTER a cardiac evaluation has been performed (and no cardiac cause found)",
+   "condition_html": "<p>C. Unexplained syncope AFTER a cardiac evaluation has been performed (and no cardiac cause found)</p>",
+   "evaluation_data": "Submit the following for FAA review: - Items in Row B - A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. Note: If no definitive cause for syncope (e.g., unexplained loss of consciousness), a two (2) year recovery period is required. If head injury occurred, see that page.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>Items in Row B</li><li>A current, detailed neurological evaluation that meets <a href=\"https://www.faa.gov/sites/faa.gov/files/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.</li></ul>\n<p><strong>Note:</strong> If no definitive cause for syncope (e.g., unexplained loss of consciousness), a <strong>two (2) year recovery period is required</strong>.</p>\n<p>If head injury occurred, see that page.</p>",
+   "what_to_bring": [
+    "Items in Row B",
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p>DEFER</p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 176,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>SYNCOPE DECISION TOOL FOR THE AME </strong></p>\n<p>(Updated 03/25/2026)</p>\n<p>The AME should elicit what likely caused the syncopal episode(s). If the individual has recently been exposed to these event(s) (e.g., blood draw, dehydration, etc.), do they continue to react? The AME should also take into consideration the likelihood of the likely cause being encountered when flying or in everyday life.</p>\n<p>If the AME is unsure of any of the above criteria, the diagnosis, or severity - DEFER and describe in Item 60</p>\n<p><strong>AME Instructions: </strong>Address each the following items in your in-office exam and history review:</p>\n<ul><li>1. Was there any question or uncertainty as to what likely caused the event?</li></ul>\n<table><thead><tr><th>NO</th><th>YES*</th></tr></thead><tbody></tbody></table>\n<p>(Common causes of syncope include viral illness, GI, prolonged standing, dehydration, or blood draw.)</p>\n<ul><li>2. Was the individual incapacitated after the event? If yes, how long? ___________</li></ul>\n<ul><li>3. Have there been any additional, <strong>unrelated</strong> syncopal event(s) within the <strong>past five (5) years</strong>?</li></ul>\n<ul><li>4. Are there any elements in the history (such as nature of the triggers or resultant injury) which cause you to question whether the event is of aeromedical concern?</li></ul>\n<ul><li>5. If evaluated by a medical professional: Was the diagnosis <strong>cardiac syncope</strong> or any evidence of cardiac pathology/cause?</li></ul>\n<ul><li>6. Do you have ANY concerns regarding this individual or are unable to obtain a complete history?</li></ul>\n<p>*If <strong>ALL</strong> items fall into the clear/NO column, the AME may issue with notes in Item 60 which show you discussed the history of syncope, found no positives to the screening questions, AND had no concerns.</p>\n<p><strong>If ANY SINGLE ITEM falls into the SHADED/YES COLUMN, the AME MUST DEFER. The AME report should note what aspect caused the deferral and explain any YES answers from the shaded column. </strong></p>\n<p><strong>This decision tool is for AME use; it does not have to be submitted to the FAA. </strong></p>",
+ "links": [
+  {
+   "text": "Syncope Decision Tool for the AME.",
+   "href": "https://www.faa.gov/ame_guide/media/Syncope_Decision_Tool.pdf"
+  },
+  {
+   "text": "• Cardiac Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/Cardiovascular_Evaluation_Protocol.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/sites/faa.gov/files/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "coronary-heart-disease",
+  "section_title": "CORONARY HEART DISEASE",
+  "pdf_pages": [
+   176,
+   178
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

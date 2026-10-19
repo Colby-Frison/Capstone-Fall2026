@@ -1,0 +1,17 @@
+{
+ "slug": "item-20-applicant-s-national-driver-register-and-certifying-declaration",
+ "title": "ITEM 20. Applicant's National Driver Register and Certifying Declaration",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  53
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 53,
+   "text": "In addition to making a declaration of the completeness and truthfulness of the applicant's responses on the medical application, the applicant's declaration authorizes the National Driver Register to release the applicant's adverse driving history information, if any, to the FAA. The FAA uses such information to verify information provided in the application. Applicant must certify the declaration outlined in Item 20. If the applicant does not certify the declaration for any reason, AME shall not issue a medical certificate but forward the incomplete application to the AMCD.",
+   "html": "<p>In addition to making a declaration of the completeness and truthfulness of the applicant&#x27;s responses on the medical application, the applicant&#x27;s declaration authorizes the National Driver Register to release the applicant&#x27;s adverse driving history information, if any, to the FAA. The FAA uses such information to verify information provided in the application. Applicant must certify the declaration outlined in Item 20. If the applicant does not certify the declaration for any reason, AME shall not issue a medical certificate but forward the incomplete application to the AMCD.</p>"
+  }
+ ]
+}

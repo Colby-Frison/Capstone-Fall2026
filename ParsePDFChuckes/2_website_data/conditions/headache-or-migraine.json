@@ -1,0 +1,166 @@
+{
+ "id": "headache-or-migraine",
+ "name": "Headache or Migraine",
+ "subtitle": "(Cluster, Tension, Ocular, Acephalgic, Ophthalmic, or Retinal)",
+ "name_in_guide": "HEADACHE or MIGRAINE (Cluster, Tension, Ocular, Acephalgic, Ophthalmic, or Retinal)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 130,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Average of less than two headache days per month;",
+  "Medications are acceptable (seldom requiring more than OTC analgesics);",
+  "Is not incapacitating (The individual has no symptoms that would interfere with flight duties.); and",
+  "Not associated with any neurological findings:",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "MRI* of the brain performed no more than one (1) year before the AME exam.",
+  "If an MRI is contraindicated or cannot be performed, the treating neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist.",
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "Number of headache days per month per the applicant.",
+  "Other testing completed or deemed necessary by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Stress Headache Tension Headache Controlled with OTC meds",
+   "condition_html": "<p><strong>A.</strong> Stress Headache</p>\n<p>Tension Headache</p>\n<p>Controlled with OTC meds</p>",
+   "evaluation_data": "If the AME can determine the condition is: mild and under control: - Average of less than two headache days per month; - Medications are acceptable (seldom requiring more than OTC analgesics); - Is not incapacitating (The individual has no symptoms that would interfere with flight duties.); and - Not associated with any neurological findings:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is: mild and under control:</p>\n<ul><li>Average of less than two headache days per month;</li><li>Medications are acceptable (seldom requiring more than OTC analgesics);</li><li>Is not incapacitating (The individual has no symptoms that would interfere with flight duties.); and</li><li>Not associated with any neurological findings:</li></ul>",
+   "what_to_bring": [
+    "Average of less than two headache days per month;",
+    "Medications are acceptable (seldom requiring more than OTC analgesics);",
+    "Is not incapacitating (The individual has no symptoms that would interfere with flight duties.); and",
+    "Not associated with any neurological findings:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 326,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Migraine with aura (Classic migraine/ Common Migraine) OR Chronic tension OR Chronic daily OR Cluster OR (Older terms include acephalgic migraine, ocular migraine, ophthalmic migraine Classic migraine is now called migraine headache with aura.)",
+   "condition_html": "<p><strong>B.</strong> Migraine with aura (Classic migraine/ Common Migraine)</p>\n<p>OR</p>\n<p>Chronic tension</p>\n<p>OR</p>\n<p>Chronic daily</p>\n<p>OR</p>\n<p>Cluster</p>\n<p>OR</p>\n<p>(Older terms include acephalgic migraine, ocular migraine, ophthalmic migraine</p>\n<p>Classic migraine is now called migraine headache with aura.)</p>",
+   "evaluation_data": "See the CACI-Migraine and Chronic Headache Worksheet . This will require a current, detailed Clinical Progress Note from the treating physician or neurologist.",
+   "evaluation_data_html": "<p><strong>See the </strong> <a href=\"https://www.faa.gov/ame_guide/media/C-CACIMigraine.pdf\" target=\"_blank\" rel=\"noopener\">CACI-Migraine and Chronic Headache Worksheet</a> <strong>. </strong></p>\n<p>This will require a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> from the treating physician or neurologist.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci",
+    "issue"
+   ],
+   "disposition": "If the pilot meets all CACI worksheet criteria and is otherwise qualified ISSUE with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p>If the pilot meets<strong> all</strong> CACI worksheet criteria and is otherwise qualified</p>\n<p><strong>ISSUE </strong></p>\n<p>with no time limitation</p>\n<p>Annotate the<strong> correct CACI statement</strong> in Block 60 <strong>and keep the required supporting information</strong></p>\n<p><strong>on file.</strong></p>",
+   "pdf_page": 326,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Any history of a migraine which results in disabling visual symptoms such as loss of central vision or large visual field cut (excluding migraine aura) OR Chronic daily, OR Complicated migraine, OR Post-traumatic headaches, OR Retinal migraine. (This type spreads across the retina and the concern is Amaurosis). Previously called ocular migraine. OR Vestibular migraine",
+   "condition_html": "<p><strong>C.</strong></p>\n<p>Any history of a migraine which results in disabling visual symptoms such as loss of central vision or large visual field cut (excluding migraine aura)</p>\n<p>OR</p>\n<p>Chronic daily,</p>\n<p>OR</p>\n<p>Complicated migraine,</p>\n<p>OR</p>\n<p>Post-traumatic headaches,</p>\n<p>OR</p>\n<p>Retinal migraine.</p>\n<p>(This type spreads across the retina and the concern is Amaurosis). Previously called ocular migraine.</p>\n<p>OR</p>\n<p>Vestibular migraine</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. MRI* of the brain performed no more than one (1) year before the AME exam. - If an MRI is contraindicated or cannot be performed, the treating neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 3. Number of headache days per month per the applicant. - 4. Other testing completed or deemed necessary by the treating physician. Note: If associated with a seizure – see seizure section. Chronic recurring headaches or pain syndromes often require medication for relief or prophylaxis, and, in some instances, the use of such medications is disqualifying because they may interfere with the individual's alertness and functioning. In some conditions, pain may be incapacitating.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. <strong>MRI* of the brain </strong>performed <strong>no more than one (1) year before </strong>the AME exam.</li></ul>\n<ul><li>If an MRI is contraindicated or cannot be performed, the treating neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist.</li></ul>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li>3. Number of headache days per month per the applicant.</li></ul>\n<ul><li>4. <strong>Other testing completed or </strong>deemed necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> If associated with a seizure – see seizure section. Chronic recurring headaches or pain syndromes often require medication for relief or prophylaxis, and, in some instances, the use of such medications is disqualifying because they may interfere with the individual&#x27;s alertness and functioning. In some conditions, pain may be incapacitating.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "MRI* of the brain performed no more than one (1) year before the AME exam.",
+    "If an MRI is contraindicated or cannot be performed, the treating neurologist should discuss why. If CT is used, with or without contrast is per the treating neurologist.",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "Number of headache days per month per the applicant.",
+    "Other testing completed or deemed necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 326,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Migraine and Chronic Headache Worksheet",
+   "updated": "08/26/2026",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed clinical progress note from the treating physician verifies:",
+     "acceptable_certification_criteria": "[ ] The condition stable on current regimen and no management changes are recommended."
+    },
+    {
+     "ame_must_review": "Type of headache",
+     "acceptable_certification_criteria": "[ ] Migraine (with or without aura), tension headache, cluster headache."
+    },
+    {
+     "ame_must_review": "Frequency and severity",
+     "acceptable_certification_criteria": "[ ] No more than one episode per month [ ] In the last 12 months, no more than 2 outpatient clinic/urgent care visits for symptom exacerbation (even if symptoms fully resolved) [ ] No history of in-patient hospitalizations for headaches."
+    },
+    {
+     "ame_must_review": "Symptoms",
+     "acceptable_certification_criteria": "[ ] Only mild non-disabling symptoms. [ ] No symptoms that functionally impair vision. [ ] NONE of the following: - Any neurological impairment or TIA-type symptoms; - Auras WITHOUT headaches; - Impairment of central vision or functionally significant impairment of peripheral vision; - Vertigo; syncope; or mental status change."
+    },
+    {
+     "ame_must_review": "Medications - Preventive NOT acceptable: Tricyclic antidepressants (TCAs), anticonvulsants",
+     "acceptable_certification_criteria": "[ ] None or any of the following alone or in combination, provided no side effects and completed ground trial. - ACE inhibitors (ACE-I) - Angiotensin receptor blockers (ARB) - Beta blockers - Calcium channel blockers (CCB), - CGRP antagonists used only for prevention (prophylaxis)."
+    },
+    {
+     "ame_must_review": "Medications or treatment - Relief/Rescue NOT acceptable: Narcotics, Fiorinal, Fioricet, or Midrin. Detailed list of migraine medications and no fly/no SRD time after use can be found Pharmaceuticals - Migraine Medications",
+     "acceptable_certification_criteria": "[ ] None; or Over the Counter (OTC) headache medications; or other modalities such as heat, traction, acupressure, and massage devices, to prevent, stop, and treat headaches. OR [ ] One or more of the following: - Triptans (monotherapy or with NSAID combination) 24 hour no-fly Except eletriptan (Relpax) and frovatriptan (Frova): 48 hours - metoclopramide (Reglan): 36 hour no-fly - ondansetron (Zofran): 24 hour no-fly - promethazine (Phenergan): 96 hour no-fly - Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonist with 24 hour no fly time: ubrogepant (Ubrelvy); Rimegepant (Nurtec)"
+    },
+    {
+     "ame_must_review": "Transcutaneous electrical nerve stimulation (TENS) units (such as Cefaly, gammaCore, Relivion MG, or Nerivio)",
+     "acceptable_certification_criteria": "[ ] None OR Used alone or with acceptable adjunctive medications. - Prevention (prophylactic) use: 8 hour no fly - Relief/Rescue and therapeutic use: 24 hour no-fly NOT acceptable: If device causes sedation or cognitive changes."
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified migraine and chronic headaches. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified migraine and chronic headaches.",
+    "NOT CACI qualified migraine and chronic headaches. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Notes:</strong> Pain, in some conditions, may be acutely incapacitating. Chronic recurring headaches or pain syndromes often require medication for relief or prophylaxis, and, in most instances, the use of such medications is disqualifying because they may interfere with a pilot&#x27;s alertness and functioning.</p>\n<p>Also see <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/migraine\" target=\"_blank\" rel=\"noopener\">AASI Migraines</a> .</p>\n<p>(Updated 08/26/2026)</p>",
+ "links": [
+  {
+   "text": "AASI Migraines",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/migraine"
+  },
+  {
+   "text": "CACI-Migraine and Chronic Headache Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIMigraine.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   326,
+   327,
+   328
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "aasi-for-mitral-valve-disease",
+ "title": "AASI for Mitral Valve Disease",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  709
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "Mitral Regurgitation; Mitral Insufficiency; Mitral Valve Prolapse (MVP)",
+   "html": "<p>Mitral Regurgitation; Mitral Insufficiency; Mitral Valve Prolapse (MVP)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 709,
+   "text": "- An Authorization granted by the FAA;\n- A detailed Clinical Progress Note from the treating cardiologist describing current clinical findings, any symptoms, new arrhythmia, develop of a severe murmur or any severe valve regurgitation, valve insufficiency or valve prolapse or if surgery is recommended; and\n- A current 2-D echocardiogram (Echo) with Doppler performed within the last 90 days.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>A detailed Clinical Progress Note from the treating <strong>cardiologist</strong> describing current clinical findings, any symptoms, new arrhythmia, develop of a severe murmur or any severe valve regurgitation, valve insufficiency or valve prolapse or if surgery is recommended; and</li><li>A current 2-D echocardiogram (<strong>Echo</strong>) with Doppler performed within the last 90 days.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 709,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 709,
+   "text": "- New symptoms occur; OR\n- An arrhythmia develops; OR\n- The treating physician or AME reports a severe murmur; OR\n- Echo report identifies SEVERE Valve Regurgitation, Valve Insufficiency or Valve Prolapse.",
+   "html": "<ul><li>New symptoms occur; OR</li><li>An arrhythmia develops; OR</li><li>The treating physician or AME reports a severe murmur; OR</li><li>Echo report identifies SEVERE Valve Regurgitation, Valve Insufficiency or Valve Prolapse.</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "slug": "ame-physical-examination-information-and-disposition-tables",
+ "title": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  58,
+  59
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 58,
+   "text": "Items 25-48 of FAA Form 8500-8",
+   "html": "<p><strong>Items 25-48 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 59,
+   "text": "Aerospace Medical Dispositions",
+   "html": "<p><strong>Aerospace Medical Dispositions </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 59,
+   "text": "(Updated 3/25/2026)",
+   "html": "<p>(Updated 3/25/2026)</p>"
+  },
+  {
+   "type": "list",
+   "page": 59,
+   "text": "- Click any of the following Aerospace Medical Disposition Tables to access the most common conditions of aeromedical significance, and course of action that should be taken by the AME.\n- The tables are not all-inclusive.\n- For any Condition Not Listed , see that page for general guidance.\n- Do NOT issue a medical certificate without first consulting AMCD or RFS if: - The condition requires deferral per the tables, or - The condition is not listed and may cause subtle or sudden incapacitation.",
+   "html": "<ul><li>Click any of the following <a href=\"https://www.faa.gov/ame_guide/dec_cons/disp/\" target=\"_blank\" rel=\"noopener\">Aerospace Medical Disposition Tables</a> to access the most common conditions of aeromedical significance, and course of action that should be taken by the AME.</li><li>The tables are <strong>not all-inclusive</strong>.</li><li>For any <a href=\"https://www.faa.gov/ame_guide/media/ConditionNotListed_DispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">Condition Not Listed</a> , see that page for general guidance.</li><li><p>• <strong>Do NOT issue</strong> a medical certificate without first <strong>consulting AMCD or RFS</strong> if:</p>\n<ul><li>The condition requires deferral per the tables, or</li><li>The condition is not listed and may cause subtle or sudden incapacitation.</li></ul></li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "mitral-valve-repair",
+ "name": "Mitral Valve Repair",
+ "subtitle": null,
+ "name_in_guide": "MITRAL VALVE REPAIR",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/29/2024",
+ "order": 61,
+ "decisions": [
+  "caci",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Hospital admission history and physical;",
+  "Operative report/surgical report;",
+  "Hospital discharge summary;",
+  "Current status report from the treating cardiologist which should describe the type of repair, any complications, current treatment needed, and follow up plan;",
+  "List of medications and side effects, if any;",
+  "Cardiac testing performed AFTER the 3 month recovery period and within the last 90 days:",
+  "Electrocardiogram (ECG);",
+  "Echo; and",
+  "Other imaging reports (if any) for studies performed by the treating cardiologist (e.g., Cath, CTA, or MRA)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "5 or more years ago and no co-morbid conditions*",
+   "condition_html": "<p><strong>A. </strong></p>\n<p><strong>5 or more years ago </strong></p>\n<p>and no co-morbid conditions*</p>",
+   "evaluation_data": "See CACI – Mitral Valve Repair Worksheet. Note to pilot: Take the CACI worksheet to your cardiologist so they can fully address the FAA requirements.",
+   "evaluation_data_html": "<p>See CACI – Mitral Valve Repair Worksheet.</p>\n<p><strong>Note to pilot:</strong> Take the CACI worksheet to your cardiologist so they can fully address the FAA requirements.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI – Mitral Valve Repair Worksheet Annotate Block 60.",
+   "disposition_html": "<p>Follow the</p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/C-CACIMitralValveRepair.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Mitral Valve Repair Worksheet</a></p>\n<p>Annotate</p>\n<p>Block 60.</p>",
+   "pdf_page": 184,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Less than 5 years ago OR Any of the co-morbid conditions below*",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong>Less than 5 years ago </strong></p>\n<p>OR</p>\n<p>Any of the co-morbid</p>\n<p>conditions below*</p>",
+   "evaluation_data": "After a 3 month recovery period submit the following to the FAA for review: - Hospital admission history and physical; - Operative report/surgical report; - Hospital discharge summary; - Current status report from the treating cardiologist which should describe the type of repair, any complications, current treatment needed, and follow up plan; - List of medications and side effects, if any; - Cardiac testing performed AFTER the 3 month recovery period and within the last 90 days: - o 24-hour Holter; - Electrocardiogram (ECG); - Echo; and - Other imaging reports (if any) for studies performed by the treating cardiologist (e.g., Cath, CTA, or MRA).",
+   "evaluation_data_html": "<p>After a <strong>3 month recovery period</strong> submit the following to the FAA for review:</p>\n<ul><li> Hospital admission history and physical;</li><li> Operative report/surgical report;</li><li> Hospital discharge summary;</li><li> Current status report from the treating cardiologist which should describe the type of repair, any complications, current treatment needed, and follow up plan;</li><li> List of medications and side effects, if any;</li><li> Cardiac testing performed AFTER the 3 month recovery period and within the last 90 days:<ul><li>o 24-hour Holter;</li><li>Electrocardiogram (ECG);</li><li>Echo; and</li></ul></li></ul>\n<ul><li> Other imaging reports (if any) for studies performed by the treating cardiologist (e.g., Cath, CTA, or MRA).</li></ul>",
+   "what_to_bring": [
+    "Hospital admission history and physical;",
+    "Operative report/surgical report;",
+    "Hospital discharge summary;",
+    "Current status report from the treating cardiologist which should describe the type of repair, any complications, current treatment needed, and follow up plan;",
+    "List of medications and side effects, if any;",
+    "Cardiac testing performed AFTER the 3 month recovery period and within the last 90 days:",
+    "Electrocardiogram (ECG);",
+    "Echo; and",
+    "Other imaging reports (if any) for studies performed by the treating cardiologist (e.g., Cath, CTA, or MRA)."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for review Follow up Issuance Will be per the airman’s authorization Letter",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for review</p>\n<p><strong>Follow up Issuance </strong></p>\n<p>Will be per the airman’s authorization</p>\n<p>Letter</p>",
+   "pdf_page": 184,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Mitral Valve Repair Worksheet",
+   "updated": "03/27/2024",
+   "criteria": [
+    {
+     "ame_must_review": "The airman had Mitral Valve Repair surgery 5 or more years ago for primary mitral valve disease (not secondary MR or functional MR due to coronary heart disease, MI, ischemic disease, or cardiomyopathy).",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "The treating cardiologist’s current, detailed Clinical Progress Note verifies: - Is asymptomatic and stable; - Has no other current cardiac conditions; - Has not developed any new conditions, arrhythmias, or complications that would affect cardiac function; - Requires no more than a routine annual follow-up; and - No additional surgery is anticipated or recommended.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "The airman has NO history of: - Connective tissue disorder (Marfan’s or Ehlers-Danlos, etc.); - Lung disease: COPD (moderate or higher), or pulmonary HTN; or - Other cardiac disease (e.g., Congestive Heart Failure,",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "The most recent echo was performed within the last 24 months shows: - Mitral valve regurgitation (if present) is classified as mild; - No other abnormalities on echo such as: - Dilated aorta greater than 4 cm; - Hypertrophic cardiomyopathy or other cardiomyopathy; - Left Atrial Enlargement; - Aortic regurgitation/insufficiency (any severity); - Regurgitation of any valve moderate or higher; or - Structural abnormalities (dilated ventricle, atria, etc.)",
+     "acceptable_certification_criteria": "[ ] Yes"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Mitral Valve Repair.",
+    "Has current OR previous SI/AASI but now CACI qualified Mitral Valve Repair.",
+    "NOT CACI qualified Mitral Valve Repair. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>Notes:</p>\n<p>*<strong>Co-morbid conditions for FAA purposes include</strong>:</p>\n<ul><li>Cardiac disease (disease of other valves, ischemia, CHF, Left Ventricular Systolic Dysfunction (LVSD), Secondary or Functional mitral valve disease, arrhythmia, etc.);</li><li>Connective tissue disorder (such as Marfan’s or Ehlers-Danlos, etc.);</li><li>Use of warfarin (Jantoven) or other anticoagulation (other than ASA) due to a cardiac condition;</li><li>Lung disease such as COPD (considered moderate to severe; any FEV1 or FVC less than 70%) or Pulmonary Hypertension; or</li><li>Residual Mitral valve regurgitation listed as moderate or higher on cardiac echo.</li></ul>\n<p>(Updated 03/27/2024)</p>\n<p>Notes:</p>\n<ul><li>If any valve other than mitral was involved, the information must be submitted to the FAA for review.</li><li>An annual echo is not required for each FAA exam for this CACI.</li><li>Anticoagulation is not routinely required for mitral valve repair. If warfarin (Jantoven) or other anticoagulation (other than ASA) is required for a cardiac condition, the AME should defer.</li></ul>",
+ "links": [
+  {
+   "text": "CACI – Mitral Valve Repair Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIMitralValveRepair.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "endocarditis",
+  "section_title": "ENDOCARDITIS",
+  "pdf_pages": [
+   184,
+   185
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

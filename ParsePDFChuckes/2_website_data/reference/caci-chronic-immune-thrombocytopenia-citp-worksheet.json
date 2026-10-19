@@ -1,0 +1,123 @@
+{
+ "slug": "caci-chronic-immune-thrombocytopenia-citp-worksheet",
+ "title": "CACI – Chronic Immune Thrombocytopenia (cITP) Worksheet",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  421,
+  422,
+  423
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "(Also known as idiopathic thrombocytopenic purpura, immune thrombocytopenic purpura,",
+   "html": "<p>(Also known as idiopathic thrombocytopenic purpura, immune thrombocytopenic purpura,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "or autoimmune thrombocytopenic purpura (AITP).",
+   "html": "<p>or autoimmune thrombocytopenic purpura (AITP).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "(Updated 04/27/2022)",
+   "html": "<p>(Updated 04/27/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "To determine the applicant’s eligibility for certification, the AME must review a current, detailed Clinical Progress Note generated from a clinic visit with the treating physician or specialist no more than 90 days prior to the AME exam. If the applicant meets ALL the acceptable certification criteria listed below, the AME can issue. Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.",
+   "html": "<p>To determine the applicant’s eligibility for certification, the AME must review a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the treating physician or specialist <strong>no more than 90 days prior </strong>to the AME exam. If the applicant <strong>meets ALL the acceptable certification criteria </strong>listed below, the AME can issue. Applicants for first- or second-class must provide this information annually; applicants for third-class must provide the information with each required exam.</p>"
+  },
+  {
+   "type": "table",
+   "page": 421,
+   "header": null,
+   "rows": [
+    [
+     "AME MUST REVIEW",
+     "ACCEPTABLE CERTIFICATION"
+    ],
+    [
+     "The treating physician’s current, detailed Clinical Progress",
+     "[ ] Yes"
+    ],
+    [
+     "Note verifies: • The condition is CHRONIC ITP* and platelet counts are stable above 50,000/microL; • It has been more than 12 months from diagnosis; • No history of bleeding episodes that required medical",
+     ""
+    ],
+    [
+     "attention ever (medication, IVIG, etc.);",
+     ""
+    ],
+    [
+     "• No splenectomy required for treatment;",
+     ""
+    ],
+    [
+     "• No current use of antiplatelet agents (NSAIDS, ASA, gingko biloba) or anticoagulants; • No increased risk of bleeding (ulcer, high fall risk); and • No treatment changes recommended.",
+     ""
+    ],
+    [
+     "Back to full, unrestricted activities.",
+     "[ ] Yes"
+    ],
+    [
+     "Current treatment:",
+     "[ ] None"
+    ],
+    [
+     "CBC within the last 90 days shows a platelet count of 50,000/microL or higher AND no anemia or leukopenia",
+     "[ ] Yes"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>AME MUST REVIEW</strong></p></td><td><p><strong>ACCEPTABLE CERTIFICATION</strong></p></td></tr><tr><td><p>The treating physician’s current, detailed Clinical Progress</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>Note verifies:</p>\n<p>• The condition is CHRONIC ITP* and platelet counts are stable above 50,000/microL;</p>\n<p>• It has been more than 12 months from diagnosis;</p>\n<p>• No history of bleeding episodes that required medical</p></td><td></td></tr><tr><td><p>attention ever (medication, IVIG, etc.);</p></td><td></td></tr><tr><td><p>• No splenectomy required for treatment;</p></td><td></td></tr><tr><td><p>• No current use of antiplatelet agents (NSAIDS, ASA, gingko biloba) or anticoagulants;</p>\n<p>• No increased risk of bleeding (ulcer, high fall risk); and</p>\n<p>• No treatment changes recommended.</p></td><td></td></tr><tr><td><p>Back to full, unrestricted activities.</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>Current treatment:</p></td><td><p>[ ] None</p></td></tr><tr><td><p>CBC within the last 90 days shows a platelet count of 50,000/microL or higher AND no anemia or leukopenia</p></td><td><p>[ ] Yes</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "*Notes: Chronic ITP defined as more than 12 months from diagnosis.",
+   "html": "<p><strong>*Notes:</strong> Chronic ITP defined as more than 12 months from diagnosis.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "Any recurrence, bleeding that requires treatment, or platelet count drops below 50,000/microL OR",
+   "html": "<p>Any recurrence, bleeding that requires treatment, or platelet count drops below 50,000/microL OR</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "if any surgery or invasive procedures are performed, the airman should not fly in accordance with 61.53.",
+   "html": "<p>if any surgery or invasive procedures are performed, the airman should not fly in accordance with 61.53.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "AME MUST NOTE in Block 60 one of the following:",
+   "html": "<p><strong>AME MUST NOTE in Block 60 one of the following:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "[ ] CACI qualified cITP.",
+   "html": "<p>[ ] CACI qualified cITP.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "[ ] Has current OR previous SI/AASI but now CACI qualified cITP.",
+   "html": "<p>[ ] Has current OR previous SI/AASI but now CACI qualified cITP.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 421,
+   "text": "[ ] NOT CACI qualified cITP. I have deferred. (Submit supporting documents.)",
+   "html": "<p>[ ] NOT CACI qualified cITP. I have deferred. (Submit supporting documents.)</p>"
+  }
+ ]
+}

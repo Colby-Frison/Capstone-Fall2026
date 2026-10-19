@@ -1,0 +1,1875 @@
+{
+ "slug": "protocol-for-diabetes-mellitus-type-i-or-type-ii-insulin-treated-cgm-option",
+ "title": "Protocol for Diabetes Mellitus Type I or Type II Insulin Treated - CGM Option",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "Consideration will be given to those individuals who have been clinically stable on their current treatment regimen for a period of 6-months or more. The FAA has an established policy that permits the special issuance medical certification to some insulin treated applicants. Individuals certificated under this policy will be required to provide medical documentation regarding their history of treatment, accidents, and current medical status. If certificated, they will be required to adhere to monitoring requirements. There are no restrictions regarding flight outside of the United States air space. Airmen with a current 3rd class certificate will have the limitation removed with their next certificate. If they need the limitation removed sooner, they should contact AMCD for an updated certificate without the limitation.",
+   "html": "<p>Consideration will be given to those individuals who have been clinically stable on their current treatment regimen for a period of 6-months or more. The FAA has an established policy that permits the special issuance medical certification to some insulin treated applicants. Individuals certificated under this policy will be required to provide medical documentation regarding their history of treatment, accidents, and current medical status. If certificated, they will be required to adhere to monitoring requirements. There are no restrictions regarding flight outside of the United States air space. Airmen with a current 3rd class certificate will have the limitation removed with their next certificate. If they need the limitation removed sooner, they should contact AMCD for an updated certificate without the limitation.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "CONTINUOUS GLUCOSE MONITORING (CGM PROTOCOL) - ALL CLASSES:",
+   "html": "<p><strong>CONTINUOUS GLUCOSE MONITORING (CGM PROTOCOL) - ALL CLASSES: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "For consideration for first- or second-class airman certification, the airman must submit Continuous Glucose Monitoring (CGM) data and ALL the certification requirements as outlined below:",
+   "html": "<p>For consideration for first- or second-class airman certification, <strong>the airman must submit Continuous Glucose Monitoring (CGM) data and ALL the certification requirements as outlined below:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "For details of what specific information must be included for each requirement/report, see the links below (or the following pages in this document) for:",
+   "html": "<p>For details of what <strong>specific information</strong> must be included for each requirement/report, see the links below (or the following pages in this document) for:</p>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- A. PILOT INFORMATION - INITIAL CERTIFICATION",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_pilot_info_initial.pdf\" target=\"_blank\" rel=\"noopener\"><strong>A. </strong>PILOT INFORMATION - INITIAL CERTIFICATION</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- B. INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM-Initial_Certificate_Consideration_Requirements.pdf\" target=\"_blank\" rel=\"noopener\"><strong>B. </strong>INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- C. CERTIFICATION AID",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf\" target=\"_blank\" rel=\"noopener\"><strong>C. </strong>CERTIFICATION AID</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- D. INFORMATION SUBMISSION REQUIREMENTS",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM-Information_Submission_Requirements.pdf\" target=\"_blank\" rel=\"noopener\"><strong>D. </strong>INFORMATION SUBMISSION REQUIREMENTS</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- E. RENEWAL CERTIFICATE REQUIREMENTS",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM-Renewal_Certification_Requirements.pdf\" target=\"_blank\" rel=\"noopener\"><strong>E. </strong>RENEWAL CERTIFICATE REQUIREMENTS</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- F. SUBMITTING DOCUMENTS FOR INITIAL AND RENEWAL",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM_CMG_submitting_initial_renewal.pdf\" target=\"_blank\" rel=\"noopener\"><strong>F. </strong>SUBMITTING DOCUMENTS FOR INITIAL AND RENEWAL</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- G. CGM DATA REPORT EXAMPLES",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDMOverlayReportAlertSample.pdf\" target=\"_blank\" rel=\"noopener\"><strong>G. </strong>CGM DATA REPORT EXAMPLES</a></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- H. FREQUENTLY ASKED QUESTIONS (FAQs)",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/media/ITDM-FAQs.pdf\" target=\"_blank\" rel=\"noopener\"><strong>H. </strong>FREQUENTLY ASKED QUESTIONS (FAQs)</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "NON-CGM PROTOCOL - THIRD CLASS OPTION:",
+   "html": "<p><strong>NON-CGM PROTOCOL - THIRD CLASS OPTION: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 543,
+   "text": "Third class airmen may elect to use either the CGM protocol or the non-CGM protocol. See the links below (or the following pages in this document) for details of what specific information must be included for each requirement/report for third-class certification.",
+   "html": "<p>Third class airmen may elect to use either the CGM protocol or the non-CGM protocol. See the links below (or the following pages in this document) for details of what <strong>specific information</strong> must be included for each requirement/report for third-class certification.</p>"
+  },
+  {
+   "type": "list",
+   "page": 543,
+   "text": "- A. INITIAL CERTIFICATION\n- B. MONITORING AND ACTIONS REQUIRED DURING FLIGHT OPERATIONS\n- C. RE-CERTIFICATION\n- D. DIABETES ON INSULIN RE-CERTIFICATION STATUS REPORT",
+   "html": "<ul><li><a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin/initial\" target=\"_blank\" rel=\"noopener\"><strong>A. </strong>INITIAL CERTIFICATION</a></li><li><strong>B. </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin/monitor/\" target=\"_blank\" rel=\"noopener\">MONITORING AND ACTIONS REQUIRED DURING FLIGHT OPERATIONS</a></li><li><strong>C. </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/diabetes_insulin/subsequent/\" target=\"_blank\" rel=\"noopener\">RE-CERTIFICATION</a></li><li><strong>D. </strong> <a href=\"https://www.faa.gov/ame_guide/media/Diabetes_on_Insulin_Re-Certification_Status_Report_NON_CGM-Third_Class_Option.pdf\" target=\"_blank\" rel=\"noopener\">DIABETES ON INSULIN RE-CERTIFICATION STATUS REPORT</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "A. PILOT INFORMATION - INITIAL CERTIFICATION",
+   "html": "<p><strong>A. PILOT INFORMATION - INITIAL CERTIFICATION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "If you are a PILOT:",
+   "html": "<p><strong>If you are a PILOT: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 544,
+   "text": "- 1. See your treating physician and get healthy.\n- 2. Do not fly, in accordance with 14 CFR 61.53, until you have an Authorization from the FAA.",
+   "html": "<ul><li><strong>1. </strong>See your treating physician and get healthy.</li><li><strong>2. </strong>Do not fly, in accordance with 14 CFR 61.53, until you have an Authorization from the FAA.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "Find an Aviation Medical Examiner ( AME ) to work with you through the FAA process:",
+   "html": "<p>Find an Aviation Medical Examiner ( <a href=\"http://www.faa.gov/pilots/amelocator/\" target=\"_blank\" rel=\"noopener\">AME</a> ) to work with you through the FAA process:</p>"
+  },
+  {
+   "type": "list",
+   "page": 544,
+   "text": "- Establish care and obtain an evaluation with a board-certified endocrinologist.",
+   "html": "<ul><li> Establish care and obtain an evaluation with a <strong>board-certified endocrinologist</strong>.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "(See Item #1 – ITDM Initial Certificate Consideration Requirements )",
+   "html": "<p>(See <a href=\"https://www.faa.gov/ame_guide/media/ITDM-Initial_Certificate_Consideration_Requirements.pdf\" target=\"_blank\" rel=\"noopener\">Item #1 – ITDM Initial Certificate Consideration Requirements</a> )</p>"
+  },
+  {
+   "type": "list",
+   "page": 544,
+   "text": "- Select, in conjunction with your board-certified endocrinologist, an appropriate Continuous Glucose Monitor (CGM) device that meets all FAA monitoring criteria.",
+   "html": "<ul><li> Select, in conjunction with your board-certified endocrinologist, an appropriate Continuous Glucose Monitor (CGM) device that meets all FAA monitoring criteria.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "(See “Item # 3 - Continuous Glucose Monitor Data” of the ITDM Initial Certificate Consideration Requirements).",
+   "html": "<p>(See <a href=\"https://www.faa.gov/ame_guide/media/ITDM-Initial_Certificate_Consideration_Requirements.pdf\" target=\"_blank\" rel=\"noopener\">“Item # 3 - Continuous Glucose Monitor Data”</a> of the ITDM Initial Certificate Consideration Requirements).</p>"
+  },
+  {
+   "type": "list",
+   "page": 544,
+   "text": "- Collect a minimum of 6 months of CGM data. - Separate the data by month (e.g., Jan. 1-31, Feb. 1-28, March 1-31, etc.). - Review the CGM Data - Report Examples. Verify you provide the correct report views based on the type of CGM device used.\n- Verify your CGM report identifies the percentage of time spent with glucose:\n- Less than 54 mg/dL;\n- Less than 70 mg/dL;\n- Between 70 and 180 mg/dL;\n- Above 180 mg/dL; and\n- Above 250 mg/dL\n- Obtain initial lab battery and submit copies of A1C from at least past 12 months.\n- Obtain an eye evaluation from a board-certified ophthalmologist (M.D. or D.O.). Exam by an optometrist (OD) is NOT acceptable.\n- Obtain a cardiac evaluation from a board-certified cardiologist. Must be a physician, (M.D. or D.O), not a mid-level practitioner. - Obtain an ECG. - Undergo a Stress Test Bruce Protocol (if age 40 or older).\n- 3. When you have accomplished ALL of the above: - Take to your AME all of the above items and any other information on any other condition(s) that may require a Special Issuance - See your AME and complete a new 8500-8 exam - The AME is not authorized to issue an initial medical certificate and must transmit the application and physical examination as DEFERRED - The AME may assist with uploading the documents (See uploading guidance .)",
+   "html": "<ul><li><p> Collect <strong>a minimum of 6 months</strong> of CGM data.</p>\n<ul><li> Separate the data by month (e.g., Jan. 1-31, Feb. 1-28, March 1-31, etc.).</li><li> Review the <a href=\"https://www.faa.gov/ame_guide/media/ITDMOverlayReportAlertSample.pdf\" target=\"_blank\" rel=\"noopener\">CGM Data - Report Examples.</a> Verify you provide the correct report views based on the type of CGM device used.</li></ul></li><li> Verify your CGM report identifies the percentage of time spent with glucose:</li><li> Less than 54 mg/dL;</li><li> Less than 70 mg/dL;</li><li> Between 70 and 180 mg/dL;</li><li> Above 180 mg/dL; and</li><li> Above 250 mg/dL</li><li> Obtain initial lab battery and submit copies of A1C from at least <strong>past 12 months</strong>.</li><li> Obtain an eye evaluation from a<strong> board-certified ophthalmologist </strong>(M.D. or D.O.). Exam by an optometrist (OD) is <strong>NOT</strong> acceptable.</li><li><p> Obtain a cardiac evaluation from a <strong>board-certified cardiologist</strong>. Must be a physician, (M.D. or D.O), not a mid-level practitioner.</p>\n<ul><li> Obtain an ECG.</li><li> Undergo a Stress Test Bruce Protocol (if age 40 or older).</li></ul></li><li><p><strong>3. </strong>When you have accomplished ALL of the above:</p>\n<ul><li> Take to your AME all of the above items and <strong>any other information on any other condition(s)</strong> that may require a Special Issuance</li><li> See your AME and complete a new 8500-8 exam</li><li> The AME is not authorized to issue an initial medical certificate and must transmit the application and physical examination as DEFERRED</li><li> The AME may assist with uploading the documents (See <a href=\"https://www.faa.gov/go/amcssupport\" target=\"_blank\" rel=\"noopener\">uploading guidance</a> .)</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "IMPORTANT NOTE:",
+   "html": "<p><strong>IMPORTANT NOTE: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 544,
+   "text": "While your exam is under review: Continue to submit your endocrinologist report and monthly CGM printouts EVERY 3 MONTHS. This will ensure the FAA has the most current information. If current information is not submitted, the FAA will then have to requested it, which will delay the certification review.",
+   "html": "<p>While your exam is under review: <strong>Continue to submit your endocrinologist report and monthly CGM printouts EVERY 3 MONTHS.</strong> This will ensure the FAA has the most current information. If current information is not submitted, the FAA will then have to requested it, which will delay the certification review.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "B. INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS",
+   "html": "<p><strong>B. INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "For consideration for first- or second-class medical certification, the applicant must submit Continuous Glucose Monitoring (CGM) data. Requirements are below. For information on the specific information needed for each requirement/report (items #1-5), see the CGM – Certification Aid.",
+   "html": "<p>For consideration for first- or second-class medical certification, the applicant must submit Continuous Glucose Monitoring (CGM) data. Requirements are below. For information on the specific information needed for each requirement/report (items #1-5), see the <a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf\" target=\"_blank\" rel=\"noopener\">CGM – Certification Aid.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "The individual must demonstrate stability and adequate control, verified by CGM data, for a minimum of 6 months. If a new diagnosis of Insulin-treated Diabetes Mellitus (ITDM) or any concerns regarding adequacy of control may require a longer stability period.",
+   "html": "<p>The individual must demonstrate stability and adequate control, verified by CGM data, for a <strong>minimum of 6 months</strong>. If a new diagnosis of Insulin-treated Diabetes Mellitus (ITDM) or any concerns regarding adequacy of control may require a longer stability period.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "Additional information may be required on a case-by-case basis. For information on how to send documents to the FAA, see How to Submit Documents for Initial or Recertification/Renewal .",
+   "html": "<p>Additional information may be required on a case-by-case basis. For information on how to send documents to the FAA, see <a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_submitting_initial_renewal.pdf\" target=\"_blank\" rel=\"noopener\">How to Submit Documents for Initial or Recertification/Renewal</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "Submit the following performed within the past 90 days:",
+   "html": "<p>Submit the following <strong>performed within the past 90 days: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "ITEM # 1 Initial Comprehensive clinical consultation from your treating board-certified endocrinologist (M.D. or D.O.), not a mid-level practitioner. This may be labeled progress note, consultation note, or history and physical.",
+   "html": "<p><strong>ITEM # 1</strong> Initial Comprehensive clinical consultation from your treating board-certified <strong>endocrinologist (M.D. or D.O.), not a mid-level practitioner</strong>. This may be labeled progress note, consultation note, or history and physical.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "Note: for initial evaluations, the former “Diabetes on Insulin Re-Certification Status Report” (now called “Diabetes on Insulin Re-Certification Status Report NON CGM – Third Class Option”) will NOT be accepted. The Initial Comprehensive report contains significant additional information.",
+   "html": "<p>Note: for initial evaluations, the former “Diabetes on Insulin Re-Certification Status Report” (now called “Diabetes on Insulin Re-Certification Status Report NON CGM – Third Class Option”) will <strong>NOT</strong> be accepted. The Initial Comprehensive report contains significant additional information.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "ITEM # 2 Lab - Initial/Annual comprehensive panel. (See Certification Aid for required list.)",
+   "html": "<p><strong>ITEM # 2</strong> Lab - Initial/Annual comprehensive panel. (See Certification Aid for required list.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "ITEM # 3 Monthly CGM data with a device that meets FAA requirements for the preceding 6 months (up to 12 months when available).",
+   "html": "<p><strong>ITEM # 3 Monthly</strong> CGM data with a device that meets FAA requirements for the preceding 6 months (up to 12 months when available).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "CGM data should demonstrate consistent, effective ongoing use; time-in-range (70– 180 mg/dL); and for excursions below 54, below 70 and above 180, and above 250 mg/dL. (See chart on next page.)",
+   "html": "<p>CGM data should demonstrate consistent, effective ongoing use; time-in-range (70– 180 mg/dL); and for excursions below 54, below 70 and above 180, and above 250 mg/dL. (See chart on next page.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "When providing CGM Data reports, for each month of data, include the following reports based on your device. Submit the original digital reports in color (when possible):",
+   "html": "<p>When providing CGM Data reports, for each month of data, include the following reports based on your device. Submit the original digital reports<strong> in color</strong> (when possible):</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "DEXCOM",
+   "html": "<p><strong>DEXCOM</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 545,
+   "text": "- Overview Report\n- Ambulatory Glucose Profile (AGP) Report\n- Alert Settings\n- Weekly Overlays/Graphs (for each week of the month)",
+   "html": "<ul><li> Overview Report</li><li> Ambulatory Glucose Profile (AGP) Report</li><li> Alert Settings</li><li> Weekly Overlays/Graphs (for each week of the month)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 545,
+   "text": "MEDTRONIC",
+   "html": "<p><strong>MEDTRONIC</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 545,
+   "text": "- Assessment & Progress Report\n- Weekly Overlays/Graphs (for each week of the month)",
+   "html": "<ul><li> Assessment &amp; Progress Report</li><li> Weekly Overlays/Graphs (for each week of the month)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS (Page 2 of 2)",
+   "html": "<p><strong> INITIAL CERTIFICATE CONSIDERATION REQUIREMENTS (Page 2 of 2) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "(Continued)",
+   "html": "<p>(Continued)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "ITEM # 3 OTHER DEVICES",
+   "html": "<p><strong>ITEM # 3 OTHER DEVICES</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 546,
+   "text": "- The data report should include estimated A1c (and/or GMI - glucose management indicator), average glucose, coefficient of variation, standard deviation, time in range, sensor usage, and weekly overlays/graphs.\n- A list of acceptable CGM devices can be found the CGM Option – Certification Aid.",
+   "html": "<ul><li> The data report should include estimated A1c (and/or GMI - glucose management indicator), average glucose, coefficient of variation, standard deviation, time in range, sensor usage, and weekly overlays/graphs.</li><li> A list of acceptable CGM devices can be found the <a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_certification_aid.pdf\" target=\"_blank\" rel=\"noopener\">CGM Option – Certification Aid.</a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "SETTINGS: Alarm Settings and Repeat Alarm Settings should be turned ON",
+   "html": "<p><strong>SETTINGS: </strong>Alarm Settings and Repeat Alarm Settings <strong>should be turned ON</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "CGM GOALS: See table below for parameters and target range.",
+   "html": "<p><strong>CGM GOALS: </strong>See table below for parameters and target range.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "While it is important that the CGM data meets the FAA CGM goals noted below, it is also essential that the weekly graphs/overlays demonstrate consistent glycemic control with minimal excursions below 70mg/dl and/or above 250mg/dl.",
+   "html": "<p>While it is important that the CGM data meets the FAA CGM goals noted below, it is also essential that the weekly graphs/overlays demonstrate <strong>consistent glycemic control with minimal excursions below 70mg/dl and/or above 250mg/dl. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "if the CGM data meets the CGM goals but glycemic control is inconsistent on the weekly graphs/overlays, this will be considered unacceptable and may jeopardize medical certification eligibility.",
+   "html": "<p>if the CGM data meets the CGM goals but glycemic control is inconsistent on the weekly graphs/overlays, this will be considered unacceptable and may jeopardize medical certification eligibility.</p>"
+  },
+  {
+   "type": "table",
+   "page": 546,
+   "header": [
+    "Parameter",
+    "Target Range for Certification Consideration"
+   ],
+   "rows": [
+    [
+     "Auto Mode",
+     "Greater than 90%"
+    ],
+    [
+     "Coefficient of Variance",
+     "Less than or equal to 36% (< 33% preferred)"
+    ],
+    [
+     "Glucose Management Indicator (GMI)",
+     "Less than 7%"
+    ],
+    [
+     "Glucose readings - less than 54 mg/dl",
+     "less than 1%"
+    ],
+    [
+     "Glucose readings - less than 70 mg/dl",
+     "less than 4%"
+    ],
+    [
+     "Glucose readings - greater than 250 mg/dl",
+     "less than 5%"
+    ],
+    [
+     "Overall glucose readings - 70-250 mg/dl",
+     "90% or greater"
+    ],
+    [
+     "Sensor wear",
+     "90% of the time or greater"
+    ],
+    [
+     "Time in Range (TIR) of 70*-180 mg/dl",
+     "70% or greater"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Parameter</th><th>Target Range for Certification Consideration</th></tr></thead><tbody><tr><td><p>Auto Mode</p></td><td><p>Greater than 90%</p></td></tr><tr><td><p>Coefficient of Variance</p></td><td><p><strong>Less than or equal to 36% (&lt; 33% preferred) </strong></p></td></tr><tr><td><p>Glucose Management Indicator (GMI)</p></td><td><p><strong>Less than 7% </strong></p></td></tr><tr><td><p>Glucose readings - less than 54 mg/dl</p></td><td><p>less than 1%</p></td></tr><tr><td><p>Glucose readings - less than 70 mg/dl</p></td><td><p>less than 4%</p></td></tr><tr><td><p>Glucose readings - greater than 250 mg/dl</p></td><td><p>less than 5%</p></td></tr><tr><td><p>Overall glucose readings - 70-250 mg/dl</p></td><td><p>90% or greater</p></td></tr><tr><td><p>Sensor wear</p></td><td><p>90% of the time or greater</p></td></tr><tr><td><p>Time in Range (TIR) of 70*-180 mg/dl</p></td><td><p>70% or greater</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "*Note: TIR 70 per ADA guidance.",
+   "html": "<p>*Note: TIR 70 per ADA guidance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "ITEM # 4 Eye evaluation from a board-certified ophthalmologist (M.D. or D.O).",
+   "html": "<p><strong>ITEM # 4</strong> Eye evaluation from a board-certified ophthalmologist (M.D. or D.O).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "An exam by an optometrist (O.D.) is NOT acceptable; AND",
+   "html": "<p>An exam by an optometrist (O.D.) is <strong>NOT</strong> acceptable; AND</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "ITEM # 5 Cardiac Risk Evaluation from a board-certified cardiologist (M.D. or D.O.), not a mid-level practitioner.",
+   "html": "<p><strong>ITEM # 5 </strong>Cardiac Risk Evaluation from a <strong>board-certified cardiologist</strong> (M.D. or D.O.), not a mid-level practitioner.</p>"
+  },
+  {
+   "type": "list",
+   "page": 546,
+   "text": "- Evaluation must include lab and ECG;\n- Age 40 and above must also include an initial exercise stress test (EST)",
+   "html": "<ul><li> Evaluation must include lab and ECG;</li><li> <strong>Age 40 and above must also include an initial exercise stress test (EST)</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "IMPORTANT NOTE:",
+   "html": "<p><strong>IMPORTANT NOTE: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 546,
+   "text": "While your exam is under review: Continue to submit your endocrinologist report and monthly CGM printouts EVERY 3 MONTHS. This will ensure the FAA has the most current information. If current information is not submitted, the FAA will then have to request it, which will delay the certification review.",
+   "html": "<p>While your exam is under review: <strong>Continue to submit your endocrinologist report and monthly CGM printouts EVERY 3 MONTHS.</strong> This will ensure the FAA has the most current information. If current information is not submitted, the FAA will then have to request it, which will delay the certification review.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "C. CERTIFICATION AID",
+   "html": "<p><strong>C. CERTIFICATION AID </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "The following are the specifics of the ITEM numbers listed in the Initial and Renewal requirements:",
+   "html": "<p>The following are the specifics of the ITEM numbers listed in the Initial and Renewal requirements:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "ITEM #1: INITIAL COMPREHENSIVE REPORT (Updated 03/30/2022)",
+   "html": "<p><strong>ITEM #1: INITIAL COMPREHENSIVE REPORT </strong>(Updated 03/30/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "INITIAL COMPREHENSIVE in-person evaluation performed within the past 90 days from the treating board-certified endocrinologist. The individual must submit a copy of the actual comprehensive current, detailed Clinical Progress Note. (We will NOT accept the patient encounter summary or a letter from the endocrinologist.) It must detail and comment on ALL of the following*1:",
+   "html": "<p><strong>INITIAL COMPREHENSIVE in-person evaluation performed </strong>within the<strong> past 90 days </strong>from the treating<strong> board-certified endocrinologist. </strong>The individual must submit a copy of the<strong> actual comprehensive current, detailed Clinical Progress Note. (We will NOT accept the patient encounter summary or a letter from the endocrinologist.) </strong>It must detail and comment on <strong>ALL</strong> of the following*1:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "A. DIABETES HISTORY:",
+   "html": "<p><strong>A. DIABETES HISTORY: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "1. Characteristics at onset (age, symptoms, etc.):",
+   "html": "<p>1. Characteristics at onset (age, symptoms, etc.):</p>"
+  },
+  {
+   "type": "list",
+   "page": 547,
+   "text": "- a) Review previous treatment and response\n- b) Frequency/cause/severity of past hospitalizations\n- c) Complications and common comorbidities: - Any end organ damage (macrovascular or microvascular); - Presence of hemoglobinopathies or anemias; - High blood pressure or abnormal lipids and treatment; and - Visits to specialist (what type and why)\n- d) Lifestyle and behavior patterns: - Eating patterns and weight history; - Sleep behavior and physical activity; - Familiarity with carbohydrate counting, if applicable; - Tobacco, alcohol, and substance use; and - Any motor vehicle accidents or incidents pertinent to their history of diabetes",
+   "html": "<ul><li>a) Review previous treatment and response</li><li>b) Frequency/cause/severity of past hospitalizations</li><li><p>c) Complications and common comorbidities:</p>\n<ul><li>Any end organ damage (macrovascular or microvascular);</li><li>Presence of hemoglobinopathies or anemias;</li><li>High blood pressure or abnormal lipids and treatment; and</li><li>Visits to specialist (what type and why)</li></ul></li><li><p>d) Lifestyle and behavior patterns:</p>\n<ul><li>Eating patterns and weight history;</li><li>Sleep behavior and physical activity;</li><li>Familiarity with carbohydrate counting, if applicable;</li><li>Tobacco, alcohol, and substance use; and</li><li>Any motor vehicle accidents or incidents pertinent to their history of diabetes</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "2. Medication and Reporting:",
+   "html": "<p>2. Medication and Reporting:</p>"
+  },
+  {
+   "type": "list",
+   "page": 547,
+   "text": "- a) Medication compliance;\n- b) Medication intolerance or side effects;\n- c) Complementary or alternative medicine use;\n- d) Glucose monitoring (meter/CGM) results and data use; and\n- e) Review insulin pump settings",
+   "html": "<ul><li>a) Medication compliance;</li><li>b) Medication intolerance or side effects;</li><li>c) Complementary or alternative medicine use;</li><li>d) Glucose monitoring (meter/CGM) results and data use; and</li><li>e) Review insulin pump settings</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "3. Screening for Psychosocial conditions:",
+   "html": "<p>3. Screening for Psychosocial conditions:</p>"
+  },
+  {
+   "type": "list",
+   "page": 547,
+   "text": "- a) Screen for depression, anxiety, disordered eating (ex: Patient Health Questionnaire 9 or 2 [PHQ-9 or PHQ-2] or similar);\n- b) Cognitive impairment assessment (and formal testing, if clinically indicated); and\n- c) Diabetes self-management education and support: - - - History of dietician/diabetes educator visits; and - Screen for barriers to diabetes self-management",
+   "html": "<ul><li>a) Screen for depression, anxiety, disordered eating (ex: Patient Health Questionnaire 9 or 2 [PHQ-9 or PHQ-2] or similar);</li><li>b) Cognitive impairment assessment (and formal testing, if clinically indicated); and</li><li><p>c) Diabetes self-management education and support:</p>\n<ul><li><ul><li><ul><li>History of dietician/diabetes educator visits; and</li><li>Screen for barriers to diabetes self-management</li></ul></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "4. Glucose control:",
+   "html": "<p>4. Glucose control:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "a) HYPOglycemia:",
+   "html": "<p>a) <strong>HYPO</strong>glycemia:</p>"
+  },
+  {
+   "type": "list",
+   "page": 547,
+   "text": "- Any symptomatic episodes in the past 12 months requiring treatment or assistance by another individual, with comment on timing, awareness, frequency, causes, and treatment.\n- Sustained episodes, e.g., CGM/FSBG values below 70 mg/dL for over 30 minutes or below 54 mg/dL for over 15 minutes, with comment on symptoms and treatment.",
+   "html": "<ul><li>Any symptomatic episodes in the <strong>past 12 months</strong> requiring treatment or assistance by another individual, with comment on timing, awareness, frequency, causes, and treatment.</li><li>Sustained episodes, e.g., CGM/FSBG values below 70 mg/dL for over 30 minutes or below 54 mg/dL for over 15 minutes, with comment on symptoms and treatment.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 547,
+   "text": "b) HYPERglycemia:",
+   "html": "<p>b) <strong>HYPER</strong>glycemia:</p>"
+  },
+  {
+   "type": "list",
+   "page": 547,
+   "text": "- Any symptomatic episodes in the past 12 months with comment on timing, awareness, frequency, causes, and treatment.",
+   "html": "<ul><li>Any symptomatic episodes in the <strong>past 12 months</strong> with comment on timing, awareness, frequency, causes, and treatment.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "CERTIFICATION AID (Page 2 of 5)",
+   "html": "<p><strong> CERTIFICATION AID (Page 2 of 5) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- Sustained episodes (e.g., CGM/FSBG values above 250 mg/dL for over 60 minutes or above 300 mg/dL for over 30 minutes) with comment on symptoms and treatment.",
+   "html": "<ul><li>Sustained episodes (e.g., CGM/FSBG values above 250 mg/dL for over 60 minutes or above 300 mg/dL for over 30 minutes) with comment on symptoms and treatment.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "B. PHYSICAL EXAM (Must narrate what is examined and any findings):",
+   "html": "<p><strong>B. PHYSICAL EXAM </strong>(Must narrate what is examined and any findings):</p>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- - - - 1. Height, Weight, Body Mass Index (BMI);\n- 2. Pulse and blood pressure including orthostatic blood pressure, when indicated;\n- 3. Thyroid palpation and skin exam (acanthosis nigricans, insulin injection or insertion sites, lipodystrophy); and\n- 4. Comprehensive foot exam: - a) Visual inspection; screen for PAD (check pedal pulses; refer for ABI if diminished); and - b) Determination of temperature, vibration or pinprick sensation, and 10-g monofilament exam",
+   "html": "<ul><li><ul><li><ul><li><ul><li>1. Height, Weight, Body Mass Index (BMI);</li><li>2. Pulse and blood pressure including orthostatic blood pressure, when indicated;</li><li>3. Thyroid palpation and skin exam (acanthosis nigricans, insulin injection or insertion sites, lipodystrophy); and</li><li><p>4. Comprehensive foot exam:</p>\n<ul><li>a) Visual inspection; screen for PAD (check pedal pulses; refer for ABI if diminished); and</li><li>b) Determination of temperature, vibration or pinprick sensation, and 10-g monofilament exam</li></ul></li></ul></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "C. ASSESSMENT AND PLAN:",
+   "html": "<p><strong>C. ASSESSMENT AND PLAN: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- - 1. Current status of diabetes including an assessment of compliance, glucose control, and stability as well as their ability to monitor and respond accordingly to HYPO and HYPER glycemic events and administer insulin doses;\n- 2. Prognosis for progression over the next 12 months; and\n- 3. Recommendations for treatment changes",
+   "html": "<ul><li><ul><li>1. Current status of diabetes including an assessment of <strong>compliance</strong>, <strong>glucose control,</strong> and <strong>stability</strong> as well as their ability to monitor and respond accordingly to HYPO and HYPER glycemic events and administer insulin doses;</li><li>2. Prognosis for progression over the next 12 months; and</li><li>3. Recommendations for treatment changes</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "D. DATE OF NEXT CLINICAL FOLLOW-UP (Required every 3 months for FAA.)",
+   "html": "<p><strong>D. DATE OF NEXT CLINICAL FOLLOW-UP </strong>(Required every 3 months for FAA.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "*1 Modified from American Diabetes Association (ADA) Standards of Medical Care 2020",
+   "html": "<p>*1 Modified from American Diabetes Association (ADA) Standards of Medical Care 2020</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "ITEM #2: LAB",
+   "html": "<p><strong>ITEM #2: LAB </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "LAB - Initial/Annual comprehensive panel performed within the past 90 days:",
+   "html": "<p><strong>LAB - </strong>Initial/Annual comprehensive panel<strong> performed within the past 90 days: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "A. A1C Within last 90 days AND all prior values from the preceding 12 months",
+   "html": "<p><strong>A. A1C </strong>Within last 90 days AND all prior values from the preceding 12 months</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "B. CBC Complete Blood Count",
+   "html": "<p><strong>B. CBC</strong> Complete Blood Count</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "C. Lipids Total, LDL [low density lipoprotein], HDL [high density lipoprotein], cholesterol, and triglycerides",
+   "html": "<p><strong>C. Lipids </strong>Total, LDL [low density lipoprotein], HDL [high density lipoprotein], cholesterol, and triglycerides</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "D. LFT’s Liver function tests",
+   "html": "<p><strong>D</strong>. <strong>LFT’s</strong> Liver function tests</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "E. Microalbumin or spot urinary albumin-to-creatinine ratio",
+   "html": "<p><strong>E. Microalbumin</strong> or spot urinary albumin-to-creatinine ratio</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "F. Renal function Serum creatinine, BUN (blood urea nitrogen), eGFR (estimated glomerular filtration",
+   "html": "<p><strong>F. Renal function</strong> Serum creatinine, BUN (blood urea nitrogen), eGFR (estimated glomerular filtration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "G. TSH Thyroid-stimulating hormone",
+   "html": "<p><strong>G. TSH</strong> Thyroid-stimulating hormone</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "H. Vitamin B12 When clinically indicated",
+   "html": "<p><strong>H</strong>. <strong> Vitamin B12 </strong>When clinically indicated</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "I. Potassium Serum level when clinically indicated or when taking ACE-I (angiotensin",
+   "html": "<p><strong>I. Potassium</strong> Serum level when clinically indicated or when taking ACE-I (angiotensin</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "converting enzyme inhibitors), ARBs (angiotensin II receptor blockers), or diuretics",
+   "html": "<p>converting enzyme inhibitors), ARBs (angiotensin II receptor blockers), or diuretics</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "ITEM #3: CONTINUOUS GLUCOSE MONITOR (CGM) DATA (Updated 08/30/2023)",
+   "html": "<p><strong>ITEM #3: CONTINUOUS GLUCOSE MONITOR (CGM) DATA </strong>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 548,
+   "text": "When submitting CGM data:",
+   "html": "<p>When submitting CGM data:</p>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- DO Submit the required weekly or monthly graphs . (See examples on the following pages)",
+   "html": "<ul><li> <strong>DO</strong> Submit the required <a href=\"https://www.faa.gov/ame_guide/media/ITDMOverlayReportAlertSample.pdf\" target=\"_blank\" rel=\"noopener\">weekly or monthly graphs</a> . (See examples on the following pages)</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- DO NOT submit daily or hourly statistics from insulin pumps.",
+   "html": "<ul><li> <strong>DO NOT </strong>submit daily or hourly statistics from insulin pumps.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 548,
+   "text": "- When providing CGM Data reports, for each month of data, include the following reports based on your device. Submit the original digital reports IN COLOR (when possible):",
+   "html": "<ul><li> When providing CGM Data reports, for each month of data, include the following reports based on your device. <strong>Submit the original digital reports IN COLOR </strong>(when possible):</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 549,
+   "text": "CERTIFICATION AID (Page 3 of 5)",
+   "html": "<p><strong> CERTIFICATION AID (Page 3 of 5) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 549,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 549,
+   "text": "DEXCOM",
+   "html": "<p><strong>DEXCOM</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- Overview Report\n- Ambulatory Glucose Profile (AGP) Report\n- Alert Settings\n- Weekly Overlays/Graphs (for each week of the month)",
+   "html": "<ul><li> Overview Report</li><li> Ambulatory Glucose Profile (AGP) Report</li><li> Alert Settings</li><li> Weekly Overlays/Graphs (for each week of the month)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 549,
+   "text": "MEDTRONIC",
+   "html": "<p><strong>MEDTRONIC</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- Assessment & Progress Report\n- Weekly Overlays/Graphs (for each week of the month)",
+   "html": "<ul><li> Assessment &amp; Progress Report</li><li> Weekly Overlays/Graphs (for each week of the month)</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 549,
+   "text": "OTHER DEVICES",
+   "html": "<p><strong>OTHER DEVICES</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- The data report should include estimated A1c (and/or glucose management indicator [GMI]), average glucose, coefficient of variation, standard deviation, time in range, sensor usage, and weekly overlays/graphs.",
+   "html": "<ul><li> The data report should include estimated A1c (and/or glucose management indicator [GMI]), average glucose, coefficient of variation, standard deviation, time in range, sensor usage, and weekly overlays/graphs.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- A. CONTINUOUS GLUCOSE MONITOR (CGM) DATA on a device that meets the FAA’s minimum CGM device feature requirements.\n- 1. Readings from (at a minimum) the preceding 6 months for initial certification and thereafter 3 months.\n- 2. Analyze to identify percentage time in the following ranges: - - - a) Less than 54 mg/dL - b) Less than 70mg/dL - c) Between 70 and 180 mg/dL - d) Above 180 mg/dL - e) Above 250 mg/dL",
+   "html": "<ul><li><strong>A. CONTINUOUS GLUCOSE MONITOR (CGM) DATA </strong>on a device that meets the FAA’s minimum CGM device feature requirements.</li><li>1. Readings from (at a minimum) the preceding <strong>6 months for initial certification</strong> and thereafter 3 months.</li><li><p>2. Analyze to identify <strong>percentage time </strong>in the following ranges:</p>\n<ul><li><ul><li><ul><li>a) Less than 54 mg/dL</li><li>b) Less than 70mg/dL</li><li>c) Between 70 and 180 mg/dL</li><li>d) Above 180 mg/dL</li><li>e) Above 250 mg/dL</li></ul></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- B. CGM DEVICE FEATURES: The FAA does not endorse any particular manufacturer, however, the CGM device must have the following features:",
+   "html": "<ul><li><strong>B. CGM DEVICE FEATURES:</strong> The FAA does not endorse any particular manufacturer, however, the CGM device <strong>must</strong> have the following features:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 549,
+   "text": "- 1. Must be FDA-approved and appropriate for age;\n- 2. Must be a real-time CGM (automatically transmits glucose data to the user) without need to manually scan the sensor (e.g., intermittently scanned CGM);\n- 3. Have “predictive arrow trends” that provide warnings of potentially dangerous glucose levels (high or low) before they occur;\n- 4. Able to customize low and high glucose levels;\n- 5. Have a high-accuracy rating with an overall Mean Absolute Relative Difference (MARD) of 10% or less. (e.g., If the MARD is 10% and the glucose reading is 70mg/dL, the actual blood glucose could be as low as 63 mg/dL or as high as 77mg/dL);\n- 6. Printout reports must include monthly summary showing: Time-In-Range (TIR) Values for 70- 180 mg/dL; Average Glucose Levels; Standard Deviation (SD); and (when provided by the reporting software) Coefficient of Variability [CoV] values. Reports must include weekly glucose value data graphics. All data must be legible. Failure to provide these values could result in a delay in processing your application;\n- 7. Calibrated to at least at the minimum frequency required by the manufacturer or endocrinologist; and\n- 8. Must be individual’s own, unblinded CGM that cannot be shared with anyone else. The individual cannot use anyone else’s CGM (e.g., blinded CGM device, which is professional use only). - a) Time-In-Range (TIR) Values for 70-180 mg/dL; - b) Average Glucose Levels; - c) Standard Deviation (SD); and (when provided by the reporting software)",
+   "html": "<ul><li>1. Must be <strong>FDA-approved</strong> and <strong>appropriate for age</strong>;</li><li>2. Must be a real-time CGM (automatically transmits glucose data to the user) without need to manually scan the sensor (e.g., intermittently scanned CGM);</li><li>3. Have <strong>“predictive arrow trends”</strong> that provide warnings of potentially dangerous glucose levels (high or low) before they occur;</li><li>4. Able to <strong>customize</strong> low and high glucose levels;</li><li>5. Have a high-accuracy rating with an overall Mean Absolute Relative Difference (MARD) of 10% or less. (e.g., If the MARD is 10% and the glucose reading is 70mg/dL, the actual blood glucose could be as low as 63 mg/dL or as high as 77mg/dL);</li><li>6. Printout reports must include monthly summary showing: <strong>Time-In-Range (TIR) Values for 70- 180 mg/dL; Average Glucose Levels; Standard Deviation (SD);</strong> and (when provided by the reporting software) <strong>Coefficient of Variability [CoV]</strong> values. <strong>Reports must include weekly glucose value data graphics</strong>. <strong>All data must be legible. </strong>Failure to provide these values could result in a <strong>delay</strong> in processing your application;</li><li>7. Calibrated to at least at the minimum frequency required by the manufacturer or endocrinologist; and</li><li><p>8. Must be individual’s own, <strong>unblinded CGM</strong> t<strong>hat cannot be shared</strong> with anyone else. The individual cannot use anyone else’s CGM (e.g., blinded CGM device, which is professional use only).</p>\n<ul><li>a) <strong>Time-In-Range (TIR) Values</strong> for 70-180 mg/dL;</li><li>b) <strong>Average Glucose Levels</strong>;</li><li>c) <strong>Standard Deviation (SD</strong>); and (when provided by the reporting software)</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "CERTIFICATION AID (Page 4 of 5)",
+   "html": "<p><strong> CERTIFICATION AID (Page 4 of 5) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- - d) Coefficient of Variability [CoV] values;\n- e) Alarm Settings, indicating both high and low alarms are active;",
+   "html": "<ul><li><ul><li>d) <strong>Coefficient of Variability [CoV] </strong>values;</li><li><strong>e) Alarm Settings, indicating both high and low alarms are active</strong>;</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "NOTE: CGM Alarm Settings and Repeat Alarm Settings should be turned ON.",
+   "html": "<p><strong>NOTE: CGM Alarm Settings and Repeat Alarm Settings should be turned ON. </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- - f) Device manufacturer and current model; and\n- g) Reports must include weekly glucose value data graphics. All data must be legible. Failure to provide these values could result in a delay in processing of the application.",
+   "html": "<ul><li><ul><li>f) <strong>Device manufacturer and current mode</strong>l; and</li><li>g) <strong>Reports must include weekly glucose value data graphics. All data must be legible</strong>. Failure to provide these values could result in a <strong>delay</strong> in processing of the application.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "CGM devices that currently meet the required features (as of 08/30/2023) include:",
+   "html": "<p><strong>CGM devices that currently meet the required features </strong>(as of 08/30/2023<strong>)</strong> include:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Dexcom G7",
+   "html": "<p>Dexcom G7</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Dexcom G6",
+   "html": "<p>Dexcom G6</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Dexcom G5",
+   "html": "<p>Dexcom G5</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Dexcom G4 PLATINUM",
+   "html": "<p>Dexcom G4 PLATINUM</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Freestyle Libre 3",
+   "html": "<p>Freestyle Libre 3</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Medtronic MiniMed 670G system CGM with insulin pump",
+   "html": "<p>Medtronic MiniMed 670G system CGM with insulin pump</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Medtronic MiniMed 630G system CGM with insulin pump",
+   "html": "<p>Medtronic MiniMed 630G system CGM with insulin pump</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Medtronic MiniMed 780G system CGM with insulin pump",
+   "html": "<p>Medtronic MiniMed 780G system CGM with insulin pump</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Medtronic Guardian Connect CGM system",
+   "html": "<p>Medtronic Guardian Connect CGM system</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Senseonics’ Eversense CGM (90-day monitor)",
+   "html": "<p>Senseonics’ Eversense CGM (90-day monitor)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "Senseonics’ Eversense E3 CGM (180-day monitor)",
+   "html": "<p>Senseonics’ Eversense E3 CGM (180-day monitor)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "This list may not be all-inclusive. Refer to the CGM Device Features in Item B.",
+   "html": "<p>This list may not be all-inclusive. Refer to the CGM Device Features in Item B.</p>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- C. INSULIN PUMP REQUIREMENTS:",
+   "html": "<ul><li><strong>C. INSULIN PUMP REQUIREMENTS: </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- - - - 1. If using an insulin pump, it must have the ability to suspend insulin for a predictive low glucose or predicted pressure changes;\n- 2. Insulin used in the pumps must be FDA approved for that use; and\n- 3. Insulin pumps must also be FDA approved as compatible with the CGM device. (Not all CGM devices are compatible with all insulin pumps.)",
+   "html": "<ul><li><ul><li><ul><li><ul><li>1. If using an insulin pump, it must have the ability to suspend insulin for a predictive low glucose or predicted pressure changes;</li><li>2. Insulin used in the pumps must be FDA approved for that use; and</li><li>3. Insulin pumps must also be FDA approved as compatible with the CGM device. (Not all CGM devices are compatible with all insulin pumps.)</li></ul></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "ITEM #4: EYE EVALUATION",
+   "html": "<p><strong>ITEM #4: EYE EVALUATION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 550,
+   "text": "EYE EVALUATION performed within the past 90 days from a board-certified ophthalmologist (M.D. or D.O.). Exam by optometrist (O.D.) is NOT acceptable. Evaluation must include:",
+   "html": "<p><strong>EYE EVALUATION performed within the past 90 days</strong> from a <strong>board-certified ophthalmologist </strong>(M.D. or D.O.). Exam by optometrist (O.D.) is <strong>NOT</strong> acceptable. Evaluation must include:</p>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- A. VISUAL ACUITY (with and without correction) each eye separately and together for: - - - 1. Near; - 2. Intermediate; and - 3. Distance vision",
+   "html": "<ul><li><p><strong>A. VISUAL ACUITY</strong> (with and without correction) each eye separately and together for:</p>\n<ul><li><ul><li><ul><li>1. Near;</li><li>2. Intermediate; and</li><li>3. Distance vision</li></ul></li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 550,
+   "text": "- B. EVALUATION FOR OTHER RETINAL OR CLINICALLY SIGNIFICANT EYE DISEASE: - - 1. Cataracts, any evidence; - 2. Color vision deficiency: test used; method used; - 3. Contrast sensitivity: test used; method used; - 4. Depth perception abnormality; - 5. Intra Ocular P Pressure (IOP) reading (and treatment if required): test used, method used; and - 6. Visual field defects: type of test, method used (confrontation fields are acceptable).",
+   "html": "<ul><li><p><strong>B. EVALUATION FOR OTHER RETINAL OR CLINICALLY SIGNIFICANT EYE DISEASE</strong>:</p>\n<ul><li><ul><li>1. Cataracts, any evidence;</li><li>2. Color vision deficiency: test used; method used;</li><li>3. Contrast sensitivity: test used; method used;</li><li>4. Depth perception abnormality;</li><li>5. Intra Ocular P Pressure (IOP) reading (and treatment if required): test used, method used; and</li><li>6. Visual field defects: type of test, method used (confrontation fields are acceptable).</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "CERTIFICATION AID (Page 5 of 5)",
+   "html": "<p><strong> CERTIFICATION AID (Page 5 of 5) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "list",
+   "page": 551,
+   "text": "- C. DILATED FUNDUS EXAM with documentation of absence of retinopathy or degree of retinopathy, if present, and any treatment indicated or recommended.",
+   "html": "<ul><li><strong>C. DILATED FUNDUS EXAM</strong> with documentation of absence of retinopathy or degree of retinopathy, if present, and any treatment indicated or recommended.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 551,
+   "text": "- D. DIAGNOSIS, PROGNOSIS, AND RECOMMENDATIONS FOR TREATMENT OR FOLLOW-UP.",
+   "html": "<ul><li><strong>D. DIAGNOSIS, PROGNOSIS, AND RECOMMENDATIONS FOR TREATMENT OR FOLLOW-UP</strong>.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "ITEM #5: CARDIAC RISK EVALUATION (Updated 08/30/2023)",
+   "html": "<p><strong>ITEM #5: CARDIAC RISK EVALUATION</strong> (Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "CARDIAC RISK EVALUATION performed within the past 90 days from a board-certified cardiologist (M.D. or D.O.), not a mid-level practitioner. The document submitted MUST be from the actual in-person office evaluation and resultant current, detailed Clinical Progress Note:",
+   "html": "<p><strong>CARDIAC RISK EVALUATION performed within the past 90 days</strong> from a <strong>board-certified cardiologist (M.D. or D.O.), not a mid-level practitioner. </strong>The document submitted MUST be from the actual in-person office evaluation and resultant current, detailed Clinical Progress Note<strong>: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 551,
+   "text": "- A. INITIAL CARDIAC RISK EVALUATION:\n- 1. Evaluation from a board-certified cardiologist assessing cardiac risk factors;\n- 2. Baseline ECG (regardless of age);\n- 3. The evaluation must be COMPREHENSIVE, in-person, and performed within the past 90 days from the treating board-certified cardiologist. The individual must submit a copy of the actual comprehensive current detailed Clinical Progress Note. (We will NOT accept the patient encounter summary [after visit summary] or a letter.)",
+   "html": "<ul><li><strong>A. INITIAL CARDIAC RISK EVALUATION: </strong></li><li>1. Evaluation from a board-certified cardiologist assessing cardiac risk factors;</li><li>2. Baseline ECG (regardless of age);</li><li>3. The <strong>evaluation must be COMPREHENSIVE, in-person, and performed </strong>within the<strong> past 90 days </strong>from the treating<strong> board-certified cardiologist. </strong>The individual must submit a copy of the<strong> actual comprehensive current detailed Clinical Progress Note. (We will NOT accept the patient encounter summary </strong>[after visit summary]<strong> or a letter.) </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 551,
+   "text": "- B. STRESS TEST (Maximal exercise treadmill stress testing (Bruce): - 1. Beginning at age 40, - 2. every 5 years thereafter, and - 3. at any age when clinically indicated:",
+   "html": "<ul><li><p><strong>B. STRESS TEST </strong>(Maximal exercise treadmill stress testing (Bruce)<strong>: </strong></p>\n<ul><li>1. Beginning at age 40,</li><li>2. every 5 years thereafter, and</li><li>3. at any age when clinically indicated<strong>: </strong></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "See Graded Exercise Stress Test Protocol.",
+   "html": "<p>See <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/graded_exercise/\" target=\"_blank\" rel=\"noopener\">Graded Exercise Stress Test Protocol.</a></p>"
+  },
+  {
+   "type": "list",
+   "page": 551,
+   "text": "- C. IF THERE ARE ANY ABNORMALITIES on the ECG, stress test, or identification of any cardiac conditions, the cardiologist must provide a report that details: - - 1. Any confirmed or suspected diagnosis - 2. Clinical status including any symptoms - 3. Control of cardiac risk factors (HTN, smoking, hyperlipidemia, exercise, weight) - 4. Treatment or monitoring required or recommended and any side effects - 5. Were other investigations conducted or recommended (attach reports) - 6. Risk of any acutely disabling cardiovascular event (annualized percentage risk)",
+   "html": "<ul><li><p><strong>C. IF THERE ARE ANY ABNORMALITIES</strong> on the ECG, stress test, or identification of any cardiac conditions, the cardiologist must provide a report that details:</p>\n<ul><li><ul><li>1. Any confirmed or suspected diagnosis</li><li>2. Clinical status including any symptoms</li><li>3. Control of cardiac risk factors (HTN, smoking, hyperlipidemia, exercise, weight)</li><li>4. Treatment or monitoring required or recommended and any side effects</li><li>5. Were other investigations conducted or recommended (attach reports)</li><li>6. Risk of any acutely disabling cardiovascular event (annualized percentage risk)</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 551,
+   "text": "For information on how to send documents to the FAA, see How to Submit Documents for Initial or Recertification/Renewal.",
+   "html": "<p>For information on how to send documents to the FAA, see <a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_submitting_initial_renewal.pdf\" target=\"_blank\" rel=\"noopener\">How to Submit Documents for Initial or Recertification/Renewal.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 552,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 552,
+   "text": "D. INFORMATION SUBMISSION REQUIREMENTS",
+   "html": "<p><strong>D. INFORMATION SUBMISSION REQUIREMENTS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 552,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 552,
+   "text": "AIRMAN’S NAME___________________________ PI# or MID#____________________________",
+   "html": "<p><strong>AIRMAN’S NAME___________________________ PI# or MID#____________________________ </strong></p>"
+  },
+  {
+   "type": "figure",
+   "page": 552,
+   "text": "㉐㠳㠰礣卉1",
+   "html": "<figure><img src=\"images/p552_fig1.png\" alt=\"㉐㠳㠰礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "E. CGM RENEWAL CERTIFICATE REQUIREMENTS",
+   "html": "<p><strong>E. CGM RENEWAL CERTIFICATE REQUIREMENTS</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "Once the individual has obtained an Authorization for Special Issuance, they should submit the requirements specified in their Authorization Letter. The item numbers below correspond to the numbers on Initial Certificate Consideration Requirements sheet .",
+   "html": "<p>Once the individual has obtained an Authorization for Special Issuance, they should submit the requirements specified in their Authorization Letter. The item numbers below correspond to the numbers on <a href=\"https://www.faa.gov/ame_guide/media/ITDM-Initial_Certificate_Consideration_Requirements.pdf\" target=\"_blank\" rel=\"noopener\">Initial Certificate Consideration Requirements sheet</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "Note: The AME may NOT re-issue a medical certificate UNLESS the Authorization letter specifically indicates the AME may re-issue a time-limited certificate.",
+   "html": "<p>Note: The AME may <strong>NOT re-issue a medical certificate</strong> UNLESS the Authorization letter specifically indicates the AME may re-issue a time-limited certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "In general, the renewal information required is as follows:",
+   "html": "<p>In general, the renewal information required is as follows:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "EVERY 6 MONTHS",
+   "html": "<p><strong>EVERY 6 MONTHS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "ITEM #1 Every 3 months, a comprehensive endocrinology clinical examination.",
+   "html": "<p><strong>ITEM #1 Every 3 months, a comprehensive endocrinology clinical examination. </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 553,
+   "text": "- Every 6-month visit must be in-person and performed by your endocrinologist.\n- The 3-month interval visits may be in person or virtually at the discretion of the endocrinologist. These interval visits may be from your endocrinologist or a mid-level practitioner [physician assistant (PA) or nurse practitioner (NP)] associated with your endocrinologist:\n- It should include all parts of the clinical examination: summary of the history of the condition; current medications (dosages and side effects, if any); clinical exam findings; comprehensive foot exam (e.g., visual inspection, sensation, 10-g monofilament exam, etc.); results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.\n- After the examination, obtain the current, detailed Clinical Progress Note from your provider;",
+   "html": "<ul><li> Every 6-month visit must be in-person and performed by your endocrinologist.</li><li> The 3-month interval visits may be in person or virtually at the discretion of the endocrinologist. These interval visits may be from your endocrinologist or a mid-level practitioner [physician assistant (PA) or nurse practitioner (NP)] associated with your endocrinologist:</li><li> It should include all parts of the clinical examination: summary of the history of the condition; current medications (dosages and side effects, if any); clinical exam findings; comprehensive foot exam (e.g., visual inspection, sensation, 10-g monofilament exam, etc.); results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li><li> <strong>After the examination, obtain the current, detailed Clinical Progress Note from your provider; </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "NOTE: A letter from your endocrinologist is NOT sufficient and cannot substitute for a current detailed Clinical Progress Note.",
+   "html": "<p>NOTE: A letter from your endocrinologist is <strong>NOT</strong> sufficient and cannot substitute for a <strong>current detailed Clinical Progress Note</strong>.</p>"
+  },
+  {
+   "type": "list",
+   "page": 553,
+   "text": "- If additional visits occur, submit those actual clinic record(s) to the FAA also.",
+   "html": "<ul><li> If additional visits occur, submit those actual clinic record(s) to the FAA also.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "ITEM #3 Monthly CGM data reports for the previous 6 months:",
+   "html": "<p><strong>ITEM #3 Monthly CGM data reports for the previous 6 months: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 553,
+   "text": "- Collect data for each month. Separate the data by month (e.g., Jan. 1- 31, Feb. 1-28, March 1-31, etc.);\n- Continue ongoing use with a CGM device that meets FAA requirements.",
+   "html": "<ul><li> Collect data for each month. Separate the data by month (e.g., Jan. 1- 31, Feb. 1-28, March 1-31, etc.)<strong>; </strong></li><li> Continue ongoing use with a CGM device that meets FAA requirements.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "EVERY 12 MONTHS",
+   "html": "<p><strong>EVERY 12 MONTHS</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 553,
+   "text": "- All items listed in the “EVERY 6 MONTHS” section above, PLUS:\n- ITEM #2 - Lab - Annual comprehensive panel;\n- ITEM #4 - Eye evaluation from a board-certified ophthalmologist (M.D. or D.O). Exam by an optometrist is NOT acceptable; AND\n- ITEM #5 - Cardiac Risk Evaluation for Age 40 and above",
+   "html": "<ul><li> All items listed in the “<strong>EVERY 6 MONTHS”</strong> section above, <strong>PLUS</strong>:</li><li> <strong>ITEM #2</strong> - <strong>Lab </strong>- Annual comprehensive panel;</li><li> <strong>ITEM #4 - Eye evaluation </strong>from a board-certified ophthalmologist (M.D. or D.O). Exam by an optometrist is <strong>NOT</strong> acceptable; AND</li><li> <strong>ITEM #5 - Cardiac Risk Evaluation for Age 40 and above </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "from a board-certified cardiologist including lab;",
+   "html": "<p>from a <strong>board-certified cardiologist including lab;</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 553,
+   "text": "- ECG, stress test or other cardiac testing, if clinically indicated;",
+   "html": "<ul><li> <strong>ECG, stress test or other cardiac testing, if clinically indicated;</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "(Note: stress test required every five (5) years, sooner if concerns or clinically indicated.",
+   "html": "<p>(Note: stress test required every five (5) years, sooner if concerns or clinically indicated.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 553,
+   "text": "ADDITIONAL INFORMATION MAY BE REQUIRED ON A CASE-BY-CASE BASIS.",
+   "html": "<p><strong>ADDITIONAL INFORMATION MAY BE REQUIRED ON A CASE-BY-CASE BASIS. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "CGM RENEWAL CERTIFICATE REQUIREMENTS (Page 2 of 2)",
+   "html": "<p><strong> CGM RENEWAL CERTIFICATE REQUIREMENTS (Page 2 of 2)</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "EVERY 24 MONTHS: (updated 8/30//2023)",
+   "html": "<p><strong>EVERY 24 MONTHS: </strong>(updated 8/30//2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "ITEM #5 Cardiac Risk Evaluation for UNDER Age 40",
+   "html": "<p><strong>ITEM #5 Cardiac Risk Evaluation for UNDER Age 40</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 554,
+   "text": "- - From either your board-certified-endocrinologist OR a board-certified cardiologist, including lab;\n- ECG, stress test or other cardiac testing, if clinically indicated;",
+   "html": "<ul><li><ul><li>From either your <strong>board-certified-endocrinologist OR a board-certified cardiologist, including lab;</strong></li><li>o <strong>ECG, stress test or other cardiac testing, if clinically indicated;</strong></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "(Note: stress test required every five [5] years, sooner if concerns or clinically indicated.)",
+   "html": "<p>(Note: stress test required every five [5] years, sooner if concerns or clinically indicated.)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 554,
+   "text": "Submit all above items to your AME for upload into your FAA file. See How to Submit Documents for Initial or Recertification/Renewal.",
+   "html": "<p><strong>Submit all above items</strong> to your AME for upload into your FAA file. See <a href=\"https://www.faa.gov/ame_guide/media/ITDM_CGM_submitting_initial_renewal.pdf\" target=\"_blank\" rel=\"noopener\">How to Submit Documents for Initial or Recertification/Renewal.</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II - INSULIN TREATED CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "F. HOW TO SUBMIT DOCUMENTS FOR INITIAL OR RECERTIFICATION/RENEWAL",
+   "html": "<p><strong>F. HOW TO SUBMIT DOCUMENTS FOR INITIAL OR RECERTIFICATION/RENEWAL </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Coordinate with your AME to make sure that A COMPLETE package is sent to the FAA WITHIN 14 DAYS. Partial or incomplete packages will NOT be reviewed and will cause a DELAY in certification. Your AME may submit the documents to the FAA using the AMCS document upload feature.",
+   "html": "<p>Coordinate with your AME to make sure that <strong>A COMPLETE</strong> package is sent to the FAA <strong>WITHIN 14 DAYS</strong>. Partial or incomplete packages will NOT be reviewed and will cause a DELAY in certification. Your AME may submit the documents to the FAA using the AMCS document upload feature.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "UPLOAD EACH DOCUMENT SEPARATELY:",
+   "html": "<p>UPLOAD EACH DOCUMENT <strong>SEPARATELY: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 555,
+   "text": "- - Endocrinologist current, detailed Clinical Progress Notes (each visit separately).\n- Cardiologist current, detailed Clinical Progress Note (each visit separately).\n- Ophthalmologist current, detailed Clinical Progress Note (each visit separately).\n- Lab Results (separated by date of collection).\n- CGM Data (separated by month). We strongly recommend uploading the original color digital report in PDF format.\n- Other pertinent documentation deemed necessary by you or your AME.",
+   "html": "<ul><li><ul><li> Endocrinologist current, detailed Clinical Progress Notes (each visit separately).</li><li> Cardiologist current, detailed Clinical Progress Note (each visit separately).</li><li> Ophthalmologist current, detailed Clinical Progress Note (each visit separately).</li><li> Lab Results (separated by date of collection).</li><li> CGM Data (separated by month). We strongly recommend uploading the original <strong>color</strong> digital report in PDF format.</li><li> Other pertinent documentation deemed necessary by you or your AME.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "The fastest and most efficient way to submit reports to the FAA is through your AME as a direct upload. See instructions on How to Upload Documents .",
+   "html": "<p><strong>The fastest and most efficient way to submit reports to the FAA is through your AME as a direct upload. </strong>See instructions on <a href=\"https://www.faa.gov/go/amcssupport\" target=\"_blank\" rel=\"noopener\">How to Upload Documents</a> .</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "As an alternative to your AME uploading digital reports, you may mail the diabetes information in paper format (color printouts preferred) using one of the following addresses:",
+   "html": "<p>As an alternative to your AME uploading digital reports, you may mail the diabetes information in paper format (color printouts preferred) using <strong>one</strong> of the following addresses:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Regular mail (US postal service)",
+   "html": "<p><strong>Regular mail (US postal service)</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Civil Aerospace Medical Institute, Building 13",
+   "html": "<p>Civil Aerospace Medical Institute, Building 13</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Aerospace Medical Certification Division, AAM-313",
+   "html": "<p>Aerospace Medical Certification Division, AAM-313</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "PO Box 25082 Oklahoma City, OK 73125-9914",
+   "html": "<p>PO Box 25082 Oklahoma City, OK 73125-9914</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "OR",
+   "html": "<p>OR</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Special mail (FedEx, UPS, etc.)",
+   "html": "<p><strong>Special mail (FedEx, UPS, etc.)</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Medical Appeals Section, AAM-313",
+   "html": "<p>Medical Appeals Section, AAM-313</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Aerospace Medical Certification Division 6700 S. MacArthur Boulevard, Building 13, Room 308",
+   "html": "<p>Aerospace Medical Certification Division 6700 S. MacArthur Boulevard, Building 13, Room 308</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "Oklahoma City, OK 73169",
+   "html": "<p>Oklahoma City, OK 73169</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "If your documents have been uploaded by your AME using the AMCS document upload feature, DO NOT also mail the documents. Duplication of documents will",
+   "html": "<p><strong>If your documents have been uploaded </strong>by your AME using the AMCS document upload feature, <strong>DO NOT also mail the documents. </strong>Duplication of documents will</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 555,
+   "text": "delay the review of your medical certification file.",
+   "html": "<p>delay the review of your medical certification file.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "G. CGM DATA REPORT EXAMPLES",
+   "html": "<p><strong>G. CGM DATA REPORT EXAMPLES </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "The following pages show CGM Data report examples for various devices.",
+   "html": "<p>The following pages show <strong>CGM Data report example</strong>s for various devices.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "Please submit any CGM graphs IN COLOR.",
+   "html": "<p><strong>Please submit any CGM graphs IN COLOR. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 556,
+   "text": "EXAMPLE – Weekly OVERLAY",
+   "html": "<p><strong>EXAMPLE – Weekly OVERLAY </strong></p>"
+  },
+  {
+   "type": "figure",
+   "page": 556,
+   "text": "㉐㤳㜳礣卉1",
+   "html": "<figure><img src=\"images/p556_fig2.png\" alt=\"㉐㤳㜳礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 557,
+   "text": "CGM DATA REPORT EXAMPLES (Page 2 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 2 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 557,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 557,
+   "text": "DEXCOM",
+   "html": "<p><strong>DEXCOM </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 557,
+   "text": "EXAMPLE – AGP",
+   "html": "<p><strong>EXAMPLE – AGP </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 557,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong> Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "CGM DATA REPORT EXAMPLES (Page 3 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 3 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "DEXCOM G6",
+   "html": "<p><strong>DEXCOM G6 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "EXAMPLE – ALERT SETTINGS",
+   "html": "<p><strong>EXAMPLE – ALERT SETTINGS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "(Alarm settings and repeat alarms must be turned ON.)",
+   "html": "<p><strong>(Alarm settings and repeat alarms must be turned ON.) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 558,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong>Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 559,
+   "text": "CGM DATA REPORT EXAMPLES (Page 4 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 4 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 559,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 559,
+   "text": "DEXCOM G6",
+   "html": "<p><strong>DEXCOM G6 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 559,
+   "text": "EXAMPLE – OVERVIEW",
+   "html": "<p><strong>EXAMPLE – OVERVIEW </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 559,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong> Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 560,
+   "text": "CGM DATA REPORT EXAMPLES (Page 5 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 5 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 560,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 560,
+   "text": "MEDTRONIC 670G",
+   "html": "<p><strong>MEDTRONIC 670G </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 560,
+   "text": "EXAMPLE - ASSESSMENT AND PROGRESS",
+   "html": "<p><strong>EXAMPLE - ASSESSMENT AND PROGRESS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 560,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong>Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 561,
+   "text": "CGM DATA REPORT EXAMPLES (Page 6 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 6 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 561,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 561,
+   "text": "MEDTRONIC 670G",
+   "html": "<p><strong>MEDTRONIC 670G </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 561,
+   "text": "EXAMPLE - WEEKLY REVIEW REPORT",
+   "html": "<p><strong>EXAMPLE - WEEKLY REVIEW REPORT </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 561,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong>Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 562,
+   "text": "CGM DATA REPORT EXAMPLES (Page 7 of 7)",
+   "html": "<p><strong> CGM DATA REPORT EXAMPLES (Page 7 of 7) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 562,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 562,
+   "text": "EVERSENSE REPORT",
+   "html": "<p><strong>EVERSENSE REPORT </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 562,
+   "text": "EXAMPLE",
+   "html": "<p><strong>EXAMPLE </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 562,
+   "text": "Note: Submit graphs in color.",
+   "html": "<p><strong> Note: Submit graphs in color. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION PROTOCOL",
+   "html": "<p><strong>DIABETES MELLITUS TYPE I OR TYPE II INSULIN TREATED - CGM OPTION PROTOCOL </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "H. FREQUENTLY ASKED QUESTIONS (FAQs) (Page 1 of 4)",
+   "html": "<p><strong>H. FREQUENTLY ASKED QUESTIONS (FAQs) (Page 1 of 4) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "POLICY FAQs",
+   "html": "<p><strong>POLICY FAQs </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 563,
+   "text": "- 1. What did it take to develop an insulin-use policy for Class I and II medical certificate for the FAA?",
+   "html": "<ul><li><strong>1. What did it take to develop an insulin-use policy for Class I and II medical certificate for the FAA? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "Advances in diabetes management utilizing CGM technology provides pilots and the FAA better information about blood glucose levels and advanced warning of potentially dangerous glucose levels before they occur. CGM technology also allows the FAA to evaluate consistency of blood glucose control both in flight and on the ground.",
+   "html": "<p>Advances in diabetes management utilizing CGM technology provides pilots and the FAA better information about blood glucose levels and advanced warning of potentially dangerous glucose levels before they occur. CGM technology also allows the FAA to evaluate consistency of blood glucose control both in flight and on the ground.</p>"
+  },
+  {
+   "type": "list",
+   "page": 563,
+   "text": "- 2. Why did the FAA take so long to develop an insulin-use policy for Class I/II airmen especially when other countries have allowed it for years?",
+   "html": "<ul><li><strong>2. Why did the FAA take so long to develop an insulin-use policy for Class I/II airmen especially when other countries have allowed it for years?</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "Various flight safety considerations for this serious health condition could not be safely mitigated for commercial operations until recently. Advances in technology and diabetes management now provide the FAA better parameters to consider Class I and II medical certification for some insulin-dependent airmen.",
+   "html": "<p>Various flight safety considerations for this serious health condition could not be safely mitigated for commercial operations until recently. Advances in technology and diabetes management now provide the FAA better parameters to consider Class I and II medical certification for some insulin-dependent airmen.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "At the time of initial publication, only Canada and the United Kingdom allow the use of insulin in their pilots with an equivalent Class I or II medical. Unlike the FAA, those aviation authorities can impose specific operational limitations on the medical certificate (e.g., “valid only for two pilot operations” or requiring the other pilot to be both aware of the diabetic condition and able to provide emergency treatment.)",
+   "html": "<p>At the time of initial publication, only Canada and the United Kingdom allow the use of insulin in their pilots with an equivalent Class I or II medical. Unlike the FAA, those aviation authorities can impose specific operational limitations on the medical certificate (e.g., “valid only for two pilot operations” or requiring the other pilot to be both aware of the diabetic condition and able to provide emergency treatment.)</p>"
+  },
+  {
+   "type": "list",
+   "page": 563,
+   "text": "- 3. Why is the FAA so restrictive and why is there so much testing?",
+   "html": "<ul><li><strong>3. Why is the FAA so restrictive and why is there so much testing?</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "The FAA policy follows current medical standards of care for diabetes to ensure pilots are safe to fly in the complex aviation environment and reduce the risks of end-organ damage. If the latter is present, the potential risk of cognitive impairment is increased, which could be magnified in a hypoxic or high-stress environment, affecting safety.",
+   "html": "<p>The FAA policy follows current medical standards of care for diabetes to ensure pilots are safe to fly in the complex aviation environment and reduce the risks of end-organ damage. If the latter is present, the potential risk of cognitive impairment is increased, which could be magnified in a hypoxic or high-stress environment, affecting safety.</p>"
+  },
+  {
+   "type": "list",
+   "page": 563,
+   "text": "- 4. My doctor says my diabetes is well controlled and that I have no limitations. Why doesn’t FAA accept that?",
+   "html": "<ul><li><strong>4. My doctor says my diabetes is well controlled and that I have no limitations. Why doesn’t FAA accept that? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "While your physicians understand how to keep your blood sugar stable while on the ground, they may not be familiar with the additional challenges of the demanding aviation environment and may not consider them when determining clinical limitations. FAA guidance addresses these aviation-specific concerns.",
+   "html": "<p>While your physicians understand how to keep your blood sugar stable while on the ground, they may not be familiar with the additional challenges of the demanding aviation environment and may not consider them when determining clinical limitations. FAA guidance addresses these aviation-specific concerns.</p>"
+  },
+  {
+   "type": "list",
+   "page": 563,
+   "text": "- 5. Are there additional risks when flying with diabetes?",
+   "html": "<ul><li><strong>5. Are there additional risks when flying with diabetes?</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 563,
+   "text": "Yes. Hypoglycemia can lead to cognitive impairment, loss of consciousness, and seizure. Hyperglycemia can potentially cause sudden incapacitation, but it can also cause damage to eyes, heart, kidneys, and nervous system.",
+   "html": "<p>Yes. Hypoglycemia can lead to cognitive impairment, loss of consciousness, and seizure. Hyperglycemia can potentially cause sudden incapacitation, but it can also cause damage to eyes, heart, kidneys, and nervous system.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "FREQUENTLY ASKED QUESTIONS (FAQs) (Page 2 of 4)",
+   "html": "<p><strong> FREQUENTLY ASKED QUESTIONS (FAQs) (Page 2 of 4) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "BLOOD SUGAR FAQs",
+   "html": "<p><strong>BLOOD SUGAR FAQs</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 6. Why is the blood sugar range so narrow?",
+   "html": "<ul><li><strong>6. Why is the blood sugar range so narrow? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "The recommended blood glucose range is not intended to be “narrow,” but reflects generally accepted treatment guidelines and the needs of safety. Safety concerns arise when blood sugar falls outside of the 70mg/dl - 250 mg/dL range.",
+   "html": "<p>The recommended blood glucose range is not intended to be “narrow,” but reflects generally accepted treatment guidelines and the needs of safety. Safety concerns arise when blood sugar falls outside of the 70mg/dl - 250 mg/dL range.</p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 7. Why do I need to use a CGM device even when I’m not flying? I am well controlled with finger sticks and injections. Why do I need to follow these new rules?",
+   "html": "<ul><li><strong>7. Why do I need to use a CGM device even when I’m not flying? I am well controlled with finger sticks and injections. Why do I need to follow these new rules? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "CGM technology allows the FAA to ensure ongoing safety through consistent blood glucose control both in flight and on the ground regardless of the pilot’s flight schedule.",
+   "html": "<p>CGM technology allows the FAA to ensure ongoing safety through consistent blood glucose control both in flight and on the ground regardless of the pilot’s flight schedule.</p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 8. I am currently on a Special Issuance (SI) for another condition. How will ITDM affect that?",
+   "html": "<ul><li><strong>8. I am currently on a Special Issuance (SI) for another condition. How will ITDM affect that? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "Your existing SI will be invalid due to the additional diagnosis. You will need a new authorization letter.",
+   "html": "<p>Your existing SI will be invalid due to the additional diagnosis. You will need a new authorization letter.</p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 9. What do I do if I develop symptoms or become incapacitated/impaired due to my blood glucose levels while I am on a trip?",
+   "html": "<ul><li><strong>9. What do I do if I develop symptoms or become incapacitated/impaired due to my blood glucose levels while I am on a trip? </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- You must disqualify yourself from flight activities as required by both the SI and 14 CFR 61.53;\n- Contact your treating endocrinologist to determine if there is a need to change your insulin treatment; and\n- Contact your AME with details surrounding the event. - Your AME should contact the FAA to discuss your case.",
+   "html": "<ul><li>You must disqualify yourself from flight activities as required by both the SI and 14 CFR 61.53;</li><li>Contact your treating endocrinologist to determine if there is a need to change your insulin treatment; and</li><li><p>• Contact your AME with details surrounding the event.</p>\n<ul><li>Your AME should contact the FAA to discuss your case.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "CONTINUOUS GLUCOSE MONITOR (CGM) AND INSULIN PUMP FAQs",
+   "html": "<p><strong>CONTINUOUS GLUCOSE MONITOR (CGM) AND INSULIN PUMP FAQs </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 10. Which CGMs does the FAA allow?",
+   "html": "<ul><li><strong>10. Which CGMs does the FAA allow? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "The FAA lists the required functions of CGMs in the Guide for Aviation Medical Examiners (AME Guide). While we do not endorse specific brands, we have added a list of devices we know meet these requirements. See “Item # 4 - Continuous Glucose Monitor Data” of the ITDM Initial Certificate Consideration Requirements .",
+   "html": "<p>The FAA lists the <strong>required </strong>functions of CGMs in the Guide for Aviation Medical Examiners (AME Guide). While we do not endorse specific brands, we have added a list of devices we know meet these requirements. See <a href=\"https://www.faa.gov/ame_guide/media/ITDM-Initial_Certificate_Consideration_Requirements.pdf\" target=\"_blank\" rel=\"noopener\">“Item # 4 - Continuous Glucose Monitor Data” of the ITDM Initial Certificate Consideration Requirements</a> .</p>"
+  },
+  {
+   "type": "list",
+   "page": 564,
+   "text": "- 11. Why is a CGM required instead of finger stick blood sugar?",
+   "html": "<ul><li><strong>11. Why is a CGM required instead of finger stick blood sugar? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 564,
+   "text": "The CGM is more accurate, measuring within 10% of the actual blood sugar. It is also independent of the pilot’s action. Turbulence can make it impossible for pilots to perform finger sticks, even with an autopilot and/or second pilot. The CGMs can enable notifications and alerts for specific blood glucose values and show predictive trends, both of which are required. The CGM can also communicate with an insulin pump.",
+   "html": "<p>The CGM is more accurate, measuring within 10% of the actual blood sugar. It is also independent of the pilot’s action. Turbulence can make it impossible for pilots to perform finger sticks, even with an autopilot and/or second pilot. The CGMs can enable notifications and alerts for specific blood glucose values and show predictive trends, both of which are required. The CGM can also communicate with an insulin pump.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "FREQUENTLY ASKED QUESTIONS (FAQs) (Page 3 of 4)",
+   "html": "<p><strong> FREQUENTLY ASKED QUESTIONS (FAQs) (Page 3 of 4) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 12. How do I know if my CGM and/or insulin pump is legal for flight as an “authorized personal electronic device?”",
+   "html": "<ul><li><strong>12. How do I know if my CGM and/or insulin pump is legal for flight as an “authorized personal electronic device?” </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "Most current medical devices should be approved; however, the pilot needs to verify this with the aircraft operator for the aircraft that they fly. It is not feasible for the FAA to maintain a list of approved devices due to the rapidly changing technology and to the large number of airframe and avionics combinations seen in the Part 91, 91k, 121, and 135 fleets.",
+   "html": "<p>Most current medical devices should be approved; however, the pilot needs to verify this with the aircraft operator for the aircraft that they fly. It is not feasible for the FAA to maintain a list of approved devices due to the rapidly changing technology and to the large number of airframe and avionics combinations seen in the Part 91, 91k, 121, and 135 fleets.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "See AC 20-164A for guidance.",
+   "html": "<p>See <a href=\"https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1031366\" target=\"_blank\" rel=\"noopener\">AC 20-164A</a> for guidance.</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 13. I know I have to submit CGM data to the FAA. How do I get this information?",
+   "html": "<ul><li><strong>13. I know I have to submit CGM data to the FAA. How do I get this information? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "Most devices have the ability to print out customized data reports to your computer. Check your device’s user guide for instructions as well as computer and software requirements as these may differ between manufacturers. (Note: Some devices will not allow the export of data onto your phone or tablet.)",
+   "html": "<p>Most devices have the ability to print out customized data reports to your computer. Check your device’s user guide for instructions as well as computer and software requirements as these may differ between manufacturers. (Note: Some devices will not allow the export of data onto your phone or tablet.)</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 14. What do I do if my CGM device fails?",
+   "html": "<ul><li><strong>14. What do I do if my CGM device fails? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "You should have all the following available during flight:",
+   "html": "<p>You should have all the following available during flight:</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- Glucometer (glucose meter) and test strips.\n- Backup sensor for the CGM device.\n- Backup insulin pen available if using an insulin pump.",
+   "html": "<ul><li>Glucometer (glucose meter) and test strips.</li><li>Backup sensor for the CGM device.</li><li>Backup insulin pen available if using an insulin pump.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "If the CGM stops working, go to a back-up plan for the remainder of the flight and measure your finger stick blood sugar every 30 minutes. If you are unable to correct your blood sugar, treat this as any in flight emergency and land as soon as practicable.",
+   "html": "<p>If the CGM stops working, go to a back-up plan for the remainder of the flight and measure your finger stick blood sugar every 30 minutes. If you are unable to correct your blood sugar, treat this as any in flight emergency and land as soon as practicable.</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 15. Do I have to get an insulin pump?",
+   "html": "<ul><li><strong>15. Do I have to get an insulin pump? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "No. However, if you choose to get an insulin pump, both the pump and CGM need to be FDA approved, both separately and in combination. Self-built systems are NOT acceptable for flying.",
+   "html": "<p>No. However, if you choose to get an insulin pump, <strong>both the pump and CGM need to be FDA approved, both separately and in combination.</strong> Self-built systems are <strong>NOT</strong> acceptable for flying.</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 16. Are there any concerns with the insulin pumps?",
+   "html": "<ul><li><strong>16. Are there any concerns with the insulin pumps? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "Yes, the pump could potentially fail or malfunction delivering too little or too much insulin.",
+   "html": "<p>Yes, the pump could potentially fail or malfunction delivering too little or too much insulin.</p>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- In the event of failure or malfunction, a backup insulin delivery must be available.\n- In the event of sudden cabin depressurization, consider turning off or disconnecting the pump.\n- If necessary, clear any bubbles in tubing seen with changes in cabin pressure.",
+   "html": "<ul><li>In the event of failure or malfunction, a backup insulin delivery must be available.</li><li>In the event of sudden cabin depressurization, consider turning off or disconnecting the pump.</li><li>If necessary, clear any bubbles in tubing seen with changes in cabin pressure.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 565,
+   "text": "- 17. Are there any features that make some insulin pumps better for flying?",
+   "html": "<ul><li><strong>17. Are there any features that make some insulin pumps better for flying?</strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 565,
+   "text": "The ability to suspend insulin delivery for a low reading is a good safety feature. In addition, a pump in which the insulin reservoir is not in direct line for delivery is preferred.",
+   "html": "<p>The ability to suspend insulin delivery for a low reading is a good safety feature. In addition, a pump in which the insulin reservoir is not in direct line for delivery is preferred.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 566,
+   "text": "FREQUENTLY ASKED QUESTIONS (FAQs) (Page 4 of 4)",
+   "html": "<p><strong> FREQUENTLY ASKED QUESTIONS (FAQs) (Page 4 of 4) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 566,
+   "text": "(Updated 08/30/2023)",
+   "html": "<p>(Updated 08/30/2023)</p>"
+  },
+  {
+   "type": "list",
+   "page": 566,
+   "text": "- 18. I do not use an insulin pump. Do I need to make any changes from my normal routine on the days that I fly?",
+   "html": "<ul><li><strong>18. I do not use an insulin pump. Do I need to make any changes from my normal routine on the days that I fly? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 566,
+   "text": "The goal is to avoid hypoglycemia while flying. Talk with your board-certified endocrinologist about whether or not adjustments should be made on days when you are flying.",
+   "html": "<p>The goal is to avoid hypoglycemia while flying. Talk with your board-certified endocrinologist about whether or not adjustments should be made on days when you are flying.</p>"
+  },
+  {
+   "type": "list",
+   "page": 566,
+   "text": "- 19. What do I do if my device breaks while traveling or I run out of supplies?",
+   "html": "<ul><li><strong>19. What do I do if my device breaks while traveling or I run out of supplies?</strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 566,
+   "text": "- Replace the machine as soon as possible.\n- If you cannot do this, finish the scheduled trip with your back-up system (finger sticks and injections) and remain compliant with the SI.\n- Once the trip concludes, do not start a new trip until the system authorized in the SI is back in place and functional.\n- While you may complete at trip once on the road, you are NOT authorized to add additional legs to the trip.\n- If neither the primary nor the backup system is functional, you must terminate flight activity. This is an absolute flight safety requirement.",
+   "html": "<ul><li>Replace the machine as soon as possible.</li><li>If you cannot do this, finish the scheduled trip with your back-up system (finger sticks and injections) and remain compliant with the SI.</li><li>Once the trip concludes, do not start a new trip until the system authorized in the SI is back in place and functional.</li><li>While you may complete at trip once on the road, you are NOT authorized to add additional legs to the trip.</li><li>If neither the primary nor the backup system is functional, you must terminate flight activity. <strong>This is an absolute flight safety requirement. </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 566,
+   "text": "- 20. Is there a required ground time if I change pumps or CGM devices?",
+   "html": "<ul><li><strong>20. Is there a required ground time if I change pumps or CGM devices?</strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 566,
+   "text": "- If you are already using a pump or CGM device and you change devices, no there is no ground time.\n- If you have NEVER used a pump previously, and you start using a pump for the first time, there is a seven (7) day ground trial period.\n- There is no required ground time if changing from an “open loop” to a “closed loop” system.",
+   "html": "<ul><li><strong>If you are already using </strong>a pump or CGM device and you change devices, no there is no ground time.</li><li>I<strong>f you have NEVER</strong> used a pump previously, and you start using a pump for the first time, there is a <strong>seven (7) day</strong> ground trial period.</li><li>There is no required ground time if changing from an “open loop” to a “closed loop” system.</li></ul>"
+  }
+ ]
+}

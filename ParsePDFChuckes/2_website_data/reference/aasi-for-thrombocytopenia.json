@@ -1,0 +1,60 @@
+{
+ "slug": "aasi-for-thrombocytopenia",
+ "title": "AASI for Thrombocytopenia",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  719,
+  720
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 719,
+   "text": "(Updated 10/27/2021)",
+   "html": "<p>(Updated 10/27/2021)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 719,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 719,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 719,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 719,
+   "text": "- An Authorization granted by the FAA;\n- An update of the status of the disease from the last FAA medical examination and any testing deemed necessary by the treating physician; and\n- CBC within the past 90 days.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>An update of the status of the disease from the last FAA medical examination and any testing deemed necessary by the treating physician; and</li><li>CBC within the past 90 days.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 719,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 719,
+   "text": "- There has been any recurrence or disease progression; or\n- There has been any bleeding that required treatment; or\n- Any new treatment is initiated such as IVIG, high dose steroids, platelet transfusion, splenectomy (as treatment, not traumatic), or others; and/or\n- Platelet count falls below 50,000/microL.",
+   "html": "<ul><li>There has been any recurrence or disease progression; or</li><li>There has been any bleeding that required treatment; or</li><li>Any new treatment is initiated such as IVIG, high dose steroids, platelet transfusion, splenectomy (as treatment, not traumatic), or others; and/or</li><li>Platelet count falls below 50,000/microL.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 720,
+   "text": "SUBSTANCES OF DEPENDENCE/ABUSE",
+   "html": "<p><strong> SUBSTANCES OF DEPENDENCE/ABUSE </strong></p>"
+  }
+ ]
+}

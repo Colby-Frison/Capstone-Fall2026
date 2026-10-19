@@ -1,0 +1,74 @@
+{
+ "id": "postural-tachycardia-syndrome-pots",
+ "name": "Postural Tachycardia Syndrome (POTS)",
+ "subtitle": null,
+ "name_in_guide": "POSTURAL TACHYCARDIA SYNDROME (POTS)",
+ "category": {
+  "id": "vascular-system",
+  "name": "Vascular System",
+  "exam_item": "37",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 69,
+ "decisions": [
+  "defer"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or neurologist performed no more than 90 days before the AME exam.",
+  "It must specifically include if the diagnosis of POTS is:",
+  "Equivocal; or",
+  "Not confirmed",
+  "Copies of any other treatment records or testing already performed by any providers for this or any similar condition by the treating physician.",
+  "Doctor's office notes;",
+  "Consultant notes;",
+  "Results from any testing already performed for the condition; and",
+  "Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history Note: In most cases, a diagnosis of POTS is not acceptable for medical certification/clearance.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Any history</p>\n<p><strong>Note:</strong> In most cases, a diagnosis of POTS is not acceptable for medical certification/clearance.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 12. A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or neurologist performed no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 13. It must specifically include if the diagnosis of POTS is: - Confirmed; - Equivocal; or - Not confirmed - 14. Copies of any other treatment records or testing already performed by any providers for this or any similar condition by the treating physician. - Doctor's office notes; - Consultant notes; - Results from any testing already performed for the condition; and - Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable). Note: To rescind the diagnosis of POTS, submit an evaluation performed by: • POTS center of excellence; • A neurologist specializing in autonomic nervous system disorders; OR • A researcher with extensive experience in POTS.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>12. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with the treating <strong>cardiologist or neurologist</strong> performed no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>13. </strong>It <strong>must specifically include</strong> if the diagnosis of POTS is:<ul><li>Confirmed;</li><li>Equivocal; or</li><li>Not confirmed</li></ul></li></ul>\n<ul><li><strong>14. </strong>Copies of any other treatment records or testing already performed by any providers for this or any similar condition by the treating physician.</li></ul>\n<ul><li>Doctor&#x27;s office notes;</li><li>Consultant notes;</li><li>Results from any testing already performed for the condition; and</li><li>Hospital records: History and Physical (H&amp;P), operative notes, and discharge summary (if applicable).</li></ul>\n<p><strong>Note: </strong>To rescind the diagnosis of POTS, submit an evaluation performed by:</p>\n<p>• POTS center of excellence;</p>\n<p>• A neurologist specializing in autonomic nervous system disorders; OR</p>\n<p>• A researcher with extensive experience in POTS.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating cardiologist or neurologist performed no more than 90 days before the AME exam.",
+    "It must specifically include if the diagnosis of POTS is:",
+    "Equivocal; or",
+    "Not confirmed",
+    "Copies of any other treatment records or testing already performed by any providers for this or any similar condition by the treating physician.",
+    "Doctor's office notes;",
+    "Consultant notes;",
+    "Results from any testing already performed for the condition; and",
+    "Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable)."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 201,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "postural-tachycardia-syndrome-pots",
+  "section_title": "POSTURAL TACHYCARDIA SYNDROME (POTS)",
+  "pdf_pages": [
+   201
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

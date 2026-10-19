@@ -1,0 +1,167 @@
+{
+ "id": "chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+ "name": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
+ "subtitle": "(05/31/2023)",
+ "name_in_guide": "CHRONIC LYMPHOCYTIC LEUKEMIA (CLL) / SMALL LYMPHOCYTIC LYMPHOMA (SLL) (05/31/2023)",
+ "category": {
+  "id": "lymphatics",
+  "name": "Lymphatics",
+  "exam_item": "45",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 110,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A CLL/SLL Status Summary (to expedite case processing);",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ONCOLOGIST no more than 90 days before the AME exam. It must include:",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis based on Rai/Binet stage and other clinically indicated markers; and",
+  "Follow-up;",
+  "It must specifically include performance status, disease staging, and treatment plan (including observation);",
+  "Lab performed no more than 90 days before the AME exam to include:",
+  "Beta-2 microglobulin;",
+  "Flow cytometry; and",
+  "Any other testing already performed or deemed clinically necessary by the treating physician.",
+  "Submit the following: - - - 1. ALL information in Row B"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Rai stage 0 – 1 AND/OR Binet stage A Followed by oncology for 5 or more years AND - Asymptomatic with no evidence of active disease; - Treated with observation only - Age 40 or older at time of diagnosis",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Rai stage 0 – 1</p>\n<p>AND/OR</p>\n<p>Binet stage A</p>\n<p>Followed by oncology</p>\n<p>for <strong>5 or more years </strong></p>\n<p><strong>AND </strong></p>\n<ul><li>Asymptomatic with no evidence of active disease;</li><li>Treated with observation only</li><li>Age 40 or older at time of diagnosis</li></ul>",
+   "evaluation_data": "See the CACI - Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL) Worksheet This requires a current, detailed Clinical Progress Note from the treating oncologist and lab. If the pilot meets all CACI worksheet criteria and is otherwise qualified",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/CACI_CLL_SLL.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL) Worksheet</a></p>\n<p>This requires a <strong>current, detailed Clinical Progress Note</strong> from the treating oncologist and lab.</p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE Annotate (elements or findings) in Item 60. Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>\n<p>Annotate the correct CACI statement in</p>\n<p>Block 60 and keep the required supporting information on file.</p>",
+   "pdf_page": 279,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Rai stage 0 – 2 AND/OR Binet stage A or B AND Followed by oncology for less than 5 years AND - Asymptomatic with no evidence of active disease; and - Treated with observation only",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Rai stage 0 – 2</p>\n<p>AND/OR</p>\n<p>Binet stage A or B</p>\n<p>AND</p>\n<p>Followed by oncology</p>\n<p>for <strong>less than 5 years </strong></p>\n<p>AND</p>\n<ul><li>Asymptomatic with no evidence of active disease; and</li><li>Treated with observation only</li></ul>",
+   "evaluation_data": "Submit the following: - 1. A CLL/SLL Status Summary (to expedite case processing); - 2. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ONCOLOGIST no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis based on Rai/Binet stage and other clinically indicated markers; and - Follow-up; - 3. It must specifically include performance status, disease staging, and treatment plan (including observation); - 4. Lab performed no more than 90 days before the AME exam to include: - CBC - Beta-2 microglobulin; - 5. Flow cytometry; and - 6. Any other testing already performed or deemed clinically necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/CLL_SLL_status_summary.pdf\" target=\"_blank\" rel=\"noopener\">CLL/SLL Status Summary</a> (to expedite case processing);</li></ul>\n<ul><li><strong>2. </strong>A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified <strong>ONCOLOGIST</strong> no more than<strong> 90 days before </strong>the AME exam. It must include:<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis based on Rai/Binet stage and other clinically indicated markers; and</li><li>Follow-up;</li></ul></li></ul>\n<ul><li><strong>3. </strong>It must specifically include performance status, disease staging, and treatment plan (including observation);</li></ul>\n<ul><li><p><strong>4. </strong>Lab performed no more than 90 days before the AME exam to include:</p>\n<ul><li>CBC</li><li>Beta-2 microglobulin;</li></ul></li></ul>\n<ul><li><strong>5. </strong>Flow cytometry; and</li></ul>\n<ul><li><strong>6. </strong>Any other testing already performed or deemed clinically necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A CLL/SLL Status Summary (to expedite case processing);",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified ONCOLOGIST no more than 90 days before the AME exam. It must include:",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis based on Rai/Binet stage and other clinically indicated markers; and",
+    "Follow-up;",
+    "It must specifically include performance status, disease staging, and treatment plan (including observation);",
+    "Lab performed no more than 90 days before the AME exam to include:",
+    "Beta-2 microglobulin;",
+    "Flow cytometry; and",
+    "Any other testing already performed or deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 279,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others Rai stage 3 or 4 AND/OR Binet stage C OR Followed by oncology for less than 5 years OR - Active disease or symptomatic; - Relapsed disease; or - Treated with targeted therapy and/or chemotherapy",
+   "condition_html": "<p><strong>C. All others </strong></p>\n<p>Rai stage 3 or 4</p>\n<p>AND/OR</p>\n<p>Binet stage C</p>\n<p>OR</p>\n<p>Followed by oncology</p>\n<p>for <strong>less than 5 years </strong></p>\n<p>OR</p>\n<ul><li>Active disease or symptomatic;</li><li>Relapsed disease; or</li><li>Treated with targeted therapy and/or chemotherapy</li></ul>",
+   "evaluation_data": "Submit the following: - - - 1. ALL information in Row B",
+   "evaluation_data_html": "<p>Submit the following:</p>\n<ul><li><ul><li><ul><li><strong>1. ALL information in Row B </strong></li></ul></li></ul></li></ul>",
+   "what_to_bring": [
+    "Submit the following: - - - 1. ALL information in Row B"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 279,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Chronic Lymphocytic Leukemia (CLL) /",
+   "updated": null,
+   "criteria": [
+    {
+     "ame_must_review": "Treating Oncologist finds the condition stable and - Asymptomatic - Recommends observation only - Monitored for 5 or more years",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Age at diagnosis",
+     "acceptable_certification_criteria": "[ ] 40 or older"
+    },
+    {
+     "ame_must_review": "Rai stage 0 - 1 and/or Binet stage A",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Applicant has NO evidence of active disease.* (Consider iwCLL criteria) *Examples of active disease include weight loss (unintentional) greater than 10 pounds; new palpable lymph notes",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Lab(s) within the past 90 days show: - Hemoglobin > = 11 mg/dL - Platelets > = 100,000/microL - Total or absolute lymphocyte count doubling time is greater than 6 months",
+     "acceptable_certification_criteria": "[ ] Yes"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified CLL.",
+    "Has current OR previous SI/AASI but now CACI qualified CLL.",
+    "NOT CACI qualified CLL. I have deferred. (Submit supporting documents.)",
+    "CACI qualified SLL",
+    "Has current OR previous SI/AASI but now CACI qualified SLL.",
+    "NOT CACI qualified SLL. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [
+  "Small Lymphocytic Lymphoma (SLL) Status Summary"
+ ],
+ "notes_html": "<p><strong>Note: </strong>Rows B and C require the same initial evaluation data. Row B may qualify for AASI consideration after follow-up.</p>\n<p><strong>Chronic Lymphocytic Leukemia (CLL) /</strong></p>\n<p><strong>Small Lymphocytic Lymphoma (SLL) Status Summary </strong></p>\n<p>(Updated 05/31/2023)</p>\n<p>Name: ________________________________ Birthdate: ____________________</p>\n<p>Applicant ID: ___________________________ PI: _________________________</p>\n<p>Please have your treating ONCOLOGIST who manages your CLL/SLL provide the requested information in the space. Submit this summary and a current, detailed Clinical Progress Note addressing each item. Attach a copy the lab results (item #6) and submit to your AME or mail to the FAA:</p>\n<p>Federal Aviation Administration</p>\n<p>Civil Aerospace Medical Institute, Building 13</p>\n<p>Aerospace Medical Certification Division, AAM-313, PO Box 25082 Oklahoma City, OK 73125-9914</p>\n<table><thead><tr><th>YES NO</th></tr></thead><tbody><tr><td><p>0-1 2 3-4</p></td></tr><tr><td><p>A B C</p></td></tr><tr><td><p>YES NO</p>\n<p>Attach copy of lab results</p>\n<p>11+ 10+ &lt; 10</p>\n<p>YES NO</p></td></tr></tbody></table>\n<ul><li>1. Diagnosed at age 40 or older and has been followed by oncology for five (5) or more years?</li></ul>\n<ul><li>2. Is the individual stable, asymptomatic, and treatment recommended is observation only.</li></ul>\n<ul><li>3. Rai stage</li></ul>\n<ul><li>4. Binet stage</li></ul>\n<ul><li>5. Applicant has NO evidence of active disease.*</li></ul>\n<p>(Consider iwCLL criteria)</p>\n<p>*Examples of active disease include weight loss (unintentional) greater than 10 pounds; new palpable lymph notes</p>\n<ul><li>6. Labs performed no more than 90 days ago verify:</li><li>Hemoglobin is ______ mg/dL</li><li>Platelets greater than 100,000/microL AND</li></ul>\n<p>Total or absolute lymphocyte count doubling time is greater than</p>\n<p>6 months.</p>\n<ul><li>7. Explain any “NO” answers or other concerns. (Attach a current, detailed Clinical Progress Note.)</li></ul>\n<p>___________________________________ __________________</p>\n<p>Treating Physician Signature Date of Evaluation</p>\n<p>___________________________________ __________________</p>\n<p>Name or Office Stamp Phone Number</p>\n<p><strong>Small Lymphocytic Lymphoma (SLL) Worksheet </strong></p>\n<p>(Added 05/31/2023)</p>\n<p>Applicants with<strong> CLL: </strong></p>\n<p>Applicants with <strong>SLL: </strong></p>",
+ "links": [
+  {
+   "text": "CACI - Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL) Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_CLL_SLL.pdf"
+  },
+  {
+   "text": "CLL/SLL Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/CLL_SLL_status_summary.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-45-lymphatics",
+  "section_title": "ITEM 45. Lymphatics",
+  "pdf_pages": [
+   279,
+   280,
+   281,
+   282
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

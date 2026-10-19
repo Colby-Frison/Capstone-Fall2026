@@ -1,0 +1,109 @@
+{
+ "id": "acoustic-neuroma",
+ "name": "Acoustic Neuroma",
+ "subtitle": null,
+ "name_in_guide": "ACOUSTIC NEUROMA",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/30/2018",
+ "order": 8,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current status report from the treating physician with treatment plan and prognosis;",
+  "List of medications and side effects, if any;",
+  "Operative notes and discharge summary, if applicable; and",
+  "Copies of most recent imaging report(s) (MRI).",
+  "Current status report from the treating physician (ENT or neurosurgeon) with",
+  "Treatment plan, prognosis, and adherence to treatment;",
+  "It should indicate the presence or absence of any residual tumor and any complications;",
+  "Operative notes and discharge summary",
+  "Copies of initial and most recent imaging reports (MRI) and lab;",
+  "Current audiogram (pure tone and speech discrimination); and",
+  "If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Treated 5 or more years ago With - Surgery OR - Stereotactic radiation",
+   "condition_html": "<p><strong>A. </strong> Treated</p>\n<p><strong>5 or more years ago</strong></p>\n<p>With</p>\n<ul><li>Surgery OR</li><li>Stereotactic radiation</li></ul>",
+   "evaluation_data": "The AME should review a current status report from the treating physician. If no symptoms or current problems, no ongoing treatment or surveillance needed:",
+   "evaluation_data_html": "<p>The AME should review a current status report from the treating physician. If no symptoms or current problems, no ongoing treatment or surveillance needed:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize history in Block 60. Submit documents to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize history in Block 60.</p>\n<p>Submit documents to the FAA for retention in the file.</p>",
+   "pdf_page": 72,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Treated 5 or more years ago With - Observation ONLY",
+   "condition_html": "<p><strong>B. </strong>Treated</p>\n<p><strong> 5 or more years ago</strong></p>\n<p>With</p>\n<ul><li>Observation ONLY</li></ul>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current status report from the treating physician with treatment plan and prognosis; - It should identify all treatment used, size of the tumor at diagnosis, and current size; - List of medications and side effects, if any; - Operative notes and discharge summary, if applicable; and - Copies of most recent imaging report(s) (MRI).",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Current status report from the treating physician with treatment plan and prognosis;<ul><li>It should identify all treatment used, size of the tumor at diagnosis, and current size;</li></ul></li><li> List of medications and side effects, if any;</li><li> Operative notes and discharge summary, if applicable; and</li><li> Copies of most recent imaging report(s) (MRI).</li></ul>",
+   "what_to_bring": [
+    "Current status report from the treating physician with treatment plan and prognosis;",
+    "List of medications and side effects, if any;",
+    "Operative notes and discharge summary, if applicable; and",
+    "Copies of most recent imaging report(s) (MRI)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 72,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Treated less than 5 years ago With ANY of the following: - Observation, - Surgery, OR - Stereotactic radiation",
+   "condition_html": "<p><strong>C. Treated less than 5 years ago </strong></p>\n<p>With ANY of the following:</p>\n<ul><li>Observation,</li><li>Surgery, OR</li><li>Stereotactic radiation</li></ul>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current status report from the treating physician (ENT or neurosurgeon) with - Treatment plan, prognosis, and adherence to treatment; - It should indicate the presence or absence of any residual tumor and any complications; - List of medications and side effects, if any; - Operative notes and discharge summary (if applicable); SEE NEXT PAGE - Copies of initial and most recent imaging reports (MRI) and lab; - Current audiogram (pure tone and speech discrimination); and - If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Current status report from the treating physician (ENT or neurosurgeon) with</li><li>Treatment plan, prognosis, and adherence to treatment;</li><li>It should indicate the presence or absence of any residual tumor and any complications;</li><li> List of medications and side effects, if any;</li><li> Operative notes and discharge summary</li></ul>\n<p>(if applicable); SEE NEXT PAGE</p>\n<ul><li> Copies of initial and most recent imaging reports (MRI) and lab;</li><li> Current audiogram (pure tone and speech discrimination); and</li><li> If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted.</li></ul>",
+   "what_to_bring": [
+    "Current status report from the treating physician (ENT or neurosurgeon) with",
+    "Treatment plan, prognosis, and adherence to treatment;",
+    "It should indicate the presence or absence of any residual tumor and any complications;",
+    "List of medications and side effects, if any;",
+    "Operative notes and discharge summary",
+    "Copies of initial and most recent imaging reports (MRI) and lab;",
+    "Current audiogram (pure tone and speech discrimination); and",
+    "If any neurologic deficit is noted, current documentation of the deficit and severity, as well as the status of the rest of the neurologic exam by treating neurosurgeon or neurotologist, must be submitted."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 72,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   72
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

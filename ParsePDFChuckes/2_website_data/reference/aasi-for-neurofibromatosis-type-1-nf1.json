@@ -1,0 +1,59 @@
+{
+ "slug": "aasi-for-neurofibromatosis-type-1-nf1",
+ "title": "AASI for Neurofibromatosis Type 1 (NF1)",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  710
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 710,
+   "text": "(Updated 01/28/2026)",
+   "html": "<p>(Updated 01/28/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 710,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 710,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 710,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 710,
+   "text": "- 1. An Authorization granted by the FAA; and",
+   "html": "<ul><li><strong>1. </strong>An Authorization granted by the FAA; and</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 710,
+   "text": "- 2. Annual current, detailed Clinical Progress Note generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. It must include a detailed interim summary; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+   "html": "<ul><li><strong>2. Annual current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>neurologist no more than 90 days before </strong>the AME exam. It must include a detailed interim summary; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 710,
+   "text": "AME must defer and describe in Block 60 what item(s) caused the deferral if the neurologist evaluation or AME exam identifies any of the following:",
+   "html": "<p><strong>AME must defer</strong> and describe in Block 60 what item(s) caused the deferral if the neurologist evaluation or AME exam identifies any of the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 710,
+   "text": "- New (or not previously reported) neurologic symptoms, signs, or diagnosis;\n- Any progression of the disease; and/or\n- Any new treatment is initiated",
+   "html": "<ul><li><strong>New</strong> (or not previously reported) <strong>neurologic symptoms, signs, or diagnosis</strong>;</li><li>Any progression of the disease; and/or</li><li>Any new treatment is initiated</li></ul>"
+  }
+ ]
+}

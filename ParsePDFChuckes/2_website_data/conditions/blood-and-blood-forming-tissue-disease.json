@@ -1,0 +1,159 @@
+{
+ "id": "blood-and-blood-forming-tissue-disease",
+ "name": "Blood and Blood-Forming Tissue Disease",
+ "subtitle": null,
+ "name_in_guide": "BLOOD AND BLOOD-FORMING TISSUE DISEASE",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/28/2018",
+ "order": 156,
+ "decisions": [
+  "faa_decision",
+  "special_issuance",
+  "aasi"
+ ],
+ "what_to_bring": [
+  "Submit a current status report and all pertinent medical reports. Include a CBC, and any other tests deemed necessary",
+  "Submit a current status report and all pertinent medical reports. Include frequency, severity, and location of bleeding sites",
+  "Submit a current status report and all pertinent medical reports. See Acute Lymphocytic Leukemia (ALL) disposition table on the following page.",
+  "Submit a current status report and all pertinent medical reports.",
+  "Submit a current status report and all pertinent medical reports",
+  "Submit a current status report and all pertinent medical reports; include CBC"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Anemia",
+   "condition_html": "<p>Anemia</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports. Include a CBC, and any other tests deemed necessary",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports. Include a CBC, and any other tests deemed necessary</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports. Include a CBC, and any other tests deemed necessary"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hemophilia",
+   "condition_html": "<p>Hemophilia</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports. Include frequency, severity, and location of bleeding sites",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports. Include frequency, severity, and location of bleeding sites</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports. Include frequency, severity, and location of bleeding sites"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Leukemia, Acute and Chronic – All Types",
+   "condition_html": "<p>Leukemia, Acute and Chronic – All Types</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports. See Acute Lymphocytic Leukemia (ALL) disposition table on the following page.",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports.</p>\n<p>See <strong>Acute Lymphocytic Leukemia (ALL) </strong>disposition table on the following page.</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports. See Acute Lymphocytic Leukemia (ALL) disposition table on the following page."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Chronic Lymphocytic Leukemia",
+   "condition_html": "<p>Chronic Lymphocytic Leukemia</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports.",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports.</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports."
+   ],
+   "decisions": [
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "Initial Special Issuance – requires FAA Decision Follow-up Special Issuance's - See AASI Protocol",
+   "disposition_html": "<p>Initial Special Issuance – requires FAA Decision</p>\n<p>Follow-up Special Issuance&#x27;s - See <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/cll\" target=\"_blank\" rel=\"noopener\">AASI</a> Protocol</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Other disease of the blood or blood-forming tissues that could adversely affect performance of airman duties",
+   "condition_html": "<p>Other disease of the blood or blood-forming tissues that could adversely affect performance of airman duties</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Polycythemia",
+   "condition_html": "<p>Polycythemia</p>",
+   "evaluation_data": "Submit a current status report and all pertinent medical reports; include CBC",
+   "evaluation_data_html": "<p>Submit a current status report and all pertinent medical reports; include CBC</p>",
+   "what_to_bring": [
+    "Submit a current status report and all pertinent medical reports; include CBC"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 418,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "AASI",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/cll"
+  }
+ ],
+ "aliases": [
+  "Anemia",
+  "Hemophilia",
+  "Leukemia, Acute and Chronic – All Types",
+  "Chronic Lymphocytic Leukemia",
+  "Other disease of the blood or blood-forming tissues that could adversely affect",
+  "Polycythemia"
+ ],
+ "source": {
+  "section": "blood-and-blood-forming-tissue-disease",
+  "section_title": "BLOOD AND BLOOD-FORMING TISSUE DISEASE",
+  "pdf_pages": [
+   418
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

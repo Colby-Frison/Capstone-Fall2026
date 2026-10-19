@@ -1,0 +1,162 @@
+{
+ "slug": "4-medical-certification-decision-making",
+ "title": "4. Medical Certification Decision Making",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  15,
+  16
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "The format of the Guide establishes aerospace medical dispositions, protocols, and AME Assisted Special Issuances (AASI) identified in Items 21–58 of the FAA Form 8500. This guidance references specific medical tests or procedure(s) the results of which are needed by the FAA to determine the eligibility of the applicant to be medically certificated. The request for this medical information must not be misconstrued as the FAA ordering or mandating that the applicant undergo testing, where clinically inappropriate or contraindicated. The risk of the study based upon the disease state and test conditions must be balanced by the applicant’s desire for certification and determined by the applicant and their healthcare provider(s).",
+   "html": "<p>The format of the Guide establishes aerospace medical dispositions, protocols, and AME Assisted Special Issuances (AASI) identified in Items 21–58 of the FAA Form 8500. This guidance references specific medical tests or procedure(s) the results of which are needed by the FAA to determine the eligibility of the applicant to be medically certificated. The request for this medical information must not be misconstrued as the FAA ordering or mandating that the applicant undergo testing, where clinically inappropriate or contraindicated. The risk of the study based upon the disease state and test conditions must be balanced by the applicant’s desire for certification and determined by the applicant and their healthcare provider(s).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "After reviewing the medical history and completing the examination, AMEs must:",
+   "html": "<p>After reviewing the medical history and completing the examination, AMEs must:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Issue a medical certificate,",
+   "html": "<p>• Issue a medical certificate,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Deny the application, or",
+   "html": "<p>• Deny the application, or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Defer the action to the Manager, AMCD, AAM-300, or the appropriate RFS",
+   "html": "<p>• Defer the action to the Manager, AMCD, AAM-300, or the appropriate RFS</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "AMEs may issue a medical certificate only if the applicant meets all medical standards, including those pertaining to medical history unless otherwise authorized by the FAA.",
+   "html": "<p>AMEs <strong>may issue</strong> a medical certificate only if the applicant meets all medical standards, including those pertaining to medical history unless otherwise authorized by the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "AMEs may not issue a medical certificate if the applicant fails to meet specified minimum standards or demonstrates any of the findings or diagnoses described in this Guide as \"disqualifying\" unless the condition is unchanged or improved and the applicant presents written documentation that the FAA has evaluated the condition, found the applicant eligible for certification, and authorized AMEs to issue certificates.",
+   "html": "<p>AMEs <strong>may not issue</strong> a medical certificate if the applicant fails to meet specified minimum standards or demonstrates any of the findings or diagnoses described in this Guide as &quot;disqualifying&quot; unless the condition is unchanged or improved and the applicant presents written documentation that the FAA has evaluated the condition, found the applicant eligible for certification, and authorized AMEs to issue certificates.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "The following medical conditions are specifically disqualifying under 14 CFR part 67. However, the FAA may exercise discretionary authority under the provisions of Authorization of Special Issuance, to issue an airman medical certificate. See Special Issuances section for additional guidance where applicable.",
+   "html": "<p>The following medical conditions are specifically disqualifying under 14 CFR part 67. However, the FAA may exercise discretionary authority under the provisions of Authorization of Special Issuance, to issue an airman medical certificate. See<strong> Special Issuances </strong>section for additional guidance where applicable.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Angina pectoris;",
+   "html": "<p>• Angina pectoris;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Bipolar disorder;",
+   "html": "<p>• Bipolar disorder;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Cardiac valve replacement;",
+   "html": "<p>• Cardiac valve replacement;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant;",
+   "html": "<p>• Coronary heart disease that has required treatment or, if untreated, that has been symptomatic or clinically significant;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Diabetes mellitus requiring insulin or other hypoglycemic medication;",
+   "html": "<p>• Diabetes mellitus requiring insulin or other hypoglycemic medication;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Disturbance of consciousness without satisfactory medical explanation of the cause;",
+   "html": "<p>• Disturbance of consciousness without satisfactory medical explanation of the cause;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 15,
+   "text": "• Epilepsy;",
+   "html": "<p>• Epilepsy;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Heart replacement;",
+   "html": "<p>• Heart replacement;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Myocardial infarction;",
+   "html": "<p>• Myocardial infarction;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Permanent cardiac pacemaker;",
+   "html": "<p>• Permanent cardiac pacemaker;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Personality disorder that is severe enough to have repeatedly manifested itself by overt acts;",
+   "html": "<p>• Personality disorder that is severe enough to have repeatedly manifested itself by overt acts;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Psychosis;",
+   "html": "<p>• Psychosis;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Substance abuse and dependence; and/or",
+   "html": "<p>• Substance abuse and dependence; and/or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "• Transient loss of control of nervous system function(s) without satisfactory medical explanation of cause.",
+   "html": "<p>• Transient loss of control of nervous system function(s) without satisfactory medical explanation of cause.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "An airman who is medically disqualified for any reason may be considered by the FAA for an Authorization for Special Issuance of a Medical Certificate (Authorization). For medical defects, which are static or non-progressive in nature, a Statement of Demonstrated Ability (SODA) may be granted in lieu of an Authorization.",
+   "html": "<p>An airman who is medically disqualified for any reason may be considered by the FAA for an Authorization for Special Issuance of a Medical Certificate (Authorization). For medical defects, which are static or non-progressive in nature, a Statement of Demonstrated Ability (SODA) may be granted in lieu of an Authorization.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "The AME may always defer the application to the FAA for action. In the interests of the applicant and of a responsive certification system, however, deferral is appropriate only if: the standards are not met; if there is an unresolved question about the history, the findings, the standards, or agency policy; if the examination is incomplete; if further evaluation is necessary; or if directed by the FAA.",
+   "html": "<p>The AME <strong>may always defer</strong> the application to the FAA for action. In the interests of the applicant and of a responsive certification system, however, deferral is appropriate only if: the standards are not met; if there is an unresolved question about the history, the findings, the standards, or agency policy; if the examination is incomplete; if further evaluation is necessary; or if directed by the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 16,
+   "text": "The AME may deny certification only when the applicant clearly does not meet the standards. For information on Denial – see Item 62 .",
+   "html": "<p>The AME may deny certification only when the applicant clearly does not meet the standards. For information on Denial – see <a href=\"https://www.faa.gov/ame_guide/app_process/app_review/item62/\" target=\"_blank\" rel=\"noopener\">Item 62</a> .</p>"
+  }
+ ]
+}

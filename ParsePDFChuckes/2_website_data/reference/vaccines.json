@@ -1,0 +1,100 @@
+{
+ "slug": "vaccines",
+ "title": "VACCINES",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  676
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "(Updated 12/03/2025)",
+   "html": "<p>(Updated 12/03/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113(b)(c); 67.213 (b)(c); and 67.313(b)(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong>- <strong>67.113(b)(c); 67.213 (b)(c); and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "II. MEDICAL HISTORY: Item 48. General Systemic",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>Item 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "The use of vaccines below may be acceptable if there are no side effects (localized or systemic), which could interfere with aviation safety and the applicant is otherwise qualified.",
+   "html": "<p>The use of vaccines below may be acceptable if there are no side effects (localized or systemic), which could interfere with aviation safety and the applicant is otherwise qualified.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS:",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "See Item 48. General Systemic",
+   "html": "<p>See <strong>Item 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "IV. PROTOCOL: None",
+   "html": "<p><strong>IV. PROTOCOL</strong>: None</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 676,
+   "text": "- Some vaccines will require a post-dose observation time due to either immediate or delayed side effects that will affect aeromedical safety. See table below.\n- FDA approved vaccines are acceptable. If vaccine is FDA approved and not listed on the table below, contact AMCD/RFS for further guidance.\n- 1If experiencing delayed symptoms (e.g. headache, fatigue, myalgia, or chills) 14 CFR 61.53 applies – NO fly, NO safety-related duties (SRD) until symptom-free.",
+   "html": "<ul><li>Some vaccines will require a post-dose observation time due to either immediate or delayed side effects that will affect aeromedical safety. See table below.</li><li>FDA approved vaccines are acceptable. If vaccine is FDA approved and not listed on the table below, contact AMCD/RFS for further guidance.</li><li>1If experiencing delayed symptoms (e.g. headache, fatigue, myalgia, or chills) 14 CFR 61.53 applies – NO fly, NO safety-related duties (SRD) until symptom-free.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 676,
+   "header": [
+    "Vaccine",
+    "Post-dose observation1"
+   ],
+   "rows": [
+    [
+     "- Bacillus calmette-guerin (intradermal) - Chikungunya vaccine (Vimkunya) (recombinant)* - Diphtheria, tetanus, and pertussis (Boostrix) - Hepatitis A - Hepatitis B - Influenza - Measles, mumps, and rubella vaccines (MMR) (Priorix) - Measles, mumps, rubella, and varicella virus vaccine (MMRV) (ProQuad) - Meningococcal (Menactra, MenQuadfi, Menveo) - Pneumonia - Typhoid, oral (Vivotif) or injection (Typhim Vi) - Yellow Fever - YF-VAX - Stamaril (when YF-VAX is depleted in US)",
+     "Not required"
+    ],
+    [
+     "- COVID-19 Vaccines - Comirnaty - Pfizer/BioNTech - Moderna - Novavax - Shingles",
+     "24 hours"
+    ],
+    [
+     "- Rabies",
+     "72 hours"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Vaccine</th><th>Post-dose observation1</th></tr></thead><tbody><tr><td><ul><li> Bacillus calmette-guerin (intradermal)</li><li> Chikungunya vaccine (Vimkunya) (recombinant)*</li><li> Diphtheria, tetanus, and pertussis (Boostrix)</li><li> Hepatitis A</li><li> Hepatitis B</li><li> Influenza</li><li> Measles, mumps, and rubella vaccines (MMR) (Priorix)</li><li> Measles, mumps, rubella, and varicella virus vaccine (MMRV) (ProQuad)</li><li> Meningococcal (Menactra, MenQuadfi, Menveo)</li><li> Pneumonia</li><li> Typhoid, oral (Vivotif) or injection (Typhim Vi)</li><li> Yellow Fever</li><li>YF-VAX</li><li>Stamaril (when YF-VAX is depleted in US)</li></ul></td><td><p>Not required</p></td></tr><tr><td><ul><li> COVID-19 Vaccines</li><li>Comirnaty - Pfizer/BioNTech</li><li>Moderna</li><li>Novavax</li><li> Shingles</li></ul></td><td><p>24 hours</p></td></tr><tr><td><ul><li> Rabies</li></ul></td><td><p>72 hours</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "*Ixchiq (live-attenuated) is no longer FDA approved.",
+   "html": "<p>*Ixchiq (live-attenuated) is no longer FDA approved.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 676,
+   "text": "676",
+   "html": "<p>676</p>"
+  }
+ ]
+}

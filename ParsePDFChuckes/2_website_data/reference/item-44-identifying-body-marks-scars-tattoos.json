@@ -1,0 +1,106 @@
+{
+ "slug": "item-44-identifying-body-marks-scars-tattoos",
+ "title": "ITEM 44. Identifying Body Marks, Scars, Tattoos",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  276
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 276,
+   "header": [
+    "CHECK EACH ITEM IN APPROPRIATE COLUMN",
+    "Normal",
+    "Abnormal"
+   ],
+   "rows": [
+    [
+     "44. Identifying body marks, scars, tattoos (size and location)",
+     "",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>44. Identifying body marks, scars, tattoos (size and location)</p></td><td></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "All Classes: 14 CFR 67.113(b), 67.213(b), and 67.313(b)",
+   "html": "<p><strong>All Classes: 14 CFR 67.113(b), 67.213(b), and 67.313(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "(b) No other organic, functional, or structural disease, defect, or limitation that the",
+   "html": "<p>(b) No other organic, functional, or structural disease, defect, or limitation that the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition finds-",
+   "html": "<p>Federal Air Surgeon, based on the case history and appropriate, qualified medical judgment relating to the condition finds-</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "(1) Makes the person unable to safely perform the duties or exercise the",
+   "html": "<p>(1) Makes the person unable to safely perform the duties or exercise the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "privileges of the airman certificate applied for or held; or",
+   "html": "<p>privileges of the airman certificate applied for or held; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "(2) May reasonably be expected, for the maximum duration of the airman",
+   "html": "<p>(2) May reasonably be expected, for the maximum duration of the airman</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges",
+   "html": "<p>medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong> II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "A careful examination for surgical and other scars should be made, and those that are significant (the result of surgery or that could be useful as identifying marks) should be described. Tattoos should be recorded because they may be useful for identification.",
+   "html": "<p>A careful examination for surgical and other scars should be made, and those that are significant (the result of surgery or that could be useful as identifying marks) should be described. Tattoos should be recorded because they may be useful for identification.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "The AME should question the applicant about any surgical scars that have not been previously addressed, and document the findings in Item 60 of FAA Form 8500-8. Medical certificates must not be issued to applicants with medical conditions that require deferral without consulting the AMCD or RFS. Medical documentation must be submitted for any condition in order to support an issuance of a medical certificate.",
+   "html": "<p>The AME should question the applicant about any surgical scars that have not been previously addressed, and document the findings in Item 60 of FAA Form 8500-8. Medical certificates must not be issued to applicants with medical conditions that require deferral without consulting the AMCD or RFS. Medical documentation must be submitted for any condition in order to support an issuance of a medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 276,
+   "text": "Disqualifying Condition: Scar tissue that involves the loss of function, which may interfere with the safe performance of airman duties.",
+   "html": "<p>Disqualifying Condition: Scar tissue that involves the loss of function, which may interfere with the safe performance of airman duties.</p>"
+  }
+ ]
+}

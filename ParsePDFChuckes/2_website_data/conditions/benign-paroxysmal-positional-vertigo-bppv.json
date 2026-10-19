@@ -1,0 +1,131 @@
+{
+ "id": "benign-paroxysmal-positional-vertigo-bppv",
+ "name": "Benign Paroxysmal Positional Vertigo (BPPV)",
+ "subtitle": null,
+ "name_in_guide": "BENIGN PAROXYSMAL POSITIONAL VERTIGO (BPPV)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 10,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT);",
+  "No symptoms or current problems that would interfere with flight duties;",
+  "Medications, if any, are discontinued; and",
+  "No hearing loss:",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include:",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis);",
+  "Follow-up; and",
+  "It must specifically include any underling pathology, if found.",
+  "Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+  "Assessment and plan (prognosis); and",
+  "Follow-up.",
+  "If surgery was performed, copies of all clinic records including:",
+  "Hospital admission H&P;",
+  "Discharge summary; and",
+  "Copies of any testing performed including CT/MRI/imaging."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "RESOLVED AND symptoms lasted 1 year or less in total. (This may have been single or multiple episode[s]).",
+   "condition_html": "<p><strong>A.</strong> RESOLVED</p>\n<p><strong>AND </strong>symptoms lasted</p>\n<p><strong>1 year or less in total. </strong></p>\n<p>(This may have been single or multiple episode[s]).</p>",
+   "evaluation_data": "If the AME can determine: - The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT); - No symptoms or current problems that would interfere with flight duties; - Medications, if any, are discontinued; and - No hearing loss: Note: Symptoms should be brief, mild, not disabling, and respond to repositioning.",
+   "evaluation_data_html": "<p>If the AME can determine:</p>\n<ul><li>The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT);</li><li>No symptoms or current problems that would interfere with flight duties;</li><li>Medications, if any, are discontinued; and</li><li>No hearing loss:</li></ul>\n<p><strong>Note:</strong> Symptoms should be brief, mild, not disabling, and respond to repositioning.</p>",
+   "what_to_bring": [
+    "The condition has fully resolved without sequelae (with favorable notes from PCP, ER, or ENT);",
+    "No symptoms or current problems that would interfere with flight duties;",
+    "Medications, if any, are discontinued; and",
+    "No hearing loss:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate</strong> this information</p>\n<p>in Block 60.</p>",
+   "pdf_page": 73,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Multiple/intermittent episodes for which the combined time of symptoms/sickness lasted 1 year or more.",
+   "condition_html": "<p><strong>B.</strong> Multiple/intermittent episodes for which the <strong>combined time</strong> of symptoms/sickness lasted <strong>1 year or more</strong>.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: - - - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); - Follow-up; and - It must specifically include any underling pathology, if found. - 2. Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>otolaryngologist (ENT)</strong> or PCP <strong>no more than 90 days prior </strong>to the AME exam. It must include:<ul><li><ul><li><ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis);</li><li>Follow-up; and</li><li>It must specifically include any underling pathology, if found.</li></ul></li></ul></li></ul></li></ul>\n<ul><li>2. Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include:",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis);",
+    "Follow-up; and",
+    "It must specifically include any underling pathology, if found.",
+    "Copies of additional tests such as (ECOG, VEMP, MRI with Gadolinium of the cerebellopontine angle [CPA], etc.) performed as clinically indicated."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate elements or findings in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate elements or findings in</p>\n<p>Block 60.</p>",
+   "pdf_page": 73,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Severe/persistent recurrent/refractory to treatment OR Requiring surgery at any time",
+   "condition_html": "<p><strong>C.</strong> Severe/persistent</p>\n<p>recurrent/refractory to treatment</p>\n<p>OR</p>\n<p>Requiring surgery at any time</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: - - - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); and - Follow-up. - 2. If surgery was performed, copies of all clinic records including: - - - Operative notes; - Hospital admission H&P; - Discharge summary; and - Copies of any testing performed including CT/MRI/imaging.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating<strong> ENT, </strong>preferably with a <strong>neurotologist</strong> (a sub-specialty of ENT/otolaryngology). The clinic visit should be <strong>no more than 90 days prior </strong>to the AME exam. It must include:<ul><li><ul><li><ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul></li></ul></li></ul></li></ul>\n<ul><li><p>2. If surgery was performed, copies of all clinic records including:</p>\n<ul><li><ul><li><ul><li>Operative notes;</li><li>Hospital admission H&amp;P;</li><li>Discharge summary; and</li><li>Copies of any testing performed including CT/MRI/imaging.</li></ul></li></ul></li></ul></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT, preferably with a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis); and",
+    "Follow-up.",
+    "If surgery was performed, copies of all clinic records including:",
+    "Hospital admission H&P;",
+    "Discharge summary; and",
+    "Copies of any testing performed including CT/MRI/imaging."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 73,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   73
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

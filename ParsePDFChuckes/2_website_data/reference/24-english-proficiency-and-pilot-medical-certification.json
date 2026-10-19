@@ -1,0 +1,65 @@
+{
+ "slug": "24-english-proficiency-and-pilot-medical-certification",
+ "title": "24. English Proficiency and Pilot Medical Certification",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  37
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 37,
+   "text": "(Updated 10/30/2024)",
+   "html": "<p>(Updated 10/30/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "text": "Proficiency in English is not a medical requirement for pilots; it is a Flight Standards requirement. If the individual is not proficient in English, the AME can issue the medical certificate if the individual is otherwise qualified. However, please note:",
+   "html": "<p>Proficiency in English is <strong>not a medical requirement for pilots</strong>; it is a Flight Standards requirement. If the individual is not proficient in English, the AME <strong>can issue</strong> the medical certificate if the individual is otherwise qualified. However, please note:</p>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- The AME must be confident they can obtain a complete medical history.",
+   "html": "<ul><li>The AME must be confident they can obtain a complete medical history.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- If there is a hearing impediment or a speech impediment secondary to a medical cause, the pertinent medical regulations can be found in 14CFR67.105, .205, and .305.",
+   "html": "<ul><li>If there is a hearing impediment or a speech impediment secondary to a medical cause, the pertinent medical regulations can be found in 14CFR67.105, .205, and .305.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- There are limitations available for physical defect. Limitation #9 for hearing amplification; #22 prohibits flights which require the use of radio communication.",
+   "html": "<ul><li>There are limitations available for physical defect. Limitation #9 for hearing amplification; #22 prohibits flights which require the use of radio communication.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- Absent a medical concern, there is no formal process to pass on concerns through the 8500-8 to Flight Standards for further investigation. A comment in Block 60 about poor command of English may not be reviewed for an issued certificate.\n- If you have concerns about an individual’s English proficiency, you may (but are not required to) contact your local Flight Standards District Office .",
+   "html": "<ul><li>Absent a medical concern, there is <strong>no formal process</strong> to pass on concerns through the 8500-8 to Flight Standards for further investigation. A comment in Block 60 about poor command of English may not be reviewed for an issued certificate.</li><li>If you have concerns about an individual’s English proficiency, you may (but are not required to) contact your local <a href=\"https://www.faa.gov/about/office_org/field_offices/fsdo\" target=\"_blank\" rel=\"noopener\">Flight Standards District Office</a> .</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 37,
+   "text": "The requirement for English, specifically meeting the Aviation English Language Standard (AELS) requirement, is found in the FAA Part 61 regulations as well as the International Civil Aviation Organization (ICAO) requirements for international flight operations. FAA regulations in 14CFR61 specifically deal with pilot certification and English proficiency is a requirement for pilots from Students to Airline Transport Pilots, Recreational Pilots, and Instructors. These can be found at: 14CFR61.65(a)(2), 75(b)(5), 83(c), 96(b)(2), 103(c), 123(b), 153(b), and 183(b). English is also a requirement for Flight Engineers and Navigators, 14CFR63.31 and .51.",
+   "html": "<p>The requirement for English, specifically meeting the Aviation English Language Standard (AELS) requirement, is found in the FAA Part 61 regulations as well as the International Civil Aviation Organization (ICAO) requirements for international flight operations. FAA regulations in 14CFR61 specifically deal with pilot certification and English proficiency is a requirement for pilots from Students to Airline Transport Pilots, Recreational Pilots, and Instructors. These can be found at: 14CFR61.65(a)(2), 75(b)(5), 83(c), 96(b)(2), 103(c), 123(b), 153(b), and 183(b). English is also a requirement for Flight Engineers and Navigators, 14CFR63.31 and .51.</p>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- The FAA ensures compliance by periodic checks beginning with the initial student evaluation and the application for a student pilot license (Form 8710-1), which requires attestation to the applicant’s English proficiency by the applicant, instructor, and examiner. (In fact, the examiner [ASI or DPE] attests to AELS proficiency or lack thereof.) Form 8710-1 is also used for practical test (check ride) applications.",
+   "html": "<ul><li>The FAA ensures compliance by periodic checks beginning with the initial student evaluation and the application for a student pilot license (Form 8710-1), which requires attestation to the applicant’s English proficiency by the applicant, instructor, and examiner. (In fact, the examiner [ASI or DPE] attests to AELS proficiency or lack thereof.) Form 8710-1 is also used for practical test (check ride) applications.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 37,
+   "text": "- In addition to certification evaluations, flight instructors have the responsibility to ensure English proficiency during periodic flight reviews, proficiency checks, and WINGS participation (an FAA sponsored education program for pilots). Note: Sport pilots also have this requirement, but do not require a medical certificate so you are less likely to encounter them.",
+   "html": "<ul><li>In addition to certification evaluations, <strong>flight instructors have the responsibility to ensure English proficiency during periodic flight reviews</strong>, proficiency checks, and WINGS participation (an FAA sponsored education program for pilots). <strong>Note</strong>: Sport pilots also have this requirement, but do not require a medical certificate so you are less likely to encounter them.</li></ul>"
+  }
+ ]
+}

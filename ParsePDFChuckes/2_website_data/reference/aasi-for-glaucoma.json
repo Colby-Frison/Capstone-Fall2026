@@ -1,0 +1,47 @@
+{
+ "slug": "aasi-for-glaucoma",
+ "title": "AASI for Glaucoma",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  700
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 700,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 700,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 700,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 700,
+   "text": "- An Authorization granted by the FAA;\n- Certification only granted for open-angle-glaucoma and ocular hypertension;\n- The FAA Form 8500-14, Glaucoma Eye Evaluation Form is filled out by the treating eye specialist; and\n- A set of visual fields measurements is provided.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>Certification only granted for open-angle-glaucoma and ocular hypertension;</li><li>The FAA Form 8500-14, Glaucoma Eye Evaluation Form is filled out by the treating eye specialist; and</li><li>A set of visual fields measurements is provided.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 700,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 700,
+   "text": "- The FAA Form 8500-14 Glaucoma Eye Evaluation Form demonstrates visual acuity incompatible with the medical standards; or\n- There is a change in visual fields or adverse change in ocular pressure.",
+   "html": "<ul><li>The FAA Form 8500-14 Glaucoma Eye Evaluation Form demonstrates visual acuity incompatible with the medical standards; or</li><li>There is a change in visual fields or adverse change in ocular pressure.</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "neurologic",
+ "name": "Neurologic",
+ "subtitle": null,
+ "name_in_guide": "Neurologic",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 112,
+ "decisions": [],
+ "what_to_bring": [
+  "Other testing: Already performed by the treating neurologist ."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "",
+   "condition_html": "",
+   "evaluation_data": "imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. 4. Other testing: Already performed by the treating neurologist. Note: Upon receipt and review of the above information, additional documentation may be required.",
+   "evaluation_data_html": "<p>imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</p>\n<p>4. <strong>Other testing: </strong>Already performed by the treating <strong>neurologist</strong>.</p>\n<p><strong>Note: </strong>Upon receipt and review of the above information, additional documentation may be required.</p>",
+   "what_to_bring": [
+    "Other testing: Already performed by the treating neurologist ."
+   ],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 288,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-46-neurologic",
+  "section_title": "ITEM 46. Neurologic",
+  "pdf_pages": [
+   288
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

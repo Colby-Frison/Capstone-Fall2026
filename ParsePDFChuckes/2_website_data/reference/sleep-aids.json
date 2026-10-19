@@ -1,0 +1,177 @@
+{
+ "slug": "sleep-aids",
+ "title": "SLEEP AIDS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  674,
+  675
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "(Updated 07/29/2020)",
+   "html": "<p>(Updated 07/29/2020)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "I. CODE OF FEDERAL REGULATIONS",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "First-Class Airman Medical Certificate: 67.113(c)",
+   "html": "<p><strong>First-Class Airman Medical Certificate: 67.113(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "Second-Class Airman Medical Certificate: 67.213(c)",
+   "html": "<p><strong>Second-Class Airman Medical Certificate: 67.213(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "Third-Class Airman Medical Certificate: 67.313(c)",
+   "html": "<p><strong>Third-Class Airman Medical Certificate: 67.313(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "II. MEDICAL HISTORY: Use of sleep aids is a potential risk to aviation safety due to effects of the sleep aid itself or the underlying reason/condition for using the sleep aid.",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: Use of sleep aids is a potential risk to aviation safety due to effects of the sleep aid itself or the underlying reason/condition for using the sleep aid.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "All the currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times, even when the individual feels fully awake. (As examples, see the Food and Drug Administration drug safety communications on zolpidem and eszopiclone )",
+   "html": "<p>All the currently available sleep aids, both prescription and over the counter, can cause impairment of mental processes and reaction times, even when the individual feels fully awake. (As examples, see the Food and Drug Administration drug safety communications on <a href=\"http://www.fda.gov/Drugs/DrugSafety/ucm334033.htm\" target=\"_blank\" rel=\"noopener\">zolpidem</a> and <a href=\"http://www.fda.gov/Safety/MedWatch/SafetyInformation/SafetyAlertsforHumanMedicalProducts/ucm397536.htm?source=govdelivery&amp;utm_medium=email&amp;utm_source=govdelivery\" target=\"_blank\" rel=\"noopener\">eszopiclone</a> )</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "Medical conditions that chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used or not. Examples may include primary sleep disorders (e.g., insomnia, sleep apnea) or psychological disorders (e.g., anxiety, depression). While sleep aids may be appropriate and effective for short term symptomatic relief, the primary concern should be the diagnosis, treatment, and resolution of the underlying condition before clearance for aviation duties.",
+   "html": "<p>Medical conditions that chronically interfere with sleep are disqualifying regardless of whether a sleep aid is used or not. Examples may include primary sleep disorders (e.g., insomnia, sleep apnea) or psychological disorders (e.g., anxiety, depression). While sleep aids may be appropriate and effective for short term symptomatic relief, the primary concern should be the diagnosis, treatment, and resolution of the underlying condition before clearance for aviation duties.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "Occasional or limited use of sleep aids, such as for circadian rhythm disruption in commercial air operations, is allowable for pilots. Daily/nightly use of sleep aids is not allowed regardless of the underlying cause or reason. See Pharmaceutical Considerations below.",
+   "html": "<p>Occasional or limited use of sleep aids, such as for circadian rhythm disruption in commercial air operations, is allowable for pilots. Daily/nightly use of sleep aids is not allowed regardless of the underlying cause or reason. <strong>See Pharmaceutical Considerations below. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: N/A",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL: </strong>N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS:",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "Because of the potential for impairment, we require a minimum wait time between the last dose of a sleep aid and performing pilot duties. This wait time is based on the pharmacologic elimination half-life of the drug (half-life is the time it takes to clear half of the absorbed dose from the body). The minimum required wait time after the last dose of a sleep aid is 5-times the maximum elimination half-life.",
+   "html": "<p>Because of the potential for impairment, we require a minimum wait time between the last dose of a sleep aid and performing pilot duties. This wait time is based on the pharmacologic elimination half-life of the drug (half-life is the time it takes to clear half of the absorbed dose from the body). The minimum required wait time after the last dose of a sleep aid is 5-times the maximum elimination half-life.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "The table on the following page lists several commonly prescribed sleep aids along with the required minimum wait times for each.",
+   "html": "<p>The table on the following page lists several commonly prescribed sleep aids along with the required minimum wait times for each.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 674,
+   "text": "674",
+   "html": "<p>674</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 675,
+   "text": "SLEEP AID WAIT TIMES",
+   "html": "<p><strong>SLEEP AID WAIT TIMES </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 675,
+   "header": [
+    "Trade Name",
+    "Generic Name",
+    "Required minimum waiting time after last dose before resuming pilot duties"
+   ],
+   "rows": [
+    [
+     "Ambien",
+     "zolpidem*",
+     "24 hours"
+    ],
+    [
+     "Ambien CR",
+     "zolpidem (extended release)",
+     "24 hours"
+    ],
+    [
+     "Edluar",
+     "zolpidem (dissolves under the tongue)",
+     "36 hours"
+    ],
+    [
+     "Intermezzo",
+     "zolpidem (for middle of the night awakening)",
+     "36 hours"
+    ],
+    [
+     "Lunesta",
+     "eszopiclone",
+     "30 hours"
+    ],
+    [
+     "Restoril",
+     "temazepam",
+     "72 hours"
+    ],
+    [
+     "Rozerem",
+     "ramelteon",
+     "24 hours"
+    ],
+    [
+     "Sonata",
+     "zaleplon",
+     "12 hours"
+    ],
+    [
+     "Zolpimist",
+     "zolpidem (as oral spray)",
+     "48 hours"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Trade Name</th><th>Generic Name</th><th>Required minimum waiting time after last dose before resuming pilot duties</th></tr></thead><tbody><tr><td><p>Ambien</p></td><td><p>zolpidem*</p></td><td><p>24 hours</p></td></tr><tr><td><p>Ambien CR</p></td><td><p>zolpidem (extended release)</p></td><td><p>24 hours</p></td></tr><tr><td><p>Edluar</p></td><td><p>zolpidem (dissolves under the tongue)</p></td><td><p>36 hours</p></td></tr><tr><td><p>Intermezzo</p></td><td><p>zolpidem (for middle of the night awakening)</p></td><td><p>36 hours</p></td></tr><tr><td><p>Lunesta</p></td><td><p>eszopiclone</p></td><td><p>30 hours</p></td></tr><tr><td><p>Restoril</p></td><td><p>temazepam</p></td><td><p>72 hours</p></td></tr><tr><td><p>Rozerem</p></td><td><p>ramelteon</p></td><td><p>24 hours</p></td></tr><tr><td><p>Sonata</p></td><td><p>zaleplon</p></td><td><p>12 hours</p></td></tr><tr><td><p>Zolpimist</p></td><td><p>zolpidem (as oral spray)</p></td><td><p>48 hours</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 675,
+   "text": "* NOTE: The different formulations of zolpidem have different half-lives, thus different wait times.",
+   "html": "<p>* NOTE: The different formulations of zolpidem have different half-lives, thus different wait times.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 675,
+   "text": "675",
+   "html": "<p>675</p>"
+  }
+ ]
+}

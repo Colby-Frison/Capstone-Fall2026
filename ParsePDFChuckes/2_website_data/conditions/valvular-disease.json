@@ -1,0 +1,114 @@
+{
+ "id": "valvular-disease",
+ "name": "Valvular Disease",
+ "subtitle": null,
+ "name_in_guide": "VALVULAR DISEASE",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/28/2026",
+ "order": 58,
+ "decisions": [
+  "special_issuance",
+  "faa_decision",
+  "aasi"
+ ],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Aortic Insufficiency*",
+   "condition_html": "<p>Aortic Insufficiency*</p>",
+   "evaluation_data": "CVE Protocol with ECHO",
+   "evaluation_data_html": "<p>CVE Protocol with ECHO</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "Initial Special Issuance – Requires FAA Decision Follow-up Special Issuances - See AASI",
+   "disposition_html": "<p><strong>Initial Special Issuance</strong> – Requires FAA Decision</p>\n<p><strong>Follow-up Special Issuances</strong> - See <a href=\"https://www.faa.gov/ame_guide/special_iss/all_classes/mitral_aortic\" target=\"_blank\" rel=\"noopener\">AASI</a></p>",
+   "pdf_page": 180,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Single Valve Replacement (Tissue, Mechanical, or Valvuloplasty)",
+   "condition_html": "<p>Single Valve Replacement (Tissue, Mechanical, or Valvuloplasty)</p>",
+   "evaluation_data": "See Cardiac Valve Replacement",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf\" target=\"_blank\" rel=\"noopener\">Cardiac Valve Replacement</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "Initial Special Issuance – Requires FAA Decision Follow-up Special Issuances - See AASI Protocol",
+   "disposition_html": "<p><strong>Initial Special Issuance</strong> – Requires FAA Decision</p>\n<p><strong>Follow-up Special Issuances</strong> - See AASI Protocol</p>",
+   "pdf_page": 180,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Multiple Valve Replacement",
+   "condition_html": "<p>Multiple Valve Replacement</p>",
+   "evaluation_data": "Document history and findings, CVE Protocol, and submit appropriate tests.",
+   "evaluation_data_html": "<p>Document history and findings, CVE Protocol, and submit appropriate tests.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 180,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "All Other Valvular Disease",
+   "condition_html": "<p>All Other Valvular Disease</p>",
+   "evaluation_data": "CVE Protocol with ECHO",
+   "evaluation_data_html": "<p>CVE Protocol with ECHO</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 180,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>*For Mitral Valve Disease [Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP)] see following pages.</p>",
+ "links": [
+  {
+   "text": "AASI",
+   "href": "https://www.faa.gov/ame_guide/special_iss/all_classes/mitral_aortic"
+  },
+  {
+   "text": "Cardiac Valve Replacement",
+   "href": "https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf"
+  }
+ ],
+ "aliases": [
+  "Aortic Insufficiency*",
+  "Single Valve Replacement (Tissue, Mechanical, or Valvuloplasty)",
+  "Multiple Valve Replacement",
+  "All Other Valvular Disease"
+ ],
+ "source": {
+  "section": "heart-murmur",
+  "section_title": "HEART MURMUR",
+  "pdf_pages": [
+   180
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "id": "hyperparathyroidism",
+ "name": "Hyperparathyroidism",
+ "subtitle": null,
+ "name_in_guide": "HYPERPARATHYROIDISM",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 167,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating E ndocrinologist no more than 90 days before the AME exam.",
+  "Results of any other testing already performed."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Treated with parathyroidectomy - Fully recovered, - Normal calcium and PTH levels, and - Symptoms resolved If history of kidney stones, see that page.",
+   "condition_html": "<p><strong>A. </strong>Treated with parathyroidectomy</p>\n<ul><li>Fully recovered,</li></ul>\n<ul><li>Normal calcium and PTH levels, and</li></ul>\n<ul><li>Symptoms resolved</li></ul>\n<p>If history of kidney stones, see that page.</p>",
+   "evaluation_data": "If the AME can determine there are no symptoms or current problems that would interfere with flight duties and no ongoing treatment or surveillance needed:",
+   "evaluation_data_html": "<p>If the AME can determine there are no symptoms or current problems that would interfere with flight duties and no ongoing treatment or surveillance needed:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this information in Block 60.</p>",
+   "pdf_page": 436,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others - Treated non-operatively - Symptomatic - Abnormal calcium or PTH levels - Cause unknown If history of kidney stones , see that page.",
+   "condition_html": "<p><strong>B. </strong> All others</p>\n<ul><li>Treated non-operatively</li></ul>\n<ul><li>Symptomatic</li></ul>\n<ul><li>Abnormal calcium or PTH levels</li></ul>\n<ul><li>Cause unknown</li></ul>\n<p>If history of <a href=\"https://www.faa.gov/ame_guide/media/KidneyStoneDispositionTable.pdf\" target=\"_blank\" rel=\"noopener\">kidney stones</a> , see that page.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating Endocrinologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 2. Lab. Serum calcium, PTH, and urinary calcium performed no more than 90 days prior to the AME exam. 3. Imaging (X-ray or CT). Report from imaging study to evaluate for the presence of kidney stones no more than 90 days prior to the AME exam. 4. Results of any other testing already performed.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating E<strong>ndocrinologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p><strong>2</strong>. Lab. Serum calcium, PTH, and urinary calcium performed no more than 90 days prior to the AME exam.</p>\n<p><strong>3</strong>. Imaging (X-ray or CT). Report from imaging study to evaluate for the presence of kidney stones no more than 90 days prior to the AME exam.</p>\n<p>4. Results of any other testing already performed.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating E ndocrinologist no more than 90 days before the AME exam.",
+    "Results of any other testing already performed."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 436,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Secondary hyperparathyroidism If no cause identified, see Row B",
+   "condition_html": "<p><strong>C</strong>. Secondary hyperparathyroidism</p>\n<p>If no cause identified,</p>\n<p>see Row B</p>",
+   "evaluation_data": "See corresponding underlying cause (e.g., chronic kidney disease) page.",
+   "evaluation_data_html": "<p>See corresponding underlying cause (e.g., chronic kidney disease) page.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 436,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "hyperparathyroidism",
+  "section_title": "HYPERPARATHYROIDISM",
+  "pdf_pages": [
+   436
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

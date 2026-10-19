@@ -1,0 +1,144 @@
+{
+ "id": "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid",
+ "name": "Sarcoid (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)",
+ "subtitle": null,
+ "name_in_guide": "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 43,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Complete Blood Count (CBC),",
+  "Complete Metabolic Panel (CMP),",
+  "Serum Calcium, and",
+  "Urinalysis.",
+  "Detailed clinical progress note^ (within the past 90 days) from a board-certified Pulmonologist, Rheumatologist or Internist , to include systems affected and physical exam emphasizing lung, heart, liver, spleen, and skin. Include a thorough neurological examination. Identify the current stage of pulmonary sarcoidosis, if present.",
+  "Labs^",
+  "Chest X-ray report^ and most recent chest CT report (if performed)",
+  "Pathology reports from all biopsies to confirm sarcoidosis diagnosis",
+  "Tuberculosis (TB) testing if pulmonary sarcoidosis present.",
+  "Pulmonary Function Test (PFT) to include flow volume loops, spirometry, lung volumes, and DLCO^.",
+  "6-minute walk test^",
+  "Eye evaluation by an ophthalmologist^",
+  "12-lead ECG^",
+  "Cardiac monitoring study of at least 24 hours, such as Holter monitor^",
+  "Most recent brain MRI with contrast",
+  "All items in Row B",
+  "Include any information that supports disease stability.",
+  "Items specified for cardiac or neurological sarcoidosis below.",
+  "Detailed clinical progress note from a board-certified Cardiologist (within the past 90 days)",
+  "Report from the most recent echocardiogram",
+  "Report from the most recent Cardiac MRI",
+  "Cardiac monitoring study (event monitor) of at least 30 days",
+  "Neurological Evaluation per FAA specifications (within past 90 days)",
+  "Brain MRI with contrast since initial diagnosis or most recent brain MRI if new symptoms have developed since last evaluation",
+  "All neuroimaging on CD in DICOM format",
+  "Lumbar puncture results (if performed)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Pulmonary Stage 1 (bilateral hilar lymphadenopathy alone)",
+   "condition_html": "<p><strong>A.</strong> Pulmonary Stage 1</p>\n<p>(bilateral hilar lymphadenopathy alone)</p>",
+   "evaluation_data": "The AME should review a completed and signed Sarcoid or Sarcoidosis Status Summary from the pulmonologist OR a detailed clinical progress note which addresses all items If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:",
+   "evaluation_data_html": "<p>The AME should review a completed and signed Sarcoid or Sarcoidosis Status Summary from the pulmonologist OR a detailed clinical progress note which addresses all items</p>\n<p>If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate Block 60 and submit the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 140,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Pulmonary Stage 2 or greater OR Other organ involvement such as - skin, - eye, - liver, - bone marrow, - spleen, - kidney, - musculoskeletal. OR Sarcoid with hypercalcemia All items marked with a ^ must be performed no more than 90 days prior to the AME exam.",
+   "condition_html": "<p><strong>B</strong>. Pulmonary Stage 2 or greater</p>\n<p>OR</p>\n<p>Other organ involvement such as</p>\n<ul><li>skin,</li><li>eye,</li><li>liver,</li><li>bone marrow,</li><li>spleen,</li><li>kidney,</li><li>musculoskeletal.</li></ul>\n<p>OR</p>\n<p>Sarcoid with hypercalcemia</p>\n<p><strong>All items marked with a ^ must be performed no more than 90 days prior to the AME exam. </strong></p>",
+   "evaluation_data": "Submit the following for FAA review: 1. Detailed clinical progress note^ (within the past 90 days) from a board-certified Pulmonologist, Rheumatologist or Internist, to include systems affected and physical exam emphasizing lung, heart, liver, spleen, and skin. Include a thorough neurological examination. Identify the current stage of pulmonary sarcoidosis, if present. 2. Labs^ - Complete Blood Count (CBC), - Complete Metabolic Panel (CMP), - Serum Calcium, and - Urinalysis. 3. Chest X-ray report^ and most recent chest CT report (if performed) 4. Pathology reports from all biopsies to confirm sarcoidosis diagnosis 5. Tuberculosis (TB) testing if pulmonary sarcoidosis present. 6. Pulmonary Function Test (PFT) to include flow volume loops, spirometry, lung volumes, and DLCO^. 7. 6-minute walk test^ 8. Eye evaluation by an ophthalmologist^ 9. 12-lead ECG^ 10. Cardiac monitoring study of at least 24 hours, such as Holter monitor^ 11. Most recent brain MRI with contrast",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. Detailed clinical progress note^ (within the past 90 days) from a board-certified <strong>Pulmonologist, Rheumatologist or Internist</strong>, to include systems affected and physical exam emphasizing lung, heart, liver, spleen, and skin. Include a thorough neurological examination. Identify the current stage of pulmonary sarcoidosis, if present.</p>\n<p>2. Labs^</p>\n<ul><li>Complete Blood Count (CBC),</li><li>Complete Metabolic Panel (CMP),</li><li>Serum Calcium, and</li><li>Urinalysis.</li></ul>\n<p>3. Chest X-ray report^ and most recent chest CT report (if performed)</p>\n<p>4. Pathology reports from all biopsies to confirm sarcoidosis diagnosis</p>\n<p>5. Tuberculosis (TB) testing if pulmonary sarcoidosis present.</p>\n<p>6. Pulmonary Function Test (PFT) to include flow volume loops, spirometry, lung volumes, and DLCO^.</p>\n<p>7. 6-minute walk test^</p>\n<p>8. Eye evaluation by an ophthalmologist^</p>\n<p>9. 12-lead ECG^</p>\n<p>10. Cardiac monitoring study of at least 24 hours, such as Holter monitor^</p>\n<p>11. Most recent brain MRI with contrast</p>",
+   "what_to_bring": [
+    "Complete Blood Count (CBC),",
+    "Complete Metabolic Panel (CMP),",
+    "Serum Calcium, and",
+    "Urinalysis.",
+    "Detailed clinical progress note^ (within the past 90 days) from a board-certified Pulmonologist, Rheumatologist or Internist , to include systems affected and physical exam emphasizing lung, heart, liver, spleen, and skin. Include a thorough neurological examination. Identify the current stage of pulmonary sarcoidosis, if present.",
+    "Labs^",
+    "Chest X-ray report^ and most recent chest CT report (if performed)",
+    "Pathology reports from all biopsies to confirm sarcoidosis diagnosis",
+    "Tuberculosis (TB) testing if pulmonary sarcoidosis present.",
+    "Pulmonary Function Test (PFT) to include flow volume loops, spirometry, lung volumes, and DLCO^.",
+    "6-minute walk test^",
+    "Eye evaluation by an ophthalmologist^",
+    "12-lead ECG^",
+    "Cardiac monitoring study of at least 24 hours, such as Holter monitor^",
+    "Most recent brain MRI with contrast"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 140,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Cardiac sarcoidosis Or Nervous system involvement (Neurosarcoidosis)",
+   "condition_html": "<p><strong>C. </strong>Cardiac sarcoidosis</p>\n<p>Or</p>\n<p>Nervous system involvement (Neurosarcoidosis)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. All items in Row B - 2. Include any information that supports disease stability. - 3. Items specified for cardiac or neurological sarcoidosis below. Cardiac sarcoidosis also submit: - Detailed clinical progress note from a board-certified Cardiologist (within the past 90 days) - Report from the most recent echocardiogram - Report from the most recent Cardiac MRI - Cardiac monitoring study (event monitor) of at least 30 days Neurologic sarcoidosis is present also submit: - Neurological Evaluation per FAA specifications (within past 90 days) - Brain MRI with contrast since initial diagnosis or most recent brain MRI if new symptoms have developed since last evaluation - All neuroimaging on CD in DICOM format - Lumbar puncture results (if performed)",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. All items in Row B</li><li>2. Include any information that supports disease stability.</li><li>3. Items specified for cardiac or neurological sarcoidosis below.</li></ul>\n<p><strong>Cardiac sarcoidosis</strong> also submit:</p>\n<ul><li>Detailed clinical progress note from a board-certified Cardiologist (within the past 90 days)</li><li>Report from the most recent echocardiogram</li><li>Report from the most recent Cardiac MRI</li><li>Cardiac monitoring study (event monitor) of at least 30 days</li></ul>\n<p><strong>Neurologic sarcoidosis </strong> is present also submit:</p>\n<ul><li>Neurological Evaluation per FAA specifications (within past 90 days)</li><li>Brain MRI with contrast since initial diagnosis or most recent brain MRI if new symptoms have developed since last evaluation</li><li>All neuroimaging on CD in DICOM format</li><li>Lumbar puncture results (if performed)</li></ul>",
+   "what_to_bring": [
+    "All items in Row B",
+    "Include any information that supports disease stability.",
+    "Items specified for cardiac or neurological sarcoidosis below.",
+    "Detailed clinical progress note from a board-certified Cardiologist (within the past 90 days)",
+    "Report from the most recent echocardiogram",
+    "Report from the most recent Cardiac MRI",
+    "Cardiac monitoring study (event monitor) of at least 30 days",
+    "Neurological Evaluation per FAA specifications (within past 90 days)",
+    "Brain MRI with contrast since initial diagnosis or most recent brain MRI if new symptoms have developed since last evaluation",
+    "All neuroimaging on CD in DICOM format",
+    "Lumbar puncture results (if performed)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 140,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>SARCOID or SARCOIDOSIS STATUS SUMMARY </strong></p>\n<p>(Updated 09/24/2025)</p>\n<p>Name ________________________________ Birthdate ______________________</p>\n<p>Applicant ID# __________________________ PI#___________________________</p>\n<p>Please have the <strong>pulmonologist or physician </strong>who treats your Sarcoid/Sarcoidosis <strong>complete, sign, and date </strong>this sheet or submit a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> that addresses ALL items below.</p>\n<ul><li>For pilots, return the completed status summary (or equivalent Detailed Clinical Progress Note) to your AME.</li><li>For air traffic control specialists, return this status summary to your Regional Flight Surgeon’s Office</li></ul>\n<table><thead><tr><th>NO (Stage 1)</th><th>YES * (2 or higher)</th></tr></thead><tbody><tr><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><p>NO</p></td><td><p>YES*</p></td></tr><tr><td><p>NO</p></td><td><p>YES*</p></td></tr></tbody></table>\n<ul><li>1. Stage 2 Pulmonary Sarcoid/sarcoidosis or higher? ……………………..</li></ul>\n<ul><li>2. ANY other organ involvement? ………….……………….………………...</li></ul>\n<ul><li>3. Symptomatic or in remission for less than 2 years? ………………….….</li></ul>\n<ul><li>4. Required oral corticosteroids or systemic immunosuppression (ever)? ..</li></ul>\n<ul><li>5. Any evidence of heart block or arrhythmia? ………………………………</li></ul>\n<ul><li>6. Tuberculosis testing positive? .…………………………………………..…</li></ul>\n<ul><li>7. Any clinical concerns?.............................................................................</li></ul>\n<p><strong>*If any YES answers, please attach narrative, tests, etc</strong>.</p>\n<p>__________________________________ ________________</p>\n<p>Treating Provider Signature Date</p>\n<p>_______________________________________________ _______________________</p>\n<p>Name or Office Stamp Phone Number</p>\n<p><strong>Note:</strong> If you are diagnosed with Pulmonary stage 2 or above, or if any other organs are affected, please consult the disposition table to find the list of additional required documents.</p>\n<p><strong>AME Actions</strong>:</p>\n<ul><li>If all items fall into the<strong> NO</strong> category, the AME may issue a medical certificate, if otherwise qualified. Submit this Summary, or the actual detailed clinical progress note(s), and all supporting documentation reviewed to the FAA.</li><li>If any items fall into the<strong> YES*</strong> category, the evaluator should explain. The AME must defer. Additional evaluation may be required. See disposition table Row B.</li></ul>",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   140,
+   142
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

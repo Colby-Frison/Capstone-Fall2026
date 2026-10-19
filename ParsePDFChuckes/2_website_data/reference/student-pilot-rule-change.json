@@ -1,0 +1,131 @@
+{
+ "slug": "student-pilot-rule-change",
+ "title": "Student Pilot Rule Change",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  759
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "(Updated 09/28/2016)",
+   "html": "<p>(Updated 09/28/2016)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "As of April 1, 2016, AMEs are no longer able to issue the combined FAA Medical Certificate and Student Pilot Certificate. Student Pilots must have a separate Student Pilot Certificate and a separate FAA Medical Certificate.",
+   "html": "<p>As of <strong>April 1, 2016</strong>, AMEs are no longer able to issue the <strong>combined </strong>FAA Medical Certificate and Student Pilot Certificate. Student Pilots must have a <strong>separate</strong> Student Pilot Certificate and a <strong>separate</strong> FAA Medical Certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "This change is due to a new Final Rule published on 01/12/16 [81 FR 1292]. It is in response to section 4012 of the Intelligence Reform and Terrorism Prevention Act and facilitates security vetting by the Transportation Security Administration (TSA) of student pilot applicants prior to certificate issuance.",
+   "html": "<p>This change is due to a new Final Rule published on 01/12/16 [81 FR 1292]. It is in response to section 4012 of the Intelligence Reform and Terrorism Prevention Act and facilitates security vetting by the Transportation Security Administration (TSA) of student pilot applicants prior to certificate issuance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "The airman, student pilot airman, and non-FAA Air Traffic Control Specialist will continue to require a medical exam issued by an AME.",
+   "html": "<p>The airman, student pilot airman, and non-FAA Air Traffic Control Specialist will continue to require a medical exam issued by an AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "The student pilot will need a valid medical certificate prior to solo flight.",
+   "html": "<p>The student pilot will need a valid medical certificate prior to solo flight.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "What has changed for the AME regarding the MEDICAL CERTIFICATE?",
+   "html": "<p><strong>What has changed for the AME regarding the MEDICAL CERTIFICATE? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- Medical Flight Test:",
+   "html": "<ul><li><strong>Medical Flight Test: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "If the AME determines a MFT is needed (such as for a vision defect, amputation or orthopedic condition), the AME must DEFER the exam.",
+   "html": "<p>If the AME determines a MFT is needed (such as for a vision defect, amputation or orthopedic condition), the AME must DEFER the exam.</p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- Age Requirement:",
+   "html": "<ul><li><strong>Age Requirement: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "There is no age requirement for a medical certificate. The exam should be timed so that the medical certificate is valid at the time of solo flight.",
+   "html": "<p>There is no age requirement for a medical certificate. The exam should be timed so that the medical certificate is valid at the time of solo flight.</p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- Restrictions are no longer used by the AME:",
+   "html": "<ul><li><strong>Restrictions are no longer used by the AME: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "“Valid for flight test only”; “Valid for student pilot purposes only”; “Not valid until (date of 16th birthday).”",
+   "html": "<p>“Valid for flight test only”; “Valid for student pilot purposes only”; “Not valid until (date of 16th birthday).”</p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- English Proficiency:",
+   "html": "<ul><li><strong>English Proficiency: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "There is no language requirement for medical certification.",
+   "html": "<p>There is no language requirement for medical certification.</p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- Transmittal time:",
+   "html": "<ul><li><strong>Transmittal time: </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "The AME has 14 days to transmit exams. The previous requirement to transmit student exams within 7 days no longer applies.",
+   "html": "<p>The AME has <strong>14 days</strong> to transmit exams. The previous requirement to transmit student exams within 7 days no longer applies.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "Helpful Resources regarding the Student Pilot Certificate:",
+   "html": "<p><strong>Helpful Resources regarding the Student Pilot Certificate: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "The student pilot certificate will now be issued by a Flight Standards District Office (FSDO), an FAA-designated pilot examiner, an airman certification representative associated with a part 141 flight school, or a certificated flight instructor (CFI).",
+   "html": "<p>The student pilot certificate will now be issued by a Flight Standards District Office (FSDO), an FAA-designated pilot examiner, an airman certification representative associated with a part 141 flight school, or a certificated flight instructor (CFI).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 759,
+   "text": "The minimum age for the student pilot certificate is 16.",
+   "html": "<p>The minimum age for the student pilot certificate is 16.</p>"
+  },
+  {
+   "type": "list",
+   "page": 759,
+   "text": "- See FAQs for AMEs . A description of the changes can be found in the Advisory Circular/AC 61-65 .\n- Resident and US citizen student pilots follow Student Pilot’s Certificate Requirements .\n- Foreign student pilots (non-resident) follow the Flight Training Security Program (FTSP) .",
+   "html": "<ul><li>See <a href=\"https://www.faa.gov/other_visit/aviation_industry/designees_delegations/designee_types/ame/student_pilot\" target=\"_blank\" rel=\"noopener\">FAQs for AMEs</a> . A description of the changes can be found in the <a href=\"https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1034129\" target=\"_blank\" rel=\"noopener\">Advisory Circular/AC 61-65</a> .</li><li>Resident and US citizen student pilots follow <a href=\"https://www.faa.gov/pilots/become/student_cert/\" target=\"_blank\" rel=\"noopener\">Student Pilot’s Certificate Requirements</a> .</li><li>Foreign student pilots (non-resident) follow the <a href=\"https://www.fts.tsa.dhs.gov/\" target=\"_blank\" rel=\"noopener\">Flight Training Security Program (FTSP)</a> .</li></ul>"
+  }
+ ]
+}

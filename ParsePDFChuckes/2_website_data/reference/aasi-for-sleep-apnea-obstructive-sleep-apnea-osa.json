@@ -1,0 +1,89 @@
+{
+ "slug": "aasi-for-sleep-apnea-obstructive-sleep-apnea-osa",
+ "title": "AASI for Sleep Apnea/Obstructive Sleep Apnea (OSA)",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  717
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "(Updated 05/27/2026)",
+   "html": "<p>(Updated 05/27/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "AMEs may re-issue an airman medical certificate to airmen currently on an AASI for OSA if the individual provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate to airmen currently on an AASI for OSA if the individual provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- An Authorization granted by the FAA; AND\n- A completed and signed OSA TREATED STATUS REPORT",
+   "html": "<ul><li>An Authorization granted by the FAA; AND</li><li>A completed and signed <a href=\"https://www.faa.gov/ame_guide/media/OSA_Treated_Status_Report.pdf\" target=\"_blank\" rel=\"noopener\"><strong>OSA TREATED STATUS REPORT</strong></a></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "OR",
+   "html": "<p><strong>OR </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- A current Detailed Clinical Progress Note from your treating physician indicating that OSA treatment is still effective AND - For CPAP/ BIPAP/ APAP: - A copy of the cumulative annual PAP device report which shows actual time used (rather than a report typically generated for insurance providers which only shows if use is greater or less than 4 hours). Target goal should show use for at least 75% of sleep periods and an average minimum of 6 hours use per sleep period.",
+   "html": "<ul><li><p>• A</p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current Detailed Clinical Progress Note</a></p>\n<p>from your treating physician indicating that OSA treatment is still effective AND</p>\n<ul><li><p>o <strong>For CPAP/ BIPAP/ APAP: </strong></p>\n<ul><li>A copy of the cumulative annual PAP device report which shows <strong>actual time used </strong>(rather than a report typically generated for insurance providers which only shows if use is greater or less than 4 hours). Target goal should show use for at least 75% of sleep periods and an average minimum of 6 hours use per sleep period.</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- - - For persons with an established diagnosis of OSA who do not have a recording CPAP, a one-year exception will be allowed to provide a personal statement that they regularly use CPAP and use it before each shift when performing flight or safety duties.",
+   "html": "<ul><li><ul><li><ul><li>For persons with an established diagnosis of OSA who do not have a recording CPAP, a one-year exception will be allowed to provide a personal statement that they regularly use CPAP and use it before each shift when performing flight or safety duties.</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- - For Dental Devices and/or for Positional Devices:",
+   "html": "<ul><li><ul><li>o <strong>For Dental Devices and/or for Positional Devices: </strong></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "No conditions known to be co-morbid with OSA (e.g., diabetes mellitus, hypertension treated with more than two medications, atrial fibrillation, etc). Once Dental Devices with recording / monitoring capability are available, reports must be submitted.",
+   "html": "<p>No conditions known to be co-morbid with OSA (e.g., diabetes mellitus, hypertension treated with more than two medications, atrial fibrillation, etc). Once Dental Devices with recording / monitoring capability are available, reports must be submitted.</p>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- - For Surgery:",
+   "html": "<ul><li><ul><li>o <strong>For Surgery: </strong></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "For successfully treated surgical patients, a statement attesting to the continued absence of OSA symptoms is required.",
+   "html": "<p>For successfully treated surgical patients, a statement attesting to the continued absence of OSA symptoms is required.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "Defer to the AMCD or the Region for further review if:",
+   "html": "<p>Defer to the AMCD or the Region for further review if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 717,
+   "text": "- Concerns about adequacy of therapy or non-compliance;\n- Significant weight gain or development of conditions known to be co-morbid with OSA (e.g., diabetes mellitus, hypertension treated with more than two medications, atrial fibrillation, etc).",
+   "html": "<ul><li>Concerns about adequacy of therapy or non-compliance;</li><li>Significant weight gain or development of conditions known to be co-morbid with OSA (e.g., diabetes mellitus, hypertension treated with more than two medications, atrial fibrillation, etc).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 717,
+   "text": "Note: The AME may request AMCD review to discontinue the AASI if there are indications that the airman no longer has OSA (e.g., significant weight loss and a negative study or surgical intervention followed by 3 years of symptom abatement and absence of significant weight gain or co-morbid conditions). In most cases, a follow-up sleep study will be required to remove the AASI.",
+   "html": "<p><strong>Note:</strong> The AME may request AMCD review to discontinue the AASI if there are indications that the airman no longer has OSA (e.g., significant weight loss and a negative study or surgical intervention followed by 3 years of symptom abatement and absence of significant weight gain or co-morbid conditions). <strong>In most cases, a follow-up sleep study will be required to remove the AASI.</strong></p>"
+  }
+ ]
+}

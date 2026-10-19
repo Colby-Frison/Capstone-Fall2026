@@ -1,0 +1,79 @@
+{
+ "id": "blood-donation",
+ "name": "Blood Donation",
+ "subtitle": null,
+ "name_in_guide": "BLOOD DONATION",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2017",
+ "order": 155,
+ "decisions": [
+  "issue"
+ ],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "One unit (less than or equal to 500 ml)",
+   "condition_html": "<p><strong>A. One unit </strong>(less than or equal to 500 ml)</p>",
+   "evaluation_data": "After a 24-hour recovery period and the airman has no symptoms:",
+   "evaluation_data_html": "<p>After a 24-hour recovery period and the airman has no symptoms:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 417,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Two or more units (more than 500 ml) This includes Power Red (double red cell donation)",
+   "condition_html": "<p><strong>B. Two or more units </strong>(more than 500 ml) This includes Power Red (double red cell donation)</p>",
+   "evaluation_data": "After a 72-hour recovery period and the airman has no symptoms:",
+   "evaluation_data_html": "<p>After a 72-hour recovery period and the airman has no symptoms:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 417,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Platelet OR Plasma donation",
+   "condition_html": "<p><strong>C. Platelet OR Plasma donation</strong></p>",
+   "evaluation_data": "After a 4-hour recovery period and the airman has no symptoms:",
+   "evaluation_data_html": "<p>After a 4-hour recovery period and the airman has no symptoms:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 417,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "blood-donation",
+  "section_title": "BLOOD DONATION",
+  "pdf_pages": [
+   417
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "brain-tumor-intracranial-tumor",
+ "name": "Brain Tumor (Intracranial Tumor)",
+ "subtitle": null,
+ "name_in_guide": "BRAIN TUMOR (Intracranial Tumor)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/29/2024",
+ "order": 119,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "MRI brain performed no more than 12 months before the AME exam.",
+  "If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition:",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Emergency Medical Services (EMS)/ambulance run sheet (if applicable);",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+  "Lab report(s) including all drug or alcohol testing performed;",
+  "Operative/procedure report(s);",
+  "Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+  "After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required.",
+  "All information in Row A;",
+  "Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment . (Due to surgical resection, NP testing is required.)",
+  "The individual can submit the MOST RECENT detailed neurological evaluation (in lieu of one 90 days before the AME exam) that meets FAA Specifications for Neurologic Evaluation for initial case review."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Benign Brain Tumor (meningioma, gliomas, etc.) NOT surgically treated",
+   "condition_html": "<p><strong>A. Benign</strong> Brain Tumor</p>\n<p>(meningioma, gliomas, etc.)</p>\n<p><strong>NOT surgically treated</strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. MRI brain performed no more than 12 months before the AME exam. - - Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or image as a safeguard if lost in the mail. - 3. If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition: - Admission History and Physical; - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); - Emergency Medical Services (EMS)/ambulance run sheet (if applicable); - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); - Lab report(s) including all drug or alcohol testing performed; - Operative/procedure report(s); - - Pathology report(s); and - Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records. - 4. After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required. Note: If associated with a seizure also refer to the Seizure section. An additional recovery period may apply. If tumor type is Acoustic neuroma or Pituitary Tumor - see the corresponding section.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before </strong>the AME exam.</li></ul>\n<ul><li>2. <strong>MRI brain </strong>performed <strong>no more than 12 months before</strong> the AME exam.</li></ul>\n<ul><li><ul><li>Submit both the report and a copy of the images on compact disc (CD) in DICOM readable format. (There MUST be a file name ‘DICOMDIR’ in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain copies of all CDs or image as a safeguard if lost in the mail.</li></ul></li></ul>\n<ul><li>3. If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition:<ul><li>Admission History and Physical;</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Emergency Medical Services (EMS)/ambulance run sheet (if applicable);</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);</li><li>Lab report(s) including all drug or alcohol testing performed;</li><li>Operative/procedure report(s);</li></ul></li></ul>\n<ul><li><ul><li>Pathology report(s); and</li><li>Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.</li></ul></li></ul>\n<ul><li>4. <strong>After review of the information submitted, a</strong> neuropsychological (NP) evaluation that meets FAA <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog\" target=\"_blank\" rel=\"noopener\">Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment</a> <strong>MAY be required. </strong></li></ul>\n<p><strong>Note: </strong>If associated with a seizure also refer to the Seizure section. An additional recovery period may apply.</p>\n<p>If tumor type is <strong>Acoustic neuroma or Pituitary Tumor - </strong>see the corresponding section.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "MRI brain performed no more than 12 months before the AME exam.",
+    "If hospitalized or radiation treatment was performed, submit copies of the following Hospital reports for each hospitalization related to this condition:",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Emergency Medical Services (EMS)/ambulance run sheet (if applicable);",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+    "Lab report(s) including all drug or alcohol testing performed;",
+    "Operative/procedure report(s);",
+    "Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+    "After review of the information submitted, a neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment MAY be required."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 300,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Benign Brain Tumor (meningioma, gliomas, etc.) Surgically treated/resected",
+   "condition_html": "<p><strong>B.</strong> Benign Brain Tumor</p>\n<p>(meningioma, gliomas, etc.) <strong>Surgically treated/resected</strong></p>",
+   "evaluation_data": "After a two-year (2) recovery period, submit the following for FAA review: - 1. All information in Row A; - 2. Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment . (Due to surgical resection, NP testing is required.) Note: If associated with a seizure also refer to the Seizure section. An additional recovery period may apply.",
+   "evaluation_data_html": "<p>After a<strong> two-year (2) recovery</strong> period, submit the following for FAA review:</p>\n<ul><li>1. All information in Row A;</li><li>2. Neuropsychological (NP) evaluation that meets <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> . (Due to surgical resection, NP testing is required.)</li></ul>\n<p><strong>Note:</strong> If associated with a seizure also refer to the Seizure section. An additional recovery period may apply.</p>",
+   "what_to_bring": [
+    "All information in Row A;",
+    "Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment . (Due to surgical resection, NP testing is required.)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 300,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Malignant (cancerous) Brain Tumor Primary Tumor or Secondary metastatic tumor",
+   "condition_html": "<p><strong>C. Malignant </strong>(cancerous) Brain Tumor</p>\n<p>Primary Tumor or Secondary metastatic tumor</p>",
+   "evaluation_data": "After a five-year (5) recovery period following completion of chemotherapy, radiation, or surgery. (Maintenance biologic medication does not add to the above recovery time.) Submit the following for FAA review: - 1. All information in Row A; - 2. The individual can submit the MOST RECENT detailed neurological evaluation (in lieu of one 90 days before the AME exam) that meets FAA Specifications for Neurologic Evaluation for initial case review.",
+   "evaluation_data_html": "<p>After a <strong>five-year (5)</strong> recovery period following completion of chemotherapy, radiation, or surgery. (Maintenance biologic medication does not add to the above recovery time.) Submit the following for FAA review:</p>\n<ul><li>1. All information in Row A;</li><li>2. The individual can submit the <strong>MOST RECENT </strong>detailed <strong>neurological evaluation </strong>(in lieu of one 90 days before the AME exam) that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> for initial case review.</li></ul>",
+   "what_to_bring": [
+    "All information in Row A;",
+    "The individual can submit the MOST RECENT detailed neurological evaluation (in lieu of one 90 days before the AME exam) that meets FAA Specifications for Neurologic Evaluation for initial case review."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 300,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note</strong>: A variety of intracranial tumors, both malignant and benign, are capable of causing incapacitation directly by neurologic deficit or indirectly through recurrent symptomatology. Potential neurologic deficits include weakness, loss of sensation, ataxia, visual deficit, or mental impairment. Recurrent symptomatology may interfere with flight performance through mechanisms such as seizure, headaches, vertigo, visual disturbances, or confusion. A history or diagnosis of an intracranial tumor necessitates a complete neurological evaluation before a determination of eligibility for medical certification can be established.</p>",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "Specifications for Neuropsychological Evaluation for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   300,
+   302
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

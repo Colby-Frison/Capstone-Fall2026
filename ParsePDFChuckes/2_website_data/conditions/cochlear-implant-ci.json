@@ -1,0 +1,109 @@
+{
+ "id": "cochlear-implant-ci",
+ "name": "Cochlear Implant (CI)",
+ "subtitle": null,
+ "name_in_guide": "COCHLEAR IMPLANT (CI)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 7,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and",
+  "No symptoms or current problems that would interfere with flight duties:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis);",
+  "Prognosis; and follow-up.",
+  "Reason for the implant;",
+  "Date of implant;",
+  "How the individual functions with the device;",
+  "Ability to hear in noisy environment; and",
+  "Word discrimination",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include:",
+  "The Clinical Progress Note must specifically include:",
+  "Audiogram performed no more than 90 days prior to the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "If the CI was placed in an adult to improve speech discrimination and sound localization (usually seen in older adults) OR Single Sided Deafness (SSD) Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+   "condition_html": "<p><strong>A. </strong>If the CI was placed in an adult to improve speech discrimination and sound localization (usually seen in older adults)</p>\n<p>OR</p>\n<p>Single Sided Deafness (SSD)</p>\n<p>Note: Pilots with a CI should fly with a spare processor and extra batteries.</p>",
+   "evaluation_data": "If the AME can determine: - The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and - No symptoms or current problems that would interfere with flight duties: (If unable to pass hearing tests with CI turned off, go to Row B.)",
+   "evaluation_data_html": "<p>If the AME can determine:</p>\n<ul><li>The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and</li><li>No symptoms or current problems that would interfere with flight duties:</li></ul>\n<p>(If unable to pass hearing tests with CI turned off, go to Row B.)</p>",
+   "what_to_bring": [
+    "The individual can pass the hearing requirements with the CI turned OFF (i.e., SSD which passes hearing with the other ear); and",
+    "No symptoms or current problems that would interfere with flight duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60 AND List the age the CI was placed and reason. Specify if they passed the hearing test with the CI turned on or off. This does NOT require a hearing limitation or MFT.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate</strong> this information in</p>\n<p>Block 60</p>\n<p>AND</p>\n<p>List the age the CI was placed and reason. Specify if they passed the hearing test with the CI turned on or off.</p>\n<p>This does NOT require a hearing limitation</p>\n<p>or MFT.</p>",
+   "pdf_page": 71,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Implant was placed for hearing loss as a child/teen Note: Pilots with a CI should fly with a spare processor and extra batteries.",
+   "condition_html": "<p><strong>B. </strong>Implant was placed for hearing loss as a child/teen</p>\n<p>Note: Pilots with a CI should fly with a spare processor and extra batteries.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); - Prognosis; and follow-up. 2. The Clinical Progress Note must specifically include: - Reason for the implant; - Date of implant; - How the individual functions with the device; - Ability to hear in noisy environment; and - Word discrimination 3. Audiogram performed no more than 90 days prior to the AME exam.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating Ear, Nose, &amp; Throat <strong>(ENT) or audiologist no more than 90 days prior </strong>to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis);</li><li>Prognosis; and follow-up.</li></ul>\n<p>2. The Clinical Progress Note must specifically include:</p>\n<ul><li>Reason for the implant;</li><li>Date of implant;</li><li>How the individual functions with the device;</li><li>Ability to hear in noisy environment; and</li><li>Word discrimination</li></ul>\n<p>3. Audiogram performed no more than 90 days prior to the AME exam.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis);",
+    "Prognosis; and follow-up.",
+    "Reason for the implant;",
+    "Date of implant;",
+    "How the individual functions with the device;",
+    "Ability to hear in noisy environment; and",
+    "Word discrimination",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Ear, Nose, & Throat (ENT) or audiologist no more than 90 days prior to the AME exam. It must include:",
+    "The Clinical Progress Note must specifically include:",
+    "Audiogram performed no more than 90 days prior to the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Even if they pass the hearing test in the AME office. Annotate elements or findings in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Even if they pass the hearing test in the AME office. </strong></p>\n<p>Annotate elements or findings in</p>\n<p>Block 60.</p>",
+   "pdf_page": 71,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note: </strong> If pilot is unable to pass MFT or known to be deaf, see <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item49\" target=\"_blank\" rel=\"noopener\">Item 49. Hearing</a> .</p>",
+ "links": [
+  {
+   "text": "Item 49. Hearing",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item49"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   71
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

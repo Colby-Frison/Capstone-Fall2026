@@ -1,0 +1,114 @@
+{
+ "id": "mitral-valve-disease",
+ "name": "Mitral Valve Disease",
+ "subtitle": "Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP)",
+ "name_in_guide": "MITRAL VALVE DISEASE Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP)",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/28/2026",
+ "order": 60,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Echocardiogram (Echo) . Copies of the most recent 2-D and Doppler flow study report.",
+  "A current, detailed Clinical Progress Note",
+  "It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.)",
+  "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+  "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 12 months prior to the AME exam",
+  "Mitral Valve Repair Disposition Table or",
+  "Protocol for Cardiac Valve Replacement"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "MILD or TRACE (based on ECHO results) - Mitral Valve regurgitation; or - Mitral Valve insufficiency; or - Mitral Valve Prolapse (MVP); AND Asymptomatic",
+   "condition_html": "<p><strong>A. </strong></p>\n<p><strong>MILD or TRACE</strong></p>\n<p>(based on ECHO results)</p>\n<ul><li>Mitral Valve regurgitation;</li></ul>\n<p>or</p>\n<ul><li>Mitral Valve insufficiency;</li></ul>\n<p>or</p>\n<ul><li>Mitral Valve Prolapse (MVP);</li></ul>\n<p>AND</p>\n<p><strong>Asymptomatic </strong></p>",
+   "evaluation_data": "The AME should review: - 1. Echocardiogram (Echo). Copies of the most recent 2-D and Doppler flow study report. OR A clinical problem list or progress note which lists the echo findings as mild. If the AME can determine the condition is Asymptomatic and the valve disease is MILD:",
+   "evaluation_data_html": "<p>The AME should review:</p>\n<ul><li>1. <strong>Echocardiogram (Echo)</strong>. Copies of the <strong>most recent</strong> 2-D and Doppler flow study report.</li></ul>\n<p>OR</p>\n<p>A clinical problem list or progress note which lists the echo findings as mild.</p>\n<p>If the AME can determine the condition is Asymptomatic and the valve disease is MILD:</p>",
+   "what_to_bring": [
+    "Echocardiogram (Echo) . Copies of the most recent 2-D and Doppler flow study report."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 182,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "MODERATE (based on ECHO results) - Mitral Valve regurgitation; or - Mitral Valve insufficiency; or - Mitral Valve Prolapse (MVP); AND Asymptomatic Note: For Asymptomatic individuals, if the ECHO report reads mild to moderate, use row B (Moderate). If it reads moderate to severe, use row C (Severe).",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong>MODERATE</strong></p>\n<p>(based on ECHO results)</p>\n<ul><li>Mitral Valve regurgitation;</li></ul>\n<p>or</p>\n<ul><li>Mitral Valve insufficiency;</li></ul>\n<p>or</p>\n<ul><li>Mitral Valve Prolapse (MVP);</li></ul>\n<p><strong>AND </strong></p>\n<p><strong>Asymptomatic</strong></p>\n<p>Note: For Asymptomatic individuals, if the ECHO report reads mild to moderate, use row B (Moderate). If it reads moderate to severe, use row C (Severe).</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.) - 3. Echocardiogram (Echo). Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam. 4. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A current, detailed <strong>Clinical Progress Note</strong></li></ul>\n<p>generated from a clinic visit with their treating physician or <strong>cardiologist</strong> no more than 90 days before the AME exam.</p>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. </strong>It must include if they have been, or are <strong>currently symptomatic and the clinical interpretation of any studies performed</strong> (echo, ECG, stress test, etc.)</li></ul>\n<ul><li><strong>3. Echocardiogram (Echo)</strong>. Copies of a 2- D and Doppler flow study report performed no more than <strong>90 days prior </strong>to the AME exam.</li></ul>\n<p>4. <strong> 24-hour cardiac monitor</strong> performed no more than <strong>90 days prior</strong> to the AME exam.</p>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note",
+    "It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.)",
+    "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 182,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "SEVERE (based on ECHO results) - Mitral valve regurgitation; or - Mitral valve insufficiency; or - Mitral Valve Prolapse (MVP); OR Symptomatic (any severity) (e.g. Chest pain, palpitations, fatigue, shortness of breath, dizziness or pre-syncopal episodes) Note: For Asymptomatic individuals, if the ECHO report reads mild to moderate, use row B (Moderate). If it reads moderate to severe, use row C (Severe).",
+   "condition_html": "<p><strong>C.</strong></p>\n<p><strong>SEVERE</strong></p>\n<p>(based on ECHO results)</p>\n<ul><li>Mitral valve regurgitation;</li></ul>\n<p>or</p>\n<ul><li>Mitral valve insufficiency;</li></ul>\n<p>or</p>\n<ul><li>Mitral Valve Prolapse (MVP);</li></ul>\n<p>OR</p>\n<p>Symptomatic</p>\n<p><strong>(any severity)</strong></p>\n<p>(e.g. Chest pain, palpitations, fatigue, shortness of breath, dizziness or pre-syncopal episodes)</p>\n<p>Note: For Asymptomatic individuals, if the ECHO report reads mild to moderate, use row B (Moderate). If it reads moderate to severe, use row C (Severe).</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.) - 3. Echocardiogram (Echo). Copies of a 2- D and Doppler flow study report performed no more than 12 months prior to the AME exam If valve surgery has been performed, see: - Mitral Valve Repair Disposition Table or - Protocol for Cardiac Valve Replacement",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed <strong>Clinical Progress Note</strong></li></ul>\n<p>generated from a clinic visit with their treating physician or <strong>cardiologist</strong> no more than 90 days before the AME exam.</p>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li>2. It must include if they have been, or are <strong>currently symptomatic and the clinical interpretation of any studies performed</strong> (echo, ECG, stress test, etc.)</li></ul>\n<ul><li>3. <strong>Echocardiogram (Echo)</strong>. Copies of a 2- D and Doppler flow study report performed no more than <strong>12 months prior to the AME exam</strong></li></ul>\n<p>If valve surgery has been performed, see:</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf\" target=\"_blank\" rel=\"noopener\">• Mitral Valve Repair Disposition Table</a> or</li></ul>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf\" target=\"_blank\" rel=\"noopener\">• Protocol for Cardiac Valve Replacement</a></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note",
+    "It must include if they have been, or are currently symptomatic and the clinical interpretation of any studies performed (echo, ECG, stress test, etc.)",
+    "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 12 months prior to the AME exam",
+    "Mitral Valve Repair Disposition Table or",
+    "Protocol for Cardiac Valve Replacement"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 182,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "• Mitral Valve Repair Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/Mitral_Valve_Repair_disposition_table.pdf"
+  },
+  {
+   "text": "• Protocol for Cardiac Valve Replacement",
+   "href": "https://www.faa.gov/ame_guide/media/CardiacValveReplacementProtocol.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "endocarditis",
+  "section_title": "ENDOCARDITIS",
+  "pdf_pages": [
+   182
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

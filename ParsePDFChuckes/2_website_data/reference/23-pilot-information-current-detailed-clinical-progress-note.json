@@ -1,0 +1,99 @@
+{
+ "slug": "23-pilot-information-current-detailed-clinical-progress-note",
+ "title": "23. Pilot Information – Current Detailed Clinical Progress Note",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  34,
+  35,
+  36
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "(Updated 03/30/2022)",
+   "html": "<p>(Updated 03/30/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "In the course of the certification process, the pilot may be asked to provide a current detailed Clinical Progress Note performed within 90 days of the exam from the treating physician. In some instances, the specialty of the physician will be specified (ex. cardiologist or neurologist, etc.). A current detailed Clinical Progress Note must include a summary of the history of the condition; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. Based on the condition, we may require additional, specific criteria.",
+   "html": "<p>In the course of the certification process, the pilot may be asked to provide a current detailed Clinical Progress Note performed within 90 days of the exam from the treating physician. In some instances, the specialty of the physician will be specified (ex. cardiologist or neurologist, etc.). A current detailed Clinical Progress Note must include a summary of the history of the condition; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. Based on the condition, we may require additional, specific criteria.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "If the pilot submits patient information from the patient portal or an “After Visit Summary (AVS)” instead of an actual detailed clinical progress note, it may NOT address all of the information the FAA needs to review the application for medical certification. The review process will be significantly delayed if incorrect or incomplete information is submitted. To avoid this, refer the pilot to the Pilot Information – Current Detailed Clinical Progress Note sheets on the following pages.",
+   "html": "<p>If the pilot submits patient information from the patient portal or an “After Visit Summary (AVS)” instead of an actual detailed clinical progress note, it may NOT address all of the information the FAA needs to review the application for medical certification. The review process will be significantly delayed if incorrect or incomplete information is submitted. To avoid this, refer the pilot to the <strong>Pilot Information – Current Detailed Clinical Progress Note </strong>sheets on the following pages.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "NOTE: Any reference to a “current status report” or “status report’ is a request for a current detailed Clinical Progress Note as described above.",
+   "html": "<p><strong>NOTE:</strong> Any reference to a <strong>“current status report”</strong> or “<strong>status report</strong>’ is a request for a current detailed Clinical Progress Note as described above.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "PILOT INFORMATION – CURRENT DETAILED CLINICAL PROGRESS NOTE",
+   "html": "<p><strong>PILOT INFORMATION – CURRENT DETAILED CLINICAL PROGRESS NOTE </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "(Updated 09/25/2024)",
+   "html": "<p>(Updated 09/25/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "The FAA requires a current, detailed Clinical Progress Note to determine your eligibility for a FAA Medical Certificate. If you ask your physician's office for a copy of your progress note, they may direct you to your patient portal to print out “notes” or an “After Visit Summary (AVS).” Patient Portal notes or an AVS that do not meet the criteria listed below for a detailed Clinical Progress Note are NOT sufficient for FAA purposes. Submitting incorrect or incomplete information will delay your medical certification review. To help avoid this, please review the information provided below.",
+   "html": "<p>The FAA requires a <strong>current, detailed Clinical Progress Note </strong>to determine your eligibility for a FAA Medical Certificate. If you ask your physician&#x27;s office for a copy of your progress note, they may direct you to your patient portal to print out “notes” or an “After Visit Summary (AVS).” Patient Portal notes or an AVS that <strong>do not meet the criteria listed below</strong> for a detailed Clinical Progress Note are<strong> NOT </strong>sufficient for FAA purposes. Submitting incorrect or incomplete information will delay your medical certification review. To help avoid this, please review the information provided below.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 34,
+   "text": "You may wish to share this with your treating physician, so they are aware of the information is reviewed by FAA medical personnel including physicians with expertise in aerospace medicine and a variety of specialties/subspecialties “(such as ENT, ophthalmology, surgery, neurology, neuropsychology family medicine, internal medicine, and cardiology.) Here is how to tell the difference between patient portal notes or AVS vs a current, detailed Clinical Progress Note:",
+   "html": "<p>You may wish to share this with your treating physician, so they are aware of the information is reviewed by FAA medical personnel including physicians with expertise in aerospace medicine and a variety of specialties/subspecialties “(such as ENT, ophthalmology, surgery, neurology, neuropsychology family medicine, internal medicine, and cardiology.) Here is how to tell the difference between patient portal notes or AVS vs a <strong>current, detailed Clinical Progress Note: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 35,
+   "header": [
+    "WHEN YOU SEE THIS:",
+    "IT MEANS THIS TO FAA Aerospace Medicine:"
+   ],
+   "rows": [
+    [
+     "CURRENT",
+     "To be “current,” in MOST CASES, the detailed Clinical Progress Note should be from an evaluation in which you saw your treating physician no more than 90 days ago. (*FAA ATCS clearance exams correlate with birth month, so the treating physician evaluation should be within 90 days of birth month.)"
+    ],
+    [
+     "DETAILED In some instances, the specialty of the physician will be specified (ex. Cardiologist or neurologist, etc.)",
+     "This information is standard in most clinical progress notes. (e.g., Medicare standards ). It Must include the following items: - A summary of the history of the condition, - Current medications, dosages, and side effects (if any); - Clinical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and Plan; - Prognosis (This item may not be on a standard progress note, make sure your physician adds this information.); and - Follow-up Please note: A letter stating, “Mr. Smith is ok to fly” (or any other simple note), is NOT a current, detailed Clinical Progress Note and is NOT acceptable."
+    ],
+    [
+     "CLINICAL",
+     "Describes findings from an actual clinical encounter (usually in office)."
+    ],
+    [
+     "PROGRESS NOTE You may also see this called a “current status report” or “status report” in current FAA Guidance. Any reference to a “status report” equals the criteria listed on this sheet.",
+     "This is part of the actual medical record that details events of your office or hospital visit. Physicians and other providers understand this term. It may be called a SOAP note or patient note. It has specific components (see “Detailed” above). A patient “after visit summary” or “patient summary” are NOT sufficient for FAA purposes. To see if your note meets FAA requirements, see the previous page for a comparison between “patient portal or after visit summary” vs. current, detailed Clinical Progress Note. IT MEANS THIS TO FAA Aerospace Medicine:",
+     "WHEN YOU SEE THIS:"
+    ],
+    [
+     "“IT MUST SPECIFICALLY INCLUDE”",
+     "If this language is in your letter, it is to highlight SPECIFIC items (that may or may not be part of a standard current, detailed Clinical Progress Note). Make sure your physician addresses these specific items important for medical certification or clearance."
+    ]
+   ],
+   "html": "<table><thead><tr><th>WHEN YOU SEE THIS:</th><th>IT MEANS THIS TO FAA Aerospace Medicine:</th></tr></thead><tbody><tr><td><p><strong>CURRENT </strong></p></td><td><p>To be “current,” in MOST CASES, the detailed Clinical Progress Note should be from an evaluation in which you saw <strong>your treating physician</strong> no more than 90 days ago.</p>\n<p>(*FAA ATCS clearance exams correlate with birth month, so the treating physician evaluation should be within 90 days of birth month.)</p></td></tr><tr><td><p><strong>DETAILED </strong></p>\n<p>In some instances, the specialty of the physician will be specified (ex. Cardiologist or neurologist, etc.)</p></td><td><p>This information is standard in most clinical progress notes. (e.g., <a href=\"https://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNEdWebGuide/Downloads/97Docguidelines.pdf\" target=\"_blank\" rel=\"noopener\">Medicare standards</a> ).</p>\n<p>It Must include the following items:</p>\n<ul><li>A summary of the history of the condition,</li><li>Current medications, dosages, and side effects (if any);</li><li>Clinical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and Plan;</li><li>Prognosis (<strong>This item may not be on a standard progress note, make sure your physician adds this information.</strong>); and</li><li>Follow-up</li></ul>\n<p>Please note: A letter stating, “Mr. Smith is ok to fly” (or any other simple note), is NOT a current, detailed Clinical Progress Note and is NOT acceptable.</p></td></tr><tr><td><p><strong>CLINICAL </strong></p></td><td><p>Describes findings from an <strong>actual</strong> clinical encounter (usually in office).</p></td></tr><tr><td><p><strong>PROGRESS NOTE </strong></p>\n<p>You may also see this called a <strong>“current status report”</strong> or <strong>“status report” </strong>in current FAA Guidance. Any reference to a “status report” equals the criteria listed on this sheet.</p></td><td><p>This is part of the <strong>actual medical record</strong> that details events of your office or hospital visit.</p>\n<p>Physicians and other providers understand this term. It may be called a SOAP note or patient note. It has specific components (see “Detailed” above).</p>\n<p>A patient “after visit summary” or “patient summary” are NOT sufficient for FAA purposes. To see if your note meets FAA requirements, see the previous page for a comparison between “patient portal or after visit summary” vs. <strong>current, detailed Clinical Progress Note</strong>.</p>\n<p><strong>IT MEANS THIS TO FAA Aerospace Medicine: </strong></p></td><td><p><strong>WHEN YOU SEE THIS: </strong></p></td></tr><tr><td><p><strong>“IT MUST SPECIFICALLY INCLUDE” </strong></p></td><td><p>If this language is in your letter, it is to highlight <strong>SPECIFIC items</strong> (that may or may not be part of a standard current, detailed Clinical Progress Note). <strong>Make sure your physician addresses these specific items important for medical certification or clearance. </strong></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "figure",
+   "page": 36,
+   "text": "ㅐ㐳䌷〱㡔礣卉1",
+   "html": "<figure><img src=\"images/p036_fig1.png\" alt=\"ㅐ㐳䌷〱㡔礣卉1\" loading=\"lazy\"></figure>"
+  }
+ ]
+}

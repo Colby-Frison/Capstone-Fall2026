@@ -1,0 +1,72 @@
+{
+ "id": "fibromuscular-dysplasia",
+ "name": "Fibromuscular Dysplasia",
+ "subtitle": null,
+ "name_in_guide": "FIBROMUSCULAR DYSPLASIA",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 63,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit from the physician (who made the diagnosis or follows clinically) no more than 90 days before the AME exam.",
+  "Imaging (MRA or CTA) of major vascular systems performed within the previous two (2) years. Submit reports for images of:",
+  "Brain;",
+  "Head and neck;",
+  "Coronary arteries (CTA); and",
+  "Abdomen and pelvis to include iliac arteries.",
+  "Other testing: Copies of any other testing already performed by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history",
+   "condition_html": "<p><strong>A. </strong></p>\n<p><strong>Any history </strong></p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit from the physician (who made the diagnosis or follows clinically) no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. Imaging (MRA or CTA) of major vascular systems performed within the previous two (2) years. Submit reports for images of: - Brain; - Head and neck; - Coronary arteries (CTA); and - Abdomen and pelvis to include iliac arteries. - 3. Other testing: Copies of any other testing already performed by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit from the physician (who made the diagnosis or follows clinically) no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>2. Imaging (MRA or CTA) </strong>of major vascular systems performed within the previous two (2) years. Submit reports for images of:</li><li>Brain;</li><li>Head and neck;</li><li>Coronary arteries (CTA); and</li><li>Abdomen and pelvis to include iliac arteries.</li></ul>\n<ul><li><strong>3. </strong>Other testing: Copies of any other testing already performed by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit from the physician (who made the diagnosis or follows clinically) no more than 90 days before the AME exam.",
+    "Imaging (MRA or CTA) of major vascular systems performed within the previous two (2) years. Submit reports for images of:",
+    "Brain;",
+    "Head and neck;",
+    "Coronary arteries (CTA); and",
+    "Abdomen and pelvis to include iliac arteries.",
+    "Other testing: Copies of any other testing already performed by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong> DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 189,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "fibromuscular-dysplasia",
+  "section_title": "FIBROMUSCULAR DYSPLASIA",
+  "pdf_pages": [
+   189
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

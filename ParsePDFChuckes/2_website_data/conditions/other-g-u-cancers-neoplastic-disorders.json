@@ -1,0 +1,72 @@
+{
+ "id": "other-g-u-cancers-neoplastic-disorders",
+ "name": "Other G-U Cancers/Neoplastic Disorders",
+ "subtitle": null,
+ "name_in_guide": "OTHER G-U CANCERS/NEOPLASTIC DISORDERS",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/30/2015",
+ "order": 96,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include staging, metastatic work up, and operative report if applicable."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Other G-U Cancers when treatment was completed more than 5 years ago and there is no history of metastatic disease. (If less than 5 years, see below.)",
+   "condition_html": "<p>Other G-U Cancers when treatment was completed more than 5 years ago and there is no history of metastatic disease. (If less than 5 years, see below.)</p>",
+   "evaluation_data": "Interview airman",
+   "evaluation_data_html": "<p>Interview airman</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "Currently cancer-free and released from oncology care – Issue and warn for recurrence Summarize in Block 60 All others – see below",
+   "disposition_html": "<p>Currently cancer-free and released from oncology car<strong>e – Issue and warn for recurrence </strong></p>\n<p>Summarize in Block 60</p>\n<p>All others – see below</p>",
+   "pdf_page": 259,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Other G-U cancers when treatment was completed less than 5 years ago or for which there is a history of metastatic disease.",
+   "condition_html": "<p>Other G-U cancers when treatment was completed less than 5 years ago or for which there is a history of metastatic disease.</p>",
+   "evaluation_data": "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include staging, metastatic work up, and operative report if applicable.",
+   "evaluation_data_html": "<p>Submit a <strong>current, detailed Clinical Progress Note</strong>, all pertinent medical reports to include staging, metastatic work up, and operative report if applicable.</p>",
+   "what_to_bring": [
+    "Submit a current, detailed Clinical Progress Note, all pertinent medical reports to include staging, metastatic work up, and operative report if applicable."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA decision",
+   "disposition_html": "<p>Requires FAA decision</p>",
+   "pdf_page": 259,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Other G-U Cancers when treatment was completed more than 5 years ago and there i",
+  "Other G-U cancers when treatment was completed less than 5 years ago or for whic"
+ ],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   259
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

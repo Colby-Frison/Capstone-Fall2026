@@ -1,0 +1,23 @@
+{
+ "slug": "item-64-medical-examiner-s-declaration",
+ "title": "ITEM 64. Medical Examiner's Declaration",
+ "group": "APPLICATION REVIEW",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  501
+ ],
+ "blocks": [
+  {
+   "type": "list",
+   "page": 501,
+   "text": "- The FAA designates specific individuals as AMEs and this status may not be delegated to staff or to a physician who may be covering the designee's practice.",
+   "html": "<ul><li>The FAA designates specific individuals as AMEs and this status may not be delegated to staff or to a physician who may be covering the designee&#x27;s practice.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 501,
+   "text": "- Before transmitting to AMCD, the AME must certify the exam and enter all appropriate information including his or her AME serial number.",
+   "html": "<ul><li>Before transmitting to AMCD, the AME must certify the exam and enter all appropriate information including his or her AME serial number.</li></ul>"
+  }
+ ]
+}

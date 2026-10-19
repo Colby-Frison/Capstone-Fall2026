@@ -1,0 +1,144 @@
+{
+ "id": "diabetes-insipidus-or-polyuria",
+ "name": "Diabetes Insipidus or Polyuria",
+ "subtitle": null,
+ "name_in_guide": "DIABETES INSIPIDUS OR POLYURIA",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/27/2023",
+ "order": 162,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The individual has no sequela; and",
+  "The condition was due to a temporary condition which has resolved with no expectation to recur:",
+  "A detailed summary of the history of the condition including etiology;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and",
+  "Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist, or treating physician no more than 90 days prior to the AME exam. It must include:",
+  "Copies of any lab performed for evaluation of this condition.",
+  "Copies of any imaging (CT/MRI, etc.) already performed.",
+  "Submit the following for FAA review:",
+  "A detailed summary of the history of the condition; including etiology;",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist or treating physician no more than 90 days prior to the AME exam. It must include:"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "5 or more years ago Due to a temporary condition which has fully resolved (ex. pregnancy) AND Did not require surgery",
+   "condition_html": "<p><strong>A. </strong></p>\n<p><strong>5 or more years ago </strong></p>\n<p>Due to a temporary condition which has fully resolved (ex. pregnancy)</p>\n<p>AND</p>\n<p>Did not require surgery</p>",
+   "evaluation_data": "The AME should review a detailed Clinical Progress Note from a board-certified endocrinologist, nephrologist, or treating physician. If the documentation verifies that: - The individual has no sequela; and - The condition was due to a temporary condition which has resolved with no expectation to recur:",
+   "evaluation_data_html": "<p>The AME should review a detailed Clinical Progress Note from a board-certified endocrinologist, nephrologist, or treating physician.</p>\n<p>If the documentation verifies that:</p>\n<ul><li>The individual has no sequela; and</li><li>The condition was due to a temporary condition which has resolved with no expectation to recur:</li></ul>",
+   "what_to_bring": [
+    "The individual has no sequela; and",
+    "The condition was due to a temporary condition which has resolved with no expectation to recur:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p><strong>Annotate</strong> Block 60 <strong>and submit</strong> the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 427,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Arginine vasopressin deficiency (central diabetes insipidus) OR Arginine vasopressin resistance (nephrogenic diabetes insipidus) OR Unknown cause If due to a neurologic condition such as a tumor, infection, stroke, neurosurgery, or head injury, see that condition page.",
+   "condition_html": "<p><strong>B.</strong></p>\n<p><strong>Arginine vasopressin deficiency</strong> (central diabetes insipidus)</p>\n<p><strong>OR</strong></p>\n<p><strong>Arginine vasopressin resistance</strong> (nephrogenic diabetes insipidus)</p>\n<p><strong>OR </strong></p>\n<p>Unknown cause</p>\n<p>If due to a neurologic condition such as a tumor, infection, stroke, neurosurgery, or head injury, see that condition page.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist, or treating physician no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition including etiology; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and - Follow-up. 2. Copies of any lab performed for evaluation of this condition. 3. Copies of any imaging (CT/MRI, etc.) already performed.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p><strong>1.</strong> A current, detailed<strong> Clinical Progress Note</strong> generated from a clinic visit with a board-certified endocrinologist, nephrologist, or treating physician no more than <strong>90 days prior </strong>to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition including etiology;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and</li><li>Follow-up.</li></ul>\n<p><strong>2.</strong> Copies of any lab performed for evaluation of this condition.</p>\n<p><strong>3.</strong> Copies of any imaging (CT/MRI, etc.) already performed.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition including etiology;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and",
+    "Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist, or treating physician no more than 90 days prior to the AME exam. It must include:",
+    "Copies of any lab performed for evaluation of this condition.",
+    "Copies of any imaging (CT/MRI, etc.) already performed."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 427,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "",
+   "condition_html": "<p><strong>C. </strong></p>",
+   "evaluation_data": "Submit the following for FAA review:",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>",
+   "what_to_bring": [
+    "Submit the following for FAA review:"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 427,
+   "disposition_shared_with_previous_row": true
+  },
+  {
+   "label": null,
+   "condition": "Primary polydipsia (dipsogenic or psychogenic) If due to a neurologic condition such as a tumor, infection, stroke, neurosurgery, or head injury, see that condition page.",
+   "condition_html": "<p><strong> Primary polydipsia</strong></p>\n<p>(dipsogenic or psychogenic)</p>\n<p>If due to a neurologic</p>\n<p>condition such as a tumor, infection, stroke, neurosurgery, or head injury, see that condition page.</p>",
+   "evaluation_data": "1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist or treating physician no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; including etiology; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and - Follow-up. 2. Copies of any lab performed for evaluation of this condition. 3. Copies of any imaging (CT/MRI, etc.) already performed. Note: Psychiatric evaluation will be requested if the documents show the condition is psychogenic polydipsia.",
+   "evaluation_data_html": "<p><strong>1.</strong> A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified endocrinologist, nephrologist or treating physician no more than <strong>90 days prior </strong>to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition; including etiology;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and</li><li>Follow-up.</li></ul>\n<p><strong>2.</strong> Copies of any lab performed for evaluation of this condition.</p>\n<p><strong>3.</strong> Copies of any imaging (CT/MRI, etc.) already performed.</p>\n<p><strong>Note:</strong> Psychiatric evaluation will be requested if the documents show the condition is psychogenic polydipsia.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition; including etiology;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and",
+    "Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified endocrinologist, nephrologist or treating physician no more than 90 days prior to the AME exam. It must include:",
+    "Copies of any lab performed for evaluation of this condition.",
+    "Copies of any imaging (CT/MRI, etc.) already performed."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 427,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>ENDOCRINE DISORDERS </strong></p>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "diabetes-insipidus-or-polyuria",
+  "section_title": "DIABETES INSIPIDUS OR POLYURIA",
+  "pdf_pages": [
+   427,
+   429
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

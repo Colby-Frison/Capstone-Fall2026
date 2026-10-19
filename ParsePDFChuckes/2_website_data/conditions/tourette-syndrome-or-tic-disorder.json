@@ -1,0 +1,109 @@
+{
+ "id": "tourette-syndrome-or-tic-disorder",
+ "name": "Tourette Syndrome or TIC Disorder",
+ "subtitle": null,
+ "name_in_guide": "TOURETTE SYNDROME or TIC DISORDER",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/22/2023",
+ "order": 147,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "The condition is under control,",
+  "No medications or treatment required, and",
+  "The individual has NO symptoms that would interfere with flight duties or communication:",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Due to the strong association with tic disorder and ADHD, a current neuropsychological and cognitive evaluation ( Specifications for Neuropsychological Evaluations for ADHD ) MAY be required after review of the initial neurological evaluation.",
+  "A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for ADHD from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Tic disorder (Chronic motor or vocal tic) Present 5 or more years Not worsening",
+   "condition_html": "<p><strong>A. </strong> Tic disorder (Chronic motor or vocal tic) <strong>Present 5 or more years</strong> Not worsening</p>",
+   "evaluation_data": "If the AME can determine: - The condition is under control, - No medications or treatment required, and - The individual has NO symptoms that would interfere with flight duties or communication: Note: Adult-onset tic disorder, go to Row B.",
+   "evaluation_data_html": "<p>If the AME can determine:</p>\n<ul><li>The condition is under control,</li><li>No medications or treatment required, and</li><li>The individual has NO symptoms that would interfere with flight duties or communication:</li></ul>\n<p><strong>Note</strong>: Adult-onset tic disorder, go to Row B.</p>",
+   "what_to_bring": [
+    "The condition is under control,",
+    "No medications or treatment required, and",
+    "The individual has NO symptoms that would interfere with flight duties or communication:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 368,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Tic disorder (Chronic motor or vocal Tic) Present less than 5 years Unknown cause OR Worsening OR Adult-onset tic",
+   "condition_html": "<p><strong>B.</strong> Tic disorder</p>\n<p>(Chronic motor or vocal Tic) Present <strong>less than 5 years</strong> Unknown cause OR Worsening OR</p>\n<p>Adult-onset tic</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Due to the strong association with tic disorder and ADHD, a current neuropsychological and cognitive evaluation ( Specifications for Neuropsychological Evaluations for ADHD ) MAY be required after review of the initial neurological evaluation.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the<strong> treating neurologist no more than 90 days before </strong>the AME exam.</li></ul>\n<ul><li>2. Due to the strong association with tic disorder and ADHD, a current neuropsychological and cognitive evaluation ( <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd\" target=\"_blank\" rel=\"noopener\">Specifications for Neuropsychological Evaluations for ADHD</a> ) <strong>MAY </strong>be required after review of the initial neurological evaluation.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Due to the strong association with tic disorder and ADHD, a current neuropsychological and cognitive evaluation ( Specifications for Neuropsychological Evaluations for ADHD ) MAY be required after review of the initial neurological evaluation."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 368,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Tourette Syndrome",
+   "condition_html": "<p><strong>C. </strong>Tourette Syndrome</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for ADHD from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. Note: Tourette's syndrome and tics are commonly associated with Attention Deficit Hyperactivity Disorder (ADHD). Neuropsychological evaluation and testing is required.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li><li>2. A <strong>Neuropsychological (NP) evaluation</strong> that meets FAA <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd\" target=\"_blank\" rel=\"noopener\">Specifications for Neuropsychological Evaluations for ADHD</a> from a clinic visit with the <strong>treating neuropsychologist no more than 90 days before </strong>the AME exam.</li></ul>\n<p><strong>Note: </strong>Tourette&#x27;s syndrome and tics are commonly associated with Attention Deficit Hyperactivity Disorder (ADHD). Neuropsychological evaluation and testing is required.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "A Neuropsychological (NP) evaluation that meets FAA Specifications for Neuropsychological Evaluations for ADHD from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 368,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "Specifications for Neuropsychological Evaluations for ADHD",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/adhd"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   368
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

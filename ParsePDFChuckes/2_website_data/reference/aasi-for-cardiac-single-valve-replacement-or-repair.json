@@ -1,0 +1,116 @@
+{
+ "slug": "aasi-for-cardiac-single-valve-replacement-or-repair",
+ "title": "AASI for Cardiac - Single Valve Replacement or Repair",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  689
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "All Classes",
+   "html": "<p><strong>All Classes </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "(Updated 01/27/2021)",
+   "html": "<p>(Updated 01/27/2021)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "Authorization granted by the FAA ECG - Required annually. Echo - Current 2D echocardiogram performed within 90 days INRs for Mechanical Heart Values - A minimum of monthly International",
+   "html": "<p> <strong>Authorization </strong>granted by the FAA <strong>ECG </strong>- Required annually. <strong>Echo </strong>- Current 2D <strong>echo</strong>cardiogram performed within 90 days <strong>INRs for Mechanical Heart Values </strong>- A minimum of monthly International</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "Normalized Ratio (INR) results for the immediate prior six months",
+   "html": "<p>Normalized Ratio (INR) results for the immediate prior six months</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "Status report - performed within the past 90 days in accordance with the appropriate CHD Protocol (",
+   "html": "<p> <strong>Status report </strong>- performed within the past 90 days in accordance with the appropriate CHD Protocol <a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf\" target=\"_blank\" rel=\"noopener\">(</a></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "1st or 2nd Class ; 3rd Class )",
+   "html": "<p><a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_1st-2nd_class.pdf\" target=\"_blank\" rel=\"noopener\">1st or 2nd Class</a> ; <a href=\"https://www.faa.gov/ame_guide/media/Coronary_Heart_Disease_Protocol_3rd_class.pdf\" target=\"_blank\" rel=\"noopener\">3rd Class</a> )</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "The AME must defer medical certification if the applicant has:",
+   "html": "<p>The AME <strong>must defer</strong> medical certification if the applicant has:</p>"
+  },
+  {
+   "type": "list",
+   "page": 689,
+   "text": "- Additional valve procedure performed;\n- Any other disqualifying medical conditions or therapy not previously reported;\n- Any other reason for not renewing an AASI;\n- Arrhythmia, new onset, such as of atrial fibrillation/flutter, ventricular bigeminy, ventricular tachycardia, Mobitz Type II or greater AV block, complete heart block, RBBB, LBBB , or LVH\n- Bleeding that required medical intervention or other;\n- Echo reveals:",
+   "html": "<ul><li><strong>Additional valve procedure</strong> performed;</li><li><strong>Any other disqualifying medical conditions </strong>or therapy not previously reported;</li><li><strong>Any other reason for not renewing an AASI;</strong></li><li><strong>Arrhythmia</strong>, <strong>new onset</strong>, such as of atrial fibrillation/flutter, ventricular bigeminy, ventricular tachycardia, Mobitz Type II or greater AV block, complete heart block, <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item36/amd/arrhythmias\" target=\"_blank\" rel=\"noopener\">RBBB, LBBB</a> , or LVH</li><li><strong>Bleeding</strong> that required medical intervention or other;</li><li><strong>Echo</strong> reveals:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 689,
+   "text": "IF ANY OF THE FOLLOWING ARE NOTED ON ECHO, THE AME MAY NOT ISSUE.",
+   "html": "<p><strong>IF ANY OF THE FOLLOWING ARE NOTED ON ECHO, THE AME MAY NOT ISSUE. </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 689,
+   "header": [
+    "Any valve",
+    "Perivalvular leaking"
+   ],
+   "rows": [
+    [
+     "Aortic Valve",
+     "Area post procedure is less than 1.0 cm2"
+    ],
+    [
+     "Aortic Valve",
+     "Peak gradient level is 60 mmHg or more"
+    ],
+    [
+     "Aortic Valve",
+     "Mean gradient is 40 mmHg or more"
+    ],
+    [
+     "Mitral Valve",
+     "Any evidence of worsening of mitral valve regurgitation or stenosis in narrative"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Any valve</th><th>Perivalvular leaking</th></tr></thead><tbody><tr><td><p>Aortic Valve</p></td><td><p>Area post procedure is<strong> less than 1.0 cm2</strong></p></td></tr><tr><td><p>Aortic Valve</p></td><td><p><strong>Peak </strong>gradient level is<strong> 60 mmHg or more</strong></p></td></tr><tr><td><p>Aortic Valve</p></td><td><p><strong>Mean</strong> gradient is <strong>40 mmHg or more</strong></p></td></tr><tr><td><p>Mitral Valve</p></td><td><p>Any evidence of worsening of mitral valve regurgitation or stenosis in narrative</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 689,
+   "text": "- Emboli or thrombosis develop\n- INR - More than 20% of INR values are less than 2.5 or greater than 3.5.\n- In select cases of a Bileaflet (St. Jude) valve in the aortic position, INR values between 2.0 and 3.0 may be accepted (check with FAA)\n- New Event - Has another event, develops a new condition or identification of an additional cardiac condition not previously reported.",
+   "html": "<ul><li><strong>Emboli or thrombosis</strong> develop</li><li><strong>INR</strong> - More than 20% of INR values are less than 2.5 or greater than 3.5.</li><li>In select cases of a Bileaflet (St. Jude) valve in the aortic position, INR values between 2.0 and 3.0 may be accepted (check with FAA)</li><li><strong>New Event</strong> - Has another event, develops a new condition or identification of an additional cardiac condition not previously reported.</li></ul>"
+  }
+ ]
+}

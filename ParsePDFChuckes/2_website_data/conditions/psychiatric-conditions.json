@@ -1,0 +1,110 @@
+{
+ "id": "psychiatric-conditions",
+ "name": "Psychiatric Conditions",
+ "subtitle": null,
+ "name_in_guide": "PSYCHIATRIC CONDITIONS",
+ "category": {
+  "id": "psychiatric",
+  "name": "Psychiatric",
+  "exam_item": "47",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 154,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information required."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Psychotropic medications for Smoking Cessation",
+   "condition_html": "<p>Psychotropic medications for Smoking Cessation</p>",
+   "evaluation_data": "Document period of use, name and dosage of medication(s) and side-effects.",
+   "evaluation_data_html": "<p>Document period of use, name and dosage of medication(s) and side-effects.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If medication(s) discontinued for at least 30 days and w/o side-effects - Issue Otherwise – Requires FAA Decision",
+   "disposition_html": "<p>If medication(s) discontinued for at least 30 days and w/o side-effects - Issue Otherwise – Requires FAA Decision</p>",
+   "pdf_page": 414,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Substance Abuse",
+   "condition_html": "<p>Substance Abuse</p>",
+   "evaluation_data": "See Substances of Dependence/Abuse",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">Substances of</a> Dependence/Abuse</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 414,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Substance Dependence",
+   "condition_html": "<p>Substance Dependence</p>",
+   "evaluation_data": "See Substances of Dependence/Abuse",
+   "evaluation_data_html": "<p>See Substances of <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">Dependence/Abuse</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 414,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Suicide Attempt",
+   "condition_html": "<p>Suicide Attempt</p>",
+   "evaluation_data": "Submit all pertinent medical information required.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information required.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information required."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 414,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<ul><li>1. The category of personality disorders severe enough to have repeatedly manifested itself by overt acts refers to diagnosed personality disorders that involve what is called &quot;acting out&quot; behavior. These personality problems relate to poor social judgment, impulsivity, and disregard or antagonism toward authority, especially rules and regulations. A history of long-standing behavioral problems, whether major (criminal) or relatively minor (truancy, military misbehavior, petty criminal and civil indiscretions, and social instability), usually occurs with these disorders. Driving infractions and previous failures to follow aviation regulations are critical examples of these acts. Certain personality disorders and other mental disorders that include conditions of limited duration and/or widely varying severity may be disqualifying. Under this category, the FAA is especially concerned with significant depressive episodes requiring treatment, even outpatient therapy. If these episodes have been severe enough to cause some disruption of vocational or educational activity, or if they have required medication or involved suicidal ideation, the application should be deferred or denied issuance. Some personality disorders and situational dysphorias may be considered disqualifying for a limited time. These include such conditions as gross immaturity and some personality disorders not involving or manifested by overt acts.</li><li>2. Psychotic Disorders are characterized by a loss of reality testing in the form of delusions, hallucinations, or disorganized thoughts. They may be chronic, intermittent, or occur in a single episode. They may also occur as accompanying symptoms in other psychiatric conditions including but not limited to bipolar disorder (e.g., bipolar disorder with psychotic features), major depression (e.g., major depression with psychotic features), borderline personality disorder, etc. <strong>All applicants with such a diagnosis must be denied or deferred.</strong></li></ul>\n<ul><li>3. Bipolar Disorders are considered on a continuum as part of a spectrum of disorders where there are significant alternations in mood. Generally, only one episode of manic or hypomanic behavior is necessary to make the diagnosis. Please note that cyclothymic disorder is part of this spectrum. Even if the bipolar disorder does not have accompanying symptoms that reach the level of psychosis, the disorder can be so disruptive of judgment and functioning (especially mania) as to pose a significant risk to aviation safety. Impaired judgment does occur even in the milder form of the disease. <strong>All applicants with a diagnosis of Bipolar Disorder must be denied or deferred. </strong></li></ul>\n<ul><li>4. Although they may be rare in occurrence, severe anxiety problems, especially anxiety and phobias associated with some aspect of flying, are considered significant. Organic mental disorders that cause a cognitive defect, even if the applicant is not psychotic, are considered disqualifying whether they are due to trauma, toxic exposure, or arteriosclerotic or other degenerative changes. (See <strong>Item 18.m</strong>.).</li></ul>",
+ "links": [
+  {
+   "text": "Substances of",
+   "href": "https://www.faa.gov/ame_guide/abuse_dep/amd/"
+  }
+ ],
+ "aliases": [
+  "Psychotropic medications for Smoking Cessation",
+  "Substance Abuse",
+  "Substance Dependence",
+  "Suicide Attempt"
+ ],
+ "source": {
+  "section": "psychiatric-conditions",
+  "section_title": "PSYCHIATRIC CONDITIONS",
+  "pdf_pages": [
+   414
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

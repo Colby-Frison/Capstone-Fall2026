@@ -1,0 +1,156 @@
+{
+ "id": "asthma-reactive-airway-disease",
+ "name": "Asthma (Reactive Airway Disease)",
+ "subtitle": null,
+ "name_in_guide": "ASTHMA (Reactive Airway Disease)",
+ "category": {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 38,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Ophthalmological exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "the disease course and severity including flare(s),",
+  "hospitalizations or intubations,",
+  "treatment history,",
+  "duration of symptoms,",
+  "how long the condition has been stable,",
+  "if any upcoming treatment change is planned or expected; and",
+  "does the condition severity limit activities.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Pulmonologist no more than 90 days before the AME exam. It must include:",
+  "The Clinical Progress note must specifically include:",
+  "Pulmonary functions test (PFTs) performed within the past 90 days. PFTs must be both pre-and post-bronchodilator and include flow volume loops.",
+  "Copies of any other testing already performed"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "History of childhood asthma, resolved OR Asthma caused by a specific and avoidable trigger (e.g. exposure to pet or animal dander, specific foods etc.) managed by avoidance and use of as needed (PRN) rescue inhaler OR Exercise-induced bronchoconstriction (a.k.a. exercise-induced asthma), treated with as needed (PRN) rescue inhaler only",
+   "condition_html": "<p><strong>A.</strong> History of childhood asthma, resolved OR Asthma caused by a specific and avoidable trigger (e.g. exposure to pet or animal dander, specific foods etc.) managed by avoidance and use of as needed (PRN) rescue inhaler OR Exercise-induced bronchoconstriction (a.k.a. exercise-induced asthma), treated with as needed (PRN) rescue inhaler only</p>",
+   "evaluation_data": "If the AME can determine the individual has no symptoms that would interfere with flight or safety related duties:",
+   "evaluation_data_html": "<p>If the AME can determine the individual has no symptoms that would interfere with flight or safety related duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this</p>\n<p>information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 130,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Intermittent or mild persistent",
+   "condition_html": "<p><strong>B.</strong> Intermittent or mild persistent</p>",
+   "evaluation_data": "See the CACI -Asthma Worksheet . This requires a current, detailed Clinical Progress Note and spirometry. If the pilot meets all CACI worksheet criteria and is otherwise qualified:",
+   "evaluation_data_html": "<p>See the <a href=\"http://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/C-CACIAsthma.pdf\" target=\"_blank\" rel=\"noopener\">CACI -Asthma Worksheet</a> .</p>\n<p>This requires a current, detailed Clinical Progress Note and spirometry.</p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci",
+    "issue"
+   ],
+   "disposition": "If the pilot meets all CACI worksheet criteria and is otherwise qualified, ISSUE With no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified,</p>\n<p><strong>ISSUE </strong></p>\n<p>With no time limitation</p>\n<p>Annotate the correct CACI statement in</p>\n<p>Block 60 and keep the required supporting information on file.</p>",
+   "pdf_page": 130,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Moderate or Severe persistent",
+   "condition_html": "<p><strong>C.</strong> Moderate or Severe persistent</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating Pulmonologist no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Ophthalmological exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. The Clinical Progress note must specifically include: - the disease course and severity including flare(s), - hospitalizations or intubations, - treatment history, - duration of symptoms, - how long the condition has been stable, - if any upcoming treatment change is planned or expected; and - does the condition severity limit activities. 3. Pulmonary functions test (PFTs) performed within the past 90 days. PFTs must be both pre-and post-bronchodilator and include flow volume loops. 4. Copies of any other testing already performed",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>Pulmonologist </strong> no more than <strong>90 days</strong> before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li><strong>Current medications, dosage, and side effects (if any); </strong></li><li>Ophthalmological exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. The Clinical Progress note must specifically include:</p>\n<ul><li>the disease course and severity including flare(s),</li><li>hospitalizations or intubations,</li><li>treatment history,</li><li>duration of symptoms,</li><li>how long the condition has been stable,</li><li>if any upcoming treatment change is planned or expected; and</li><li>does the condition severity limit activities.</li></ul>\n<p>3. Pulmonary functions test (PFTs) performed within the past 90 days. PFTs must be both pre-and post-bronchodilator and include flow volume loops.</p>\n<p>4. Copies of any other testing already performed</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Ophthalmological exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "the disease course and severity including flare(s),",
+    "hospitalizations or intubations,",
+    "treatment history,",
+    "duration of symptoms,",
+    "how long the condition has been stable,",
+    "if any upcoming treatment change is planned or expected; and",
+    "does the condition severity limit activities.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating Pulmonologist no more than 90 days before the AME exam. It must include:",
+    "The Clinical Progress note must specifically include:",
+    "Pulmonary functions test (PFTs) performed within the past 90 days. PFTs must be both pre-and post-bronchodilator and include flow volume loops.",
+    "Copies of any other testing already performed"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 130,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Asthma Worksheet",
+   "updated": "09/24/2025",
+   "criteria": [
+    {
+     "ame_must_review": "Treating physician finds the condition stable on current regimen and no changes recommended.",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Symptoms: Stable and well-controlled (either on or off medication)",
+     "acceptable_certification_criteria": "[ ] Yes for all of the following: - - Frequency of symptoms - no more than 2 days per week - - Use of inhaled short-acting beta agonist (rescue inhaler) - no more than 2 times per week - - Use of oral corticosteroids for exacerbations - no more than 2 times per year - - In the last year: - No in-patient hospitalizations - No more than 2 outpatient clinic/urgent care visits for exacerbations (with symptoms fully resolved)."
+    },
+    {
+     "ame_must_review": "Acceptable Medications NOT acceptable for CACI: Monoclonal antibodies",
+     "acceptable_certification_criteria": "[ ] One or more of the following - - Inhaled long-acting beta agonist - - Inhaled short-acting beta agonist (e.g., albuterol) - - Inhaled corticosteroid - - leukotriene receptor antagonist, (e.g., montelukast [Singulair]) Note: A short course of oral or IM steroids during an exacerbation is acceptable. The AME must caution airman not to fly until course of oral steroids is completed and airman is symptom free."
+    },
+    {
+     "ame_must_review": "Spirometry Spirometry is not required if the only treatment is PRN use on one or two days a week of a short-acting beta agonist (e.g., albuterol).",
+     "acceptable_certification_criteria": "[ ] Current within last 90 days [ ] FEV1 and FVC are both equal to or greater than 80% predicted before bronchodilators."
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified asthma. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified asthma.",
+    "NOT CACI qualified asthma. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 09/24/2025)</p>",
+ "links": [
+  {
+   "text": "CACI -Asthma Worksheet",
+   "href": "http://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/ame/guide/media/C-CACIAsthma.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-35-lungs-and-chest",
+  "section_title": "ITEM 35. Lungs and Chest",
+  "pdf_pages": [
+   130,
+   132
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

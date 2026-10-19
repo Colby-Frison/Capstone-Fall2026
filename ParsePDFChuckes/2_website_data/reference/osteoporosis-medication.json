@@ -1,0 +1,130 @@
+{
+ "slug": "osteoporosis-medication",
+ "title": "OSTEOPOROSIS MEDICATION",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  661
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113 (b)(c), 67.213 (b)(c), and 67.313 (b)(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong>- 67.113 (b)(c), 67.213 (b)(c), and 67.313 (b)(c)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "II. MEDICAL HISTORY: ITEM 48. General Systemic",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>ITEM 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.",
+   "html": "<p>The applicant must report frequency and duration of symptoms, any incapacitation by the condition, treatment, and side effects.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Musculoskeletal",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See Musculoskeletal</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS:",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 661,
+   "header": [
+    "ACCEPTABLE* Osteoporosis Medications (when certification criteria are met)"
+   ],
+   "rows": [
+    [
+     "Medication Drug Class",
+     "Initial observation",
+     "Post-dose observation"
+    ],
+    [
+     "Bisphosphonate (Oral) - alendronate (Fosamax) - ibandronate (Boniva) - risedronate (Actonel)",
+     "None",
+     "None"
+    ],
+    [
+     "Bisphosphonate (infusion) - - zoledronic acid (Reclast)",
+     "1 week",
+     "None"
+    ],
+    [
+     "Parathyroid Hormone Analog - abaloparatide (Tymlos) - teriparatide (Forteo)",
+     "1 week",
+     "None"
+    ],
+    [
+     "* RANK ligand inhibitors - denosumab (Prolia)",
+     "48 hours",
+     "4 hours"
+    ],
+    [
+     "* Sclerostin Inhibitor; Monoclonal Antibody - romosozumab (Evenity)",
+     "2 weeks",
+     "4 hours"
+    ],
+    [
+     "Selective Estrogen Receptor Modulator (SERM) - raloxifene (Evista)",
+     "None",
+     "None"
+    ],
+    [
+     "Combination SERM + conjugated estrogens - bazedoxifene (Duavee)",
+     "None",
+     "None"
+    ]
+   ],
+   "html": "<table><thead><tr><th>ACCEPTABLE* Osteoporosis Medications (when certification criteria are met)</th></tr></thead><tbody><tr><td><p><strong>Medication Drug Class</strong></p></td><td><p><strong>Initial observation</strong></p></td><td><p><strong>Post-dose observation</strong></p></td></tr><tr><td><p>Bisphosphonate (Oral)</p>\n<ul><li>alendronate (Fosamax)</li><li>ibandronate (Boniva)</li><li>risedronate (Actonel)</li></ul></td><td><p>None</p></td><td><p>None</p></td></tr><tr><td><p>Bisphosphonate (infusion)</p>\n<ul><li>- zoledronic acid (Reclast)</li></ul></td><td><p>1 week</p></td><td><p>None</p></td></tr><tr><td><p>Parathyroid Hormone Analog</p>\n<ul><li>abaloparatide (Tymlos)</li><li>teriparatide (Forteo)</li></ul></td><td><p>1 week</p></td><td><p>None</p></td></tr><tr><td><p>* RANK ligand inhibitors</p>\n<ul><li>denosumab (Prolia)</li></ul></td><td><p>48 hours</p></td><td><p>4 hours</p></td></tr><tr><td><p>* Sclerostin Inhibitor; Monoclonal Antibody</p>\n<ul><li>romosozumab (Evenity)</li></ul></td><td><p>2 weeks</p></td><td><p>4 hours</p></td></tr><tr><td><p>Selective Estrogen Receptor Modulator (SERM)</p>\n<ul><li>raloxifene (Evista)</li></ul></td><td><p>None</p></td><td><p>None</p></td></tr><tr><td><p>Combination SERM + conjugated estrogens</p>\n<ul><li>bazedoxifene (Duavee)</li></ul></td><td><p>None</p></td><td><p>None</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "*Above guidance is for osteoporosis treatment ONLY. If used for cancer-related conditions, additional observation periods and/or requirements may apply.",
+   "html": "<p><strong>*Above guidance is for osteoporosis treatment ONLY.</strong> If used for cancer-related conditions, additional observation periods and/or requirements may apply.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "UNACCEPTABLE Osteoporosis Medications",
+   "html": "<p><strong>UNACCEPTABLE Osteoporosis Medications </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 661,
+   "header": [
+    "ᴓ Interferon - interferon gamma-1b (Actimmune)"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>ᴓ Interferon - interferon gamma-1b (Actimmune)</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 661,
+   "text": "661",
+   "html": "<p>661</p>"
+  }
+ ]
+}

@@ -1,0 +1,918 @@
+{
+ "slug": "item-52-color-vision",
+ "title": "ITEM 52. Color Vision",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  473,
+  474,
+  475,
+  476,
+  477,
+  478,
+  479,
+  480,
+  481,
+  482,
+  483
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "(Updated 01/29/2025)",
+   "html": "<p>(Updated 01/29/2025)</p>"
+  },
+  {
+   "type": "table",
+   "page": 473,
+   "header": [
+    "52. Color Vision"
+   ],
+   "rows": [
+    [
+     "- Pass"
+    ],
+    [
+     "- Fail"
+    ]
+   ],
+   "html": "<table><thead><tr><th>52. Color Vision</th></tr></thead><tbody><tr><td><ul><li> Pass</li></ul></td></tr><tr><td><ul><li> Fail</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "First- and Second-Classes: 14 CFR 67.103(c) and 67.203(c)",
+   "html": "<p><strong>First- and Second-Classes: 14 CFR 67.103(c) and 67.203(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "(c) Color vision: Ability to perceive those colors necessary for the safe performance",
+   "html": "<p>(c) Color vision: Ability to perceive those colors necessary for the safe performance</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "of airman duties.",
+   "html": "<p>of airman duties.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "Third-Class: 14 CFR 67.303(c)",
+   "html": "<p><strong>Third-Class: 14 CFR 67.303(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "(c) Color vision: Ability to perceive those colors necessary for the safe performance",
+   "html": "<p>(c) Color vision: Ability to perceive those colors necessary for the safe performance</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "of airman duties.",
+   "html": "<p>of airman duties.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "II. Examination Equipment and Techniques",
+   "html": "<p><strong>II. Examination Equipment and Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 473,
+   "text": "See AME Information – Color Vision Screening Steps on next page.",
+   "html": "<p>See AME Information – Color Vision Screening Steps on next page.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "AME INFORMATION - COLOR VISION SCREENING STEPS",
+   "html": "<p><strong>AME INFORMATION - COLOR VISION SCREENING STEPS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "(Updated 12/12/2024)",
+   "html": "<p>(Updated 12/12/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "EFFECTIVE JANUARY 1, 2025: Approved computer-based color vision screening tests will be required for pilot exams performed on 01/01/2025 and after:",
+   "html": "<p><strong>EFFECTIVE JANUARY 1, 2025: Approved computer-based color vision screening tests will be required for pilot exams performed on 01/01/2025 and after: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 474,
+   "text": "- Testing frequency will change to a one-time color vision deficiency screening.\n- Testing for acquired color deficiency (e.g., due to a medical condition or a medication) will be listed under the Evaluation Data of the corresponding section in the AME Guide or in the Letter of Authorization.",
+   "html": "<ul><li>Testing frequency will change to a <strong>one-time</strong> color vision deficiency screening.</li><li>Testing for<strong> acquired </strong>color deficiency (e.g., due to a medical condition or a medication) will be listed under the Evaluation Data of the corresponding section in the AME Guide or in the Letter of Authorization.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "A. FOR A RETURNING PILOT WHO HAS HISTORICALLY PASSED ANY PREVIOUSLY FAA-APPROVED COLOR VISION TEST:",
+   "html": "<p><strong>A. FOR A RETURNING PILOT WHO HAS HISTORICALLY PASSED ANY PREVIOUSLY FAA-APPROVED COLOR VISION TEST: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 474,
+   "text": "- For all classes: Computer-based color vision screening test is NOT required.\n- Mark Item 52. “PASS”\n- AME should ISSUE (if otherwise qualified).",
+   "html": "<ul><li>For all classes: Computer-based color vision screening test is <strong>NOT </strong>required.</li><li>Mark Item 52. “PASS”</li><li>AME should ISSUE (if otherwise qualified).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "B. FOR A RETURNING PILOT WITH A PREVIOUS SODA OR LOE:",
+   "html": "<p><strong>B. FOR A RETURNING PILOT WITH A PREVIOUS SODA OR LOE</strong>:</p>"
+  },
+  {
+   "type": "list",
+   "page": 474,
+   "text": "- 1. Pilot holds 3rd Class SODA or LOE :\n- Wants to keep 3rd Class: - Does not need computer test. - Issue 3rd class certificate with no color vision limitation (if otherwise qualified).\n- Wants to upgrade to 1st or 2nd Class: - Administer any of the acceptable computer-based color vision screening tests. - If PASS - no limitation required. AME can issue (if otherwise qualified).",
+   "html": "<ul><li><strong>1. Pilot holds 3rd Class SODA or LOE : </strong></li><li><p>• <strong> Wants to keep 3rd Class:</strong></p>\n<ul><li>Does not need computer test.</li><li>Issue 3rd class certificate with no color vision limitation (if otherwise qualified).</li></ul></li><li><p>• <strong> Wants to upgrade to 1st or 2nd Class: </strong></p>\n<ul><li>Administer any of the acceptable computer-based color vision screening tests.</li><li>If PASS - no limitation required. AME can issue (if otherwise qualified).</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "If FAIL - issue a 3rd class medical certificate with limitation #104 “Valid for day visual flight rules (VFR) only.” If the individual requests an upgrade to 1st or 2nd class, they should appeal to the Federal Air Surgeon.",
+   "html": "<p>If FAIL - issue a 3rd class medical certificate with limitation #104 “Valid for day visual flight rules (VFR) only.” If the individual requests an upgrade to 1st or 2nd class, they should appeal to the Federal Air Surgeon.</p>"
+  },
+  {
+   "type": "list",
+   "page": 474,
+   "text": "- 2. Pilot holds a 1st or 2nd class LOE or SODA (previously passed OCVT and CV MFT): - Does not need computer test. - Issue 1st or 2nd class medical certificate (if otherwise qualified). - No color vision limitation required.",
+   "html": "<ul><li><p><strong>2. Pilot holds a 1st or 2nd class LOE or SODA (previously passed OCVT and CV MFT): </strong></p>\n<ul><li>Does not need computer test.</li><li>Issue 1st or 2nd class medical certificate (if otherwise qualified).</li><li>No color vision limitation required.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "C. FOR A FIRST-TIME APPLICANT:",
+   "html": "<p><strong>C. FOR A FIRST-TIME APPLICANT: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "1. An applicant can attempt any (or all) of the tests that are approved at the time of the exam.",
+   "html": "<p><strong>1.</strong> An applicant can attempt any (or all) of the tests that are approved at the time of the exam.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 474,
+   "text": "2. If unable to pass ANY of the acceptable tests:",
+   "html": "<p><strong>2. If unable to pass ANY of the acceptable tests:</strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 474,
+   "text": "- - Mark Item 52. “Fail”\n- Annotate Item 59. (Other Tests Given) with “FAILED _______.”\n- LIST NAME of color vision test(s) attempted AND include the scores. - ISSUE a 3rd Class medical certificate (if otherwise qualified). Add limitation #104: “Valid for day visual flight rules (VFR) only.” If the individual requests an upgrade to 1st or 2nd class, they should appeal to the Federal Air Surgeon.\n- Upload the computer-generated score report as “Eye-Color Vision Test Results.”",
+   "html": "<ul><li><ul><li>Mark Item 52. “Fail”</li><li>Annotate Item 59. (Other Tests Given) with “FAILED _______.”</li><li><p>o LIST NAME of color vision test(s) attempted AND include the scores.</p>\n<ul><li>ISSUE a 3rd Class medical certificate (if otherwise qualified). Add limitation #104: “Valid for day visual flight rules (VFR) only.” If the individual requests an upgrade to 1st or 2nd class, they should appeal to the Federal Air Surgeon.</li></ul></li><li>Upload the computer-generated score report as “Eye-Color Vision Test Results.”</li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- 3. If the AME does not have one of the approved computer-based tests:",
+   "html": "<ul><li><strong>3. If the AME does not have one of the approved computer-based tests: </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- - If the AME does not have an acceptable color vision test, they can issue a 3rd class medical certification with limitation #104. Do not defer.\n- Alternately, the applicant can be tested at a different location: The testing physician/clinic must provide the AME with the color vision printout for upload into DIWS. Remember to put the name of the test taken AND scores in Item 59.",
+   "html": "<ul><li><ul><li>If the AME does not have an acceptable color vision test, <strong>they can issue a 3rd class medical certification with limitation #104</strong>. Do not defer.</li><li>Alternately, the applicant can be tested at a different location: The testing physician/clinic must provide the AME with the color vision printout for upload into DIWS. Remember to put the name of the test taken AND scores in Item 59.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 475,
+   "text": "IMPORTANT NOTES:",
+   "html": "<p><strong>IMPORTANT NOTES: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- The above applies for routine color vision screening. If the individual has a medical condition or takes a medication which could affect color vision, additional color vision testing (when required) will be listed in the AME Guide or in their Letter of Authorization.",
+   "html": "<ul><li>The above applies for <strong>routine </strong>color vision screening. If the individual has a medical condition or takes a medication which could affect color vision, additional color vision testing (when required) will be listed in the AME Guide or in their Letter of Authorization.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- ANY tests not specifically listed are NOT acceptable methods of testing for FAA medical certificate.",
+   "html": "<ul><li>ANY tests not specifically listed are <strong>NOT acceptable</strong> methods of testing for FAA medical certificate.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- Color Vision Correcting Lens (e.g., X-Chrom) are NOT acceptable to the FAA as a means for correcting a pilot's color vision deficiencies.",
+   "html": "<ul><li>Color Vision Correcting Lens (e.g., X-Chrom) are <strong>NOT acceptable</strong> to the FAA as a means for correcting a pilot&#x27;s color vision deficiencies.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- For questions, see:",
+   "html": "<ul><li>For questions, see:</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- - Acceptable Test Instruments for Color Vision Screening – Pilots",
+   "html": "<ul><li><ul><li><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item52/et\" target=\"_blank\" rel=\"noopener\">o Acceptable Test Instruments for Color Vision Screening – Pilots</a></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- - Color Vision – Frequently Asked Questions",
+   "html": "<ul><li><ul><li><a href=\"https://www.faa.gov/ame_guide/media/Color_Vision_FAQS.pdf\" target=\"_blank\" rel=\"noopener\">o Color Vision – Frequently Asked Questions</a></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- - FAA Color Vision – Pilots Flowchart",
+   "html": "<ul><li><ul><li><a href=\"https://www.faa.gov/ame_guide/media/Color_Vision_Testing_Flowchart.pdf\" target=\"_blank\" rel=\"noopener\">o FAA Color Vision – Pilots Flowchart</a></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- - Color Vision Limitation Review",
+   "html": "<ul><li><ul><li><a href=\"https://www.faa.gov/ame_guide/media/Color_Vision_Limitation_Review.pdf\" target=\"_blank\" rel=\"noopener\">o Color Vision Limitation Review</a></li></ul></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 475,
+   "text": "- For ATCS information, see the Acceptable Test Instruments for Color Vision Screening of ATCS chart or contact your RFS for any questions.",
+   "html": "<ul><li><strong>For ATCS information</strong>, see the <a href=\"https://www.faa.gov/ame_guide/media/Acceptable_ATCS_Tests.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Test Instruments for Color Vision Screening of ATCS chart</a> or contact your <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> for any questions.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 475,
+   "text": "The Color Vision flow chart below shows pathways for AMEs to use to determine actions for “Returning Pilot” and “First-Time Applicant.”",
+   "html": "<p>The Color Vision flow chart below shows pathways for AMEs to use to determine actions for “Returning Pilot” and “First-Time Applicant.”</p>"
+  },
+  {
+   "type": "figure",
+   "page": 476,
+   "text": "㉐㌱㈰礣卉1",
+   "html": "<figure><img src=\"images/p476_fig1.png\" alt=\"㉐㌱㈰礣卉1\" loading=\"lazy\"></figure>"
+  },
+  {
+   "type": "paragraph",
+   "page": 477,
+   "text": "ACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING – PILOTS",
+   "html": "<p><strong>ACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING – PILOTS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 477,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 477,
+   "text": "EFFECTIVE JAN 1, 2025, testing for pilots will be an approved computer-based color vision test. Testing must be performed in person. Virtual testing, downloaded, or printed versions of color vision tests are prohibited. AMEs must use these specific color vision tests for pilot evaluations.",
+   "html": "<p><strong>EFFECTIVE JAN 1, 2025, testing for pilots will be an approved computer-based color vision test. </strong>Testing must be performed in person. Virtual testing, downloaded, or printed versions of color vision tests are prohibited. AMEs must use these specific color vision tests for pilot evaluations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 477,
+   "text": "The following are approved computerized color vision tests for FAA medical certification purposes.",
+   "html": "<p>The following are approved computerized color vision tests for FAA medical certification purposes.</p>"
+  },
+  {
+   "type": "list",
+   "page": 477,
+   "text": "- Follow the manufacturer’s guidelines to administer.\n- Record test name and all required scores in Item 59.\n- If applicable, upload computer-generated printout into AMCS as: Eyes-Color Vision Test.\n- For more information, see AME Information - Color Vision Screening Steps .\n- For ATCS see the Acceptable Test Instruments for Color Vision Screening of ATCS chart or contact your RFS for any questions.",
+   "html": "<ul><li>Follow the manufacturer’s guidelines to administer.</li><li>Record <strong>test name and all required scores</strong> in Item 59.</li><li>If applicable, upload computer-generated printout into AMCS as: <strong>Eyes-Color Vision Test</strong>.</li><li>For more information, see <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item52/amd\" target=\"_blank\" rel=\"noopener\">AME Information - Color Vision Screening Steps</a> .</li><li>For <strong>ATCS</strong> see the <a href=\"https://www.faa.gov/ame_guide/media/Acceptable_ATCS_Tests.pdf\" target=\"_blank\" rel=\"noopener\">Acceptable Test Instruments for Color Vision Screening of ATCS</a> chart or contact your <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> for any questions.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 477,
+   "header": null,
+   "rows": [
+    [
+     "TEST",
+     "MINIMUM NUMBER CORRECT TO PASS"
+    ],
+    [
+     "Colour Assessment & Diagnosis (CAD test) Version - Certification: “Environment and Aviation (Commercial).” If passes FAST version, no further testing is needed for color. If fails FAST version, the full definitive CAD must be completed. Note: US or UK keyboard can be used",
+     "Score must be: RED GREEN (RG): 1.7 if normal Less than 6 if diagnosed as Deutan; Less than 12 if diagnosed as Protan AND YELLOW BLUE (YB) - less than 2.4 NOTE: An RG score of less than 1.7 indicates Normal. The RG passing score varies by diagnosis. Less than 6 indicates Deutan; and less than 12 indicates Protan."
+    ],
+    [
+     "Rabin Cone Test (RCCT) Air Force/Army/Navy/Coast Guard Version Test each eye separately. Staircase version allowed.",
+     "Score must be 55 or higher for EACH color: RED GREEN BLUE"
+    ],
+    [
+     "Waggoner Computerized Color Vision Test* Adult Diagnostic OR FAA Color Vision Test Windows: Waggoner CCVT (WCCVT) – Waggoner Diagnostics iOS: Waggoner CCVT on the App Store (apple.com) Android: Waggoner CCVT *What is tested in each section: Section 1: General screening for Protan (red) and Deutan (green) deficiency. Section 2: Genetic and acquired deficiencies. Section 3: Quantifies Protan (red) deficiency. Section 4: Quantifies Deutan (green) deficiency. Section 5: D-15 N/A for FAA purposes. NOTE: If applicant does not pass Section 1, Section 3 and 4 will be automatically given.",
+     "Score must be: General - 21 or higher (of 25); AND Tritan - 10 or higher (of 12) OR Protan - 20 or higher (of 32); AND Deutan - 20 or higher (of 32); AND Tritan - 10 or higher (of 12)"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p><strong>TEST</strong></p></td><td><p><strong>MINIMUM NUMBER CORRECT TO PASS</strong></p></td></tr><tr><td><p>Colour Assessment &amp; Diagnosis (CAD test)</p>\n<p> Version - Certification: “Environment and Aviation (Commercial).”</p>\n<p> If passes FAST version, no further testing is needed for color.</p>\n<p> If fails FAST version, the full definitive CAD must be completed.</p>\n<p><strong>Note: </strong>US or UK keyboard can be used</p></td><td><p>Score must be:</p>\n<p><strong>RED GREEN (RG): </strong>1.7 if normal Less than 6 if diagnosed as Deutan; Less than 12 if diagnosed as Protan <strong>AND</strong></p>\n<p><strong>YELLOW BLUE (YB) </strong>- less than 2.4</p>\n<p><strong>NOTE: </strong>An RG score of less than 1.7 indicates Normal. The RG passing score varies by diagnosis. Less than 6 indicates Deutan; and less than 12 indicates Protan.</p></td></tr><tr><td><p>Rabin Cone Test (RCCT) Air Force/Army/Navy/Coast Guard Version</p>\n<p> Test each eye separately.</p>\n<p> Staircase version allowed.</p></td><td><p>Score must be <strong>55 or higher </strong>for <strong>EACH </strong>color: <strong>RED GREEN BLUE</strong></p></td></tr><tr><td><p>Waggoner Computerized Color Vision Test* <strong>Adult Diagnostic OR FAA Color Vision Test</strong></p>\n<p> Windows: Waggoner CCVT (WCCVT) – Waggoner Diagnostics</p>\n<p> iOS: Waggoner CCVT on the App Store <a href=\"https://apps.apple.com/us/app/waggoner-ccvt/id590423126\" target=\"_blank\" rel=\"noopener\">(apple.com)</a></p>\n<p> Android: Waggoner CCVT</p>\n<p><strong>*What is tested in each section: </strong>Section 1: General screening for Protan (red) and Deutan (green) deficiency. Section 2: Genetic and acquired deficiencies. Section 3: Quantifies Protan (red) deficiency. Section 4: Quantifies Deutan (green) deficiency. Section 5: D-15 N/A for FAA purposes. <strong>NOTE: </strong>If applicant does not pass Section 1, Section 3 and 4 will be automatically given.</p></td><td><p>Score must be:</p>\n<p>General - 21 or higher (of 25); <strong>AND </strong>Tritan - 10 or higher (of 12)</p>\n<p><strong>OR</strong></p>\n<p>Protan - 20 or higher (of 32); <strong>AND </strong>Deutan - 20 or higher (of 32); <strong>AND </strong>Tritan - 10 or higher (of 12)</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "COLOR VISION - FREQUENTLY ASKED QUESTIONS (FAQS)",
+   "html": "<p><strong>COLOR VISION - FREQUENTLY ASKED QUESTIONS (FAQS) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 1. Why is the FAA Changing their policy now?",
+   "html": "<ul><li><strong>1. Why is the FAA Changing their policy now? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "Several factors necessitate the change: Proliferation of color displays, concern that current testing might not be adequate for the existing and future color-rich environment, poor standardization in administration of current tests, incorrect testing by some AMEs, and NTSB safety recommendation (for commercial pilots). Advances in testing technology and completion of test evaluations at the Civil Aerospace Medical Institute enabled the change.",
+   "html": "<p>Several factors necessitate the change: Proliferation of color displays, concern that current testing might not be adequate for the existing and future color-rich environment, poor standardization in administration of current tests, incorrect testing by some AMEs, and NTSB safety recommendation (for commercial pilots). Advances in testing technology and completion of test evaluations at the Civil Aerospace Medical Institute enabled the change.</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 2. If I am unable to obtain one of the computer-based tests, can the pilot be tested at a different location?",
+   "html": "<ul><li><strong>2. If I am unable to obtain one of the computer-based tests, can the pilot be tested at a different location? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "YES. The testing physician/clinic must provide you with the color vision printout for upload into DIWS. Remember to put the name of the test taken AND scores in",
+   "html": "<p><strong>YES. </strong>The testing physician/clinic must provide you with the color vision printout for upload into DIWS. Remember to put the name of the test taken AND scores in</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "Item 59.",
+   "html": "<p>Item 59.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "If the AME does not have an acceptable color vision test, they can issue a 3rd class medical certification with limitation #104. Do not defer.",
+   "html": "<p>If the AME does not have an acceptable color vision test, they can issue a 3rd class medical certification with limitation #104. Do not defer.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "Note: Online or virtual testing is not acceptable. Testing must be in person.",
+   "html": "<p><strong>Note: </strong> Online or virtual testing is not acceptable. Testing must be in person.</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 3. Does the test need to be performed within 90 days of the AME exam?",
+   "html": "<ul><li><strong>3. Does the test need to be performed within 90 days of the AME exam? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "NO. The FAA can accept a previous test result provided it is one of the acceptable computer-based tests. (E.g., Some individuals may have had this testing in the military. Those scores may be submitted.)",
+   "html": "<p><strong>NO. </strong> The FAA can accept a previous test result provided it is one of the acceptable computer-based tests. (E.g., Some individuals may have had this testing in the military. Those scores may be submitted.)</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 4. Should the AME defer a new applicant if they are unable to pass any of the acceptable color vision screening tests?",
+   "html": "<ul><li><strong>4. Should the AME defer a new applicant if they are unable to pass any of the acceptable color vision screening tests? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "NO. The AME should ISSUE a 3rd class medical certificate (if otherwise qualified) with limitation #104 “Valid for day visual flight rules [VFR] only.”",
+   "html": "<p><strong>NO. </strong>The AME should ISSUE a 3rd class medical certificate (if otherwise qualified) with limitation #104 “Valid for day visual flight rules [VFR] only.”</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 5. Is the individual limited to taking only ONE of the computer-based tests?",
+   "html": "<ul><li><strong>5. Is the individual limited to taking only ONE of the computer-based tests? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "NO. The individual can take any of the three acceptable computer-based tests. Passing ANY of the three is acceptable and failure of one test does not preclude an attempt to pass another.",
+   "html": "<p><strong>NO.</strong> The individual can take any of the three acceptable computer-based tests. Passing ANY of the three is acceptable and failure of one test does not preclude an attempt to pass another.</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 6. Can the individual submit a test taken at home or a free trial version?",
+   "html": "<ul><li><strong>6. Can the individual submit a test taken at home or a free trial version? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "NO. If a computer color vision test was done outside the AME’s office, the AME must verify that the results belong to the individual. To maintain test integrity, the test must be performed by a practitioner who can verify the individual’s identity (similar to an EKG). If the results of the test cannot be linked to a specific individual, it cannot be used.",
+   "html": "<p><strong>NO.</strong> If a computer color vision test was done outside the AME’s office, the AME must verify that the results belong to the individual. To maintain test integrity, the test must be performed by a practitioner who can verify the individual’s identity (similar to an EKG). If the results of the test cannot be linked to a specific individual, it cannot be used.</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 7. Will the individual be given a more restrictive certificate with this new policy?",
+   "html": "<ul><li><strong>7. Will the individual be given a more restrictive certificate with this new policy? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 478,
+   "text": "NO. Whatever the individual has walking into the AME’s office (e.g., LOE, restricted certificate/any class, unrestricted, failed) is what they will walk out with, unless they take a new color test.",
+   "html": "<p><strong>NO. </strong>Whatever the individual has walking into the AME’s office (e.g., LOE, restricted certificate/any class, unrestricted, failed) is what they will walk out with, unless they take a new color test.</p>"
+  },
+  {
+   "type": "list",
+   "page": 478,
+   "text": "- 8. Does the FAA require normal color vision for pilots?",
+   "html": "<ul><li><strong>8. Does the FAA require normal color vision for pilots? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "Pilots must possess the ability to perceive colors necessary to discern cockpit display colors, aircraft signaling, and airport lighting for the safe performance of airman duties.",
+   "html": "<p>Pilots must possess the ability to perceive colors necessary to discern cockpit display colors, aircraft signaling, and airport lighting for the safe performance of airman duties.</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- 9. What are common causes of acquired color vision deficiency?",
+   "html": "<ul><li><strong>9. What are common causes of acquired color vision deficiency? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "This list is not all inclusive, but common causes include:",
+   "html": "<p>This list is not all inclusive, but common causes include:</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- Eye conditions such as glaucoma, age-related macular degeneration, retinal detachment, or cataracts.\n- Brain and nervous system conditions such as Alzheimer’s, multiple sclerosis, or certain tumors.\n- Medical conditions such as diabetes, alcoholism, leukemia.\n- Medications such as Plaquenil (chloroquine or hydroxychloroquine), blood pressure medications, erectile dysfunction medications.",
+   "html": "<ul><li>Eye conditions such as glaucoma, age-related macular degeneration, retinal detachment, or cataracts.</li><li>Brain and nervous system conditions such as Alzheimer’s, multiple sclerosis, or certain tumors.</li><li>Medical conditions such as diabetes, alcoholism, leukemia.</li><li>Medications such as Plaquenil (chloroquine or hydroxychloroquine), blood pressure medications, erectile dysfunction medications.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "10. If the pilot has a special issuance for an eye or neurology condition, why do they now need an additional color vision test?",
+   "html": "<p><strong>10. If the pilot has a special issuance for an eye or neurology condition, why do they now need an additional color vision test? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "Certain medical conditions or medications may cause a red/green or blue/yellow color deficiency. While we do not need to test everyone for an acquired color vision defect, conditions which may also have a color vision deficiency will require specific testing. The pilot should refer to their Letter of Authorization.",
+   "html": "<p>Certain medical conditions or medications may cause a red/green or blue/yellow color deficiency. While we do not need to test everyone for an acquired color vision defect, conditions which may also have a color vision deficiency will require specific testing. The pilot should refer to their Letter of Authorization.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "11. How does an individual apply for a Color Vision Limitation removal or upgrade?",
+   "html": "<p><strong>11. How does an individual apply for a Color Vision Limitation removal or upgrade? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "The individual can take any or all the acceptable computer-based tests. If they pass, they do not need further testing.",
+   "html": "<p>The individual can take any or all the acceptable computer-based tests. If they pass, they do not need further testing.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "If they don’t pass, they need to request review by completing a Color Vision Limitation Review request. The AME should upload into AMCS:",
+   "html": "<p>If they don’t pass, they need to request review by completing a <a href=\"https://www.faa.gov/ame_guide/media/Color_Vision_Limitation_Review.pdf\" target=\"_blank\" rel=\"noopener\">Color Vision Limitation Review</a> request. The AME should upload into AMCS:</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- An “Eye-Color Vision Limitation Review.”\n- Results of the Color Vision Test as “Eye- Color Vision Test Results.”",
+   "html": "<ul><li>An “Eye-Color Vision Limitation Review.”</li><li>Results of the Color Vision Test as “Eye- Color Vision Test Results.”</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "12. Do I test all pilots with a new computer-based test as of January 1, 2025?",
+   "html": "<p><strong>12. Do I test all pilots with a new computer-based test as of January 1, 2025? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "NO. See the Color Vision Flow Chart. The AME only needs to test NEW pilots, those with a limitation 16 or 17 who want it removed, or those with a current LOE or SODA who want to upgrade. The individual can take any or all the acceptable computer-based tests.",
+   "html": "<p><strong>NO.</strong> See the <a href=\"https://www.faa.gov/ame_guide/media/Color_Vision_Testing_Flowchart.pdf\" target=\"_blank\" rel=\"noopener\">Color Vision Flow Chart.</a> The AME only needs to test NEW pilots, those with a limitation 16 or 17 who want it removed, or those with a current LOE or SODA who want to upgrade. The individual can take any or all the acceptable computer-based tests.</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- 13. Will the FAA consider adding additional computer-based tests in the future?",
+   "html": "<ul><li><strong>13. Will the FAA consider adding additional computer-based tests in the future? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "The FAA will consider approval for new computerized tests if the manufacturer provides reliability, validity, and sensitivity/specificity documentation along with evidence of cut scores aligning with those specified for CCT, CAD, and CCVT.",
+   "html": "<p>The FAA will consider approval for new computerized tests if the manufacturer provides reliability, validity, and sensitivity/specificity documentation along with evidence of cut scores aligning with those specified for CCT, CAD, and CCVT.</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- 14. How many times can an individual take the same computer-based test?",
+   "html": "<ul><li><strong>14. How many times can an individual take the same computer-based test? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 479,
+   "text": "There is no limit to the number of trials allowed. However, if multiple attempts are unsuccessful, the AME should question if the problem is test taking skills or color vision deficiency.",
+   "html": "<p>There is no limit to the number of trials allowed. However, if multiple attempts are unsuccessful, the AME should question if the problem is test taking skills or color vision deficiency.</p>"
+  },
+  {
+   "type": "list",
+   "page": 479,
+   "text": "- 15. Does the AME have to upload the actual color vision test report, or can they notate Pass/Fail and add comments?",
+   "html": "<ul><li><strong>15. Does the AME have to upload the actual color vision test report, or can they notate Pass/Fail and add comments? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "The AME must upload a copy of the score report into AMCS under tag “Eye-Color Vision Test Results.” AMCS can accept a photo of the results by uploading file types as PDF, DOC, DOCX, JPG, JPEG, and XPS.",
+   "html": "<p>The AME must upload a copy of the score report into AMCS under tag “Eye-Color Vision Test Results.” AMCS can accept a photo of the results by uploading file types as PDF, DOC, DOCX, JPG, JPEG, and XPS.</p>"
+  },
+  {
+   "type": "list",
+   "page": 480,
+   "text": "- 16. Can the AME accept a color vision test report brought in by the individual?",
+   "html": "<ul><li><strong>16. Can the AME accept a color vision test report brought in by the individual? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "Like an EKG performed outside the AME office, the AME should verify the person tested and the testing facility. We can accept a test signed by a provider (preferably with their clinic information on the test results) or with an attached Detailed Clinical Progress Note (if performed in another clinic) with the correct pilot identification.",
+   "html": "<p>Like an EKG performed outside the AME office, the AME should verify the person tested and the testing facility. We can accept a test signed by a provider (preferably with their clinic information on the test results) or with an attached Detailed Clinical Progress Note (if performed in another clinic) with the correct pilot identification.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "If identification is uncertain, the FAA cannot accept the test.",
+   "html": "<p>If identification is uncertain, the FAA cannot accept the test.</p>"
+  },
+  {
+   "type": "list",
+   "page": 480,
+   "text": "- 17. How does this policy change affect Air Traffic Control Specialists (ATCS)?",
+   "html": "<ul><li><strong>17. How does this policy change affect Air Traffic Control Specialists (ATCS)? </strong></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "There is no change to the current requirements for ATCS at this time.",
+   "html": "<p>There is no change to the current requirements for ATCS at this time.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "18. If the individual is an ATCS who is also a pilot and is seeking pilot certification for the first time (considered a first-time pilot), must they be tested using one of the new CV testing options?",
+   "html": "<p><strong>18. If the individual is an ATCS who is also a pilot and is seeking pilot certification for the first time (considered a first-time pilot), must they be tested using one of the new CV testing options? </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 480,
+   "text": "While not required, an ATCS has the option of taking a computer-based test (those tests were added to the AME Guide as allowed for ATCS approximately one year ago). However, if the ATCS is a first-time pilot seeking pilot medical certification, they must take one of the computer-based tests.",
+   "html": "<p>While not required, an ATCS has the option of taking a computer-based test (those tests were added to the AME Guide as allowed for ATCS approximately one year ago). However, if the ATCS is a first-time pilot seeking pilot medical certification, they must take one of the computer-based tests.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "COLOR VISION LIMITATION REVIEW",
+   "html": "<p><strong>COLOR VISION LIMITATION REVIEW </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "(Updated 01/29/2025)",
+   "html": "<p>(Updated 01/29/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "Name: _______________________________________PI#: _____________________",
+   "html": "<p><strong>Name: _______________________________________PI#: _____________________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "Address: ____________________________________ Date of Birth: _____________",
+   "html": "<p><strong>Address: ____________________________________ Date of Birth: _____________</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "INSTRUCTIONS TO THE AME",
+   "html": "<p><strong>INSTRUCTIONS TO THE AME </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "Submit this only if the individual is unable to pass ANY of the acceptable computer-based color vision tests and wants an upgrade to 1st or 2nd class, is requesting a color vision limitation be removed, or is requesting an upgrade based on new testing.",
+   "html": "<p>Submit this only if the individual is unable to pass ANY of the acceptable computer-based color vision tests and wants an upgrade to 1st or 2nd class, is requesting a color vision limitation be removed, or is requesting an upgrade based on new testing.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "Note: if the individual passes ANY of the acceptable computer tests: No limitation, no LOE, no SODA is needed for any class for color vision. Issue the class of certificate applied for (if otherwise qualified).",
+   "html": "<p><strong>Note: </strong> if the individual passes ANY of the acceptable computer tests: No limitation, no LOE, no SODA is needed for any class for color vision. Issue the class of certificate applied for (if otherwise qualified).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "For EXPEDITED review, upload into AMCS:",
+   "html": "<p>For EXPEDITED review, upload into AMCS:</p>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- This document as “Eye-Color Vision Limitation Review.”\n- Results of the Color Vision Test(s) as “Eye - Color Vision Test Results.”",
+   "html": "<ul><li>This document as “Eye-Color Vision Limitation Review.”</li><li>Results of the Color Vision Test(s) as “Eye - Color Vision Test Results.”</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "INSTRUCTIONS TO THE PILOT",
+   "html": "<p><strong>INSTRUCTIONS TO THE PILOT </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "(Check all that apply)",
+   "html": "<p>(Check all that apply)</p>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I was unable to pass ANY of the acceptable computer-based color vision tests (you can take any of the acceptable tests, any number of times).",
+   "html": "<ul><li> I was unable to pass ANY of the acceptable computer-based color vision tests (you can take any of the acceptable tests, any number of times).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I was given a 3rd class with limitation and want to be evaluated for an upgrade to 1st or 2nd class.",
+   "html": "<ul><li> I was given a 3rd class with limitation and want to be evaluated for an upgrade to 1st or 2nd class.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I was given 3rd class because the AME did not have a test. I have a test now and want to upgrade to 1st or 2nd class.",
+   "html": "<ul><li> I was given 3rd class because the AME did not have a test. I have a test now and want to upgrade to 1st or 2nd class.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I have a SODA/LOE for 3rd class and want to be evaluated for an upgrade to 1st or 2nd class.",
+   "html": "<ul><li> I have a SODA/LOE for 3rd class and want to be evaluated for an upgrade to 1st or 2nd class.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I have a medical certificate with limitation [#16] “Not valid for flights requiring color signal control during daylight hours.”",
+   "html": "<ul><li> I have a medical certificate with limitation [#16] “Not valid for flights requiring color signal control during daylight hours.”</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 481,
+   "text": "- I have a previous medical certificate with limitation [#17] “Not valid for night flying or by color signal control.”",
+   "html": "<ul><li> I have a previous medical certificate with limitation [#17] “Not valid for night flying or by color signal control.”</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "Pilot Signature: ___________________________________ Date:__________________",
+   "html": "<p><strong>Pilot Signature: ___________________________________ Date:__________________ </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "NOTE: Requests are reviewed on a case-by-case basis. Additional information may be required.",
+   "html": "<p><strong>NOTE: </strong>Requests are reviewed on a case-by-case basis. Additional information may be required.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 481,
+   "text": "ACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING OF ATCS",
+   "html": "<p><strong>ACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING OF ATCS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 482,
+   "text": "(FAA EMPLOYEE 2152 SERIES and CONTRACT TOWER ATCS)",
+   "html": "<p><strong>(FAA EMPLOYEE 2152 SERIES and CONTRACT TOWER ATCS) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 482,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 482,
+   "text": "COMPUTER-BASED TESTS (Added 05/31/2023. Updated 08/27/2025):",
+   "html": "<p><strong>COMPUTER-BASED TESTS </strong>(Added 05/31/2023. Updated 08/27/2025):</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 482,
+   "text": "Testing must be performed in person. Virtual testing, downloaded, or printed versions of color vision tests are prohibited. The following are approved computerized color vision tests for FAA medical certification purposes:",
+   "html": "<p>Testing must be performed in person. Virtual testing, downloaded, or printed versions of color vision tests are prohibited. The following are approved computerized color vision tests for FAA medical certification purposes:</p>"
+  },
+  {
+   "type": "list",
+   "page": 482,
+   "text": "- Follow the manufacturer’s guidelines to administer.\n- Record test name and all required scores in Item 59.\n- If applicable, upload computer-generated printout into AMCS as: Eyes-Color Vision Test.",
+   "html": "<ul><li>Follow the manufacturer’s guidelines to administer.</li><li>Record <strong>test name and all required scores</strong> in Item 59.</li><li>If applicable, upload computer-generated printout into AMCS as: <strong>Eyes-Color Vision Test</strong>.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 482,
+   "header": null,
+   "rows": [
+    [
+     "",
+     "TEST",
+     "",
+     "MINIMUM NUMBER CORRECT TO PASS"
+    ],
+    [
+     "",
+     "Colour Assessment & Diagnosis (CAD test) Version - Certification: “Environment and Aviation (Commercial).” If passes FAST version, no further testing is needed for color. If fails FAST version, the full definitive CAD must be completed. NOTE: US or UK keyboard can be used.",
+     "t",
+     "Score must be: RED GREEN (RG): 1.7 if normal Less than 6 if diagnosed as Deutan; Less than 12 if diagnosed as Protan AND YELLOW BLUE (YB) - less than 2.4 NOTE: An RG score of less than 1.7 indicates Normal. The RG passing score varies by diagnosis. Less than 6 indicates Deutan; and less than 12 indicates Protan."
+    ],
+    [
+     "",
+     "Rabin Cone Test (RCCT) Air Force/Army/Navy/Coast Guard Version Test each eye separately. Staircase version allowed.",
+     "",
+     "Score must be 55 or higher for EACH color: RED GREEN BLUE"
+    ],
+    [
+     "",
+     "Waggoner Computerized Color Vision Test* Adult Diagnostic OR FAA Color Vision Test Windows: Waggoner CCVT (WCCVT) – Waggoner Diagnostics iOS: Waggoner CCVT on the App Store (apple.com) Android: Waggoner CCVT *What is tested in each section: Section 1: General screening for Protan (red) and Deutan (green) deficiency. Section 2: Genetic and acquired deficiencies. Section 3: Quantifies Protan (red) deficiency. Section 4: Quantifies Deutan (green) deficiency. Section 5: D-15 N/A for FAA purposes. NOTE: If applicant does not pass Section 1, Section 3 and 4 will be automatically given.",
+     "",
+     "Score must be: General - 21 or higher (of 25); AND Tritan - 10 or higher (of 12) OR Protan - 20 or higher (of 32); AND Deutan - 20 or higher (of 32); AND Tritan - 10 or higher (of 12)"
+    ]
+   ],
+   "html": "<table><tbody><tr><td></td><td><p><strong>TEST </strong></p></td><td></td><td><p><strong>MINIMUM NUMBER CORRECT TO PASS</strong></p></td></tr><tr><td></td><td><p><a href=\"http://www.aeglia.nl/\" target=\"_blank\" rel=\"noopener\">Colour Assessment &amp; Diagnosis (CAD test)</a></p>\n<p> Version - Certification: “Environment and Aviation (Commercial).”</p>\n<p> If passes FAST version, no further testing is needed for color.</p>\n<p> If fails FAST version, the full definitive CAD must be completed. <strong>NOTE:</strong> US or UK keyboard can be used.</p></td><td><p>t</p></td><td><p>Score must be:</p>\n<p><strong>RED GREEN (RG): </strong>1.7 if normal Less than 6 if diagnosed as Deutan; Less than 12 if diagnosed as Protan <strong>AND YELLOW BLUE (YB) </strong>- less than 2.4</p>\n<p><strong>NOTE: </strong>An RG score of less than 1.7 indicates Normal. The RG passing score varies by diagnosis. Less than 6 indicates Deutan; and less than 12 indicates Protan.</p></td></tr><tr><td></td><td><p><a href=\"https://www.innovasystemsusa.com/partners/ods-on-finance#request\" target=\"_blank\" rel=\"noopener\">Rabin Cone Test (RCCT)</a> Air Force/Army/Navy/Coast Guard Version</p>\n<p> Test each eye separately.</p>\n<p> Staircase version allowed.</p></td><td></td><td><p>Score must be <strong>55 or higher</strong> for <strong>EACH</strong> color: <strong>RED GREEN BLUE</strong></p></td></tr><tr><td></td><td><p>Waggoner Computerized Color Vision Test* <strong>Adult Diagnostic OR FAA Color Vision Test </strong></p>\n<p> Windows: <a href=\"https://waggonerdiagnostics.com/pages/wccvt\" target=\"_blank\" rel=\"noopener\">Waggoner CCVT (WCCVT) –</a> Waggoner Diagnostics</p>\n<p> iOS: <a href=\"https://apps.apple.com/us/app/waggoner-ccvt/id590423126\" target=\"_blank\" rel=\"noopener\">Waggoner CCVT on the App Store</a> (apple.com)</p>\n<p> Android: <a href=\"https://waggonerdiagnostics.com/products/waggoner-computerized-color-vision-test-android?_pos=1&amp;_sid=865dd4a15&amp;_ss=r\" target=\"_blank\" rel=\"noopener\">Waggoner CCVT</a> <strong> *What is tested in each section: </strong>Section 1: General screening for Protan (red) and Deutan (green) deficiency. Section 2: Genetic and acquired deficiencies. Section 3: Quantifies Protan (red) deficiency. Section 4: Quantifies Deutan (green) deficiency. Section 5: D-15 N/A for FAA purposes. <strong>NOTE:</strong> If applicant does not pass Section 1, Section 3 and 4 will be automatically given.</p></td><td></td><td><p>Score must be: General - 21 or higher (of 25); <strong>AND </strong>Tritan - 10 or higher (of 12) <strong>OR </strong> Protan - 20 or higher (of 32); <strong>AND </strong>Deutan - 20 or higher (of 32); <strong>AND </strong>Tritan - 10 or higher (of 12)</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 482,
+   "text": "See the following page for additional acceptable ATCS color vision tests.",
+   "html": "<p><strong>See the following page for additional acceptable ATCS color vision tests. </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 483,
+   "text": "ADDITIONAL ACCEPTABLE TESTS (ATCS):",
+   "html": "<p><strong>ADDITIONAL ACCEPTABLE TESTS (ATCS): </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 483,
+   "header": [
+    "TESTS",
+    "DOES NOT MEET THE STANDARD (FAILS) IF:",
+    "SUPPLIER"
+   ],
+   "rows": [
+    [
+     "Richmond-HRR, 4th edition",
+     "Any error on plates 5-10",
+     "Richmond Products"
+    ],
+    [
+     "All Ishihara test plates approved for airmen:",
+     "",
+     "Ishihara"
+    ],
+    [
+     "14-Plate (plates 1-11)",
+     "More than 6 errors on plates 1-11",
+     ""
+    ],
+    [
+     "24-Plate (plates 1-15)",
+     "More than 2 errors on plates 1-15",
+     ""
+    ],
+    [
+     "38-Plate (plates 1-21)",
+     "More than 4 errors on plates 1-21",
+     ""
+    ],
+    [
+     "Keystone View Telebinocular",
+     "No errors on the 6 total trials on plates 4 and 5",
+     "Keystone View"
+    ],
+    [
+     "Titmus testers approved for airmen: Titmus",
+     "Any errors on any of the 6 plates",
+     "Titmus"
+    ],
+    [
+     "OPTEC 2000",
+     "Any errors on any of the 6 Stereo Optical Co., Inc., plates",
+     "Stereo Optical Co., Inc."
+    ],
+    [
+     "AOC-HRR, 2nd, 1-11",
+     "Any errors on plates 5-10",
+     "Richmond Products"
+    ],
+    [
+     "Dvorine 2nd Edition",
+     "More than 2 errors on plates 1-15",
+     "Richmond Products"
+    ]
+   ],
+   "html": "<table><thead><tr><th>TESTS</th><th>DOES NOT MEET THE STANDARD (FAILS) IF:</th><th>SUPPLIER</th></tr></thead><tbody><tr><td><p>Richmond-HRR, 4th edition</p></td><td><p>Any error on plates 5-10</p></td><td><p>Richmond Products</p></td></tr><tr><td><p>All Ishihara test plates approved for airmen:</p></td><td></td><td><p>Ishihara</p></td></tr><tr><td><p>14-Plate (plates 1-11)</p></td><td><p>More than 6 errors on plates 1-11</p></td><td></td></tr><tr><td><p>24-Plate (plates 1-15)</p></td><td><p>More than 2 errors on plates 1-15</p></td><td></td></tr><tr><td><p>38-Plate (plates 1-21)</p></td><td><p>More than 4 errors on plates 1-21</p></td><td></td></tr><tr><td><p>Keystone View Telebinocular</p></td><td><p>No errors on the 6 total trials on plates 4 and 5</p></td><td><p>Keystone View</p></td></tr><tr><td><p>Titmus testers approved for airmen: Titmus</p></td><td><p>Any errors on any of the 6 plates</p></td><td><p>Titmus</p></td></tr><tr><td><p>OPTEC 2000</p></td><td><p>Any errors on any of the 6 Stereo Optical Co., Inc., plates</p></td><td><p>Stereo Optical Co., Inc.</p></td></tr><tr><td><p>AOC-HRR, 2nd, 1-11</p></td><td><p>Any errors on plates 5-10</p></td><td><p>Richmond Products</p></td></tr><tr><td><p>Dvorine 2nd Edition</p></td><td><p>More than 2 errors on plates 1-15</p></td><td><p>Richmond Products</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 483,
+   "header": [
+    "SPECIAL INSTRUCTIONS",
+    ""
+   ],
+   "rows": [
+    [
+     "Test Administration",
+     "The AME must document the color vision test instrument used, version, answer sheet with the actual subject responses and the score. If MEDExpress is used the AME should fax or mail the results to the Flight Surgeon or may document the findings in Block 60."
+    ],
+    [
+     "AME Office Inspection",
+     "AME office inspections: The inspector must visually inspect the condition of the color vision test instrument, for fading, fingerprints, pen, or pencil smudges; and lights used. Only a Macbeth Easel or a Verilux True Daylight Illuminator (F15T8VLX) are acceptable. Room lights must be off."
+    ],
+    [
+     "False Negatives",
+     "Any test device with a restricted test set, like the Titmus testers, generally have a high false alarm test. If a disproportionally high number of subjects are failing, it may be necessary to review the acceptability of that test instrument. Regional Medical Offices are expected to monitor this situation."
+    ]
+   ],
+   "html": "<table><thead><tr><th>SPECIAL INSTRUCTIONS</th><th></th></tr></thead><tbody><tr><td><p>Test Administration</p></td><td><p>The AME must document the color vision test instrument used, version, answer sheet with the actual subject responses and the score. If MEDExpress is used the AME should fax or mail the results to the Flight Surgeon or may document the findings in Block 60.</p></td></tr><tr><td><p>AME Office Inspection</p></td><td><p>AME office inspections: The inspector must visually inspect the condition of the color vision test instrument, for fading, fingerprints, pen, or pencil smudges; and lights used. Only a Macbeth Easel or a Verilux True Daylight Illuminator (F15T8VLX) are acceptable. Room lights must be off.</p></td></tr><tr><td><p>False Negatives</p></td><td><p>Any test device with a restricted test set, like the Titmus testers, generally have a high false alarm test. If a disproportionally high number of subjects are failing, it may be necessary to review the acceptability of that test instrument. Regional Medical Offices are expected to monitor this situation.</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 483,
+   "text": "UNACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING OF ATCS",
+   "html": "<p><strong>UNACCEPTABLE TEST INSTRUMENTS FOR COLOR VISION SCREENING OF ATCS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 483,
+   "text": "(FAA EMPLOYEE 2152 SERIES and CONTRACT TOWER ATCSs",
+   "html": "<p><strong>(FAA EMPLOYEE 2152 SERIES and CONTRACT TOWER ATCSs</strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 483,
+   "header": [
+    "AOC-PIP",
+    "Mast",
+    "Stereo-Optic"
+   ],
+   "rows": [
+    [
+     "Bausch & Lomb Vision Tester",
+     "OPTEC 900, 2500*, 5000*",
+     "Titmus i400*"
+    ],
+    [
+     "D-15",
+     "Prism",
+     "Vision Chart - color letters"
+    ],
+    [
+     "FALANT",
+     "Richmond-HRR Versions 2 and 3",
+     ""
+    ],
+    [
+     "H-O Chart",
+     "Schilling",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>AOC-PIP</th><th>Mast</th><th>Stereo-Optic</th></tr></thead><tbody><tr><td><p>Bausch &amp; Lomb Vision Tester</p></td><td><p>OPTEC 900, 2500*, 5000*</p></td><td><p>Titmus i400*</p></td></tr><tr><td><p>D-15</p></td><td><p>Prism</p></td><td><p>Vision Chart - color letters</p></td></tr><tr><td><p>FALANT</p></td><td><p>Richmond-HRR Versions 2 and 3</p></td><td></td></tr><tr><td><p>H-O Chart</p></td><td><p>Schilling</p></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 483,
+   "text": "Except for the computerized tests listed, any computer applications, downloaded, or printed versions of color vision tests are prohibited.",
+   "html": "<p><strong>Except for the computerized tests listed, any computer applications, downloaded, or printed versions of color vision tests are prohibited. </strong></p>"
+  }
+ ]
+}

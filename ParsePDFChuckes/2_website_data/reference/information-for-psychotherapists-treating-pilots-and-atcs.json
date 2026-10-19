@@ -1,0 +1,83 @@
+{
+ "slug": "information-for-psychotherapists-treating-pilots-and-atcs",
+ "title": "Information for Psychotherapists Treating Pilots and ATCS",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  379
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "(Updated 6/24/2026)",
+   "html": "<p>(Updated 6/24/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Your client is a pilot or air traffic control specialist (ATCS), both of which are public safety-sensitive positions. They are required to undergo periodic FAA medical evaluations and must meet prescribed medical standards. They are also required to disclose specific medical information related to diagnoses, treatment, and functional status. You may be asked to provide clinical progress notes, summaries, or other specific information not required for your usual clients.",
+   "html": "<p>Your client is a pilot or air traffic control specialist (ATCS), both of which are public safety-sensitive positions. They are required to undergo periodic FAA medical evaluations and must meet prescribed medical standards. They are also required to disclose specific medical information related to diagnoses, treatment, and functional status. You may be asked to provide clinical progress notes, summaries, or other specific information not required for your usual clients.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Counseling and/or psychotherapy are encouraged when clinically appropriate. Here are some important considerations and recommendations for working with these clients:",
+   "html": "<p><strong>Counseling and/or psychotherapy are encouraged when clinically appropriate.</strong> Here are some important considerations and recommendations for working with these clients:</p>"
+  },
+  {
+   "type": "list",
+   "page": 379,
+   "text": "- If future monitoring is requested (small minority of cases), clarify now with your client your potential obligation to inform the FAA of adverse changes in their clinical status. Obtain their consent to release this information to the FAA.\n- To improve confidentiality, maintain psychotherapy process notes separately from clinical progress notes. If progress notes are requested, please do NOT include the psychotherapy process notes.\n- When diagnosing a Diagnostic and Statistical Manual of Mental Disorders (DSM) mental disorder, document the specific criteria met along with comments on severity, insight, resilience, and ability to self-monitor.\n- Document and communicate all clinical opinions using DSM-5-TR diagnostic terminology.\n- To aid accurate regulatory assessment, avoid both upcoding and minimization. Use DSM “V-code” or ICD-10 “Z-code” when appropriate.",
+   "html": "<ul><li>If future monitoring is requested (small minority of cases), clarify now with your client your potential obligation to inform the FAA of adverse changes in their clinical status. Obtain their consent to release this information to the FAA.</li><li>To improve confidentiality, maintain psychotherapy process notes separately from clinical progress notes. If progress notes are requested, please do NOT include the psychotherapy process notes.</li><li>When diagnosing a Diagnostic and Statistical Manual of Mental Disorders (DSM) mental disorder, document the specific criteria met along with comments on severity, insight, resilience, and ability to self-monitor.</li><li>Document and communicate all clinical opinions using DSM-5-TR diagnostic terminology.</li><li>To aid accurate regulatory assessment, avoid both upcoding and minimization. Use DSM “V-code” or ICD-10 “Z-code” when appropriate.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Sample Treatment Summary or Quarterly Report for FAA Purposes:",
+   "html": "<p><strong>Sample Treatment Summary or Quarterly Report for FAA Purposes:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "“Therapy is twice monthly on average and is integrative in nature, informed by Cognitive-Behavioral Therapy (CBT) and Interpersonal Therapy (IPT) to address mood and family of origin issues. Client remains engaged, appears stable, and insight is appropriate. Client continues to function adequately across occupational and social realms. Current diagnosis is Major Depressive Disorder (recurrent), in remission.”",
+   "html": "<p>“Therapy is twice monthly on average and is integrative in nature, informed by Cognitive-Behavioral Therapy (CBT) and Interpersonal Therapy (IPT) to address mood and family of origin issues. Client remains engaged, appears stable, and insight is appropriate. Client continues to function adequately across occupational and social realms. Current diagnosis is Major Depressive Disorder (recurrent), in remission.”</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Disclosure Statement for Ongoing Monitoring:",
+   "html": "<p><strong>Disclosure Statement for Ongoing Monitoring:</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "If ongoing monitoring is formally requested, this disclosure statement must be added to each treatment summary:",
+   "html": "<p>If ongoing monitoring is formally requested, this disclosure statement must be added to each treatment summary:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "“I will notify the FAA Aeromedical Certification Division (405-954-4821) or the Aviation Medical Examiner (AME) if there is a significant clinical deterioration in my client's cognition, judgment, emotional stability, or insight.”",
+   "html": "<p>“I will notify the FAA Aeromedical Certification Division (405-954-4821) or the Aviation Medical Examiner (AME) if there is a significant clinical deterioration in my client&#x27;s cognition, judgment, emotional stability, or insight.”</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Therapists who are not willing or able to meet these requirements should carefully consider whether to accept a client who must adhere to FAA criteria.",
+   "html": "<p><strong>Therapists who are not willing or able to meet these requirements should carefully consider whether to accept a client who must adhere to FAA criteria.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "Licensed mental health providers with questions should contact",
+   "html": "<p>Licensed mental health providers with questions should contact</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 379,
+   "text": "9-AVS-Psychiatry-Branch@FAA.gov",
+   "html": "<p><a href=\"mailto:9-AVS-Psychiatry-Branch@FAA.gov\">9-AVS-Psychiatry-Branch@FAA.gov</a></p>"
+  }
+ ]
+}

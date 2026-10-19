@@ -1,0 +1,153 @@
+{
+ "id": "weight-loss-management",
+ "name": "Weight Loss Management",
+ "subtitle": "(Use of Medication for Obesity or Overweight)",
+ "name_in_guide": "WEIGHT LOSS MANAGEMENT (Use of Medication for Obesity or Overweight)",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/27/2024",
+ "order": 179,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Under control;",
+  "Current medications are acceptable; and",
+  "The individual has no symptoms that would interfere with flight duties:",
+  "It must include the indication for the medication and if there is any history of diabetes or not ;",
+  "Hemoglobin A1c lab performed no more than 90 days before the AME exam.",
+  "Weight Loss Management Status Report",
+  "A current, detailed Clinical Progress Note from the treating physician which contains all the required information listed in the above status report."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Treated with lifestyle intervention or acceptable over the counter (OTC) medications See Weight Loss Medications",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Treated with lifestyle</p>\n<p>intervention</p>\n<p>or acceptable over the counter (OTC) medications</p>\n<p>See <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_pharm.pdf\" target=\"_blank\" rel=\"noopener\">Weight Loss Medications</a></p>",
+   "evaluation_data": "If the AME can determine the condition is: - Under control; - Current medications are acceptable; and - The individual has no symptoms that would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is:</p>\n<ul><li>Under control;</li><li>Current medications are acceptable; and</li><li>The individual has no symptoms that would interfere with flight duties:</li></ul>",
+   "what_to_bring": [
+    "Under control;",
+    "Current medications are acceptable; and",
+    "The individual has no symptoms that would interfere with flight duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>",
+   "pdf_page": 460,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Treated with ONE diabetic medication (non-insulin) component",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Treated with</p>\n<p>ONE diabetic medication</p>\n<p><strong>(non-insulin) </strong>component</p>",
+   "evaluation_data": "See the CACI – Weight Loss Management Worksheet. This requires a current, detailed Clinical Progress Note from the treating physician and Hemoglobin A1c lab performed no more than 90 days before the AME exam. OR Weight Loss Management Status Report If the pilot meets all CACI worksheet criteria and is otherwise qualified:",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Weight Loss Management Worksheet.</a></p>\n<p>This requires a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> from the treating physician and Hemoglobin A1c lab performed <strong>no more than 90 days before</strong> the AME exam.</p>\n<p><strong>OR </strong></p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_prediabetes_status_report.pdf\" target=\"_blank\" rel=\"noopener\">Weight Loss Management Status Report</a></p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate the correct CACI statement in</p>\n<p>Block 60 and keep the required supporting information on file.</p>",
+   "pdf_page": 460,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Treated with TWO (2) or more diabetic medication (non-insulin) components Note: If the medication is taken for weight loss, and the individual has a diagnosis of diabetes, see www.faa.gov/go/diabetic",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Treated with</p>\n<p>TWO (2) or more</p>\n<p>diabetic medication</p>\n<p><strong>(non-insulin) </strong>components</p>\n<p><strong>Note:</strong> If the medication is taken for weight loss, and the individual has a diagnosis of diabetes, see <a href=\"http://www.faa.gov/go/diabetic\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/diabetic</a></p>",
+   "evaluation_data": "Submit either: 1. Weight Loss Management Status Report (The treating physician must clearly indicate the reason for the medication and if there is any history of diabetes.) OR 2. A current, detailed Clinical Progress Note from the treating physician which contains all the required information listed in the above status report. - It must include the indication for the medication and if there is any history of diabetes or not; - Hemoglobin A1c lab performed no more than 90 days before the AME exam.",
+   "evaluation_data_html": "<p>Submit either:</p>\n<p>1. <a href=\"https://www.faa.gov/ame_guide/media/Weight_loss_prediabetes_status_report.pdf\" target=\"_blank\" rel=\"noopener\">Weight Loss Management Status Report</a></p>\n<p>(The treating physician must clearly <strong>indicate the reason for the medication and if there is any history of diabetes.)</strong></p>\n<p><strong>OR </strong></p>\n<p>2. A <strong>current, detailed Clinical Progress Note</strong> from the treating physician which contains all the required information listed in the above status report.</p>\n<ul><li>It must include the <strong>indication for the medication and if there is any history of diabetes or not</strong>;</li></ul>\n<ul><li>Hemoglobin A1c lab performed<strong> no more than 90 days before</strong> the AME exam.</li></ul>",
+   "what_to_bring": [
+    "It must include the indication for the medication and if there is any history of diabetes or not ;",
+    "Hemoglobin A1c lab performed no more than 90 days before the AME exam.",
+    "Weight Loss Management Status Report",
+    "A current, detailed Clinical Progress Note from the treating physician which contains all the required information listed in the above status report."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>",
+   "pdf_page": 460,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Weight Loss Management Worksheet",
+   "updated": null,
+   "criteria": [
+    {
+     "ame_must_review": "Medication is used for: Note: Diabetes in remission (diet-controlled), diabetes treated with medication (including insulin), or diabetes insipidus DO NOT qualify for this CACI.",
+     "acceptable_certification_criteria": "[ ] Weight Loss Management"
+    },
+    {
+     "ame_must_review": "Treating physician finds the condition is stable and NONE of the following are present: - Symptoms or complications associated with diabetes; - Side effects from the medication; Hypoglycemic events (symptoms or glucose 70 mg/dl or less) which required intervention in the past 12 months; and/or - History of A1C 6.5% or greater, ever.",
+     "acceptable_certification_criteria": "[ ] Yes Note: If A1c is in the prediabetic range (5.7 to 6.4%) see the Pre-Diabetes page"
+    },
+    {
+     "ame_must_review": "ONLY ONE of the medications listed is used: - AME should verify two-week observation after starting medication. (See Pharmaceuticals, Weight Loss Medication .) 48-hour observation with each dose increase, medication or formulation change.",
+     "acceptable_certification_criteria": "[ ] Yes Indicate which one medication is used: - metformin OR - liraglutide OR - semaglutide (Wegovy) OR - tirzepatide (Zepbound)"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified weight loss management.",
+    "Has current OR previous SI/AASI but now CACI qualified weight loss management.",
+    "NOT CACI qualified weight loss management. I have deferred. (Submit supporting documents.)",
+    "Prediabetes/hyperglycemia [ ] Weight loss management"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note:</strong> For <a href=\"https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Polycystic Ovarian Syndrome (PCOS)</a> , see that page.</p>\n<p>(Use of Medication for Obesity or Overweight)</p>\n<p>(Updated 04/29/2025)</p>\n<table><thead><tr><th>If the applicant has EVER had an A1C OF 6.5% OR GREATER, DO NOT USE THIS CACI.</th></tr></thead><tbody></tbody></table>\n<p><strong>WEIGHT LOSS MANAGEMENT or PREDIABETES STATUS REPORT </strong></p>\n<p>(Updated 04/29/2026)</p>\n<p>Name ________________________________ Birthdate ______________________</p>\n<p>Applicant ID# __________________________ PI#___________________________</p>\n<p>Please have the provider who prescribes your medication for weight loss or prediabetes enter the information in the space below. Return the completed status report to your AME to upload into your FAA file.</p>\n<p>Reason for taking this medication:</p>\n<p>Date of last clinical encounter ____________</p>\n<p>Date of most recent MEDICATION change ____________</p>\n<table><thead><tr><th>A1C</th><th>Date</th></tr></thead><tbody><tr><td><p><strong>NO </strong></p></td><td><p><strong>YES* </strong></p></td></tr><tr><td><p><strong>NO </strong></p></td><td><p><strong>YES* </strong></p></td></tr><tr><td><p><strong>NO </strong></p></td><td><p><strong>YES* </strong></p></td></tr><tr><td><p><strong>NO </strong></p></td><td><p><strong> YES* </strong></p></td></tr></tbody></table>\n<p>1. Hemoglobin A1C lab value and date?…………………………….…...</p>\n<p>A1C required only for prediabetes (dated within 90 days of the AME exam); enter n/a if medication is for weight loss only</p>\n<p>2. Any side effects from medications?.…………………………………...</p>\n<p>(If taking GLP-1, verify no psychiatric side effects.)</p>\n<p>3. ANY episode of hypoglycemia in the past year?.…………………….</p>\n<p>4. Does this patient take ANY form of insulin?..…………………………</p>\n<p>5. Any clinical concerns?.......................................................................</p>\n<p>6. List ALL current medications (for any condition).</p>\n<p>________________________________________________________________________________ ____________________________________________________________________________ ______________________________________________________________________</p>\n<p><strong>*If any YES answers, please attach narrative, tests, etc</strong>.</p>\n<p>__________________________________ ________________</p>\n<p>Treating Provider Signature Date</p>\n<p>_______________________________________________ _______________________</p>\n<p>Name or Office Stamp Phone Number</p>\n<p><strong>Note:</strong> If diagnosed with diabetes, see <a href=\"http://www.faa.gov/go/diabetic\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/diabetic</a> .</p>\n<p>If taking insulin, see <a href=\"http://www.faa.gov/go/ITDM\" target=\"_blank\" rel=\"noopener\">www.faa.gov/go/ITDM</a></p>",
+ "links": [
+  {
+   "text": "Polycystic Ovarian Syndrome (PCOS)",
+   "href": "https://www.faa.gov/ame_guide/media/PCOS_dispo_table.pdf"
+  },
+  {
+   "text": "www.faa.gov/go/diabetic",
+   "href": "http://www.faa.gov/go/diabetic"
+  },
+  {
+   "text": "www.faa.gov/go/ITDM",
+   "href": "http://www.faa.gov/go/ITDM"
+  },
+  {
+   "text": "CACI – Weight Loss Management Worksheet.",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_weight_loss_management.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "Weight Loss Management Status Report",
+   "href": "https://www.faa.gov/ame_guide/media/Weight_loss_prediabetes_status_report.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "breast-cancer",
+  "section_title": "BREAST CANCER",
+  "pdf_pages": [
+   460,
+   461,
+   462
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

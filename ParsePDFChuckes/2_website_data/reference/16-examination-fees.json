@@ -1,0 +1,23 @@
+{
+ "slug": "16-examination-fees",
+ "title": "16. Examination Fees",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  28
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 28,
+   "text": "The FAA does not establish fees to be charged by AMEs for the medical examination of persons applying for airman medical certification. It is recommended that the fee be the",
+   "html": "<p>The FAA does not establish fees to be charged by AMEs for the medical examination of persons applying for airman medical certification. It is recommended that the fee be the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 28,
+   "text": "usual and customary fee established by other physicians in the same general locality for similar services.",
+   "html": "<p>usual and customary fee established by other physicians in the same general locality for similar services.</p>"
+  }
+ ]
+}

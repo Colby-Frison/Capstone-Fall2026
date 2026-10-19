@@ -1,0 +1,105 @@
+{
+ "id": "epilepsy",
+ "name": "Epilepsy",
+ "subtitle": "(Seizure Disorder)",
+ "name_in_guide": "EPILEPSY (Seizure Disorder)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/31/2023",
+ "order": 126,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist ( epileptologist preferred ), no more than 90 days before the AME exam.",
+  "It must specifically include the date of last seizure activity and dates medication(s) discontinued.",
+  "MRI brain performed at any time after the seizure activity started.",
+  "Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light). A 24-hour EEG study is preferred.",
+  "If not already performed, a current EEG is required.",
+  "Submit any previous EEG(s) available for comparison.",
+  "Submit BOTH the interpretive report(s) on paper and a copy of the EEG recording(s) on CD with proprietary opening software that is compatible with Windows 10. You may wish to retain a copy of all films as a safeguard if lost in the mail.",
+  "FAA Airman Seizure Questionnaire completed by the applicant.",
+  "Evaluation Data Row A"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Epilepsy by history Seizure-free for ten (10) years AND Off medication for the last 3 years",
+   "condition_html": "<ul><li><strong>A. </strong>Epilepsy by history</li></ul>\n<p><strong>Seizure-free for ten (10)</strong> years</p>\n<p>AND</p>\n<p><strong>Off medication for the last 3 years</strong></p>",
+   "evaluation_data": "After a ten (10)-year seizure-free recovery period, obtain the following and submit for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (epileptologist preferred), no more than 90 days before the AME exam. - 2. It must specifically include the date of last seizure activity and dates medication(s) discontinued. - 3. MRI brain performed at any time after the seizure activity started. - - If not already performed, a current brain MRI is required. Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 3. Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light). A 24-hour EEG study is preferred. - If not already performed, a current EEG is required. - Submit any previous EEG(s) available for comparison. - Submit BOTH the interpretive report(s) on paper and a copy of the EEG recording(s) on CD with proprietary opening software that is compatible with Windows 10. You may wish to retain a copy of all films as a safeguard if lost in the mail. - 4. FAA Airman Seizure Questionnaire completed by the applicant.",
+   "evaluation_data_html": "<p>After a <strong>ten (10)-year seizure-free recovery</strong> period, obtain the following and submit for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist (<strong>epileptologist preferred</strong>), <strong>no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. It <strong>must specifically include</strong> the date of last seizure activity and dates medication(s) discontinued.</li></ul>\n<ul><li>3. <strong>MRI brain</strong> performed at any time after the seizure activity started.</li></ul>\n<ul><li><ul><li>If not already performed, a current brain MRI is required. Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul></li></ul>\n<ul><li>3. <strong>Electroencephalogram (EEG) </strong>performed no more than<strong> 12 months before</strong> the AME exam. It must be sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light). A 24-hour EEG study is preferred.</li><li>If not already performed, a current EEG is required.</li><li>Submit any previous EEG(s) available for comparison.</li></ul>\n<ul><li>Submit BOTH the interpretive report(s) on paper and a copy of the EEG recording(s) on CD with proprietary opening software that is compatible with Windows 10. You may wish to retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf\" target=\"_blank\" rel=\"noopener\">4. FAA Airman Seizure Questionnaire</a> completed by the applicant.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist ( epileptologist preferred ), no more than 90 days before the AME exam.",
+    "It must specifically include the date of last seizure activity and dates medication(s) discontinued.",
+    "MRI brain performed at any time after the seizure activity started.",
+    "Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light). A 24-hour EEG study is preferred.",
+    "If not already performed, a current EEG is required.",
+    "Submit any previous EEG(s) available for comparison.",
+    "Submit BOTH the interpretive report(s) on paper and a copy of the EEG recording(s) on CD with proprietary opening software that is compatible with Windows 10. You may wish to retain a copy of all films as a safeguard if lost in the mail.",
+    "FAA Airman Seizure Questionnaire completed by the applicant."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 315,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- B. SeLECTS (Self-limited Epilepsy with Centrotemporal Spikes). Seizure-free for four (4) years AND Off medication for the last two (2) years This condition may also be called: - Rolandic Epilepsy, - Benign Rolandic Epilepsy (BRE), - BECTS (Benign Epilepsy with Central Temporal Spikes), or - CECTS (Childhood Epilepsy with Central Temporal Spikes)",
+   "condition_html": "<ul><li><strong>B. </strong>SeLECTS</li></ul>\n<p>(Self-limited Epilepsy with Centrotemporal Spikes).</p>\n<p><strong>Seizure-free for four (4)</strong> years</p>\n<p>AND</p>\n<p><strong>Off medication for the last two (2) years </strong></p>\n<p>This condition may also be called:</p>\n<ul><li>Rolandic Epilepsy,</li><li>Benign Rolandic Epilepsy (BRE),</li><li>BECTS (Benign Epilepsy with Central Temporal Spikes), or</li><li>CECTS (Childhood Epilepsy with Central Temporal Spikes)</li></ul>",
+   "evaluation_data": "After a four (4)-year seizure-free recovery period, obtain and submit for FAA review: - Evaluation Data Row A",
+   "evaluation_data_html": "<p>After a <strong>four (4)-year seizure-free recovery</strong> period, obtain and submit for FAA review:</p>\n<ul><li>Evaluation Data Row A</li></ul>",
+   "what_to_bring": [
+    "Evaluation Data Row A"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 315,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf\" target=\"_blank\" rel=\"noopener\">Seizures</a> .</p>",
+ "links": [
+  {
+   "text": "Seizures",
+   "href": "https://www.faa.gov/ame_guide/media/Seizures_Epilepsy.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "4. FAA Airman Seizure Questionnaire",
+   "href": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf"
+  }
+ ],
+ "aliases": [
+  "- A. Epilepsy by history Seizure-free for ten (10) years AND Off medication for",
+  "- B. SeLECTS (Self-limited Epilepsy with Centrotemporal Spikes). Seizure-free fo"
+ ],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   315,
+   316
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

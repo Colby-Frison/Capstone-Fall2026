@@ -1,0 +1,224 @@
+{
+ "slug": "faa-specifications-for-neurologic-evaluation",
+ "title": "FAA Specifications for Neurologic Evaluation",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  586,
+  587,
+  588,
+  589
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "(Updated 03/27/2024)",
+   "html": "<p>(Updated 03/27/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "INFORMATION FOR THE AIRMAN: To ensure the neurological evaluation meets FAA requirements, we strongly recommend that you share all pages of this specification sheet with your neurologist. Your Aviation Medical Examiner (AME) or personal physician may help you locate a board-certified neurologist. The FAA requires a neurological evaluation to determine your ability to hold a medical certificate. The evaluation must meet the following criteria to be considered:",
+   "html": "<p><strong>INFORMATION FOR THE AIRMAN: </strong>To ensure the neurological evaluation meets FAA requirements, <strong>we strongly recommend that you share all pages of this specification sheet with your neurologist. </strong>Your Aviation Medical Examiner (AME) or personal physician may help you locate a board-certified neurologist. The FAA requires a neurological evaluation to determine your ability to hold a medical certificate. The evaluation must meet the following criteria to be considered:</p>"
+  },
+  {
+   "type": "list",
+   "page": 586,
+   "text": "- Current (must be performed within the last 90 days);\n- Performed by a board-certified physician (M.D., D.O., or physician degree equivalent (e.g., MBBS), who also holds a current board certification by the American Board of Psychiatry and Neurology or equivalent accrediting authority. (if you are uncertain, consult your AME); and\n- Evaluation must meet the Comprehensive Neurological Evaluation criteria listed in Item A below.",
+   "html": "<ul><li> Current (must be performed within the last <strong>90 days)</strong>;</li><li> Performed by a <strong>board-certified physician</strong> (M.D., D.O., or physician degree equivalent (e.g., MBBS), who also holds a <strong>current board certification</strong> by the American Board of Psychiatry and Neurology or equivalent accrediting authority. (if you are uncertain, consult your AME); and</li><li> Evaluation must meet the <strong>Comprehensive Neurological Evaluation</strong> criteria listed in Item A below.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "The following will cause a delay in the processing of your medical application:",
+   "html": "<p>The following will cause a delay in the processing of your medical application:</p>"
+  },
+  {
+   "type": "list",
+   "page": 586,
+   "text": "- - Evaluations which do not meet the above criteria;\n- - Neurologist evaluation which does not address all the requested information in Item A;\n- - Missing or incomplete information requested in Items B - D.",
+   "html": "<ul><li>- Evaluations which do not meet the above criteria;</li><li>- Neurologist evaluation which does not address all the requested information in Item A;</li><li>- Missing or incomplete information requested in Items B - D.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "IMPORTANT:",
+   "html": "<p><strong>IMPORTANT: </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 586,
+   "text": "- !! Please verify that all CDs submitted will open in an UNENCRYPTED DICOM READABLE FORMAT!!\n- *EEG – provide both interpretive report (on paper) and tracings (on a CD with embedded stand-alone viewing software).\n- The airman’s name and FAA reference identification (MID, PI, and/or APP ID#) should be on all correspondence and reports.\n- Mail all requested records and tests, including the neurological evaluation, in ONE complete package to:",
+   "html": "<ul><li>!! Please verify that all CDs submitted will open in an <strong>UNENCRYPTED</strong> DICOM READABLE FORMAT!!</li><li><strong>*EEG </strong>– provide both interpretive report (on paper) and tracings (on a CD with embedded stand-alone viewing software).</li><li>The airman’s name and FAA reference identification (MID, PI, and/or APP ID#) should be on <strong>all</strong> correspondence and reports.</li><li>Mail all requested records and tests, including the neurological evaluation, in <strong>ONE complete package</strong> to:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "Regular First Class Mail OR Special Delivery/Overnight Mail",
+   "html": "<p><strong>Regular First Class Mail OR Special Delivery/Overnight Mail</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "Federal Aviation Administration Federal Aviation Administration",
+   "html": "<p>Federal Aviation Administration Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "Aerospace Medical Certification Division Aerospace Medical Certification Division CAMI Building 13, Room 308 AAM-300 6500 S. Macarthur Boulevard",
+   "html": "<p>Aerospace Medical Certification Division Aerospace Medical Certification Division CAMI Building 13, Room 308 AAM-300 6500 S. Macarthur Boulevard</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "P.O. Box 25082 CAMI Building 13, Room 308 AAM-300",
+   "html": "<p>P.O. Box 25082 CAMI Building 13, Room 308 AAM-300</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "Oklahoma City, OK 73125 Oklahoma City, OK 73169",
+   "html": "<p>Oklahoma City, OK 73125 Oklahoma City, OK 73169</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 586,
+   "text": "INFORMATION FOR THE NEUROLOGIST: Your patient is an airman who must meet regulatory requirements in order to be issued a medical certificate. Your comprehensive report should provide a complete neurological picture for the FAA to review in making a determination for issuance. The information you provide will be reviewed by a physician with expertise in aerospace medicine, therefore, it is not our expectation that you address the aerospace implications in this evaluation, but to provide the clinical facts, historical and exam findings, and specialist opinion pertaining to this airman’s neurologic concerns and/or conditions.",
+   "html": "<p><strong>INFORMATION FOR THE NEUROLOGIST:</strong> Your patient is an airman who must meet regulatory requirements in order to be issued a medical certificate. Your comprehensive report should provide a complete neurological picture for the FAA to review in making a determination for issuance. The information you provide will be reviewed by a physician with expertise in aerospace medicine, therefore, it is not our expectation that you address the aerospace implications in this evaluation, but to provide the clinical facts, historical and exam findings, and specialist opinion pertaining to this airman’s neurologic concerns and/or conditions.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 587,
+   "text": "A. COMPREHENSIVE NEUROLOGICAL EVALUATION",
+   "html": "<p><strong>A. COMPREHENSIVE NEUROLOGICAL EVALUATION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 587,
+   "text": "The neurological evaluation and examination must be done in accordance with the 1997 documentation guidelines published by the Centers for Medicare and Medicaid Services and must be detailed enough for a clear understanding of the nature and extent of the neurological disorder and any limitations. The report submitted to the FAA must include, at a minimum, the following:",
+   "html": "<p>The neurological evaluation and examination must be done in accordance with the 1997 documentation guidelines published by the Centers for Medicare and Medicaid Services and must be detailed enough for a clear understanding of the nature and extent of the neurological disorder and any limitations. The report submitted to the FAA must include, at a minimum, the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 587,
+   "text": "- 1. Name, address, and phone number of the neurologist conducting the evaluation.\n- 2. Date of the evaluation.\n- 3. A detailed history of the neurological condition in chronological order from the time of symptom onset, diagnosis, or presentation to present. It must include a detailed description of any symptoms as well as relevent positive and negative findings. Keep in mind that for aviation safety, a history of cognitive and functional limitations is as important as physical symptoms. Please identify information sources when appropriate, such as history obtained directly from the patient, history from other persons/witnesses, and/or history obtained from record review noting the source record(s).\n- 4. Detailed description of past treatments and outcome(s).\n- 5. Past medical, surgical, and psychiatric history.\n- 6. Medications:\n- a. Include all herbal, over-the-counter, and/or prescription medications;\n- b. Document the name, dosage, frequency, reason for use, and side effects;\n- c. If medications were recently started, stopped, or changed, note the date and reason; and\n- d. Note any drug allergies\n- 7. Social and family history:\n- a. Current occupational or educational functioning;\n- b. Use of caffeine, alcohol, tobacco, and other substances; and\n- c. Any pertinent neurologic family history (e.g., seizures, stroke, migraine, neurodegenerative and/or neuromuscular disease, etc.)\n- 8. Physical exam: - a. A comprehensive neurological exam: Vital signs; ophthalmoscopic exam; focused cardiovascular exam (e.g., carotid, cardiac auscultation, peripheral pulses/perfusion); mental status exam (with a standardized",
+   "html": "<ul><li>1. <strong>Name, address, and phone number of the neurologist </strong>conducting the evaluation.</li><li>2. <strong>Date of the evaluation.</strong></li><li>3. A <strong>detailed history </strong>of the neurological condition in <strong>chronological order</strong> from the time of symptom onset, diagnosis, or presentation to present. It must include a detailed description of any symptoms as well as relevent positive and negative findings. Keep in mind that for aviation safety, a history of cognitive and functional limitations is as important as physical symptoms. Please identify information sources when appropriate, such as history obtained directly from the patient, history from other persons/witnesses, and/or history obtained from record review noting the source record(s).</li><li>4. Detailed description of <strong>past treatments and outcome(s).</strong></li><li>5. <strong>Past medical, surgical, and psychiatric history.</strong></li><li>6. <strong>Medications: </strong></li><li>a. Include all herbal, over-the-counter, and/or prescription medications;</li><li>b. Document the name, dosage, frequency, reason for use, and side effects;</li><li>c. If medications were recently started, stopped, or changed, note the date and reason; and</li><li>d. Note any drug allergies</li><li>7. <strong>Social and family history</strong>:</li><li>a. Current occupational or educational functioning;</li><li>b. Use of caffeine, alcohol, tobacco, and other substances; and</li><li>c. Any pertinent neurologic family history (e.g., seizures, stroke, migraine, neurodegenerative and/or neuromuscular disease, etc.)</li><li><p>8. <strong>Physical exam</strong>:</p>\n<ul><li>a. A <strong>comprehensive neurological exam</strong>: Vital signs; ophthalmoscopic exam; focused cardiovascular exam (e.g., carotid, cardiac auscultation, peripheral pulses/perfusion); mental status exam (with a standardized</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 587,
+   "text": "screening instrument [see below]); cranial nerves II-XII, motor examination to include mention of bulk, tone, strength, and range of motion; sensory examination; deep tendon reflexes; coordination; praxis; gait and station; and other specific examination as deemed necessary;",
+   "html": "<p>screening instrument [see below]); cranial nerves II-XII, motor examination to include mention of bulk, tone, strength, and range of motion; sensory examination; deep tendon reflexes; coordination; praxis; gait and station; and other specific examination as deemed necessary;</p>"
+  },
+  {
+   "type": "list",
+   "page": 587,
+   "text": "- - b. Assessment of mental status, using one of the following screening instruments*: The Montreal Cognitive Assessment (MoCA), Kokmen Short Test of Mental Status, or St. Louis University Mental Status (SLUMS) performed in accordance with the published instructions for the specific test. Submit a copy of the testing score sheets; and",
+   "html": "<ul><li><ul><li>b. <strong>Assessment of mental status, using one of the following screening instruments*: </strong>The Montreal Cognitive Assessment (MoCA), Kokmen Short Test of Mental Status, or St. Louis University Mental Status (SLUMS) performed in accordance with the published instructions for the specific test. Submit a copy of the testing score sheets; and</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 587,
+   "text": "*Notes:",
+   "html": "<p>*Notes:</p>"
+  },
+  {
+   "type": "list",
+   "page": 587,
+   "text": "- The screening is not required if a current comprehensive neuropsychological assessment has been performed. The neuropsychological report and testing scores must be submitted.\n- The Folstein Mini Mental Status Examination (MMSE) is NOT acceptable.",
+   "html": "<ul><li>The screening is not required if a current comprehensive neuropsychological assessment has been performed. The neuropsychological report and testing scores must be submitted.</li><li>The Folstein Mini Mental Status Examination (MMSE) is <strong>NOT </strong>acceptable.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 588,
+   "text": "- - c. Describe all pertinent positive and negative examination findings and all functional limitations identified.\n- 9. Results of diagnostic imaging, testing, or procedures conducted and their significance.\n- 10. Primary diagnosis, any secondary diagnosis, and etiology of the condition. As applicable, include a discussion of any differential diagnosis that were considered and why they were excluded.\n- 11. Treatment plan to include:\n- a. Investigations/testing to be performed;\n- b. New medications, medication changes, or other therapies;\n- c. Future treatment plan; and\n- d. Interval for next scheduled follow up\n- 12. Prognosis and risk assessment: While the final aeromedical risk assessment will be determined by the FAA, we value your opinion on the potential for sudden incapacitation (stroke, seizure, etc.); subtle incapacitation (slow reaction times, impaired memory, impaired multi-tasking); or other impairment that may negatively impact aviation safety.\n- 13. Copies of any pertinent medical records reviewed, including tests performed as part of the the evaluation. Note: When submitting treatment records from other physicians make sure they include the actual clinical physician notes, NOT just the patient after care visit summary or patient summary.",
+   "html": "<ul><li><ul><li>c. Describe all pertinent positive and negative examination findings and all functional limitations identified.</li></ul></li><li>9. <strong>Results of diagnostic imaging, testing, or procedures </strong>conducted and their significance.</li><li>10. <strong>Primary diagnosis, any secondary diagnosis, and etiology</strong> of the condition. As applicable, include a discussion of any differential diagnosis that were considered and why they were excluded.</li><li>11. <strong>Treatment plan</strong> to include:</li><li>a. Investigations/testing to be performed;</li><li>b. New medications, medication changes, or other therapies;</li><li>c. Future treatment plan; and</li><li>d. Interval for next scheduled follow up</li><li>12. <strong>Prognosis and risk assessment:</strong> While the final aeromedical risk assessment will be determined by the FAA, we value your opinion on the potential for sudden incapacitation (stroke, seizure, etc.); subtle incapacitation (slow reaction times, impaired memory, impaired multi-tasking); or other impairment that may negatively impact aviation safety.</li><li>13. <strong>Copies of any pertinent medical records reviewed</strong>, including tests performed as part of the the evaluation. Note: When submitting treatment records from other physicians make sure they include the <strong>actual clinical physician notes</strong>, NOT just the patient after care visit summary or patient summary.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "PRIOR TESTING, TREATMENT, OR OTHER RECORDS:",
+   "html": "<p><strong>PRIOR TESTING, TREATMENT, OR OTHER RECORDS: </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "In addition to the Comprehensive Neurological Evaluation, the airman should provide the following (Items B-D below). See the following page for specifications of document submission.",
+   "html": "<p>In addition to the Comprehensive Neurological Evaluation, the airman should provide the following (Items B-D below). See the following page for specifications of document submission.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "B. PRIOR TREATMENT RECORDS",
+   "html": "<p><strong>B. PRIOR TREATMENT RECORDS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "Prior treatment records from the current or previous treating physician(s) are an important aspect of the evaluation. When submitting the following treatment records to the FAA, include all of the following in the format* noted:",
+   "html": "<p>Prior treatment records from the current or previous treating physician(s) are an important aspect of the evaluation. When submitting the following treatment records to the FAA, include all of the following in the format* noted:</p>"
+  },
+  {
+   "type": "list",
+   "page": 588,
+   "text": "- 1. Doctor’s office visit and/or progress notes to date with the actual clinical physician notes, NOT the patient after care visit summary, or patient summary; and\n- 2. Copies of any EEG, CT, MRI, lab, or other tests performed*",
+   "html": "<ul><li>1. Doctor’s office visit and/or progress notes to date with the <strong>actual clinical physician notes</strong>, NOT the patient after care visit summary, or patient summary; and</li><li>2. Copies of any EEG, CT, MRI, lab, or other tests performed*</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "C. IMAGES/TESTING*",
+   "html": "<p><strong>C. IMAGES/TESTING* </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "This may include CT, MRI, Ultrasound, X-Rays, CT Angiogram, MR Angiogram, EEG, or other testing ordered by the neurologist or other physician. Test records submitted must include:",
+   "html": "<p>This may include CT, MRI, Ultrasound, X-Rays, CT Angiogram, MR Angiogram, EEG, or other testing ordered by the neurologist or other physician. Test records submitted must include:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "1. Interpretive reports (the final radiology report, ALL pages);",
+   "html": "<p>1.<strong> Interpretive reports </strong>(the final radiology report, ALL pages)<strong>; </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "2. Actual images on a compact disc (CD); and",
+   "html": "<p>2.<strong> Actual images </strong>on a compact disc (CD); and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "3. EEG recordings*: Sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light)",
+   "html": "<p>3. <strong> EEG recordings*: </strong>Sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "D. HOSPITAL, EMERGENCY ROOM (ER), AND TREATMENT RECORDS",
+   "html": "<p><strong>D. HOSPITAL, EMERGENCY ROOM (ER), AND TREATMENT RECORDS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 588,
+   "text": "For each hospitalization or ER visit for a neurological condition or concern, you must submit:",
+   "html": "<p>For <strong>each</strong> hospitalization or ER visit for a neurological condition or concern, you must submit:</p>"
+  },
+  {
+   "type": "list",
+   "page": 588,
+   "text": "- - - 1. Emergency Transport reports (e.g., ambulance, first responder, EMS). If transported by personal conveyance (not emergency transport), please attach a memorandum attesting to this; 2. ER record, testing, lab results, and drug screens;\n- 3. Admission History and Physical;\n- 4. Discharge summary from hospital (NOT the patient discharge instructions);\n- 5. Consultant reports (e.g., neurology consult, cardiology consult, etc.);\n- 6. Operative and Procedure reports (e.g., surgery report, angiograms, etc.);\n- 7. Laboratory and pathology testing;\n- 8. Blood tests, surgical pathology specimens;\n- 9. Images/testing*; and\n- 10. EEG reports and CDs of actual EEG recordings*",
+   "html": "<ul><li><ul><li><ul><li>1. Emergency Transport reports (e.g., ambulance, first responder, EMS). If transported by personal conveyance (not emergency transport), please attach a memorandum attesting to this; 2. ER record, testing, lab results, and drug screens;</li><li>3. Admission History and Physical;</li><li>4. Discharge summary from hospital (NOT the patient discharge instructions);</li><li>5. Consultant reports (e.g., neurology consult, cardiology consult, etc.);</li><li>6. Operative and Procedure reports (e.g., surgery report, angiograms, etc.);</li><li>7. Laboratory and pathology testing;</li><li>8. Blood tests, surgical pathology specimens;</li><li>9. Images/testing*; and</li><li>10. EEG reports and CDs of actual EEG recordings*</li></ul></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 589,
+   "text": "The airman’s name and FAA reference identification (MID, PI, and/or APP ID#) should be on all correspondence and reports.",
+   "html": "<p>The airman’s name and FAA reference identification (MID, PI, and/or APP ID#) should be on all correspondence and reports.</p>"
+  }
+ ]
+}

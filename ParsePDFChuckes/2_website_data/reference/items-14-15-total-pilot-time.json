@@ -1,0 +1,35 @@
+{
+ "slug": "items-14-15-total-pilot-time",
+ "title": "ITEMS 14-15. Total Pilot Time",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  46
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "14. Total Pilot Time to Date",
+   "html": "<p><strong>14. Total Pilot Time to Date </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "The applicant should indicate the total number of civilian flight hours and whether those hours are logged (LOG) or estimated (EST).",
+   "html": "<p>The applicant should indicate the total number of civilian flight hours and whether those hours are logged (LOG) or estimated (EST).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "15. Total Pilot Time Past 6 Months",
+   "html": "<p><strong>15. Total Pilot Time Past 6 Months </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "The applicant should provide the number of civilian flight hours in the 6-month period immediately preceding the date of this application. The applicant should indicate whether those hours are logged (LOG) or estimated (EST).",
+   "html": "<p>The applicant should provide the number of civilian flight hours in the 6-month period immediately preceding the date of this application. The applicant should indicate whether those hours are logged (LOG) or estimated (EST).</p>"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "congenital-heart-conditions",
+ "title": "CONGENITAL HEART CONDITIONS",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  186,
+  187,
+  188
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 186,
+   "text": "Atrial Septal Defect (ASD); Coarctation of the Aorta; Patent Foramen Ovale (PFO); Pulmonary Atresia; Tetralogy of Fallot; Tricuspid Atresia; Ventricular Septal Defect (VSD), and others",
+   "html": "<p><strong>Atrial Septal Defect (ASD); Coarctation of the Aorta; Patent Foramen Ovale (PFO); Pulmonary Atresia; Tetralogy of Fallot; Tricuspid Atresia; Ventricular Septal Defect (VSD), and others </strong></p>"
+  }
+ ]
+}

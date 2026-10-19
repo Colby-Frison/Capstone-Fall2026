@@ -1,0 +1,106 @@
+{
+ "id": "post-traumatic-stress-disorder-ptsd",
+ "name": "Post-Traumatic Stress Disorder (PTSD)",
+ "subtitle": null,
+ "name_in_guide": "POST-TRAUMATIC STRESS DISORDER (PTSD)",
+ "category": {
+  "id": "psychiatric",
+  "name": "Psychiatric",
+  "exam_item": "47",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/26/2024",
+ "order": 152,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Airman personal statement (typed) that describes in their own words:",
+  "b. Triggers for PTSD symptoms - characterize the frequency and severity of the symptoms (flashbacks, nightmares, anxiety, avoidance, and cognitive changes).",
+  "c. Impact - include any recent or ongoing performance change, loss of job/school, or relationship problems due to PTSD.",
+  "d. Modifications - include any recent or current changes to work, academic, or living situation to accommodate or lessen the PTSD symptoms.",
+  "e. Medication - list names and dates (if used);",
+  "f. Counseling - include any form of individual or group counseling or psychotherapy. List dates and provider(s) name(s).",
+  "Current evaluation by your treating psychiatrist or psychologist",
+  "Medication list. List all current medications (including non-PTSD related medications), reason for use, start dates, and side effects, if any. If recently discontinued, list date and reason. Note: if currently on an SSRI, must also submit items in the Initial SSRI Protocol.",
+  "Copies of any PTSD screening tools or other assessment instruments (already performed).",
+  "Copies of psychological testing (already performed) including raw data.",
+  "Veterans Administration (VA) records (if applicable)",
+  "b. VA Disability Compensation Award letters; and",
+  "c. VA clinic and/or hospital records",
+  "Previous medical/hospital records including previous clinical progress notes for any psychiatric evaluations and clinical progress notes for any psychiatric condition or PTSD that describe the dates, severity, and any treatment used."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "NO Treatment with SSRI or other psychiatric medications in the past 2 years. AND NO symptoms in past 2 years Note: Previous or on-going psychotherapy is permitted.",
+   "condition_html": "<p><strong>A.</strong></p>\n<p><strong>NO Treatment with SSRI or other psychiatric medications in the past 2 years. </strong></p>\n<p><strong>AND </strong></p>\n<p><strong>NO symptoms in past 2 years</strong></p>\n<p><strong>Note: </strong>Previous or on-going psychotherapy is permitted.</p>",
+   "evaluation_data": "The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address ALL of the questions on the Anxiety, Depression, and Related Conditions Decision Tool for the AME.",
+   "evaluation_data_html": "<p>The AME should gather information regarding the diagnosis, severity, treatment, symptoms, and address <strong>ALL</strong> of the questions on the <a href=\"https://www.faa.gov/ame_guide/media/Anxiety_Depression_Decision_Tool.pdf\" target=\"_blank\" rel=\"noopener\">Anxiety, Depression, and Related Conditions Decision Tool for the AME.</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If all items on the decision tool are in the clear “No column”, the AME may: ISSUE Summarize this history, and annotate Block 60 with “discussed the history of PTSD, no positives to screening questions, and no concerns.” If any “YES” answers, any AME concerns, or unable to verify history, go to Row B.",
+   "disposition_html": "<p><strong>If all items </strong>on the decision tool<strong> are in the clear “No column”, the AME may: </strong></p>\n<p><strong>ISSUE </strong></p>\n<p>Summarize this history, and annotate Block 60 with <strong>“discussed the history of PTSD, no positives to screening questions, and no concerns.” </strong></p>\n<p>If any “<strong>YES</strong>” answers, any AME concerns,</p>\n<p>or unable to verify history, go to Row B.</p>",
+   "pdf_page": 408,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others including: - Continued symptoms; and/or - Treatment with SSRI or other psychiatric medication in the previous two years.",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>All others including:</p>\n<ul><li><strong>Continued symptoms</strong>; and/or</li></ul>\n<ul><li><strong>Treatment with SSRI or other psychiatric medication</strong> in the previous two years.</li></ul>",
+   "evaluation_data": "Submit the following to the FAA for review: - 1. Airman personal statement (typed) that describes in their own words: - a. The incident(s) leading up to PTSD-related symptoms and the eventual diagnosis of PTSD. - b. Triggers for PTSD symptoms - characterize the frequency and severity of the symptoms (flashbacks, nightmares, anxiety, avoidance, and cognitive changes). - c. Impact - include any recent or ongoing performance change, loss of job/school, or relationship problems due to PTSD. - d. Modifications - include any recent or current changes to work, academic, or living situation to accommodate or lessen the PTSD symptoms. - e. Medication - list names and dates (if used); - f. Counseling - include any form of individual or group counseling or psychotherapy. List dates and provider(s) name(s). - 2. Current evaluation by your treating psychiatrist or psychologist with clinical summary to include severity, frequency of episodes, and response to treatment (medications or psychotherapy). The report should identify if there is any history of suicidal ideation(s), homicidal ideation(s), substance use disorder(s) or other co-morbid psychiatric or psychological conditions, and identify diagnosis (DSM-V), treatment plan, and prognosis. - 3. Medication list. List all current medications (including non-PTSD related medications), reason for use, start dates, and side effects, if any. If recently discontinued, list date and reason. Note: if currently on an SSRI, must also submit items in the Initial SSRI Protocol. - 4. Copies of any PTSD screening tools or other assessment instruments (already performed). - 5. Copies of psychological testing (already performed) including raw data. - 6. Veterans Administration (VA) records (if applicable) - a. VA Compensation and Pension disability evaluations (C&P exam); - b. VA Disability Compensation Award letters; and - c. VA clinic and/or hospital records - 7. Previous medical/hospital records including previous clinical progress notes for any psychiatric evaluations and clinical progress notes for any psychiatric condition or PTSD that describe the dates, severity, and any treatment used.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li>1. <strong>Airman personal statement</strong> (typed) that describes in their own words:<ul><li>a. The <strong>incident(s)</strong> leading up to PTSD-related symptoms and the eventual diagnosis of PTSD.</li><li>b. Triggers for PTSD symptoms - characterize the frequency and severity of the symptoms (flashbacks, nightmares, anxiety, avoidance, and cognitive changes).</li><li>c. Impact - include any recent or ongoing performance change, loss of job/school, or relationship problems due to PTSD.</li><li>d. Modifications - include any recent or current changes to work, academic, or living situation to accommodate or lessen the PTSD symptoms.</li><li>e. Medication - list names and dates (if used);</li><li>f. Counseling - include any form of individual or group counseling or psychotherapy. List dates and provider(s) name(s).</li></ul></li></ul>\n<ul><li>2. <strong>Current evaluation by your treating psychiatrist or psychologist</strong></li></ul>\n<p>with clinical summary to include severity, frequency of episodes, and response to treatment (medications or psychotherapy). The report should identify if there is any history of suicidal ideation(s), homicidal ideation(s), substance use disorder(s) or other co-morbid psychiatric or psychological conditions, and identify diagnosis (DSM-V), treatment plan, and prognosis.</p>\n<ul><li>3. <strong>Medication list. </strong>List<strong> all</strong> current medications (including non-PTSD related medications), reason for use, start dates, and side effects, if any. If recently discontinued, list date and reason.<strong> Note: if currently on an SSRI, must also submit items in the</strong> <a href=\"https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf\" target=\"_blank\" rel=\"noopener\">Initial SSRI Protocol.</a></li></ul>\n<ul><li>4. <strong>Copies of any PTSD screening tools</strong> or other assessment instruments (already performed).</li></ul>\n<ul><li>5. <strong>Copies of psychological testing</strong> (already performed) including raw data.</li></ul>\n<ul><li>6. <strong>Veterans Administration (VA) records</strong> (if applicable)<ul><li>a. VA Compensation and Pension disability evaluations (C&amp;P exam);</li><li>b. VA Disability Compensation Award letters; and</li><li>c. VA clinic and/or hospital records</li></ul></li><li>7. <strong>Previous medical/hospital records</strong> including previous clinical progress notes for any psychiatric evaluations and clinical progress notes for any psychiatric condition or PTSD that describe the dates, severity, and any treatment used.</li></ul>",
+   "what_to_bring": [
+    "Airman personal statement (typed) that describes in their own words:",
+    "b. Triggers for PTSD symptoms - characterize the frequency and severity of the symptoms (flashbacks, nightmares, anxiety, avoidance, and cognitive changes).",
+    "c. Impact - include any recent or ongoing performance change, loss of job/school, or relationship problems due to PTSD.",
+    "d. Modifications - include any recent or current changes to work, academic, or living situation to accommodate or lessen the PTSD symptoms.",
+    "e. Medication - list names and dates (if used);",
+    "f. Counseling - include any form of individual or group counseling or psychotherapy. List dates and provider(s) name(s).",
+    "Current evaluation by your treating psychiatrist or psychologist",
+    "Medication list. List all current medications (including non-PTSD related medications), reason for use, start dates, and side effects, if any. If recently discontinued, list date and reason. Note: if currently on an SSRI, must also submit items in the Initial SSRI Protocol.",
+    "Copies of any PTSD screening tools or other assessment instruments (already performed).",
+    "Copies of psychological testing (already performed) including raw data.",
+    "Veterans Administration (VA) records (if applicable)",
+    "b. VA Disability Compensation Award letters; and",
+    "c. VA clinic and/or hospital records",
+    "Previous medical/hospital records including previous clinical progress notes for any psychiatric evaluations and clinical progress notes for any psychiatric condition or PTSD that describe the dates, severity, and any treatment used."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 408,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Anxiety, Depression, and Related Conditions Decision Tool for the AME.",
+   "href": "https://www.faa.gov/ame_guide/media/Anxiety_Depression_Decision_Tool.pdf"
+  },
+  {
+   "text": "Initial SSRI Protocol.",
+   "href": "https://www.faa.gov/ame_guide/media/Airman_Information_SSRI_Initial_Certification.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "post-traumatic-stress-disorder-ptsd",
+  "section_title": "POST-TRAUMATIC STRESS DISORDER (PTSD)",
+  "pdf_pages": [
+   408
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

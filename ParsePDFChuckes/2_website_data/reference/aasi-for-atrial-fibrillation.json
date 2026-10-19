@@ -1,0 +1,77 @@
+{
+ "slug": "aasi-for-atrial-fibrillation",
+ "title": "AASI for Atrial Fibrillation",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  686
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "(Updated 03/27/2024)",
+   "html": "<p>(Updated 03/27/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 686,
+   "text": "- An Authorization granted by the FAA;\n- A report of a minimum 24-hour cardiac monitor performed within last 90 days. (Cardiac monitor report must be submitted, even if findings are normal, and should include 1-page computerized summary and the representative full-scale multi-lead ECG tracings);\n- A completed Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary and a cardiologist evaluation that addresses all items on the status report; and\n- The above data verifies: - If all items on the Non-Valvular Atrial Fibrillation (AFib)/A-Flutter",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>A report of a minimum 24-hour cardiac monitor performed within last 90 days. (Cardiac monitor report must be submitted, even if findings are normal, and should include 1-page computerized summary and the representative full-scale multi-lead ECG tracings);</li><li>A completed <a href=\"https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf\" target=\"_blank\" rel=\"noopener\">Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary</a> and a cardiologist evaluation that addresses all items on the status report; and</li><li><p>• The above data verifies:</p>\n<ul><li>If all items on the <a href=\"https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf\" target=\"_blank\" rel=\"noopener\">Non-Valvular Atrial Fibrillation (AFib)/A-Flutter</a></li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "Status Summary are in the left-hand column OR reports verify:",
+   "html": "<p>Status Summary are in the left-hand column OR reports verify:</p>"
+  },
+  {
+   "type": "list",
+   "page": 686,
+   "text": "- No interval evidence or suspicion of stroke, TIA, or other thromboembolic event.\n- Heart rate is well controlled on cardiac monitor by cardiologist interpretation.\n- If symptom, rate, or rhythm control is indicated and, if so, a description of how it this is managed.\n- When CHA2DS2-VASc score ≥ 2, verify emboli mitigation is in place without side effects. See Pharmaceuticals – Anticoagulants - Emboli Mitigation .",
+   "html": "<ul><li>No interval evidence or suspicion of stroke, TIA, or other thromboembolic event.</li><li>Heart rate is well controlled on cardiac monitor by cardiologist interpretation.</li><li>If symptom, rate, or rhythm control is indicated and, if so, a description of how it this is managed.</li><li>When CHA2DS2-VASc score ≥ 2, verify emboli mitigation is in place without side effects. See Pharmaceuticals – Anticoagulants - <a href=\"https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">Emboli Mitigation</a> .</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 686,
+   "text": "- Applicant had left atrial appendage (LAA) occlusion (Watchman)/excision or developed a new cardiac condition;\n- There has been an interval definitive or suspicious thromboembolic event;\n- Cardiology interpretation indicates questionable or poor rate control. Average heart rate is",
+   "html": "<ul><li>Applicant had left atrial appendage (LAA) occlusion (Watchman)/excision or developed a new cardiac condition;</li><li>There has been an interval definitive or suspicious thromboembolic event;</li><li>Cardiology interpretation indicates questionable or poor rate control. Average heart rate is</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 686,
+   "text": "> 100, maximum (non-exercise) is >120, or a single pause is > 3 seconds;",
+   "html": "<p>&gt; 100, maximum (non-exercise) is &gt;120, or a single pause is &gt; 3 seconds;</p>"
+  },
+  {
+   "type": "list",
+   "page": 686,
+   "text": "- Evidence that symptoms, rate, or rhythms are not well controlled;\n- CHA2DS2-VASc is ≥ 2 and emboli not mitigated; (Acceptable emboli mitigation under AASI authorization is anti-coagulation with either NOAC/DOAC/warfarin. When using warfarin/Jantoven, if more than 20% of INR values are less than 2.0 or greater than 3.); and/or\n- Interval bleeding that required medical intervention.",
+   "html": "<ul><li>Evidence that symptoms, rate, or rhythms are not well controlled;</li><li><a href=\"https://www.faa.gov/ame_guide/media/EmboliMitigationAFib.pdf\" target=\"_blank\" rel=\"noopener\">• CHA2DS2-VASc</a> is ≥ 2 and emboli not mitigated; (Acceptable emboli mitigation under AASI authorization is anti-coagulation with either NOAC/DOAC/warfarin. When using warfarin/Jantoven, if more than 20% of INR values are less than 2.0 or greater than 3.); and/or</li><li>Interval bleeding that required medical intervention.</li></ul>"
+  }
+ ]
+}

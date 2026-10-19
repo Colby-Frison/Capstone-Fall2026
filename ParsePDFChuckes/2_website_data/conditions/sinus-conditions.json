@@ -1,0 +1,92 @@
+{
+ "id": "sinus-conditions",
+ "name": "Sinus Conditions",
+ "subtitle": "SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+ "name_in_guide": "SINUS CONDITIONS SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+ "category": {
+  "id": "sinuses",
+  "name": "Sinuses",
+  "exam_item": "27",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/25/2024",
+ "order": 5,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition.",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan (prognosis); and",
+  "Follow-up.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include:",
+  "Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma.",
+  "Sinus CT imaging (report) already performed;",
+  "Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities;"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Acute infection(s) from any cause requiring medication(s) or not OR Deviated nasal septum (not causing obstruction) corrected or not Note: Recurrent, isolated infections which clear can be followed under Row A.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Acute infection(s) from any cause requiring medication(s) or not</p>\n<p>OR</p>\n<p>Deviated nasal septum (not causing obstruction) corrected or not</p>\n<p><strong>Note:</strong> Recurrent, isolated infections which clear can be followed under Row A.</p>",
+   "evaluation_data": "If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties: Notes: If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered. Verify medications listed are acceptable. 61.53 applies. Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis.",
+   "evaluation_data_html": "<p>If the AME can determine the condition has resolved without sequelae with no symptoms or current problems that would interfere with flight duties:</p>\n<p><strong>Notes: </strong>If the airman is currently on antibiotics or symptomatic, the treatment course should be completed before medical certification can be considered.</p>\n<p>Verify medications listed are acceptable.</p>\n<p>61.53 applies.</p>\n<p>Pilots should not fly with a “cold” or viral upper respiratory tract infection, or with the condition of rhinosinusitis.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p>ISSUE</p>\n<p><strong>Annotate</strong> this information in</p>\n<p>Block 60.</p>",
+   "pdf_page": 68,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Chronic or severe (hospitalized for infection) OR Affected by barometric changes OR Sinus Obstruction from nasal polyps or cysts, tumor, anatomic (deviated nasal septum)",
+   "condition_html": "<p>B.<strong> Chronic</strong> or severe (hospitalized for infection)</p>\n<p>OR</p>\n<p>Affected by barometric changes</p>\n<p>OR</p>\n<p>Sinus Obstruction</p>\n<p>from nasal polyps or cysts, tumor, anatomic (deviated nasal septum)</p>",
+   "evaluation_data": "If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved. Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include: - A detailed summary of the history of the condition. - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan (prognosis); and - Follow-up. 2. Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma. 3. Sinus CT imaging (report) already performed; 4. Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities; Pilots should NOT fly with a \"cold\" or viral upper respiratory tract infection, or with the condition of rhinosinusitis.",
+   "evaluation_data_html": "<p>If the AME history and physical exam confirm the condition is chronic, severe, or symptomatic, the airman should not fly until resolved.</p>\n<p>Submit the following for FAA review:</p>\n<p><strong>1.</strong> A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition.</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul>\n<p><strong>2.</strong> Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma.</p>\n<p><strong>3.</strong> Sinus CT imaging (report) already performed;</p>\n<p><strong>4. </strong> Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities;</p>\n<p>Pilots should NOT fly with a &quot;cold&quot; or viral upper respiratory tract infection, or with the condition of rhinosinusitis.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition.",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan (prognosis); and",
+    "Follow-up.",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (preferred) or allergist no more than 90 days before the AME exam. It must include:",
+    "Personal statement discussing symptoms, severity, how often they occur, and treatment used, any prior surgery or trauma.",
+    "Sinus CT imaging (report) already performed;",
+    "Results of evaluation(s) for underlying conditions such as polyps, ciliary dysmotility syndrome, autoimmune disease, immune suppression, or anatomic abnormalities;"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 68,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>NOTE: For Sinus Obstruction due to tumor, see that section</p>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-27-sinuses",
+  "section_title": "ITEM 27. Sinuses",
+  "pdf_pages": [
+   68,
+   69
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "eyes-refractive-surgery",
+ "name": "Eyes - Refractive Surgery",
+ "subtitle": "(Use for elective vision surgery such as Excimer Laser Corneal Refractive Surgery [LASIK, PRK, SMILE])",
+ "name_in_guide": "EYES - REFRACTIVE SURGERY (Use for elective vision surgery such as Excimer Laser Corneal Refractive Surgery [LASIK, PRK, SMILE])",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 26,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Glare",
+  "Halos",
+  "Loss of contrast sensitivity",
+  "Poor night vision",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and",
+  "Follow-up.",
+  "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Copies of any testing performed (visual fields, etc.)"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- A. Surgery three (3) or more months ago AND - Full recovery, - Released from post operative care, and - Off all medications. The individual meets the vision standards for class applied:",
+   "condition_html": "<ul><li><strong>A. </strong>Surgery three (3) or more months ago</li></ul>\n<p>AND</p>\n<ul><li>Full recovery,</li><li>Released from post operative care, and</li><li>Off all medications.</li></ul>\n<p>The individual meets the <a href=\"https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf\" target=\"_blank\" rel=\"noopener\">vision standards</a> for class applied:</p>",
+   "evaluation_data": "Generally, not of aeromedical concern. If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as - Glare - Halos - Loss of contrast sensitivity - Poor night vision AND the individual meets the vision standards for class applied Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.",
+   "evaluation_data_html": "<p>Generally, not of aeromedical concern.</p>\n<p>If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as</p>\n<ul><li>Glare</li><li>Halos</li><li>Loss of contrast sensitivity</li><li>Poor night vision</li></ul>\n<p>AND the individual meets the vision standards for class applied</p>\n<p>Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.</p>",
+   "what_to_bring": [
+    "Glare",
+    "Halos",
+    "Loss of contrast sensitivity",
+    "Poor night vision"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>",
+   "pdf_page": 110,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- B. Surgery within the past 3 months.",
+   "condition_html": "<ul><li><strong>B. </strong>Surgery within the past 3 months.</li></ul>",
+   "evaluation_data": "The AME should review a completed and signed Eyes - Refractive Surgery Status Summary from the ophthalmologist or optometrist. If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:",
+   "evaluation_data_html": "<p>The AME should review a completed and signed <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Eyes - Refractive Surgery Status Summary</a> from the ophthalmologist or optometrist.</p>\n<p>If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60 and submit the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 110,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others including: - Complications - Does not meet vision standards - Quality of vision affected",
+   "condition_html": "<p><strong>C.</strong> All others including:</p>\n<ul><li>Complications</li><li>Does not meet vision standards</li><li>Quality of vision affected</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 2. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and - Follow-up. 2. The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 3. Copies of any testing performed (visual fields, etc.)",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>2. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>ophthalmologist </strong>no more than <strong>90 days </strong>prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and</li><li>Follow-up.</li></ul>\n<p>2. The Clinical Progress Note must specifically include the best corrected <strong>visual acuity</strong> for distant and near vision (intermediate - if age 50 or older and First or Second Class). <strong>If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</strong></p>\n<p>3. Copies of any testing performed (visual fields, etc.)</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and",
+    "Follow-up.",
+    "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Copies of any testing performed (visual fields, etc.)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 110,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [
+  "Use this table with the Eyes - Refractive Surgery Status Summary for:"
+ ],
+ "notes_html": "<p>Use this table with the <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Eyes - Refractive Surgery Status Summary</a> for:</p>\n<ul><li>1. LASIK (Laser-assisted in situ keratomileusis)</li><li>2. SMILE (Small Incisional Lenticular Extraction)</li><li>3. PRK (photorefractive keratectomy)</li></ul>\n<p><strong>EYES – REFRACTIVE SURGERY STATUS SUMMARY </strong></p>\n<p>(Updated 08/272025)</p>\n<p>Use for <strong>elective corneal refractive surgery</strong> such as LASIK, SMILE, PRK</p>\n<p>Name _______________________________ Birthdate ________________</p>\n<p>Applicant ID#__________________________ PI# _____________________</p>\n<p>If the pilot or ATCS has an AASI/SI/SC for any other EYE condition, KERATOCONUS, conductive keratoplasty (CK), clear lens extraction, visual field loss or this is a non-FDA approved procedure: <strong>STOP. </strong> Do not use this summary, submit all clinical progress notes, or see corresponding AME Guide page.</p>\n<p>Please have your <strong>ophthalmologist or optometrist </strong>complete, sign, and date this sheet or submit a <a href=\"http://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> that addresses ALL items below.</p>\n<p>Right Eye (OD) Left Eye (OS)</p>\n<p><strong>DATE OF SURGERY </strong> _______/________/_____ _______/______/______</p>\n<ul><li>1. <strong>Has the MINIMUM RECOVERY PERIOD</strong> been met? (Circle procedure)</li></ul>\n<table><thead><tr><th>YES</th><th>NO*</th></tr></thead><tbody></tbody></table>\n<ul><li><ul><li><strong>Two (2) weeks: </strong>LASIK (Laser-assisted in situ keratomileusis)</li></ul></li></ul>\n<p>SMILE (Small Incisional Lenticular Extraction)</p>\n<ul><li><ul><li><strong>Twelve (12) weeks: </strong>PRK (photorefractive keratectomy)</li></ul></li></ul>\n<ul><li>2. Absent from surgical or post-operative complications (e.g., elevated pressure, delayed healing), released from postoperative care, and NO clinical concerns*.</li></ul>\n<ul><li>3. Off all prescription eye medication or on surgeon’s usual medication taper.</li></ul>\n<ul><li>4. Without adverse visual symptoms which interfere with visual functioning: glare, halo, photophobia, multiple images, blurred vision, decreased quality of vision in low light conditions (dusk, dawn, night), no difficulty with nighttime driving. CAUTION: these procedures may interfere with nighttime vision – please ask specifically about quality of night vision.</li></ul>\n<ul><li>5. Visual results have stabilized, lens correction received (if needed) and best corrected vision meets standards. Annotate VA below.</li></ul>\n<table><thead><tr><th>Visual Acuity [Medical Standards]</th><th>Right (OD)</th><th>Left (OS)</th><th>Correction used (yes or no)</th></tr></thead><tbody><tr><td><p><strong>Distant </strong></p>\n<p>(1st and 2nd class <strong>20/20</strong> or better; 3rd class 20/40 or better)</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td></tr><tr><td><p><strong>Near (16”) </strong></p>\n<p>(All classes 20/40 or better)</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td></tr><tr><td><p><strong>Intermediate (32”): </strong>Age 50 and over, 1st or 2nd class (20/40 or better); 3rd class not required</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td></tr></tbody></table>\n<p>*If any concerns, please describe below or attach a Clinical Progress Note.</p>\n<p>Ophthalmologist or Optometrist signature _______________________ Date _____________________________</p>\n<p>Printed name or office name __________________________________ Office phone number ________________</p>\n<ul><li>Pilots: Submit either this summary or all supporting documentation addressing each item to your AME for electronic upload to the FAA.</li></ul>\n<ul><li>ATCS: Submit the information to your Regional Flight Surgeon’s Office.</li></ul>\n<p><strong>AME: </strong> If<strong> ALL </strong>items fall into the clear “YES” column and the individual meets vision requirements for class, the AME may issue.</p>\n<p>If <strong>Any Single </strong>Item falls into the shaded “NO” column, the <strong>AME MUST DEFER. </strong>The AME should note what aspect caused the deferral and explain any “NO” answers. Attach the most recent detailed Clinical Progress Note(s) which addresses these items.</p>\n<p><strong>NOTE:</strong> This Status Summary is NOT required (clinical records may be submitted); however, it will help to streamline and significantly DECREASE FAA review time.</p>",
+ "links": [
+  {
+   "text": "Eyes - Refractive Surgery Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "http://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "diplopia-double-vision",
+  "section_title": "DIPLOPIA (DOUBLE VISION)",
+  "pdf_pages": [
+   110,
+   111,
+   112,
+   113
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

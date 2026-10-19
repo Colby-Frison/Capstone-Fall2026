@@ -1,0 +1,104 @@
+{
+ "id": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+ "name": "Arteriovenous Malformation (AVM) - Peripheral (lungs, liver, bone)",
+ "subtitle": null,
+ "name_in_guide": "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)",
+ "category": {
+  "id": "vascular-system",
+  "name": "Vascular System",
+  "exam_item": "37",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 67,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician no more than 90 days before the AME exam.",
+  "Copies of any testing already performed (e.g. X-ray, MRI, CT, or MRA).",
+  "If surgery has been performed, submit:",
+  "b. Hospital Discharge Summary",
+  "c. Operative report(s)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Peripheral AVM (lungs, liver, bone, etc.) Incidental finding on imaging",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Peripheral AVM (lungs, liver, bone, etc.)</p>\n<p>Incidental finding on imaging</p>",
+   "evaluation_data": "If the AME can determine this is an incidental finding or does not require clinical surveillance, and there are no symptoms that would interfere with flight or safety-related duties:",
+   "evaluation_data_html": "<p>If the AME can determine this is an incidental finding or does not require clinical surveillance, and there are no symptoms that would interfere with flight or safety-related duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 199,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Peripheral AVM (lungs, liver, bone, etc.) Symptomatic OR requires clinical surveillance OR treatment is recommended",
+   "condition_html": "<p><strong>B. </strong></p>\n<p>Peripheral AVM (lungs, liver, bone, etc.)</p>\n<p>Symptomatic</p>\n<p>OR</p>\n<p>requires clinical surveillance</p>\n<p>OR</p>\n<p>treatment is recommended</p>",
+   "evaluation_data": "Submit the following for FAA review: - 9. A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 10. Copies of any testing already performed (e.g. X-ray, MRI, CT, or MRA). - 11. If surgery has been performed, submit: - a. Admission History & Physical (H&P) - b. Hospital Discharge Summary - c. Operative report(s).",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>9. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their <strong>treating physician</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>10. </strong>Copies of any testing already performed (e.g. X-ray, MRI, CT, or MRA).</li></ul>\n<ul><li><strong>11. </strong>If surgery has been performed, submit:<ul><li><strong>a. </strong> Admission History &amp; Physical (H&amp;P)</li><li><strong>b. </strong>Hospital Discharge Summary</li><li><strong>c. </strong>Operative report(s).</li></ul></li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating physician no more than 90 days before the AME exam.",
+    "Copies of any testing already performed (e.g. X-ray, MRI, CT, or MRA).",
+    "If surgery has been performed, submit:",
+    "b. Hospital Discharge Summary",
+    "c. Operative report(s)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 199,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Nervous system (brain or spinal cord)",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Nervous system</p>\n<p>(brain or spinal cord)</p>",
+   "evaluation_data": "See that page: AVM - Neurological (brain or spinal cord)",
+   "evaluation_data_html": "<p>See that page:</p>\n<p><a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Neurological.pdf\" target=\"_blank\" rel=\"noopener\">AVM - Neurological (brain or spinal cord)</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Summarize findings in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Summarize findings in Item 60.</p>",
+   "pdf_page": 199,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "AVM - Neurological (brain or spinal cord)",
+   "href": "https://www.faa.gov/ame_guide/media/Dispo_Table_Arteriovenous_Malformation_AVM_Neurological.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)",
+  "pdf_pages": [
+   199
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

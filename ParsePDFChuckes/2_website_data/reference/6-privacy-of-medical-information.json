@@ -1,0 +1,60 @@
+{
+ "slug": "6-privacy-of-medical-information",
+ "title": "6. Privacy of Medical Information",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  19,
+  20
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 19,
+   "text": "(updated 8/26/2026)",
+   "html": "<p>(updated 8/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "text": "A. Within the FAA, access to an individual's medical information is strictly on a \"need-to-know\" basis. The safeguards of the Privacy Act apply to the application for airman medical certification and to other medical files in the FAA's possession. The FAA does not release medical information without an order from a court of competent jurisdiction, written permission from the individual to whom it applies, or, with the individual's knowledge, during litigation of matters related to certification. The FAA does, however, on request, disclose the fact that an individual holds an airman medical certificate and its class, and it may provide medical information regarding a pilot involved in an accident to the National Transportation Safety Board (NTSB) (or to a physician of the appropriate medical discipline who is retained by the NTSB for use in aircraft accident investigation).",
+   "html": "<p>A. Within the FAA, access to an individual&#x27;s medical information is strictly on a &quot;need-to-know&quot; basis. The safeguards of the Privacy Act apply to the application for airman medical certification and to other medical files in the FAA&#x27;s possession. The FAA does not release medical information without an order from a court of competent jurisdiction, written permission from the individual to whom it applies, or, with the individual&#x27;s knowledge, during litigation of matters related to certification. The FAA does, however, on request, disclose the fact that an individual holds an airman medical certificate and its class, and it may provide medical information regarding a pilot involved in an accident to the National Transportation Safety Board (NTSB) (or to a physician of the appropriate medical discipline who is retained by the NTSB for use in aircraft accident investigation).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 19,
+   "text": "The AME, as a representative of the FAA, should treat the applicant's medical certification information in accordance with the requirements of the Privacy Act. Therefore, information should not be released without the written consent of the applicant or an order from a court of competent jurisdiction.",
+   "html": "<p>The AME, as a representative of the FAA, should treat the applicant&#x27;s medical certification information in accordance with the requirements of the Privacy Act. Therefore, information should not be released without the written consent of the applicant or an order from a court of competent jurisdiction.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "If a court order or subpoena is received by the AME, see the Subpoena for Medical Records or Testimony: AME Guidance.",
+   "html": "<p>If a court order or subpoena is received by the AME, see the Subpoena for Medical Records or Testimony: AME Guidance.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "Similarly, unless the applicant's written consent for release routine in nature (e.g., accompanying a standard insurance company request), the FAA must be contacted before releasing any information. In all cases, copies of all released information should be retained.",
+   "html": "<p>Similarly, unless the applicant&#x27;s written consent for release routine in nature (e.g., accompanying a standard insurance company request), the FAA must be contacted before releasing any information. In all cases, copies of all released information should be retained.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "B. Health Insurance Portability and Accountability Act of 1996 (HIPAA) and AME’s activities for the FAA.",
+   "html": "<p>B. Health Insurance Portability and Accountability Act of 1996 (HIPAA) and AME’s activities for the FAA.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "This Act provides specific patient protections and depending upon an AME’s activation and practice patterns, you may have to comply with additional requirements.",
+   "html": "<p>This Act provides specific patient protections and depending upon an AME’s activation and practice patterns, you may have to comply with additional requirements.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 20,
+   "text": "C. AMEs shall certify at the time of designation, re-designation, or upon request that they shall protect the privacy of medical information.",
+   "html": "<p>C. AMEs shall certify at the time of designation, re-designation, or upon request that they shall protect the privacy of medical information.</p>"
+  }
+ ]
+}

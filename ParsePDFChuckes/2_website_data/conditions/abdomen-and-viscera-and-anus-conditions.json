@@ -1,0 +1,224 @@
+{
+ "id": "abdomen-and-viscera-and-anus-conditions",
+ "name": "Abdomen and Viscera and Anus Conditions",
+ "subtitle": null,
+ "name_in_guide": "ABDOMEN AND VISCERA AND ANUS CONDITIONS",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 74,
+ "decisions": [
+  "caci",
+  "issue",
+  "special_issuance",
+  "faa_decision",
+  "aasi"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects.",
+  "Submit all pertinent medical records, current status report to include any other testing deemed necessary",
+  "Review all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects",
+  "Provide hematologic workup"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Colitis (Ulcerative, Regional Enteritis or Crohn's disease) or Irritable Bowel Syndrome",
+   "condition_html": "<p>Colitis</p>\n<p>(Ulcerative, Regional Enteritis or Crohn&#x27;s disease) or Irritable Bowel Syndrome</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects."
+   ],
+   "decisions": [
+    "caci",
+    "issue",
+    "special_issuance",
+    "faa_decision",
+    "aasi"
+   ],
+   "disposition": "Follow the CACI – Colitis Worksheet. If Airman meets all certification criteria – Issue Initial Special Issuance - Requires FAA Decision Follow-up Special Issuance - See AASI",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Colitis Worksheet.</a> If Airman meets all certification criteria – <strong>Issue</strong></p>\n<p><strong>Initial Special Issuance</strong> - Requires FAA Decision</p>\n<p><strong>Follow-up Special Issuance</strong> - See AASI</p>",
+   "pdf_page": 210,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hepatitis",
+   "condition_html": "<p>Hepatitis</p>",
+   "evaluation_data": "Submit all pertinent medical records, current status report to include any other testing deemed necessary",
+   "evaluation_data_html": "<p>Submit all pertinent medical records, current status report to include any other testing deemed necessary</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records, current status report to include any other testing deemed necessary"
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If disease is resolved without sequela - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If disease is resolved without sequela - <strong>Issue</strong> Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 218,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hepatitis C",
+   "condition_html": "<p>Hepatitis C</p>",
+   "evaluation_data": "Review all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects",
+   "evaluation_data_html": "<p>Review all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects</p>",
+   "what_to_bring": [
+    "Review all pertinent medical information and current status report, include duration of symptoms, name and dosage of drugs and side effects"
+   ],
+   "decisions": [
+    "issue",
+    "caci",
+    "faa_decision"
+   ],
+   "disposition": "If disease is resolved without sequela and need for medications- Issue If applicant has chronic Hepatitis C, follow the CACI - Hepatitis C - Chronic Worksheet . If Airman meets all certification criteria - Issue All others require FAA decision. Submit all evaluation data.",
+   "disposition_html": "<p>If disease is resolved without sequela and need for medications- <strong>Issue </strong></p>\n<p>If applicant has chronic Hepatitis C, follow the CACI - <a href=\"https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf\" target=\"_blank\" rel=\"noopener\">Hepatitis C - Chronic Worksheet</a> . If Airman meets all certification criteria - <strong>Issue All others</strong> require FAA decision. Submit all evaluation data.</p>",
+   "pdf_page": 218,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Hernia - Inguinal, Ventral or Hiatal",
+   "condition_html": "<p>Hernia - Inguinal, Ventral or Hiatal</p>",
+   "evaluation_data": "Document history and findings",
+   "evaluation_data_html": "<p>Document history and findings</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision",
+    "issue"
+   ],
+   "disposition": "If symptomatic; likely to cause any degree of obstruction - Requires FAA Decision Otherwise - Issue",
+   "disposition_html": "<p>If symptomatic; likely to cause any degree of obstruction - Requires FAA Decision</p>\n<p>Otherwise - <strong>Issue</strong></p>",
+   "pdf_page": 225,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Peptic Ulcer",
+   "condition_html": "<p>Peptic Ulcer</p>",
+   "evaluation_data": "See Peptic Ulcer Protocol",
+   "evaluation_data_html": "<p>See Peptic Ulcer Protocol</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 225,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Splenomegaly",
+   "condition_html": "<p>Splenomegaly</p>",
+   "evaluation_data": "Provide hematologic workup",
+   "evaluation_data_html": "<p>Provide hematologic workup</p>",
+   "what_to_bring": [
+    "Provide hematologic workup"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 225,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Colitis Worksheet",
+   "updated": "04/29/2026",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed Clinical Progress Note from the treating physician",
+     "acceptable_certification_criteria": "[ ] Condition is stable with no effects that would interfere with flight duties, AND [ ] No surgery for the condition in the last 6 (six) weeks."
+    },
+    {
+     "ame_must_review": "Symptoms",
+     "acceptable_certification_criteria": "[ ] None or mild diarrhea (less than 4 bowel movements/day) with or without mild abdominal pain/cramping AND [ ] No severe abdominal symptoms or fatigue which limits activity."
+    },
+    {
+     "ame_must_review": "Cause of Colitis",
+     "acceptable_certification_criteria": "[ ] Crohn’s disease, ulcerative colitis, microscopic colitis, or irritable bowel syndrome Any other causes require an FAA decision."
+    },
+    {
+     "ame_must_review": "Medications for condition KEY: Interleukin Inhibitors (IL) Phosphodiesterase-4 Enzyme Inhibitor (PDE4) Tumor necrosis factor inhibitors (TNF) Selective Adhesion- Molecule Inhibitor (SAM)",
+     "acceptable_certification_criteria": "[ ] One or more of the following: - Guanylate Cyclase-C (GC-C) Agonist - linaclotide(Linzess), plecanatide (Trulance) - Sodium/Hydrogen Exchanger 3 Inhibitor - tenapanor (Ibsrela) - Steroids - Oral formulations prednisone 20 mg/day equivalent or less (see steroid conversion calculator ) - Oral budesonide 9mg or less - Steroid foams or enemas/ budesonide enema - azathioprine (Imuran) - hyoscyamine - use 1-2 times a week with no side effects and no-fly 72 hours after use - loperamide less than or equal to 16 mg a day and no side effects - mercaptopurine (6-MP) - mesalamine (Asacol, Pentasa, Lialda) - methotrexate (Trexall) - sulfasalazine (Azulfidine) - Any single medication listed below after a 2-week ground trial and: - No post-dose observation time: - JAK: tofacitinib (Xeljanz) and upadacitinib (Rinvoq) - 4-hour post-dose observation time: - TNF: adalimumab (Humira and all biosimilars),certolizumab (Cimzia), golimumab (Simponi) - IL: guselkumab (Tremfya), mirikizumab (Omvoh), risankizumab (Skyrizi), ustekinumab (Stelara) - SAM: vedolizumab (Entyvio) - 24-hour post-dose observation time: - TNF: infliximab (Inflectra, Remicade, Renflexis)"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified colitis. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified colitis.",
+    "NOT CACI qualified. I have deferred. (Submit supporting documents.)"
+   ]
+  },
+  {
+   "title": "CACI - Hepatitis C - Chronic Worksheet",
+   "updated": "04/13/2022",
+   "criteria": [
+    {
+     "ame_must_review": "Treating physician finds the condition stable on current regimen and no changes recommended",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Complications or symptoms from Chronic Hepatitis C",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Medications for condition",
+     "acceptable_certification_criteria": "[ ] None"
+    },
+    {
+     "ame_must_review": "Current Labs",
+     "acceptable_certification_criteria": "[ ] Within last 90 days [ ] AST (SGOT), ALT (SGPT), Albumin, and PT all within 10% of normal lab scale."
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Hepatitis C - Chronic. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified Hepatitis C - Chronic.",
+    "NOT CACI qualified Hepatitis C - Chronic. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 04/29/2026)</p>\n<p>(Updated 04/13/2022)</p>",
+ "links": [
+  {
+   "text": "CACI – Colitis Worksheet.",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIColitis.pdf"
+  },
+  {
+   "text": "Hepatitis C - Chronic Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIHepatitisC-Chronic.pdf"
+  }
+ ],
+ "aliases": [
+  "Colitis (Ulcerative, Regional Enteritis or Crohn's disease) or Irritable Bowel S",
+  "Hepatitis",
+  "Hepatitis C",
+  "Hernia - Inguinal, Ventral or Hiatal",
+  "Peptic Ulcer",
+  "Splenomegaly"
+ ],
+ "source": {
+  "section": "item-38-abdomen-and-viscera",
+  "section_title": "ITEM 38. Abdomen and Viscera",
+  "pdf_pages": [
+   210,
+   211,
+   218,
+   219,
+   225
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

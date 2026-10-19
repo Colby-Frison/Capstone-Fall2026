@@ -1,0 +1,61 @@
+{
+ "id": "endocarditis",
+ "name": "Endocarditis",
+ "subtitle": null,
+ "name_in_guide": "ENDOCARDITIS",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "06/24/2026",
+ "order": 59,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or cardiologist no more than 90 days before the AME exam.",
+  "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+  "Other testing: Any deemed clinically necessary and already performed by the treating physician.",
+  "Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Current or historical diagnosis If resulting in cardiac valve repair or valve replacement, see that page.",
+   "condition_html": "<p><strong>A. Current or historical diagnosis </strong>If resulting in cardiac valve repair or valve replacement, see that page.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. 2. Echocardiogram (Echo). Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam. 3. Other testing: Any deemed clinically necessary and already performed by the treating physician. 4. Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p><strong>1. </strong>A current, detailed Clinical Progress Note generated from a clinic visit with <strong>an infectious disease specialist or cardiologist </strong>no more than 90 days before the AME exam.</p>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p><strong>2. Echocardiogram (Echo)</strong>. Copies of a 2- D and Doppler flow study report performed no more than <strong>90 days prior </strong>to the AME exam.</p>\n<p><strong>3. </strong>Other testing: Any deemed clinically necessary and already performed by the treating physician.</p>\n<p><strong>4. </strong>Hospital records: History and Physical (H&amp;P), operative notes, and discharge summary (if applicable).</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with an infectious disease specialist or cardiologist no more than 90 days before the AME exam.",
+    "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+    "Other testing: Any deemed clinically necessary and already performed by the treating physician.",
+    "Hospital records: History and Physical (H&P), operative notes, and discharge summary (if applicable)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 181,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "endocarditis",
+  "section_title": "ENDOCARDITIS",
+  "pdf_pages": [
+   181
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

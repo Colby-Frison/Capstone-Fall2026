@@ -1,0 +1,102 @@
+{
+ "slug": "25-aeromedical-summary-ams",
+ "title": "25. Aeromedical Summary (AMS)",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  38,
+  39
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 38,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "text": "What is it?",
+   "html": "<p><strong>What is it? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 38,
+   "text": "- A one- to two-page summary and recommendation encompassing all the factors that may be significant to a pilot from the aeromedical risk perspective.\n- It includes a succinct history of any conditions(s), treatments, studies/testing already performed, and should also give the professional opinion regarding aeromedical safety risks and concerns.\n- It may also include steps to reduce or remove risk to aviation safety that would allow for flight/aviation duties with certain restrictions.\n- Overall, it is a tool to aid the decision authority to determine if the additional risk posed to aviation safety by the medical condition and/or treatment remains acceptable and if mitigating factors are present.",
+   "html": "<ul><li>A one- to two-page summary and recommendation encompassing all the factors that may be significant to a pilot from the aeromedical risk perspective.</li><li>It includes a succinct history of any conditions(s), treatments, studies/testing already performed, and should also give the professional opinion regarding aeromedical safety risks and concerns.</li><li>It may also include steps to reduce or remove risk to aviation safety that would allow for flight/aviation duties with certain restrictions.</li><li>Overall, it is a <strong>tool</strong> to aid the decision authority to determine if the additional risk posed to aviation safety by the medical condition and/or treatment remains acceptable and if mitigating factors are present.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "text": "Is this a Detailed Clinical Progress Note (DCPN)?",
+   "html": "<p><strong>Is this a Detailed Clinical Progress Note (DCPN)? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 38,
+   "text": "- No. It differs from a Detailed Clinical Progress Note (DCPN) in that the writer must not only address the clinical issues, but also the impact on aviation safety if the individual in question is allowed to continue as a crew member (not everyone with a medical certificate is a pilot).\n- The author of an AMS should not only be familiar with the clinical aspects of the case, but with the demands of the type of flying in which the crew member is engaged.\n- The AMS is normally completed by a flight surgeon or a provider trained in a specific field or specialty (i.e., neurology or cardiology) with respect to its application to aerospace medicine.",
+   "html": "<ul><li>No. It differs from a Detailed Clinical Progress Note (DCPN) in that the writer must not only address the clinical issues, but also the impact on aviation safety if the individual in question is allowed to continue as a crew member (not everyone with a medical certificate is a pilot).</li><li><strong>The author of an AMS should not only be familiar with the clinical aspects of the case, but with the demands of the type of flying in which the crew member is engaged. </strong></li><li>The AMS is normally completed by a flight surgeon or a provider trained in a specific field or specialty (i.e., neurology or cardiology) with respect to its application to aerospace medicine.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "text": "Who performs an Aeromedical Summary (AMS)?",
+   "html": "<p><strong>Who performs an Aeromedical Summary (AMS)? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 38,
+   "text": "- Military flight surgeons routinely compose an AMS as part of a request for a military medical waiver for a crew member to continue flight duties once a disqualifying condition has been identified.\n- This military-generated AMS will often be sufficient for evaluation for a Federal Aviation Administration (FAA) medical certificate.\n- Civilian physicians who are either former military flight surgeons or pilots themselves can also prepare an AMS, although the latter might need an example or explanation of what is needed.\n- Aviation Medical Examiners (AMEs) who are not pilots and who do not have experience as a military flight surgeon are less likely to have the background to provide a useful AMS.\n- It is not a part of routine medical training, even for AMEs. Therefore, do not ask for this from a routine treating physician.",
+   "html": "<ul><li>Military flight surgeons routinely compose an AMS as part of a request for a military medical waiver for a crew member to continue flight duties once a disqualifying condition has been identified.</li><li>This military-generated AMS will often be sufficient for evaluation for a Federal Aviation Administration (FAA) medical certificate.</li><li>Civilian physicians who are either former military flight surgeons or pilots themselves can also prepare an AMS, although the latter might need an example or explanation of what is needed.</li><li>Aviation Medical Examiners (AMEs) who are not pilots and who do not have experience as a military flight surgeon are less likely to have the background to provide a useful AMS.</li><li>It is <strong>not</strong> a part of routine medical training, even for AMEs. Therefore, do not ask for this from a routine treating physician.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 38,
+   "text": "Do all military pilots have an Aeromedical Summary (AMS)?",
+   "html": "<p><strong>Do all military pilots have an Aeromedical Summary (AMS)? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 38,
+   "text": "- No. An AMS is only prepared when the crew member does not meet medical standards for a medical condition.",
+   "html": "<ul><li>No. An AMS is only prepared when the crew member does not meet medical standards for a medical condition.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 39,
+   "text": "- To continue flying duties, all military crew members with disqualifying diagnoses must receive a military medical waiver for continued flight duties by their respective Medical Waiver Authority. These military Medical Waiver Authorities will review their AMS and determine what further testing and studies are required, and then make a medical determination as to whether the crew member is allowed to continue flying duties or is medically disqualified.\n- They will also determine any follow-up required by the crew members, and at what interval/frequency to ensure the continued safety of flight.\n- In either case, whether returned to normal flight duties, returned with a military waiver of the condition, or disqualified from further flight duties, a copy of the AMS is given to the individual and placed in their military medical records for future reference and re-evaluation as needed.\n- U.S. Military Certifying Authority does not review the entire military record of the pilot. They review the AMS.",
+   "html": "<ul><li>To continue flying duties, all military crew members with disqualifying diagnoses must receive a military medical waiver for continued flight duties by their respective Medical Waiver Authority. These military Medical Waiver Authorities will review their AMS and determine what further testing and studies are required, and then make a medical determination as to whether the crew member is allowed to continue flying duties or is medically disqualified.</li><li>They will also determine any follow-up required by the crew members, and at what interval/frequency to ensure the continued safety of flight.</li><li>In either case, whether returned to normal flight duties, returned with a military waiver of the condition, or disqualified from further flight duties, a copy of the AMS is given to the individual and placed in their military medical records for future reference and re-evaluation as needed.</li><li>U.S. Military Certifying Authority does not review the entire military record of the pilot. They review the AMS.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "text": "How does the FAA use an Aeromedical Summary (AMS)?",
+   "html": "<p><strong>How does the FAA use an Aeromedical Summary (AMS)? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 39,
+   "text": "- As noted above, the AMS is a tool (an Evaluation Data item) to enable the AME and FAA to determine if an acceptable level of aviation safety can be assured despite the underlying medical condition.",
+   "html": "<ul><li>As noted above, the AMS is a <strong>tool</strong> (an Evaluation Data item) to enable the AME and FAA to determine if an acceptable level of aviation safety can be assured despite the underlying medical condition.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "text": "Can only military pilots get or have an Aeromedical Summary (AMS)?",
+   "html": "<p><strong>Can only military pilots get or have an Aeromedical Summary (AMS)? </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 39,
+   "text": "- No. In the military, it is used as a tool to determine if an individual is safe to engage in flight activities despite an underlying medical condition. It can be used for anyone who needs to engage in aviation activities, but has a condition of aeromedical concern. However, their use is more prevalent with military aviators and crew members.",
+   "html": "<ul><li>No. In the military, it is used as a tool to determine if an individual is safe to engage in flight activities despite an underlying medical condition. It can be used for anyone who needs to engage in aviation activities, but has a condition of aeromedical concern. However, their use is more prevalent with military aviators and crew members.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 39,
+   "text": "Note: Military uses a waiver process. The FAA uses a Special Issuance process.",
+   "html": "<p>Note: Military uses a waiver process. The FAA uses a Special Issuance process.</p>"
+  }
+ ]
+}

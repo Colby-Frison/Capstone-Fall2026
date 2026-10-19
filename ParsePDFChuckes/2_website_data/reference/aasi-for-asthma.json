@@ -1,0 +1,65 @@
+{
+ "slug": "aasi-for-asthma",
+ "title": "AASI for Asthma",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  685
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "Note: If the applicant has mild symptoms that are infrequent, have not required hospitalization, or use of steroid medication, and no symptoms in flight, the AME may issue an airman medical certificate. See Item 35., Lungs and Chest Aerospace Medical Disposition.",
+   "html": "<p><strong>Note</strong>: If the applicant has mild symptoms that are infrequent, have not required hospitalization, or use of steroid medication, and no symptoms in flight, the AME may issue an airman medical certificate. See Item 35., Lungs and Chest Aerospace Medical Disposition.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "If the applicant does not meet the above criteria, the AME must follow the AASI process.",
+   "html": "<p>If the applicant does not meet the above criteria, the AME must follow the AASI process.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 685,
+   "text": "- An Authorization granted by the FAA;\n- Annual, current, detailed Clinical Progress Note generated from a clinic visit with the treating pulmonologist no more than 90 days before the AME exam. It must include a detailed interim summary; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up.\n- It must specifically include if there has been any worsening in symptoms, hospitalizations, exacerbations, or inadequate compliance with treatment.\n- Pulmonary function testing, if deemed necessary, performed no more than 90 days before the AME exam.",
+   "html": "<ul><li> An Authorization granted by the FAA;</li><li> <strong>Annual, </strong>current, detailed Clinical Progress Note generated from a clinic visit with the <strong>treating pulmonologist no more than 90 days before</strong> the AME exam. It must include a detailed interim summary; current medications, dosage, and side effects (if any); physical exam findings; results of all testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li><li> It must <strong>specifically include</strong> if there has been <strong>any worsening </strong>in symptoms, hospitalizations, exacerbations, or inadequate compliance with treatment.</li><li> <strong>Pulmonary </strong>function testing, if deemed necessary, performed no more than 90 days before the AME exam.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 685,
+   "text": "The AME must defer recertification if:",
+   "html": "<p>The AME must defer recertification if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 685,
+   "text": "- There is a worsening of the condition such as increased symptoms or an increase in the frequency of emergency room, hospital, or outpatient visits;\n- The FEV1 is less than 70% predicted value; or\n- The applicant is taking steroid doses equivalent to more than 20 mg of prednisone per day ( steroid conversion calculator )",
+   "html": "<ul><li>There is a worsening of the condition such as increased symptoms or an increase in the frequency of emergency room, hospital, or outpatient visits;</li><li>The FEV1 is less than 70% predicted value; or</li><li>The applicant is taking steroid doses equivalent to more than 20 mg of prednisone per day ( <a href=\"https://www.mdcalc.com/calc/2040/steroid-conversion-calculator\" target=\"_blank\" rel=\"noopener\">steroid conversion calculator</a> )</li></ul>"
+  }
+ ]
+}

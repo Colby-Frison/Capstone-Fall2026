@@ -1,0 +1,62 @@
+{
+ "id": "dystonia-including-torticollis",
+ "name": "Dystonia (Including Torticollis)",
+ "subtitle": null,
+ "name_in_guide": "DYSTONIA (Including Torticollis)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 125,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Any other testing performed or deemed necessary by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history of Dystonia at any time This includes cervical dystonia (spasmodic torticollis or torticollis)",
+   "condition_html": "<p><strong>A.</strong> Any history of Dystonia at any time</p>\n<p>This includes cervical dystonia (spasmodic torticollis or torticollis)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Any other testing performed or deemed necessary by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. Any other testing performed or deemed necessary by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Any other testing performed or deemed necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 314,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   314
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

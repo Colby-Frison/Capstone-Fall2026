@@ -1,0 +1,103 @@
+{
+ "id": "labyrinthitis",
+ "name": "Labyrinthitis",
+ "subtitle": "(Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+ "name_in_guide": "LABYRINTHITIS (Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 11,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+  "It must specifically include if:"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Single episode now completely resolved",
+   "condition_html": "<p><strong>A. </strong> Single episode now completely resolved</p>",
+   "evaluation_data": "If the AME can determine: • The condition has fully resolved without sequelae (with favorable notes from PCP or ENT if recent event); • No symptoms or current problems that would interfere with flight duties; • No medication needed; and • No hearing loss Note: This condition usually takes approximately one month before fully recovered.",
+   "evaluation_data_html": "<p>If the AME can determine:</p>\n<p>• The condition has fully resolved without sequelae (with favorable notes from PCP or ENT if recent event);</p>\n<p>• No symptoms or current problems that would interfere with flight duties;</p>\n<p>• No medication needed; and</p>\n<p>• No hearing loss <strong> Note:</strong> This condition usually takes approximately one month before fully recovered.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p></p>\n<p><strong>ISSUE</strong></p>\n<p><strong>Annotate</strong> this information in Block 60.</p>",
+   "pdf_page": 75,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Current symptoms",
+   "condition_html": "<p><strong>B. </strong> Current symptoms</p>",
+   "evaluation_data": "The AME should not issue if there are current",
+   "evaluation_data_html": "<p>The AME should not issue if there are current</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p></p>\n<p><strong>ISSUE</strong></p>\n<p><strong>Annotate</strong> this information in Block 60.</p>",
+   "pdf_page": 75,
+   "disposition_shared_with_previous_row": true
+  },
+  {
+   "label": null,
+   "condition": "",
+   "condition_html": "<p></p>",
+   "evaluation_data": "symptoms. Both the condition and medication to treat are of aeromedical concern. Once resolved, go to Row A. If recurrent symptoms, go to Row C.",
+   "evaluation_data_html": "<p>symptoms. Both the <strong>condition and medication </strong>to treat are of aeromedical concern. Once resolved, go to Row A. If recurrent symptoms, go to Row C.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA. Annotate (elements or findings) Block 60.",
+   "disposition_html": "<p></p>\n<p><strong>DEFER </strong>Submit the information to the</p>\n<p>FAA.</p>\n<p>Annotate (elements or findings) Block 60.</p>",
+   "pdf_page": 75,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Multiple episodes separated by weeks to months",
+   "condition_html": "<p><strong>C.</strong> Multiple episodes separated by weeks to months</p>",
+   "evaluation_data": "Submit the following for FAA review: 3. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up. 2. It must specifically include if: • Any underlying pathology is found • Any hearing loss is noted.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>3. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating<strong> ENT (otolaryngologist), preferably a neurotologist</strong> (a sub-specialty of ENT/otolaryngology). The clinic visit should be <strong>no more than 90 days prior </strong>to the AME exam. It must include:</p>\n<p>• A detailed summary of the history of the condition;</p>\n<p>• Current medications, dosage, and side effects (if any);</p>\n<p>• Physical exam findings;</p>\n<p>• Results of any testing performed;</p>\n<p>• Diagnosis;</p>\n<p>• Assessment and plan (prognosis); and</p>\n<p>• Follow-up.</p>\n<p>2. It must specifically include if:</p>\n<p>• Any underlying pathology is found</p>\n<p>• Any hearing loss is noted.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ENT (otolaryngologist), preferably a neurotologist (a sub-specialty of ENT/otolaryngology). The clinic visit should be no more than 90 days prior to the AME exam. It must include:",
+    "It must specifically include if:"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p></p>\n<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>\n<p></p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 75,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<table><tbody><tr><td><p>3. Treatment notes</p>\n<p>4. Vestibular testing already performed.</p>\n<p>5. Current (performed within the past 90 days) clinical audiogram with Air-Conduction/ Bone-Conduction (AC/BC) and Speech Discrimination (SD).</p>\n<p>6. Typed personal statement describing the history of the condition. It must include:</p>\n<ul><li>If there is any family history;</li><li>Episodes of hearing loss over the last year;</li><li>The number of episodes with approximates dates and how long each lasted;</li><li>A description of the severity of the attacks with type of symptoms;</li><li>Any history of Migraine or drop attacks (collapsing suddenly without fainting),</li><li>Medication used for control/treatment;</li><li>Any surgery;</li><li>Success of control (e.g., How often do you have a recurrence? When was most recent episode?); and</li><li>Therapy/medication used for control.</li></ul>\n<p>If any underlying condition is found, see that page.</p>\n<p><strong>DISPOSITION</strong></p></td><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>B. </strong> Current symptoms</p></td><td><p>The AME should not issue if there are current symptoms.</p>\n<p>Both the <strong>condition and medication </strong>to treat are of aeromedical concern.</p>\n<p>Once resolved, go to Row A.</p>\n<p>If recurrent symptoms, go to Row C.</p></td><td><p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p>\n<p>Annotate (elements or findings)</p>\n<p>Block 60.</p></td><td><p><strong>C.</strong> Multiple episodes separated by weeks to months</p></td><td><p>Submit the following for FAA review:</p>\n<ul><li>3. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating<strong> ENT (otolaryngologist), preferably a neurotologist</strong></li></ul>\n<p>(a sub-specialty of ENT/otolaryngology). The clinic visit should be <strong>no more than 90 days prior </strong>to the AME exam. It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan (prognosis); and</li><li>Follow-up.</li></ul>\n<p>2. It must specifically include if:</p>\n<ul><li>Any underlying pathology is found</li><li>Any hearing loss is noted.</li></ul></td><td><p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p></td></tr><tr><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td></tr></tbody></table>",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   75
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

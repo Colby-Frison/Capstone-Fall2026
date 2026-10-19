@@ -1,0 +1,141 @@
+{
+ "id": "carotid-or-vertebral-artery-disease",
+ "name": "Carotid or Vertebral Artery Disease",
+ "subtitle": "(including carotid artery bruit; carotid artery stenosis; vertebral artery stenosis)",
+ "name_in_guide": "CAROTID or VERTEBRAL ARTERY DISEASE (including carotid artery bruit; carotid artery stenosis; vertebral artery stenosis)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 120,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "49% or less blockage (both sides)",
+  "no symptoms",
+  "no ongoing treatment with DOAC/NOAC or coumadin",
+  "no current problems that would interfere with flight duties:",
+  "A detailed Clinical Progress Note performed within 90 days of exam from the treating physician (cardiologist, neurologist, or PCP). It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up.",
+  "It must specifically include if there has been any clinically significant increase in stenosis that would prompt a change in treatment or surveillance.",
+  "Vascular imaging (such as CTA, MRA, or angiogram) of head and neck performed no more than 90 days prior to AME exam.",
+  "MRI brain (with or without contrast) performed no more than 90 days prior to AME exam.",
+  "Other testing: Any deemed clinically necessary by the treating physician",
+  "Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "49% or less by ultrasound, CTA or angiogram AND No history of TIA or CVA (use row for highest % stenosis from either left or right side)",
+   "condition_html": "<p>A.</p>\n<p><strong>49% or less </strong></p>\n<p>by ultrasound, CTA or angiogram</p>\n<p>AND</p>\n<p>No history of <a href=\"http://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf\" target=\"_blank\" rel=\"noopener\">TIA or CVA</a></p>\n<p>(use row for highest % stenosis from either left or right side)</p>",
+   "evaluation_data": "The AME should review the following: Most recent vascular imaging and verify the testing was not performed for symptoms (TIA/CVA). If documentation verifies - 49% or less blockage (both sides) - no symptoms - no ongoing treatment with DOAC/NOAC or coumadin - no current problems that would interfere with flight duties:",
+   "evaluation_data_html": "<p>The AME should review the following:</p>\n<p>Most recent vascular imaging and verify the testing was not performed for symptoms (TIA/CVA).</p>\n<p>If documentation verifies</p>\n<ul><li>49% or less blockage (both sides)</li><li>no symptoms</li><li>no ongoing treatment with DOAC/NOAC or coumadin</li><li>no current problems that would interfere with flight duties:</li></ul>",
+   "what_to_bring": [
+    "49% or less blockage (both sides)",
+    "no symptoms",
+    "no ongoing treatment with DOAC/NOAC or coumadin",
+    "no current problems that would interfere with flight duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>",
+   "pdf_page": 303,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "50-79% stenosis AND No history of TIA or CVA AND NOAC/DOAC/coumadin or surgery not recommended by treating physician at this time",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong>50-79% stenosis </strong></p>\n<p>AND</p>\n<p>No history of <a href=\"http://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf\" target=\"_blank\" rel=\"noopener\">TIA or CVA</a></p>\n<p>AND</p>\n<p>NOAC/DOAC/coumadin or surgery <strong>not</strong> recommended by treating physician at this time</p>",
+   "evaluation_data": "See the CACI Carotid/Vertebral Artery Stenosis Worksheet . This will require a detailed Clinical Progress Note and vascular imaging (ultrasound, CTA, angiogram) performed within the previous one year. Note: Antiplatelet therapy (including dual Plavix + ASA) can be considered for CACI. Anticoagulation (NOAC/DOAC/coumadin/Jantoven) is not CACI. Go to row C.",
+   "evaluation_data_html": "<p>See the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf\" target=\"_blank\" rel=\"noopener\">CACI Carotid/Vertebral Artery Stenosis Worksheet</a> .</p>\n<p>This will require a detailed Clinical Progress Note and vascular imaging (ultrasound, CTA, angiogram) performed within the previous one year.</p>\n<p>Note:</p>\n<p>Antiplatelet therapy (including dual Plavix + ASA) can be considered for CACI.</p>\n<p>Anticoagulation (NOAC/DOAC/coumadin/Jantoven) is not CACI. Go to row C.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE If the pilot meets all CACI worksheet criteria and is otherwise qualified, ISSUE with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file. If no AME explanation, the individual may be asked to provide documentation.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified,</p>\n<p>ISSUE</p>\n<p>with no time limitation</p>\n<p>Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.</p>\n<p>If no AME explanation, the individual may be asked to provide documentation.</p>",
+   "pdf_page": 303,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others including: 80% stenosis or higher OR Taking NOAC/DOAC/coumadin OR Surgery is recommended, Note: if any neurologic symptoms or history of TIA or CVA , see that page.",
+   "condition_html": "<p><strong>C.</strong> All others including:</p>\n<p><strong>80% stenosis or higher</strong></p>\n<p>OR</p>\n<p>Taking NOAC/DOAC/coumadin</p>\n<p>OR</p>\n<p>Surgery is recommended,</p>\n<p>Note: if any neurologic symptoms or history of <a href=\"http://www.faa.gov/ame_guide/media/Stroke-CVA-TIA.pdf\" target=\"_blank\" rel=\"noopener\">TIA or CVA</a> , see that page.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A detailed Clinical Progress Note performed within 90 days of exam from the treating physician (cardiologist, neurologist, or PCP). It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up. - 2. It must specifically include if there has been any clinically significant increase in stenosis that would prompt a change in treatment or surveillance. - 3. Vascular imaging (such as CTA, MRA, or angiogram) of head and neck performed no more than 90 days prior to AME exam. - 4. MRI brain (with or without contrast) performed no more than 90 days prior to AME exam. - 5. Other testing: Any deemed clinically necessary by the treating physician - 6. Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]. Note: Stress testing may be required in some cases or when clinically indicated.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A detailed Clinical Progress Note performed within 90 days of exam from the<strong> treating physician (cardiologist, neurologist, or PCP).</strong> It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up.</li><li>2. It must specifically include if there has been<strong> any clinically significant increase in stenosis that would prompt a change in treatment or surveillance.</strong></li><li>3. <strong>Vascular imaging</strong> (such as CTA, MRA, or angiogram) <strong>of head and neck</strong> performed<strong> no more than 90 days prior </strong>to AME exam.</li><li>4. <strong>MRI brain (with or without contrast) </strong>performed no more than 90 days prior to AME exam.</li><li>5. <strong>Other testing: </strong>Any deemed clinically necessary by the treating physician</li><li>6. <strong>Cardiovascular risk assessment</strong> to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)].</li></ul>\n<p>Note: Stress testing may be required in some cases or when clinically indicated.</p>",
+   "what_to_bring": [
+    "A detailed Clinical Progress Note performed within 90 days of exam from the treating physician (cardiologist, neurologist, or PCP). It should include a detailed summary of the history of the condition or diagnosis, treatments and outcomes, current medications, physical exam findings, all pertinent test results obtained, assessment, plan, and follow up.",
+    "It must specifically include if there has been any clinically significant increase in stenosis that would prompt a change in treatment or surveillance.",
+    "Vascular imaging (such as CTA, MRA, or angiogram) of head and neck performed no more than 90 days prior to AME exam.",
+    "MRI brain (with or without contrast) performed no more than 90 days prior to AME exam.",
+    "Other testing: Any deemed clinically necessary by the treating physician",
+    "Cardiovascular risk assessment to review risk factors and include testing indicated within the previous one year. [see Protocol for Cardiovascular Evaluation (CVE)]."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 303,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Carotid / Vertebral Artery Stenosis Worksheet",
+   "updated": "01/28/2026",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed Clinical Progress Note from the treating physician performed no more than 90 days prior to AME exam finds:",
+     "acceptable_certification_criteria": "[ ] Condition is stable with NO symptoms. AND [ ] There has been NO clinically significant increase in stenosis that would prompt a change in treatment or surveillance NOTE: History of stroke or TIA, are not CACI. See corresponding page."
+    },
+    {
+     "ame_must_review": "Causes",
+     "acceptable_certification_criteria": "[ ] Carotid / Vertebral Artery Stenosis OR [ ] Carotid / Vertebral Artery Stenosis surveillance 2 or more years AFTER surgery to correct stenosis (carotid endarterectomy, stent, etc.)"
+    },
+    {
+     "ame_must_review": "Imaging Carotid ultrasound, CT Angiogram (CTA), Magnetic resonance angiography (MRA), or angiogram",
+     "acceptable_certification_criteria": "[ ] 79% or less on both sides (right and left) AND [ ] performed within the previous ONE YEAR"
+    },
+    {
+     "ame_must_review": "Medications for condition (any combination of the following)",
+     "acceptable_certification_criteria": "[ ] None [ ] ASA (aspirin) [ ] Plavix or Brilinta (ASA allowed in combination) Note: DOAC/NOAC/coumadin do not qualify for CACI, see Special Issuance guidelines, row C"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Carotid/Vertebral Artery Stenosis. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified Carotid /Vertebral Artery Stenosis.",
+    "NOT CACI qualified Carotid/Vertebral Artery Stenosis. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 01/28/2026)</p>",
+ "links": [
+  {
+   "text": "CACI Carotid/Vertebral Artery Stenosis Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_Carotid_Stenosis.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   303,
+   305
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

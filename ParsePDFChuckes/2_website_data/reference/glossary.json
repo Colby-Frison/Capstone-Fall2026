@@ -1,0 +1,296 @@
+{
+ "slug": "glossary",
+ "title": "GLOSSARY",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  760,
+  761,
+  762,
+  763
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "GLOSSARY/ACRONYMS",
+   "html": "<p><strong>GLOSSARY/ACRONYMS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "(Updated 02/24/2021)",
+   "html": "<p>(Updated 02/24/2021)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AAM - Office of Aerospace Medicine",
+   "html": "<p><strong>AAM</strong> - Office of Aerospace Medicine</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AASI - AME Assisted Special Issuance - Criteria under which an AME may reissue a medical certificate for a third-class applicant with a medical history of a disqualifying condition, who has already received a Special Issuance Authorization from the FAA, and criteria to defer issuance to AMCD or RFS for these situations.",
+   "html": "<p><strong>AASI</strong> - AME Assisted Special Issuance - Criteria under which an AME may reissue a medical certificate for a third-class applicant with a medical history of a disqualifying condition, who has already received a Special Issuance Authorization from the FAA, and criteria to defer issuance to AMCD or RFS for these situations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AMCD - Aerospace Medical Certification Division - located at the Civil Aerospace Medical Institute in Oklahoma City, Oklahoma",
+   "html": "<p><strong>AMCD</strong> - Aerospace Medical Certification Division - located at the Civil Aerospace Medical Institute in Oklahoma City, Oklahoma</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AMCS - Airman Medical Certification System - allows the AME to electronically submit FAA Form 8500-8, Application for Airman Medical Certificate to AMCD.",
+   "html": "<p><strong>AMCS</strong> - Airman Medical Certification System - allows the AME to electronically submit FAA Form 8500-8, Application for Airman Medical Certificate to AMCD.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AME - Aviation Medical Examiner - a physician designated by the FAA and given the authority to perform airman physical examinations for issuance of second- and third-class medical certificates. (NOTE: Senior AMEs perform first-class airman examinations).",
+   "html": "<p><strong>AME</strong> - Aviation Medical Examiner - a physician designated by the FAA and given the authority to perform airman physical examinations for issuance of second- and third-class medical certificates. (NOTE: Senior AMEs perform first-class airman examinations).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "ATCS - Air Traffic Control Specialist",
+   "html": "<p><strong>ATCS</strong> - Air Traffic Control Specialist</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "AV - Atrioventricular",
+   "html": "<p><strong>AV</strong> - Atrioventricular</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "BUN - Blood Urea Nitrogen Test",
+   "html": "<p><strong>BUN</strong> - Blood Urea Nitrogen Test</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CACI - Condition AME Can Issue",
+   "html": "<p><strong>CACI </strong>- Condition AME Can Issue</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CAD - Coronary Artery Disease",
+   "html": "<p><strong>CAD</strong> - Coronary Artery Disease</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CAMI - Civil Aerospace Medical Institute",
+   "html": "<p><strong>CAMI</strong> - Civil Aerospace Medical Institute</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CAT - Computerized Axial Tomography Scan",
+   "html": "<p><strong>CAT</strong> - Computerized Axial Tomography Scan</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CBC - Complete Blood Count",
+   "html": "<p><strong>CBC</strong> - Complete Blood Count</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CEA - Carcinoembryonic Antigen",
+   "html": "<p><strong>CEA</strong> - Carcinoembryonic Antigen</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CFR - Code of Federal Regulations",
+   "html": "<p><strong>CFR</strong> - Code of Federal Regulations</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CHD - Coronary Heart Disease",
+   "html": "<p><strong>CHD</strong> - Coronary Heart Disease</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CT - Computed Tomography Scan",
+   "html": "<p><strong>CT</strong> - Computed Tomography Scan</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "CVE - Cardiovascular Evaluation DOT - Department of Transportation",
+   "html": "<p><strong>CVE</strong> - Cardiovascular Evaluation <strong>DOT</strong> - Department of Transportation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 761,
+   "text": "DUI/DWI - Driving Under the Influence/Driving While Intoxicated",
+   "html": "<p><strong>DUI/DWI</strong> - Driving Under the Influence/Driving While Intoxicated</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "ECG - Electrocardiogram",
+   "html": "<p><strong>ECG</strong> - Electrocardiogram</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "ECHO - Echocardiographic images",
+   "html": "<p><strong>ECHO</strong> - Echocardiographic images</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "ENT - Ear, Nose, and Throat",
+   "html": "<p><strong>ENT</strong> - Ear, Nose, and Throat</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "FAA - Federal Aviation Administration",
+   "html": "<p><strong>FAA</strong> - Federal Aviation Administration</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "FAR - Federal Aviation Regulations",
+   "html": "<p><strong>FAR</strong> - Federal Aviation Regulations</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "FAS – Federal Air Surgeon",
+   "html": "<p><strong>FAS – </strong>Federal Air Surgeon</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "FSDO - Flight Standards District Office",
+   "html": "<p><strong>FSDO</strong> - Flight Standards District Office</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "GXT - Graded Exercise Test HgbA1C - Hemoglobin A1C",
+   "html": "<p><strong>GXT</strong> - Graded Exercise Test <strong>HgbA1C</strong> - Hemoglobin A1C</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "INR- International Normalized Ratio",
+   "html": "<p><strong>INR</strong>- International Normalized Ratio</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "IVP - Intravenous Pyelography Test",
+   "html": "<p><strong>IVP</strong> - Intravenous Pyelography Test</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "KUB - Kidneys, Ureters and Bladder",
+   "html": "<p><strong>KUB</strong> - Kidneys, Ureters and Bladder</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "MFO - Medical Field Office",
+   "html": "<p><strong>MFO</strong> - Medical Field Office</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "MFT - Medical Flight Test MRI - Magnetic Resonance Imaging",
+   "html": "<p><strong>MFT</strong> - Medical Flight Test <strong>MRI</strong> - Magnetic Resonance Imaging</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "MVP - Mitral Valve Prolapse",
+   "html": "<p><strong>MVP</strong> - Mitral Valve Prolapse</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "NTSB - National Transportation Safety Board OSA - Obstructive Sleep Apnea",
+   "html": "<p><strong>NTSB</strong> - National Transportation Safety Board <strong>OSA</strong> - Obstructive Sleep Apnea</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PAC - Premature Atrial Contraction",
+   "html": "<p><strong>PAC</strong> - Premature Atrial Contraction</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PET - Positron Emission Tomography",
+   "html": "<p><strong>PET</strong> - Positron Emission Tomography</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PFT - Pulmonary Function Test",
+   "html": "<p><strong>PFT</strong> - Pulmonary Function Test</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PSA - Prostate Specific Antigen",
+   "html": "<p><strong>PSA</strong> - Prostate Specific Antigen</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PT - Prothrombin Time",
+   "html": "<p><strong>PT</strong> - Prothrombin Time</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PTT - Partial Thromboplastin Time",
+   "html": "<p><strong>PTT</strong> - Partial Thromboplastin Time</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 762,
+   "text": "PVC - Premature Ventricular Contraction",
+   "html": "<p><strong>PVC</strong> - Premature Ventricular Contraction</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 763,
+   "text": "RF - Radio Frequency Ablation",
+   "html": "<p><strong>RF</strong> - Radio Frequency Ablation</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 763,
+   "text": "RFS - Regional Flight Surgeon",
+   "html": "<p><strong>RFS</strong> - Regional Flight Surgeon</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 763,
+   "text": "SI - Special Issuance",
+   "html": "<p><strong>SI</strong> - Special Issuance</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 763,
+   "text": "SODA - Statement of Demonstrated Ability TFT -Thyroid Function Test US -Ultrasound",
+   "html": "<p><strong>SODA</strong> - Statement of Demonstrated Ability <strong>TFT</strong> -Thyroid Function Test <strong>US</strong> -Ultrasound</p>"
+  }
+ ]
+}

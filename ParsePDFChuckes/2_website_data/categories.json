@@ -1,0 +1,393 @@
+[
+ {
+  "id": "general",
+  "name": "General",
+  "exam_item": null,
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 1,
+  "intro_html": null,
+  "conditions": [
+   "condition-not-listed"
+  ]
+ },
+ {
+  "id": "ear-nose-and-throat-ent",
+  "name": "Ear, Nose, and Throat (ENT)",
+  "exam_item": "25-30",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 2,
+  "intro_html": "<p><strong>ITEMS 25-30. Ear, Nose, and Throat (ENT) </strong></p>\n<p>(Updated 01/31/2024)</p>\n<table><thead><tr><th>CHECK EACH ITEM IN APPROPRIATE COLUMN</th><th>Normal</th><th>Abnormal</th></tr></thead><tbody><tr><td><p>25. Head, face, neck, and scalp</p></td><td></td><td></td></tr><tr><td><p>26. Nose</p></td><td></td><td></td></tr><tr><td><p>27. Sinuses</p></td><td></td><td></td></tr><tr><td><p>28. Mouth and Throat</p></td><td></td><td></td></tr><tr><td><p>29. Ears, general (internal and external canals: Hearing under Item 49)</p></td><td></td><td></td></tr><tr><td><p>30. Ear Drums (Perforation)</p></td><td></td><td></td></tr></tbody></table>\n<p><strong>I. Code of Federal Regulations </strong></p>\n<p><strong>All Classes: 14 CFR 67.105(b)(c), 67.205(b)(c), and 67.305(b)(c) </strong></p>\n<p>(b) No disease or condition of the middle or internal ear, nose, oral cavity, pharynx,</p>\n<p>or larynx that -</p>\n<p>(1) Interferes with, or is aggravated by, flying or may reasonably be expected to</p>\n<p>do so; or</p>\n<p>(2) Interferes with, or may reasonably be expected to interfere with, clear and</p>\n<p>effective speech communication.</p>\n<p>(c) No disease or condition manifested by, or that may reasonably be expected to be</p>\n<p>manifested by vertigo or a disturbance of equilibrium.</p>\n<p><strong>II. Examination Techniques </strong></p>\n<p>1. The <strong>head and neck</strong> should be examined to determine the presence of any significant defects such as:</p>\n<p>a. Bony defects of the skull b. Gross deformities c. Fistulas d. Evidence of recent blows or trauma to the head e. Limited motion of the head and neck f. Surgical scars</p>\n<p>2. The <strong>external ear</strong> is seldom a major problem in the medical certification of applicants. Otitis externa or a furuncle may call for temporary disqualification. Obstruction of the canal by impacted cerumen or cellular debris may indicate a need for referral to an ENT specialist for examination.</p>\n<p>The tympanic membranes should be examined for scars or perforations. Discharge or granulation tissue may be the only observable indication of perforation. Middle ear disease may be revealed by retraction, fluid levels, or discoloration. The normal tympanic membrane is movable and pearly gray in color. Mobility should be demonstrated by watching the drum through the otoscope during a valsalva maneuver. See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item29/amd/oe\" target=\"_blank\" rel=\"noopener\">Outer Ear Abnormalities</a> .</p>\n<p>3. Pathology of the <strong>middle ear</strong> may be demonstrated by changes in the appearance and mobility of the tympanic membrane. The applicant may only complain of stuffiness of the ears and/or loss of hearing. An upper respiratory infection greatly increases the risk of aerotitis media with pain, deafness, tinnitus, and vertigo due to lessened aeration of the middle ear from eustachian tube dysfunction. When the applicant is taking medication for an ENT condition, it is important that the AME become fully aware of the underlying pathology, present status, and the length of time the medication has been used. If the condition is not a threat to aviation safety, the treatment consists solely of antibiotics, and the antibiotics have been taken over a sufficient period to rule out the likelihood of adverse side effects, the AME may make the certification decision.</p>\n<p>The same approach should be taken when considering the significance of prior surgery such as myringotomy, mastoidectomy, or tympanoplasty. Simple perforation without associated symptoms or pathology is not disqualifying. When in doubt, the AME should not hesitate to defer issuance and refer the matter to the AMCD. The services of consultant ENT specialists are available to the FAA to help in determining the safety implications of complicated conditions. See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item29/amd/me\" target=\"_blank\" rel=\"noopener\">Middle Ear Abnormalities</a> .</p>\n<p>4. <strong>Unilateral Deafness.</strong> An applicant with unilateral congenital or acquired deafness should not be denied medical certification if able to pass any of the tests of hearing acuity.</p>\n<p>5. <strong>Bilateral Deafness. </strong>It is possible for a totally deaf person to qualify for a private pilot certificate. When the applicant initially applies for medical certification, the AME should defer the exam with notes in Block 60 explaining this and include which FSDO the airman wants to use to take a Medical Flight Test.</p>\n<p>The student may practice with an instructor before undergoing a pilot check ride for the private pilot’s license. When the applicant is ready to take the check ride, he/she must have an authorization to take a medical flight test (MFT) from either RFS/AMCD. Upon successful completion of the MFT, the applicant will be issued a SODA and an operational restriction will be placed on his/her pilot’s license that restricts the pilot from flying into airspace requiring radio communication.</p>\n<p>6. <strong>Hearing Aids.</strong> Under some circumstances, the use of hearing aids may be acceptable. If the applicant is unable to pass any of the above tests without the use of hearing aids, he or she may be tested using hearing aids.</p>\n<p>7. The <strong>nose</strong> should be examined for the presence of polyps, blood, or signs of infection, allergy, or substance abuse. The AME should determine if there is a</p>\n<p>history of epistaxis or <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item26/amd/\" target=\"_blank\" rel=\"noopener\">anosmia</a> . Polyps may cause airway obstruction or sinus blockage. Infection or allergy may be cause for obtaining additional history. (Updated 03/30/2022)</p>\n<p>8. Evidence of <strong>sinus</strong> disease must be carefully evaluated by a specialist because of the risk of sudden and severe incapacitation from barotrauma.</p>\n<p>9. The <strong>mouth and throat</strong> should be examined to determine the presence of active disease that is progressive or may interfere with voice communications. Gross abnormalities that could interfere with the use of personal equipment such as oxygen equipment should be identified. Also see <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/osa/\" target=\"_blank\" rel=\"noopener\">Protocol for Obstructive Sleep Apnea</a> .</p>\n<p>10. The <strong>larynx</strong> should be visualized if the applicant&#x27;s voice is rough or husky. Acute laryngitis is temporarily disqualifying. Chronic laryngitis requires further diagnostic workup. Any applicant seeking certification for the first time with a functioning tracheostomy, following laryngectomy, or who uses an artificial voice-producing device should be denied or deferred and carefully assessed.</p>\n<p><strong>III. Aerospace Medical Disposition </strong></p>\n<p>The <a href=\"https://www.faa.gov/ame_guide/dec_cons/disp/\" target=\"_blank\" rel=\"noopener\">Aerospace Medical Disposition Tables</a> list the most common conditions of aeromedical significance and course of action that should be taken by the AME as defined by the protocol and disposition in the table.</p>\n<p><strong>ITEM 25. Head, Face, Neck, and Scalp </strong></p>",
+  "conditions": [
+   "head-face-neck-and-scalp",
+   "nose",
+   "anosmia"
+  ]
+ },
+ {
+  "id": "sinuses",
+  "name": "Sinuses",
+  "exam_item": "27",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 3,
+  "intro_html": null,
+  "conditions": [
+   "sinus-conditions"
+  ]
+ },
+ {
+  "id": "mouth-and-throat",
+  "name": "Mouth and Throat",
+  "exam_item": "28",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 4,
+  "intro_html": null,
+  "conditions": [
+   "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma"
+  ]
+ },
+ {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 5,
+  "intro_html": null,
+  "conditions": [
+   "cochlear-implant-ci",
+   "acoustic-neuroma",
+   "inner-ear",
+   "benign-paroxysmal-positional-vertigo-bppv",
+   "labyrinthitis",
+   "menieres-disease",
+   "motion-sickness",
+   "perilymph-fistula-plf",
+   "persistent-postural-perceptual-dizziness-pppd-or-3pd",
+   "superior-semicircular-canal-dehiscence-syndrome-sscds",
+   "mastoids",
+   "outer-ear-abnormalities",
+   "ear-drums"
+  ]
+ },
+ {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 6,
+  "intro_html": null,
+  "conditions": [
+   "amblyopia",
+   "cataract-s",
+   "diplopia-double-vision",
+   "ocular-histoplasmosis",
+   "eyes-general-other-conditions",
+   "eyes-procedures",
+   "eyes-refractive-surgery"
+  ]
+ },
+ {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "exam_item": "32",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 7,
+  "intro_html": null,
+  "conditions": [
+   "ophthalmoscopic",
+   "chorioretinitis",
+   "coloboma",
+   "lattice-degeneration",
+   "optic-neuritis",
+   "retinal-dystrophies-cone-rod-retinitis-pigmentosa",
+   "retinoschisis"
+  ]
+ },
+ {
+  "id": "pupils",
+  "name": "Pupils",
+  "exam_item": "33",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 8,
+  "intro_html": null,
+  "conditions": [
+   "pupils"
+  ]
+ },
+ {
+  "id": "ocular-motility",
+  "name": "Ocular Motility",
+  "exam_item": "34",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 9,
+  "intro_html": null,
+  "conditions": [
+   "ocular-motility"
+  ]
+ },
+ {
+  "id": "lungs-and-chest",
+  "name": "Lungs and Chest",
+  "exam_item": "35",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 10,
+  "intro_html": null,
+  "conditions": [
+   "allergies",
+   "alpha-gal-syndrome-meat-allergy",
+   "asthma-reactive-airway-disease",
+   "pectus-excavatum",
+   "disease-of-the-lungs-pleura-or-mediastinum",
+   "pulmonary-fibrosis",
+   "pleura-and-pleural-cavity",
+   "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid",
+   "bronchiectasis",
+   "sleep-apnea",
+   "restless-leg-syndrome-rls"
+  ]
+ },
+ {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 11,
+  "intro_html": null,
+  "conditions": [
+   "arrhythmias",
+   "premature-atrial-contraction-pac",
+   "atrial-fibrillation-afib-a-flutter",
+   "atrial-flutter-typical-atrial-flutter",
+   "pacemaker",
+   "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+   "coronary-heart-disease",
+   "chest-pain",
+   "hypertension-htn",
+   "syncope",
+   "heart-murmur",
+   "valvular-disease",
+   "endocarditis",
+   "mitral-valve-disease",
+   "mitral-valve-repair",
+   "congenital-heart-conditions",
+   "fibromuscular-dysplasia",
+   "heart-transplant-cardiac-transplant-heart-replacement",
+   "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or-idiopathic"
+  ]
+ },
+ {
+  "id": "vascular-system",
+  "name": "Vascular System",
+  "exam_item": "37",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 12,
+  "intro_html": null,
+  "conditions": [
+   "vascular-conditions",
+   "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+   "buerger-disease-or-thromboangiitis-obliterans-tao",
+   "postural-tachycardia-syndrome-pots",
+   "raynauds-syndrome"
+  ]
+ },
+ {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 13,
+  "intro_html": null,
+  "conditions": [
+   "barretts-esophagus",
+   "cholelithiasis",
+   "cirrhosis",
+   "abdomen-and-viscera-and-anus-conditions",
+   "congenital-sucrase-isomaltase-deficiency-csid",
+   "eosinophilic-esophagitis",
+   "esophageal-varices",
+   "gerd-gastroesophageal-reflux-disease-or-reflux",
+   "liver-transplant",
+   "pancreatitis",
+   "colon-cancer-colorectal-cancer"
+  ]
+ },
+ {
+  "id": "skin",
+  "name": "Skin",
+  "exam_item": "40",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 14,
+  "intro_html": null,
+  "conditions": [
+   "cutaneous",
+   "psoriasis",
+   "skin-cancer",
+   "urticarial-eruptions"
+  ]
+ },
+ {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 15,
+  "intro_html": null,
+  "conditions": [
+   "general-disorders",
+   "chronic-kidney-disease-ckd",
+   "low-testosterone-low-t-hypogonadism",
+   "inflammatory-conditions",
+   "kidney-stone-s",
+   "neoplastic-disorders-cancer",
+   "prostate-conditions",
+   "prostate-cancer",
+   "renal-cancer",
+   "testicular-cancer",
+   "other-g-u-cancers-neoplastic-disorders",
+   "nephritis",
+   "polycystic-kidney-disease",
+   "urinary-systems"
+  ]
+ },
+ {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 16,
+  "intro_html": null,
+  "conditions": [
+   "neuropathy",
+   "osteomyelitis-bone-infection",
+   "upper-and-lower-extremities",
+   "arthritis",
+   "cerebral-palsy",
+   "collagen-disease",
+   "gout-and-pseudogout",
+   "spine-other-musculoskeletal"
+  ]
+ },
+ {
+  "id": "lymphatics",
+  "name": "Lymphatics",
+  "exam_item": "45",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 17,
+  "intro_html": null,
+  "conditions": [
+   "lymphoma-and-hodgkins-disease",
+   "leukemia-acute-and-chronic",
+   "chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+   "lymphatics"
+  ]
+ },
+ {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 18,
+  "intro_html": null,
+  "conditions": [
+   "neurologic",
+   "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
+   "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+   "bells-palsy",
+   "brain-abscess",
+   "brain-aneurysm",
+   "brain-bleed",
+   "brain-tumor-intracranial-tumor",
+   "carotid-or-vertebral-artery-disease",
+   "central-sleep-apnea",
+   "chiari-malformation",
+   "cognitive-or-mental-impairment-or-dysfunction",
+   "deep-brain-stimulator",
+   "dystonia-including-torticollis",
+   "epilepsy",
+   "encephalitis",
+   "guillain-barre-syndrome",
+   "head-injury-or-brain-injury",
+   "headache-or-migraine",
+   "huntingtons-disease",
+   "hydrocephalus-with-or-without-shunt",
+   "meningitis",
+   "myasthenia-gravis",
+   "multiple-sclerosis-ms",
+   "narcolepsy-and-idiopathic-hypersomnia",
+   "neuralgia",
+   "neurofibromatosis",
+   "paraplegia",
+   "parkinsons-disease-and-parkinsonism-secondary",
+   "polio-poliomyelitis",
+   "pseudotumor-cerebri",
+   "seizure",
+   "stroke",
+   "transient-global-amnesia-tga",
+   "tremor",
+   "tourette-syndrome-or-tic-disorder",
+   "unexplained-loss-of-consciousness-uloc",
+   "other-neurologic-conditions"
+  ]
+ },
+ {
+  "id": "psychiatric",
+  "name": "Psychiatric",
+  "exam_item": "47",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 19,
+  "intro_html": null,
+  "conditions": [
+   "attention-deficit-hyperactivity-disorder-adhd",
+   "anxiety-depression-and-related-conditions",
+   "post-traumatic-stress-disorder-ptsd",
+   "adjustment-disorder-with-depressed-mood-or-minor-depression",
+   "psychiatric-conditions"
+  ]
+ },
+ {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables",
+  "order": 20,
+  "intro_html": null,
+  "conditions": [
+   "blood-donation",
+   "blood-and-blood-forming-tissue-disease",
+   "acute-lymphocytic-leukemia-all",
+   "thrombocytopenia",
+   "covid-19-infections",
+   "prediabetes",
+   "diabetes-mellitus",
+   "diabetes-insipidus-or-polyuria",
+   "acromegaly",
+   "adrenal-insufficiency-addisons-disease",
+   "cushing-syndrome",
+   "hypoglycemia",
+   "hyperparathyroidism",
+   "hypoparathyroidism",
+   "hyperprolactinemia",
+   "hyperthyroidism",
+   "hypothyroid-or-hypothyroidism",
+   "pituitary-adenoma",
+   "human-immunodeficiency-virus-hiv",
+   "neoplasms",
+   "breast-cancer",
+   "hormone-replacement-therapy-hrt-female",
+   "polycystic-ovarian-syndrome-pcos",
+   "primary-hemochromatosis",
+   "weight-loss-management"
+  ]
+ },
+ {
+  "id": "substances-of-dependence-abuse",
+  "name": "Substances of Dependence/Abuse",
+  "exam_item": null,
+  "part": "Substances of Dependence/Abuse",
+  "order": 21,
+  "intro_html": null,
+  "conditions": [
+   "substances-of-dependence-abuse",
+   "drug-use-past-or-present"
+  ]
+ }
+]

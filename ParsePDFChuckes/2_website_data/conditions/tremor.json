@@ -1,0 +1,144 @@
+{
+ "id": "tremor",
+ "name": "Tremor",
+ "subtitle": null,
+ "name_in_guide": "TREMOR",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 146,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "MRI and/or CT of the brain (the most recent test).",
+  "Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be",
+  "sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light).",
+  "Include any previous EEG(s) available for comparison.",
+  "Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.",
+  "The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.",
+  "Other testing already performed the treating physician for this condition"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Physiologic tremor - Not requiring medication - Not progressing - No functional limitations Note: This is not a disease. It can be a normal physiological finding for the situation.",
+   "condition_html": "<p>A.<strong> Physiologic tremor </strong></p>\n<ul><li>Not requiring medication</li><li>Not progressing</li><li>No functional limitations</li></ul>\n<p><strong>Note:</strong> This is not a disease. It can be a normal physiological finding for the situation.</p>",
+   "evaluation_data": "If the AME can determine the pilot has no symptoms that would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the pilot has no symptoms that would interfere with flight duties:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60</p>",
+   "pdf_page": 365,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Essential Tremor Treated with an acceptable medication. Note: Previous term was “Benign Essential Tremor”",
+   "condition_html": "<p>B. <strong>Essential Tremor</strong> Treated with an acceptable medication.</p>\n<p><strong>Note:</strong> Previous term was “Benign Essential Tremor”</p>",
+   "evaluation_data": "Follow the CACI – Essential Tremor Worksheet . This requires a current, detailed Clinical Progress Note from the treating physician. Acceptable medication for CACI is NONE or a beta-blocker. (All others go to Row C). If the pilot meets all CACI worksheet criteria and is otherwise qualified:",
+   "evaluation_data_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI-Tremor-Worksheet.pdf\" target=\"_blank\" rel=\"noopener\">CACI – Essential Tremor Worksheet</a> .</p>\n<p>This requires a <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\"><strong>current, detailed Clinical Progress Note</strong></a> from the treating physician. Acceptable medication for CACI is <strong>NONE or a beta-blocker.</strong></p>\n<p>(All others go to Row C).</p>\n<p>If the pilot meets all CACI worksheet criteria and is otherwise qualified:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "caci"
+   ],
+   "disposition": "ISSUE with no time limitation Annotate the correct CACI statement in Block 60 and keep the required supporting information on file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>with no time limitation</p>\n<p>Annotate the correct CACI statement in Block 60 and keep the required supporting information</p>\n<p>on file.</p>",
+   "pdf_page": 365,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others The diagnosis is suspect or uncertain; The individual is dependent on medication to be functional or requires a medication change; Assistive devices (such as weighted gloves, utensils) are used; Condition is clinically uncontrolled or disabling (limits any day-to-day function such as holding cup, handwriting, flipping switches, etc.); and/or dependent on medication; Note: Most medication to treat tremor is not acceptable (e.g., gabapentin, mysoline [primadone]).",
+   "condition_html": "<p>C<strong>. All others</strong> The diagnosis is suspect or uncertain; The individual is dependent on medication to be functional or requires a medication change; Assistive devices (such as weighted gloves, utensils) are used;</p>\n<p>Condition is clinically uncontrolled or disabling (limits any day-to-day function such as holding cup, handwriting, flipping switches, etc.); and/or</p>\n<p>dependent on medication;</p>\n<p><strong>Note: </strong> Most medication to treat tremor is not acceptable (e.g., gabapentin, mysoline [primadone]).</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - MRI and/or CT of the brain (the most recent test). - - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 5. Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be - sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light). - Include any previous EEG(s) available for comparison. - Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. - The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10. - 4. Other testing already performed the treating physician for this condition",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> A current, detailed neurological evaluation that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist <strong>no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li> <strong>MRI and/or CT of the brain </strong>(the most recent test).</li></ul>\n<ul><li><ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD- ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul></li><li>5. <strong>Electroencephalogram (EEG) </strong>performed no more than<strong> 12 months before</strong> the AME exam. It must be</li></ul>\n<ul><li>sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light).</li><li>Include any previous EEG(s) available for comparison.</li><li>Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.</li><li>The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.</li><li>4. Other testing already performed the treating physician for this condition</li></ul>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "MRI and/or CT of the brain (the most recent test).",
+    "Electroencephalogram (EEG) performed no more than 12 months before the AME exam. It must be",
+    "sleep-deprived EEG: awake, asleep, and with provocation (hyperventilation, photic/strobe light).",
+    "Include any previous EEG(s) available for comparison.",
+    "Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD.",
+    "The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.",
+    "Other testing already performed the treating physician for this condition"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate elements or findings in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate elements or findings in Block 60.</p>",
+   "pdf_page": 365,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Essential Tremor Worksheet",
+   "updated": "07/26/2023",
+   "criteria": [
+    {
+     "ame_must_review": "A current, detailed Clinical Progress Note from the treating physician or neurologist verifies the diagnosis is essential tremor and the condition is stable (no disease progression and no treatment changes recommended).",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Any evidence of a disabling tremor that limits day-to-day functioning? (e.g., holding a cup, handwriting, flipping switches on aircraft, or other).",
+     "acceptable_certification_criteria": "[ ] No"
+    },
+    {
+     "ame_must_review": "Does the applicant rely on the medication to be functional? (Does the applicant have a disabling tremor when they do not take the medication or if the medication wears off?) Note: Beta blocker is the ONLY CACI-eligible medication for this condition.",
+     "acceptable_certification_criteria": "[ ] No"
+    },
+    {
+     "ame_must_review": "Treatment for condition Note: Other medication or treatments (weighted gloves, specialized utensils, and deep brain stimulator) do NOT CACI qualify. See Tremor Disposition Table for possible Special Issuance information. Gabapentin, primidone (Mysoline), and other potentially sedating medications are not acceptable for aeromedical purposes. Do NOT CACI.",
+     "acceptable_certification_criteria": "[ ] None Or [ ] Beta blocker (e.g., propranolol, metoprolol, Lopressor)"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Essential Tremor. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified Essential Tremor.",
+    "NOT CACI qualified Essential Tremor. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 07/26/2023)</p>\n<p>The AME must review a <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician <strong>no more than 90 days before</strong> the AME exam AND any supporting documents to determine the applicant’s eligibility for certification. If the applicant <strong>meets ALL the acceptable certification criteria</strong> listed below, the AME can issue. Applicants for first- or second- class must provide this information annually; applicants for third-class must provide the information with each required exam.</p>",
+ "links": [
+  {
+   "text": "CACI – Essential Tremor Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/CACI-Tremor-Worksheet.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   365,
+   367
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

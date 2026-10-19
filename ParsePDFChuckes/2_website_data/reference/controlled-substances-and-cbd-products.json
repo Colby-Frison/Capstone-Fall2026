@@ -1,0 +1,108 @@
+{
+ "slug": "controlled-substances-and-cbd-products",
+ "title": "CONTROLLED SUBSTANCES AND CBD PRODUCTS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  645
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "(Updated 05/25/2022)",
+   "html": "<p>(Updated 05/25/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "I. CODE OF FEDERAL REGULATIONS: 14 CFR 67.107 and 67.113(b)(c); 67.207 and 67.213(b)(c); 67.307 and 67.313(b)(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS: 14 CFR 67.107 and 67.113(b)(c); 67.207 and 67.213(b)(c); 67.307 and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "II. MEDICAL HISTORY: Item 48 or 18. n.",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>Item 48 or 18. n.</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS: See Item 48. General Systemic",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>: See Item 48. General Systemic</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 645,
+   "text": "- DEA Schedule Controlled Substances have aeromedically concerning safety profiles.",
+   "html": "<ul><li>DEA Schedule Controlled Substances have aeromedically concerning safety profiles.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "Additional Information Required",
+   "html": "<p><strong>Additional Information Required </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "(Used as a single agent or in any combination product.)",
+   "html": "<p>(Used as a single agent or in any combination product.)</p>"
+  },
+  {
+   "type": "table",
+   "page": 645,
+   "header": [
+    "CBD (cannabidiol) or products containing CBD",
+    "Marijuana contains CBD and THC. With the exception of Epidiolex, CBD oil and other CBD-containing products are neither FDA approved nor regulated. The safety, efficacy, purity, and potency have not been adequately demonstrated. - 1. Use of CBD or CBD-containing products is not specifically disqualifying. - 2. The condition for which the product is being used may be disqualifying. Review a current detailed Clinical Progress Note to verify the underlying condition. - 3. A marijuana-positive DOT drug test resulting from CBD use (intentional or inadvertent) is treated as a positive test."
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>CBD (cannabidiol) or products containing CBD</th><th>Marijuana contains CBD and THC. With the exception of Epidiolex, CBD oil and other CBD-containing products are neither FDA approved nor regulated. The safety, efficacy, purity, and potency have not been adequately demonstrated. - 1. Use of CBD or CBD-containing products is not specifically disqualifying. - 2. The condition for which the product is being used may be disqualifying. Review a current detailed Clinical Progress Note to verify the underlying condition. - 3. A marijuana-positive DOT drug test resulting from CBD use (intentional or inadvertent) is treated as a positive test.</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "UNACCEPTABLE Medications",
+   "html": "<p><strong>UNACCEPTABLE Medications </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "(Used as a single agent or in any combination product.)",
+   "html": "<p>(Used as a single agent or in any combination product.)</p>"
+  },
+  {
+   "type": "table",
+   "page": 645,
+   "header": [
+    "DEA SCHEDULE I Controlled Substances",
+    "ALL Medications in this class but not limited to: MDMA (“Ecstasy,” “Molly”) Mescaline (Peyote) GHB (gamma-hydroxybutyric acid) Methaqualone (Quaalude) Heroin (diacetylmorphine) Psilocybin (\"Magic Mushrooms\") Khat (Cathinone, Cathine) LSD (lysergic acid diethylamide) - Synthetic Cathinones (“bath salts”) - Marijuana (cannabis, THC) - Medical Marijuana - Synthetic marijuana (“Spice,” “K2”)"
+   ],
+   "rows": [
+    [
+     "DEA SCHEDULE II Controlled Substances",
+     "Not limited to: - Barbiturates - Cocaine - Stimulants - Narcotics*"
+    ]
+   ],
+   "html": "<table><thead><tr><th>DEA SCHEDULE I Controlled Substances</th><th>ALL Medications in this class but not limited to: MDMA (“Ecstasy,” “Molly”) Mescaline (Peyote) GHB (gamma-hydroxybutyric acid) Methaqualone (Quaalude) Heroin (diacetylmorphine) Psilocybin (&quot;Magic Mushrooms&quot;) Khat (Cathinone, Cathine) LSD (lysergic acid diethylamide) - Synthetic Cathinones (“bath salts”) - Marijuana (cannabis, THC) - Medical Marijuana - Synthetic marijuana (“Spice,” “K2”)</th></tr></thead><tbody><tr><td><p>DEA <strong>SCHEDULE II </strong></p>\n<p>Controlled Substances</p></td><td><p><strong>Not limited to: </strong></p>\n<ul><li>Barbiturates</li><li>Cocaine</li><li>Stimulants</li><li>Narcotics*</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 645,
+   "text": "*The AME must review ANY use of narcotics. No fly or no Safety Related Duties during use. A minimum no fly time must be observed after last use. Frequent flares/ episodes require review of the underlying condition.",
+   "html": "<p>*The AME must review ANY use of narcotics. No fly or no Safety Related Duties during use. A minimum no fly time must be observed after last use. Frequent flares/ episodes require review of the underlying condition.</p>"
+  }
+ ]
+}

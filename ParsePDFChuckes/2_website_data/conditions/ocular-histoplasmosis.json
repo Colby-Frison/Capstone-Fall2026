@@ -1,0 +1,87 @@
+{
+ "id": "ocular-histoplasmosis",
+ "name": "Ocular Histoplasmosis",
+ "subtitle": null,
+ "name_in_guide": "OCULAR HISTOPLASMOSIS",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 23,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or retinal specialist (preferred) no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "Clinical correlation of any findings including if treatment is indicated;",
+  "A highly descriptive retinal fundus exam (including periphery) with retinal drawing;",
+  "Specific comment whether the condition is static or progressive; and",
+  "OCT (optical coherence test) with statement if any neovascularization",
+  "If any macular involvement, central visual field testing (10-2 or 12-2) is also required.",
+  "It must specifically include:",
+  "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Visual field testing (30-2) of both eyes performed no more than 90 days prior to the AME exam.",
+  "Copies of any other testing already performed."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history of ocular histoplasmosis (single or multiple episodes; resolved or currently being treated)",
+   "condition_html": "<p><strong>A.</strong> Any history of ocular histoplasmosis</p>\n<p>(single or multiple episodes;</p>\n<p>resolved or currently being treated)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or retinal specialist (preferred) no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. It must specifically include: - Clinical correlation of any findings including if treatment is indicated; - A highly descriptive retinal fundus exam (including periphery) with retinal drawing; - Specific comment whether the condition is static or progressive; and - OCT (optical coherence test) with statement if any neovascularization 3. The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 4. Visual field testing (30-2) of both eyes performed no more than 90 days prior to the AME exam. - If any macular involvement, central visual field testing (10-2 or 12-2) is also required. 5. Copies of any other testing already performed.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>ophthalmologist or retinal specialist (preferred) </strong>no more than <strong>90 days</strong> prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. It must specifically include:</p>\n<ul><li>Clinical correlation of any findings including if treatment is indicated;</li><li>A highly descriptive retinal fundus exam (including periphery) with retinal drawing;</li><li>Specific comment whether the condition is static or progressive; and</li><li>OCT (optical coherence test) with statement if any neovascularization</li></ul>\n<p>3. The Clinical Progress Note must specifically include the best corrected <strong>visual acuity</strong> for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</p>\n<p>4. Visual field testing <strong>(30-2) of both eyes</strong> performed no more than 90 days prior to the AME exam.</p>\n<ul><li>If any macular involvement, central visual field testing (10-2 or 12-2) is also required.</li></ul>\n<p>5. Copies of any other testing already performed.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or retinal specialist (preferred) no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "Clinical correlation of any findings including if treatment is indicated;",
+    "A highly descriptive retinal fundus exam (including periphery) with retinal drawing;",
+    "Specific comment whether the condition is static or progressive; and",
+    "OCT (optical coherence test) with statement if any neovascularization",
+    "If any macular involvement, central visual field testing (10-2 or 12-2) is also required.",
+    "It must specifically include:",
+    "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Visual field testing (30-2) of both eyes performed no more than 90 days prior to the AME exam.",
+    "Copies of any other testing already performed."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 101,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "diplopia-double-vision",
+  "section_title": "DIPLOPIA (DOUBLE VISION)",
+  "pdf_pages": [
+   101
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "therapy-psychotherapy-and-counseling-information-pilots-atcs",
+ "title": "Therapy, Psychotherapy and Counseling Information: Pilots / ATCS",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  376
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 376,
+   "text": "(Updated 5/27/2026)",
+   "html": "<p>(Updated 5/27/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 376,
+   "text": "Mental Health Counseling: A Guide for Pilots and Air Traffic Control Specialists (ATCS)",
+   "html": "<p><strong>Mental Health Counseling: A Guide for Pilots and Air Traffic Control Specialists (ATCS)</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 376,
+   "text": "Maintaining mental health is crucial for ensuring both safety and operational performance. Counseling or therapy is encouraged when medically appropriate.",
+   "html": "<p>Maintaining mental health is crucial for ensuring both safety and operational performance. Counseling or therapy is encouraged when medically appropriate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 376,
+   "text": "If you are undergoing or contemplating counseling, see the following resources:",
+   "html": "<p>If you are undergoing or contemplating counseling, see the following resources:</p>"
+  },
+  {
+   "type": "list",
+   "page": 376,
+   "text": "- 1. See your therapist, counselor, physician, or provider and get healthy.\n- 2. If questions see, “ Therapy, Psychotherapy, and Counseling FAQs for Pilots and ATCS .”\n- 3. Bring your therapist a copy of “ Information for Psychotherapists Treating Pilots and ATCS .”",
+   "html": "<ul><li>1. See your therapist, counselor, physician, or provider and get healthy.</li><li>2. If questions see, “ <a href=\"https://www.faa.gov/ame_guide/media/Therapy_Psychotherapy_And_Counseling_FAQs_For_Pilots_And_ATCS.pdf\" target=\"_blank\" rel=\"noopener\">Therapy, Psychotherapy, and Counseling FAQs for Pilots and ATCS</a> .”</li><li>3. Bring your therapist a copy of “ <a href=\"https://www.faa.gov/ame_guide/media/Info_for_Psychotherapists_Treating_Pilots_ATCS.pdf\" target=\"_blank\" rel=\"noopener\">Information for Psychotherapists Treating Pilots and ATCS</a> .”</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "human-immunodeficiency-virus-hiv",
+ "name": "Human Immunodeficiency Virus (HIV)",
+ "subtitle": null,
+ "name_in_guide": "HUMAN IMMUNODEFICIENCY VIRUS (HIV)",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 173,
+ "decisions": [
+  "issue",
+  "defer",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "HIV status is negative;",
+  "Appropriate lab studies are being monitored;",
+  "Medication is",
+  "No side effects from the medication."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "HIV medication taken for long-term prevention or Pre-Exposure Prophylaxis (PrEP) in an HIV negative airman* Note: This does NOT include use for short-term Post- Exposure Prophylaxis (PEP) - (ex: healthcare exposure.)",
+   "condition_html": "<p>HIV medication taken for long-term prevention or Pre-Exposure Prophylaxis (PrEP) in an HIV negative airman*</p>\n<p><strong>Note:</strong> This <strong>does NOT</strong> include use for short-term Post- Exposure Prophylaxis (PEP) - (ex: healthcare exposure.)</p>",
+   "evaluation_data": "Review a current status report from the prescribing physician that verifies: - HIV status is negative; - Appropriate lab studies are being monitored; - Medication is Truvada (tenofovir-emtricitabine), Descovy (emtricitabine and tenofovir alafenamide), or Apretude (cabotegravir); or Yeztugo (lenacapavir) - No side effects from the medication.",
+   "evaluation_data_html": "<p>Review a current status report from the prescribing physician that verifies:</p>\n<ul><li> HIV status is negative;</li><li> Appropriate lab studies are being monitored;</li><li> Medication is</li></ul>\n<p>Truvada</p>\n<p>(tenofovir-emtricitabine),</p>\n<p>Descovy (emtricitabine</p>\n<p>and tenofovir alafenamide), or Apretude (cabotegravir); or</p>\n<p>Yeztugo (lenacapavir)</p>\n<ul><li> No side effects from the medication.</li></ul>",
+   "what_to_bring": [
+    "HIV status is negative;",
+    "Appropriate lab studies are being monitored;",
+    "Medication is",
+    "No side effects from the medication."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Note this in Block 60 and submit the initial current status and lab report to FAA for retention in the airman’s file. Inform the airman that if they develop any problems with the medication, change in prophylactic medications, or seroconvert to HIV+ status they must report this to the FAA. For continued certification: If no change in medication and HIV status remains negative, the AME may issue and note this in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Note this in Block 60 and submit the initial current status and lab report to FAA for retention in the airman’s file.</p>\n<p>Inform the airman that if they develop any problems with the medication, change in prophylactic medications, or seroconvert to HIV+ status they must report this to the FAA.</p>\n<p><strong>For continued certification: </strong></p>\n<p>If no change in medication and HIV status remains negative, the AME may issue and note this in Block 60.</p>",
+   "pdf_page": 448,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Human Immunodeficiency Virus (HIV) Use this disposition if the airman has a history of HIV only.",
+   "condition_html": "<p>Human Immunodeficiency Virus (HIV)</p>\n<p>Use this disposition if the airman has a history of HIV only.</p>",
+   "evaluation_data": "See HIV Protocol",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/hiv/\" target=\"_blank\" rel=\"noopener\">HIV Protocol</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "faa_decision"
+   ],
+   "disposition": "DEFER Requires FAA Decision",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Requires FAA Decision</p>",
+   "pdf_page": 448,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Acquired Immunodeficiency Syndrome (AIDS) Use this disposition if the airman has EVER had a history of AIDS.",
+   "condition_html": "<p>Acquired Immunodeficiency Syndrome (AIDS)</p>\n<p>Use this disposition if the airman has EVER had a history of AIDS.</p>",
+   "evaluation_data": "See HIV Protocol",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/hiv/\" target=\"_blank\" rel=\"noopener\">HIV Protocol</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "faa_decision"
+   ],
+   "disposition": "DEFER Requires FAA Decision",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Requires FAA Decision</p>",
+   "pdf_page": 448,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "HIV Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/hiv/"
+  }
+ ],
+ "aliases": [
+  "HIV medication taken for long-term prevention or Pre-Exposure Prophylaxis (PrEP)",
+  "Human Immunodeficiency Virus (HIV) Use this disposition if the airman has a hist",
+  "Acquired Immunodeficiency Syndrome (AIDS) Use this disposition if the airman has"
+ ],
+ "source": {
+  "section": "human-immunodeficiency-virus-hiv",
+  "section_title": "HUMAN IMMUNODEFICIENCY VIRUS (HIV)",
+  "pdf_pages": [
+   448
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

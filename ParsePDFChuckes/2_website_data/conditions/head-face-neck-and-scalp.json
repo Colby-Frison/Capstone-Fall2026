@@ -1,0 +1,85 @@
+{
+ "id": "head-face-neck-and-scalp",
+ "name": "Head, Face, Neck, and Scalp",
+ "subtitle": null,
+ "name_in_guide": "HEAD, FACE, NECK, AND SCALP",
+ "category": {
+  "id": "ear-nose-and-throat-ent",
+  "name": "Ear, Nose, and Throat (ENT)",
+  "exam_item": "25-30",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": null,
+ "order": 2,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Active fistula of neck, either congenital or acquired, including tracheostomy",
+   "condition_html": "<p>Active fistula of neck, either congenital or acquired, including tracheostomy</p>",
+   "evaluation_data": "All Submit all pertinent medical information and current, detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>All</p>\n<p>Submit all pertinent medical information and current, detailed Clinical Progress Note.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 64,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Loss of bony substance involving the two tables of the cranial vault",
+   "condition_html": "<p>Loss of bony substance involving the two tables of the cranial vault</p>",
+   "evaluation_data": "All Submit all pertinent medical information and current, detailed Clinical Progress Note.",
+   "evaluation_data_html": "<p>All</p>\n<p>Submit all pertinent medical information and current, detailed Clinical Progress Note.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 64,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Deformities of the face or head that would interfere with the proper fitting and wearing of an oxygen mask",
+   "condition_html": "<p>Deformities of the face or head that would interfere with the proper fitting and wearing of an oxygen mask</p>",
+   "evaluation_data": "1st & 2nd 3rd Submit all pertinent medical information and current, detailed Clinical Progress Note. Submit all pertinent medical information.",
+   "evaluation_data_html": "<p>1st &amp; 2nd</p>\n<p>3rd</p>\n<p>Submit all pertinent medical information and current, detailed Clinical Progress Note.</p>\n<p>Submit all pertinent medical information.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision",
+    "issue"
+   ],
+   "disposition": "Requires FAA Decision If deformity does not interfere with administration of supplemental O² - Issue",
+   "disposition_html": "<p>Requires FAA Decision</p>\n<p>If deformity does not interfere with administration of supplemental O² - Issue</p>",
+   "pdf_page": 64,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Active fistula of neck, either congenital or acquired, including tracheostomy",
+  "Loss of bony substance involving the two tables of the cranial vault",
+  "Deformities of the face or head that would interfere with the proper fitting and"
+ ],
+ "source": {
+  "section": "condition-not-listed",
+  "section_title": "Condition Not Listed",
+  "pdf_pages": [
+   64
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

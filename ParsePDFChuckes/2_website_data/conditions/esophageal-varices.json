@@ -1,0 +1,146 @@
+{
+ "id": "esophageal-varices",
+ "name": "Esophageal Varices",
+ "subtitle": null,
+ "name_in_guide": "ESOPHAGEAL VARICES",
+ "category": {
+  "id": "abdomen-and-viscera",
+  "name": "Abdomen and Viscera",
+  "exam_item": "38",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "02/25/2026",
+ "order": 77,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist, no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis; assessment and plan;",
+  "Prognosis; and follow-up.",
+  "The Clinical Progress Note must specifically include :",
+  "Underlying cause of the varices;",
+  "Dates of any bleeding events, treatment, and outcome;",
+  "If no history of bleeding events, that should be stated;",
+  "Size, grade, and location of varices;",
+  "ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and",
+  "Prognosis for risk of bleeding.",
+  "Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy)",
+  "Labs:",
+  "Complete Blood Count (CBC) performed within the past 90 days; and",
+  "Copies of other labs already performed or clinically indicated.",
+  "Results of any other testing already performed or clinically indicated.",
+  "All items in row A",
+  "The most recent detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist.",
+  "If no history of bleeding events that should be stated;",
+  "Size, grade, and location of varices",
+  "Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy)."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Small varices (grade 1 or F1) without red signs If the underlying cause is identified (e.g., cirrhosis ), see that page.",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Small varices (grade 1 or F1)</p>\n<p>without red signs</p>\n<p>If the underlying cause is identified (e.g., <a href=\"https://www.faa.gov/ame_guide/media/Cirrhosis_Dispo_Table.pdf\" target=\"_blank\" rel=\"noopener\">cirrhosis</a> ), see that page.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist, no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; - Prognosis; and follow-up. - 2. The Clinical Progress Note must specifically include: - Underlying cause of the varices; - Dates of any bleeding events, treatment, and outcome; - If no history of bleeding events, that should be stated; - Size, grade, and location of varices; - ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and - Prognosis for risk of bleeding. - 3. Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy) - 4. Labs: - Complete Blood Count (CBC) performed within the past 90 days; and - Copies of other labs already performed or clinically indicated. - 5. Results of any other testing already performed or clinically indicated.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified <strong>Gastroenterologist,</strong> no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan;</li><li>Prognosis; and follow-up.</li></ul>\n<ul><li>2. The Clinical Progress Note <strong>must specifically include</strong>:</li><li>Underlying cause of the varices;</li><li>Dates of any bleeding events, treatment, and outcome;</li><li>If no history of bleeding events, that should be stated;</li><li>Size, grade, and location of varices;</li><li>ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and</li><li>Prognosis for risk of bleeding.</li></ul>\n<ul><li>3. Report from the <strong>most recent upper endoscopy study/EGD </strong>(esophagogastroduodenoscopy)</li></ul>\n<ul><li><strong>4. Labs: </strong></li><li>Complete Blood Count (CBC) performed within the past 90 days; and</li><li>Copies of other labs already performed or clinically indicated.</li></ul>\n<ul><li>5. Results of any other testing already performed or clinically indicated.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist, no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis; assessment and plan;",
+    "Prognosis; and follow-up.",
+    "The Clinical Progress Note must specifically include :",
+    "Underlying cause of the varices;",
+    "Dates of any bleeding events, treatment, and outcome;",
+    "If no history of bleeding events, that should be stated;",
+    "Size, grade, and location of varices;",
+    "ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and",
+    "Prognosis for risk of bleeding.",
+    "Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy)",
+    "Labs:",
+    "Complete Blood Count (CBC) performed within the past 90 days; and",
+    "Copies of other labs already performed or clinically indicated.",
+    "Results of any other testing already performed or clinically indicated."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
+   "pdf_page": 215,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Any history of bleeding esophageal varies, after adequate treatment See corresponding page if underlying cause is identified (e.g., cirrhosis)",
+   "condition_html": "<p><strong>B.</strong></p>\n<p><strong>Any history of</strong> bleeding esophageal varies,</p>\n<p>after adequate treatment</p>\n<p>See corresponding page if underlying cause is identified (e.g., cirrhosis)</p>",
+   "evaluation_data": "After a 6-month recovery period, submit the following for FAA review: - All items in row A If less than 6 months recovery period, go to row C.",
+   "evaluation_data_html": "<p>After a<strong> 6-month</strong> recovery period, submit the following for FAA review:</p>\n<ul><li>All items in row A</li></ul>\n<p>If less than 6 months recovery period, go to row C.</p>",
+   "what_to_bring": [
+    "All items in row A"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 215,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Enlarged or large varices (Grade 2-3 or F2-3) OR Varies of ANY size WITH red signs OR History of bleeding esophageal varices, within the past 6 months OR Disease process inadequately controlled",
+   "condition_html": "<p><strong>C. </strong></p>\n<p>Enlarged or large varices</p>\n<p>(Grade 2-3 or F2-3)</p>\n<p>OR</p>\n<p>Varies of ANY size WITH red signs</p>\n<p>OR</p>\n<p>History of bleeding esophageal varices, within the past 6 months</p>\n<p>OR</p>\n<p>Disease process inadequately controlled</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. The most recent detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; - Prognosis; and follow-up. - 2. The Clinical Progress Note must specifically include: - Underlying cause of the varices; - Dates of any bleeding events, treatment, and outcome; - If no history of bleeding events that should be stated; - Size, grade, and location of varices - ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and - Prognosis for risk of bleeding. - 3. Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy).",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>The <strong>most recent</strong> detailed Clinical Progress Note generated from a clinic visit with a board-certified <strong>Gastroenterologist. </strong></li></ul>\n<p>It must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan;</li><li>Prognosis; and follow-up.</li></ul>\n<ul><li><strong>2. </strong>The Clinical Progress Note <strong>must specifically include</strong>:</li><li>Underlying cause of the varices;</li><li>Dates of any bleeding events, treatment, and outcome;</li><li>If no history of bleeding events that should be stated;</li><li>Size, grade, and location of varices</li><li>ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and</li><li>Prognosis for risk of bleeding.</li></ul>\n<ul><li><strong>3. </strong>Report from the <strong>most recent upper endoscopy study/EGD </strong>(esophagogastroduodenoscopy).</li></ul>",
+   "what_to_bring": [
+    "The most recent detailed Clinical Progress Note generated from a clinic visit with a board-certified Gastroenterologist.",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis; assessment and plan;",
+    "Prognosis; and follow-up.",
+    "The Clinical Progress Note must specifically include :",
+    "Underlying cause of the varices;",
+    "Dates of any bleeding events, treatment, and outcome;",
+    "If no history of bleeding events that should be stated;",
+    "Size, grade, and location of varices",
+    "ANY red signs (e.g., red wale markings, erythematous raised spots, also referred to as cherry red spots); and",
+    "Prognosis for risk of bleeding.",
+    "Report from the most recent upper endoscopy study/EGD (esophagogastroduodenoscopy)."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 215,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "eosinophilic-esophagitis",
+  "section_title": "Eosinophilic Esophagitis",
+  "pdf_pages": [
+   215
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

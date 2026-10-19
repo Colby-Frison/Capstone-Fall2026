@@ -1,0 +1,71 @@
+{
+ "id": "acute-lymphocytic-leukemia-all",
+ "name": "Acute Lymphocytic Leukemia (ALL)",
+ "subtitle": null,
+ "name_in_guide": "ACUTE LYMPHOCYTIC LEUKEMIA (ALL)",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/26/2023",
+ "order": 157,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the following to the FAA for review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition, physical exam findings, results of any testing performed, diagnosis, assessment and plan (prognosis), and follow-up. It must specifically include o Initial staging; o Treatments used; o How long the condition has been stable or in remission; o Any term follow-up (surveillance) requirements; o Recurrence(s); o Risk of recurrence; and o If recurrence were to occur, how would it present Medication list: Dates started and stopped. Description of side effects, if any; Operative notes and discharge summary (if applicable); Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging reports from testing already performed (such as MRI/CT or PET scan); and Copies of any other testing already performed for this condition."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Treatment completed ten (10) or more years ago",
+   "condition_html": "<p><strong>A. </strong>Treatment completed <strong>ten (10) or more years ago</strong></p>",
+   "evaluation_data": "The AME must review an oncology evaluation performed within the previous 12 months. If the oncology evaluation verifies the individual is cured, with no follow up treatment required:",
+   "evaluation_data_html": "<p>The AME must review an oncology evaluation performed within the previous 12 months.</p>\n<p>If the oncology evaluation verifies the individual is cured, with no follow up treatment required:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60 and submit the evaluation to the FAA for retention in the pilot’s file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Summarize this history in Block 60 and submit the evaluation to the FAA for retention in the pilot’s file.</p>",
+   "pdf_page": 419,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "All others",
+   "condition_html": "<p><strong>B. </strong>All others</p>",
+   "evaluation_data": "Submit the following to the FAA for review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition, physical exam findings, results of any testing performed, diagnosis, assessment and plan (prognosis), and follow-up. It must specifically include o Initial staging; o Treatments used; o How long the condition has been stable or in remission; o Any term follow-up (surveillance) requirements; o Recurrence(s); o Risk of recurrence; and o If recurrence were to occur, how would it present Medication list: Dates started and stopped. Description of side effects, if any; Operative notes and discharge summary (if applicable); Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging reports from testing already performed (such as MRI/CT or PET scan); and Copies of any other testing already performed for this condition.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<p> A current, detailed <strong>Clinical Progress Note </strong>generated from a clinic visit with the treating <strong>oncologist </strong>no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition, physical exam findings, results of any testing performed, diagnosis, assessment and plan (prognosis), and follow-up. <strong>It must specifically include</strong></p>\n<p>o Initial staging; o Treatments used; o How long the condition has been stable or in remission; o Any term follow-up (surveillance) requirements; o Recurrence(s); o Risk of recurrence; and o If recurrence were to occur, how would it present Medication list: Dates started and stopped. Description of side effects, if any; Operative notes and discharge summary (if applicable); Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging reports from testing already performed (such as MRI/CT or PET scan); and Copies of any other testing already performed for this condition.</p>",
+   "what_to_bring": [
+    "Submit the following to the FAA for review: A current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition, physical exam findings, results of any testing performed, diagnosis, assessment and plan (prognosis), and follow-up. It must specifically include o Initial staging; o Treatments used; o How long the condition has been stable or in remission; o Any term follow-up (surveillance) requirements; o Recurrence(s); o Risk of recurrence; and o If recurrence were to occur, how would it present Medication list: Dates started and stopped. Description of side effects, if any; Operative notes and discharge summary (if applicable); Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging reports from testing already performed (such as MRI/CT or PET scan); and Copies of any other testing already performed for this condition."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 419,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "acute-lymphocytic-leukemia-all",
+  "section_title": "ACUTE LYMPHOCYTIC LEUKEMIA (ALL)",
+  "pdf_pages": [
+   419
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

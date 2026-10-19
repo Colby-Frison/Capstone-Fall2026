@@ -1,0 +1,24 @@
+{
+ "slug": "item-63-disqualifying-defects",
+ "title": "ITEM 63. Disqualifying Defects",
+ "group": "APPLICATION REVIEW",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  500,
+  501
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 500,
+   "text": "The AME must check the “Disq” box on the Comments Page beside any disqualifying defect. Comments or discussion of specific observations or findings may be reported in Item 60. If all comments cannot fit in Item 60, the AME may submit additional information on a plain sheet of paper and include the applicant’s full name, date of birth, signature, any appropriate identifying numbers (PI, MID or SSN), and the date of the exam.",
+   "html": "<p>The AME must check the “Disq” box on the Comments Page beside any disqualifying defect. Comments or discussion of specific observations or findings may be reported in <strong>Item 60</strong>. If all comments cannot fit in Item 60, the AME may submit additional information on a plain sheet of paper and include the applicant’s full name, date of birth, signature, any appropriate identifying numbers (PI, MID or SSN), and the date of the exam.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 501,
+   "text": "If the AME denies the applicant, the AME must issue a Letter of Denial, to the applicant, and report the issuance of the denial in Item 60.",
+   "html": "<p>If the AME denies the applicant, the AME must issue a Letter of Denial, to the applicant, and report the issuance of the denial in Item 60.</p>"
+  }
+ ]
+}

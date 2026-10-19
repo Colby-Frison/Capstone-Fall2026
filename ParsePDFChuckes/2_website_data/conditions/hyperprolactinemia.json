@@ -1,0 +1,83 @@
+{
+ "id": "hyperprolactinemia",
+ "name": "Hyperprolactinemia",
+ "subtitle": null,
+ "name_in_guide": "HYPERPROLACTINEMIA",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 169,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with their treating endocrinologist no more than 90 days before the AME exam.",
+  "Results of any other testing (e.g., labs or imaging) already performed.",
+  "Medical records from any visit associated with this condition.",
+  "If any concern for pituitary tumor, MRI pituitary must be submitted. See Pituitary Adenoma page for requirements."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Due to pituitary tumor",
+   "condition_html": "<p><strong>A. </strong>Due to pituitary tumor</p>",
+   "evaluation_data": "See Pituitary Adenoma page.",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf\" target=\"_blank\" rel=\"noopener\">Pituitary Adenoma</a> page.</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 440,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Due to any other cause (e.g., adrenal insufficiency, hypothyroidism, medication, chronic kidney disease, or tumor in any location other than pituitary)",
+   "condition_html": "<p><strong>B. </strong> Due to any other cause</p>\n<p>(e.g., adrenal insufficiency, hypothyroidism, medication, chronic kidney disease, or tumor in any location other than pituitary)</p>",
+   "evaluation_data": "Submit the following for FAA review: - 2. A current, detailed Clinical Progress Note generated from a clinic visit with their treating endocrinologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. It must specifically include a discussion of the cause of the hyperprolactinemia, including any concern of a pituitary tumor. - 3. Results of any other testing (e.g., labs or imaging) already performed. - 4. Medical records from any visit associated with this condition. - 5. If any concern for pituitary tumor, MRI pituitary must be submitted. See Pituitary Adenoma page for requirements.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>2. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with their treating <strong>endocrinologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<p>It must specifically include a discussion of the cause of the hyperprolactinemia, including any concern of a pituitary tumor.</p>\n<ul><li><strong>3. </strong>Results of any other testing (e.g., labs or imaging) already performed.</li><li><strong>4. </strong>Medical records from any visit associated with this condition.</li><li><strong>5. </strong>If any concern for pituitary tumor, MRI pituitary must be submitted. See <a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf\" target=\"_blank\" rel=\"noopener\">Pituitary Adenoma</a> page for requirements.</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with their treating endocrinologist no more than 90 days before the AME exam.",
+    "Results of any other testing (e.g., labs or imaging) already performed.",
+    "Medical records from any visit associated with this condition.",
+    "If any concern for pituitary tumor, MRI pituitary must be submitted. See Pituitary Adenoma page for requirements."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 440,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "Pituitary Adenoma",
+   "href": "https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "hyperprolactinemia",
+  "section_title": "HYPERPROLACTINEMIA",
+  "pdf_pages": [
+   440
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

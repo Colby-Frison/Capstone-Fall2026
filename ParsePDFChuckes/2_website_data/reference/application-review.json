@@ -1,0 +1,130 @@
+{
+ "slug": "application-review",
+ "title": "APPLICATION REVIEW",
+ "group": null,
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  497,
+  498,
+  499
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 497,
+   "text": "Items 59-64 of FAA Form 8500-8",
+   "html": "<p><strong>Items 59-64 of FAA Form 8500-8</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "ITEMS 59-64 of FAA Form 8500-8",
+   "html": "<p><strong>ITEMS 59-64 of FAA Form 8500-8 </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "This section provides guidance for the completion of Items 59-64 of the FAA Form 8500-8. The AME is responsible for conducting the examination. However, he or she may delegate to a qualified physician's assistant, nurse, aide, or laboratory assistant the testing required for Items 49-58. Regardless of who performs the tests, the AME is responsible for the accuracy of the findings, and this responsibility may not be delegated.",
+   "html": "<p>This section provides guidance for the completion of Items 59-64 of the FAA Form 8500-8. The AME is responsible for conducting the examination. However, he or she may delegate to a qualified physician&#x27;s assistant, nurse, aide, or laboratory assistant the testing required for Items 49-58. Regardless of who performs the tests, the AME is responsible for the accuracy of the findings, and this responsibility <strong>may not </strong>be delegated.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "The medical history page of FAA Form 8500-8 must be completed and certified by the applicant or it will not appear in AMCS. After all routine evaluations and tests are completed, the AME should review FAA Form 8500-8. If the form is complete and accurate, the AME should add final comments, make qualification decision statements, and certify the examination.",
+   "html": "<p>The medical history page of FAA Form 8500-8 must be completed and certified by the applicant or it will not appear in AMCS. After all routine evaluations and tests are completed, the AME should review FAA Form 8500-8. If the form is complete and accurate, the AME should add final comments, make qualification decision statements, and certify the examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "ITEM 59. Other Tests Given",
+   "html": "<p><strong>ITEM 59. Other Tests Given </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 498,
+   "header": [
+    "59. Other Tests Given"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>59. Other Tests Given</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong> I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "All Classes: 14 CFR 67.413(a)(b)",
+   "html": "<p><strong>All Classes: 14 CFR 67.413(a)(b) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "(a) Whenever the Administrator finds that additional medical information or history is necessary to determine whether an applicant for or the holder of a medical certificate meets the medical standards for it, the Administrator requests that person to furnish that information or to authorize any clinic, hospital, physician, or other person to release to the Administrator all available information or records concerning that history. If the applicant or holder fails to provide the requested medical information or history or to authorize the release so requested, the Administrator may suspend, modify, or revoke all medical certificates the airman holds or may, in the case of an applicant, deny the application for an airman medical certificate.",
+   "html": "<p>(a) Whenever the Administrator finds that additional medical information or history is necessary to determine whether an applicant for or the holder of a medical certificate meets the medical standards for it, the Administrator requests that person to furnish that information or to authorize any clinic, hospital, physician, or other person to release to the Administrator all available information or records concerning that history. If the applicant or holder fails to provide the requested medical information or history or to authorize the release so requested, the Administrator may suspend, modify, or revoke all medical certificates the airman holds or may, in the case of an applicant, deny the application for an airman medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "(b) If an airman medical certificate is suspended or modified under paragraph (a) of this section, that suspension or modification remains in effect until the requested information, history, or authorization is provided to the FAA and until the Federal Air Surgeon determines whether the person meets the medical standards under this part.",
+   "html": "<p>(b) If an airman medical certificate is suspended or modified under paragraph (a) of this section, that suspension or modification remains in effect until the requested information, history, or authorization is provided to the FAA and until the Federal Air Surgeon determines whether the person meets the medical standards under this part.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "II. Examination Techniques",
+   "html": "<p><strong>II. Examination Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "Additional medical information may be furnished through additional history taking, further clinical examination procedures, and supplemental laboratory procedures.",
+   "html": "<p>Additional medical information may be furnished through additional history taking, further clinical examination procedures, and supplemental laboratory procedures.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 498,
+   "text": "On rare occasions, even surgical procedures such as biopsies may be indicated. As a designee of the FAA Administrator, the AME has limited authority to apply 14 CFR 67.413 in processing applications for medical certification. When an AME determines that there is",
+   "html": "<p>On rare occasions, even surgical procedures such as biopsies may be indicated. As a designee of the FAA Administrator, the AME has limited authority to apply 14 CFR 67.413 in processing applications for medical certification. When an AME determines that there is</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "a need for additional medical information, based upon history and findings, the AME is authorized to request prior hospital and outpatient records and to request supplementary examinations including laboratory testing and examinations by appropriate medical specialists. The AME should discuss the need with the applicant. The applicant should be advised of the types of additional examinations required and the type of medical specialist to be consulted. Responsibility for ensuring that these examinations are forwarded and that any charges or fees are paid will rest with the applicant. All reports should be forwarded to the AMCD, unless otherwise directed (such as by a RFS).",
+   "html": "<p>a need for additional medical information, based upon history and findings, the AME is authorized to request prior hospital and outpatient records and to request supplementary examinations including laboratory testing and examinations by appropriate medical specialists. The AME should discuss the need with the applicant. The applicant should be advised of the types of additional examinations required and the type of medical specialist to be consulted. Responsibility for ensuring that these examinations are forwarded and that any charges or fees are paid will rest with the applicant. All reports should be forwarded to the AMCD, unless otherwise directed (such as by a RFS).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "Whenever, in the AME's opinion, medical records are necessary to evaluate an applicant's medical fitness, the AME should request that the applicant sign an authorization for the Release of Medical Information. The AME should forward this authorization to the custodian of the applicant's records so that the information contained in the record may be obtained for attachment to the report of medical examination.",
+   "html": "<p>Whenever, in the AME&#x27;s opinion, medical records are necessary to evaluate an applicant&#x27;s medical fitness, the AME should request that the applicant sign an authorization for the Release of Medical Information. The AME should forward this authorization to the custodian of the applicant&#x27;s records so that the information contained in the record may be obtained for attachment to the report of medical examination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "ITEM 60. Comments on History and Findings",
+   "html": "<p><strong>ITEM 60. Comments on History and Findings </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "Comments on all positive history or medical examination findings must be reported by Item Number. Item 60 provides the AME an opportunity to report observations and/or findings that are not asked for on the application form. Concern about the applicant's behavior, abnormal situations arising during the examination, unusual findings, unreported history, and other information thought germane to aviation safety should be reported in Item 60. The AME should record name, dosage, frequency, and purpose for all currently used medications.",
+   "html": "<p>Comments on all positive history or medical examination findings must be reported by <strong>Item Number</strong>. Item 60 provides the AME an opportunity to report observations and/or findings that are not asked for on the application form. Concern about the applicant&#x27;s behavior, abnormal situations arising during the examination, unusual findings, unreported history, and other information thought germane to aviation safety should be reported in Item 60. The AME should record name, dosage, frequency, and purpose for all currently used medications.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "If possible, all ancillary reports such as consultations, ECGs, x-ray release forms, and hospital or other treatment records should be attached. If the delay for those items would exceed 14 days, the AME should forward all available data to the AMCD, with a note specifying what additional information is being prepared for submission at a later date.",
+   "html": "<p>If possible, all ancillary reports such as consultations, ECGs, x-ray release forms, and hospital or other treatment records should be attached. If the delay for those items would exceed 14 days, the AME should forward all available data to the AMCD, with a note specifying what additional information is being prepared for submission at a later date.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 499,
+   "text": "If there are no significant medical history items or abnormal physical findings, the AME should indicate this by checking the appropriate block.",
+   "html": "<p>If there are no significant medical history items or abnormal physical findings, the AME should indicate this by checking the appropriate block.</p>"
+  }
+ ]
+}

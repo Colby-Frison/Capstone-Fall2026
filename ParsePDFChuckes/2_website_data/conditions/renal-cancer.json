@@ -1,0 +1,104 @@
+{
+ "id": "renal-cancer",
+ "name": "Renal Cancer",
+ "subtitle": null,
+ "name_in_guide": "RENAL CANCER",
+ "category": {
+  "id": "g-u-system",
+  "name": "G-U System",
+  "exam_item": "41",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/30/2015",
+ "order": 94,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Submit the following to the FAA for review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It should describe the treatment plan, how long the condition has been stable, prognosis, and if any upcoming treatment change is planned or expected; List of medications and presence or absence of side effects with specific mention of chemotherapy and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease course, locations of metastatic disease, and stability; Operative notes and discharge, if applicable; Pathology report(s), if applicable; Results of MRI/CT or PET scan reports. (In some cases, the actual CDs will be required in DICOM format for FAA review.); and Copies of most recent lab results performed by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Non metastatic with treatment completed 5 or more years ago",
+   "condition_html": "<p><strong>A. </strong>Non metastatic with treatment completed <strong>5 or more years ago</strong></p>",
+   "evaluation_data": "If no recurrence or ongoing treatment:",
+   "evaluation_data_html": "<p>If no recurrence or ongoing treatment:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong> ISSUE </strong>Summarize this history in Block 60.</p>",
+   "pdf_page": 255,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Non metastatic with treatment completed less than 5 years ago",
+   "condition_html": "<p><strong>B. </strong> Non metastatic with treatment completed <strong>less than 5 years ago </strong></p>",
+   "evaluation_data": "See CACI worksheet.",
+   "evaluation_data_html": "<p>See CACI worksheet.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI- Renal Cancer Worksheet N ote in Block 60",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf\" target=\"_blank\" rel=\"noopener\">CACI-</a> Renal Cancer Worksheet N ote in Block 60</p>",
+   "pdf_page": 255,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Metastatic disease Current OR any time in the past OR Recurrence of disease",
+   "condition_html": "<p><strong>C. Metastatic disease </strong>Current OR any time in the past</p>\n<p><strong>OR</strong></p>\n<p><strong>Recurrence </strong>of disease</p>",
+   "evaluation_data": "Submit the following to the FAA for review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It should describe the treatment plan, how long the condition has been stable, prognosis, and if any upcoming treatment change is planned or expected; List of medications and presence or absence of side effects with specific mention of chemotherapy and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease course, locations of metastatic disease, and stability; Operative notes and discharge, if applicable; Pathology report(s), if applicable; Results of MRI/CT or PET scan reports. (In some cases, the actual CDs will be required in DICOM format for FAA review.); and Copies of most recent lab results performed by the treating physician.",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review: <strong>Current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It should describe the treatment plan, how long the condition has been stable, prognosis, and if any upcoming treatment change is planned or expected; List of medications and presence or absence of side effects with specific mention of chemotherapy and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease course, locations of metastatic disease, and stability; Operative notes and discharge, if applicable; Pathology report(s), if applicable; Results of MRI/CT or PET scan reports. (In some cases, the actual CDs will be required in DICOM format for FAA review.); and Copies of most recent lab results performed by the treating physician.</p>",
+   "what_to_bring": [
+    "Submit the following to the FAA for review: Current, detailed Clinical Progress Note generated from a clinic visit with the treating oncologist no more than 90 days before the AME exam. It should describe the treatment plan, how long the condition has been stable, prognosis, and if any upcoming treatment change is planned or expected; List of medications and presence or absence of side effects with specific mention of chemotherapy and dates used; Treatment records including clinic notes or a summary letter describing initial staging, disease course, locations of metastatic disease, and stability; Operative notes and discharge, if applicable; Pathology report(s), if applicable; Results of MRI/CT or PET scan reports. (In some cases, the actual CDs will be required in DICOM format for FAA review.); and Copies of most recent lab results performed by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow-up Special Issuance – Will be per the airman’s authorization letter",
+   "disposition_html": "<p><strong>DEFER </strong> Submit the information to the FAA for a possible Special Issuance. <strong>Follow-up Special Issuance – </strong>Will be per the airman’s authorization letter</p>",
+   "pdf_page": 255,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Renal Cancer Worksheet",
+   "updated": "04/13/2022",
+   "criteria": [],
+   "block_60_options": [
+    "CACI qualified renal cancer. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified renal cancer.",
+    "NOT CACI qualified renal cancer. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>(Updated 04/13/2022)</p>\n<table><tbody><tr><td><p><strong>AME MUST REVIEW </strong></p></td><td><p><strong>ACCEPTABLE CERTIFICATION CRITERIA </strong></p></td></tr><tr><td><p>Treating physician finds the condition stable on</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>current regimen and no changes recommended.</p></td><td></td></tr><tr><td><p>Any current or historic evidence of:</p>\n<p>• Chemotherapy</p>\n<p>• Disease recurrence;</p>\n<p>• Extra capsular extension;</p>\n<p>• Metastatic disease;</p>\n<p>• Stage 4 disease; or</p>\n<p>• Paraneoplastic syndrome</p></td><td><p>[ ] No</p></td></tr><tr><td><p>If surgery was performed - the airman is off pain</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>medication(s), has made a full recovery, and has</p></td><td></td></tr><tr><td><p>been released by the surgeon.</p></td><td></td></tr><tr><td><p>Symptoms</p></td><td><p>[ ] No</p></td></tr><tr><td><p>Treatment completed and back to full, unrestricted</p></td><td><p>[ ] Yes</p></td></tr><tr><td><p>activities (ECOG performance status or equivalent</p></td><td></td></tr><tr><td><p>is 0).</p></td><td></td></tr><tr><td><p>Current treatment:</p>\n<p>Notes: If it has been 5 or more years since the airman has had any treatment for this condition, with no history of metastatic disease and no reoccurrence, CACI is not required. Note this in Block 60. (See disposition table.)</p></td><td><p>[ ] None</p></td></tr></tbody></table>",
+ "links": [
+  {
+   "text": "CACI-",
+   "href": "https://www.faa.gov/ame_guide/media/CACI_Renal_Cancer.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-41-g-u-system",
+  "section_title": "ITEM 41. G-U System",
+  "pdf_pages": [
+   255,
+   256
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

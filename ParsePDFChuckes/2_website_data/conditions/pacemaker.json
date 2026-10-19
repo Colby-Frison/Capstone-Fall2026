@@ -1,0 +1,143 @@
+{
+ "id": "pacemaker",
+ "name": "Pacemaker",
+ "subtitle": null,
+ "name_in_guide": "PACEMAKER",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "05/29/2024",
+ "order": 51,
+ "decisions": [
+  "defer",
+  "special_issuance",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Items on Pacemaker Protocol",
+  "Pacemaker Status Summary",
+  "Cardiac narrative, (current within the past 90 days) from the treating physician which describes the reason the pacemaker and ICD were implanted, a statement if the ICD is needed or not, an assessment regarding the general physical and cardiac examination to include symptoms or treatment referable to the cardiovascular system; interim and current cardiac condition; functional capacity; and medical history;",
+  "Medication list",
+  "Hospital records to include",
+  "Coronary catheterization/ angiography report (if performed),",
+  "Operative report that includes the make of the generator and leads, model and serial number,",
+  "All ECG tracings, and",
+  "Procedure note detailing the replacement",
+  "Status report from the surgeon indicating the procedure was successful; device is functioning properly with no residual complications.",
+  "The pocket is healing well;",
+  "Off pain medications; and",
+  "No complications:"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Pacemaker Only* Initial FAA review",
+   "condition_html": "<p><strong>A. </strong></p>\n<p><strong>Pacemaker Only* </strong></p>\n<p><strong>Initial FAA review</strong></p>",
+   "evaluation_data": "After a 2-month recovery period, Submit the following to the FAA for review. - Items on Pacemaker Protocol - Pacemaker Status Summary NOTE: All testing must be performed AFTER the 2-month recovery period.",
+   "evaluation_data_html": "<p>After a <strong>2-month recovery period</strong>,</p>\n<p>Submit the following to the FAA for review.</p>\n<ul><li> Items on <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker\" target=\"_blank\" rel=\"noopener\">Pacemaker Protocol</a></li><li><a href=\"https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\"> Pacemaker Status Summary</a></li></ul>\n<p>NOTE: All testing must be performed <strong>AFTER the 2-month recovery period.</strong></p>",
+   "what_to_bring": [
+    "Items on Pacemaker Protocol",
+    "Pacemaker Status Summary"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. 1st and 2nd class airmen are reviewed by the FAS Cardiology Panel or Consultant Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>1st and 2nd class airmen are reviewed by the FAS Cardiology Panel or Consultant</p>\n<p><strong>Follow up Issuance </strong>Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 160,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Pacemaker with Implantable Cardiac Defibrillator (ICD)* An active ICD is disqualifying for all classes. Pacemaker with ICD will be considered only with documentation from the treating cardiologist that the ICD circuit has been turned OFF (i.e., deactivated).",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong>Pacemaker with Implantable Cardiac Defibri</strong>ll<strong>ator (ICD)* </strong></p>\n<p>An active ICD is disqualifying for all classes.</p>\n<p>Pacemaker with ICD will be considered only with documentation from the treating cardiologist that the ICD circuit has been turned OFF (i.e., deactivated).</p>",
+   "evaluation_data": "- Cardiac narrative, (current within the past 90 days) from the treating physician which describes the reason the pacemaker and ICD were implanted, a statement if the ICD is needed or not, an assessment regarding the general physical and cardiac examination to include symptoms or treatment referable to the cardiovascular system; interim and current cardiac condition; functional capacity; and medical history; - Medication list - Hospital records to include - Admission (history & physical), - Coronary catheterization/ angiography report (if performed), - Operative report that includes the make of the generator and leads, model and serial number, - All ECG tracings, and",
+   "evaluation_data_html": "<ul><li> Cardiac narrative, (current within the past 90 days) from the treating physician which describes the reason the pacemaker and ICD were implanted, a statement if the ICD is needed or not, an assessment regarding the general physical and cardiac examination to include symptoms or treatment referable to the cardiovascular system; interim and current cardiac condition; functional capacity; and medical history;</li><li> Medication list</li><li> Hospital records to include<ul><li>Admission (history &amp; physical),</li><li>Coronary catheterization/ angiography report (if performed),</li><li>Operative report that includes the make of the generator and leads, model and serial number,</li><li>All ECG tracings, and</li></ul></li></ul>",
+   "what_to_bring": [
+    "Cardiac narrative, (current within the past 90 days) from the treating physician which describes the reason the pacemaker and ICD were implanted, a statement if the ICD is needed or not, an assessment regarding the general physical and cardiac examination to include symptoms or treatment referable to the cardiovascular system; interim and current cardiac condition; functional capacity; and medical history;",
+    "Medication list",
+    "Hospital records to include",
+    "Coronary catheterization/ angiography report (if performed),",
+    "Operative report that includes the make of the generator and leads, model and serial number,",
+    "All ECG tracings, and"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter - - Discharge summary; - A report of hemoglobin A1c and current blood lipid profile to include cholesterol, HDL, LDL, and triglycerides. Interrogation report from the ICD for the past 60 days.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong> Follow up Issuance </strong></p>\n<p>Will be per the</p>\n<p>airman’s</p>\n<p>authorization letter</p>\n<ul><li><ul><li>Discharge summary;</li></ul></li><li> A report of hemoglobin A1c and current blood lipid profile to include cholesterol, HDL, LDL, and triglycerides.</li></ul>\n<p>Interrogation report from the ICD for the past 60 days.</p>",
+   "pdf_page": 160,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Pacemaker Lead replacement",
+   "condition_html": "<p><strong>C. Pacemaker </strong></p>\n<p><strong>Lead replacement </strong></p>",
+   "evaluation_data": "After a 2-month recovery period (to ensure lead stability), submit the following to the FAA for review: 1. Procedure note detailing the replacement 2. Pacemaker Status Summary 3. Status report from the surgeon indicating the procedure was successful; device is functioning properly with no residual complications. Note: In accordance with CFR61.53, airmen who currently hold a medical certificate and have a lead replaced should NOT fly. Once the above information is submitted and if the FAA authorizes the Special Issuance, the airman may resume flight duties.",
+   "evaluation_data_html": "<p>After a <strong>2-month recovery period </strong>(to ensure lead stability), submit the following to the FAA for review:</p>\n<p>1. Procedure note detailing the replacement</p>\n<p>2. <a href=\"https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Pacemaker Status Summary</a></p>\n<p>3. Status report from the surgeon indicating the procedure was successful; device is functioning properly with no residual complications.</p>\n<p><strong>Note:</strong> In accordance with CFR61.53, airmen who currently hold a medical certificate and have a lead replaced should <strong>NOT</strong> fly. Once the above information is submitted and if the FAA authorizes the Special Issuance, the airman may resume flight duties.</p>",
+   "what_to_bring": [
+    "Procedure note detailing the replacement",
+    "Pacemaker Status Summary",
+    "Status report from the surgeon indicating the procedure was successful; device is functioning properly with no residual complications."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong> Follow up Issuance </strong></p>\n<p>Will be per the</p>\n<p>airman’s</p>\n<p>authorization letter.</p>",
+   "pdf_page": 160,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "D",
+   "condition": "Pacemaker Battery/Generator Replacement",
+   "condition_html": "<p><strong>D. Pacemaker </strong></p>\n<p><strong>Battery/Generator Replacement </strong></p>",
+   "evaluation_data": "After a 14-day recovery period, if the cardiologist OR AME verifies: - The pocket is healing well; - Off pain medications; and - No complications: Submit the following to the FAA for retention in the file: 1. Procedure note detailing the replacement 2. Pacemaker Status Summary Note: In accordance with CFR61.53, pilots who currently hold a medical certificate and have not yet met the above criteria, should NOT fly.",
+   "evaluation_data_html": "<p>After a <strong>14-day </strong>recovery period, if the cardiologist OR AME verifies:</p>\n<ul><li>The pocket is healing well;</li><li>Off pain medications; and</li><li>No complications:</li></ul>\n<p>Submit the following to the FAA for retention in the file:</p>\n<p>1. Procedure note detailing the replacement</p>\n<p>2. <a href=\"https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Pacemaker Status Summary</a></p>\n<p><strong>Note: </strong>In accordance with CFR61.53, pilots who currently hold a medical certificate and have not yet met the above criteria, should <strong>NOT</strong> fly.</p>",
+   "what_to_bring": [
+    "The pocket is healing well;",
+    "Off pain medications; and",
+    "No complications:",
+    "Procedure note detailing the replacement",
+    "Pacemaker Status Summary"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 Submit the information to the FAA for retention in your file.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60</p>\n<p>Submit the information</p>\n<p>to the FAA for</p>\n<p>retention in your file.</p>",
+   "pdf_page": 160,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>Notes:</p>\n<ul><li>Medtronic EnRhythm® Pacemaker is <strong>not</strong> acceptable for medical certification.</li><li>Medtronic REVO pacemaker requires specific battery information from the manufacturer. Estimated battery longevity is required for recertification and we cannot issue without this specific piece of information. Please note that battery voltage and/or RRT, ERI, or EOL flags are not acceptable substitutes. With the Medtronic REVO pacemaker, the pacer clinic will need to call Medtronic at 1-800-505-4636 with a current scan in order to determine battery longevity.</li></ul>\n<p>*Permanent cardiac pacemaker implantation is a specifically disqualifying condition per Code of Federal Regulations 14 CFR 67.111(a) (5), 67.211(e), and 67.311(e).</p>",
+ "links": [
+  {
+   "text": "Pacemaker Protocol",
+   "href": "https://www.faa.gov/ame_guide/dec_cons/disease_prot/pacemaker"
+  },
+  {
+   "text": "Pacemaker Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "item-36-heart",
+  "section_title": "ITEM 36. Heart",
+  "pdf_pages": [
+   160,
+   162
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

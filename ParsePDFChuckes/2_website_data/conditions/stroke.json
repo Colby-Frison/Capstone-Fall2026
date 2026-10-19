@@ -1,0 +1,117 @@
+{
+ "id": "stroke",
+ "name": "Stroke",
+ "subtitle": "Cerebrovascular Accident (CVA) or Transient Ischemic Attack (TIA)",
+ "name_in_guide": "STROKE Cerebrovascular Accident (CVA) or Transient Ischemic Attack (TIA)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/26/2023",
+ "order": 144,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Cortical stroke or TIA: 2-year recovery",
+  "Sub-cortical stroke: 1-year recovery",
+  "A detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "Brain MRI performed within the previous 12 months . New imaging may be required after FAA physician review.",
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "Hospital records from the event:",
+  "Admission History and Physical;",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Emergency Medical Services (EMS)/ambulance run sheet, if applicable;",
+  "Hospital consultant report(s) (e.g., neurology, cardiology, internal medicine, or other specialists);",
+  "Lab report(s);",
+  "Operative/procedure report(s), if applicable;",
+  "*Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+  "Cardiac Monitor",
+  "TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR).",
+  "If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of six (6) months of device reports.",
+  "If ILR is currently implanted, submit data from implantation to the most recent interrogation.",
+  "Any other testing below, if already performed. New testing should not be obtained for aeromedical purposes until requested by FAA physicians. (See note on next page regarding additional testing.)",
+  "*Imaging. Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests;",
+  "Carotid ultrasound such as post procedure carotid endarterectomy. A carotid ultrasound is NOT acceptable in place of an MRA or CTA;",
+  "Transthoracic echocardiogram (TTE);",
+  "Cardiovascular Evaluation (CVE). (This may be found in hospital records as many are completed during the hospital stay.);",
+  "Stress test; and",
+  "Holter monitors performed since the event."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "All types Ever in lifetime OR TIA",
+   "condition_html": "<p>A. All types</p>\n<p>Ever in lifetime</p>\n<p>OR</p>\n<p>TIA</p>",
+   "evaluation_data": "Required recovery period: - Cortical stroke or TIA: 2-year recovery - Sub-cortical stroke: 1-year recovery Note: If the specific cause of a TIA or subcortical stroke is known and corrected (e.g., high-grade carotid stenosis fully treated or PFO with known acute venous clot fully treated), these may be considered on a case-by-case basis sooner than one year. Cortical strokes typically require a 2-year recovery period, regardless of cause. Once the required recovery period has been met, submit the following for FAA review: - 1. A detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. Brain MRI performed within the previous 12 months. New imaging may be required after FAA physician review. - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 3. Hospital records from the event: - Admission History and Physical; - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); - Emergency Medical Services (EMS)/ambulance run sheet, if applicable; - Hospital consultant report(s) (e.g., neurology, cardiology, internal medicine, or other specialists); - Lab report(s); - Operative/procedure report(s), if applicable; - *Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records. - 4. Cardiac Monitor - TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR). - If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of six (6) months of device reports. - If ILR is currently implanted, submit data from implantation to the most recent interrogation. - 5. Any other testing below, if already performed. New testing should not be obtained for aeromedical purposes until requested by FAA physicians. (See note on next page regarding additional testing.) - *Imaging. Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests; - Carotid ultrasound such as post procedure carotid endarterectomy. A carotid ultrasound is NOT acceptable in place of an MRA or CTA; - Transthoracic echocardiogram (TTE); - Cardiovascular Evaluation (CVE). (This may be found in hospital records as many are completed during the hospital stay.); - Stress test; and - Holter monitors performed since the event.",
+   "evaluation_data_html": "<p><strong>Required recovery period: </strong></p>\n<ul><li>Cortical stroke or TIA: <strong>2-year recovery</strong></li><li>Sub-cortical stroke: <strong> 1-year recovery</strong></li></ul>\n<p><strong>Note:</strong> If the specific cause of a TIA or subcortical stroke is known and corrected (e.g., high-grade carotid stenosis fully treated or PFO with known acute venous clot fully treated), these may be considered on a case-by-case basis sooner than one year. Cortical strokes typically require a 2-year recovery period, regardless of cause.</p>\n<p>Once the<strong> required recovery period has been met, </strong>submit the following for FAA review:</p>\n<ul><li>1. A detailed neurological evaluation that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. <strong>Brain MRI performed within the previous 12 months</strong>. New imaging may be required after FAA physician review.</li></ul>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li>3. Hospital records from the event:</li><li>Admission History and Physical;</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Emergency Medical Services (EMS)/ambulance run sheet, if applicable;</li><li>Hospital consultant report(s) (e.g., neurology, cardiology, internal medicine, or other specialists);</li><li>Lab report(s);</li></ul>\n<ul><li>Operative/procedure report(s), if applicable;</li><li>*Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.</li></ul>\n<ul><li>4. Cardiac Monitor</li><li>TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR).</li></ul>\n<ul><li>If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of <strong>six (6) months</strong> of device reports.</li></ul>\n<ul><li>If ILR is currently implanted, submit data from implantation to the most recent interrogation.</li></ul>\n<ul><li>5. Any other testing below, if already performed. New testing should not be obtained for aeromedical purposes until requested by FAA physicians. (See note on next page regarding additional testing.)</li><li>*Imaging. Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests;</li><li>Carotid ultrasound such as post procedure carotid endarterectomy. A carotid ultrasound is NOT acceptable in place of an MRA or CTA;</li><li>Transthoracic echocardiogram (TTE);</li><li>Cardiovascular Evaluation (CVE). (This may be found in hospital records as many are completed during the hospital stay.);</li><li>Stress test; and</li><li>Holter monitors performed since the event.</li></ul>",
+   "what_to_bring": [
+    "Cortical stroke or TIA: 2-year recovery",
+    "Sub-cortical stroke: 1-year recovery",
+    "A detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "Brain MRI performed within the previous 12 months . New imaging may be required after FAA physician review.",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "Hospital records from the event:",
+    "Admission History and Physical;",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Emergency Medical Services (EMS)/ambulance run sheet, if applicable;",
+    "Hospital consultant report(s) (e.g., neurology, cardiology, internal medicine, or other specialists);",
+    "Lab report(s);",
+    "Operative/procedure report(s), if applicable;",
+    "*Radiology report(s). The interpretive report(s) of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, and medication administration records.",
+    "Cardiac Monitor",
+    "TIA - Results of a current 30-day cardiac event monitor such as a Zio patch or implanted loop recorder (ILR).",
+    "If an implanted cardiac monitor was placed, OR if a cryptogenic stroke, submit a minimum of six (6) months of device reports.",
+    "If ILR is currently implanted, submit data from implantation to the most recent interrogation.",
+    "Any other testing below, if already performed. New testing should not be obtained for aeromedical purposes until requested by FAA physicians. (See note on next page regarding additional testing.)",
+    "*Imaging. Copies of all previous imaging such as CT, MRI, MRA, or other radiological tests;",
+    "Carotid ultrasound such as post procedure carotid endarterectomy. A carotid ultrasound is NOT acceptable in place of an MRA or CTA;",
+    "Transthoracic echocardiogram (TTE);",
+    "Cardiovascular Evaluation (CVE). (This may be found in hospital records as many are completed during the hospital stay.);",
+    "Stress test; and",
+    "Holter monitors performed since the event."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 361,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>ADDITIONAL TESTING:</strong> Due to the complex etiology of strokes, once the initial information (Row A) is reviewed by the FAA, the items below <strong>may be</strong> required on a case-by-case basis. Additional testing should not be obtained until requested by FAA physicians.</p>\n<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf\" target=\"_blank\" rel=\"noopener\">AASI Cerebrovascular Disease (CVA/Stroke/TIA)</a> .</p>\n<ul><li><strong>1. </strong>Neuropsychological evaluation that meets <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> from a clinic visit with the treating neuropsychologist. In some cases, such as very small stroke in non-eloquent area, this may be reduced or waived after FAA review.</li></ul>\n<ul><li><p><strong>2. </strong>A comprehensive hypercoagulopathy panel to include the following test results:</p>\n<ul><li>Factor V Leiden mutation</li><li>PT and INR</li><li>PTT</li><li>Antithrombin III</li><li>Protein S free antigen</li><li>Activated protein C level</li><li>Prothrombin (Factor II) G20210A gene mutation</li><li>Homocysteine level</li></ul></li></ul>\n<ul><li><ul><li>Antiphospholipid antibodies:</li><li>Lupus anticoagulant</li><li>Anticardiolipin antibodies</li><li>Beta-2 glycoprotein antibodies</li></ul></li></ul>",
+ "links": [
+  {
+   "text": "AASI Cerebrovascular Disease (CVA/Stroke/TIA)",
+   "href": "https://www.faa.gov/ame_guide/media/AASI_CVA-Stroke.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   361,
+   362
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

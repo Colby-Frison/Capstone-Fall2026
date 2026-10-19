@@ -1,0 +1,456 @@
+{
+ "slug": "item-49-hearing",
+ "title": "ITEM 49. Hearing",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  464,
+  465,
+  466,
+  467,
+  468
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 464,
+   "header": [
+    "49. Hearing",
+    "Record Audiometric Speech Discrimination Score Below"
+   ],
+   "rows": [
+    [
+     "Conversational Voice Test at 6 Feet - Pass - Fail",
+     ""
+    ]
+   ],
+   "html": "<table><thead><tr><th>49. Hearing</th><th>Record Audiometric Speech Discrimination Score Below</th></tr></thead><tbody><tr><td><p>Conversational Voice Test at 6 Feet</p>\n<ul><li> Pass</li><li> Fail</li></ul></td><td></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "All Classes: 14 CFR 67.105(a)(b)(c), 67.205(a)(b)(c), and 67.305(a)(b)(c)",
+   "html": "<p><strong>All Classes: 14 CFR 67.105(a)(b)(c), 67.205(a)(b)(c), and 67.305(a)(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(a) The person shall demonstrate acceptable hearing by at least one of the following",
+   "html": "<p>(a) The person shall demonstrate acceptable hearing by at least one of the following</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "tests:",
+   "html": "<p>tests:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(1) Demonstrate an ability to hear an average conversational voice in a quiet",
+   "html": "<p>(1) Demonstrate an ability to hear an average conversational voice in a quiet</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "room, using both ears, at a distance of 6 feet from the AME, with the",
+   "html": "<p>room, using both ears, at a distance of 6 feet from the AME, with the</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "back turned to the AME.",
+   "html": "<p>back turned to the AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(2) Demonstrate an acceptable understanding of speech as determined by",
+   "html": "<p>(2) Demonstrate an acceptable understanding of speech as determined by</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "audiometric speech discrimination testing to a score of at least 70 percent",
+   "html": "<p>audiometric speech discrimination testing to a score of at least 70 percent</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "obtained in one ear or in a sound field environment.",
+   "html": "<p>obtained in one ear or in a sound field environment.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(3) Provide acceptable results of pure tone audiometric testing of unaided",
+   "html": "<p>(3) Provide acceptable results of pure tone audiometric testing of unaided</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "hearing acuity according to the following table of worst acceptable",
+   "html": "<p>hearing acuity according to the following table of worst acceptable</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "thresholds, using the calibration standards of the American National",
+   "html": "<p>thresholds, using the calibration standards of the American National</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "Standards Institute, 1969 (11 West 42nd Street, New York, NY 10036):",
+   "html": "<p>Standards Institute, 1969 (11 West 42nd Street, New York, NY 10036):</p>"
+  },
+  {
+   "type": "table",
+   "page": 464,
+   "header": [
+    "Frequency (Hz)",
+    "500 Hz",
+    "1000 Hz",
+    "2000 Hz",
+    "3000 Hz"
+   ],
+   "rows": [
+    [
+     "Better ear (dB)",
+     "35",
+     "30",
+     "30",
+     "40"
+    ],
+    [
+     "Poorer ear (dB)",
+     "35",
+     "50",
+     "50",
+     "60"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Frequency (Hz)</th><th>500 Hz</th><th>1000 Hz</th><th>2000 Hz</th><th>3000 Hz</th></tr></thead><tbody><tr><td><p>Better ear (dB)</p></td><td><p>35</p></td><td><p>30</p></td><td><p>30</p></td><td><p>40</p></td></tr><tr><td><p>Poorer ear (dB)</p></td><td><p>35</p></td><td><p>50</p></td><td><p>50</p></td><td><p>60</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(b) No disease or condition of the middle or internal ear, nose, oral cavity, pharynx,",
+   "html": "<p>(b) No disease or condition of the middle or internal ear, nose, oral cavity, pharynx,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "or larynx that:",
+   "html": "<p>or larynx that:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(1) Interferes with, or is aggravated by, flying or may reasonably be expected to",
+   "html": "<p>(1) Interferes with, or is aggravated by, flying or may reasonably be expected to</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "do so; or",
+   "html": "<p>do so; or</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(2) Interferes with, or may reasonably be expected to interfere with, clear and",
+   "html": "<p>(2) Interferes with, or may reasonably be expected to interfere with, clear and</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "effective speech communication.",
+   "html": "<p>effective speech communication.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "(c) No disease or condition manifested by, or that may reasonably be expected to be",
+   "html": "<p>(c) No disease or condition manifested by, or that may reasonably be expected to be</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 464,
+   "text": "manifested by vertigo or a disturbance of equilibrium.",
+   "html": "<p>manifested by vertigo or a disturbance of equilibrium.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "II. Examination Equipment and Techniques",
+   "html": "<p><strong>II. Examination Equipment and Techniques </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "A. Order of Examinations",
+   "html": "<p>A. Order of Examinations</p>"
+  },
+  {
+   "type": "list",
+   "page": 465,
+   "text": "- 1. The applicant must demonstrate an ability to hear an average conversational voice in a quiet room, using both ears, at a distance of 6 feet from the AME, with the back turned to the AME.\n- 2. If an applicant fails the conversational voice test, the AME may administer pure tone audiometric testing of unaided hearing acuity according to the following table of worst acceptable thresholds, using the calibration standards of the American National Standards Institute, 1969:",
+   "html": "<ul><li>1. The applicant must demonstrate an ability to hear an average conversational voice in a quiet room, using both ears, at a distance of 6 feet from the AME, with the back turned to the AME.</li><li>2. If an applicant fails the conversational voice test, the AME may administer pure tone audiometric testing of unaided hearing acuity according to the following table of worst acceptable thresholds, using the calibration standards of the American National Standards Institute, 1969:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "Worse Acceptable Thresholds:",
+   "html": "<p><strong>Worse Acceptable Thresholds: </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 465,
+   "header": [
+    "Frequency (Hz)",
+    "500 Hz",
+    "1000 Hz",
+    "2000 Hz",
+    "3000 Hz"
+   ],
+   "rows": [
+    [
+     "Better ear (dB)",
+     "35",
+     "30",
+     "30",
+     "40"
+    ],
+    [
+     "Poorer ear (dB)",
+     "35",
+     "50",
+     "50",
+     "60"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Frequency (Hz)</th><th>500 Hz</th><th>1000 Hz</th><th>2000 Hz</th><th>3000 Hz</th></tr></thead><tbody><tr><td><p>Better ear (dB)</p></td><td><p>35</p></td><td><p>30</p></td><td><p>30</p></td><td><p>40</p></td></tr><tr><td><p>Poorer ear (dB)</p></td><td><p>35</p></td><td><p>50</p></td><td><p>50</p></td><td><p>60</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "If the applicant fails an audiometric test and the conversational voice test had not been administered, the conversational voice test should be performed to determine if the standard applicable to that test can be met.",
+   "html": "<p>If the applicant fails an audiometric test and the conversational voice test had not been administered, the conversational voice test should be performed to determine if the standard applicable to that test can be met.</p>"
+  },
+  {
+   "type": "list",
+   "page": 465,
+   "text": "- 3. If an applicant is unable to pass either the conversational voice test or the pure tone audiometric test, then an audiometric speech discrimination test should be administered. A passing score is at least 70 percent obtained in one ear at an intensity of no greater than 65 dB.",
+   "html": "<ul><li>3. If an applicant is unable to pass either the conversational voice test or the pure tone audiometric test, then an audiometric speech discrimination test should be administered. A passing score is at least 70 percent obtained in one ear at an intensity of no greater than 65 dB.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "B. Discussion",
+   "html": "<p>B. Discussion</p>"
+  },
+  {
+   "type": "list",
+   "page": 465,
+   "text": "- 1. Conversational voice test. For all classes of certification, the applicant must demonstrate hearing of an average conversational voice in a quiet room, using both ears, at 6 feet, with the back turned to the AME. The AME should not use only sibilants (S-sounding test materials). If the applicant is able to correctly repeat the test numbers or words, \"pass\" should be noted and recorded on FAA Form 8500-8, Item 49. If the applicant is unable to hear a normal conversational voice then \"fail\" should be marked and one of the following tests may be administered.",
+   "html": "<ul><li>1. Conversational voice test. For all classes of certification, the applicant must demonstrate hearing of an average conversational voice in a quiet room, using both ears, at 6 feet, with the back turned to the AME. The AME should not use only sibilants (S-sounding test materials). If the applicant is able to correctly repeat the test numbers or words, &quot;pass&quot; should be noted and recorded on FAA Form 8500-8, Item 49. If the applicant is unable to hear a normal conversational voice then &quot;fail&quot; should be marked and one of the following tests may be administered.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 465,
+   "text": "- 2. Standard. For all classes of certification, the applicant may be examined by pure tone audiometry as an alternative to conversational voice testing or upon failing the conversational voice test. If the applicant fails the pure tone audiometric test and has not been tested by conversational voice, that test may be administered. The requirements expressed as audiometric standards according to a table of acceptable thresholds (American National Standards Institute [ANSI], 1969, calibration) are as follows:",
+   "html": "<ul><li>2. Standard. For all classes of certification, the applicant may be examined by pure tone audiometry as an alternative to conversational voice testing or upon failing the conversational voice test. If the applicant fails the pure tone audiometric test and has not been tested by conversational voice, that test may be administered. The requirements expressed as audiometric standards according to a table of acceptable thresholds (American National Standards Institute [ANSI], 1969, calibration) are as follows:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 465,
+   "text": "EAR (All classes of medical certification)",
+   "html": "<p><strong>EAR (All classes of medical certification) </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 465,
+   "header": [
+    "Frequency (Hz)",
+    "500 Hz",
+    "1000 Hz",
+    "2000 Hz",
+    "3000 Hz"
+   ],
+   "rows": [
+    [
+     "Better ear (dB)",
+     "35",
+     "30",
+     "30",
+     "40"
+    ],
+    [
+     "Poorer ear (dB)",
+     "35",
+     "50",
+     "50",
+     "60"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Frequency (Hz)</th><th>500 Hz</th><th>1000 Hz</th><th>2000 Hz</th><th>3000 Hz</th></tr></thead><tbody><tr><td><p>Better ear (dB)</p></td><td><p>35</p></td><td><p>30</p></td><td><p>30</p></td><td><p>40</p></td></tr><tr><td><p>Poorer ear (dB)</p></td><td><p>35</p></td><td><p>50</p></td><td><p>50</p></td><td><p>60</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "list",
+   "page": 466,
+   "text": "- 3. Audiometric Speech Discrimination. Upon failing both conversational voice and pure tone audiometric test, an audiometric speech discrimination test should be administered (usually by an otologist or audiologist). The applicant must score at least 70 percent at intensity no greater than 65 dB in either ear.",
+   "html": "<ul><li>3. Audiometric Speech Discrimination. Upon failing both conversational voice and pure tone audiometric test, an audiometric speech discrimination test should be administered (usually by an otologist or audiologist). The applicant must score at least 70 percent at intensity no greater than 65 dB in either ear.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 466,
+   "text": "C. Equipment",
+   "html": "<p>C. Equipment</p>"
+  },
+  {
+   "type": "list",
+   "page": 466,
+   "text": "- 1. Approval. The FAA does not approve or designate specific audiometric equipment for use in medical certification. Equipment used for FAA testing must accurately and reliably cover the required frequencies and have adequate threshold step features. Because every audiometer manufactured in the United States for screening and diagnostic purposes is built to meet appropriate standards, most audiometers should be acceptable if they are maintained in proper calibration and are used in an adequately quiet place.",
+   "html": "<ul><li>1. Approval. The FAA does not approve or designate specific audiometric equipment for use in medical certification. Equipment used for FAA testing must accurately and reliably cover the required frequencies and have adequate threshold step features. Because every audiometer manufactured in the United States for screening and diagnostic purposes is built to meet appropriate standards, most audiometers should be acceptable if they are maintained in proper calibration and are used in an adequately quiet place.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 466,
+   "text": "- 2. Calibration. It is critical that any audiometer be periodically calibrated to ensure its continued accuracy. Annual calibration is recommended. Also recommended is the further safeguard of obtaining an occasional audiogram on a \"known\" subject or staff member between calibrations, especially at any time that a test result unexpectedly varies significantly from the hearing levels clinically expected. This testing provides an approximate \"at threshold\" calibration. The AME should ensure that the audiometer is calibrated to ANSI standards or if calibrated to the older ASA/USASI standards, the appropriate correction is applied (see paragraph 3 below).",
+   "html": "<ul><li>2. Calibration. It is critical that any audiometer be periodically calibrated to ensure its continued accuracy. Annual calibration is recommended. Also recommended is the further safeguard of obtaining an occasional audiogram on a &quot;known&quot; subject or staff member between calibrations, especially at any time that a test result unexpectedly varies significantly from the hearing levels clinically expected. This testing provides an approximate &quot;at threshold&quot; calibration. The AME should ensure that the audiometer is calibrated to ANSI standards or if calibrated to the older ASA/USASI standards, the appropriate correction is applied (see paragraph 3 below).</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 466,
+   "text": "- 3. ASA/ANSI. Older audiometers were often calibrated to meet the standards specified by the USA Standards Institute (USASI), formerly the American Standards Association (ASA). These standards were based upon a U.S. Public Health Service survey. Newer audiometers are calibrated so that the zero-hearing threshold level is now based on laboratory measurements rather than on the survey. In 1969, the American National Standards Institute (ANSI) incorporated these new measurements. Audiometers built to this standard have instruments or dials that read in ANSI values. For these reasons, it is very important that every audiogram submitted (for values reported in Item 49 on FAA Form 8500-8) include a note indicating whether it is ASA or ANSI. Only then can the FAA standards be appropriately applied. ASA or USASI values can be converted to ANSI by adding corrections as follows:",
+   "html": "<ul><li>3. ASA/ANSI. Older audiometers were often calibrated to meet the standards specified by the USA Standards Institute (USASI), formerly the American Standards Association (ASA). These standards were based upon a U.S. Public Health Service survey. Newer audiometers are calibrated so that the zero-hearing threshold level is now based on laboratory measurements rather than on the survey. In 1969, the American National Standards Institute (ANSI) incorporated these new measurements. Audiometers built to this standard have instruments or dials that read in ANSI values. For these reasons, it is very important that every audiogram submitted (for values reported in Item 49 on FAA Form 8500-8) include a note indicating whether it is ASA or ANSI. Only then can the FAA standards be appropriately applied. ASA or USASI values can be converted to ANSI by adding corrections as follows:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 466,
+   "text": "Conversion ASA or USASI to ANSI",
+   "html": "<p><strong>Conversion ASA or USASI to ANSI </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 466,
+   "header": [
+    "Frequency (Hz)",
+    "500 Hz",
+    "1000 Hz",
+    "2000 Hz",
+    "3000 Hz"
+   ],
+   "rows": [
+    [
+     "Decibels Added*",
+     "14",
+     "10",
+     "8.5",
+     "8.5"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Frequency (Hz)</th><th>500 Hz</th><th>1000 Hz</th><th>2000 Hz</th><th>3000 Hz</th></tr></thead><tbody><tr><td><p>Decibels Added*</p></td><td><p>14</p></td><td><p>10</p></td><td><p>8.5</p></td><td><p>8.5</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 466,
+   "text": "* The decibels added figure is the amount added to ASA or USASI at each specific frequency to convert to ANSI or older equivalent ISO values.",
+   "html": "<p>* The decibels added figure is the amount added to ASA or USASI at each specific frequency to convert to ANSI or older equivalent ISO values.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 467,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 467,
+   "text": "- 1. Special Issuance of Medical Certificates. Applicants who do not meet the auditory standards may be found eligible for a SODA. An applicant seeking a SODA must make the request in writing to the Aerospace Medicine Certification Division, AAM-300. A determination of qualifications will be made on the basis of a special medical examination by an ENT consultant, a MFT, or operational experience.",
+   "html": "<ul><li>1. Special Issuance of Medical Certificates. Applicants who do not meet the auditory standards may be found eligible for a SODA. An applicant seeking a SODA must make the request in writing to the Aerospace Medicine Certification Division, AAM-300. A determination of qualifications will be made on the basis of a special medical examination by an ENT consultant, a MFT, or operational experience.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 467,
+   "text": "- 2. Bilateral Deafness. See Items 25-30 . If otherwise qualified, when the student pilot's instructor confirms the student's eligibility for a private pilot checkride, the applicant should submit a written request to the AMCD for an authorization for a MFT. This test will be given by an FAA inspector in conjunction with the checkride. If the applicant successfully completes the test, the FAA will issue a third-class medical certificate and SODA. Pilot activities will be restricted to areas in which radio communication is not required.",
+   "html": "<ul><li>2. Bilateral Deafness. See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/et/25-30\" target=\"_blank\" rel=\"noopener\">Items 25-30</a> . If otherwise qualified, when the student pilot&#x27;s instructor confirms the student&#x27;s eligibility for a private pilot checkride, the applicant should submit a written request to the AMCD for an authorization for a MFT. This test will be given by an FAA inspector in conjunction with the checkride. If the applicant successfully completes the test, the FAA will issue a third-class medical certificate and SODA. Pilot activities will be restricted to areas in which radio communication is not required.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 467,
+   "text": "- 3. Hearing Aids. If the applicant requires the use of hearing aids to meet the standard, issue the certificate with the following restriction:",
+   "html": "<ul><li>3. Hearing Aids. If the applicant requires the use of hearing aids to meet the standard, issue the certificate with the following restriction:</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 467,
+   "text": "VALID ONLY WITH USE OF HEARING AMPLIFICATION",
+   "html": "<p>VALID ONLY WITH USE OF HEARING AMPLIFICATION</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 467,
+   "text": "Some pilots who normally wear hearing aids to assist in communicating while on the ground report that they elect not to wear them while flying. They prefer to use the volume amplification of the radio headphone. Some use the headphone on one ear for radio communication and the hearing aid in the other for cockpit communications.",
+   "html": "<p>Some pilots who normally wear hearing aids to assist in communicating while on the ground report that they elect not to wear them while flying. They prefer to use the volume amplification of the radio headphone. Some use the headphone on one ear for radio communication and the hearing aid in the other for cockpit communications.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 468,
+   "text": "ITEMS 50-54. Vision Testing",
+   "html": "<p><strong>ITEMS 50-54. Vision Testing </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 468,
+   "text": "(Updated 12/28/2022)",
+   "html": "<p>(Updated 12/28/2022)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 468,
+   "text": "Visual Acuity Standards:",
+   "html": "<p><strong>Visual Acuity Standards</strong>:</p>"
+  },
+  {
+   "type": "list",
+   "page": 468,
+   "text": "- As listed below or better;\n- Each eye separately;\n- Snellen equivalent; and\n- With or without correction. If correction is used, it should be noted, and the correct limitation applied.",
+   "html": "<ul><li>As listed below or better;</li><li>Each eye separately;</li><li>Snellen equivalent; and</li><li>With or without correction. If correction is used, it should be noted, and the correct limitation applied.</li></ul>"
+  },
+  {
+   "type": "table",
+   "page": 468,
+   "header": [
+    "",
+    "First or Second Class",
+    "Third Class"
+   ],
+   "rows": [
+    [
+     "Distant Vision",
+     "20/20",
+     "20/40"
+    ],
+    [
+     "Near Vision Measured at 16 inches",
+     "20/40",
+     "20/40"
+    ],
+    [
+     "Intermediate Vision Measured at 32 inches; Age 50 and over only",
+     "20/40",
+     "No requirement"
+    ]
+   ],
+   "html": "<table><thead><tr><th></th><th>First or Second Class</th><th>Third Class</th></tr></thead><tbody><tr><td><p><strong>Distant Vision </strong></p></td><td><p><strong>20/20 </strong></p></td><td><p>20/40</p></td></tr><tr><td><p><strong>Near Vision </strong></p>\n<p>Measured at 16 inches</p></td><td><p>20/40</p></td><td><p>20/40</p></td></tr><tr><td><p><strong>Intermediate Vision </strong></p>\n<p>Measured at 32 inches;</p>\n<p>Age 50 and over only</p></td><td><p>20/40</p></td><td><p>No requirement</p></td></tr></tbody></table>"
+  }
+ ]
+}

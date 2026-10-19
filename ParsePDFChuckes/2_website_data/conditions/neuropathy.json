@@ -1,0 +1,125 @@
+{
+ "id": "neuropathy",
+ "name": "Neuropathy",
+ "subtitle": "(Peripheral Neuropathy)",
+ "name_in_guide": "NEUROPATHY (Peripheral Neuropathy)",
+ "category": {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 100,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Under control;",
+  "Medications are acceptable; and",
+  "The individual has no symptoms that would interfere with flight duties:",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+  "It must specifically include a description of any weakness, numbness, or functional limitations.",
+  "Lab already performed for this condition.",
+  "Any other testing or imaging deemed clinically necessary by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Neuropathy Without functional limitations",
+   "condition_html": "<p>A. Neuropathy</p>\n<p>Without functional limitations</p>",
+   "evaluation_data": "If the AME can determine the condition is: - Under control; - Medications are acceptable; and - The individual has no symptoms that would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is:</p>\n<ul><li>Under control;</li><li>Medications are acceptable; and</li><li>The individual has no symptoms that would interfere with flight duties:</li></ul>",
+   "what_to_bring": [
+    "Under control;",
+    "Medications are acceptable; and",
+    "The individual has no symptoms that would interfere with flight duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If no AME explanation, the pilot may be asked to provide documentation.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>\n<p>If no AME explanation, the pilot may be asked to provide documentation.</p>",
+   "pdf_page": 265,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Neuropathy With weakness/ numbness OR Functional limitations",
+   "condition_html": "<p>B. Neuropathy</p>\n<p>With weakness/ numbness</p>\n<p>OR</p>\n<p>Functional limitations</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include a description of any weakness, numbness, or functional limitations. - 3. Lab already performed for this condition. - 4. Any other testing or imaging deemed clinically necessary by the treating physician. Note: If the neuropathy is due to an underlying condition such as diabetes - see that section.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician<strong> no more than 90 days before</strong> the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong> a description of any weakness, numbness, or functional limitations.</li></ul>\n<ul><li>3. <strong>Lab</strong> already performed for this condition.</li></ul>\n<ul><li>4. Any other testing or imaging deemed clinically necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> If the neuropathy is due to an underlying condition such as diabetes - see that section.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+    "It must specifically include a description of any weakness, numbness, or functional limitations.",
+    "Lab already performed for this condition.",
+    "Any other testing or imaging deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60. If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot's ability to operation aircraft controls.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>\n<p>If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot&#x27;s ability to operation aircraft controls.</p>",
+   "pdf_page": 265,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "A",
+   "condition": "Neuropathy Without functional limitations",
+   "condition_html": "<p><strong>A. </strong> Neuropathy</p>\n<p>Without functional limitations</p>",
+   "evaluation_data": "If the AME can determine the condition is: - Under control; - Medications are acceptable; and - The individual has no symptoms that would interfere with flight duties:",
+   "evaluation_data_html": "<p>If the AME can determine the condition is:</p>\n<ul><li>Under control;</li><li>Medications are acceptable; and</li><li>The individual has no symptoms that would interfere with flight duties:</li></ul>",
+   "what_to_bring": [
+    "Under control;",
+    "Medications are acceptable; and",
+    "The individual has no symptoms that would interfere with flight duties:"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information in Block 60. If no AME explanation, the pilot may be asked to provide documentation.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate this information in Block 60.</p>\n<p>If no AME explanation, the pilot may be asked to provide documentation.</p>",
+   "pdf_page": 341,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Neuropathy With weakness/ numbness OR Functional limitations",
+   "condition_html": "<p><strong>B.</strong> Neuropathy</p>\n<p>With weakness/ numbness</p>\n<p>OR</p>\n<p>Functional limitations</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 2. It must specifically include a description of any weakness, numbness, or functional limitations. - 3. Lab already performed for this condition. - 4. Any other testing or imaging deemed clinically necessary by the treating physician. Note: If the neuropathy is due to an underlying condition such as diabetes - see that section.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician<strong> no more than 90 days before</strong> the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</li></ul>\n<ul><li>2. <strong>It must specifically include</strong> a description of any weakness, numbness, or functional limitations.</li></ul>\n<ul><li>3. <strong>Lab</strong> already performed for this condition.</li></ul>\n<ul><li>4. Any other testing or imaging deemed clinically necessary by the treating physician.</li></ul>\n<p><strong>Note:</strong> If the neuropathy is due to an underlying condition such as diabetes - see that section.</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the neuropathy (including etiology if known); current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.",
+    "It must specifically include a description of any weakness, numbness, or functional limitations.",
+    "Lab already performed for this condition.",
+    "Any other testing or imaging deemed clinically necessary by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60. If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot's ability to operation aircraft controls.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Block 60.</p>\n<p>If not addressed in the progress note, the AME should describe any functional limitations that could affect the pilot&#x27;s ability to operation aircraft controls.</p>",
+   "pdf_page": 341,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "items-42-43-musculoskeletal",
+  "section_title": "ITEMS 42-43. Musculoskeletal",
+  "pdf_pages": [
+   265,
+   341
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

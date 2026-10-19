@@ -1,0 +1,150 @@
+{
+ "id": "vascular-conditions",
+ "name": "Vascular Conditions",
+ "subtitle": null,
+ "name_in_guide": "VASCULAR CONDITIONS",
+ "category": {
+  "id": "vascular-system",
+  "name": "Vascular System",
+  "exam_item": "37",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/26/2026",
+ "order": 66,
+ "decisions": [
+  "faa_decision",
+  "issue"
+ ],
+ "what_to_bring": [
+  "Submit all available medical documentation",
+  "Submit all documentation in accordance with CVE Protocol, and include a GXT",
+  "Submit all documentation in accordance with CVE Protocol, and include a GXT, and CAD ultrasound if applicable"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Aneurysm (Abdominal or Thoracic)",
+   "condition_html": "<p>Aneurysm (Abdominal or Thoracic)</p>",
+   "evaluation_data": "Submit all available medical documentation",
+   "evaluation_data_html": "<p>Submit all available medical documentation</p>",
+   "what_to_bring": [
+    "Submit all available medical documentation"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 197,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Aneurysm (Status Post Repair)",
+   "condition_html": "<p>Aneurysm</p>\n<p>(Status Post Repair)</p>",
+   "evaluation_data": "Submit all documentation in accordance with CVE Protocol, and include a GXT",
+   "evaluation_data_html": "<p>Submit all documentation in accordance with CVE Protocol, and include a <a href=\"file://avsawadcaaa/aam_shared/AAM200/AAM-220%20Standards%20and%20Policy/A%20-%20AME%20Guide/AppData/AAM200SG/Local%20Settings/Local%20Settings/Temp/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/WF7L0Z2D/readonly/CFAME05/PROTOCOLS/Protocols.doc#gxt\">GXT</a></p>",
+   "what_to_bring": [
+    "Submit all documentation in accordance with CVE Protocol, and include a GXT"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 197,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Arteriosclerotic Vascular disease with evidence of circulatory obstruction",
+   "condition_html": "<p>Arteriosclerotic Vascular disease with evidence of circulatory obstruction</p>",
+   "evaluation_data": "Submit all documentation in accordance with CVE Protocol, and include a GXT, and CAD ultrasound if applicable",
+   "evaluation_data_html": "<p>Submit all documentation in accordance with CVE Protocol, and include a GXT, and CAD ultrasound if applicable</p>",
+   "what_to_bring": [
+    "Submit all documentation in accordance with CVE Protocol, and include a GXT, and CAD ultrasound if applicable"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 197,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Peripheral Edema",
+   "condition_html": "<p>Peripheral Edema</p>",
+   "evaluation_data": "The underlying medical condition must not be disqualifying",
+   "evaluation_data_html": "<p>The underlying medical condition must not be disqualifying</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If findings can be explained by normal physiologic response or secondary to medication(s) - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If findings can be explained by normal physiologic response or secondary to medication(s) - Issue</p>\n<p>Otherwise -</p>\n<p>Requires FAA Decision</p>",
+   "pdf_page": 197,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Phlebothrombosis or Thrombophlebitis",
+   "condition_html": "<p>Phlebothrombosis or Thrombophlebitis</p>",
+   "evaluation_data": "1st & 2nd See Thrombophlebitis Protocol",
+   "evaluation_data_html": "<p>1st &amp; 2nd</p>\n<p>See Thrombophlebitis Protocol</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 198,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Phlebothrombosis or Thrombophlebitis",
+   "condition_html": "<p>Phlebothrombosis or Thrombophlebitis</p>",
+   "evaluation_data": "3rd Document history and findings See Thrombophlebitis Protocol",
+   "evaluation_data_html": "<p>3rd</p>\n<p>Document history and findings</p>\n<p>See Thrombophlebitis Protocol</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "A single episode resolved, not currently treated with anticoagulants, and a negative evaluation - Issue If history of multiple episodes - Requires FAA Decision",
+   "disposition_html": "<p>A single episode resolved, not currently treated with anticoagulants, and a negative evaluation - Issue</p>\n<p>If history of multiple episodes - Requires FAA Decision</p>",
+   "pdf_page": 198,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "GXT",
+   "href": "file://avsawadcaaa/aam_shared/AAM200/AAM-220%20Standards%20and%20Policy/A%20-%20AME%20Guide/AppData/AAM200SG/Local%20Settings/Local%20Settings/Temp/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/WF7L0Z2D/readonly/CFAME05/PROTOCOLS/Protocols.doc#gxt"
+  }
+ ],
+ "aliases": [
+  "Aneurysm (Abdominal or Thoracic)",
+  "Aneurysm (Status Post Repair)",
+  "Arteriosclerotic Vascular disease with evidence of circulatory obstruction",
+  "Peripheral Edema",
+  "Phlebothrombosis or Thrombophlebitis",
+  "Phlebothrombosis or Thrombophlebitis"
+ ],
+ "source": {
+  "section": "item-37-vascular-system",
+  "section_title": "ITEM 37. Vascular System",
+  "pdf_pages": [
+   197,
+   198
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "retinal-dystrophies-cone-rod-retinitis-pigmentosa",
+ "name": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa)",
+ "subtitle": null,
+ "name_in_guide": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa)",
+ "category": {
+  "id": "ophthalmoscopic",
+  "name": "Ophthalmoscopic",
+  "exam_item": "32",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/25/2026",
+ "order": 32,
+ "decisions": [
+  "defer"
+ ],
+ "what_to_bring": [
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "results of any testing performed;",
+  "diagnosis;",
+  "assessment and plan;",
+  "prognosis; and follow-up.",
+  "The eye specialist’s interpretation of any testing performed.",
+  "Whether the dystrophy is associated with any medical syndrome.",
+  "Any treatments.",
+  "Reliable threshold visual fields.",
+  "Electroretinography (ERG);",
+  "Optical Coherence Tomography (OCT);",
+  "Fundus imaging and autofluorescence;",
+  "Any other testing already performed.",
+  "A current, detailed Clinical Progress Note* generated from a clinic visit with a board-certified Retinal Specialist (subspecialty of ophthalmology), no more than 90 days prior to the AME exam. An FAA 8500-7 or 8500-14 are NOT acceptable. The progress note must include:",
+  "It must specifically include:",
+  "Copies of the most recent testing already performed for this condition such as:",
+  "Visual acuity testing no more than 90 days prior to the AME exam."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history of Note: In most cases, retinal dystrophies (e.g. Cone, Rod, Rod- Cone, Cone-Rod, Retinitis Pigmentosa) are incompatible with medical certification/clearance.",
+   "condition_html": "<p>A. Any history of</p>\n<p>Note: In most cases, retinal dystrophies (e.g. Cone, Rod, Rod- Cone, Cone-Rod, Retinitis Pigmentosa) are incompatible with medical certification/clearance.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note* generated from a clinic visit with a board-certified Retinal Specialist (subspecialty of ophthalmology), no more than 90 days prior to the AME exam. An FAA 8500-7 or 8500-14 are NOT acceptable. The progress note must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - results of any testing performed; - diagnosis; - assessment and plan; - prognosis; and follow-up. 2. It must specifically include: - The eye specialist’s interpretation of any testing performed. - Whether the dystrophy is associated with any medical syndrome. - Any treatments. 3. Copies of the most recent testing already performed for this condition such as: - Reliable threshold visual fields. - Electroretinography (ERG); - Optical Coherence Tomography (OCT); - Fundus imaging and autofluorescence; - Any other testing already performed. 4. Visual acuity testing no more than 90 days prior to the AME exam. *NOTE: Submission of 8500-7 or 8500-14 instead of actual clinical progress notes is NOT acceptable.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A current, detailed Clinical Progress Note* generated from a clinic visit with a <strong>board-certified Retinal Specialist</strong> (subspecialty of ophthalmology), no more than 90 days prior to the AME exam. An FAA 8500-7 or 8500-14 are NOT acceptable. The progress note must include:</p>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>results of any testing performed;</li><li>diagnosis;</li><li>assessment and plan;</li><li>prognosis; and follow-up.</li></ul>\n<p>2. It must specifically include:</p>\n<ul><li>The eye specialist’s interpretation of any testing performed.</li><li>Whether the dystrophy is associated with any medical syndrome.</li><li>Any treatments.</li></ul>\n<p>3. Copies of the most recent <strong>testing already performed</strong> for this condition such as:</p>\n<ul><li>Reliable threshold visual fields.</li><li>Electroretinography (ERG);</li><li>Optical Coherence Tomography (OCT);</li><li>Fundus imaging and autofluorescence;</li><li>Any other testing already performed.</li></ul>\n<p>4. Visual acuity testing no more than 90 days prior to the AME exam.</p>\n<p>*NOTE: Submission of 8500-7 or 8500-14 instead of actual clinical progress notes is <strong>NOT</strong> acceptable.</p>",
+   "what_to_bring": [
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "results of any testing performed;",
+    "diagnosis;",
+    "assessment and plan;",
+    "prognosis; and follow-up.",
+    "The eye specialist’s interpretation of any testing performed.",
+    "Whether the dystrophy is associated with any medical syndrome.",
+    "Any treatments.",
+    "Reliable threshold visual fields.",
+    "Electroretinography (ERG);",
+    "Optical Coherence Tomography (OCT);",
+    "Fundus imaging and autofluorescence;",
+    "Any other testing already performed.",
+    "A current, detailed Clinical Progress Note* generated from a clinic visit with a board-certified Retinal Specialist (subspecialty of ophthalmology), no more than 90 days prior to the AME exam. An FAA 8500-7 or 8500-14 are NOT acceptable. The progress note must include:",
+    "It must specifically include:",
+    "Copies of the most recent testing already performed for this condition such as:",
+    "Visual acuity testing no more than 90 days prior to the AME exam."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA.</p>",
+   "pdf_page": 123,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "chorioretinitis",
+  "section_title": "CHORIORETINITIS",
+  "pdf_pages": [
+   123
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

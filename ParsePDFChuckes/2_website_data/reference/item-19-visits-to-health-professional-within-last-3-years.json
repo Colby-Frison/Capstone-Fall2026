@@ -1,0 +1,66 @@
+{
+ "slug": "item-19-visits-to-health-professional-within-last-3-years",
+ "title": "ITEM 19. Visits to Health Professional within Last 3 Years",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  52,
+  53
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "The applicant should list all visits in the last 3 years to a physician, physician assistant, nurse practitioner, psychologist, clinical social worker, or substance abuse specialist for treatment, examination, or medical/mental evaluation. The applicant should list visits for counseling only if related to a personal substance abuse or psychiatric condition. The applicant should give the name, date, address, and type of health professional consulted and briefly state the reason for the consultation. Multiple visits to one health professional for the same condition may be aggregated on one line.",
+   "html": "<p>The applicant should list all visits in the last 3 years to a physician, physician assistant, nurse practitioner, psychologist, clinical social worker, or substance abuse specialist for treatment, examination, or medical/mental evaluation. The applicant should list visits for counseling only if related to a personal substance abuse or psychiatric condition. The applicant should give the name, date, address, and type of health professional consulted and briefly state the reason for the consultation. Multiple visits to one health professional for the same condition may be aggregated on one line.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "Routine dental, eye, and FAA periodic medical examinations and consultations with an employer-sponsored employee assistance program (EAP) may be excluded unless the consultations were for the applicant's substance abuse or unless the consultations resulted in referral for psychiatric evaluation or treatment.",
+   "html": "<p>Routine dental, eye, and FAA periodic medical examinations and consultations with an employer-sponsored employee assistance program (EAP) may be excluded unless the consultations were for the applicant&#x27;s substance abuse or unless the consultations resulted in referral for psychiatric evaluation or treatment.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "When an applicant does provide history in Item 19, the AME should review the matter with the applicant. The AME will record in Item 60 only that information needed to document the review and provide the basis for a certification decision. If the AME finds the information to be of a personal or sensitive nature with no relevancy to flying safety, it should be recorded in Item 60 as follows:",
+   "html": "<p>When an applicant does provide history in Item 19, the AME should review the matter with the applicant. The AME will record in <strong>Item 60</strong> only that information needed to document the review and provide the basis for a certification decision. If the AME finds the information to be of a personal or sensitive nature with no relevancy to flying safety, it should be recorded in <strong>Item 60</strong> as follows:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "\"Item 19. Reviewed with applicant. History not significant or relevant to application.\"",
+   "html": "<p>&quot;Item 19. Reviewed with applicant. History not significant or relevant to application.&quot;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "If the applicant is otherwise qualified, a medical certificate may be issued by the AME.",
+   "html": "<p>If the applicant is otherwise qualified, a medical certificate may be issued by the AME.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "FAA medical authorities, upon review of the application, will ask for further information regarding visits to health care providers only where the physical findings, report of examination, applicant disclosure, or other evidence suggests the possible presence of a disqualifying medical history or condition.",
+   "html": "<p>FAA medical authorities, upon review of the application, will ask for further information regarding visits to health care providers only where the physical findings, report of examination, applicant disclosure, or other evidence suggests the possible presence of a disqualifying medical history or condition.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 52,
+   "text": "If an explanation has been given on a previous report(s) and there has been no change in the condition, the applicant may enter \"PREVIOUSLY REPORTED, NO CHANGE.\"",
+   "html": "<p>If an explanation has been given on a previous report(s) and there has been no change in the condition, the applicant may enter &quot;PREVIOUSLY REPORTED, NO CHANGE.&quot;</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 53,
+   "text": "Of particular importance is the reporting of conditions that have developed since the applicant's last FAA medical examination. The AME is asked to comment on all entries,",
+   "html": "<p>Of particular importance is the reporting of conditions that have developed since the applicant&#x27;s last FAA medical examination. The AME is asked to comment on all entries,</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 53,
+   "text": "including those \"PREVIOUSLY REPORTED, NO CHANGE.\" These comments may be entered under Item 60.",
+   "html": "<p>including those &quot;PREVIOUSLY REPORTED, NO CHANGE.&quot; These comments may be entered under <strong>Item 60</strong>.</p>"
+  }
+ ]
+}

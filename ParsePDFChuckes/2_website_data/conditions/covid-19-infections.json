@@ -1,0 +1,113 @@
+{
+ "id": "covid-19-infections",
+ "name": "COVID-19 Infections",
+ "subtitle": null,
+ "name_in_guide": "COVID-19 INFECTIONS",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "10/30/2024",
+ "order": 159,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "Submit the following to the FAA for review: A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Current functional status, treatment plan and prognosis; Specialty consultations already performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of current medications and side effects, if any; Hospital discharge summary; and Copies of imaging reports and lab (if already performed).",
+  "Submit the following to the FAA for review:",
+  "A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Description the sequelae and current functional status; Treatment plan, and prognosis; Specialty consultations performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of medications and side effects, if any; Hospital discharge summary; (if applicable); and Copies of imaging reports and lab (if already performed by treating physician). 6MWT (in some cases)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Asymptomatic or mild infection; OR Prolonged outpatient course; OR Hospitalization, NOT requiring intensive (ICU) care",
+   "condition_html": "<p><strong>A. </strong>Asymptomatic or mild infection;</p>\n<p>OR</p>\n<p>Prolonged outpatient course;</p>\n<p>OR</p>\n<p>Hospitalization, <strong>NOT </strong>requiring intensive (ICU) care</p>",
+   "evaluation_data": "Fully recovered. No residual symptoms or clinical findings.* See COVID-19 Medication See Anosmia Disposition Table - Item 26. Nose.",
+   "evaluation_data_html": "<p>Fully recovered. No residual symptoms or clinical findings.*</p>\n<p>See COVID-19 Medication</p>\n<p>See Anosmia Disposition Table - Item 26. Nose.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE, if otherwise qualified",
+   "disposition_html": "<p><strong>ISSUE, if otherwise qualified</strong></p>",
+   "pdf_page": 422,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Hospitalization, requiring ICU care with or without ventilator",
+   "condition_html": "<p><strong>B. Hospitalization</strong>, requiring <strong>ICU care </strong>with or without ventilator</p>",
+   "evaluation_data": "Submit the following to the FAA for review: A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Current functional status, treatment plan and prognosis; Specialty consultations already performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of current medications and side effects, if any; Hospital discharge summary; and Copies of imaging reports and lab (if already performed).",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<p>A current, detailed Clinical Progress Note from the treating physician <strong>no more than 90 days before </strong>the AME exam to include: Current functional status, treatment plan and prognosis; Specialty consultations already performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of current medications and side effects, if any; Hospital discharge summary; and Copies of imaging reports and lab (if already performed).</p>",
+   "what_to_bring": [
+    "Submit the following to the FAA for review: A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Current functional status, treatment plan and prognosis; Specialty consultations already performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of current medications and side effects, if any; Hospital discharge summary; and Copies of imaging reports and lab (if already performed)."
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER* Note in Block 60: “Intensive care COVID- 19 infection with full recovery.” Submit the information to the FAA for review.",
+   "disposition_html": "<p><strong>DEFER* </strong>Note in Block 60:</p>\n<p>“Intensive care COVID- 19 infection with full recovery.”</p>\n<p>Submit the information to the FAA for review.</p>",
+   "pdf_page": 422,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others Long COVID",
+   "condition_html": "<p><strong>C. All others</strong></p>\n<p><strong>Long COVID</strong></p>",
+   "evaluation_data": "Submit the following to the FAA for review:",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>",
+   "what_to_bring": [
+    "Submit the following to the FAA for review:"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER** Note in Block 60:",
+   "disposition_html": "<p><strong>DEFER** </strong>Note in Block 60:</p>",
+   "pdf_page": 422,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Post-COVID Ongoing residual Signs and/or Symptoms* of confirmed COVID-19 such as: • Cardiovascular dysfunction; • Cognitive symptoms or concerns; • Kidney injury; • Neurological dysfunction; • Psychiatric conditions (depression, anxiety, moodiness); • Respiratory abnormalities; and/or • Symptoms such as fatigue, shortness of breath, cough, arthralgia, or chest pain.",
+   "condition_html": "<p><strong>Post-COVID Ongoing residual Signs and/or Symptoms* </strong>of confirmed COVID-19 such as:</p>\n<p>• Cardiovascular dysfunction;</p>\n<p>• Cognitive symptoms or concerns;</p>\n<p>• Kidney injury;</p>\n<p>• Neurological dysfunction;</p>\n<p>• Psychiatric conditions (depression, anxiety, moodiness);</p>\n<p>• Respiratory abnormalities; <strong>and/or</strong></p>\n<p>• Symptoms such as fatigue, shortness of breath, cough, arthralgia, or chest pain.</p>",
+   "evaluation_data": "A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Description the sequelae and current functional status; Treatment plan, and prognosis; Specialty consultations performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of medications and side effects, if any; Hospital discharge summary; (if applicable); and Copies of imaging reports and lab (if already performed by treating physician). 6MWT (in some cases)",
+   "evaluation_data_html": "<p>A current, detailed Clinical Progress Note from the treating physician <strong>no more than 90 days before </strong>the AME exam to include:</p>\n<p> Description the sequelae and current functional status; Treatment plan, and prognosis; Specialty consultations performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of medications and side effects, if any; Hospital discharge summary; (if applicable); and Copies of imaging reports and lab (if already performed by treating physician). <a href=\"https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6MWT</a> (in some cases)</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note from the treating physician no more than 90 days before the AME exam to include: Description the sequelae and current functional status; Treatment plan, and prognosis; Specialty consultations performed (ex: neurology, cardiology, pulmonology, neuropsychology, etc.); List of medications and side effects, if any; Hospital discharge summary; (if applicable); and Copies of imaging reports and lab (if already performed by treating physician). 6MWT (in some cases)"
+   ],
+   "decisions": [],
+   "disposition": "“Currently experiencing sequelae from COVID- 19 infection to include… (List the pathology or symptoms).” Submit the information to the FAA for review.",
+   "disposition_html": "<p>“Currently experiencing sequelae from COVID- 19 infection to include… (List the pathology or symptoms).”</p>\n<p>Submit the information to the FAA for review.</p>",
+   "pdf_page": 422,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>* </strong>See <a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item26/amd\" target=\"_blank\" rel=\"noopener\">Anosmia Disposition Table</a> for evaluation criteria</p>\n<p><strong>**DEFER</strong> - If the AME defers the exam, the FAA will request additional information, including hospitalization and treating physician records. After review, the FAA will determine eligibility for airman medical certificate or if special issuance or denial is indicated.</p>",
+ "links": [
+  {
+   "text": "Anosmia Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item26/amd"
+  },
+  {
+   "text": "6MWT",
+   "href": "https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "caci-chronic-immune-thrombocytopenia-citp-worksheet",
+  "section_title": "CACI – Chronic Immune Thrombocytopenia (cITP) Worksheet",
+  "pdf_pages": [
+   422,
+   423
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

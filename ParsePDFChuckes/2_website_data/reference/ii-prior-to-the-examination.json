@@ -1,0 +1,23 @@
+{
+ "slug": "ii-prior-to-the-examination",
+ "title": "II. Prior to the Examination",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  42
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 42,
+   "text": "(Updated 02/28/2018)",
+   "html": "<p>(Updated 02/28/2018)</p>"
+  },
+  {
+   "type": "list",
+   "page": 42,
+   "text": "- Once the applicant successfully completes Items 1-20 of FAA Form 8500-8 through the FAA MedXPress system, he/she will receive a confirmation number and instructions to print a summary sheet. This data entered through the MedXPress system will remain valid for 60 days.\n- Applicants must bring their MedXPress confirmation number and valid photo identification to the Exam. If the applicant does not bring their confirmation number to the exam, the applicant can retrieve it from MedXPress or their email account. AMEs should call AMCS Support if the confirmation number cannot be retrieved.\n- AMEs must not begin the exam until they have imported the MedXPress application into AMCS and have verified the identity of the applicant.",
+   "html": "<ul><li>Once the applicant successfully completes Items 1-20 of FAA Form 8500-8 through the FAA MedXPress system, he/she will receive a confirmation number and instructions to print a summary sheet. <strong>This data entered through the MedXPress system will remain valid for 60 days. </strong></li><li>Applicants must bring their MedXPress confirmation number and valid photo identification to the Exam. If the applicant does not bring their confirmation number to the exam, the applicant can retrieve it from MedXPress or their email account. AMEs should call AMCS Support if the confirmation number cannot be retrieved.</li><li>AMEs <strong>must not</strong> begin the exam until they have imported the MedXPress application into AMCS and have verified the identity of the applicant.</li></ul>"
+  }
+ ]
+}

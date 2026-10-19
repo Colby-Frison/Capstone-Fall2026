@@ -1,0 +1,67 @@
+{
+ "slug": "psychiatric-conditions",
+ "title": "PSYCHIATRIC CONDITIONS",
+ "group": "AME PHYSICAL EXAMINATION INFORMATION AND DISPOSITION TABLES",
+ "intro_of_condition_section": true,
+ "pdf_pages": [
+  413,
+  414
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 413,
+   "text": "All Classes",
+   "html": "<p>All Classes</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 413,
+   "text": "(Updated 05/29/2024)",
+   "html": "<p>(Updated 05/29/2024)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 413,
+   "text": "The Psychiatric Conditions Disposition Table lists other common conditions of aeromedical significance and the corresponding AME course of action. Do not issue a medical certificate to an applicant with medical conditions that require deferral or for any condition not listed that may result in sudden or subtle incapacitation without consulting the AMCD or the RFS . Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.",
+   "html": "<p>The Psychiatric Conditions Disposition Table lists other common conditions of aeromedical significance and the corresponding AME course of action. Do not issue a medical certificate to an applicant with medical conditions that require deferral or for any condition not listed that may result in sudden or subtle incapacitation without consulting the AMCD or the <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> . Medical documentation must be submitted for any condition in order to support an issuance of an airman medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 413,
+   "text": "NOTE – See Disease Protocols for specifications for Neurocognitive , Psychiatric , and/or Psychiatric and Psychological Evaluations .",
+   "html": "<p><strong>NOTE – See </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/saspec\" target=\"_blank\" rel=\"noopener\"><strong>Disease Protocols</strong></a> <strong> for specifications for </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/neurocog\" target=\"_blank\" rel=\"noopener\"><strong>Neurocognitive</strong></a> <strong>, </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/psycheval\" target=\"_blank\" rel=\"noopener\"><strong>Psychiatric</strong></a> <strong>, and/or </strong> <a href=\"https://www.faa.gov/ame_guide/dec_cons/disease_prot/ppevals\" target=\"_blank\" rel=\"noopener\"><strong>Psychiatric and Psychological Evaluations</strong></a> <strong>. </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 413,
+   "header": null,
+   "rows": [
+    [
+     "Substance Abuse",
+     "See Substances of Dependence/Abuse",
+     "Requires FAA Decision",
+     "DISEASE/CONDITION",
+     "EVALUATION DATA",
+     "DISPOSITION",
+     "Bipolar Disorder",
+     "Submit all pertinent medical information and clinical status report. Also see 3. below.",
+     "Requires FAA Decision",
+     "Dysthymic",
+     "Submit all pertinent medical information and clinical status report.",
+     "If stable, resolved, no associated disturbance of thought, no recurrent episodes, and; a). psychotropic medication(s) used for less than 6 months and discontinued for at least 3 months – Issue b). No use of psychotropic medication(s) - Issue Otherwise - Requires FAA Decision",
+     "Depression requiring the use of antidepressant medications",
+     "Submit all pertinent medical information and clinical status report. See Use of Antidepressant Medication Policy and Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.",
+     "Requires FAA Decision",
+     "Personality Disorders",
+     "Submit all pertinent medical information and clinical status report. Also see 1. below.",
+     "Requires FAA Decision",
+     "Psychosis",
+     "Submit all pertinent medical information and clinical status report. Also see 2. below.",
+     "Requires FAA Decision"
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p>Substance Abuse</p></td><td><p>See <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">Substances of Dependence/Abuse</a></p></td><td><p>Requires FAA Decision</p></td><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td><td><p>Bipolar Disorder</p></td><td><p>Submit all pertinent medical information and clinical status report.</p>\n<p>Also see 3. below.</p></td><td><p>Requires FAA Decision</p></td><td><p>Dysthymic</p></td><td><p>Submit all pertinent medical information and clinical status report.</p></td><td><p>If stable, resolved, no associated disturbance of thought, no recurrent episodes, and;</p>\n<p>a). psychotropic medication(s) used for less than 6 months and discontinued for at least 3 months – Issue</p>\n<p>b). No use of psychotropic medication(s) - Issue Otherwise - Requires FAA Decision</p></td><td><p>Depression requiring the use of antidepressant medications</p></td><td><p>Submit all pertinent medical information and clinical status report.</p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants\" target=\"_blank\" rel=\"noopener\">See Use of Antidepressant Medication Policy</a> and <a href=\"https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf\" target=\"_blank\" rel=\"noopener\">Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.</a></p></td><td><p>Requires FAA Decision</p></td><td><p>Personality Disorders</p></td><td><p>Submit all pertinent medical information and clinical status report. Also see 1. below.</p></td><td><p>Requires FAA Decision</p></td><td><p>Psychosis</p></td><td><p>Submit all pertinent medical information and clinical status report. Also see 2. below.</p></td><td><p>Requires FAA Decision</p></td></tr></tbody></table>"
+  }
+ ]
+}

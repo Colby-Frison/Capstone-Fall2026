@@ -1,0 +1,100 @@
+{
+ "id": "encephalitis",
+ "name": "Encephalitis",
+ "subtitle": null,
+ "name_in_guide": "ENCEPHALITIS",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 127,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must specifically include if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred.",
+  "MRI and/or CT of the brain (the most recent test) .",
+  "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+  "An electroencephalogram (EEG), if already performed, OR if any history of seizures.",
+  "The EEG recording should be sleep-deprived - awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.",
+  "EEG is required if a history of seizures.",
+  "Additional information may be required after review of above information."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Current or historical diagnosis Single episode",
+   "condition_html": "<p><strong>A.</strong> Current or historical diagnosis</p>\n<p>Single episode</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must specifically include if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred. - 3. MRI and/or CT of the brain (the most recent test). - Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 4. An electroencephalogram (EEG), if already performed, OR if any history of seizures. - The EEG recording should be sleep-deprived - awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10. Note: Neuropsychological (NP) evaluation will be required in some cases (such as any residual lesions found on MRI or any neurocognitive concerns). When required, it must meet FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist. Seizure - if associated with a seizure, refer to that section. A recovery period may apply.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A<strong> current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> <strong>,</strong> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. It <strong>must specifically include</strong> if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred.</li></ul>\n<ul><li>3. <strong>MRI and/or CT of the brain (the most recent test)</strong>.</li></ul>\n<ul><li>Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul>\n<ul><li>4. An <strong>electroencephalogram (EEG),</strong> if already performed, OR if any history of seizures.</li></ul>\n<ul><li>The EEG recording should be sleep-deprived - awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10.</li></ul>\n<p><strong>Note</strong>: Neuropsychological (NP) evaluation will be required in some cases (such as</p>\n<p>any residual lesions found on MRI or any neurocognitive concerns). When required, it must meet <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> from a clinic visit with the treating neuropsychologist. Seizure - if associated with a seizure, refer to that section. A recovery period may apply.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must specifically include if this was a single episode, if the individual is immunocompromised, and if any seizure activity occurred.",
+    "MRI and/or CT of the brain (the most recent test) .",
+    "Submit the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.",
+    "An electroencephalogram (EEG), if already performed, OR if any history of seizures.",
+    "The EEG recording should be sleep-deprived - awake, asleep, and with provocation (e.g., hyperventilation, photic/strobe light). Include any previous EEG(s) available for comparison. Submit BOTH the final interpretive report(s) and the actual tracings (ALL pages) for any EEGs on CD. The CDs of EEG recordings must have proprietary opening software that is compatible with Windows 10."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 317,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Current or historical diagnosis with 2 or more lifetime episodes, Immunocompromised, or seizure activity",
+   "condition_html": "<p><strong>B. </strong> Current or historical diagnosis</p>\n<p>with</p>\n<p>2 or more lifetime episodes,</p>\n<p>Immunocompromised, or</p>\n<p>seizure activity</p>",
+   "evaluation_data": "All information required in Row A PLUS - EEG is required if a history of seizures. - Additional information may be required after review of above information.",
+   "evaluation_data_html": "<p>All information required in Row A</p>\n<p>PLUS</p>\n<ul><li>EEG is <strong>required</strong> if a history of seizures.</li><li>Additional information may be required after review of above information.</li></ul>",
+   "what_to_bring": [
+    "EEG is required if a history of seizures.",
+    "Additional information may be required after review of above information."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 317,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p><strong>Note:</strong> For <a href=\"https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf\" target=\"_blank\" rel=\"noopener\">Brain Abscess or Meningitis</a> , see that page.</p>",
+ "links": [
+  {
+   "text": "Brain Abscess or Meningitis",
+   "href": "https://www.faa.gov/ame_guide/media/BrainAbscess_Encephalitis_Meningitis.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   317,
+   318
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

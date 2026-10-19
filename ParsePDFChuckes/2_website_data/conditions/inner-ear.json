@@ -1,0 +1,75 @@
+{
+ "id": "inner-ear",
+ "name": "Inner Ear",
+ "subtitle": "ACUTE OR CHRONIC DISEASE",
+ "name_in_guide": "INNER EAR ACUTE OR CHRONIC DISEASE",
+ "category": {
+  "id": "ears-general",
+  "name": "Ears, General",
+  "exam_item": "29",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "11/29/2023",
+ "order": 9,
+ "decisions": [
+  "issue",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical information",
+  "Submit all pertinent medical information and current status report"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Acute or chronic disease without disturbance of equilibrium and successful miringotomy, if applicable",
+   "condition_html": "<p>Acute or chronic disease without disturbance of equilibrium and successful miringotomy, if applicable</p>",
+   "evaluation_data": "Submit all pertinent medical information",
+   "evaluation_data_html": "<p>Submit all pertinent medical information</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "If no physiologic effects - Issue",
+   "disposition_html": "<p>If no physiologic effects - Issue</p>",
+   "pdf_page": 73,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Acute or chronic disease that may disturb equilibrium",
+   "condition_html": "<p>Acute or chronic disease that may disturb equilibrium</p>",
+   "evaluation_data": "Submit all pertinent medical information and current status report",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and current status report</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and current status report"
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 73,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Acute or chronic disease without disturbance of equilibrium and successful mirin",
+  "Acute or chronic disease that may disturb equilibrium"
+ ],
+ "source": {
+  "section": "item-29-ears-general",
+  "section_title": "ITEM 29. Ears, General",
+  "pdf_pages": [
+   73
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

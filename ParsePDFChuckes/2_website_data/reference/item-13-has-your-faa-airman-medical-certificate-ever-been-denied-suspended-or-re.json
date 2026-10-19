@@ -1,0 +1,36 @@
+{
+ "slug": "item-13-has-your-faa-airman-medical-certificate-ever-been-denied-suspended-or-re",
+ "title": "ITEM 13. Has Your FAA Airman Medical Certificate Ever Been Denied, Suspended, or Revoked?",
+ "group": "APPLICATION FOR MEDICAL CERTIFICATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  45,
+  46
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 45,
+   "text": "The applicant shall check \"yes\" or \"no.\" If \"yes\" is checked, the applicant should enter the date of action and should report details in the EXPLANATIONS box of Item 18.",
+   "html": "<p>The applicant shall check &quot;yes&quot; or &quot;no.&quot; If &quot;yes&quot; is checked, the applicant should enter the date of action and should report details in the EXPLANATIONS box of <strong>Item 18</strong>.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 46,
+   "text": "The AME may not issue a medical certificate to an applicant who has checked \"yes.\" The only exceptions to this prohibition are:",
+   "html": "<p>The AME may not issue a medical certificate to an applicant who has checked &quot;yes.&quot; The only exceptions to this prohibition are:</p>"
+  },
+  {
+   "type": "list",
+   "page": 46,
+   "text": "- The applicant presents written evidence from the FAA that he or she was subsequently medically certificated and that an AME is authorized to issue a renewal medical certificate to the person if medically qualified; or",
+   "html": "<ul><li>The applicant presents written evidence from the FAA that he or she was subsequently medically certificated and that an AME is authorized to issue a renewal medical certificate to the person if medically qualified; or</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 46,
+   "text": "- The AME obtains oral or written authorization to issue a medical certificate from an FAA medical office",
+   "html": "<ul><li>The AME obtains oral or written authorization to issue a medical certificate from an FAA medical office</li></ul>"
+  }
+ ]
+}

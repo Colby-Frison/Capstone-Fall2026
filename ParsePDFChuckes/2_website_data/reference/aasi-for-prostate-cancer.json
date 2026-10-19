@@ -1,0 +1,47 @@
+{
+ "slug": "aasi-for-prostate-cancer",
+ "title": "AASI for Prostate Cancer",
+ "group": "AME ASSISTED SPECIAL ISSUANCES (AASI)",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  713
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 713,
+   "text": "AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.",
+   "html": "<p>AME Assisted Special Issuance (AASI) is a process that provides AMEs the ability to re-issue an airman medical certificate under the provisions of an Authorization for Special Issuance of a Medical Certificate (Authorization) to an applicant who has a medical condition that is disqualifying under Title 14 of the Code of Federal Regulations (14 CFR) part 67.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 713,
+   "text": "An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.",
+   "html": "<p>An FAA physician provides the initial certification decision and grants the Authorization in accordance with 14 CFR § 67.401. The Authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. If this is a first-time application for an AASI for the above disease/condition, and the applicant has all the requisite medical information necessary for a determination, the AME must defer and submit all of the documentation to the AMCD or RFS for the initial determination.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 713,
+   "text": "AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:",
+   "html": "<p>AMEs may re-issue an airman medical certificate under the provisions of an Authorization, if the applicant provides the following:</p>"
+  },
+  {
+   "type": "list",
+   "page": 713,
+   "text": "- An Authorization granted by the FAA;\n- A current status of the medical condition to include any testing deemed necessary; and\n- A current PSA level performed within the last 90 days.",
+   "html": "<ul><li>An Authorization granted by the FAA;</li><li>A current status of the medical condition to include any testing deemed necessary; and</li><li>A current PSA level performed within the last 90 days.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 713,
+   "text": "The AME must defer to the AMCD or Region if:",
+   "html": "<p>The AME must defer to the AMCD or Region if:</p>"
+  },
+  {
+   "type": "list",
+   "page": 713,
+   "text": "- The PSA rises at a rate above 0.75 ng/ml per year;\n- A new treatment is initiated; or\n- Any metastasis has occurred.",
+   "html": "<ul><li>The PSA rises at a rate above 0.75 ng/ml per year;</li><li>A new treatment is initiated; or</li><li>Any metastasis has occurred.</li></ul>"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "slug": "10-classes-of-medical-certificates",
+ "title": "10. Classes of Medical Certificates",
+ "group": "GENERAL INFORMATION",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  22
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "(Updated 06/28/2023)",
+   "html": "<p>(Updated 06/28/2023)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "An applicant may apply for and be granted any class of airman medical certificate as long as the applicant meets the required medical standards for that class of medical certificate.",
+   "html": "<p>An applicant may apply for and be granted any class of airman medical certificate as long as the applicant meets the required medical standards for that class of medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "An applicant must have the appropriate class of medical certificate for the flying duties the pilot intends to exercise. For example, an applicant who exercises the privileges of an airline transport pilot (ATP) certificate must hold a first-class medical certificate. That same pilot when holding only a third-class medical certificate may only exercise privileges of a private pilot certificate. Finally, an applicant does not need to hold an ATP airman/pilot certificate to be eligible for a first-class medical certificate.",
+   "html": "<p>An applicant must have the appropriate class of medical certificate for the flying duties the pilot intends to exercise. For example, an applicant who exercises the privileges of an airline transport pilot (ATP) certificate must hold a first-class medical certificate. That same pilot when holding only a third-class medical certificate may only exercise privileges of a private pilot certificate. Finally, an applicant does not need to hold an ATP airman/pilot certificate to be eligible for a first-class medical certificate.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "The type of medical certification required for each type of flying is determined by Flight Standards.",
+   "html": "<p>The type of medical certification required for each type of flying is determined by Flight Standards.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "Listed below are the three classes of pilot medical certificates, identifying the categories of airmen (i.e., pilot) certificates applicable to each class.",
+   "html": "<p>Listed below are the three classes of pilot <strong>medical certificates</strong>, identifying the categories of airmen (i.e., pilot) certificates applicable to each class.</p>"
+  },
+  {
+   "type": "list",
+   "page": 22,
+   "text": "- 1) First-Class - Airline Transport Pilot\n- 2) Second-Class - Commercial Pilot, Flight Engineer, Flight Navigator, Balloon Pilots exercising Commercial Pilot Privileges, or Air Traffic Control Tower Operator (this category of air traffic controller does not include FAA employee air traffic control specialists).",
+   "html": "<ul><li>1) <strong>First-Class</strong> - Airline Transport Pilot</li><li>2) <strong>Second-Class</strong> - Commercial Pilot, Flight Engineer, Flight Navigator, Balloon Pilots exercising Commercial Pilot Privileges, or Air Traffic Control Tower Operator (this category of air traffic controller does <strong>not</strong> include FAA employee air traffic control specialists).</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "Note: Effective May 22, 2023, Balloon Pilots exercising Commercial Pilot Privileges, other than instructional flight, must hold at least a Class II FAA",
+   "html": "<p><strong>Note:</strong> Effective May 22, 2023, <strong>Balloon Pilots exercising Commercial Pilot Privileges, other than instructional flight, must hold at least a Class II FAA </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "Medical Certificate. See 11/22/2022 Medical Certification Standards for Commercial Balloon Operations 2120-0034.",
+   "html": "<p><strong>Medical Certificate.</strong> See 11/22/2022 Medical Certification Standards for <a href=\"http://www.federalregister.gov/documents/2022/11/22/2022-25288/medical-certification-standards-for-commercial-balloon-operations\" target=\"_blank\" rel=\"noopener\">Commercial Balloon Operations 2120-0034.</a></p>"
+  },
+  {
+   "type": "list",
+   "page": 22,
+   "text": "- 3) Third-Class - Private Pilot or Recreational Pilot",
+   "html": "<ul><li>3) <strong>Third-Class</strong> - Private Pilot or Recreational Pilot</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 22,
+   "text": "An airman medical certificate is valid only with the original signature of the AME who performed the examination or with the digital signature of an authorized FAA physician (e.g., Regional Flight Surgeon, manager of the Aerospace Medical Certification Division, Federal Air Surgeon). Please note:",
+   "html": "<p>An airman medical certificate is valid only with the original signature of the AME who performed the examination or with the digital signature of an authorized FAA physician (e.g., Regional Flight Surgeon, manager of the Aerospace Medical Certification Division, Federal Air Surgeon). Please note:</p>"
+  },
+  {
+   "type": "list",
+   "page": 22,
+   "text": "- Copies are NOT valid.\n- An AME may only issue ONE originally signed certificate to an airman. A replacement for a lost or destroyed certificate must be issued by the FAA.",
+   "html": "<ul><li>Copies are NOT valid.</li><li>An AME may only issue ONE originally signed certificate to an airman. A <a href=\"https://cms.faa.gov/ame_guide/app_process/general/replacement\" target=\"_blank\" rel=\"noopener\">replacement for a lost or destroyed certificate</a> must be issued by the FAA.</li></ul>"
+  }
+ ]
+}

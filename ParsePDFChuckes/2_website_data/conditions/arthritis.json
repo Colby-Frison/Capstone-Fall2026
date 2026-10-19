@@ -1,0 +1,146 @@
+{
+ "id": "arthritis",
+ "name": "Arthritis",
+ "subtitle": null,
+ "name_in_guide": "ARTHRITIS",
+ "category": {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "04/29/2026",
+ "order": 103,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Well controlled, no persistent daily symptoms;",
+  "No functional limitations; and",
+  "Treatment is NSAIDS or anti-inflammatory medication only.",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "It should note if there are any functional limitations.",
+  "Operative notes (if applicable); and",
+  "Copies of imaging reports and lab (if already performed by treating physician)"
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "- - - - A. Osteoarthritis",
+   "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>A. </strong>Osteoarthritis</li></ul></li></ul></li></ul></li></ul>",
+   "evaluation_data": "- Well controlled, no persistent daily symptoms; - No functional limitations; and - Treatment is NSAIDS or anti-inflammatory medication only.",
+   "evaluation_data_html": "<ul><li>Well controlled, no persistent daily symptoms;</li><li>No functional limitations; and</li><li>Treatment is NSAIDS or anti-inflammatory medication only.</li></ul>",
+   "what_to_bring": [
+    "Well controlled, no persistent daily symptoms;",
+    "No functional limitations; and",
+    "Treatment is NSAIDS or anti-inflammatory medication only."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this History, annotate Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>History, annotate Block 60.</p>",
+   "pdf_page": 269,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
+   "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>B. </strong>Osteoarthritis on additional medication</li></ul></li></ul></li></ul></li></ul>\n<p>OR</p>\n<p>Autoimmune arthritis</p>",
+   "evaluation_data": "See CACI worksheet This will require a current, detailed clinical progress note and Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen) if taking plaquenil.",
+   "evaluation_data_html": "<p>See CACI worksheet</p>\n<p>This will require a current, detailed clinical progress note</p>\n<p>and <a href=\"https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf\" target=\"_blank\" rel=\"noopener\">Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen)</a> if taking plaquenil.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI - Arthritis Worksheet Annotate Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf\" target=\"_blank\" rel=\"noopener\">CACI - Arthritis Worksheet</a></p>\n<p>Annotate Block 60.</p>",
+   "pdf_page": 269,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause with complications or systemic disease, etc.",
+   "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>C. All others </strong></li></ul></li></ul></li></ul></li><li>Complications*;</li><li>Symptomatic; or</li><li>Underlying cause with complications</li></ul>\n<p>or systemic disease, etc.</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - It should note if there are any functional limitations. - Operative notes (if applicable); and - Copies of imaging reports and lab (if already performed by treating physician)",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li><li> It should note if there are any functional limitations.</li><li> Operative notes (if applicable); and</li><li> Copies of imaging reports and lab (if already performed by treating physician)</li></ul>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "It should note if there are any functional limitations.",
+    "Operative notes (if applicable); and",
+    "Copies of imaging reports and lab (if already performed by treating physician)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance Will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance</strong> Will be per the airman’s authorization letter.</p>",
+   "pdf_page": 269,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI - Arthritis Worksheet",
+   "updated": "04/29/2026",
+   "criteria": [
+    {
+     "ame_must_review": "Treating physician finds the condition stable on current regimen and no changes recommended",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Symptoms",
+     "acceptable_certification_criteria": "[ ] None or mild to moderate symptoms with no significant limitations to range of motion, lifestyle, or activities"
+    },
+    {
+     "ame_must_review": "Cause of Arthritis *Osteoarthritis - see Arthritis Disposition Table CACI may not be required.",
+     "acceptable_certification_criteria": "Acceptable causes are limited to: [ ] Osteoarthritis* and/or [ ] Autoimmune to include only the following: rheumatoid (limited to joint), psoriatic, or ankylosing spondylitis"
+    },
+    {
+     "ame_must_review": "Acceptable Medications KEY: Interleukin Inhibitors (IL) Janus Associated Kinase Inhibitor (JAK) Monoclonal Antibody, Anti-CD20 (CD20) Phosphodiesterase-4 Enzyme Inhibitor (PDE4) Selective T-Cell Costimulation Blocker (T-Cell) Tumor necrosis factor inhibitors (TNF)",
+     "acceptable_certification_criteria": "[ ] One or more of the following with or without routine NSAID use: - Oral steroid prednisone 20 mg/day equivalent or less (see steroid conversion calculator ) - NSAID (routine use) - azathioprine (Imuran) - methotrexate (Trexall) - sulfasalazine (Azulfidine) - Hydroxychloroquine (HCQ)/Chloroquine (Plaquenil/Aralen) see status report requirement below** - Any singe medication listed below after a 2-week ground trial and: - No post-dose observation time: - PDE4: apremilast (Otezla) - JAK: baricitinib (Olumiant); tofacitinib (Xeljanz); upadacitinib (Rinvoq) - 4-hour post-dose observation time: - TNF: adalimumab (Humira and all biosimilars), certolizumab (Cimzia), etanercept (Enbrel), golimumab (Simponi) - IL: anakinra (Kineret), guselkumab (Tremfya), ixekizumab (Taltz), risankizumab (Skyrizi), sarilumab (Kevzara), secukinumab (Cosentyx), tocilizumab (Actemra), ustekinumab (Stelara) - Other post-dose observation time: - o 72-hour rituximab (Rituxan) 72-hour - CD20 - o 24 hours: infliximab (Inflect, Remicade, Renflexis) - TNF - o 24 hours: abatacept (Orencia) – T-Cell"
+    },
+    {
+     "ame_must_review": "** STATUS SUMMARY is required if Hydroxychloroquine (HCQ)/ Chloroquine (CQ) (Plaquenil/Aralen) is used.",
+     "acceptable_certification_criteria": "[ ] Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen) is favorable and no concerns OR [ ] N/A (NOT taking hydroxychloroquine/chloroquine [Plaquenil/Aralen])"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified arthritis. (Documents do not need to be submitted to the FAA.)",
+    "Has current OR previous SI/AASI but now CACI qualified arthritis.",
+    "NOT CACI qualified arthritis. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p><strong>*Complications include:</strong></p>\n<ul><li>Joint deformity or decreased range of motion or strength that would impair flight duties</li><li>Systemic disease</li></ul>",
+ "links": [
+  {
+   "text": "Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen)",
+   "href": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf"
+  },
+  {
+   "text": "CACI - Arthritis Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
+  }
+ ],
+ "aliases": [
+  "- - - - A. Osteoarthritis",
+  "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
+  "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause wit"
+ ],
+ "source": {
+  "section": "osteomyelitis-bone-infection",
+  "section_title": "OSTEOMYELITIS (BONE INFECTION)",
+  "pdf_pages": [
+   269,
+   270
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

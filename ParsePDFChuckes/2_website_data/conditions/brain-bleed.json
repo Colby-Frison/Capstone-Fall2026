@@ -1,0 +1,90 @@
+{
+ "id": "brain-bleed",
+ "name": "Brain Bleed",
+ "subtitle": "(Intracranial Hemorrhage, Cerebral Hemorrhage, Ruptured Aneurysm, Subarachnoid Hemorrhage, Subdural/Epidural Hemorrhage)",
+ "name_in_guide": "BRAIN BLEED (Intracranial Hemorrhage, Cerebral Hemorrhage, Ruptured Aneurysm, Subarachnoid Hemorrhage, Subdural/Epidural Hemorrhage)",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 118,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "If craniotomy performed: Two (2) years",
+  "Subarachnoid hemorrhage: One (1) year",
+  "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (vascular neurologist preferred) no more than 90 days before the AME exam.",
+  "Brain imaging to verify bleed has resolved, performed no more than 12 months before the AME exam. If not already performed, a current test is required.",
+  "MRI brain to include sequences sensitive to the presence of hemosiderin.",
+  "CT angiography (CTA) or MRA or angiography . (Head required. Neck if clinically necessary)",
+  "Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures.",
+  "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+  "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+  "Lab report(s) including all drug or alcohol testing performed;",
+  "Operative/procedure report(s);",
+  "Pathology report(s); and",
+  "Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+  "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history of a Spontaneous intracranial hemorrhage not due to trauma* (Examples may include ruptured AVM, Subarachnoid hemorrhage [SAH], Subdural, or epidural hemorrhage) (*If due to TRAUMA, See - Traumatic Brain Injury section, subdural hematoma, epidural hematoma, or subarachnoid hemorrhage.)",
+   "condition_html": "<p>A.</p>\n<p>Any history of a</p>\n<p>Spontaneous intracranial hemorrhage not due to trauma*</p>\n<p>(Examples may include ruptured AVM,</p>\n<p>Subarachnoid hemorrhage [SAH],</p>\n<p>Subdural, or epidural hemorrhage)</p>\n<p>(*If due to TRAUMA,</p>\n<p>See - Traumatic Brain Injury section, subdural hematoma, epidural hematoma, or subarachnoid hemorrhage.)</p>",
+   "evaluation_data": "Required recovery periods: - If craniotomy performed: Two (2) years - Subarachnoid hemorrhage: One (1) year After any required recovery period, submit the following for FAA review: - 1. A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (vascular neurologist preferred) no more than 90 days before the AME exam. - 2. Brain imaging to verify bleed has resolved, performed no more than 12 months before the AME exam. If not already performed, a current test is required. - 3. MRI brain to include sequences sensitive to the presence of hemosiderin. - 4. CT angiography (CTA) or MRA or angiography. (Head required. Neck if clinically necessary) - Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named 'DICOMDIR' in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail. - 5. Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures. - Admission History and Physical (H&P); - - Emergency Medical Services (EMS)/ambulance run sheet (if applicable); - Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists); - Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.); - Lab report(s) including all drug or alcohol testing performed; - Operative/procedure report(s); - Pathology report(s); and - Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed. - DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records. Note: After review of the submitted information, a Neuropsychological (NP) evaluation that meets that meets FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment from a clinic visit with the treating neuropsychologist may be required If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA. If associated with a seizure – see that section. An additional recovery period and testing (such as EEG) may apply. If a shunt was placed – see the Hydrocephalus section.",
+   "evaluation_data_html": "<p><strong>Required recovery periods:</strong></p>\n<ul><li>If craniotomy performed: <strong>Two (2) years</strong></li><li>Subarachnoid hemorrhage: <strong>One (1) year</strong></li></ul>\n<p><strong>After any required recovery period</strong>, submit the following for FAA review:</p>\n<ul><li>1. A<strong> current, detailed neurological evaluation</strong> that meets <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation</a> generated from a clinic visit with the treating neurologist (vascular neurologist preferred) <strong>no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. <strong>Brain imaging to verify bleed has resolved,</strong> performed <strong>no more than 12 months before </strong>the AME exam. If not already performed, a current test is required.</li></ul>\n<ul><li>3. <strong>MRI brain</strong> to include <strong>sequences sensitive to the presence of hemosiderin.</strong></li></ul>\n<ul><li>4. <strong>CT angiography (CTA) or MRA or angiography</strong>. (Head required. Neck if clinically necessary)<ul><li>Submit BOTH the interpretive report on paper and imaging on CD in DICOM readable format (there must be a file named &#x27;DICOMDIR&#x27; in the root directory of the CD-ROM). Please verify the CD will display the images before sending. Retain a copy of all films as a safeguard if lost in the mail.</li></ul></li></ul>\n<ul><li><p>5. <strong>Hospital records</strong> for each hospitalization related to this condition. It must include information on surgeries and procedures.</p>\n<ul><li>Admission History and Physical (H&amp;P);</li></ul></li></ul>\n<ul><li><ul><li>Emergency Medical Services (EMS)/ambulance run sheet (if applicable);</li><li>Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);</li><li>Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);</li><li>Lab report(s) including all drug or alcohol testing performed;</li><li>Operative/procedure report(s);</li><li>Pathology report(s); and</li><li>Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.</li><li>DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records.</li></ul></li></ul>\n<p><strong>Note: </strong>After review of the submitted information, a Neuropsychological (NP) evaluation that meets that meets <a href=\"https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment</a> from a clinic visit with the treating neuropsychologist <strong>may</strong> be required</p>\n<p>If the applicant has a large volume of records, it is recommended that they bring them to the exam so the AME can assist in determining what is miscellaneous and not needed by the FAA.</p>\n<p>If associated with a <strong>seizure</strong> – see that section. An additional recovery period and testing (such as EEG) may apply.</p>\n<p>If a <strong>shunt</strong> was placed – see the Hydrocephalus section.</p>",
+   "what_to_bring": [
+    "If craniotomy performed: Two (2) years",
+    "Subarachnoid hemorrhage: One (1) year",
+    "A current, detailed neurological evaluation that meets FAA Specifications for Neurologic Evaluation generated from a clinic visit with the treating neurologist (vascular neurologist preferred) no more than 90 days before the AME exam.",
+    "Brain imaging to verify bleed has resolved, performed no more than 12 months before the AME exam. If not already performed, a current test is required.",
+    "MRI brain to include sequences sensitive to the presence of hemosiderin.",
+    "CT angiography (CTA) or MRA or angiography . (Head required. Neck if clinically necessary)",
+    "Hospital records for each hospitalization related to this condition. It must include information on surgeries and procedures.",
+    "Hospital consultant report(s) (such as neurology, cardiology, internal medicine, or other specialists);",
+    "Hospital discharge summary. (Typically, the patient portal notes or after visit summary (AVS) that can be printed from an electronic medical record are NOT sufficient for pilot medical certification purposes.);",
+    "Lab report(s) including all drug or alcohol testing performed;",
+    "Operative/procedure report(s);",
+    "Pathology report(s); and",
+    "Radiology reports. The interpretive report(s) AND IMAGES of all diagnostic imaging (CT Scan, MRI, X-ray, ultrasound, or others) performed.",
+    "DO NOT submit miscellaneous hospital records such as flowsheets, nursing notes, physician orders, or medication administration records."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit information</p>\n<p>to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 298,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment",
+   "href": "https://www.faa.gov/ame_guide/media/NPevalspecs_neurocog_impairment.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   298
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

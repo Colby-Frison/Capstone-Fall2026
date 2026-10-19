@@ -1,0 +1,97 @@
+{
+ "id": "chest-pain",
+ "name": "Chest Pain",
+ "subtitle": "Angina; Angina Pectoris; Unstable Angina; Chest Discomfort (non-specific term); Palpitations",
+ "name_in_guide": "CHEST PAIN Angina; Angina Pectoris; Unstable Angina; Chest Discomfort (non-specific term); Palpitations",
+ "category": {
+  "id": "heart",
+  "name": "Heart",
+  "exam_item": "36",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "03/27/2024",
+ "order": 54,
+ "decisions": [
+  "see_reference",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Admission history & physical (H&P)",
+  "Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital).",
+  "Hospital records to include:",
+  "Coronary catheterization/ angiography report (if performed).",
+  "Current, detailed Clinical Progress Note(s) from any follow-up visits. It must specifically include the diagnosis and whether it was cardiac in nature or other. If cardiac, additional evaluation may be required.",
+  "Any other testing already performed for this condition."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "If the term angina or chest pain is used on reports OR The individual lists angina or chest pain in history",
+   "condition_html": "<p><strong>A. </strong>If the term <strong>angina</strong> or</p>\n<p><strong>chest pain</strong> is used on reports</p>\n<p>OR</p>\n<p>The individual lists <strong>angina</strong> or <strong>chest pain </strong>in history</p>",
+   "evaluation_data": "Chest pain can be nonspecific and described with multiple terms. The AME should review the hospital/clinic reports to identify the CAUSE of the angina or chest pain. If cause identified, see that page (e.g., musculoskeletal pain, GERD, CAD, MI, etc.). If no cause identified, go to Row B.",
+   "evaluation_data_html": "<p>Chest pain can be nonspecific and described with multiple terms.</p>\n<p>The AME should review the hospital/clinic reports to identify the CAUSE of the angina or chest pain.</p>\n<p>If cause identified, see that page (e.g., musculoskeletal pain, GERD, CAD, MI, etc.).</p>\n<p>If no cause identified, go to Row B.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "see_reference"
+   ],
+   "disposition": "See corresponding condition page",
+   "disposition_html": "<p>See</p>\n<p>corresponding</p>\n<p>condition page</p>",
+   "pdf_page": 170,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Cause of angina or chest pain NOT Identified or uncertain in medical records.",
+   "condition_html": "<p><strong>B. </strong>Cause of angina or chest pain NOT Identified or uncertain in medical records.</p>",
+   "evaluation_data": "Submit the following for FAA review: 1. Hospital records to include: - Admission history & physical (H&P) - Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital). 2. Coronary catheterization/ angiography report (if performed). 3. Current, detailed Clinical Progress Note(s) from any follow-up visits. It must specifically include the diagnosis and whether it was cardiac in nature or other. If cardiac, additional evaluation may be required. 4. Any other testing already performed for this condition. If no cause is identified, additional information may be required.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. Hospital records to include:</p>\n<ul><li>Admission history &amp; physical (H&amp;P)</li><li>Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital).</li></ul>\n<p>2. Coronary catheterization/ angiography report (if performed).</p>\n<p>3. Current, detailed Clinical Progress Note(s) from any follow-up visits. It must specifically include the diagnosis and whether it was cardiac in nature or other. <strong>If cardiac, additional evaluation may be required.</strong></p>\n<p>4. Any other testing already performed for this condition.</p>\n<p>If no cause is identified, additional information may be required.</p>",
+   "what_to_bring": [
+    "Admission history & physical (H&P)",
+    "Discharge summary from the physician (NOT the discharge instructions/paperwork given to the patient when leaving the hospital).",
+    "Hospital records to include:",
+    "Coronary catheterization/ angiography report (if performed).",
+    "Current, detailed Clinical Progress Note(s) from any follow-up visits. It must specifically include the diagnosis and whether it was cardiac in nature or other. If cardiac, additional evaluation may be required.",
+    "Any other testing already performed for this condition."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 170,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Angina confirmed to be of cardiac origin (based on document review).",
+   "condition_html": "<p><strong>C</strong>. Angina confirmed to be of cardiac origin (based on document review).</p>",
+   "evaluation_data": "See page for: Coronary Heart Disease (CHD) - 50% stenosis or higher; Intervention (Stent, PTCA, CABG); Myocardial Infarction/Heart Attack; Acute Coronary Syndrome; or Coronary Artery Disease",
+   "evaluation_data_html": "<p>See page for:</p>\n<p>Coronary Heart Disease (CHD) -</p>\n<p>50% stenosis or higher; Intervention (Stent, PTCA, CABG); Myocardial Infarction/Heart Attack; Acute Coronary Syndrome; or Coronary Artery Disease</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
+   "pdf_page": 170,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [],
+ "source": {
+  "section": "coronary-heart-disease",
+  "section_title": "CORONARY HEART DISEASE",
+  "pdf_pages": [
+   170
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

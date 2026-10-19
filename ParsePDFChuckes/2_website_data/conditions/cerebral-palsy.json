@@ -1,0 +1,85 @@
+{
+ "id": "cerebral-palsy",
+ "name": "Cerebral Palsy",
+ "subtitle": null,
+ "name_in_guide": "CEREBRAL PALSY",
+ "category": {
+  "id": "musculoskeletal",
+  "name": "Musculoskeletal",
+  "exam_item": "42-43",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "01/25/2023",
+ "order": 104,
+ "decisions": [
+  "defer",
+  "special_issuance",
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "A current, detailed neurological evaluation , in accordance with the FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+  "It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft.",
+  "All school/academic records : Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Any history",
+   "condition_html": "<p>A. Any history</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed neurological evaluation, in accordance with the FAA Specifications for Neurologic Evaluation, generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam. - 2. It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft. - 3. All school/academic records: Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports. Note: In some cases, additional information such as brain imaging (MRI/CT) or neurocognitive testing may be required after review of the above items. Physical limitations associated with CP may require a Medical Flight Test (MFT). If a MFT is required, please state which FSDO the individual would prefer to use.",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed neurological evaluation</strong>, in accordance with the <a href=\"https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf\" target=\"_blank\" rel=\"noopener\">FAA Specifications for Neurologic Evaluation<strong>,</strong></a> generated from a clinic visit with the <strong>treating neurologist no more than 90 days before</strong> the AME exam.</li></ul>\n<ul><li>2. It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft.</li></ul>\n<ul><li>3. <strong>All school/academic records</strong>: Educational accommodations, Individual Education Plan (IEP) such as a &quot;504&quot; plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports.</li></ul>\n<p><strong>Note</strong>: In some cases, additional information such as brain imaging (MRI/CT) or neurocognitive testing may be required after review of the above items.</p>\n<p>Physical limitations associated with CP may require a Medical Flight Test (MFT). If a MFT is required, please state which FSDO the individual would prefer to use.</p>",
+   "what_to_bring": [
+    "A current, detailed neurological evaluation , in accordance with the FAA Specifications for Neurologic Evaluation , generated from a clinic visit with the treating neurologist no more than 90 days before the AME exam.",
+    "It must include and evaluation of items such as balance, strength, range of motion limitations and pain. It must describe any functional deficits or limitations for both large and small muscle groups as well as dexterity to operate an aircraft.",
+    "All school/academic records : Educational accommodations, Individual Education Plan (IEP) such as a \"504\" plan, educational support services provided, educational assessments and testing associated with IEP or individualized accommodations, neuropsychological assessments and testing, educational transcripts, and, if available, chief pilot reports."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>",
+   "pdf_page": 271,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Cerebral Palsy",
+   "condition_html": "<p>Cerebral Palsy</p>",
+   "evaluation_data": "See Item 43. Spine and Other Musculoskeletal, Cerebral Palsy Disposition Table .",
+   "evaluation_data_html": "<p>See Item 43. Spine and Other Musculoskeletal, <a href=\"https://www.faa.gov/ame_guide/media/Cerebral_Palsy.pdf\" target=\"_blank\" rel=\"noopener\">Cerebral Palsy Disposition Table</a> .</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 308,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "FAA Specifications for Neurologic Evaluation ,",
+   "href": "https://www.faa.gov/ame_guide/media/NeurologicalSpecificationSheet.pdf"
+  },
+  {
+   "text": "Cerebral Palsy Disposition Table",
+   "href": "https://www.faa.gov/ame_guide/media/Cerebral_Palsy.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "osteomyelitis-bone-infection",
+  "section_title": "OSTEOMYELITIS (BONE INFECTION)",
+  "pdf_pages": [
+   271,
+   308
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

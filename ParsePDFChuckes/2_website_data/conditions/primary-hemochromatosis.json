@@ -1,0 +1,143 @@
+{
+ "id": "primary-hemochromatosis",
+ "name": "Primary Hemochromatosis",
+ "subtitle": null,
+ "name_in_guide": "PRIMARY HEMOCHROMATOSIS",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "10/27/2021",
+ "order": 178,
+ "decisions": [
+  "issue",
+  "caci",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Current evaluation from a board-certified gastroenterologist, hepatologist, or hematologist which documents course of disease from diagnosis to present; severity of the condition; presence or absence of joint, liver, CNS, endocrine, renal or hematologic disease; pertinent historical lab summary; and evidence of any cognitive changes. Evaluation should document stability, treatment plan, and prognosis.",
+  "List of medications and side effects, if any",
+  "Current Lab (within the past 90 days)",
+  "CBC, serum iron, ferritin level, and transferrin saturation",
+  "Comprehensive metabolic panel"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Tested and found not to have the disease. Carrier status in the Absence of disease is not disqualifying.",
+   "condition_html": "<p><strong>A. </strong>Tested and found not to</p>\n<p>have the disease.</p>\n<p>Carrier status in the</p>\n<p>Absence of disease is <strong>not </strong>disqualifying.</p>",
+   "evaluation_data": "No evaluations or follow up needed.",
+   "evaluation_data_html": "<p>No evaluations or follow up needed.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Summarize this history in Block 60.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Summarize this</p>\n<p>history in Block 60.</p>",
+   "pdf_page": 457,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Asymptomatic",
+   "condition_html": "<p><strong>B. </strong>Asymptomatic</p>",
+   "evaluation_data": "See CACI worksheet",
+   "evaluation_data_html": "<p>See CACI worksheet</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "caci"
+   ],
+   "disposition": "Follow the CACI-Primary Hemochromatosis Worksheet . Annotate Block 60.",
+   "disposition_html": "<p>Follow the <a href=\"https://www.faa.gov/ame_guide/media/C-CACIHemochromatosis.pdf\" target=\"_blank\" rel=\"noopener\">CACI-Primary Hemochromatosis Worksheet</a> .</p>\n<p>Annotate Block 60.</p>",
+   "pdf_page": 457,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "Symptomatic OR Evidence of End Organ Damage OR Co-morbid conditions* - Unacceptable medications are used; - Side effects are present; - Phlebotomy performed more than monthly; and/or - Iron overload caused by other mechanisms or diseases (e.g. secondary hemochromatosis",
+   "condition_html": "<p><strong>C. </strong>Symptomatic</p>\n<p><strong> OR </strong></p>\n<p>Evidence of End Organ</p>\n<p>Damage</p>\n<p><strong>OR </strong></p>\n<p>Co-morbid conditions*</p>\n<ul><li><a href=\"https://www.faa.gov/ame_guide/pharm/antihyp/\" target=\"_blank\" rel=\"noopener\">• Unacceptable medications</a> are used;</li></ul>\n<ul><li>Side effects are present;</li></ul>\n<ul><li>Phlebotomy performed more than monthly; and/or</li></ul>\n<ul><li>Iron overload caused by other mechanisms or diseases (e.g. secondary hemochromatosis</li></ul>",
+   "evaluation_data": "Submit the following to the FAA for review: - Current evaluation from a board-certified gastroenterologist, hepatologist, or hematologist which documents course of disease from diagnosis to present; severity of the condition; presence or absence of joint, liver, CNS, endocrine, renal or hematologic disease; pertinent historical lab summary; and evidence of any cognitive changes. Evaluation should document stability, treatment plan, and prognosis. - List of medications and side effects, if any - Current Lab (within the past 90 days) - CBC, serum iron, ferritin level, and transferrin saturation - Comprehensive metabolic panel",
+   "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> <strong>Current evaluation</strong> from a board-certified gastroenterologist, hepatologist, or hematologist which documents course of disease from diagnosis to present; severity of the condition; presence or absence of joint, liver, CNS, endocrine, renal or hematologic disease; pertinent historical lab summary; and evidence of any cognitive changes. Evaluation should document stability, treatment plan, and prognosis.</li><li> List of medications and side effects, if any</li><li> Current Lab (within the past 90 days)</li><li> CBC, serum iron, ferritin level, and transferrin saturation</li><li> Comprehensive metabolic panel</li></ul>",
+   "what_to_bring": [
+    "Current evaluation from a board-certified gastroenterologist, hepatologist, or hematologist which documents course of disease from diagnosis to present; severity of the condition; presence or absence of joint, liver, CNS, endocrine, renal or hematologic disease; pertinent historical lab summary; and evidence of any cognitive changes. Evaluation should document stability, treatment plan, and prognosis.",
+    "List of medications and side effects, if any",
+    "Current Lab (within the past 90 days)",
+    "CBC, serum iron, ferritin level, and transferrin saturation",
+    "Comprehensive metabolic panel"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance. Follow up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance.</p>\n<p><strong>Follow up Issuance </strong>will be per the airman’s authorization letter.</p>",
+   "pdf_page": 457,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "",
+   "condition_html": "",
+   "evaluation_data": "Hemoglobin A1c TSH Resting EKG Echocardiogram Liver/cardiac imaging and biopsies (only if clinically indicated) Any other testing clinically indicated",
+   "evaluation_data_html": "<p> Hemoglobin A1c TSH Resting EKG Echocardiogram Liver/cardiac imaging and biopsies (only if clinically indicated) Any other testing clinically indicated</p>",
+   "what_to_bring": [],
+   "decisions": [],
+   "disposition": "",
+   "disposition_html": "",
+   "pdf_page": 458,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [
+  {
+   "title": "CACI – Primary Hemochromatosis Worksheet",
+   "updated": "04/13/2022",
+   "criteria": [
+    {
+     "ame_must_review": "Treating physician finds the condition is: - Stable and asymptomatic; - NOT due to a secondary hemochromatosis; and - No treatment changes recommended",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Treating physician documents NO evidence of: - Arthropathy; - Cardiomyopathy or other cardiac disease; - Cirrhosis or other hepatic disease; - CNS disease (including cognitive deficits); - Endocrine disease including diabetes; hypopituitarism, hypogonadism, or hypothyroidism; - Kidney disease; - Polycythemia; - Myeloproliferative disorders; and/or - Other condition requiring multiple transfusions",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Labs (within past 90 days): - Hemoglobin 11 mg/dL or higher - Ferritin level less than or equal to 150",
+     "acceptable_certification_criteria": "[ ] Yes"
+    },
+    {
+     "ame_must_review": "Current treatment: Note: Maintain hydration following phlebotomy and no fly for 24 hours. If more than one unit of blood is removed (greater than 500mL), no fly time is 72 hours.",
+     "acceptable_certification_criteria": "[ ] None or dietary changes OR [ ] Phlebotomy no more frequently than monthly"
+    }
+   ],
+   "block_60_options": [
+    "CACI qualified Primary Hemochromatosis",
+    "Has current OR previous SI/AASI but now CACI qualified Primary Hemochromatosis.",
+    "NOT CACI qualified Primary Hemochromatosis. I have deferred. (Submit supporting documents.)"
+   ]
+  }
+ ],
+ "status_summaries": [],
+ "notes_html": "<p>*<strong>Note</strong>:</p>\n<p>Co-morbid conditions for FAA purposes include:</p>\n<ul><li>Arthropathy;</li><li>Cardiomyopathy or other cardiac disease;</li><li>Cirrhosis or other documented hepatic disease;</li><li>CNS disease (including cognitive deficits);</li><li>Endocrine disease including diabetes, hypopituitarism, hypogonadism, or hypothyroidism;</li><li>Kidney disease;</li><li>Polycythemia;</li><li>Myeloproliferative disorders; and/or</li><li>Other condition requiring multiple transfusions</li></ul>\n<p>(Updated 04/13/2022)</p>",
+ "links": [
+  {
+   "text": "CACI-Primary Hemochromatosis Worksheet",
+   "href": "https://www.faa.gov/ame_guide/media/C-CACIHemochromatosis.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "breast-cancer",
+  "section_title": "BREAST CANCER",
+  "pdf_pages": [
+   457,
+   458,
+   459
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

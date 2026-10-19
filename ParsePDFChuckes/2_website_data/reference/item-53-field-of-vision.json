@@ -1,0 +1,149 @@
+{
+ "slug": "item-53-field-of-vision",
+ "title": "ITEM 53. Field of Vision",
+ "group": "AME OFFICE-REQUIRED ANCILLARY TESTING",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  483,
+  484,
+  485
+ ],
+ "blocks": [
+  {
+   "type": "table",
+   "page": 484,
+   "header": [
+    "53. Field of Vision"
+   ],
+   "rows": [
+    [
+     "- Normal"
+    ],
+    [
+     "- Abnormal"
+    ]
+   ],
+   "html": "<table><thead><tr><th>53. Field of Vision</th></tr></thead><tbody><tr><td><ul><li> Normal</li></ul></td></tr><tr><td><ul><li> Abnormal</li></ul></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "I. Code of Federal Regulations",
+   "html": "<p><strong>I. Code of Federal Regulations </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "First- and Second-Classes: 14 CFR 67.103(d) and 67.203(d)",
+   "html": "<p><strong>First- and Second-Classes: 14 CFR 67.103(d) and 67.203(d) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "(d) Field of Vision: Normal",
+   "html": "<p>(d) Field of Vision: Normal</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "Third-Class: 14 CFR 67.303(d)",
+   "html": "<p><strong>Third-Class: 14 CFR 67.303(d) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "(d) Field of Vision: No acute or chronic pathological condition of either eye or adnexa",
+   "html": "<p>(d) Field of Vision: No acute or chronic pathological condition of either eye or adnexa</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "that interferes with the proper function of an eye, that may reasonably be expected to progress to that degree, or that may reasonably be expected to be aggravated by flying.",
+   "html": "<p>that interferes with the proper function of an eye, that may reasonably be expected to progress to that degree, or that may reasonably be expected to be aggravated by flying.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "II. Examination Equipment and Techniques",
+   "html": "<p><strong>II. Examination Equipment and Techniques </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 484,
+   "text": "- 1. Fifty-inch square black matte surface wall target with center white fixation point;",
+   "html": "<ul><li>1. Fifty-inch square black matte surface wall target with center white fixation point;</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 484,
+   "text": "2-millimeter white test object on black-handled holder:",
+   "html": "<p>2-millimeter white test object on black-handled holder:</p>"
+  },
+  {
+   "type": "list",
+   "page": 484,
+   "text": "- 1. The applicant should be seated 40 inches from the target.\n- 2. An occluder should be placed over the applicant's right eye.\n- 3. The applicant should be instructed to keep the left eye focused on the fixation point.\n- 4. The white test object should be moved from the outside border of the wall target toward the point of fixation on each of the eight 4-degree radials.\n- 5. The result should be recorded on a worksheet as the number of inches from the fixation point at which the applicant first identifies the white target on each radial.\n- 6. The test should be repeated with the applicant's left eye occluded and the right eye focusing on the fixation point.",
+   "html": "<ul><li>1. The applicant should be seated 40 inches from the target.</li><li>2. An occluder should be placed over the applicant&#x27;s right eye.</li><li>3. The applicant should be instructed to keep the left eye focused on the fixation point.</li><li>4. The white test object should be moved from the outside border of the wall target toward the point of fixation on each of the eight 4-degree radials.</li><li>5. The result should be recorded on a worksheet as the number of inches from the fixation point at which the applicant first identifies the white target on each radial.</li><li>6. The test should be repeated with the applicant&#x27;s left eye occluded and the right eye focusing on the fixation point.</li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 484,
+   "text": "- 2. Alternative Techniques: - a. A standard perimeter may be used in place of the above procedure. With this method, any significant deviation from normal field configuration will require evaluation by an eye specialist. b. Direct confrontation. This is the least acceptable alternative since this tests for peripheral vision and only grossly for field size and visual defects. The AME, standing in front of the applicant, has the applicant look at the AME's nose while advancing two moving fingers from slightly behind and to the side of the applicant in each of the four quadrants. Any significant deviation from normal requires ophthalmological evaluation.",
+   "html": "<ul><li><p>2. Alternative Techniques:</p>\n<ul><li>a. A standard perimeter may be used in place of the above procedure. With this method, any significant deviation from normal field configuration will require evaluation by an eye specialist. b. Direct confrontation. This is the least acceptable alternative since this tests for peripheral vision and only grossly for field size and visual defects. The AME, standing in front of the applicant, has the applicant look at the AME&#x27;s nose while advancing two moving fingers from slightly behind and to the side of the applicant in each of the four quadrants. Any significant deviation from normal requires ophthalmological evaluation.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "III. Aerospace Medical Disposition",
+   "html": "<p><strong>III. Aerospace Medical Disposition </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "1. Ophthalmological Consultations.",
+   "html": "<p>1. Ophthalmological Consultations.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "If an applicant fails to identify the target in any presentation at a distance of less than 23 inches from the fixation point, an eye specialist's evaluation must be requested. This is a requirement for all classes of certification. The AME should provide FAA Form 8500-14, Ophthalmological Evaluation for Glaucoma, for use by the ophthalmologist if glaucoma is suspected.",
+   "html": "<p>If an applicant fails to identify the target in any presentation at a distance of less than 23 inches from the fixation point, an eye specialist&#x27;s evaluation must be requested. This is a requirement for all classes of certification. The AME should provide FAA Form 8500-14, Ophthalmological Evaluation for Glaucoma, for use by the ophthalmologist if glaucoma is suspected.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "2. Glaucoma.",
+   "html": "<p>2. Glaucoma.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "The FAA may grant an Authorization under the special issuance section of part 67 (14 CFR 67.401) on an individual basis. The AME can facilitate FAA review by obtaining a report of Ophthalmological Evaluation for Glaucoma (FAA Form 8500-14) from a treating or evaluating ophthalmologist.",
+   "html": "<p>The FAA may grant an Authorization under the special issuance section of part 67 (14 CFR 67.401) on an individual basis. The AME can facilitate FAA review by obtaining a report of Ophthalmological Evaluation for Glaucoma (FAA Form 8500-14) from a treating or evaluating ophthalmologist.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "NOTE: See AASI for History of Glaucoma",
+   "html": "<p><strong>NOTE</strong>: See AASI for History of Glaucoma</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "If considerable disturbance in night vision is documented, the FAA may limit the medical certificate: NOT VALID FOR NIGHT FLYING",
+   "html": "<p>If considerable disturbance in night vision is documented, the FAA may limit the medical certificate: NOT VALID FOR NIGHT FLYING</p>"
+  },
+  {
+   "type": "list",
+   "page": 485,
+   "text": "- 3. Other Pathological Conditions.",
+   "html": "<ul><li>3. Other Pathological Conditions.</li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 485,
+   "text": "See Items 31-34.",
+   "html": "<p>See <strong>Items 31-34.</strong></p>"
+  }
+ ]
+}

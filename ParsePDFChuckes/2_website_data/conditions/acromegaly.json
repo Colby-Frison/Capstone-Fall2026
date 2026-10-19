@@ -1,0 +1,105 @@
+{
+ "id": "acromegaly",
+ "name": "Acromegaly",
+ "subtitle": null,
+ "name_in_guide": "ACROMEGALY",
+ "category": {
+  "id": "general-systemic",
+  "name": "General Systemic",
+  "exam_item": "48",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "07/29/2026",
+ "order": 163,
+ "decisions": [
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study (Type III or Type IV NOT allowed) performed no more than 12 months before the AME exam. (If currently treated for OSA, see that page.)",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with a cardiologist no more than 90 days before the AME exam.",
+  "Labs to include lipids and hemoglobin A1c performed no more than 90 days before the AME exam.",
+  "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+  "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+  "A Neuropsychological evaluation that meets **FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment** from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+  "Other records and testing: Copies of prior records and any testing already performed by the treating physician.",
+  "All items listed on the correct row of the PITUITARY ADENOMA page.",
+  "All items in Row A AND",
+  "A current, detailed Clinical Progress Not e generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+  "It must specifically include the cause of acromegaly, if known.",
+  "Copies of all imaging per location of tumor if present (pancreas, hypothalamus, etc.).",
+  "Other records and testing already performed by the treating physician."
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Due to pituitary tumor NOTE: Must submit this information AND Any required pituitary tumor information.",
+   "condition_html": "<p><strong>A. Due to pituitary tumor </strong></p>\n<p><strong>NOTE: </strong></p>\n<p>Must submit this information</p>\n<p>AND</p>\n<p>Any required pituitary tumor information.</p>",
+   "evaluation_data": "Submit the following for FAA review: - 1. Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study (Type III or Type IV NOT allowed) performed no more than 12 months before the AME exam. (If currently treated for OSA, see that page.) - 2. A current, detailed Clinical Progress Note generated from a clinic visit with a cardiologist no more than 90 days before the AME exam. It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up. - 3. Labs to include lipids and hemoglobin A1c performed no more than 90 days before the AME exam. - 4. Echocardiogram (Echo). Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam. - 5. 24-hour cardiac monitor performed no more than 90 days prior to the AME exam. ≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses > 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter. - 6. A Neuropsychological evaluation that meets **FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment** from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam. - 7. Other records and testing: Copies of prior records and any testing already performed by the treating physician. - 8. All items listed on the correct row of the PITUITARY ADENOMA page.",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<ul><li><strong>1. Sleep Study</strong> that meets current AASM or CMS Guidelines for a Type I or Type II sleep study (Type III or Type IV NOT allowed) performed no more than 12 months before the AME exam. (If currently treated for OSA, see that page.)</li></ul>\n<ul><li><strong>2. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> generated from a clinic visit with a <strong>cardiologist</strong> no more than 90 days before the AME exam.</li></ul>\n<p>It should include a summary of the history of the condition or diagnosis; current medications, dosages, and side effects (if any); clinical exam findings; results of any testing performed; diagnosis; assessment and plan (prognosis); and follow-up.</p>\n<ul><li><strong>3. </strong>Labs to include <strong>lipids and hemoglobin A1c</strong> performed no more than 90 days before the AME exam.</li></ul>\n<ul><li><strong>4. Echocardiogram (Echo)</strong>. Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.</li></ul>\n<ul><li><strong>5. 24-hour cardiac monitor</strong> performed no more than 90 days prior to the AME exam.</li></ul>\n<p>≥ 24-hour cardiac monitor (such as a Holter, Zio Patch, etc.). It should have atrial and ventricular ectopic counts; hourly tabular data to include the longest pause duration and counts of all pauses &gt; 2.0 or 2.5 seconds; heart rate (max, min, and average); other histograms and frequency graphs; and percentage of atrial fibrillation/flutter.</p>\n<ul><li><strong>6. </strong>A Neuropsychological evaluation that meets **FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment** from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.</li></ul>\n<ul><li><strong>7. </strong>Other records and testing: Copies of prior records and any testing already performed by the treating physician.</li><li><strong>8. </strong>All items listed on the correct row of the <a href=\"https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf\" target=\"_blank\" rel=\"noopener\">PITUITARY ADENOMA</a> page.</li></ul>",
+   "what_to_bring": [
+    "Sleep Study that meets current AASM or CMS Guidelines for a Type I or Type II sleep study (Type III or Type IV NOT allowed) performed no more than 12 months before the AME exam. (If currently treated for OSA, see that page.)",
+    "A current, detailed Clinical Progress Note generated from a clinic visit with a cardiologist no more than 90 days before the AME exam.",
+    "Labs to include lipids and hemoglobin A1c performed no more than 90 days before the AME exam.",
+    "Echocardiogram (Echo) . Copies of a 2- D and Doppler flow study report performed no more than 90 days prior to the AME exam.",
+    "24-hour cardiac monitor performed no more than 90 days prior to the AME exam.",
+    "A Neuropsychological evaluation that meets **FAA Specifications for Neuropsychological Evaluations for Potential Neurocognitive Impairment** from a clinic visit with the treating neuropsychologist no more than 90 days before the AME exam.",
+    "Other records and testing: Copies of prior records and any testing already performed by the treating physician.",
+    "All items listed on the correct row of the PITUITARY ADENOMA page."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong> DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 430,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Due to any other cause or tumor in any location other than pituitary gland.",
+   "condition_html": "<p><strong>B. </strong>Due to any other cause</p>\n<p>or tumor in any location other than pituitary gland.</p>",
+   "evaluation_data": "Submit the following to the FAA for review: - 1. All items in Row A AND - 2. A current, detailed Clinical Progress Not e generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - 3. It must specifically include the cause of acromegaly, if known. - 4. Copies of all imaging per location of tumor if present (pancreas, hypothalamus, etc.). - 5. Other records and testing already performed by the treating physician.",
+   "evaluation_data_html": "<p><strong>Submit the following to the FAA for review: </strong></p>\n<ul><li><strong>1. </strong>All items in Row A AND</li></ul>\n<ul><li><strong>2. </strong>A <a href=\"https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Not</a> e generated from a clinic visit with the treating <strong>Endocrinologist </strong>no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li></ul>\n<ul><li><strong>3. It must specifically include </strong>the cause of acromegaly, if known.</li></ul>\n<ul><li><strong>4. </strong>Copies of all imaging per location of tumor if present (pancreas, hypothalamus, etc.).</li></ul>\n<ul><li><strong>5. </strong>Other records and testing already performed by the treating physician.</li></ul>",
+   "what_to_bring": [
+    "All items in Row A AND",
+    "A current, detailed Clinical Progress Not e generated from a clinic visit with the treating Endocrinologist no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.",
+    "It must specifically include the cause of acromegaly, if known.",
+    "Copies of all imaging per location of tumor if present (pancreas, hypothalamus, etc.).",
+    "Other records and testing already performed by the treating physician."
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
+   "pdf_page": 430,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  },
+  {
+   "text": "PITUITARY ADENOMA",
+   "href": "https://www.faa.gov/ame_guide/media/Dispo_Table_Pituitary_Adenoma.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "acromegaly",
+  "section_title": "ACROMEGALY",
+  "pdf_pages": [
+   430
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

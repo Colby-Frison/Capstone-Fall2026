@@ -1,0 +1,319 @@
+{
+ "slug": "biologics-biosimilars-non-biologics",
+ "title": "BIOLOGICS, BIOSIMILARS, NON-BIOLOGICS",
+ "group": "PHARMACEUTICALS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  640,
+  641,
+  642,
+  643
+ ],
+ "blocks": [
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "(Updated 08/26/2026)",
+   "html": "<p>(Updated 08/26/2026)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "I. CODE OF FEDERAL REGULATIONS",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "67.113(b)(c); 67.213(b)(c); and 67.313(b)(c)",
+   "html": "<p><strong>67.113(b)(c); 67.213(b)(c); and 67.313(b)(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "II. MEDICAL HISTORY: Item 48. General Systemic",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: <strong>Item 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "The individual should provide history as to why the medication is used. If taken for a specific condition, see that section. The AME should inquire about when medication was started and if the individual has ever experienced any side effects that could interfere with aviation safety.",
+   "html": "<p>The individual should provide history as to why the medication is used. If taken for a specific condition, see that section. The AME should inquire about when medication was started and if the individual has ever experienced any side effects that could interfere with aviation safety.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS:",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "See Item 48. General Systemic",
+   "html": "<p>See <strong>Item 48. General Systemic </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "IV. PROTOCOL: None",
+   "html": "<p><strong>IV. PROTOCOL</strong>: None</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 640,
+   "text": "- - The underlying condition must be acceptable.\n- Observation times: Required ground trial and/or no-fly after each dose. - Initial observation: All require a 2-week no-fly/ground trial to verify no side effects. - Post-dose observation time (no-fly time): See table. - Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.\n- o 61.53 applies if any adverse change in condition or adverse medication side effect requiring medical attention.",
+   "html": "<ul><li><ul><li>The underlying condition must be acceptable.</li><li><p>o Observation times: Required ground trial and/or no-fly after each dose.</p>\n<ul><li>Initial observation: All require a 2-week no-fly/ground trial to verify no side effects.</li><li><p>o Post-dose observation time (no-fly time): See table.</p>\n<ul><li>Changing from one biologic/biosimilar to another for the same indication requires a forty-eight (48) hour ground trial to mitigate any aeromedical risk.</li></ul></li></ul></li><li>o 61.53 applies if any adverse change in condition or adverse medication side effect requiring medical attention.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "*Note: Biologics do not have generic medication; they have biosimilar.",
+   "html": "<p><strong>*Note:</strong> Biologics do not have generic medication; they have biosimilar.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "FDA-approved biosimilars are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).",
+   "html": "<p><strong> FDA-approved biosimilars</strong> are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 640,
+   "text": "See the next two pages for table of medications by name.",
+   "html": "<p><strong>See the next two pages for table of medications by name. </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 641,
+   "header": [
+    "ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION Permitted if the underlying condition qualifies; consult the condition pages for details."
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>ACCEPTABLE BIOLOGICS - MONOTHERAPY MEDICATION Permitted if the underlying condition qualifies; consult the condition pages for details.</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 641,
+   "header": [
+    "Medication Drug Class",
+    ""
+   ],
+   "rows": [
+    [
+     "Biologic Medications",
+     "Post-dose Observation No-Fly times"
+    ],
+    [
+     "B-Cell Inhibitors - rituximab (Rituxan)",
+     "72 hours"
+    ],
+    [
+     "Selective Co-stimulation Modulator - abatacept (Orencia)",
+     "24 hours"
+    ],
+    [
+     "Tumor Necrosis Factor (TNF) Blocking Agent - infliximab (Inflectra; Remicade; Renflexis)",
+     "24 hours"
+    ],
+    [
+     "Tumor Necrosis Factor (TNF) Blocking Agent - adalimumab (Humira) - certolizumab (Cimzia) - etanercept (Enbrel) - golimumab (Simponi)",
+     "4 hours"
+    ],
+    [
+     "Interleukin Inhibitor - anakinra (Kineret) - bimekizumab (Bimzelx) - guselkumab (Tremfya) - ixekizumab (Taltz) - mirikizumab (Omvoh) - risankizumab (Skyrizi) - sarilumab (Kevzara) - secukinumab (Cosentyx) - tildrakizumab (Ilumya) - tocilizumab (Actemra) - ustekinumab (Stelara) - Warn for posterior reversible encephalopathy syndrome (PRES)",
+     "4 hours"
+    ],
+    [
+     "Selective Adhesion-Molecule (SAM) Inhibitor - vedolizumab (Entyvio)",
+     "4 hours"
+    ],
+    [
+     "Non-Biologic Medications",
+     "Post-dose Observation No-Fly times"
+    ],
+    [
+     "Kinase Inhibitor - baricitinib (Olumiant) - tofacitinib (Xeljanz) - upadacitinib (Rinvoq) Warn for cardiovascular events and blood clots (VTE) for all",
+     "None"
+    ],
+    [
+     "Phosphodiesterase-4 Enzyme Inhibitor - apremilast (Otezla) - Report any signs of depression",
+     "None"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Medication Drug Class</th><th></th></tr></thead><tbody><tr><td><p><strong>Biologic Medications </strong></p></td><td><p><strong>Post-dose Observation No-Fly times </strong></p></td></tr><tr><td><p>B-Cell Inhibitors</p>\n<ul><li>rituximab (Rituxan)</li></ul></td><td><p>72 hours</p></td></tr><tr><td><p>Selective Co-stimulation Modulator</p>\n<ul><li>abatacept (Orencia)</li></ul></td><td><p>24 hours</p></td></tr><tr><td><p>Tumor Necrosis Factor (TNF) Blocking Agent</p>\n<ul><li>infliximab (Inflectra; Remicade; Renflexis)</li></ul></td><td><p>24 hours</p></td></tr><tr><td><p>Tumor Necrosis Factor (TNF) Blocking Agent</p>\n<ul><li>adalimumab (Humira)</li><li>certolizumab (Cimzia)</li><li>etanercept (Enbrel)</li><li>golimumab (Simponi)</li></ul></td><td><p>4 hours</p></td></tr><tr><td><p>Interleukin Inhibitor</p>\n<ul><li>anakinra (Kineret)</li><li>bimekizumab (Bimzelx)</li><li>guselkumab (Tremfya)</li><li>ixekizumab (Taltz)</li><li>mirikizumab (Omvoh)</li><li>risankizumab (Skyrizi)</li><li>sarilumab (Kevzara)</li><li>secukinumab (Cosentyx)</li><li>tildrakizumab (Ilumya)</li><li>tocilizumab (Actemra)</li><li>ustekinumab (Stelara)<ul><li>Warn for posterior reversible encephalopathy syndrome (PRES)</li></ul></li></ul></td><td><p>4 hours</p></td></tr><tr><td><p>Selective Adhesion-Molecule (SAM) Inhibitor</p>\n<ul><li>vedolizumab (Entyvio)</li></ul></td><td><p>4 hours</p></td></tr><tr><td><p><strong>Non-Biologic Medications</strong></p></td><td><p><strong>Post-dose Observation No-Fly times</strong></p></td></tr><tr><td><p>Kinase Inhibitor</p>\n<ul><li>baricitinib (Olumiant)</li><li>tofacitinib (Xeljanz)</li><li>upadacitinib (Rinvoq)</li></ul>\n<p>Warn for cardiovascular events and blood clots (VTE) for all</p></td><td><p>None</p></td></tr><tr><td><p>Phosphodiesterase-4 Enzyme Inhibitor</p>\n<ul><li>apremilast (Otezla)<ul><li>Report any signs of depression</li></ul></li></ul></td><td><p>None</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 641,
+   "text": "Note: FDA-approved biosimilars are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).",
+   "html": "<p><strong>Note: FDA-approved biosimilars</strong> are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).</p>"
+  },
+  {
+   "type": "table",
+   "page": 642,
+   "header": [
+    "CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS Monotherapy — Dependent on underlying condition(s), see those pages."
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>CONDITIONALLY ACCEPTABLE BIOLOGIC MEDICATIONS Monotherapy — Dependent on underlying condition(s), see those pages.</th></tr></thead><tbody></tbody></table>"
+  },
+  {
+   "type": "table",
+   "page": 642,
+   "header": [
+    "Medication Drug Class",
+    ""
+   ],
+   "rows": [
+    [
+     "Biologic Medications",
+     "Post-dose Observation No-Fly times"
+    ],
+    [
+     "Interleukin Inhibitors - benralizumab (Fasenra) - brodalumam (Siliq) - canakinumab (Ilaris) - dupilumab (Dupixent) - mepolizumab (Nucala) - reslizumab (Cinqair) - rilonacept (Arcalyst)",
+     "4 hours"
+    ],
+    [
+     "TSLP (thymic stromal lymphopoietin) Inhibitor - tezepelumab (Tezspire)",
+     "4 hours"
+    ],
+    [
+     "IgE Inhibitor - omalizumab (Xolair)",
+     "24 hours"
+    ],
+    [
+     "Selective Adhesion-Molecule Inhibitor - natalizumab (Tysabri) REMS program (due to the risk of progressive multifocal leukoencephalopathy [PML])",
+     "48 hours"
+    ]
+   ],
+   "html": "<table><thead><tr><th>Medication Drug Class</th><th></th></tr></thead><tbody><tr><td><p><strong>Biologic Medications </strong></p></td><td><p><strong>Post-dose Observation No-Fly times </strong></p></td></tr><tr><td><p>Interleukin Inhibitors</p>\n<ul><li>benralizumab (Fasenra)</li><li>brodalumam (Siliq)</li><li>canakinumab (Ilaris)</li><li>dupilumab (Dupixent)</li><li>mepolizumab (Nucala)</li><li>reslizumab (Cinqair)</li><li>rilonacept (Arcalyst)</li></ul></td><td><p>4 hours</p></td></tr><tr><td><p>TSLP (thymic stromal lymphopoietin) Inhibitor</p>\n<ul><li>tezepelumab (Tezspire)</li></ul></td><td><p>4 hours</p></td></tr><tr><td><p>IgE Inhibitor</p>\n<ul><li>omalizumab (Xolair)</li></ul></td><td><p>24 hours</p></td></tr><tr><td><p>Selective Adhesion-Molecule Inhibitor</p>\n<ul><li>natalizumab (Tysabri)</li></ul>\n<p>REMS program (due to the risk of progressive multifocal leukoencephalopathy [PML])</p></td><td><p>48 hours</p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 642,
+   "text": "Note: FDA-approved biosimilars are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).",
+   "html": "<p><strong>Note: FDA-approved biosimilars</strong> are also acceptable for any referenced brand name medication (e.g., Hadlima [adalimumab-bwwd] for Humira [adalimumab]).</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "CHOLESTEROL MEDICATION",
+   "html": "<p><strong>CHOLESTEROL MEDICATION </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "(Updated 08/27/2025)",
+   "html": "<p>(Updated 08/27/2025)</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "I. CODE OF FEDERAL REGULATIONS - 67.113(c); 67.213(c); and 67.313(c)",
+   "html": "<p><strong>I. CODE OF FEDERAL REGULATIONS - 67.113(c); 67.213(c); and 67.313(c) </strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "II. MEDICAL HISTORY: Item 37: Vascular System",
+   "html": "<p><strong>II. MEDICAL HISTORY</strong>: Item 37: Vascular System</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "The applicant should provide history as to why the medication is used. If taken for a cardiac condition, see that section. The AME should inquire if the applicant has ever experienced any side effects that could interfere with aviation safety.",
+   "html": "<p>The applicant should provide history as to why the medication is used. If taken for a cardiac condition, see that section. The AME should inquire if the applicant has ever experienced any side effects that could interfere with aviation safety.</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "III. AEROMEDICAL DECISION CONSIDERATIONS:",
+   "html": "<p><strong>III. AEROMEDICAL DECISION CONSIDERATIONS</strong>:</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "See Item 37: Vascular system",
+   "html": "<p>See Item 37: Vascular system</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "IV. PROTOCOL: N/A",
+   "html": "<p><strong>IV. PROTOCOL</strong>: N/A</p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "V. PHARMACEUTICAL CONSIDERATIONS",
+   "html": "<p><strong>V. PHARMACEUTICAL CONSIDERATIONS </strong></p>"
+  },
+  {
+   "type": "list",
+   "page": 643,
+   "text": "- Cholesterol Medication - All drug classes require the minimum standard 48-hour initial ground trial.",
+   "html": "<ul><li><p>• Cholesterol Medication</p>\n<ul><li>All drug classes require the minimum standard 48-hour initial ground trial.</li></ul></li></ul>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "ACCEPTABLE Cholesterol Medications",
+   "html": "<p><strong>ACCEPTABLE Cholesterol Medications</strong></p>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "(As a single agent or in any combination product.)",
+   "html": "<p>(As a single agent or in any combination product.)</p>"
+  },
+  {
+   "type": "table",
+   "page": 643,
+   "header": null,
+   "rows": [
+    [
+     "HMG-CoA reductase inhibitor • atorvastatin (Lipitor; Sortis [INTL]) • fluvastatin (Lescol) • lovastatin (Altoprev) • pravastatin (Pravachol) • rosuvastatin (Crestor) • simvastatin (Zocor)",
+     "Fibric Acid • fenofibrate (Antara, Tricor, Triglide, Trilipix) • gemfibrozil (Lopid)"
+    ],
+    [
+     "Omega-3-acid ethyl esters • omega-3-acid ethyl esters (Lovaza) • icosapent ethyl (Vascepa)",
+     "Bile Acid Sequestrant • cholestyramine (Prevalite; Questran) • colesevelam (Welchol) • colestipol (Colestid)"
+    ],
+    [
+     "Nicotinic acid • niacin (Niaspan)",
+     "Adenosine Triphosphate-Citrate Lyase (ACL) Inhibitor • bempedoic acid (Nexletol)"
+    ],
+    [
+     "2-Azetidinone • ezetimibe (Zetia)",
+     ""
+    ],
+    [
+     "Monoclonal Antibody - PCSK9 Inhibitor • alirocumab (Praluent) • evolocumab (Repatha)",
+     ""
+    ]
+   ],
+   "html": "<table><tbody><tr><td><p> HMG-CoA reductase inhibitor</p>\n<p>• atorvastatin (Lipitor; Sortis [INTL])</p>\n<p>• fluvastatin (Lescol)</p>\n<p>• lovastatin (Altoprev)</p>\n<p>• pravastatin (Pravachol)</p>\n<p>• rosuvastatin (Crestor)</p>\n<p>• simvastatin (Zocor)</p></td><td><p> Fibric Acid</p>\n<p>• fenofibrate (Antara, Tricor, Triglide, Trilipix)</p>\n<p>• gemfibrozil (Lopid)</p></td></tr><tr><td><p> Omega-3-acid ethyl esters</p>\n<p>• omega-3-acid ethyl esters (Lovaza)</p>\n<p>• icosapent ethyl (Vascepa)</p></td><td><p> Bile Acid Sequestrant</p>\n<p>• cholestyramine (Prevalite; Questran)</p>\n<p>• colesevelam (Welchol)</p>\n<p>• colestipol (Colestid)</p></td></tr><tr><td><p> Nicotinic acid</p>\n<p>• niacin (Niaspan)</p></td><td><p> Adenosine Triphosphate-Citrate Lyase (ACL) Inhibitor</p>\n<p>• bempedoic acid (Nexletol)</p></td></tr><tr><td><p> 2-Azetidinone</p>\n<p>• ezetimibe (Zetia)</p></td><td><p></p></td></tr><tr><td><p> Monoclonal Antibody - PCSK9 Inhibitor</p>\n<p>• alirocumab (Praluent)</p>\n<p>• evolocumab (Repatha)</p></td><td><p></p></td></tr></tbody></table>"
+  },
+  {
+   "type": "paragraph",
+   "page": 643,
+   "text": "UNACCEPTABLE Cholesterol Medications",
+   "html": "<p><strong>UNACCEPTABLE Cholesterol Medications </strong></p>"
+  },
+  {
+   "type": "table",
+   "page": 643,
+   "header": [
+    "Apolipoprotein B Antisense Oligonucleotide - mipomersen (Kynamro)"
+   ],
+   "rows": [],
+   "html": "<table><thead><tr><th>Apolipoprotein B Antisense Oligonucleotide - mipomersen (Kynamro)</th></tr></thead><tbody></tbody></table>"
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "id": "other-neurologic-conditions",
+ "name": "Other Neurologic Conditions",
+ "subtitle": null,
+ "name_in_guide": "OTHER NEUROLOGIC CONDITIONS",
+ "category": {
+  "id": "neurologic",
+  "name": "Neurologic",
+  "exam_item": "46",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 149,
+ "decisions": [
+  "faa_decision"
+ ],
+ "what_to_bring": [
+  "Submit all pertinent medical records, current neurologic report, to include name and dosage of medication(s) and side effects, if any.",
+  "Submit all pertinent medical records, current neurologic report, to comment on involvement and persisting deficit, period of stability without symptoms, name and dosage of medication(s) and side effects, if any.",
+  "Submit all pertinent medical records, current neurologic report, name and dosage of medication(s) and side effects, if any.",
+  "Obtain medical records and current neurological status, complete neurological evaluation with appropriate laboratory and imaging studies, as indicated. May consider Neuro-psychological testing."
+ ],
+ "rows": [
+  {
+   "label": null,
+   "condition": "Atypical Facial Pain",
+   "condition_html": "<p>Atypical Facial Pain</p>",
+   "evaluation_data": "Submit all pertinent medical records, current neurologic report, to include name and dosage of medication(s) and side effects, if any.",
+   "evaluation_data_html": "<p>Submit all pertinent medical records, current neurologic report, to include name and dosage of medication(s) and side effects, if any.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records, current neurologic report, to include name and dosage of medication(s) and side effects, if any."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 371,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Immune-related demyelinating disease",
+   "condition_html": "<p>Immune-related demyelinating disease</p>",
+   "evaluation_data": "Submit all pertinent medical records, current neurologic report, to comment on involvement and persisting deficit, period of stability without symptoms, name and dosage of medication(s) and side effects, if any.",
+   "evaluation_data_html": "<p>Submit all pertinent medical records, current neurologic report, to comment on involvement and persisting deficit, period of stability without symptoms, name and dosage of medication(s) and side effects, if any.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records, current neurologic report, to comment on involvement and persisting deficit, period of stability without symptoms, name and dosage of medication(s) and side effects, if any."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 371,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Neurosyphilis",
+   "condition_html": "<p>Neurosyphilis</p>",
+   "evaluation_data": "Complete neurological evaluation with appropriate laboratory and imaging studies.",
+   "evaluation_data_html": "<p>Complete neurological evaluation with appropriate laboratory and imaging studies.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 371,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Orthostatic Hypotension",
+   "condition_html": "<p>Orthostatic Hypotension</p>",
+   "evaluation_data": "Submit all pertinent medical records, current neurologic report, name and dosage of medication(s) and side effects, if any.",
+   "evaluation_data_html": "<p>Submit all pertinent medical records, current neurologic report, name and dosage of medication(s) and side effects, if any.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical records, current neurologic report, name and dosage of medication(s) and side effects, if any."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 371,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Slow Viral Disease (e.g., Creutzfeldt Jacobs Disease Wilson’s Disease",
+   "condition_html": "<p>Slow Viral Disease (e.g., Creutzfeldt Jacobs Disease</p>\n<p>Wilson’s Disease</p>",
+   "evaluation_data": "Obtain medical records and current neurological status, complete neurological evaluation with appropriate laboratory and imaging studies, as indicated. May consider Neuro-psychological testing.",
+   "evaluation_data_html": "<p>Obtain medical records and current neurological status, complete neurological evaluation with appropriate laboratory and imaging studies, as indicated. May consider Neuro-psychological testing.</p>",
+   "what_to_bring": [
+    "Obtain medical records and current neurological status, complete neurological evaluation with appropriate laboratory and imaging studies, as indicated. May consider Neuro-psychological testing."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 371,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
+ "aliases": [
+  "Atypical Facial Pain",
+  "Immune-related demyelinating disease",
+  "Neurosyphilis",
+  "Orthostatic Hypotension",
+  "Slow Viral Disease (e.g., Creutzfeldt Jacobs Disease Wilson’s Disease"
+ ],
+ "source": {
+  "section": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+  "section_title": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+  "pdf_pages": [
+   371
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "id": "cataract-s",
+ "name": "Cataract(s)",
+ "subtitle": null,
+ "name_in_guide": "CATARACT(S)",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/24/2025",
+ "order": 21,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "Glare",
+  "Halos",
+  "Loss of contrast sensitivity",
+  "Poor night vision",
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days prior to the AME exam. It must include:",
+  "A detailed summary of the history of the condition;",
+  "Current medications, dosage, and side effects (if any);",
+  "Physical exam findings;",
+  "Results of any testing performed;",
+  "Diagnosis;",
+  "Assessment and plan;",
+  "Prognosis; and Follow-up.",
+  "The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Copies of any testing performed (visual fields, etc.)",
+  "Quality of Vision Questionnaire"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Cataract(s) present; The individual meets the vision standards for class applied; and quality of vision is not affected: For more information see Pilot Vision",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>Cataract(s) present;</p>\n<p>The individual meets the <a href=\"https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf\" target=\"_blank\" rel=\"noopener\">vision standards</a> for class applied; and</p>\n<p>quality of vision is not affected:</p>\n<p>For more information see <a href=\"https://www.faa.gov/pilots/safety/pilotsafetybrochures/Pilot_Vision_brochure_english.pdf\" target=\"_blank\" rel=\"noopener\">Pilot Vision</a></p>",
+   "evaluation_data": "If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety-related duties such as: - Glare - Halos - Loss of contrast sensitivity - Poor night vision",
+   "evaluation_data_html": "<p>If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety-related duties such as:</p>\n<ul><li>Glare</li><li>Halos</li><li>Loss of contrast sensitivity</li><li>Poor night vision</li></ul>",
+   "what_to_bring": [
+    "Glare",
+    "Halos",
+    "Loss of contrast sensitivity",
+    "Poor night vision"
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60. If correction was needed to meet standards, apply Limitation 102 to certificate. Warn the pilot CFR 61.53 applies if any change or worsening in vision.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60.</p>\n<p>If correction was needed to meet standards, apply Limitation 102 to certificate.</p>\n<p>Warn the pilot CFR 61.53 applies if any change or worsening in vision.</p>",
+   "pdf_page": 99,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Others: - Does not meet vision standards - Quality of vision is affected - AME or ophthalmologist or optometrist have concerns",
+   "condition_html": "<p><strong>B.</strong> Others:</p>\n<ul><li>Does not meet vision standards</li><li>Quality of vision is affected</li><li>AME or ophthalmologist or optometrist have concerns</li></ul>",
+   "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. 2. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 3. Copies of any testing performed (visual fields, etc.) 4. Quality of Vision Questionnaire",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>ophthalmologist or optometrist </strong>no more than <strong>90 days</strong> prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<p>2. The Clinical Progress note must specifically include the best corrected <strong>visual acuity</strong> for distant and near vision (intermediate - if age 50 or older and first or second Class). <strong>If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</strong></p>\n<p>3. Copies of any testing performed (visual fields, etc.)</p>\n<p>4. <a href=\"https://www.faa.gov/ame_guide/media/Quality_of_Vision_Questionnaire.pdf\" target=\"_blank\" rel=\"noopener\">Quality of Vision Questionnaire</a></p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist or optometrist no more than 90 days prior to the AME exam. It must include:",
+    "A detailed summary of the history of the condition;",
+    "Current medications, dosage, and side effects (if any);",
+    "Physical exam findings;",
+    "Results of any testing performed;",
+    "Diagnosis;",
+    "Assessment and plan;",
+    "Prognosis; and Follow-up.",
+    "The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and first or second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Copies of any testing performed (visual fields, etc.)",
+    "Quality of Vision Questionnaire"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance",
+    "issue"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60. Note: If unable to meet 1st or 2nd class visual acuity standards, but they will accept a lower class, the AME should issue 3rd class and annotate block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>\n<p><strong>Note:</strong> If unable to meet 1st or 2nd class visual acuity standards, but they will accept a lower class, the AME should issue 3rd class and annotate block 60.</p>",
+   "pdf_page": 99,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "If cataract surgery has been performed, see Lens Implant Disposition Table.",
+   "condition_html": "<p><strong>C.</strong> If cataract surgery has been performed, see <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_dispo_table.pdf\" target=\"_blank\" rel=\"noopener\">Lens Implant Disposition Table.</a></p>",
+   "evaluation_data": "",
+   "evaluation_data_html": "",
+   "what_to_bring": [],
+   "decisions": [
+    "defer",
+    "special_issuance",
+    "issue"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60. Note: If unable to meet 1st or 2nd class visual acuity standards, but they will accept a lower class, the AME should issue 3rd class and annotate block 60.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>\n<p><strong>Note:</strong> If unable to meet 1st or 2nd class visual acuity standards, but they will accept a lower class, the AME should issue 3rd class and annotate block 60.</p>",
+   "pdf_page": 99,
+   "disposition_shared_with_previous_row": true
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/media/FAQS-Cataracts_Lens_Implant.pdf\" target=\"_blank\" rel=\"noopener\">Cataracts and Intraocular Lenses (IOL) Frequently Asked Questions (FAQS)</a> .</p>",
+ "links": [
+  {
+   "text": "Cataracts and Intraocular Lenses (IOL) Frequently Asked Questions (FAQS)",
+   "href": "https://www.faa.gov/ame_guide/media/FAQS-Cataracts_Lens_Implant.pdf"
+  },
+  {
+   "text": "Quality of Vision Questionnaire",
+   "href": "https://www.faa.gov/ame_guide/media/Quality_of_Vision_Questionnaire.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "amblyopia-lazy-eye-status-summary-developmental-adaptation-to-unilateral-visual",
+  "section_title": "Amblyopia (Lazy Eye) Status Summary (Developmental adaptation to unilateral visual impairment*)",
+  "pdf_pages": [
+   99
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}

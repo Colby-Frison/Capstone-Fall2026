@@ -1,0 +1,23 @@
+{
+ "slug": "protocol-for-substances-of-dependence-abuse-drugs-alcohol",
+ "title": "Protocol for Substances of Dependence/abuse (Drugs - Alcohol)",
+ "group": "DISEASE PROTOCOLS",
+ "intro_of_condition_section": false,
+ "pdf_pages": [
+  621
+ ],
+ "blocks": [
+  {
+   "type": "list",
+   "page": 621,
+   "text": "- THE AME MUST DEFER ISSUANCE.",
+   "html": "<ul><li><strong>THE AME MUST DEFER ISSUANCE. </strong></li></ul>"
+  },
+  {
+   "type": "list",
+   "page": 621,
+   "text": "- Follow the guidance in the Substances of Dependence/Abuse (Drugs and Alcohol) section in this document.",
+   "html": "<ul><li>Follow the guidance in the <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">Substances of Dependence/Abuse (Drugs and Alcohol)</a> section in this document.</li></ul>"
+  }
+ ]
+}

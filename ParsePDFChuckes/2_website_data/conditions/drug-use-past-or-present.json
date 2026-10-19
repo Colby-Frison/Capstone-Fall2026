@@ -1,0 +1,134 @@
+{
+ "id": "drug-use-past-or-present",
+ "name": "Drug Use - Past or Present",
+ "subtitle": null,
+ "name_in_guide": "DRUG USE - PAST OR PRESENT",
+ "category": {
+  "id": "substances-of-dependence-abuse",
+  "name": "Substances of Dependence/Abuse",
+  "exam_item": null,
+  "part": "Substances of Dependence/Abuse"
+ },
+ "applies_to": "All Classes",
+ "updated": "09/27/2017",
+ "order": 181,
+ "decisions": [
+  "issue",
+  "defer"
+ ],
+ "what_to_bring": [
+  "The AME should review the letter and obtain any additional history necessary from the airman to verify no subsequent events have occurred.",
+  "If the airman is required to remain abstinent, the AME, based on their clinical assessment, should note in Block 60 if the airman is adhering to this requirement.",
+  "Primary drug used.",
+  "Any additional drugs/substances used in the airman’s lifetime (This includes marijuana even if allowed in some states, illicit drugs, prescription medications, or others).",
+  "Describe for each:",
+  "a) Frequency of use;",
+  "b) Amount used;",
+  "c) Setting in which used; and",
+  "d) Dates use started and stopped.",
+  "Did you attend any treatment program(s)?",
+  "Any economic, legal problems, or other adverse consequences from use?"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "History of drug use, drug- related event(s), or drug dependence (illicit or prescription). Previously reported to FAA and written proof from the FAA that monitoring is not required",
+   "condition_html": "<p><strong>A. </strong></p>\n<p>History of drug use, drug- related event(s), or drug dependence (illicit or prescription).</p>\n<p>Previously <strong>reported to FAA </strong>and<strong> written proof from the FAA </strong>that monitoring is not required</p>",
+   "evaluation_data": "The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review. - 1. The AME should review the letter and obtain any additional history necessary from the airman to verify no subsequent events have occurred. - 2. If the airman is required to remain abstinent, the AME, based on their clinical assessment, should note in Block 60 if the airman is adhering to this requirement.",
+   "evaluation_data_html": "<p>The airman should bring his/her letter(s) from the FAA (for this condition) for the AME to review.</p>\n<ul><li>1. The AME should review the letter and <strong>obtain any additional history necessary from the airman to verify no subsequent events have occurred. </strong></li></ul>\n<ul><li>2. If the airman is required to remain abstinent, the AME, based on their clinical assessment, should note in Block 60 if the airman is adhering to this requirement.</li></ul>",
+   "what_to_bring": [
+    "The AME should review the letter and obtain any additional history necessary from the airman to verify no subsequent events have occurred.",
+    "If the airman is required to remain abstinent, the AME, based on their clinical assessment, should note in Block 60 if the airman is adhering to this requirement."
+   ],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 with the date (mm/yyyy) of the most recent event and if there have been no further events or changes in condition.",
+   "disposition_html": "<p><strong>ISSUE </strong></p>\n<p>Annotate Block 60 with the date (mm/yyyy) of the most recent event and if there have been no further events or changes in condition.</p>",
+   "pdf_page": 727,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Any event in the airman’s lifetime that has not yet been cleared by the FAA and given an eligibility letter.",
+   "condition_html": "<p><strong>B. </strong></p>\n<p><strong> Any event in the airman’s </strong></p>\n<p><strong>lifetime</strong> that has not yet been cleared by the FAA and given an eligibility letter.</p>",
+   "evaluation_data": "Submit the following for FAA review: Airman statement that describes all the following: - 1. Primary drug used. - 2. Any additional drugs/substances used in the airman’s lifetime (This includes marijuana even if allowed in some states, illicit drugs, prescription medications, or others). - 3. Describe for each: - a) Frequency of use; - b) Amount used; - c) Setting in which used; and - d) Dates use started and stopped. - 4. Did you attend any treatment program(s)? If yes, provide beginning and end dates. If no, this should be stated. - 5. Any economic, legal problems, or other adverse consequences from use?",
+   "evaluation_data_html": "<p><strong>Submit the following for FAA review: </strong></p>\n<p>Airman statement that describes all the following:</p>\n<ul><li>1. Primary drug used.</li><li>2. Any additional drugs/substances used in the airman’s lifetime (This includes marijuana even if allowed in some states, illicit drugs, prescription medications, or others).</li><li>3. Describe for each:</li><li>a) Frequency of use;</li><li>b) Amount used;</li><li>c) Setting in which used; and</li><li>d) Dates use started and stopped.</li><li>4. Did you attend any treatment program(s)?</li></ul>\n<p>If yes, provide beginning and end dates.</p>\n<p>If no, this should be stated.</p>\n<ul><li>5. Any economic, legal problems, or other adverse consequences from use?</li></ul>",
+   "what_to_bring": [
+    "Primary drug used.",
+    "Any additional drugs/substances used in the airman’s lifetime (This includes marijuana even if allowed in some states, illicit drugs, prescription medications, or others).",
+    "Describe for each:",
+    "a) Frequency of use;",
+    "b) Amount used;",
+    "c) Setting in which used; and",
+    "d) Dates use started and stopped.",
+    "Did you attend any treatment program(s)?",
+    "Any economic, legal problems, or other adverse consequences from use?"
+   ],
+   "decisions": [
+    "defer"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for review. Follow-up Issuance will be per the airman’s authorization letter.",
+   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for review.</p>\n<p>Follow-up Issuance will be per the airman’s authorization letter.</p>",
+   "pdf_page": 727,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [],
+ "notes_html": "<p>727</p>\n<p><strong>Note: </strong> If FAA letter(s) are not available or if the AME has questions, call AMCD at 405-954-4821 or their <a href=\"https://www.faa.gov/pilots/medical_certification/rfs\" target=\"_blank\" rel=\"noopener\">RFS</a> to request a copy or to discuss with AMCD or their RFS.</p>\n<ul><li>If unable to obtain and review the required reports within 14 days of the exam; the AME must defer and should inform the airman what reports will be needed.</li></ul>\n<ul><li>Upon receipt and review of the above information, additional information may be required.</li></ul>\n<ul><li>If the airman sees a substance abuse professional for alcohol use, they should also describe and comment on the drug use history in their report.</li></ul>\n<p>728</p>\n<p><strong>DRUG AND ALCOHOL EVENT - FAA CERTIFICATION AID - REQUIRED INFORMATION </strong>(Page 1 of 2)</p>\n<p>(Updated 01/27/2021)</p>\n<p>AMEs should use this tool to help collect information needed for the <a href=\"https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf\" target=\"_blank\" rel=\"noopener\">Alcohol Event Status Report for the AME.</a></p>\n<p>The following information is to assist you and your treating physician/provider who may be unfamiliar with FAA medical certification requirements. It lists the ABSOLUTE MINIMUM information required by the FAA to make a determination on an airman medical certificate. You should strongly consider taking <strong>a copy to each evaluator so they understand what specific information is needed in their report to the FAA. </strong>If the corresponding provider does not address each item, there may be a <strong>delay </strong>in the processing of your medical certification until that information is submitted. Additional information, such as clinic notes or explanations, should also be submitted as needed.</p>\n<table><thead><tr><th>REPORT FROM</th><th>MUST SPECIFICALLY ADDRESS OR STATE THE FOLLOWING (Drug and Alcohol)</th></tr></thead><tbody><tr><td><p>A.</p>\n<p>AIRMAN</p>\n<p>DRUG AND ALCOHOL</p>\n<p>(D&amp;A)</p>\n<p>PERSONAL</p>\n<p>STATEMENT</p></td><td><ul><li><p><strong>3. </strong> Detailed typed personal statement from you that describes the offense(s):</p>\n<ul><li>a. What type of offense occurred;</li><li>b. What substance(s) were involved;</li><li>c. State or locality or jurisdiction where the incident occurred;</li><li>d. Date of the arrest, conviction, and/or administrative action;</li><li>e. Description of circumstances surrounding the offense; and</li><li><strong>f. Describe the above for each alcohol incident. If no other incidents, this should be stated. </strong></li></ul></li><li><p><strong>4. </strong>Your past, present, and future plans for alcohol or drug use.</p>\n<ul><li>a. When did you start drinking? How much? How often?</li><li>b. How much, how often were you drinking at the time of the incident(s);</li><li>c. How much, how often do you drink now? If abstinent, state date abstinence started;</li><li>d. Any negative consequences (legal complications or medical complications such as blackouts, pancreatitis, or ER visits); and</li><li>e. Include any other alcohol or drug offenses (arrests, convictions, or administrative actions), even if they were later reduced to a lower sentence.</li></ul></li><li><strong>5. </strong>Treatment programs you attended ever in your life. <strong>If none attended, this should be stated</strong><ul><li>a. Dates of treatment;</li><li>b. Inpatient, outpatient, other; and</li><li>c. Name of treatment facility</li></ul></li><li><strong>6. </strong>Current recovery program (if any). If AA or another program, list name of program and frequency attended.</li></ul>\n<p><strong>If not in a recovery program, this should be stated. </strong></p></td></tr><tr><td><p>B.</p>\n<p>BLOOD ALCOHOL CONTENT (BAC)</p></td><td><ul><li><p>1. Blood Alcohol Concentration (BAC) from any alcohol offense. BAC may be listed in a hospital report, a police report, or investigative report.</p>\n<ul><li><strong>a. </strong>This will be either a breathalyzer test or a blood test.</li><li><strong>b. </strong>Attach copies of any additional drug testing performed.</li></ul></li></ul></td></tr><tr><td><p>C.</p>\n<p>COURT RECORDS</p></td><td><ul><li>1. Police/investigative report from dates of incident(s). It should describe the circumstances surrounding the offense and any field sobriety tests performed.</li><li>2. Court records, if applicable.</li><li>3. Military records if events occurred while the applicant was a member of the U.S. armed forces. It should include military court records, records of non-judicial punishment, and military substance abuse records.</li></ul></td></tr></tbody></table>\n<p>729</p>\n<p><strong>DRUG AND ALCOHOL EVENT - FAA CERTIFICATION AID - REQUIRED INFORMATION </strong>(Page 2 of 2)</p>\n<table><thead><tr><th>D. DRIVING RECORD, DEPARTMENT OF MOTOR VEHICLES (DMV) RECORDS</th><th>- 1. List every state/principality/location and dates you have held a driver’s license in the past 10 years. - 2. Submit a complete copy of your driving records from each of these for the past 10 years.</th></tr></thead><tbody><tr><td><p>E.</p>\n<p>EVIDENCE OF TREATMENT</p></td><td><ul><li>1. Treatment records and copy of certificate, if any.</li><li>2. If no program was recommended or if treatment was started but not completed, that should be stated.</li></ul></td></tr><tr><td><p>F.</p>\n<p>SUBSTANCE ABUSE EVALUATION*</p>\n<p>*May not be required for all airmen.</p>\n<p>If required, the type of provider to perform the evaluation will be in the letter sent to the airman from the FAA. This will be either a Substance Abuse Professional (SAP), HIMS AME, Psychiatrist, Addictionologist or a HIMS psychiatrist</p>\n<p>If all of the items are not covered or contain insufficient detail to make a decision, additional testing or review may be required.</p>\n<p>If the evaluation submitted is not adequate or does not meet the specified parameters, a higher-level evaluation may be required<strong>.</strong></p></td><td><p>The report must include at a minimum:</p>\n<ul><li><strong>7. </strong>List of the items/documents reviewed.</li><li><strong>a. </strong>Verify if you were provided with and reviewed a complete copy of the airman’s FAA medical file sent to you by the FAA; and</li><li><strong>b. </strong>Include list of collateral contact(s) used to verify history, if any.</li><li><strong>8. </strong>Summary of the above records. Were the records clear and in sufficient detail to permit a satisfactory evaluation of the nature and extent of any previous mental disorders?</li></ul>\n<p>Clinical interview that covers the following:</p>\n<ul><li><strong>9. </strong>Family history of drug and alcohol or mental health issues.</li><li><strong>10. </strong>Developmental history.</li><li><strong>11. </strong>Past medical history and medical problems such as blackouts; memory problems; stomach, liver, cardiovascular problems; or sexual dysfunction.</li><li><strong>12. </strong>Psychiatric history, if any. Include diagnosis, treatment, and hospitalizations.<ul><li><strong>a. </strong>Personal history of anxiety, depression, insomnia; and/or</li><li><strong>b. </strong>Suicidal thoughts or attempts.</li></ul></li><li><strong>13. </strong>Alcohol and/or drug use history:<ul><li><strong>a. </strong>Include any treatment or hospitalizations; and</li><li><strong>b. </strong>The current status of drug or alcohol use (what used, how often, start/stop dates).</li></ul></li><li><strong>14. </strong>Other concerns such as:<ul><li><strong>a. </strong>Personality changes (argumentative, combative) or loss of self-esteem or isolation;</li><li><strong>b. </strong>Social family problems such as marital separation or divorce;</li><li><strong>c. </strong>Irresponsibility or child/spousal abuse;</li><li><strong>d. </strong>Legal problems such as alcohol-related traffic offenses or public intoxication, assault and battery, etc.;</li><li><strong>e. </strong>Occupational problems such as absenteeism or tardiness at work, reduced productivity, demotions, frequent job changes, or loss of job;</li><li><strong>f. </strong>Economic problems such as frequent financial crises, bankruptcy, loss of home, or lack of credit; and</li><li><strong>g. </strong>Interpersonal adverse effects such as separation from family, friends, associates, etc.</li></ul></li><li><strong>15. </strong>Any other concerns per the evaluator.</li><li><strong>16. </strong>Results of any testing that was performed (SASSI, etc.).</li><li><strong>17. </strong>Mental status examination results.</li><li><strong>18. </strong>Summary of your findings. Include if you agree or disagree with previous diagnosis or findings from the records you reviewed and why.</li><li><strong>19. </strong>DSM diagnosis for Axis I-V (if none, that should be stated).</li><li><strong>20. </strong>Any evidence of drug or alcohol abuse or dependence (if not mentioned above).</li><li><strong>21. </strong>Any additional concerns or comments.</li></ul>\n<p><strong>Note:</strong> If the above evaluation is not adequate, an additional evaluation from a psychiatrist or other provider may be required.</p></td></tr></tbody></table>\n<p>730</p>\n<p><strong>Security Notification/ Reporting Events </strong></p>\n<p>(Updated 06/27/2018)</p>\n<p><strong>Security Notification for a Conviction or Administrative Action</strong></p>\n<table><tbody><tr><td><p>Under <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15\" target=\"_blank\" rel=\"noopener\">14 CFR 61.15,</a> all pilots must send a <strong>Notification Letter </strong>(MS Word) to</p></td></tr><tr><td><p>Security and Investigations Division, <strong>within 60 calendar days </strong>of the effective</p></td></tr></tbody></table>\n<p>date of an alcohol and/or drug related <strong>conviction or administrative action</strong>.</p>\n<p>Federal Aviation Administration Security and Investigations Division AXE-700; P.O. Box 25810 Oklahoma City, OK 73125-0810</p>\n<p>For additional information including a copy of the required Notification Letter, see:</p>\n<a href=\"https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi/\" target=\"_blank\" rel=\"noopener\">Security</a>\n<p>731</p>\n<p><strong>Substances of Dependence/Abuse FAQs </strong></p>\n<p>(Updated 09/27/2017)</p>\n<ul><li><strong>1. Is there a difference in a regulatory requirement vs a clinical diagnosis? Which one must an airman meet? </strong></li></ul>\n<p>Yes. Airmen must meet the regulatory requirements of <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67?toc=1\" target=\"_blank\" rel=\"noopener\">14 CFR Part 67</a> , which are not the same criteria used for a clinical (DSM) diagnosis.</p>\n<ul><li><strong>2. What is the FAA regulatory definition of Substance Dependence? </strong></li></ul>\n<p>“Substance dependence” means a condition in which a person is dependent on a substance other than tobacco or ordinary xanthine containing (e.g., caffeine) beverages, as evidence by:</p>\n<ul><li>A. Increased tolerance;</li><li>B. Manifestation of withdrawal symptoms;</li><li>C. Impaired control of use; or</li><li>D. Continued use despite damage to physical health or impairment of social,</li></ul>\n<p>personal, or occupational functioning.</p>\n<ul><li><strong>3. What is the FAA regulatory definition of Substance abuse? </strong></li></ul>\n<ul><li>1) Use of a substance in a situation in which that use was physically hazardous, if there has been at any other time an instance of the use of a substance also in a situation in which that use was physically hazardous;</li></ul>\n<ul><li>2) A verified positive drug test result, an alcohol test result of 0.04 or greater alcohol concentration, or a refusal to submit to a drug or alcohol test required by the U.S. Department of Transportation or an agency of the U.S. Department of Transportation; or</li></ul>\n<ul><li>3) Misuse of a substance that the Federal Air Surgeon, based on case history and appropriate, qualified medical judgment relating to the substance involved, finds:</li></ul>\n<ul><li><ul><li><ul><li><ul><li>(i) Makes the person unable to safely perform the duties or exercise the privileges of the airman certificate applied for or held; or</li></ul></li></ul></li></ul></li></ul>\n<ul><li><ul><li><ul><li><ul><li>(ii) May reasonably be expected, for the maximum duration of the airman medical certificate applied for or held, to make the person unable to perform those duties or exercise those privileges.</li></ul></li></ul></li></ul></li></ul>\n<ul><li><strong>4. What type of drug or alcohol related events are asked for on the 8500-8? </strong></li></ul>\n<ul><li>A. Arrests;</li><li>B. Convictions; or</li><li>C. Administrative actions - such as if the airman attended an educational or rehabilitation program in lieu of conviction or was given a lesser charge after being arrested (ex: an arrest for DUI that was reduced to reckless driving after court proceedings).</li></ul>\n<p>732</p>\n<ul><li><strong>5. Does an airman need to report a DUI from years ago? </strong></li></ul>\n<p>Yes. The 8500-8 specifically asks the airman to report if they “ever in their life have been diagnosed with, had, or presently have...”</p>\n<p>The AME should inquire about each event, no matter how long ago, and follow the appropriate disposition table instructions.</p>\n<ul><li><strong>6. What should the AME do when an airman has a positive answer to 18.n. 18.o., or 18.v.? </strong></li></ul>\n<p>The AME should obtain additional history and follow the correct <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">disposition table</a> . In some cases, additional information will be required before a medical certificate may be issued.</p>\n<ul><li><strong>7. Must the airman continue to mark “yes” on all subsequent exams? </strong></li></ul>\n<p>Yes. If the airman has reported the event to the FAA, they must continue to report it on ALL subsequent 8500-8 applications. This applies even when the FAA has reviewed documentation and sent the airman a letter saying no further monitoring or information is needed for that event.</p>\n<p>If the applicant/airman documented the information on previous exams AND there are no new arrest(s), conviction(s), and/or administrative action(s) since the last application, the <strong>Applicant</strong> may enter <strong>PREVIOUSLY REPORTED, NO CHANGE</strong>.</p>\n<p>The AME should verify there have been no additional drug or alcohol events/offense(s). If none have occurred, that should be noted in Block 60 per the <a href=\"https://www.faa.gov/ame_guide/media/DUIDWI_Alcohol_Incidents_Disposition_Table.pdf\" target=\"_blank\" rel=\"noopener\">disposition table</a> . If any additional events have occurred, the AME should refer to the instructions on the correct disposition table.</p>\n<ul><li><strong>8. How does an airman report a Drug and/or Alcohol event to the FAA?</strong> (Updated 06/27/2018)</li></ul>\n<p>Airmen must report alcohol and drug events under both Part 67 and Part 61. This requires <strong>two separate actions by the airman</strong>:</p>\n<ul><li>1. Notify the FAA Medical Division (Part 67).</li><li>2. Notify the FAA Security Division (Part 61).</li></ul>\n<ul><li>1. The airman should notify the FAA Medical department regarding any new arrest, convictions or administrative actions as soon as possible after the event.</li></ul>\n<ul><li>a. If a new exam is performed, the AME should follow the disposition table.</li><li>b. If the airman is on a Special Issuance for drug or alcohol condition(s) and they have a new event, they should not fly under 61.53 until their case is reviewed.</li></ul>\n<p>733</p>\n<ul><li>2. Under <a href=\"https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15\" target=\"_blank\" rel=\"noopener\">14 CFR 61.15</a> , all pilots must send a <a href=\"https://ashapps.faa.gov/notificationletter/\" target=\"_blank\" rel=\"noopener\">Notification Letter</a> to FAA&#x27;s Security and Investigations Division, within <strong>60 calendar days</strong> of the effective date of an alcohol- and/or drug-related <strong>conviction or administrative action. </strong></li></ul>\n<p>Federal Aviation Administration Security and Investigations Division, AXE-700</p>\n<p>P.O. Box 25810</p>\n<p>Oklahoma City, OK 73125-0810</p>\n<p>For additional information see <a href=\"https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi\" target=\"_blank\" rel=\"noopener\">Security</a> .</p>\n<ul><li><strong>9. If the airman reports his/her DUI or any alcohol or drug offense (i.e., motor vehicle violation) to the AME or on an 8500-8/MedXPress, will that take the place of reporting it to legal/security? </strong></li></ul>\n<p>No. The airman must take a separate action to report a conviction or administrative action to security.</p>\n<p>734</p>",
+ "links": [
+  {
+   "text": "RFS",
+   "href": "https://www.faa.gov/pilots/medical_certification/rfs"
+  },
+  {
+   "text": "Alcohol Event Status Report for the AME.",
+   "href": "https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf"
+  },
+  {
+   "text": "14 CFR 61.15,",
+   "href": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-61/subpart-A/section-61.15"
+  },
+  {
+   "text": "Security",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi/"
+  },
+  {
+   "text": "14 CFR Part 67",
+   "href": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-D/part-67?toc=1"
+  },
+  {
+   "text": "disposition table",
+   "href": "https://www.faa.gov/ame_guide/abuse_dep/amd/"
+  },
+  {
+   "text": "disposition table",
+   "href": "https://www.faa.gov/ame_guide/media/DUIDWI_Alcohol_Incidents_Disposition_Table.pdf"
+  },
+  {
+   "text": "Notification Letter",
+   "href": "https://ashapps.faa.gov/notificationletter/"
+  },
+  {
+   "text": "Security",
+   "href": "https://www.faa.gov/about/office_org/headquarters_offices/ash/ash_programs/investigations/airmen_duidwi"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "substances-of-dependence-abuse",
+  "section_title": "SUBSTANCES OF DEPENDENCE/ABUSE",
+  "pdf_pages": [
+   727,
+   728,
+   729,
+   730,
+   731,
+   732,
+   733,
+   734
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}
