@@ -6,5 +6,7 @@ export type {
   Disposition,
   DocumentItem,
   Medication,
+  NihConditionIdentity,
+  NihMappingStatus,
   SubCondition,
 } from '@content/types';
