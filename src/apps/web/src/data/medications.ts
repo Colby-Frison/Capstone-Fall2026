@@ -1,3 +1,4 @@
+import { searchCatalog } from '@content/index';
 import type { Medication } from './types';
 
 export const medications: Medication[] = [
@@ -142,14 +143,13 @@ export function getMedicationById(id: string): Medication | undefined {
   return medications.find((m) => m.id === id);
 }
 
-export function searchMedications(query: string): Medication[] {
-  const q = query.toLowerCase().trim();
+export function searchMedications(
+  query: string,
+  expandedTerms: string[] = [],
+): Medication[] {
+  const q = query.trim();
   if (!q) return [];
-  return medications.filter(
-    (m) =>
-      m.name.toLowerCase().includes(q) ||
-      (m.genericName?.toLowerCase().includes(q) ?? false) ||
-      m.category.toLowerCase().includes(q) ||
-      m.flightStatusNote.toLowerCase().includes(q)
-  );
+  return searchCatalog(q, { conditions: [], medications, expandedTerms })
+    .filter((hit) => hit.type === 'medication' && hit.medication)
+    .map((hit) => hit.medication!);
 }

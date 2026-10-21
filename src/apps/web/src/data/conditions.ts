@@ -41,8 +41,11 @@ export function getConditionById(id: string): Condition | undefined {
   return conditions.find((condition) => condition.id === id);
 }
 
-export function searchConditions(query: string): Condition[] {
+export function searchConditions(
+  query: string,
+  expandedTerms: string[] = [],
+): Condition[] {
   const q = query.trim();
   if (!q) return [];
-  return searchAdaptedConditions(conditions, q);
+  return searchAdaptedConditions(conditions, q, expandedTerms);
 }
