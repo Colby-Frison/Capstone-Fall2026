@@ -112,7 +112,8 @@ Capstone-Fall2026/
 ├── schemas/                       # ame-parser JSON Schema
 └── src/                           # all product code
     ├── apps/
-    │   └── web/                   # Vite + React product UI
+    │   ├── web/                   # Vite + React product UI
+    │   └── api/                   # Thin NIH Clinical Tables BFF
     ├── packages/
     │   ├── ame_parser/            # PDF extraction package
     │   └── content/               # normalized JSON → UI models
@@ -142,7 +143,7 @@ python src/scripts/capstone.py test
 python src/scripts/capstone.py dev
 ```
 
-`dev` starts the Vite app (default http://127.0.0.1:5173).
+`dev` starts the Vite app (default http://127.0.0.1:5173) and the NIH autocomplete BFF on http://127.0.0.1:8787 (Vite proxies `/api`). Use `--no-api` to skip the BFF. See [NIH Integration](Documentation/NIH_Integration.md).
 
 ### Content pipeline
 
@@ -208,6 +209,7 @@ python run_all_tests.py
 - [Project context & requirements](Documentation/Resources/Project_Context_and_Requirements.md)
 - [Ticket 2 artifact](Assignments/Ticket_2/src/Ticket2_Artifact.md)
 - [AME Parser](Documentation/AME_Parser.md)
+- [NIH Integration](Documentation/NIH_Integration.md)
 
 ---
 

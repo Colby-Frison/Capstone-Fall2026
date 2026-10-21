@@ -1,0 +1,14 @@
+{
+  "name": "pilots-guide-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node --watch src/server.mjs",
+    "test": "node --test src/clinicalTables.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

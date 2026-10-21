@@ -193,7 +193,8 @@ body {
   min-width: 0;
 }
 
-.stack-form > input {
+.stack-form > input,
+.stack-form > .search-input-wrap {
   flex: 1 1 auto;
   min-width: 0;
   width: 100%;
@@ -201,6 +202,10 @@ body {
 
 .stack-form > button {
   min-height: 44px;
+}
+
+.desktop-search .stack-form {
+  width: auto;
 }
 
 @media (max-width: 479px) {

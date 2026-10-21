@@ -18,6 +18,13 @@ export default defineConfig({
   server: {
     host: '127.0.0.1',
     port: parseInt(process.env.PORT || '5173', 10),
+    proxy: {
+      // Thin NIH BFF (src/apps/api) — start with: node src/apps/api/src/server.mjs
+      '/api': {
+        target: process.env.NIH_API_PROXY || 'http://127.0.0.1:8787',
+        changeOrigin: true,
+      },
+    },
   },
   preview: {
     host: '127.0.0.1',
