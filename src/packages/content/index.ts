@@ -3,6 +3,8 @@ export type {
   Disposition,
   DocumentItem,
   Medication,
+  NihConditionIdentity,
+  NihMappingStatus,
   NormalizedGuidanceFile,
   NormalizedRecord,
   NormalizedRequirement,
@@ -14,6 +16,8 @@ export type {
   NihInfoLink,
   NihSuggestion,
 } from './nih';
+
+export type { NihConditionMapFile } from './nihMap';
 
 export {
   adaptGuidanceFile,
@@ -37,5 +41,16 @@ export {
   matchConditionsByNames,
   matchTotality,
 } from './nih';
+
+export {
+  applyNihConditionMap,
+  faaNihNameScore,
+  faaNihTokenScore,
+  LOW_CONFIDENCE_THRESHOLD,
+  MAPPED_CONFIDENCE_THRESHOLD,
+  mappingStatusFromConfidence,
+  normalizeNihIdentity,
+  resolveNihIdentityForCondition,
+} from './nihMap';
 
 export { listCanonicalCategories, resolveCategory } from './categories';
