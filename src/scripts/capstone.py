@@ -11,6 +11,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 WEB_DIR = ROOT / "src" / "apps" / "web"
+API_DIR = ROOT / "src" / "apps" / "api"
+API_SERVER = API_DIR / "src" / "server.mjs"
 GUIDANCE_DIR = ROOT / "src" / "data" / "guidance"
 RESOURCES = ROOT / "Documentation" / "Resources"
 PY_COVERAGE_DIR = ROOT / "coverage" / "python"
@@ -84,9 +86,26 @@ def test_parser(opts: argparse.Namespace) -> None:
 def test_content(opts: argparse.Namespace) -> None:
     banner("SECTION: content")
     pm = ensure_web_deps()
-    # Thresholds in vitest.config.ts cover the whole app, so this quick
-    # subset runs without coverage; the web section reports it.
-    run(pm + ["exec", "vitest", "run", "src/content."], cwd=WEB_DIR)
+    run(
+        pm
+        + [
+            "exec",
+            "vitest",
+            "run",
+            "src/content.adapter.test.ts",
+            "src/nih.match.test.ts",
+            "src/nih.map.test.ts",
+            "src/search.score.test.ts",
+        ],
+        cwd=WEB_DIR,
+    )
+    api_dir = ROOT / "src" / "apps" / "api"
+    if (api_dir / "src" / "clinicalTables.test.mjs").is_file():
+        banner("SECTION: nih-api")
+        node = shutil.which("node")
+        if not node:
+            raise SectionError("Node.js required for NIH API unit tests")
+        run([node, "--test", "src/clinicalTables.test.mjs"], cwd=api_dir)
 
 
 def test_web(opts: argparse.Namespace) -> None:
@@ -160,6 +179,25 @@ def cmd_test(args: argparse.Namespace) -> int:
     return 0
 
 
+def start_nih_api() -> subprocess.Popen | None:
+    """Start the thin NIH BFF if Node and the server script are available."""
+    if not API_SERVER.is_file():
+        print("NIH API server not found; autocomplete will fail until it is started.", flush=True)
+        return None
+    node = shutil.which("node")
+    if not node:
+        print("Node.js not found; skipping NIH API BFF.", flush=True)
+        return None
+    banner("Starting NIH API BFF (port 8787)")
+    print(f"$ {node} {API_SERVER}", flush=True)
+    return subprocess.Popen(
+        [node, str(API_SERVER)],
+        cwd=str(API_DIR),
+        stdout=sys.stdout,
+        stderr=sys.stderr,
+    )
+
+
 def cmd_dev(args: argparse.Namespace) -> int:
     if args.parser:
         print(
@@ -169,13 +207,20 @@ def cmd_dev(args: argparse.Namespace) -> int:
             flush=True,
         )
     pm = ensure_web_deps()
+    api_proc = None if args.no_api else start_nih_api()
     banner("Starting web development server")
-    # Replace the current process so Ctrl+C stops Vite cleanly.
     cmd = pm + ["run", "dev"]
     print(f"$ {' '.join(cmd)}", flush=True)
-    raise SystemExit(
-        subprocess.call(cmd, cwd=str(WEB_DIR), shell=sys.platform == "win32")
-    )
+    try:
+        code = subprocess.call(cmd, cwd=str(WEB_DIR), shell=sys.platform == "win32")
+    finally:
+        if api_proc is not None and api_proc.poll() is None:
+            api_proc.terminate()
+            try:
+                api_proc.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                api_proc.kill()
+    raise SystemExit(code)
 
 
 def cmd_build(args: argparse.Namespace) -> int:
@@ -259,6 +304,11 @@ def build_parser() -> argparse.ArgumentParser:
         "--parser",
         action="store_true",
         help="Print how to refresh guidance JSON from PDFs",
+    )
+    dev.add_argument(
+        "--no-api",
+        action="store_true",
+        help="Do not start the NIH Clinical Tables BFF (port 8787)",
     )
     dev.set_defaults(func=cmd_dev)
 

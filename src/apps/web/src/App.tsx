@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -23,6 +24,21 @@ interface NavState {
   id?: string;
   query?: string;
 }
+
+/**
+ * Privacy-safe page templates — no condition/medication IDs or search queries.
+ * After production deploy, enable Web Analytics on the Vercel project
+ * (Dashboard → Analytics) so these page views appear.
+ */
+const PAGE_ANALYTICS_PATH: Record<Page, string> = {
+  home: '/',
+  search: '/search',
+  conditions: '/conditions',
+  'condition-detail': '/condition-detail',
+  'medication-detail': '/medication-detail',
+  'how-it-works': '/how-it-works',
+  about: '/about',
+};
 
 function readNavFromLocation(): NavState {
   const params = new URLSearchParams(window.location.search);
@@ -74,10 +90,11 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  const showHeader = nav.page !== 'home';
+  const analyticsPath = PAGE_ANALYTICS_PATH[nav.page];
 
   return (
     <div className="app-shell">
+      <Analytics route={analyticsPath} path={analyticsPath} />
       {nav.page === 'home' ? (
         <HomeWithHeader onNavigate={navigate} />
       ) : (

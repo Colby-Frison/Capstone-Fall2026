@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import ConditionSearchInput from '../components/ConditionSearchInput';
+import type { NihSuggestion } from '../data/nih';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
 
@@ -9,10 +11,17 @@ interface Props {
 export default function Home({ onNavigate }: Props) {
   const [query, setQuery] = useState('');
 
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
-    if (query.trim()) onNavigate('search', query.trim());
+  function handleSearch(q: string) {
+    if (q.trim()) onNavigate('search', q.trim());
     else onNavigate('search');
+  }
+
+  function handleSelectCondition(conditionId: string, _suggestion: NihSuggestion) {
+    onNavigate('condition-detail', conditionId);
+  }
+
+  function handleSelectUnmatched(suggestion: NihSuggestion) {
+    onNavigate('search', suggestion.label);
   }
 
   return (
@@ -88,45 +97,18 @@ export default function Home({ onNavigate }: Props) {
             Look up a medical condition you already know about. See what the FAA guide says, and what to bring to the medical exam.
           </p>
 
-          {/* Search bar */}
-          <form className="stack-form" onSubmit={handleSearch} style={{ maxWidth: 560, margin: '0 auto 24px' }}>
-            <input
-              type="search"
+          {/* Search bar with NIH autocomplete */}
+          <div style={{ maxWidth: 560, margin: '0 auto 24px' }}>
+            <ConditionSearchInput
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={setQuery}
+              onSearch={handleSearch}
+              onSelectCondition={handleSelectCondition}
+              onSelectUnmatched={handleSelectUnmatched}
+              variant="hero"
               placeholder="Search a condition or medication (e.g., migraine, depression)"
-              style={{
-                background: '#ffffff',
-                border: '2px solid #ffffff',
-                borderRadius: 6,
-                padding: '14px 20px',
-                fontSize: '1rem',
-                fontFamily: "'Inter', sans-serif",
-                color: '#1e293b',
-                outline: 'none',
-                boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
-              }}
             />
-            <button
-              type="submit"
-              style={{
-                background: '#3b7fc4',
-                border: '2px solid #3b7fc4',
-                borderRadius: 6,
-                padding: '14px 28px',
-                color: '#ffffff',
-                fontSize: '1rem',
-                fontWeight: 700,
-                cursor: 'pointer',
-                fontFamily: "'DM Sans', sans-serif",
-                whiteSpace: 'nowrap',
-                boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
-                transition: 'background 0.15s',
-              }}
-            >
-              Search
-            </button>
-          </form>
+          </div>
 
           <button
             onClick={() => onNavigate('conditions')}

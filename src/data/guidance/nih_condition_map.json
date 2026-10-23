@@ -1,0 +1,2600 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-18T21:33:18.011Z",
+  "source": "clinicaltables.nlm.nih.gov/api/conditions/v3",
+  "entries": {
+    "abdomen-and-viscera-and-anus-conditions": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3982",
+      "consumerName": "Abdominal pain",
+      "primaryName": "Abdominal pain",
+      "synonyms": [
+        "belly ache",
+        "belly pain",
+        "pain in abdomen",
+        "stomach ache",
+        "stomach pain"
+      ],
+      "icd10": [
+        "R10.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/abdominalpain.html",
+          "title": "Abdominal Pain"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "acoustic-neuroma": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "11075",
+      "consumerName": "Acoustic neuroma",
+      "primaryName": "Acoustic neuroma",
+      "synonyms": [
+        "neurilemmoma acoustic"
+      ],
+      "icd10": [
+        "D33.3"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/acousticneuroma.html",
+          "title": "Acoustic Neuroma"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "acromegaly": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8136",
+      "consumerName": "Acromegaly",
+      "primaryName": "Acromegaly",
+      "synonyms": [
+        "gigantism"
+      ],
+      "icd10": [
+        "E22.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000321.htm",
+          "title": "Acromegaly"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "acute-lymphocytic-leukemia-all": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2918",
+      "consumerName": "Acute lymphocytic leukemia (ALL)",
+      "primaryName": "Lymphocytic leukemia - acute",
+      "synonyms": [
+        "ALL",
+        "leukemia (ALL)"
+      ],
+      "icd10": [
+        "C91.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/acutelymphocyticleukemia.html",
+          "title": "Acute Lymphocytic Leukemia"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "acute-or-chronic-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "18963",
+      "consumerName": "Bronchitis - acute",
+      "primaryName": "Bronchitis - acute",
+      "synonyms": [
+        "bronchitis acute"
+      ],
+      "icd10": [
+        "J20.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/bronchitis.html",
+          "title": "Bronchitis"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "adjustment-disorder-with-depressed-mood-or-minor-depression": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "allergies": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "alpha-gal-syndrome-meat-allergy": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "als-amyotrophic-lateral-sclerosis-aka-lou-gehrig-s": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "alzheimer-s-disease-or-mild-cognitive-impairment-mci": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "alzheimer-s-disease-or-mild-cognitive-impairment-mci-or-dementia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "11145",
+      "consumerName": "Alzheimer's disease",
+      "primaryName": "Alzheimer's disease",
+      "synonyms": [
+        "senile dementia"
+      ],
+      "icd10": [
+        "G30.9",
+        "F02.80"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/alzheimersdisease.html",
+          "title": "Alzheimer's Disease"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "amblyopia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9694",
+      "consumerName": "Lazy eye (amblyopia)",
+      "primaryName": "Amblyopia",
+      "synonyms": [
+        "lazy eye"
+      ],
+      "icd10": [
+        "H53.009"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/001014.htm",
+          "title": "Amblyopia"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "anosmia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "7190",
+      "consumerName": "Loss of smell (anosmia)",
+      "primaryName": "Anosmia",
+      "synonyms": [
+        "absent smell",
+        "smell loss"
+      ],
+      "icd10": [
+        "R43.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003052.htm",
+          "title": "Taste and Smell Disorders"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "anxiety-depression-and-related-conditions": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2898",
+      "consumerName": "Anxiety",
+      "primaryName": "Anxiety",
+      "synonyms": [
+        "anxious",
+        "nervousness"
+      ],
+      "icd10": [
+        "F41.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/anxiety.html",
+          "title": "Anxiety"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "arrhythmias": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "5838",
+      "consumerName": "Arteriovenous malformation (AVM)",
+      "primaryName": "Arteriovenous malformation",
+      "synonyms": [
+        "arterio venous malformation",
+        "malformation arteriovenous"
+      ],
+      "icd10": [
+        "Q27.30"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/arteriovenousmalformations.html",
+          "title": "Arteriovenous Malformations"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "arteriovenous-malformation-avm-peripheral-lungs-liver-bone": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "5838",
+      "consumerName": "Arteriovenous malformation (AVM)",
+      "primaryName": "Arteriovenous malformation",
+      "synonyms": [
+        "arterio venous malformation",
+        "malformation arteriovenous"
+      ],
+      "icd10": [
+        "Q27.30"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/arteriovenousmalformations.html",
+          "title": "Arteriovenous Malformations"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "atrial-fibrillation-afib-a-flutter": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "X14",
+      "consumerName": "Atrial fibrillation",
+      "primaryName": "Atrial fibrillation",
+      "synonyms": [],
+      "icd10": [
+        "I48.91"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/atrialfibrillation.html",
+          "title": "Atrial Fibrillation"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "atrial-flutter-typical-atrial-flutter": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "attention-deficit-hyperactivity-disorder-adhd-and-or-use-of-adhd-medications": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "17654",
+      "consumerName": "Attention deficit hyperactivity disorder (ADHD/ADD)",
+      "primaryName": "Atten deficit hyperactivity disorder",
+      "synonyms": [],
+      "icd10": [
+        "F90.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/attentiondeficithyperactivitydisorder.html",
+          "title": "Attention Deficit Hyperactivity Disorder"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "avm-arteriovenous-malformation-of-the-nervous": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "5838",
+      "consumerName": "Arteriovenous malformation (AVM)",
+      "primaryName": "Arteriovenous malformation",
+      "synonyms": [
+        "arterio venous malformation",
+        "malformation arteriovenous"
+      ],
+      "icd10": [
+        "Q27.30"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/arteriovenousmalformations.html",
+          "title": "Arteriovenous Malformations"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "barrett-s-esophagus": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8937",
+      "consumerName": "Barrett's esophagus",
+      "primaryName": "Barrett's esophagus",
+      "synonyms": [
+        "Barretts syndrome",
+        "esophagea esophagu Barretts esophagus"
+      ],
+      "icd10": [
+        "K22.70"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/001143.htm",
+          "title": "Esophagus Disorders"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2904",
+      "consumerName": "Bells palsy",
+      "primaryName": "Bells palsy",
+      "synonyms": [
+        "Bell's palsy",
+        "cranial vii palsy",
+        "facial palsy"
+      ],
+      "icd10": [
+        "G51.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/bellspalsy.html",
+          "title": "Bell's Palsy"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy-32": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "blepharitis-and-conjunctivitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "6695",
+      "consumerName": "Blepharitis",
+      "primaryName": "Blepharitis",
+      "synonyms": [],
+      "icd10": [
+        "H01.009"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/001619.htm",
+          "title": "Blepharitis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "blood-and-blood-forming-tissue-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "374",
+      "consumerName": "High blood pressure (hypertension (HTN))",
+      "primaryName": "Hypertension",
+      "synonyms": [
+        "HBP",
+        "HTN",
+        "high blood pressure"
+      ],
+      "icd10": [
+        "I10"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/highbloodpressure.html",
+          "title": "High Blood Pressure"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "blood-donation": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "brain-abscess-brain-infection": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8180",
+      "consumerName": "Brain abscess",
+      "primaryName": "Brain abscess",
+      "synonyms": [
+        "abscess brain",
+        "cerebral abscess"
+      ],
+      "icd10": [
+        "G06.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000783.htm",
+          "title": "Brain abscess"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "brain-aneurysm-intracranial-aneurysm-cerebral-aneurysm-not-ruptured": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "brain-aneurysm-not-ruptured-intracranial-aneurysm": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "brain-bleed": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "19538",
+      "consumerName": "Thalamic hemorrhage",
+      "primaryName": "Thalamic hemorrhage",
+      "synonyms": [
+        "Brain bleed",
+        "thalamic bleed"
+      ],
+      "icd10": [
+        "I61.8"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 1
+    },
+    "brain-bleed-cerebral-hemorrhage-intracranial": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "19538",
+      "consumerName": "Thalamic hemorrhage",
+      "primaryName": "Thalamic hemorrhage",
+      "synonyms": [
+        "Brain bleed",
+        "thalamic bleed"
+      ],
+      "icd10": [
+        "I61.8"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 1
+    },
+    "brain-tumor-intracranial-tumor": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2922",
+      "consumerName": "Brain tumor",
+      "primaryName": "Brain tumor",
+      "synonyms": [
+        "cerebral tumor",
+        "neoplasm of brain"
+      ],
+      "icd10": [
+        "D49.6"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/braincancer.html",
+          "title": "Brain Cancer"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "brain-tumor-intracranial-tumor-or-brain-cancer": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2922",
+      "consumerName": "Brain tumor",
+      "primaryName": "Brain tumor",
+      "synonyms": [
+        "cerebral tumor",
+        "neoplasm of brain"
+      ],
+      "icd10": [
+        "D49.6"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/braincancer.html",
+          "title": "Brain Cancer"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "bronchiectasis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4664",
+      "consumerName": "Bronchiectasis",
+      "primaryName": "Bronchiectasis",
+      "synonyms": [
+        "bronchi bronchiectasis"
+      ],
+      "icd10": [
+        "J47.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000144.htm",
+          "title": "Bronchiectasis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "buerger-disease-or-thromboangiitis-obliterans-tao": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "cataract-s": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "370",
+      "consumerName": "Cataract",
+      "primaryName": "Cataract",
+      "synonyms": [],
+      "icd10": [
+        "H26.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/cataract.html",
+          "title": "Cataract"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "central-sleep-apnea": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8165",
+      "consumerName": "Pickwickian syndrome",
+      "primaryName": "Pickwickian syndrome",
+      "synonyms": [
+        "central sleep apnea"
+      ],
+      "icd10": [
+        "E66.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000085.htm",
+          "title": "Obesity hypoventilation syndrome (OHS)"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "cerebral-palsy": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "5096",
+      "consumerName": "Cerebral palsy (CP)",
+      "primaryName": "Cerebral palsy",
+      "synonyms": [
+        "infantile cerebral palsy"
+      ],
+      "icd10": [
+        "G80.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/cerebralpalsy.html",
+          "title": "Cerebral Palsy"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "cerebrovascular-accident-cva-or-transient-ischemic-attack-tia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2177",
+      "consumerName": "Stroke",
+      "primaryName": "Stroke",
+      "synonyms": [
+        "CVA",
+        "brain attack",
+        "cerebrovascular accident"
+      ],
+      "icd10": [
+        "I63.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/stroke.html",
+          "title": "Stroke"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "chest-pain": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2208",
+      "consumerName": "Chest pain",
+      "primaryName": "Chest pain",
+      "synonyms": [],
+      "icd10": [
+        "R07.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/chestpain.html",
+          "title": "Pain"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "chiari-malformation": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "cholelithiasis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2078",
+      "consumerName": "Gallstones (cholelithiasis)",
+      "primaryName": "Cholelithiasis",
+      "synonyms": [
+        "gall stones"
+      ],
+      "icd10": [
+        "K80.20"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000273.htm",
+          "title": "Gallbladder Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "chorioretinitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2966",
+      "consumerName": "Chorioretinitis",
+      "primaryName": "Chorioretinitis",
+      "synonyms": [
+        "POHS"
+      ],
+      "icd10": [
+        "H30.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/001005.htm",
+          "title": "Uveitis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "chronic-obstructive-pulmonary-disease-copd-emphysema-chronic-bronchitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "364",
+      "consumerName": "Chronic obstructive pulmonary disease (COPD)",
+      "primaryName": "Chronic obstructive pulmonary disease",
+      "synonyms": [
+        "COPD",
+        "chr airway obstruct",
+        "chronic emphysema",
+        "chronic lung dis"
+      ],
+      "icd10": [
+        "J44.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/copdchronicobstructivepulmonarydisease.html",
+          "title": "COPD (Chronic Obstructive Pulmonary Disease)"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "cirrhosis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2267",
+      "consumerName": "Liver cirrhosis",
+      "primaryName": "Liver cirrhosis",
+      "synonyms": [],
+      "icd10": [
+        "K74.60"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/cirrhosis.html",
+          "title": "Cirrhosis"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "cochlear-implant-ci": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "cognitive-or-mental-impairment-or-dysfunction-cognitive-disorder": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9859",
+      "consumerName": "Ovarian dysfunction",
+      "primaryName": "Ovarian dysfunction",
+      "synonyms": [],
+      "icd10": [
+        "E28.9"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 0.95
+    },
+    "cognitive-or-mental-impairment-or-dysfunction": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9859",
+      "consumerName": "Ovarian dysfunction",
+      "primaryName": "Ovarian dysfunction",
+      "synonyms": [],
+      "icd10": [
+        "E28.9"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 0.95
+    },
+    "collagen-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4614",
+      "consumerName": "Connective tissue disease",
+      "primaryName": "Connective tissue disease",
+      "synonyms": [
+        "collagen vascular disease",
+        "connective tissue dis",
+        "diff connect tis dis NOS"
+      ],
+      "icd10": [
+        "L94.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/connectivetissuedisorders.html",
+          "title": "Connective Tissue Disorders"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "coloboma": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "16624",
+      "consumerName": "Coloboma",
+      "primaryName": "Coloboma",
+      "synonyms": [],
+      "icd10": [
+        "Q13.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003318.htm",
+          "title": "Coloboma of the iris"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "condition-not-listed": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "congenital-heart-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "congenital-sucrase-isomaltase-deficiency-csid": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "coronary-heart-disease": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0.475
+    },
+    "cushing-syndrome": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0.475
+    },
+    "cutaneous": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "10591",
+      "consumerName": "Cutaneous calcinosis",
+      "primaryName": "Calcinosis cutis",
+      "synonyms": [
+        "cutaneous calcinosis"
+      ],
+      "icd10": [
+        "L94.2"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 0.95
+    },
+    "deep-brain-stimulator": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "deep-brain-stimulator-dbs": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "diabetes-insipidus-or-polyuria": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2935",
+      "consumerName": "Polyuria",
+      "primaryName": "Polyuria",
+      "synonyms": [],
+      "icd10": [
+        "R35.89"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003146.htm",
+          "title": "Urination - excessive volume"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "diabetes-mellitus": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2143",
+      "consumerName": "Diabetes mellitus (DM)",
+      "primaryName": "Diabetes mellitus",
+      "synonyms": [
+        "DM"
+      ],
+      "icd10": [
+        "E11.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/diabetes.html",
+          "title": "Diabetes"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "diplopia-double-vision": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4385",
+      "consumerName": "Double vision (diplopia)",
+      "primaryName": "Diplopia",
+      "synonyms": [
+        "double vision"
+      ],
+      "icd10": [
+        "H53.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/eyediseases.html",
+          "title": "Eye Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "disease-of-the-lungs-pleura-or-mediastinum": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2232",
+      "consumerName": "Pleural effusion",
+      "primaryName": "Pleural effusion",
+      "synonyms": [
+        "pl eff"
+      ],
+      "icd10": [
+        "J90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pleuraldisorders.html",
+          "title": "Pleural Disorders"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "dystonia-including-torticollis-117": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "14096",
+      "consumerName": "Dystonia",
+      "primaryName": "Dystonia",
+      "synonyms": [],
+      "icd10": [
+        "G24.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/dystonia.html",
+          "title": "Dystonia"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "dystonia-including-torticollis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "14096",
+      "consumerName": "Dystonia",
+      "primaryName": "Dystonia",
+      "synonyms": [],
+      "icd10": [
+        "G24.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/dystonia.html",
+          "title": "Dystonia"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "ear-drums": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "encephalitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2913",
+      "consumerName": "Encephalitis",
+      "primaryName": "Encephalitis",
+      "synonyms": [
+        "cephalitis"
+      ],
+      "icd10": [
+        "G04.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/encephalitis.html",
+          "title": "Encephalitis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "endocarditis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "16637",
+      "consumerName": "Endocarditis - bacterial",
+      "primaryName": "Endocarditis - bacterial",
+      "synonyms": [],
+      "icd10": [
+        "I33.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/endocarditis.html",
+          "title": "Endocarditis"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "epilepsy-seizure-disorder-130": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9734",
+      "consumerName": "Epilepsy",
+      "primaryName": "Epilepsy",
+      "synonyms": [
+        "chronic recurrent seiz disorder",
+        "epileptic confulsions",
+        "epileptic fits NOS szs",
+        "epileptic seizures NOS"
+      ],
+      "icd10": [
+        "G40.909"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/epilepsy.html",
+          "title": "Epilepsy"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "epilepsy-seizure-disorder": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9734",
+      "consumerName": "Epilepsy",
+      "primaryName": "Epilepsy",
+      "synonyms": [
+        "chronic recurrent seiz disorder",
+        "epileptic confulsions",
+        "epileptic fits NOS szs",
+        "epileptic seizures NOS"
+      ],
+      "icd10": [
+        "G40.909"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/epilepsy.html",
+          "title": "Epilepsy"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "esophageal-varices": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2064",
+      "consumerName": "Esophageal varices",
+      "primaryName": "Esophageal varices",
+      "synonyms": [
+        "esophagea esophagu esophageal varices",
+        "varices of esophagus"
+      ],
+      "icd10": [
+        "I85.00"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000268.htm",
+          "title": "Bleeding esophageal varices"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "eyes-general-other-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "eyes-procedures": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "eyes-refractive-surgery": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "fibromuscular-dysplasia": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "general-disorders": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0.475
+    },
+    "gerd-gastroesophageal-reflux-disease-or-reflux": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4362",
+      "consumerName": "Esophageal reflux (GERD)",
+      "primaryName": "Esophageal reflux",
+      "synonyms": [
+        "GERD",
+        "acid reflux",
+        "esophagea esophagu esophageal reflux",
+        "gastroesophageal reflux",
+        "ge reflux",
+        "indigestion",
+        "reflux ge",
+        "spitting up"
+      ],
+      "icd10": [
+        "K21.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/gerd.html",
+          "title": "GERD"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "gout-and-pseudogout": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2313",
+      "consumerName": "Gout",
+      "primaryName": "Gout",
+      "synonyms": [],
+      "icd10": [
+        "M10.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/gout.html",
+          "title": "Gout and Pseudogout"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "guillain-barre-syndrome": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8595",
+      "consumerName": "Guillain-Barre syndrome",
+      "primaryName": "Guillain-Barre syndrome",
+      "synonyms": [
+        "GBS",
+        "ascending paralysis",
+        "infectious polyneuritis",
+        "landry-gullian-barre strohl syn",
+        "radiculoneuritic syndrome"
+      ],
+      "icd10": [
+        "G61.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/guillainbarresyndrome.html",
+          "title": "Guillain-Barre Syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "guillain-barre-syndrome-135": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8595",
+      "consumerName": "Guillain-Barre syndrome",
+      "primaryName": "Guillain-Barre syndrome",
+      "synonyms": [
+        "GBS",
+        "ascending paralysis",
+        "infectious polyneuritis",
+        "landry-gullian-barre strohl syn",
+        "radiculoneuritic syndrome"
+      ],
+      "icd10": [
+        "G61.0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/guillainbarresyndrome.html",
+          "title": "Guillain-Barre Syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "head-injury-or-brain-injury": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3226",
+      "consumerName": "Head injury",
+      "primaryName": "Head injury",
+      "synonyms": [
+        "cranial trauma",
+        "head trauma",
+        "injury to head"
+      ],
+      "icd10": [
+        "S09.90XA",
+        "S09.90XD",
+        "S09.90XS"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/traumaticbraininjury.html",
+          "title": "Head and Brain Injuries"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "head-injury-or-brain-injuryconcussion-closed": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3226",
+      "consumerName": "Head injury",
+      "primaryName": "Head injury",
+      "synonyms": [
+        "cranial trauma",
+        "head trauma",
+        "injury to head"
+      ],
+      "icd10": [
+        "S09.90XA",
+        "S09.90XD",
+        "S09.90XS"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/traumaticbraininjury.html",
+          "title": "Head and Brain Injuries"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "head-injury-or-remote-brain-injury": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3226",
+      "consumerName": "Head injury",
+      "primaryName": "Head injury",
+      "synonyms": [
+        "cranial trauma",
+        "head trauma",
+        "injury to head"
+      ],
+      "icd10": [
+        "S09.90XA",
+        "S09.90XD",
+        "S09.90XS"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/traumaticbraininjury.html",
+          "title": "Head and Brain Injuries"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "head-face-neck-and-scalp": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2179",
+      "consumerName": "Headache",
+      "primaryName": "Headache",
+      "synonyms": [
+        "cephalgia",
+        "dolor capitis",
+        "ha",
+        "head ache",
+        "head pain"
+      ],
+      "icd10": [
+        "R51.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/headache.html",
+          "title": "Headache"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "heart-murmur": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3978",
+      "consumerName": "Heart murmur",
+      "primaryName": "Heart murmur",
+      "synonyms": [
+        "cardiac murmurs NEC"
+      ],
+      "icd10": [
+        "R01.1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003266.htm",
+          "title": "Heart Valve Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "heart-transplant-cardiac-transplant-heart-replacement": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "hormone-replacement-therapy-hrt-female": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "human-immunodeficiency-virus-hiv": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9130",
+      "consumerName": "HIV positive",
+      "primaryName": "HIV positive",
+      "synonyms": [
+        "HIV+",
+        "HTLV3-pos",
+        "pos HTLV3"
+      ],
+      "icd10": [
+        "Z21"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/aids.html",
+          "title": "AIDS"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "huntington-s-disease": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "huntington-s-disease-180": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "hydrocephalus-with-or-without-shunt": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3974",
+      "consumerName": "Hydrocephalus",
+      "primaryName": "Hydrocephalus",
+      "synonyms": [],
+      "icd10": [
+        "G91.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/hydrocephalus.html",
+          "title": "Hydrocephalus"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "hydrocephalus-with-or-without-shunt-330": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3974",
+      "consumerName": "Hydrocephalus",
+      "primaryName": "Hydrocephalus",
+      "synonyms": [],
+      "icd10": [
+        "G91.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/hydrocephalus.html",
+          "title": "Hydrocephalus"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "hyperparathyroidism-07-29-2026": {
+      "mappingStatus": "low-confidence",
+      "nihKeyId": "2148",
+      "consumerName": "Hyperparathyroid",
+      "primaryName": "Hyperparathyroid",
+      "synonyms": [
+        "PTH high",
+        "parathormone high"
+      ],
+      "icd10": [
+        "E21.3"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/parathyroiddisorders.html",
+          "title": "Parathyroid Disorders"
+        }
+      ],
+      "matchConfidence": 0.8421052631578947
+    },
+    "hyperprolactinemia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9804",
+      "consumerName": "Prolactin - high (hyperprolactinemia)",
+      "primaryName": "Hyperprolactinemia",
+      "synonyms": [
+        "prolactin high"
+      ],
+      "icd10": [
+        "E22.1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003718.htm",
+          "title": "Prolactin"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "hyperthyroidism": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2141",
+      "consumerName": "Hyperthyroidism",
+      "primaryName": "Hyperthyroidism",
+      "synonyms": [
+        "Thyrotoxicosis",
+        "thyroxin level high"
+      ],
+      "icd10": [
+        "E05.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000356.htm",
+          "title": "Thyroid Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "hypertrophic-cardiomyopathy-hcm": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4684",
+      "consumerName": "Hypertrophic obstructive cardiomyopathy (HOCM)",
+      "primaryName": "Hypertrophic obstructive cardiomyopathy (HOCM)",
+      "synonyms": [
+        "HOCM",
+        "IHSS?",
+        "hypertrophic obstructive cardiomyopathy"
+      ],
+      "icd10": [
+        "I42.1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000192.htm",
+          "title": "Hypertrophic cardiomyopathy"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "hypoglycemia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4393",
+      "consumerName": "Blood sugar - low",
+      "primaryName": "Hypoglycemia",
+      "synonyms": [
+        "BS low",
+        "blood sugar low",
+        "glucose low",
+        "hypoglycemic"
+      ],
+      "icd10": [
+        "E16.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/hypoglycemia.html",
+          "title": "Hypoglycemia"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "hypoparathyroidism-08-28-2024": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2149",
+      "consumerName": "Hypoparathyroidism",
+      "primaryName": "Hypoparathyroidism",
+      "synonyms": [
+        "PTH low",
+        "parathormone low"
+      ],
+      "icd10": [
+        "E20.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/parathyroiddisorders.html",
+          "title": "Parathyroid Disorders"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "inflammatory-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "labyrinthitis-vestibular-neuritis-viral-labyrinthitis-epidemic-vertigo-acute-ves": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "lattice-degeneration": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "lens-implant": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "liver-transplant": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "lymphatics": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "lymphoma-and-hodgkin-s-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2136",
+      "consumerName": "Lymphoma",
+      "primaryName": "Lymphoma",
+      "synonyms": [],
+      "icd10": [
+        "C85.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/lymphoma.html",
+          "title": "Lymphoma"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "mastoids": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "meniere-s-disease": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "meningitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2911",
+      "consumerName": "Meningitis",
+      "primaryName": "Meningitis",
+      "synonyms": [
+        "inflammed meninges"
+      ],
+      "icd10": [
+        "G03.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/meningitis.html",
+          "title": "Meningitis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "middle-ear-abnormalities": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "mitral-valve-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "5024",
+      "consumerName": "Mitral valve disorder",
+      "primaryName": "Mitral valve disorder",
+      "synonyms": [],
+      "icd10": [
+        "I05.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/heartvalvediseases.html",
+          "title": "Heart Valve Diseases"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "multiple-sclerosis-ms": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2182",
+      "consumerName": "Multiple sclerosis (MS)",
+      "primaryName": "Multiple sclerosis",
+      "synonyms": [
+        "ms"
+      ],
+      "icd10": [
+        "G35.D"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/multiplesclerosis.html",
+          "title": "Multiple Sclerosis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "multiple-sclerosis-ms-neuromyelitis-optica-spectrum": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2182",
+      "consumerName": "Multiple sclerosis (MS)",
+      "primaryName": "Multiple sclerosis",
+      "synonyms": [
+        "ms"
+      ],
+      "icd10": [
+        "G35.D"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/multiplesclerosis.html",
+          "title": "Multiple Sclerosis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "myasthenia-gravis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2906",
+      "consumerName": "Myasthenia gravis",
+      "primaryName": "Myasthenia gravis",
+      "synonyms": [
+        "MG"
+      ],
+      "icd10": [
+        "G70.00"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/myastheniagravis.html",
+          "title": "Myasthenia Gravis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "myasthenia-gravis-generalized-or-ocular": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2906",
+      "consumerName": "Myasthenia gravis",
+      "primaryName": "Myasthenia gravis",
+      "synonyms": [
+        "MG"
+      ],
+      "icd10": [
+        "G70.00"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/myastheniagravis.html",
+          "title": "Myasthenia Gravis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "narcolepsy-and-idiopathic-hypersomnia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8944",
+      "consumerName": "Narcolepsy",
+      "primaryName": "Narcolepsy",
+      "synonyms": [
+        "daytime sleep disorder",
+        "sleeping disease"
+      ],
+      "icd10": [
+        "G47.419"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/sleepdisorders.html",
+          "title": "Sleep Disorders"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "narcolepsy-or-idiopathic-hypersomnia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8944",
+      "consumerName": "Narcolepsy",
+      "primaryName": "Narcolepsy",
+      "synonyms": [
+        "daytime sleep disorder",
+        "sleeping disease"
+      ],
+      "icd10": [
+        "G47.419"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/sleepdisorders.html",
+          "title": "Sleep Disorders"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neoplasms": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "22006",
+      "consumerName": "Neuralgia",
+      "primaryName": "Neuralgia",
+      "synonyms": [
+        "neurodynia"
+      ],
+      "icd10": [
+        "M79.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pain.html",
+          "title": "Pain"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia-248": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "22006",
+      "consumerName": "Neuralgia",
+      "primaryName": "Neuralgia",
+      "synonyms": [
+        "neurodynia"
+      ],
+      "icd10": [
+        "M79.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pain.html",
+          "title": "Pain"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neurofibromatosis-type-1-nf-1-von-recklinghausen": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3775",
+      "consumerName": "Neurofibromatosis",
+      "primaryName": "Neurofibromatosis",
+      "synonyms": [
+        "Recklinghausen's disease",
+        "Von Recklinghausen's disease",
+        "multiple fibroma",
+        "sarcoma molluscum"
+      ],
+      "icd10": [
+        "Q85.00"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/neurofibromatosis.html",
+          "title": "Neurofibromatosis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neurofibromatosis-type-1-nf-1-von-recklinghausen-disease-and-type-2-nf-2-wishart": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "3775",
+      "consumerName": "Neurofibromatosis",
+      "primaryName": "Neurofibromatosis",
+      "synonyms": [
+        "Recklinghausen's disease",
+        "Von Recklinghausen's disease",
+        "multiple fibroma",
+        "sarcoma molluscum"
+      ],
+      "icd10": [
+        "Q85.00"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/neurofibromatosis.html",
+          "title": "Neurofibromatosis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neuropathy-peripheral-neuropathy-276": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2181",
+      "consumerName": "Neuropathy",
+      "primaryName": "Neuropathy",
+      "synonyms": [],
+      "icd10": [
+        "G62.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/neurologicdiseases.html",
+          "title": "Neurologic Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "neuropathy-peripheral-neuropathy": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2181",
+      "consumerName": "Neuropathy",
+      "primaryName": "Neuropathy",
+      "synonyms": [],
+      "icd10": [
+        "G62.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/neurologicdiseases.html",
+          "title": "Neurologic Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "nose": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8515",
+      "consumerName": "Nose stuffy",
+      "primaryName": "Nose stuffy",
+      "synonyms": [
+        "nasal congestion",
+        "sinus congestion",
+        "stuffy nose"
+      ],
+      "icd10": [
+        "R09.81"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003049.htm",
+          "title": "Nasal congestion"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "ocular-histoplasmosis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9940",
+      "consumerName": "Ocular histoplasmosis",
+      "primaryName": "Ocular histoplasmosis",
+      "synonyms": [
+        "histoplasmosis ocular"
+      ],
+      "icd10": [
+        "B39.9",
+        "H32"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 1
+    },
+    "optic-neuritis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2968",
+      "consumerName": "Optic neuritis",
+      "primaryName": "Optic neuritis",
+      "synonyms": [],
+      "icd10": [
+        "H46.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000741.htm",
+          "title": "Optic neuritis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "osteomyelitis-bone-infection": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "375",
+      "consumerName": "Bone infection (osteomyelitis)",
+      "primaryName": "Osteomyelitis",
+      "synonyms": [
+        "infected bone"
+      ],
+      "icd10": [
+        "M86.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/bonediseases.html",
+          "title": "Bone Diseases"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "other-g-u-cancers-neoplastic-disorders": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "other-neurologic-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "outer-ear-abnormalities-cerumen-impaction-otitis-externa-microtia": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "pacemaker": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "pancreatitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2270",
+      "consumerName": "Pancreatitis - acute",
+      "primaryName": "Pancreatitis - acute",
+      "synonyms": [],
+      "icd10": [
+        "K85.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000287.htm",
+          "title": "Acute pancreatitis"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "paraplegia": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "parkinson-s-disease-and-parkinsonism-secondary": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2174",
+      "consumerName": "Parkinsons",
+      "primaryName": "Parkinsons",
+      "synonyms": [
+        "Parkinson's Disease",
+        "paralysis agitans",
+        "resting tremor"
+      ],
+      "icd10": [
+        "G20.A1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/parkinsonsdisease.html",
+          "title": "Parkinson's Disease"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "parkinson-s-disease-or-parkinsonism-secondary": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4128",
+      "consumerName": "Polycythemia - secondary",
+      "primaryName": "Polycythemia - secondary",
+      "synonyms": [
+        "RBC high",
+        "secondary polycythemia"
+      ],
+      "icd10": [
+        "D75.1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000589.htm",
+          "title": "Polycythemia vera"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "pectus-excavatum": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8242",
+      "consumerName": "Pectus excavatum",
+      "primaryName": "Pectus excavatum",
+      "synonyms": [],
+      "icd10": [
+        "Q67.6"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/003320.htm",
+          "title": "Pectus excavatum"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "perilymph-fistula-plf": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "persistent-postural-perceptual-dizziness-pppd-or-3pd": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "pituitary-adenoma-microadenoma-or-macroadenoma": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8319",
+      "consumerName": "Pituitary adenoma",
+      "primaryName": "Pituitary adenoma",
+      "synonyms": [],
+      "icd10": [
+        "D35.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pituitarytumors.html",
+          "title": "Pituitary Tumors"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "pleura-and-pleural-cavity": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2232",
+      "consumerName": "Pleural effusion",
+      "primaryName": "Pleural effusion",
+      "synonyms": [
+        "pl eff"
+      ],
+      "icd10": [
+        "J90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pleuraldisorders.html",
+          "title": "Pleural Disorders"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "polio-poliomyelitis-297": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "7939",
+      "consumerName": "Poliomyelitis",
+      "primaryName": "Poliomyelitis",
+      "synonyms": [
+        "ac polio NOS-type NOS"
+      ],
+      "icd10": [
+        "A80.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/polioandpostpoliosyndrome.html",
+          "title": "Polio and Post-Polio Syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "polio-poliomyelitis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "7939",
+      "consumerName": "Poliomyelitis",
+      "primaryName": "Poliomyelitis",
+      "synonyms": [
+        "ac polio NOS-type NOS"
+      ],
+      "icd10": [
+        "A80.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/polioandpostpoliosyndrome.html",
+          "title": "Polio and Post-Polio Syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "polycystic-kidney-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "25511",
+      "consumerName": "Autosomal dominant polycystic kidney disease (ADPKD)",
+      "primaryName": "Autosomal dominant polycystic kidney disease",
+      "synonyms": [
+        "ADPKD"
+      ],
+      "icd10": [
+        "Q61.3"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000502.htm",
+          "title": "Polycystic kidney disease"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "post-traumatic-stress-disorder-ptsd": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "X214",
+      "consumerName": "Post-traumatic stress disorder (PTSD)",
+      "primaryName": "Post-traumatic stress disorder (PTSD)",
+      "synonyms": [],
+      "icd10": [
+        "F43.10"
+      ],
+      "infoLinks": [],
+      "matchConfidence": 1
+    },
+    "postural-tachycardia-syndrome-pots": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "premature-atrial-contraction-pac": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9967",
+      "consumerName": "Glaucoma - primary angle closure",
+      "primaryName": "Glaucoma - primary angle closure",
+      "synonyms": [
+        "PACG",
+        "acute angle closure glaucoma"
+      ],
+      "icd10": [
+        "H40.20X0"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/glaucoma.html",
+          "title": "Glaucoma"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "pseudotumor-cerebri": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4504",
+      "consumerName": "Pseudotumor cerebri",
+      "primaryName": "Pseudotumor cerebri",
+      "synonyms": [
+        "benign intracranial hypertension"
+      ],
+      "icd10": [
+        "G93.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000351.htm",
+          "title": "Pseudotumor cerebri"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "pseudotumor-cerebri-idiopathic-intracranial": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "4504",
+      "consumerName": "Pseudotumor cerebri",
+      "primaryName": "Pseudotumor cerebri",
+      "synonyms": [
+        "benign intracranial hypertension"
+      ],
+      "icd10": [
+        "G93.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000351.htm",
+          "title": "Pseudotumor cerebri"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "psychiatric-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "pulmonary-fibrosis": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "1967",
+      "consumerName": "Pulmonary fibrosis - interstitial",
+      "primaryName": "Pulmonary fibrosis - interstitial",
+      "synonyms": [
+        "fibrosis intrstitial",
+        "pulmonar fibrosi",
+        "pulmonary fibrosis"
+      ],
+      "icd10": [
+        "J84.10"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/pulmonaryfibrosis.html",
+          "title": "Pulmonary Fibrosis"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "pupils": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "raynaud-s-syndrome": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0.475
+    },
+    "restless-leg-syndrome-rls": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9802",
+      "consumerName": "Restless leg syndrome",
+      "primaryName": "Akathisia",
+      "synonyms": [
+        "acathisia",
+        "akithisia",
+        "cathisophobia"
+      ],
+      "icd10": [
+        "G25.89"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/000807.htm",
+          "title": "Restless leg syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "retinal-dystrophies-cone-rod-retinitis-pigmentosa": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "retinoschisis": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "1969",
+      "consumerName": "Sarcoidosis",
+      "primaryName": "Sarcoidosis",
+      "synonyms": [],
+      "icd10": [
+        "D86.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/sarcoidosis.html",
+          "title": "Sarcoidosis"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "seizure": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2175",
+      "consumerName": "Seizure disorder",
+      "primaryName": "Seizure disorder",
+      "synonyms": [
+        "convulsion",
+        "fits",
+        "seiz szs",
+        "seizures"
+      ],
+      "icd10": [
+        "R56.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/seizures.html",
+          "title": "Epilepsy"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "sinus-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "skin-cancer": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2130",
+      "consumerName": "Skin cancer",
+      "primaryName": "Skin cancer",
+      "synonyms": [
+        "Skin CA",
+        "malig neo skin NOS",
+        "skin cancer"
+      ],
+      "icd10": [
+        "C44.90"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/skincancer.html",
+          "title": "Skin Cancer"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "sleep-apnea": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "8600",
+      "consumerName": "Sleep apnea",
+      "primaryName": "Sleep apnea",
+      "synonyms": [],
+      "icd10": [
+        "G47.30"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/sleepapnea.html",
+          "title": "Sleep Apnea"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "9660",
+      "consumerName": "Stuttering",
+      "primaryName": "Stuttering",
+      "synonyms": [
+        "lingual titubation",
+        "psellism",
+        "stammering"
+      ],
+      "icd10": [
+        "F80.81"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/stuttering.html",
+          "title": "Stuttering"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "spine-other-musculoskeletal": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "X41",
+      "consumerName": "Spine disorder",
+      "primaryName": "Spine disorder",
+      "synonyms": [],
+      "icd10": [
+        "M53.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/spinaldiseases.html",
+          "title": "Spinal Diseases"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "stroke-or-cva-cerebrovascular-accident-or-tia": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2177",
+      "consumerName": "Stroke",
+      "primaryName": "Stroke",
+      "synonyms": [
+        "CVA",
+        "brain attack",
+        "cerebrovascular accident"
+      ],
+      "icd10": [
+        "I63.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/stroke.html",
+          "title": "Stroke"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "superior-semicircular-canal-dehiscence-syndrome-sscds": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "tourette-syndrome-or-tic-disorder": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "14097",
+      "consumerName": "Tourette syndrome",
+      "primaryName": "Tourette syndrome",
+      "synonyms": [
+        "Gilles de la Tourette",
+        "Tourette's syndrome"
+      ],
+      "icd10": [
+        "F95.2"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/tourettesyndrome.html",
+          "title": "Tourette Syndrome"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "transient-global-amnesia-tga": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "X203",
+      "consumerName": "Transposition of the great arteries (TGA)",
+      "primaryName": "Transposition of the great arteries (TGA)",
+      "synonyms": [],
+      "icd10": [
+        "Q20.3"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/ency/article/001568.htm",
+          "title": "Transposition of the great vessels"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "tremor-benign-essential-tremor-physiologic-tremor": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2963",
+      "consumerName": "Tremor",
+      "primaryName": "Tremor",
+      "synonyms": [
+        "shaking"
+      ],
+      "icd10": [
+        "R25.1"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/tremor.html",
+          "title": "Tremor"
+        }
+      ],
+      "matchConfidence": 1
+    },
+    "uloc-unexplained-loss-of-consciousness-or": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "unexplained-loss-of-consciousness-uloc-unexplained-disturbance-of-consciousness-": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "upper-and-lower-extremities": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2231",
+      "consumerName": "Upper respiratory infection (URI)",
+      "primaryName": "Upper respiratory infection",
+      "synonyms": [
+        "URI",
+        "URT infection",
+        "acute URI NOS"
+      ],
+      "icd10": [
+        "J06.9"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/lungdiseases.html",
+          "title": "Lung Diseases"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "urinary-systems": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "urticarial-eruptions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "valvular-disease": {
+      "mappingStatus": "mapped",
+      "nihKeyId": "2865",
+      "consumerName": "Valvular heart disease",
+      "primaryName": "Valvular heart disease",
+      "synonyms": [],
+      "icd10": [
+        "I38"
+      ],
+      "infoLinks": [
+        {
+          "url": "http://www.nlm.nih.gov/medlineplus/heartvalvediseases.html",
+          "title": "Heart Valve Diseases"
+        }
+      ],
+      "matchConfidence": 0.95
+    },
+    "vascular-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    },
+    "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions": {
+      "mappingStatus": "unmapped",
+      "synonyms": [],
+      "icd10": [],
+      "infoLinks": [],
+      "matchConfidence": 0
+    }
+  }
+}

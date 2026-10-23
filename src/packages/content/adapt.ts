@@ -14,6 +14,7 @@ import type {
   FormLinksValue
 } from './types';
 import { resolveCategory } from './categories';
+import { searchCatalog } from './search';
 import linksForm from '@guidance/form_links.json'
 
 const DISPOSITION_MAP: Record<string, Disposition> = {
@@ -658,23 +659,13 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
 export function searchAdaptedConditions(
   conditions: Condition[],
   query: string,
+  expandedTerms: string[] = [],
 ): Condition[] {
-  const q = query.trim().toLowerCase();
+  const q = query.trim();
   if (!q) return conditions;
-  return conditions.filter((condition) => {
-    const haystack = [
-      condition.name,
-      condition.category,
-      condition.summary,
-      condition.certificationNote,
-      ...condition.subConditions.map((s) => s.name),
-      ...condition.subConditions.map((s) => s.summary),
-      ...condition.subConditions.flatMap((s) => s.documents.map((d) => d.label)),
-    ]
-      .join(' ')
-      .toLowerCase();
-    return haystack.includes(q);
-  });
+  return searchCatalog(q, { conditions, expandedTerms })
+    .filter((hit) => hit.type === 'condition' && hit.condition)
+    .map((hit) => hit.condition!);
 }
 
 // accounts for case sensitivity between condition.name in ConditionDetail.tsx and key in form_links.json (solves issue with COPD condition)

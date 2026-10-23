@@ -35,6 +35,20 @@ export interface SubCondition {
   warnings?: string[];
 }
 
+/** NIH identity attached from the committed FAA↔NIH sidecar (never overrides FAA disposition). */
+export type NihMappingStatus = 'mapped' | 'unmapped' | 'low-confidence';
+
+export interface NihConditionIdentity {
+  mappingStatus: NihMappingStatus;
+  nihKeyId?: string;
+  consumerName?: string;
+  primaryName?: string;
+  synonyms: string[];
+  icd10: string[];
+  infoLinks: { url: string; title: string }[];
+  matchConfidence: number;
+}
+
 export interface Condition {
   id: string;
   name: string;
@@ -47,6 +61,8 @@ export interface Condition {
   source: string;
   sourceSection: string;
   medicationNotes?: string[];
+  /** Populated from `nih_condition_map.json` when present. */
+  nih?: NihConditionIdentity;
 }
 
 export interface Medication {
