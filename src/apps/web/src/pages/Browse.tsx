@@ -12,7 +12,7 @@ export default function Browse({ onNavigate }: Props) {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [browseQuery, setBrowseQuery] = useState('');
 
-  const allCategories = ['All', ...categories];
+  const allCategories = ['All', "Most Frequent", ...categories];
 
   const filtered = conditions.filter((c) => {
     const matchesCategory = selectedCategory === 'All' || c.category === selectedCategory;
