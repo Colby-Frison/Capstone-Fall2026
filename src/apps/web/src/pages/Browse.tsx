@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { conditions, categories } from '../data/conditions';
+import { conditions, categories, isFreqCondition, frequentConditionCount } from '../data/conditions';
 import DispositionBadge from '../components/DispositionBadge';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
@@ -20,7 +20,8 @@ export default function Browse({ onNavigate }: Props) {
       !browseQuery ||
       c.name.toLowerCase().includes(browseQuery.toLowerCase()) ||
       c.category.toLowerCase().includes(browseQuery.toLowerCase());
-    return matchesCategory && matchesQuery;
+    const freqConditionCheck = isFreqCondition(c.name)
+    return selectedCategory === 'Most Frequent' ? (freqConditionCheck && matchesQuery) : (matchesCategory && matchesQuery) // callback function depends on selectedCategory
   });
 
   return (
@@ -85,7 +86,10 @@ export default function Browse({ onNavigate }: Props) {
             </div>
             <div className="category-list scrollbar-hide">
               {allCategories.map((cat) => {
-                const count = cat === 'All' ? conditions.length : conditions.filter((c) => c.category === cat).length;
+                let count = cat === 'All' ? conditions.length : conditions.filter((c) => c.category === cat).length;
+                if (cat === 'Most Frequent') {
+                  count = frequentConditionCount();
+                }
                 const isActive = selectedCategory === cat;
                 return (
                   <button
