@@ -10,8 +10,9 @@ import {
   type Condition,
   type NihConditionMapFile,
   type NormalizedGuidanceFile,
-} from '@content/index';
-import nihConditionMap from '@guidance/nih_condition_map.json';
+} from "@content/index";
+import nihConditionMap from "@guidance/nih_condition_map.json";
+import freqCondArray from "@guidance/freq_conditions.json";
 
 export type { Condition } from '@content/types';
 
@@ -48,4 +49,20 @@ export function searchConditions(
   const q = query.trim();
   if (!q) return [];
   return searchAdaptedConditions(conditions, q, expandedTerms);
+}
+
+// check if some element in freq_conditions.json array appears as substring in condition's name
+// i.e. 'adhd' <=> 'Attention-deficit/hyperactivity Disorder (adhd)* And/or Use of Adhd Medications'
+export function isFreqCondition(conditionName: string): true | false {
+  let lowerConditionName = conditionName.toLowerCase();
+  return freqCondArray.some((freqCond) => {
+    return lowerConditionName.includes(freqCond);
+  });
+}
+// function used to display frequent condition count in Browse.tsx
+export function frequentConditionCount(): number {
+  let frequentConditions = conditions.filter((condition) => {
+    return isFreqCondition(condition.name);
+  });
+  return frequentConditions.length;
 }
