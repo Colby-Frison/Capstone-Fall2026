@@ -83,6 +83,7 @@ def test_content() -> None:
             "vitest",
             "run",
             "src/content.adapter.test.ts",
+            "src/freq.conditions.test.ts",
             "src/nih.match.test.ts",
             "src/nih.map.test.ts",
             "src/search.score.test.ts",
