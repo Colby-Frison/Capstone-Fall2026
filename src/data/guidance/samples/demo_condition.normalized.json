@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "parser_version": "0.1.0",
+  "source_document": "sample_demo.pdf",
+  "pages_processed": 1,
+  "warnings": [
+    "synthetic_sample_not_faa_source"
+  ],
+  "summary": {
+    "records_extracted": 2
+  },
+  "records": [
+    {
+      "record_id": "sample-demo-condition-stable-all-p1",
+      "condition": "Sample Demo Condition",
+      "category": "Other",
+      "subcondition": "Stable and well controlled",
+      "scenario": "Stable and well controlled",
+      "certificate_classes": ["All"],
+      "disposition": "ISSUE",
+      "raw_disposition": "ISSUE",
+      "time_constraints": [],
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "required": true,
+          "role": "bring_list",
+          "text": "Bring a recent clinical progress note summarizing current status."
+        }
+      ],
+      "medication_notes": [],
+      "action": "Document rationale in Item 60.",
+      "raw_text": "Sample Demo Condition — Stable and well controlled — ISSUE. Synthetic sample for CI and public clones.",
+      "source": {
+        "document": "sample_demo.pdf",
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Other"
+      },
+      "warnings": []
+    },
+    {
+      "record_id": "sample-demo-condition-recent-change-all-p1",
+      "condition": "Sample Demo Condition",
+      "category": "Other",
+      "subcondition": "Recent change or uncertain status",
+      "scenario": "Recent change or uncertain status",
+      "certificate_classes": ["All"],
+      "disposition": "DEFER",
+      "raw_disposition": "DEFER",
+      "time_constraints": [],
+      "requirements": [
+        {
+          "kind": "DOCUMENT",
+          "required": true,
+          "role": "bring_list",
+          "text": "Submit recent testing and treatment records for FAA review."
+        }
+      ],
+      "medication_notes": [],
+      "action": "Defer and upload supporting documentation.",
+      "raw_text": "Sample Demo Condition — Recent change or uncertain status — DEFER. Synthetic sample for CI and public clones.",
+      "source": {
+        "document": "sample_demo.pdf",
+        "pdf_page": 1,
+        "printed_page": "1",
+        "section": "Other"
+      },
+      "warnings": []
+    }
+  ]
+}
