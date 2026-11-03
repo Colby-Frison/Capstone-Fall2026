@@ -5,9 +5,10 @@
  *
  * Env:
  *   GUIDANCE_REPO   owner/name (default: Colby-Frison/Capstone-Fall2026-guidance)
- *   GUIDANCE_TOKEN  GitHub PAT with read access to that private repo (required)
- *   GUIDANCE_REF    branch/tag/sha (default: main)
- *   VERCEL          when "1", missing token/fetch failure exits non-zero
+ *   GUIDANCE_TOKEN     GitHub PAT with read access to that private repo
+ *   GUIDANCE_REF       branch/tag/sha (default: main)
+ *   GUIDANCE_REQUIRED  when "1"/"true", missing token or fetch failure exits non-zero
+ *                      (default: soft-fail and let Vite use samples/)
  *
  * Flags:
  *   --with-pdfs     also download manifest.pdfs into Documentation/Resources/
@@ -26,7 +27,7 @@ const RESOURCES_DIR = path.join(ROOT, 'Documentation', 'Resources');
 const repo = process.env.GUIDANCE_REPO || 'Colby-Frison/Capstone-Fall2026-guidance';
 const token = process.env.GUIDANCE_TOKEN || process.env.GITHUB_TOKEN || '';
 const ref = process.env.GUIDANCE_REF || 'main';
-const onVercel = process.env.VERCEL === '1';
+const required = /^(1|true|yes)$/i.test(String(process.env.GUIDANCE_REQUIRED || ''));
 const withPdfs = process.argv.includes('--with-pdfs');
 const help = process.argv.includes('--help') || process.argv.includes('-h');
 
@@ -35,10 +36,18 @@ function fail(message, code = 1) {
   process.exit(code);
 }
 
+function softFail(message) {
+  console.warn(`fetch-guidance: ${message}`);
+  console.warn(
+    'fetch-guidance: skipping download; Vite will use src/data/guidance/samples/. Set GUIDANCE_TOKEN to load private guidance, or GUIDANCE_REQUIRED=1 to fail the build without it.',
+  );
+  process.exit(0);
+}
+
 if (help) {
   console.log(`Usage: node scripts/fetch-guidance.mjs [--with-pdfs]
 
-Requires GUIDANCE_TOKEN (read access to ${repo}).
+Uses GUIDANCE_TOKEN (read access to ${repo}) when set.
 Writes guidance JSON under src/data/guidance/content/.
 `);
   process.exit(0);
@@ -47,10 +56,8 @@ Writes guidance JSON under src/data/guidance/content/.
 if (!token) {
   const msg =
     'GUIDANCE_TOKEN is not set. Export a GitHub PAT with read access to the private guidance repo.';
-  if (onVercel) fail(msg);
-  console.warn(`fetch-guidance: ${msg}`);
-  console.warn('fetch-guidance: skipping download; Vite will use src/data/guidance/samples/.');
-  process.exit(0);
+  if (required) fail(msg);
+  softFail(msg);
 }
 
 async function githubJson(urlPath) {
@@ -178,5 +185,7 @@ async function main() {
 }
 
 main().catch((err) => {
-  fail(err?.stack || String(err));
+  const message = err?.stack || String(err);
+  if (required) fail(message);
+  softFail(message);
 });

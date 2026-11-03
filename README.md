@@ -170,7 +170,7 @@ Normalized JSON for the website is written to gitignored [`src/data/guidance/con
 
 ### Vercel
 
-Set project env vars `GUIDANCE_REPO` and `GUIDANCE_TOKEN`. The web app `vercel.json` runs `npm run fetch:guidance` before `vite build`. Without the token, production would only ship synthetic samples.
+Set project env vars `GUIDANCE_REPO` and `GUIDANCE_TOKEN` (preview and/or production). The web app runs `npm run fetch:guidance` in `prebuild`. Without the token, the build **succeeds** using synthetic samples under `src/data/guidance/samples/`. Set `GUIDANCE_REQUIRED=1` if a deploy must fail when private guidance cannot be fetched.
 
 ### Web app (direct)
 
