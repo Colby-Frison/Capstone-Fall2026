@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "fetch:guidance": "node ../../../scripts/fetch-guidance.mjs",
+    "predev": "npm run fetch:guidance",
     "dev": "vite",
+    "prebuild": "npm run fetch:guidance",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",

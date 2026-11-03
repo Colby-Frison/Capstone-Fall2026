@@ -11,10 +11,21 @@ from ame_parser.parser import AmeParser
 
 ROOT = Path(__file__).parents[1]
 RESOURCES = ROOT / "Documentation" / "Resources"
+AME_PDF = RESOURCES / "ame_guide.pdf"
+ONEGUIDE_PDF = RESOURCES / "OneGuide_Neurology.pdf"
 GOLDENS = json.loads(
     (Path(__file__).parent / "fixtures" / "golden_records.json").read_text(
         encoding="utf-8"
     )
+)
+
+requires_ame_pdf = pytest.mark.skipif(
+    not AME_PDF.is_file(),
+    reason="Private ame_guide.pdf missing; run: node scripts/fetch-guidance.mjs --with-pdfs",
+)
+requires_oneguide_pdf = pytest.mark.skipif(
+    not ONEGUIDE_PDF.is_file(),
+    reason="Private OneGuide_Neurology.pdf missing; run: node scripts/fetch-guidance.mjs --with-pdfs",
 )
 
 
@@ -43,20 +54,20 @@ def assert_goldens(result, expected: list[dict[str, object]]) -> None:
 
 
 @pytest.mark.integration
+@requires_ame_pdf
 def test_ame_guide_pages_match_human_reviewed_goldens() -> None:
-    result = AmeParser().parse(
-        RESOURCES / "ame_guide.pdf", page_range=(64, 72)
-    )
+    result = AmeParser().parse(AME_PDF, page_range=(64, 72))
     assert_goldens(result, GOLDENS["ame_guide"])
     assert result.summary["unknown_dispositions"] == 0
 
 
 @pytest.mark.integration
+@requires_ame_pdf
 def test_ame_guide_expanded_archetypes_match_goldens() -> None:
     """Eye disposition tables + cardiac CLASS page beyond the ENT slice."""
 
-    eye = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(95, 100))
-    cardiac = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(198, 198))
+    eye = AmeParser().parse(AME_PDF, page_range=(95, 100))
+    cardiac = AmeParser().parse(AME_PDF, page_range=(198, 198))
     combined_records = (*eye.records, *cardiac.records)
 
     class Combined:
@@ -66,18 +77,18 @@ def test_ame_guide_expanded_archetypes_match_goldens() -> None:
 
 
 @pytest.mark.integration
+@requires_ame_pdf
 def test_ame_guide_skips_checklist_and_caci_pages() -> None:
-    checklist = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(88, 88))
-    caci = AmeParser().parse(RESOURCES / "ame_guide.pdf", page_range=(173, 173))
+    checklist = AmeParser().parse(AME_PDF, page_range=(88, 88))
+    caci = AmeParser().parse(AME_PDF, page_range=(173, 173))
     assert checklist.records == ()
     assert caci.records == ()
 
 
 @pytest.mark.integration
+@requires_oneguide_pdf
 def test_oneguide_pages_match_human_reviewed_goldens() -> None:
-    result = AmeParser().parse(
-        RESOURCES / "OneGuide_Neurology.pdf", page_range=(5, 14)
-    )
+    result = AmeParser().parse(ONEGUIDE_PDF, page_range=(5, 14))
     assert_goldens(result, GOLDENS["oneguide"])
     assert all("INCAPACITATE" not in record.raw_text for record in result.records)
 
@@ -101,9 +112,10 @@ def _write_subset(source: Path, destination: Path, first: int, last: int) -> Non
 
 
 @pytest.mark.characterization
+@requires_ame_pdf
 def test_legacy_parser_drops_fourth_disposition_column(tmp_path: Path) -> None:
     subset = tmp_path / "ame-pages-64-72.pdf"
-    _write_subset(RESOURCES / "ame_guide.pdf", subset, 64, 72)
+    _write_subset(AME_PDF, subset, 64, 72)
 
     records = _load_legacy_parser().parse_pdf(subset)
     active_fistula = next(
@@ -117,7 +129,8 @@ def test_legacy_parser_drops_fourth_disposition_column(tmp_path: Path) -> None:
 
 
 @pytest.mark.characterization
+@requires_oneguide_pdf
 def test_legacy_parser_skips_oneguide_workflow_tables(tmp_path: Path) -> None:
     subset = tmp_path / "oneguide-pages-5-14.pdf"
-    _write_subset(RESOURCES / "OneGuide_Neurology.pdf", subset, 5, 14)
+    _write_subset(ONEGUIDE_PDF, subset, 5, 14)
     assert _load_legacy_parser().parse_pdf(subset) == []
