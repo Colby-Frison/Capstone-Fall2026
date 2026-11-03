@@ -14,7 +14,9 @@ WEB_DIR = ROOT / "src" / "apps" / "web"
 API_DIR = ROOT / "src" / "apps" / "api"
 API_SERVER = API_DIR / "src" / "server.mjs"
 GUIDANCE_DIR = ROOT / "src" / "data" / "guidance"
+GUIDANCE_CONTENT_DIR = GUIDANCE_DIR / "content"
 RESOURCES = ROOT / "Documentation" / "Resources"
+FETCH_GUIDANCE = ROOT / "scripts" / "fetch-guidance.mjs"
 
 
 class SectionError(RuntimeError):
@@ -150,14 +152,34 @@ def start_nih_api() -> subprocess.Popen | None:
     )
 
 
+def cmd_fetch_guidance(args: argparse.Namespace) -> int:
+    """Pull private guidance JSON (and optionally PDFs) into gitignored paths."""
+    node = shutil.which("node")
+    if not node:
+        raise SectionError("Node.js required for fetch-guidance")
+    if not FETCH_GUIDANCE.is_file():
+        raise SectionError(f"Missing {FETCH_GUIDANCE}")
+    banner("Fetching private guidance data")
+    cmd = [node, str(FETCH_GUIDANCE)]
+    if args.with_pdfs:
+        cmd.append("--with-pdfs")
+    run(cmd, cwd=ROOT)
+    return 0
+
+
 def cmd_dev(args: argparse.Namespace) -> int:
     if args.parser:
         print(
-            "Tip: re-parse PDFs into src/data/guidance with:\n"
+            "Tip: re-parse PDFs into src/data/guidance/content with:\n"
             f"  {sys.executable} {Path(__file__).name} parse "
             "--input Documentation/Resources/ame_guide.pdf\n",
             flush=True,
         )
+    if not args.skip_fetch:
+        try:
+            cmd_fetch_guidance(argparse.Namespace(with_pdfs=False))
+        except SectionError as exc:
+            print(f"fetch-guidance skipped: {exc}", flush=True)
     pm = ensure_web_deps()
     api_proc = None if args.no_api else start_nih_api()
     banner("Starting web development server")
@@ -177,6 +199,11 @@ def cmd_dev(args: argparse.Namespace) -> int:
 
 def cmd_build(args: argparse.Namespace) -> int:
     """Production build of the Vite web app (same as Vercel / test --section web)."""
+    if not args.skip_fetch:
+        try:
+            cmd_fetch_guidance(argparse.Namespace(with_pdfs=False))
+        except SectionError as exc:
+            print(f"fetch-guidance skipped: {exc}", flush=True)
     pm = ensure_web_deps()
     banner("Building web app for production")
     run(pm + ["run", "build"], cwd=WEB_DIR)
@@ -187,7 +214,7 @@ def cmd_build(args: argparse.Namespace) -> int:
 
 def cmd_parse(args: argparse.Namespace) -> int:
     banner("Parsing PDF into guidance data")
-    GUIDANCE_DIR.mkdir(parents=True, exist_ok=True)
+    GUIDANCE_CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     input_path = Path(args.input)
     if not input_path.is_file():
         # Allow short names relative to Resources
@@ -196,12 +223,17 @@ def cmd_parse(args: argparse.Namespace) -> int:
             input_path = candidate
         else:
             print(f"Input PDF not found: {args.input}", file=sys.stderr)
+            print(
+                "Hint: fetch private PDFs with: "
+                "python src/scripts/capstone.py fetch-guidance --with-pdfs",
+                file=sys.stderr,
+            )
             return 2
 
     output = (
         Path(args.output)
         if args.output
-        else GUIDANCE_DIR / f"{input_path.stem}.normalized.json"
+        else GUIDANCE_CONTENT_DIR / f"{input_path.stem}.normalized.json"
     )
     cmd = [
         sys.executable,
@@ -251,15 +283,39 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Do not start the NIH Clinical Tables BFF (port 8787)",
     )
+    dev.add_argument(
+        "--skip-fetch",
+        action="store_true",
+        help="Do not run fetch-guidance before starting (use samples or existing content/)",
+    )
     dev.set_defaults(func=cmd_dev)
 
     build = sub.add_parser(
         "build",
         help="Production-build the web app under src/apps/web (Vite → dist/)",
     )
+    build.add_argument(
+        "--skip-fetch",
+        action="store_true",
+        help="Do not run fetch-guidance before building",
+    )
     build.set_defaults(func=cmd_build)
 
-    parse = sub.add_parser("parse", help="Parse a PDF into src/data/guidance")
+    fetch = sub.add_parser(
+        "fetch-guidance",
+        help="Download private guidance JSON into src/data/guidance/content",
+    )
+    fetch.add_argument(
+        "--with-pdfs",
+        action="store_true",
+        help="Also download private PDFs into Documentation/Resources",
+    )
+    fetch.set_defaults(func=cmd_fetch_guidance)
+
+    parse = sub.add_parser(
+        "parse",
+        help="Parse a PDF into src/data/guidance/content (gitignored)",
+    )
     parse.add_argument(
         "--input",
         default=str(RESOURCES / "ame_guide.pdf"),

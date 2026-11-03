@@ -1,7 +1,9 @@
 /**
- * Condition catalog backed by every normalized guidance JSON under
- * src/data/guidance. Files are merged and de-duplicated before adaptation.
- * NIH identities come from the committed sidecar (no live NIH at build time).
+ * Condition catalog backed by private guidance JSON under
+ * src/data/guidance/content (fetched at build/dev). Falls back to synthetic
+ * samples when content is empty. Files are merged and de-duplicated before
+ * adaptation. NIH identities come from the committed sidecar (no live NIH at
+ * build time).
  */
 import {
   adaptGuidanceFiles,
@@ -16,14 +18,30 @@ import freqCondArray from "@guidance/freq_conditions.json";
 
 export type { Condition } from '@content/types';
 
-const guidanceModules = import.meta.glob('@guidance/*.normalized.json', {
+const contentModules = import.meta.glob('@guidance/content/**/*.json', {
   eager: true,
   import: 'default',
 }) as Record<string, NormalizedGuidanceFile>;
 
-const guidanceFiles = Object.keys(guidanceModules)
-  .sort()
-  .map((path) => guidanceModules[path]);
+const sampleModules = import.meta.glob('@guidance/samples/**/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, NormalizedGuidanceFile>;
+
+function loadGuidanceFiles(): NormalizedGuidanceFile[] {
+  const contentKeys = Object.keys(contentModules).sort();
+  if (contentKeys.length > 0) {
+    return contentKeys.map((path) => contentModules[path]);
+  }
+  console.warn(
+    '[guidance] src/data/guidance/content is empty; using synthetic samples. Run: node scripts/fetch-guidance.mjs',
+  );
+  return Object.keys(sampleModules)
+    .sort()
+    .map((path) => sampleModules[path]);
+}
+
+const guidanceFiles = loadGuidanceFiles();
 
 export const conditions: Condition[] = applyNihConditionMap(
   adaptGuidanceFiles(guidanceFiles),

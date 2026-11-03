@@ -2,7 +2,9 @@
 
 The production parser is in `src/packages/ame_parser/`. The prior-semester
 implementation remains unchanged in `src/legacy/old/` for characterization tests.
-App-facing normalized JSON is written to `src/data/guidance/` for the Vite UI.
+App-facing normalized JSON is written to gitignored `src/data/guidance/content/`
+for the Vite UI (or fetched from the private companion repo via
+`scripts/fetch-guidance.mjs`).
 
 ## Purpose and safety boundary
 
@@ -19,16 +21,17 @@ transformation remains visible.
 
 ```powershell
 python -m pip install -e ".[dev]"
+python src/scripts/capstone.py fetch-guidance --with-pdfs
 python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-100
 python -m ame_parser Documentation/Resources/ame_guide.pdf --pages 64-100 `
-  --output src/data/guidance/ame_guide.normalized.json --diagnostic
+  --output src/data/guidance/content/ame_guide.normalized.json --diagnostic
 ```
 
 For OneGuide:
 
 ```powershell
 python -m ame_parser Documentation/Resources/OneGuide_Neurology.pdf --pages 5-14 `
-  --output src/data/guidance/OneGuide_Neurology.normalized.json --diagnostic
+  --output src/data/guidance/content/OneGuide_Neurology.normalized.json --diagnostic
 ```
 
 Use `--strict` in validation jobs where any parser warning must fail the run.
@@ -103,11 +106,12 @@ comparable.
 
 ## UI consumption
 
-The Vite app loads **every** `*.json` file under `src/data/guidance/` at
-startup (via `import.meta.glob`), merges them through `src/packages/content`,
-and de-duplicates pathways before grouping into conditions. Records that share
-the same condition + pathway + disposition (or the same `record_id`) collapse
-to the richer copy.
+The Vite app loads **every** `*.json` file under `src/data/guidance/content/`
+at startup (via `import.meta.glob`), merges them through `src/packages/content`,
+and de-duplicates pathways before grouping into conditions. If `content/` is
+empty, it falls back to synthetic files under `src/data/guidance/samples/`.
+Records that share the same condition + pathway + disposition (or the same
+`record_id`) collapse to the richer copy.
 
 Repeating source phrases are treated as classifiers, not checklist content:
 
@@ -129,8 +133,10 @@ markers removed so the UI shows plain checklist language. The adapter then:
 Edit `category_dictionary.json` to change browse buckets without re-tuning the
 PDF heading heuristics. Exact `condition_map` entries win over patterns.
 
-Drop a new `*.normalized.json` into `src/data/guidance/` and restart the
-dev server — no code change is required to pick it up.
+Drop a new `*.json` (same `NormalizedGuidanceFile` shape) into
+`src/data/guidance/content/` — including future `conditions/<slug>.json` —
+and restart the dev server; no code change is required to pick it up. Update
+the private companion `manifest.json` when publishing new files for fetch.
 
 Medication catalog entries remain curated until a dedicated medication parse
 exists.

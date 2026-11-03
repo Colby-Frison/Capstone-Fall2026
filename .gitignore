@@ -11,3 +11,12 @@ dist/
 /.vscode/
 /.cursor/
 /.claude/
+
+# Private FAA guidance (fetched from Capstone-Fall2026-guidance)
+/src/data/guidance/content/**
+!/src/data/guidance/content/.gitkeep
+!/src/data/guidance/content/README.md
+/Documentation/Resources/ame_guide.pdf
+/Documentation/Resources/OneGuide_Neurology.pdf
+/Documentation/Resources/ame_guide.normalized.json
+/src/data/guidance/*.normalized.json

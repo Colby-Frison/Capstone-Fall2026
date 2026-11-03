@@ -118,13 +118,16 @@ Capstone-Fall2026/
     │   ├── ame_parser/            # PDF extraction package
     │   └── content/               # normalized JSON → UI models
     ├── data/
-    │   └── guidance/              # all *.normalized.json loaded by the app
+    │   └── guidance/              # curated maps + samples; private JSON in content/
     ├── legacy/
     │   ├── old/                   # prior-semester parser baseline
     │   └── web-next/              # archived Next.js boilerplate
     └── scripts/
-        └── capstone.py            # sectional tests + dev server
+        ├── capstone.py            # sectional tests + dev server
+        └── fetch-guidance.mjs     # pull private JSON/PDFs before build
 ```
+
+Private FAA PDFs and full normalized guidance JSON live in the private companion repo [`Capstone-Fall2026-guidance`](https://github.com/Colby-Frison/Capstone-Fall2026-guidance) (see issues #48–#51). They are fetched into gitignored `src/data/guidance/content/` at build/dev time.
 
 ---
 
@@ -133,6 +136,15 @@ Capstone-Fall2026/
 ### Capstone CLI (recommended)
 
 Requires Python 3.10+ and Node.js 18+ (pnpm or npm).
+
+For the **full** condition catalog (not just synthetic samples), set a GitHub PAT with read access to the private guidance repo:
+
+```powershell
+$env:GUIDANCE_REPO = "Colby-Frison/Capstone-Fall2026-guidance"
+$env:GUIDANCE_TOKEN = "<github-pat>"
+python src/scripts/capstone.py fetch-guidance          # JSON → content/
+python src/scripts/capstone.py fetch-guidance --with-pdfs  # also PDFs
+```
 
 ```powershell
 python -m pip install -e ".[dev]"
@@ -143,23 +155,29 @@ python src/scripts/capstone.py test
 python src/scripts/capstone.py dev
 ```
 
-`dev` starts the Vite app (default http://127.0.0.1:5173) and the NIH autocomplete BFF on http://127.0.0.1:8787 (Vite proxies `/api`). Use `--no-api` to skip the BFF. See [NIH Integration](Documentation/NIH_Integration.md).
+`dev` / `build` run `fetch-guidance` when `GUIDANCE_TOKEN` is set (otherwise the UI uses [`src/data/guidance/samples/`](src/data/guidance/samples/)). `dev` starts the Vite app (default http://127.0.0.1:5173) and the NIH autocomplete BFF on http://127.0.0.1:8787 (Vite proxies `/api`). Use `--no-api` to skip the BFF. See [NIH Integration](Documentation/NIH_Integration.md).
 
 ### Content pipeline
 
 ```powershell
 python -m pip install -e ".[dev]"
+python src/scripts/capstone.py fetch-guidance --with-pdfs
 python src/scripts/capstone.py parse --input ame_guide.pdf --pages 64-72
 python -m pytest
 ```
 
-Normalized JSON for the website lives in [`src/data/guidance/`](src/data/guidance/). PDF source artifacts remain under [`Documentation/Resources/`](Documentation/Resources/). See [AME Parser documentation](Documentation/AME_Parser.md).
+Normalized JSON for the website is written to gitignored [`src/data/guidance/content/`](src/data/guidance/content/) (or fetched from the private companion). Curated public sidecars (`category_dictionary.json`, `form_links.json`, `freq_conditions.json`, `nih_condition_map.json`) stay in [`src/data/guidance/`](src/data/guidance/). See [AME Parser documentation](Documentation/AME_Parser.md).
+
+### Vercel
+
+Set project env vars `GUIDANCE_REPO` and `GUIDANCE_TOKEN`. The web app `vercel.json` runs `npm run fetch:guidance` before `vite build`. Without the token, production would only ship synthetic samples.
 
 ### Web app (direct)
 
 ```powershell
 cd src/apps/web
 pnpm install   # or: npm install
+pnpm run fetch:guidance   # needs GUIDANCE_TOKEN
 pnpm dev
 pnpm test
 pnpm build
