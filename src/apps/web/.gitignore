@@ -22,3 +22,5 @@ blob-report/
 # beside it.
 /.plugins/
 /.opencode-skills/
+
+.vercel
