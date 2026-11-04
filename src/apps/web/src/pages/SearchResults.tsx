@@ -398,7 +398,6 @@ function EmptyPrompt({
                 {c.category}
               </span>
             </div>
-            <DispositionBadge disposition={c.disposition} size="sm" />
           </button>
         ))}
       </div>
