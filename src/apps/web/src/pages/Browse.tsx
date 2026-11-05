@@ -188,7 +188,6 @@ export default function Browse({ onNavigate }: Props) {
                       </p>
                     </div>
                     <div className="split-aside">
-                      <DispositionBadge disposition={c.disposition} size="sm" />
                       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
                         <path d="M6 4l4 4-4 4" stroke="#94a3b8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
