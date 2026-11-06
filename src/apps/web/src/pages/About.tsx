@@ -115,6 +115,11 @@ export default function About({ onNavigate }: Props) {
               'MedXPress Application System — medxpress.faa.gov',
               'AOPA Pilot Flight Medical Preflight (December 2025)',
               'FAA FAQ — What does "pre-flight your exam" mean?',
+              'FAA Guide for Aviation Medical Examiners: Medical Certification Decision Making — faa.gov/ame_guide/app_process/general/decision',
+              'FAA Guide for Aviation Medical Examiners: Certification Worksheets — faa.gov/ame_guide/certification_ws',
+              'FAA Guide for Aviation Medical Examiners: Statement of Demonstrated Ability (SODA) — faa.gov/ame_guide/app_process/general/appeals/soda',
+              'FAA Guide for Aviation Medical Examiners: Special Issuance — faa.gov/ame_guide/app_process/general/si',
+              'FAA Guide for Aviation Medical Examiners: Most Common Medical Conditions — https://www.faa.gov/ame_guide/most-common-medical-conditions',
             ].map((ref, i) => (
               <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
                 <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#3b7fc4', flexShrink: 0, marginTop: 7 }} />
