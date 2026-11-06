@@ -287,6 +287,112 @@ export default function Home({ onNavigate }: Props) {
         </div>
       </section>
 
+      {/* Certification terms */}
+      <section style={{ background: '#ffffff', padding: '56px 24px', borderBottom: '1px solid #e2e8f0' }}>
+        <div style={{ maxWidth: 900, margin: '0 auto' }}>
+          <h2
+            style={{
+              fontFamily: "'DM Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: '1.5rem',
+              color: '#1b2d4f',
+              margin: '0 0 30px',
+              textAlign: 'center',
+            }}
+          >
+            Medical Certification Decisions & Pathways
+          </h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 260px), 1fr))', gap: 16 }}>
+            {[
+              {
+                term: 'Issuance',
+                name: 'The AME issues a certificate',
+                detail: 'The AME may issue a certificate when you meet all medical standards.',
+                color: '#166534',
+                background: '#f0fdf4',
+                border: '#bbf7d0',
+              },
+              {
+                term: 'Deferral',
+                name: 'More FAA review is needed',
+                detail: 'The AME sends your application to the FAA for further review. A deferral is not a denial.',
+                color: '#78350f',
+                background: '#fffbeb',
+                border: '#fde68a',
+              },
+              {
+                term: 'Denial',
+                name: 'The application is not approved',
+                detail: 'The AME may deny when you clearly do not meet medical standards.',
+                color: '#7f1d1d',
+                background: '#fef2f2',
+                border: '#fecaca',
+              },
+              {
+                term: 'CACI',
+                name: 'Conditions AMEs Can Issue',
+                detail: 'For certain conditions, the AME may issue on the spot if FAA criteria and documentation are met.',
+                color: '#166534',
+                background: '#f0fdf4',
+                border: '#bbf7d0',
+              },
+              {
+                term: 'SODA',
+                name: 'Statement of Demonstrated Ability',
+                detail: 'The FAA may grant a SODA for certain static conditions after assessing your ability to perform safely. A SODA does not expire.',
+                color: '#1e3a8a',
+                background: '#eff6ff',
+                border: '#bfdbfe',
+              },
+              {
+                term: 'Special Issuance',
+                name: 'Time-limited FAA authorization',
+                detail: 'The FAA may authorize certification for some disqualifying conditions; the authorization has an expiration date.',
+                color: '#1e3a8a',
+                background: '#eff6ff',
+                border: '#bfdbfe',
+              }
+            ].map((item) => (
+              <article
+                key={item.term}
+                style={{
+                  background: item.background,
+                  border: `1px solid ${item.border}`,
+                  borderRadius: 8,
+                  padding: '20px 22px',
+                }}
+              >
+                <h3
+                  style={{
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontWeight: 700,
+                    fontSize: '1.05rem',
+                    color: item.color,
+                    margin: '0 0 4px',
+                  }}
+                >
+                  {item.term}
+                </h3>
+                <div
+                  style={{
+                    fontFamily: "'DM Sans', sans-serif",
+                    fontWeight: 600,
+                    fontSize: '0.85rem',
+                    color: '#334155',
+                    marginBottom: 10,
+                  }}
+                >
+                  {item.name}
+                </div>
+                <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#475569', lineHeight: 1.6, margin: 0 }}>
+                  {item.detail}
+                </p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Health first note */}
       <section style={{ background: '#fffbeb', borderBottom: '1px solid #fde68a', padding: '20px 24px' }}>
         <div style={{ maxWidth: 900, margin: '0 auto', display: 'flex', gap: 12, alignItems: 'flex-start' }}>
