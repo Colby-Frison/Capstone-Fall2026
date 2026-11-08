@@ -23,6 +23,8 @@ interface NavState {
   page: Page;
   id?: string;
   query?: string;
+  /** Browse category filter (conditions page). */
+  category?: string;
 }
 
 /**
@@ -44,6 +46,8 @@ function readNavFromLocation(): NavState {
   const params = new URLSearchParams(window.location.search);
   const condition = params.get('condition');
   if (condition) return { page: 'condition-detail', id: condition };
+  const category = params.get('category');
+  if (category) return { page: 'conditions', category };
   return { page: 'home' };
 }
 
@@ -53,6 +57,8 @@ function writeNavToLocation(next: NavState, replace = false) {
   url.hash = '';
   if (next.page === 'condition-detail' && next.id) {
     url.searchParams.set('condition', next.id);
+  } else if (next.page === 'conditions' && next.category) {
+    url.searchParams.set('category', next.category);
   }
   const method = replace ? 'replaceState' : 'pushState';
   window.history[method](next, '', `${url.pathname}${url.search}`);
@@ -77,7 +83,9 @@ export default function App() {
         ? { page: 'search', query: idOrQuery ?? '' }
         : page === 'condition-detail' || page === 'medication-detail'
           ? { page, id: idOrQuery }
-          : { page };
+          : page === 'conditions'
+            ? { page, category: idOrQuery || undefined }
+            : { page };
     setNav(next);
     writeNavToLocation(next);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -118,7 +126,9 @@ export default function App() {
             {nav.page === 'medication-detail' && nav.id && (
               <MedicationDetail medicationId={nav.id} onNavigate={navigate} />
             )}
-            {nav.page === 'conditions' && <Browse onNavigate={navigate} />}
+            {nav.page === 'conditions' && (
+              <Browse onNavigate={navigate} initialCategory={nav.category} />
+            )}
             {nav.page === 'how-it-works' && <HowItWorks onNavigate={navigate} />}
             {nav.page === 'about' && <About onNavigate={navigate} />}
           </main>

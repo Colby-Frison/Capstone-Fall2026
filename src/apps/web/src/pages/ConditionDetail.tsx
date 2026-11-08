@@ -81,14 +81,25 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
       {/* Breadcrumb */}
       <div style={{ background: '#ffffff', borderBottom: '1px solid #e2e8f0', padding: '12px 24px' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <nav className="crumbs" style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}>
+          <nav
+            className="crumbs"
+            aria-label="Breadcrumb"
+            style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.8rem', color: '#6b7a99' }}
+          >
             <button onClick={() => onNavigate('home')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Home</button>
-            <span>›</span>
+            <span aria-hidden="true">›</span>
             <button onClick={() => onNavigate('conditions')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>Conditions</button>
-            <span>›</span>
-            <button onClick={() => onNavigate('conditions')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}>{condition.category}</button>
-            <span>›</span>
-            <span style={{ color: '#1b2d4f', fontWeight: 500 }}>{condition.name}</span>
+            <span aria-hidden="true">›</span>
+            <button
+              type="button"
+              onClick={() => onNavigate('conditions', condition.category)}
+              aria-label={`Browse ${condition.category} conditions`}
+              style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#3b7fc4', fontSize: '0.8rem', padding: 0, fontFamily: "'Inter', sans-serif" }}
+            >
+              {condition.category}
+            </button>
+            <span aria-hidden="true">›</span>
+            <span style={{ color: '#1b2d4f', fontWeight: 500 }} aria-current="page">{condition.name}</span>
           </nav>
         </div>
       </div>
@@ -230,17 +241,22 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
               )}
 
               {hasCrossRef ? (
-                <div style={{ marginTop: 20, padding: '12px 16px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 6 }}>
+                <div
+                  role="note"
+                  aria-label="Related guidance in another section"
+                  style={{ marginTop: 20, padding: '12px 16px', background: '#eff6ff', border: '1px solid #bfdbfe', borderRadius: 6 }}
+                >
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#1e3a8a', margin: 0, lineHeight: 1.6 }}>
-                    <strong>Related guidance.</strong>{' '}
-                    {guidanceNote || 'This row points to another part of the guide. Confirm that section with your medical examiner.'}
+                    <strong>Related guidance in another section.</strong>{' '}
+                    {guidanceNote ||
+                      'This pathway points to another part of the published guide rather than listing materials here. Confirm that section with your medical examiner.'}
                   </p>
                 </div>
               ) : guidanceNote ? (
                 <div style={{ marginTop: 20, padding: '18px 20px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 8 }}>
-                  <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', marginBottom: 8 }}>
+                  <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', margin: '0 0 8px' }}>
                     Wording from the guide
-                  </div>
+                  </h3>
                   <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
                     {guidanceNote}
                   </p>
@@ -257,7 +273,9 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#475569', margin: '6px 0 0', lineHeight: 1.5 }}>
                 {selectedSub
                   ? `Records, tests, and medications listed for ${selectedSub.name}.`
-                  : 'Choose a situation above to see the records, tests, and medications for that row.'}
+                  : condition.subConditions.length > 0
+                    ? 'Choose a situation above to see the records, tests, and medications for that row.'
+                    : 'Records, tests, and medications listed for this condition when the guide includes them.'}
               </p>
             </div>
 
@@ -304,7 +322,7 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {/* E. Medication notes from source guidance */}
           {activeMedNotes.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
-              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', margin: '0 0 12px' }}>
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 12px' }}>
                 Medication notes from the guide
               </h2>
               <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
@@ -320,9 +338,12 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {/* F. Related medications (curated catalog) */}
           {relatedMeds.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
-              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', marginBottom: 16, margin: '0 0 16px' }}>
-                Related Medications
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
+                Related medications
               </h2>
+              <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 16px', lineHeight: 1.5 }}>
+                Catalog entries linked to this condition for flight-status context — not a prescription list.
+              </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
                 {relatedMeds.map((med) => med && (
                   <button
@@ -363,11 +384,11 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {relatedForms.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
-                Related FAA Forms
+                Related FAA forms
               </h2>
               <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 12px', lineHeight: 1.5 }}>
-                Depending on your specific pathway and AME evaluation, you may be
-                required to submit the following forms:
+                Depending on your pathway and medical examiner evaluation, you may need to
+                submit one or more of these forms.
               </p>
               <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
                 {relatedForms.map((form, index) => (
@@ -380,10 +401,16 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                         style={{ color: '#2563eb', textDecoration: 'none' }}
                       >
                         {form["Form Type"]}
+                        <span style={{ fontSize: '0.75rem', color: '#64748b', marginLeft: 6 }}>
+                          (opens official form)
+                        </span>
                       </a>
                     ) : (
                       <span style={{ color: '#475569' }}>
-                        {form["Form Type"]} <span style={{ fontSize: '0.75rem', color: '#d97706', fontStyle: 'italic', marginLeft: '4px' }}>(URL Pending)</span>
+                        {form["Form Type"]}{' '}
+                        <span style={{ fontSize: '0.75rem', color: '#94a3b8', marginLeft: 4 }}>
+                          Link not available yet
+                        </span>
                       </span>
                     )}
                   </li>
@@ -395,9 +422,9 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
           {/* G. Source + Disclaimer */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 16 }}>
             <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 8, padding: '18px 22px' }}>
-              <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.75rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8 }}>
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '0.75rem', color: '#6b7a99', textTransform: 'uppercase', letterSpacing: '0.08em', margin: '0 0 8px' }}>
                 Where this came from
-              </div>
+              </h2>
               <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#334155', lineHeight: 1.55 }}>
                 <div><strong>{condition.source}</strong></div>
                 <div style={{ color: '#6b7a99', marginTop: 2 }}>{condition.sourceSection}</div>

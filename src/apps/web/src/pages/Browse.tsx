@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { conditions, categories, isFreqCondition, frequentConditionCount } from '../data/conditions';
 import DispositionBadge from '../components/DispositionBadge';
 
@@ -6,11 +6,26 @@ type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-
 
 interface Props {
   onNavigate: (page: Page, id?: string) => void;
+  /** Deep-link from condition detail breadcrumb (`?category=`). */
+  initialCategory?: string;
 }
 
-export default function Browse({ onNavigate }: Props) {
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+function resolveInitialCategory(initialCategory?: string): string {
+  if (!initialCategory) return 'All';
+  if (initialCategory === 'Most Frequent') return 'Most Frequent';
+  if (categories.includes(initialCategory)) return initialCategory;
+  return 'All';
+}
+
+export default function Browse({ onNavigate, initialCategory }: Props) {
+  const [selectedCategory, setSelectedCategory] = useState<string>(() =>
+    resolveInitialCategory(initialCategory),
+  );
   const [browseQuery, setBrowseQuery] = useState('');
+
+  useEffect(() => {
+    setSelectedCategory(resolveInitialCategory(initialCategory));
+  }, [initialCategory]);
 
   const allCategories = ['All', "Most Frequent", ...categories];
 
