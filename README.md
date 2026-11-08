@@ -212,6 +212,7 @@ python run_all_tests.py
 - [Ticket 2 artifact](Assignments/Ticket_2/src/Ticket2_Artifact.md)
 - [AME Parser](Documentation/AME_Parser.md)
 - [NIH Integration](Documentation/NIH_Integration.md)
+- [FAA data structure proposal](Documentation/FAA_Data_Structure_Proposal.md) (Issue #39)
 
 ---
 
