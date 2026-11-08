@@ -5,7 +5,8 @@ import type { SubCondition } from '../data/types';
 import DispositionBadge, { DispositionBlock } from '../components/DispositionBadge';
 import DisclaimerCallout from '../components/DisclaimerCallout';
 import { DocumentChecklist } from '../components/DocumentChecklist';
-import { getConditionForms } from '../../../../packages/content/adapt'
+import NihConditionAbout from '../components/NihConditionAbout';
+import { getConditionForms } from '../../../../packages/content/adapt';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
 
@@ -115,6 +116,12 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 20 }}>
+          <NihConditionAbout
+            nih={condition.nih}
+            conditionName={condition.name}
+            onBrowse={() => onNavigate('conditions')}
+            onSearch={() => onNavigate('search', condition.name)}
+          />
 
           {condition.subConditions.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, overflow: 'hidden' }}>
