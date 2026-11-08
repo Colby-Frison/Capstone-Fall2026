@@ -59,8 +59,19 @@ Browser (ConditionSearchInput)
   → Clinical Tables v3
   → Normalized DTO
   → Client matches labels/synonyms → local Condition.id
+  → Dropdown: catalog matches first, divider, then NIH-only (#57)
   → Select matched → ConditionDetail; else → local search
 ```
+
+### Autocomplete ordering (Issue #57)
+
+NIH fetch is unchanged. After `enrichSuggestionsWithMatches`, the combobox **partitions** suggestions:
+
+1. **In this guide** — rows with `matchedConditionIds` (deduped by condition id; label prefers FAA `condition.name`)
+2. Visual divider — “Not in this guide”
+3. **NIH-only** — unmatched Clinical Tables rows (still selectable → search)
+
+Helper: `src/apps/web/src/components/partitionNihSuggestions.ts`.
 
 ### App-owned DTO
 

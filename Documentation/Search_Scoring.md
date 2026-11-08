@@ -65,3 +65,7 @@ Exact name matches always rank above synonym-on-name and weak body hits.
 ## Query expansion
 
 `SearchResults` fetches NIH suggestions for the query and passes labels/synonyms into `searchCatalog` so everyday language can surface FAA rows that use clinical headings.
+
+## Autocomplete vs results (#57)
+
+The search **combobox** still calls the NIH BFF, but lists **catalog matches first**, then a “Not in this guide” divider, then NIH-only terms. Submitting Search (or selecting an unmatched NIH row) still uses local `searchCatalog` scoring above — NIH expansion on the results page is unchanged.
