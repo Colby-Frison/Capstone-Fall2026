@@ -3,7 +3,8 @@
 The production parser is in `src/packages/ame_parser/`. The prior-semester
 implementation remains unchanged in `src/legacy/old/` for characterization tests.
 App-facing normalized JSON is written to `src/data/guidance/` for the Vite UI.
-Source PDFs under `Documentation/Resources/` are gitignored.
+Source PDFs under `Documentation/Resources/` are gitignored (public JSON + private
+PDFs — see [Guidance_Data_Privacy.md](./Guidance_Data_Privacy.md)).
 
 ## Purpose and safety boundary
 

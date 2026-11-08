@@ -126,7 +126,7 @@ Capstone-Fall2026/
         └── capstone.py            # sectional tests + dev server
 ```
 
-Normalized guidance JSON is committed under [`src/data/guidance/`](src/data/guidance/). Source AME / OneGuide **PDFs** are gitignored under [`Documentation/Resources/`](Documentation/Resources/) (keep local copies for parser work).
+Normalized guidance JSON is committed under [`src/data/guidance/`](src/data/guidance/). Source AME / OneGuide **PDFs** are gitignored under [`Documentation/Resources/`](Documentation/Resources/) (keep local copies for parser work). See [Guidance data privacy](Documentation/Guidance_Data_Privacy.md) for the public-repo / private-PDF model (Issue #48).
 
 ---
 
