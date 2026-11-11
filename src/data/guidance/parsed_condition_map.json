@@ -1,0 +1,1964 @@
+{
+ "version": 1,
+ "generatedBy": "src/apps/web/scripts/build-parsed-conditions.ts",
+ "guideVersion": "08/26/2026",
+ "counts": {
+  "siteConditionsBefore": 175,
+  "parsedConditions": 185,
+  "matched": 149,
+  "matchedLowConfidence": 4,
+  "matchedOneGuideOnly": 5,
+  "added": 36,
+  "siteOnly": 5,
+  "oneGuideDuplicatesLeftAsIs": 21,
+  "siteConditionsAfter": 211
+ },
+ "matched": [
+  {
+   "siteId": "abdomen-and-viscera-and-anus-conditions",
+   "siteName": "Abdomen and Viscera and Anus Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "abdomen-and-viscera-and-anus-conditions",
+   "parsedName": "ABDOMEN AND VISCERA AND ANUS CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "acoustic-neuroma",
+   "siteName": "Acoustic Neuroma",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "acoustic-neuroma",
+   "parsedName": "ACOUSTIC NEUROMA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "acromegaly",
+   "siteName": "Acromegaly",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "acromegaly",
+   "parsedName": "ACROMEGALY",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "acute-lymphocytic-leukemia-all",
+   "siteName": "Acute Lymphocytic Leukemia (all)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "acute-lymphocytic-leukemia-all",
+   "parsedName": "ACUTE LYMPHOCYTIC LEUKEMIA (ALL)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "acute-or-chronic-disease",
+   "siteName": "Acute or Chronic Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "inner-ear",
+   "parsedName": "INNER EAR ACUTE OR CHRONIC DISEASE",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75,
+   "lowConfidence": true
+  },
+  {
+   "siteId": "adjustment-disorder-with-depressed-mood-or-minor-depression",
+   "siteName": "Adjustment Disorder with Depressed Mood or MINOR Depression",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "adjustment-disorder-with-depressed-mood-or-minor-depression",
+   "parsedName": "Adjustment Disorder with Depressed Mood or MINOR Depression",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "allergies",
+   "siteName": "Allergies",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "allergies",
+   "parsedName": "ALLERGIES",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "alpha-gal-syndrome-meat-allergy",
+   "siteName": "ALPHA-GAL SYNDROME (meat allergy)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "alpha-gal-syndrome-meat-allergy",
+   "parsedName": "ALPHA-GAL SYNDROME (meat allergy)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "als-amyotrophic-lateral-sclerosis-aka-lou-gehrig-s",
+   "siteName": "ALS - Amyotrophic Lateral Sclerosis aka (Lou Gehrig's",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "parsedId": "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
+   "parsedName": "AMYOTROPHIC LATERAL SCLEROSIS (ALS) aka LOU GEHRIG'S DISEASE And Other MOTOR NEURON DISEASES (01/25/2023)",
+   "method": "token-subset",
+   "confidence": 0.7,
+   "lowConfidence": true
+  },
+  {
+   "siteId": "alzheimer-s-disease-or-mild-cognitive-impairment-mci-or-dementia",
+   "siteName": "Alzheimer's Disease or Mild Cognitive Impairment (mci) or Dementia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "alzheimers-disease-or-mild-cognitive-impairment-mci-or-dementia",
+   "parsedName": "ALZHEIMER's DISEASE OR MILD COGNITIVE IMPAIRMENT (MCI) or DEMENTIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "amblyopia",
+   "siteName": "Amblyopia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "amblyopia",
+   "parsedName": "AMBLYOPIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "anosmia",
+   "siteName": "Anosmia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "anosmia",
+   "parsedName": "ANOSMIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "anxiety-depression-and-related-conditions",
+   "siteName": "Anxiety, Depression, and Related Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "anxiety-depression-and-related-conditions",
+   "parsedName": "ANXIETY, DEPRESSION, AND RELATED CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "arrhythmias",
+   "siteName": "Arrhythmias",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "arrhythmias",
+   "parsedName": "ARRHYTHMIAS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+   "siteName": "ARTERIOVENOUS MALFORMATION (AVM) - Neurological (Brain or Spinal Cord)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
+   "parsedName": "ARTERIOVENOUS MALFORMATION (AVM) – Neurological (Brain or Spinal Cord)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+   "siteName": "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+   "parsedName": "ARTERIOVENOUS MALFORMATION (AVM) - Peripheral (lungs, liver, bone)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "atrial-fibrillation-afib-a-flutter",
+   "siteName": "Atrial Fibrillation (afib)/a-flutter",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "atrial-fibrillation-afib-a-flutter",
+   "parsedName": "ATRIAL FIBRILLATION (AFIB)/A-FLUTTER",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "atrial-flutter-typical-atrial-flutter",
+   "siteName": "Atrial Flutter / Typical Atrial Flutter",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "atrial-flutter-typical-atrial-flutter",
+   "parsedName": "ATRIAL FLUTTER / TYPICAL ATRIAL FLUTTER",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "attention-deficit-hyperactivity-disorder-adhd-and-or-use-of-adhd-medications",
+   "siteName": "Attention-deficit/hyperactivity Disorder (adhd)* And/or Use of Adhd Medications",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "attention-deficit-hyperactivity-disorder-adhd",
+   "parsedName": "ATTENTION-DEFICIT/HYPERACTIVITY DISORDER (ADHD) AND/OR USE OF ADHD MEDICATIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "barrett-s-esophagus",
+   "siteName": "Barrett's Esophagus",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "barretts-esophagus",
+   "parsedName": "BARRETT'S ESOPHAGUS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy",
+   "siteName": "BELL'S PALSY (Facial Nerve Palsy, Cranial Nerve Palsy)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "bells-palsy",
+   "parsedName": "BELL'S PALSY (Facial Nerve Palsy, Cranial Nerve Palsy)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "blepharitis-and-conjunctivitis",
+   "siteName": "Blepharitis and Conjunctivitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "blepharitis-and-conjunctivitis",
+   "parsedName": "BLEPHARITIS and CONJUNCTIVITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "blood-and-blood-forming-tissue-disease",
+   "siteName": "Blood and Blood-forming Tissue Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "blood-and-blood-forming-tissue-disease",
+   "parsedName": "BLOOD AND BLOOD-FORMING TISSUE DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "blood-donation",
+   "siteName": "Blood Donation",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "blood-donation",
+   "parsedName": "BLOOD DONATION",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "brain-abscess-brain-infection",
+   "siteName": "Brain Abscess (Brain Infection)",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "parsedId": "brain-abscess",
+   "parsedName": "BRAIN ABSCESS",
+   "method": "name-without-parentheses",
+   "confidence": 0.95,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "brain-aneurysm-intracranial-aneurysm-cerebral-aneurysm-not-ruptured",
+   "siteName": "BRAIN ANEURYSM (Intracranial aneurysm / Cerebral aneurysm) Not Ruptured",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "brain-aneurysm",
+   "parsedName": "BRAIN ANEURYSM (Intracranial aneurysm / Cerebral aneurysm) Not Ruptured",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "brain-bleed",
+   "siteName": "Brain Bleed",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "brain-bleed",
+   "parsedName": "BRAIN BLEED (Intracranial Hemorrhage, Cerebral Hemorrhage, Ruptured Aneurysm, Subarachnoid Hemorrhage, Subdural/Epidural Hemorrhage)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "brain-tumor-intracranial-tumor",
+   "siteName": "BRAIN TUMOR (Intracranial Tumor)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "brain-tumor-intracranial-tumor",
+   "parsedName": "BRAIN TUMOR (Intracranial Tumor)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "bronchiectasis",
+   "siteName": "Bronchiectasis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "bronchiectasis",
+   "parsedName": "BRONCHIECTASIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "buerger-disease-or-thromboangiitis-obliterans-tao",
+   "siteName": "Buerger Disease or Thromboangiitis Obliterans (TAO)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "buerger-disease-or-thromboangiitis-obliterans-tao",
+   "parsedName": "Buerger Disease or Thromboangiitis Obliterans (TAO)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cataract-s",
+   "siteName": "Cataract (s)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cataract-s",
+   "parsedName": "CATARACT(S)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "central-sleep-apnea",
+   "siteName": "Central Sleep Apnea",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "central-sleep-apnea",
+   "parsedName": "CENTRAL SLEEP APNEA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cerebral-palsy",
+   "siteName": "Cerebral Palsy",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cerebral-palsy",
+   "parsedName": "CEREBRAL PALSY",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cerebrovascular-accident-cva-or-transient-ischemic-attack-tia",
+   "siteName": "Cerebrovascular Accident (CVA) or Transient Ischemic Attack (TIA)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "stroke",
+   "parsedName": "STROKE Cerebrovascular Accident (CVA) or Transient Ischemic Attack (TIA)",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75,
+   "lowConfidence": true
+  },
+  {
+   "siteId": "chest-pain",
+   "siteName": "Chest Pain",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "chest-pain",
+   "parsedName": "CHEST PAIN Angina; Angina Pectoris; Unstable Angina; Chest Discomfort (non-specific term); Palpitations",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "chiari-malformation",
+   "siteName": "Chiari Malformation",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "chiari-malformation",
+   "parsedName": "CHIARI MALFORMATION",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cholelithiasis",
+   "siteName": "Cholelithiasis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cholelithiasis",
+   "parsedName": "CHOLELITHIASIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "chorioretinitis",
+   "siteName": "Chorioretinitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "chorioretinitis",
+   "parsedName": "CHORIORETINITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "chronic-obstructive-pulmonary-disease-copd-emphysema-chronic-bronchitis",
+   "siteName": "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "chronic-obstructive-pulmonary-disease-copd-emphysema-chronic-bronchitis",
+   "parsedName": "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cirrhosis",
+   "siteName": "Cirrhosis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cirrhosis",
+   "parsedName": "CIRRHOSIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cochlear-implant-ci",
+   "siteName": "Cochlear Implant (ci)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cochlear-implant-ci",
+   "parsedName": "COCHLEAR IMPLANT (CI)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cognitive-or-mental-impairment-or-dysfunction-cognitive-disorder",
+   "siteName": "Cognitive or Mental Impairment or Dysfunction (cognitive Disorder)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cognitive-or-mental-impairment-or-dysfunction",
+   "parsedName": "COGNITIVE OR MENTAL IMPAIRMENT OR DYSFUNCTION COGNITIVE DISORDER)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "collagen-disease",
+   "siteName": "Collagen Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "collagen-disease",
+   "parsedName": "COLLAGEN DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "coloboma",
+   "siteName": "Coloboma",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "coloboma",
+   "parsedName": "COLOBOMA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "condition-not-listed",
+   "siteName": "Condition Not Listed",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "condition-not-listed",
+   "parsedName": "Condition Not Listed",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "congenital-heart-conditions",
+   "siteName": "Congenital Heart Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "congenital-heart-conditions",
+   "parsedName": "CONGENITAL HEART CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "congenital-sucrase-isomaltase-deficiency-csid",
+   "siteName": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "congenital-sucrase-isomaltase-deficiency-csid",
+   "parsedName": "Congenital Sucrase-Isomaltase Deficiency (CSID)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "coronary-heart-disease",
+   "siteName": "Coronary Heart Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "coronary-heart-disease",
+   "parsedName": "CORONARY HEART DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cushing-syndrome",
+   "siteName": "Cushing Syndrome",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cushing-syndrome",
+   "parsedName": "CUSHING SYNDROME",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "cutaneous",
+   "siteName": "Cutaneous",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "cutaneous",
+   "parsedName": "CUTANEOUS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "deep-brain-stimulator",
+   "siteName": "Deep Brain Stimulator",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "deep-brain-stimulator",
+   "parsedName": "DEEP BRAIN STIMULATOR",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "diabetes-insipidus-or-polyuria",
+   "siteName": "Diabetes Insipidus or Polyuria",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "diabetes-insipidus-or-polyuria",
+   "parsedName": "DIABETES INSIPIDUS OR POLYURIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "diabetes-mellitus",
+   "siteName": "Diabetes Mellitus",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "diabetes-mellitus",
+   "parsedName": "DIABETES MELLITUS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "diplopia-double-vision",
+   "siteName": "Diplopia (double Vision)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "diplopia-double-vision",
+   "parsedName": "DIPLOPIA (DOUBLE VISION)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "disease-of-the-lungs-pleura-or-mediastinum",
+   "siteName": "Disease of the Lungs, Pleura, or Mediastinum",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "disease-of-the-lungs-pleura-or-mediastinum",
+   "parsedName": "DISEASE OF THE LUNGS, PLEURA, OR MEDIASTINUM",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "dystonia-including-torticollis",
+   "siteName": "DYSTONIA (Including Torticollis)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "dystonia-including-torticollis",
+   "parsedName": "DYSTONIA (Including Torticollis)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "ear-drums",
+   "siteName": "Ear Drums",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "ear-drums",
+   "parsedName": "EAR DRUMS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "encephalitis",
+   "siteName": "Encephalitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "encephalitis",
+   "parsedName": "ENCEPHALITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "endocarditis",
+   "siteName": "Endocarditis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "endocarditis",
+   "parsedName": "ENDOCARDITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "epilepsy-seizure-disorder",
+   "siteName": "EPILEPSY (Seizure Disorder)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "epilepsy",
+   "parsedName": "EPILEPSY (Seizure Disorder)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "esophageal-varices",
+   "siteName": "Esophageal Varices",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "esophageal-varices",
+   "parsedName": "ESOPHAGEAL VARICES",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "eyes-general-other-conditions",
+   "siteName": "Eyes - General, Other Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "eyes-general-other-conditions",
+   "parsedName": "EYES – GENERAL, OTHER CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "eyes-procedures",
+   "siteName": "Eyes - Procedures",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "eyes-procedures",
+   "parsedName": "EYES – PROCEDURES",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "eyes-refractive-surgery",
+   "siteName": "Eyes - Refractive Surgery",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "eyes-refractive-surgery",
+   "parsedName": "EYES - REFRACTIVE SURGERY (Use for elective vision surgery such as Excimer Laser Corneal Refractive Surgery [LASIK, PRK, SMILE])",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "fibromuscular-dysplasia",
+   "siteName": "Fibromuscular Dysplasia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "fibromuscular-dysplasia",
+   "parsedName": "FIBROMUSCULAR DYSPLASIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "general-disorders",
+   "siteName": "General Disorders",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "general-disorders",
+   "parsedName": "GENERAL DISORDERS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "gerd-gastroesophageal-reflux-disease-or-reflux",
+   "siteName": "GERD (gastroesophageal reflux disease or reflux)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "gerd-gastroesophageal-reflux-disease-or-reflux",
+   "parsedName": "GERD (gastroesophageal reflux disease or reflux)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "gout-and-pseudogout",
+   "siteName": "Gout and Pseudogout",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "gout-and-pseudogout",
+   "parsedName": "GOUT AND PSEUDOGOUT",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "guillain-barre-syndrome",
+   "siteName": "Guillain-barre Syndrome",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "guillain-barre-syndrome",
+   "parsedName": "GUILLAIN-BARRE SYNDROME",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "head-face-neck-and-scalp",
+   "siteName": "Head, Face, Neck, and Scalp",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "head-face-neck-and-scalp",
+   "parsedName": "HEAD, FACE, NECK, AND SCALP",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "head-injury-or-brain-injury",
+   "siteName": "Head Injury or Brain Injury",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "head-injury-or-brain-injury",
+   "parsedName": "HEAD INJURY or BRAIN INJURY Concussion, Closed Head Injury (CHI), Open Head Injury, Traumatic Brain Injury (TBI)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "heart-murmur",
+   "siteName": "Heart Murmur",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "heart-murmur",
+   "parsedName": "HEART MURMUR",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "heart-transplant-cardiac-transplant-heart-replacement",
+   "siteName": "HEART TRANSPLANT (cardiac transplant, heart replacement)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "heart-transplant-cardiac-transplant-heart-replacement",
+   "parsedName": "HEART TRANSPLANT (cardiac transplant, heart replacement)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hormone-replacement-therapy-hrt-female",
+   "siteName": "Hormone Replacement Therapy (hrt) - Female",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hormone-replacement-therapy-hrt-female",
+   "parsedName": "HORMONE REPLACEMENT THERAPY (HRT) - Female",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "human-immunodeficiency-virus-hiv",
+   "siteName": "Human Immunodeficiency Virus (hiv)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "human-immunodeficiency-virus-hiv",
+   "parsedName": "HUMAN IMMUNODEFICIENCY VIRUS (HIV)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "huntington-s-disease",
+   "siteName": "Huntington's Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "huntingtons-disease",
+   "parsedName": "HUNTINGTON'S DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hydrocephalus-with-or-without-shunt-330",
+   "siteName": "HYDROCEPHALUS (With or Without Shunt)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hydrocephalus-with-or-without-shunt",
+   "parsedName": "HYDROCEPHALUS (With or Without Shunt)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hyperparathyroidism-07-29-2026",
+   "siteName": "Hyperparathyroidism (07/29/2026)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hyperparathyroidism",
+   "parsedName": "HYPERPARATHYROIDISM",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hyperprolactinemia",
+   "siteName": "Hyperprolactinemia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hyperprolactinemia",
+   "parsedName": "HYPERPROLACTINEMIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hyperthyroidism",
+   "siteName": "Hyperthyroidism",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hyperthyroidism",
+   "parsedName": "HYPERTHYROIDISM",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hypertrophic-cardiomyopathy-hcm",
+   "siteName": "Hypertrophic Cardiomyopathy (HCM),",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or-idiopathic",
+   "parsedName": "Hypertrophic Cardiomyopathy (HCM), Hypertrophic Obstructive Cardiomyopathy (HOCM), or Idiopathic Hypertrophic Subaortic Stenosis (IHSS)",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75,
+   "lowConfidence": true
+  },
+  {
+   "siteId": "hypoglycemia",
+   "siteName": "Hypoglycemia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hypoglycemia",
+   "parsedName": "HYPOGLYCEMIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "hypoparathyroidism-08-28-2024",
+   "siteName": "Hypoparathyroidism (08/28/2024)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "hypoparathyroidism",
+   "parsedName": "HYPOPARATHYROIDISM",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "inflammatory-conditions",
+   "siteName": "Inflammatory Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "inflammatory-conditions",
+   "parsedName": "INFLAMMATORY CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "labyrinthitis-vestibular-neuritis-viral-labyrinthitis-epidemic-vertigo-acute-ves",
+   "siteName": "LABYRINTHITIS (Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "labyrinthitis",
+   "parsedName": "LABYRINTHITIS (Vestibular Neuritis, Viral Labyrinthitis, Epidemic Vertigo, Acute Vestibulopathy)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "lattice-degeneration",
+   "siteName": "Lattice Degeneration",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "lattice-degeneration",
+   "parsedName": "LATTICE DEGENERATION",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "lens-implant",
+   "siteName": "Lens Implant",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "lens-implant",
+   "parsedName": "LENS IMPLANT Crystalline Lens Replacement (Cataract or Refractive). (Use for VISION surgery such as Lens Implantation, Intraocular Lens [IOL], or cataract surgery with Lens Implant.)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "liver-transplant",
+   "siteName": "Liver Transplant",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "liver-transplant",
+   "parsedName": "LIVER TRANSPLANT",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "lymphatics",
+   "siteName": "Lymphatics",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "lymphatics",
+   "parsedName": "LYMPHATICS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "lymphoma-and-hodgkin-s-disease",
+   "siteName": "Lymphoma and Hodgkin's Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "lymphoma-and-hodgkins-disease",
+   "parsedName": "LYMPHOMA AND HODGKIN'S DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "mastoids",
+   "siteName": "Mastoids",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "mastoids",
+   "parsedName": "MASTOIDS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "meniere-s-disease",
+   "siteName": "Meniere’s Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "menieres-disease",
+   "parsedName": "MENIERE’S DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "meningitis",
+   "siteName": "Meningitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "meningitis",
+   "parsedName": "MENINGITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "middle-ear-abnormalities",
+   "siteName": "Middle Ear Abnormalities",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "middle-ear-abnormalities",
+   "parsedName": "MIDDLE EAR ABNORMALITIES (Otitis Media, Serous Otitis Media, Eardrum Abnormalities, Tympanic Membrane Perforation, Myringotomy, Ear Tubes, PE Tubes, Eustachian Tube Dysfunction)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "mitral-valve-disease",
+   "siteName": "Mitral Valve Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "mitral-valve-disease",
+   "parsedName": "MITRAL VALVE DISEASE Mitral Regurgitation, Mitral Insufficiency, Mitral Valve Prolapse (MVP)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "multiple-sclerosis-ms",
+   "siteName": "Multiple Sclerosis (ms)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "multiple-sclerosis-ms",
+   "parsedName": "MULTIPLE SCLEROSIS (MS)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "myasthenia-gravis",
+   "siteName": "Myasthenia Gravis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "myasthenia-gravis",
+   "parsedName": "MYASTHENIA GRAVIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "narcolepsy-and-idiopathic-hypersomnia",
+   "siteName": "Narcolepsy and Idiopathic Hypersomnia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "narcolepsy-and-idiopathic-hypersomnia",
+   "parsedName": "NARCOLEPSY and IDIOPATHIC HYPERSOMNIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "neoplasms",
+   "siteName": "Neoplasms",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "neoplasms",
+   "parsedName": "NEOPLASMS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia",
+   "siteName": "NEURALGIA (Trigeminal Neuralgia, Post Herpetic Neuralgia)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "neuralgia",
+   "parsedName": "NEURALGIA (Trigeminal Neuralgia, Post Herpetic Neuralgia)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "neurofibromatosis-type-1-nf-1-von-recklinghausen-disease-and-type-2-nf-2-wishart",
+   "siteName": "NEUROFIBROMATOSIS (Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "neurofibromatosis",
+   "parsedName": "NEUROFIBROMATOSIS (Type 1/NF-1 von Recklinghausen Disease and Type 2/NF-2 Wishart Disease)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "neuropathy-peripheral-neuropathy",
+   "siteName": "NEUROPATHY (Peripheral Neuropathy)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "neuropathy",
+   "parsedName": "NEUROPATHY (Peripheral Neuropathy)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "nose",
+   "siteName": "NOSE",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "nose",
+   "parsedName": "NOSE ALLERGIES or ANAPHYLAXIS; (Allergic Rhinitis; Seasonal Allergic Rhinitis; Hay fever)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "ocular-histoplasmosis",
+   "siteName": "Ocular Histoplasmosis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "ocular-histoplasmosis",
+   "parsedName": "OCULAR HISTOPLASMOSIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "optic-neuritis",
+   "siteName": "Optic Neuritis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "optic-neuritis",
+   "parsedName": "OPTIC NEURITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "osteomyelitis-bone-infection",
+   "siteName": "Osteomyelitis (bone Infection)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "osteomyelitis-bone-infection",
+   "parsedName": "OSTEOMYELITIS (BONE INFECTION)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "other-g-u-cancers-neoplastic-disorders",
+   "siteName": "Other G-u Cancers/neoplastic Disorders",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "other-g-u-cancers-neoplastic-disorders",
+   "parsedName": "OTHER G-U CANCERS/NEOPLASTIC DISORDERS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "other-neurologic-conditions",
+   "siteName": "Other Neurologic Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "other-neurologic-conditions",
+   "parsedName": "OTHER NEUROLOGIC CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "outer-ear-abnormalities-cerumen-impaction-otitis-externa-microtia",
+   "siteName": "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "outer-ear-abnormalities",
+   "parsedName": "OUTER EAR ABNORMALITIES (Cerumen Impaction, Otitis Externa, Microtia)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pacemaker",
+   "siteName": "Pacemaker",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pacemaker",
+   "parsedName": "PACEMAKER",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pancreatitis",
+   "siteName": "Pancreatitis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pancreatitis",
+   "parsedName": "PANCREATITIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "paraplegia",
+   "siteName": "Paraplegia",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "paraplegia",
+   "parsedName": "PARAPLEGIA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "parkinson-s-disease-and-parkinsonism-secondary",
+   "siteName": "Parkinson's Disease and Parkinsonism (secondary)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "parkinsons-disease-and-parkinsonism-secondary",
+   "parsedName": "PARKINSON'S DISEASE and PARKINSONISM (Secondary)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pectus-excavatum",
+   "siteName": "Pectus Excavatum",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pectus-excavatum",
+   "parsedName": "PECTUS EXCAVATUM",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "perilymph-fistula-plf",
+   "siteName": "Perilymph Fistula (plf)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "perilymph-fistula-plf",
+   "parsedName": "PERILYMPH FISTULA (PLF)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "persistent-postural-perceptual-dizziness-pppd-or-3pd",
+   "siteName": "Persistent Postural Perceptual Dizziness (pppd or 3pd)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "persistent-postural-perceptual-dizziness-pppd-or-3pd",
+   "parsedName": "PERSISTENT POSTURAL PERCEPTUAL DIZZINESS (PPPD OR 3PD)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pituitary-adenoma-microadenoma-or-macroadenoma",
+   "siteName": "PITUITARY ADENOMA (Microadenoma or Macroadenoma)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pituitary-adenoma",
+   "parsedName": "PITUITARY ADENOMA",
+   "method": "name-without-parentheses",
+   "confidence": 0.95,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pleura-and-pleural-cavity",
+   "siteName": "Pleura and Pleural Cavity",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pleura-and-pleural-cavity",
+   "parsedName": "PLEURA AND PLEURAL CAVITY",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "polio-poliomyelitis",
+   "siteName": "POLIO (Poliomyelitis)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "polio-poliomyelitis",
+   "parsedName": "POLIO (Poliomyelitis)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "polycystic-kidney-disease",
+   "siteName": "Polycystic Kidney Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "polycystic-kidney-disease",
+   "parsedName": "POLYCYSTIC KIDNEY DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "post-traumatic-stress-disorder-ptsd",
+   "siteName": "Post-traumatic Stress Disorder (ptsd)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "post-traumatic-stress-disorder-ptsd",
+   "parsedName": "POST-TRAUMATIC STRESS DISORDER (PTSD)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "postural-tachycardia-syndrome-pots",
+   "siteName": "Postural Tachycardia Syndrome (pots)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "postural-tachycardia-syndrome-pots",
+   "parsedName": "POSTURAL TACHYCARDIA SYNDROME (POTS)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "premature-atrial-contraction-pac",
+   "siteName": "Premature Atrial Contraction (pac)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "premature-atrial-contraction-pac",
+   "parsedName": "PREMATURE ATRIAL CONTRACTION (PAC)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pseudotumor-cerebri",
+   "siteName": "Pseudotumor Cerebri",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pseudotumor-cerebri",
+   "parsedName": "PSEUDOTUMOR CEREBRI",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "psychiatric-conditions",
+   "siteName": "Psychiatric Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "psychiatric-conditions",
+   "parsedName": "PSYCHIATRIC CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pulmonary-fibrosis",
+   "siteName": "Pulmonary Fibrosis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pulmonary-fibrosis",
+   "parsedName": "PULMONARY FIBROSIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "pupils",
+   "siteName": "Pupils",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "pupils",
+   "parsedName": "Pupils",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "raynaud-s-syndrome",
+   "siteName": "Raynaud's Syndrome",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "raynauds-syndrome",
+   "parsedName": "RAYNAUD'S SYNDROME (Primary Raynaud’s/Raynaud’s Disease or Secondary Raynaud’s/Raynaud’s Phenomenon)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "restless-leg-syndrome-rls",
+   "siteName": "Restless Leg Syndrome (rls)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "restless-leg-syndrome-rls",
+   "parsedName": "RESTLESS LEG SYNDROME (RLS)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "retinal-dystrophies-cone-rod-retinitis-pigmentosa",
+   "siteName": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "retinal-dystrophies-cone-rod-retinitis-pigmentosa",
+   "parsedName": "Retinal Dystrophies (Cone, Rod, Retinitis Pigmentosa)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "retinoschisis",
+   "siteName": "Retinoschisis",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "retinoschisis",
+   "parsedName": "RETINOSCHISIS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid",
+   "siteName": "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "sarcoid-sarcoidosis-neurosarcoidosis-cardiac-sarcoid",
+   "parsedName": "SARCOID (Sarcoidosis, Neurosarcoidosis, Cardiac Sarcoid)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "seizure",
+   "siteName": "Seizure",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "parsedId": "seizure",
+   "parsedName": "SEIZURE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "sinus-conditions",
+   "siteName": "Sinus Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "sinus-conditions",
+   "parsedName": "SINUS CONDITIONS SINUSITIS(Acute or Chronic infection; Deviated Nasal Septum); SINUS OBSTRUCTION (Nasal Cysts; Nasal Polyps; or Sinus Tumor)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "skin-cancer",
+   "siteName": "Skin Cancer",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "skin-cancer",
+   "parsedName": "SKIN CANCER",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "sleep-apnea",
+   "siteName": "Sleep Apnea",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "sleep-apnea",
+   "parsedName": "SLEEP APNEA",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma",
+   "siteName": "Speech Impediment, Stuttering, or Mechanical Conditions (from Surgery or Trauma)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "speech-impediment-stuttering-or-mechanical-conditions-from-surgery-or-trauma",
+   "parsedName": "SPEECH IMPEDIMENT, STUTTERING, OR MECHANICAL CONDITIONS (from surgery or trauma)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "spine-other-musculoskeletal",
+   "siteName": "Spine, Other Musculoskeletal",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "spine-other-musculoskeletal",
+   "parsedName": "SPINE, OTHER MUSCULOSKELETAL",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "superior-semicircular-canal-dehiscence-syndrome-sscds",
+   "siteName": "Superior Semicircular Canal Dehiscence Syndrome (sscds)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "superior-semicircular-canal-dehiscence-syndrome-sscds",
+   "parsedName": "SUPERIOR SEMICIRCULAR CANAL DEHISCENCE SYNDROME (SSCDS)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "tourette-syndrome-or-tic-disorder",
+   "siteName": "Tourette Syndrome or Tic Disorder",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "tourette-syndrome-or-tic-disorder",
+   "parsedName": "TOURETTE SYNDROME or TIC DISORDER",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "transient-global-amnesia-tga",
+   "siteName": "Transient Global Amnesia (TGA)",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "parsedId": "transient-global-amnesia-tga",
+   "parsedName": "TRANSIENT GLOBAL AMNESIA (TGA)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "tremor-benign-essential-tremor-physiologic-tremor",
+   "siteName": "Tremor (benign essential tremor; physiologic tremor)",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "parsedId": "tremor",
+   "parsedName": "TREMOR",
+   "method": "name-without-parentheses",
+   "confidence": 0.95,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "unexplained-loss-of-consciousness-uloc-unexplained-disturbance-of-consciousness-",
+   "siteName": "UNEXPLAINED LOSS OF CONSCIOUSNESS (ULOC) (Unexplained Disturbance of Consciousness or Transient LOC (Without Satisfactory Medical Explanation)",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "unexplained-loss-of-consciousness-uloc",
+   "parsedName": "UNEXPLAINED LOSS OF CONSCIOUSNESS (ULOC) (Unexplained Disturbance of Consciousness or Transient LOC Without Satisfactory Medical Explanation)",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "upper-and-lower-extremities",
+   "siteName": "Upper and Lower Extremities",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "upper-and-lower-extremities",
+   "parsedName": "UPPER AND LOWER EXTREMITIES",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "urinary-systems",
+   "siteName": "Urinary Systems",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "urinary-systems",
+   "parsedName": "URINARY SYSTEMS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "urticarial-eruptions",
+   "siteName": "Urticarial Eruptions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "urticarial-eruptions",
+   "parsedName": "URTICARIAL ERUPTIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "valvular-disease",
+   "siteName": "Valvular Disease",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "valvular-disease",
+   "parsedName": "VALVULAR DISEASE",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "vascular-conditions",
+   "siteName": "Vascular Conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "vascular-conditions",
+   "parsedName": "VASCULAR CONDITIONS",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  },
+  {
+   "siteId": "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+   "siteName": "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions",
+   "siteSource": "ame_guide.pdf",
+   "parsedId": "wolff-parkinson-white-wpw-and-other-pre-excitation-conditions",
+   "parsedName": "WOLFF PARKINSON WHITE (WPW) and other pre-excitation conditions",
+   "method": "exact-name",
+   "confidence": 1,
+   "lowConfidence": false
+  }
+ ],
+ "lowConfidence": [
+  {
+   "siteId": "acute-or-chronic-disease",
+   "parsedId": "inner-ear",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75
+  },
+  {
+   "siteId": "als-amyotrophic-lateral-sclerosis-aka-lou-gehrig-s",
+   "parsedId": "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
+   "method": "token-subset",
+   "confidence": 0.7
+  },
+  {
+   "siteId": "cerebrovascular-accident-cva-or-transient-ischemic-attack-tia",
+   "parsedId": "stroke",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75
+  },
+  {
+   "siteId": "hypertrophic-cardiomyopathy-hcm",
+   "parsedId": "hypertrophic-cardiomyopathy-hcm-hypertrophic-obstructive-cardiomyopathy-hocm-or-idiopathic",
+   "method": "contained-in-guide-heading",
+   "confidence": 0.75
+  }
+ ],
+ "added": [
+  {
+   "id": "benign-paroxysmal-positional-vertigo-bppv",
+   "parsedId": "benign-paroxysmal-positional-vertigo-bppv",
+   "name": "Benign Paroxysmal Positional Vertigo (BPPV)",
+   "category": "Ears",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "motion-sickness",
+   "parsedId": "motion-sickness",
+   "name": "Motion Sickness",
+   "category": "Ears",
+   "categoryRule": "guide category \"Ears, General\""
+  },
+  {
+   "id": "ophthalmoscopic",
+   "parsedId": "ophthalmoscopic",
+   "name": "Ophthalmoscopic",
+   "category": "Eyes",
+   "categoryRule": "guide category \"Ophthalmoscopic\""
+  },
+  {
+   "id": "ocular-motility",
+   "parsedId": "ocular-motility",
+   "name": "Ocular Motility",
+   "category": "Eyes",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "asthma-reactive-airway-disease",
+   "parsedId": "asthma-reactive-airway-disease",
+   "name": "Asthma (Reactive Airway Disease)",
+   "category": "Lungs and Chest",
+   "categoryRule": "guide category \"Lungs and Chest\""
+  },
+  {
+   "id": "hypertension-htn",
+   "parsedId": "hypertension-htn",
+   "name": "Hypertension (HTN)",
+   "category": "Cardiovascular",
+   "categoryRule": "guide category \"Heart\""
+  },
+  {
+   "id": "syncope",
+   "parsedId": "syncope",
+   "name": "Syncope",
+   "category": "Cardiovascular",
+   "categoryRule": "guide category \"Heart\""
+  },
+  {
+   "id": "mitral-valve-repair",
+   "parsedId": "mitral-valve-repair",
+   "name": "Mitral Valve Repair",
+   "category": "Cardiovascular",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "eosinophilic-esophagitis",
+   "parsedId": "eosinophilic-esophagitis",
+   "name": "Eosinophilic Esophagitis",
+   "category": "Abdomen and Digestive",
+   "categoryRule": "guide category \"Abdomen and Viscera\""
+  },
+  {
+   "id": "colon-cancer-colorectal-cancer",
+   "parsedId": "colon-cancer-colorectal-cancer",
+   "name": "Colon Cancer/ Colorectal Cancer",
+   "category": "Abdomen and Digestive",
+   "categoryRule": "guide category \"Abdomen and Viscera\""
+  },
+  {
+   "id": "psoriasis",
+   "parsedId": "psoriasis",
+   "name": "Psoriasis",
+   "category": "Skin",
+   "categoryRule": "guide category \"Skin\""
+  },
+  {
+   "id": "chronic-kidney-disease-ckd",
+   "parsedId": "chronic-kidney-disease-ckd",
+   "name": "Chronic Kidney Disease (CKD)",
+   "category": "Genitourinary",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "low-testosterone-low-t-hypogonadism",
+   "parsedId": "low-testosterone-low-t-hypogonadism",
+   "name": "Low Testosterone (LOW T) Hypogonadism",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "kidney-stone-s",
+   "parsedId": "kidney-stone-s",
+   "name": "Kidney Stone(s)",
+   "category": "Genitourinary",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "neoplastic-disorders-cancer",
+   "parsedId": "neoplastic-disorders-cancer",
+   "name": "Neoplastic Disorders/Cancer",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "prostate-conditions",
+   "parsedId": "prostate-conditions",
+   "name": "Prostate Conditions",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "prostate-cancer",
+   "parsedId": "prostate-cancer",
+   "name": "Prostate Cancer",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "renal-cancer",
+   "parsedId": "renal-cancer",
+   "name": "Renal Cancer",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "testicular-cancer",
+   "parsedId": "testicular-cancer",
+   "name": "Testicular Cancer",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "nephritis",
+   "parsedId": "nephritis",
+   "name": "Nephritis",
+   "category": "Genitourinary",
+   "categoryRule": "guide category \"G-U System\""
+  },
+  {
+   "id": "arthritis",
+   "parsedId": "arthritis",
+   "name": "Arthritis",
+   "category": "Musculoskeletal",
+   "categoryRule": "guide category \"Musculoskeletal\""
+  },
+  {
+   "id": "leukemia-acute-and-chronic",
+   "parsedId": "leukemia-acute-and-chronic",
+   "name": "Leukemia, Acute and Chronic",
+   "category": "Blood and Lymphatics",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+   "parsedId": "chronic-lymphocytic-leukemia-cll-small-lymphocytic-lymphoma-sll",
+   "name": "Chronic Lymphocytic Leukemia (CLL) / Small Lymphocytic Lymphoma (SLL)",
+   "category": "Blood and Lymphatics",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "carotid-or-vertebral-artery-disease",
+   "parsedId": "carotid-or-vertebral-artery-disease",
+   "name": "Carotid or Vertebral Artery Disease",
+   "category": "Neurology",
+   "categoryRule": "guide category \"Neurologic\""
+  },
+  {
+   "id": "headache-or-migraine",
+   "parsedId": "headache-or-migraine",
+   "name": "Headache or Migraine",
+   "category": "Neurology",
+   "categoryRule": "override"
+  },
+  {
+   "id": "thrombocytopenia",
+   "parsedId": "thrombocytopenia",
+   "name": "Thrombocytopenia",
+   "category": "Blood and Lymphatics",
+   "categoryRule": "override"
+  },
+  {
+   "id": "covid-19-infections",
+   "parsedId": "covid-19-infections",
+   "name": "COVID-19 Infections",
+   "category": "Other",
+   "categoryRule": "override"
+  },
+  {
+   "id": "prediabetes",
+   "parsedId": "prediabetes",
+   "name": "Prediabetes",
+   "category": "Endocrine",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "adrenal-insufficiency-addisons-disease",
+   "parsedId": "adrenal-insufficiency-addisons-disease",
+   "name": "Adrenal Insufficiency (Addison’s Disease)",
+   "category": "Endocrine",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "hypothyroid-or-hypothyroidism",
+   "parsedId": "hypothyroid-or-hypothyroidism",
+   "name": "Hypothyroid or Hypothyroidism",
+   "category": "Endocrine",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "breast-cancer",
+   "parsedId": "breast-cancer",
+   "name": "Breast Cancer",
+   "category": "Other",
+   "categoryRule": "override"
+  },
+  {
+   "id": "polycystic-ovarian-syndrome-pcos",
+   "parsedId": "polycystic-ovarian-syndrome-pcos",
+   "name": "Polycystic Ovarian Syndrome (PCOS)",
+   "category": "Genitourinary",
+   "categoryRule": "name pattern"
+  },
+  {
+   "id": "primary-hemochromatosis",
+   "parsedId": "primary-hemochromatosis",
+   "name": "Primary Hemochromatosis",
+   "category": "Blood and Lymphatics",
+   "categoryRule": "override"
+  },
+  {
+   "id": "weight-loss-management",
+   "parsedId": "weight-loss-management",
+   "name": "Weight Loss Management",
+   "category": "Endocrine",
+   "categoryRule": "guide category \"General Systemic\""
+  },
+  {
+   "id": "substances-of-dependence-abuse",
+   "parsedId": "substances-of-dependence-abuse",
+   "name": "Substances of Dependence/Abuse",
+   "category": "Psychiatric",
+   "categoryRule": "guide category \"Substances of Dependence/Abuse\""
+  },
+  {
+   "id": "drug-use-past-or-present",
+   "parsedId": "drug-use-past-or-present",
+   "name": "Drug Use - Past or Present",
+   "category": "Psychiatric",
+   "categoryRule": "guide category \"Substances of Dependence/Abuse\""
+  }
+ ],
+ "siteOnly": [
+  {
+   "siteId": "avm-arteriovenous-malformation-of-the-nervous",
+   "siteName": "AVM (Arteriovenous Malformation) of the nervous",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "suggestion": {
+    "parsedId": "arteriovenous-malformation-avm-peripheral-lungs-liver-bone",
+    "score": 0.38
+   }
+  },
+  {
+   "siteId": "brain-tumor-intracranial-tumor-or-brain-cancer",
+   "siteName": "Brain Tumor (intracranial tumor) or Brain Cancer",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "suggestion": {
+    "parsedId": "brain-tumor-intracranial-tumor",
+    "score": 0.75
+   }
+  },
+  {
+   "siteId": "head-injury-or-brain-injuryconcussion-closed",
+   "siteName": "HEAD INJURY or BRAIN INJURYConcussion, Closed",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "suggestion": {
+    "parsedId": "head-injury-or-brain-injury",
+    "score": 0.4
+   }
+  },
+  {
+   "siteId": "head-injury-or-remote-brain-injury",
+   "siteName": "Head Injury or Remote Brain Injury",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "suggestion": {
+    "parsedId": "head-injury-or-brain-injury",
+    "score": 0.3
+   }
+  },
+  {
+   "siteId": "multiple-sclerosis-ms-neuromyelitis-optica-spectrum",
+   "siteName": "Multiple Sclerosis (MS); Neuromyelitis Optica Spectrum",
+   "siteSource": "OneGuide_Neurology.pdf",
+   "suggestion": {
+    "parsedId": "multiple-sclerosis-ms",
+    "score": 0.5
+   }
+  }
+ ],
+ "oneGuideDuplicatesLeftAsIs": [
+  {
+   "siteId": "alzheimer-s-disease-or-mild-cognitive-impairment-mci",
+   "siteName": "Alzheimer’s Disease or Mild Cognitive Impairment (MCI)",
+   "parsedId": "alzheimers-disease-or-mild-cognitive-impairment-mci-or-dementia",
+   "ameSiteId": "alzheimer-s-disease-or-mild-cognitive-impairment-mci-or-dementia"
+  },
+  {
+   "siteId": "bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy-32",
+   "siteName": "Bell’s Palsy (Facial Nerve Palsy; Cranial Nerve Palsy)",
+   "parsedId": "bells-palsy",
+   "ameSiteId": "bell-s-palsy-facial-nerve-palsy-cranial-nerve-palsy"
+  },
+  {
+   "siteId": "brain-aneurysm-not-ruptured-intracranial-aneurysm",
+   "siteName": "Brain Aneurysm NOT RUPTURED (Intracranial aneurysm",
+   "parsedId": "brain-aneurysm",
+   "ameSiteId": "brain-aneurysm-intracranial-aneurysm-cerebral-aneurysm-not-ruptured"
+  },
+  {
+   "siteId": "brain-bleed-cerebral-hemorrhage-intracranial",
+   "siteName": "Brain Bleed (cerebral hemorrhage; intracranial",
+   "parsedId": "brain-bleed",
+   "ameSiteId": "brain-bleed"
+  },
+  {
+   "siteId": "cognitive-or-mental-impairment-or-dysfunction",
+   "siteName": "Cognitive or Mental Impairment or Dysfunction;",
+   "parsedId": "cognitive-or-mental-impairment-or-dysfunction",
+   "ameSiteId": "cognitive-or-mental-impairment-or-dysfunction-cognitive-disorder"
+  },
+  {
+   "siteId": "deep-brain-stimulator-dbs",
+   "siteName": "Deep Brain Stimulator (DBS)",
+   "parsedId": "deep-brain-stimulator",
+   "ameSiteId": "deep-brain-stimulator"
+  },
+  {
+   "siteId": "dystonia-including-torticollis-117",
+   "siteName": "Dystonia (including torticollis)",
+   "parsedId": "dystonia-including-torticollis",
+   "ameSiteId": "dystonia-including-torticollis"
+  },
+  {
+   "siteId": "epilepsy-seizure-disorder-130",
+   "siteName": "Epilepsy (seizure disorder)",
+   "parsedId": "epilepsy",
+   "ameSiteId": "epilepsy-seizure-disorder"
+  },
+  {
+   "siteId": "guillain-barre-syndrome-135",
+   "siteName": "Guillain-Barre Syndrome",
+   "parsedId": "guillain-barre-syndrome",
+   "ameSiteId": "guillain-barre-syndrome"
+  },
+  {
+   "siteId": "huntington-s-disease-180",
+   "siteName": "Huntington’s Disease",
+   "parsedId": "huntingtons-disease",
+   "ameSiteId": "huntington-s-disease"
+  },
+  {
+   "siteId": "hydrocephalus-with-or-without-shunt",
+   "siteName": "Hydrocephalus (with or without shunt)",
+   "parsedId": "hydrocephalus-with-or-without-shunt",
+   "ameSiteId": "hydrocephalus-with-or-without-shunt-330"
+  },
+  {
+   "siteId": "myasthenia-gravis-generalized-or-ocular",
+   "siteName": "Myasthenia Gravis (Generalized or Ocular)",
+   "parsedId": "myasthenia-gravis",
+   "ameSiteId": "myasthenia-gravis"
+  },
+  {
+   "siteId": "narcolepsy-or-idiopathic-hypersomnia",
+   "siteName": "Narcolepsy or Idiopathic Hypersomnia",
+   "parsedId": "narcolepsy-and-idiopathic-hypersomnia",
+   "ameSiteId": "narcolepsy-and-idiopathic-hypersomnia"
+  },
+  {
+   "siteId": "neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia-248",
+   "siteName": "Neuralgia (trigeminal neuralgia; post herpetic neuralgia)",
+   "parsedId": "neuralgia",
+   "ameSiteId": "neuralgia-trigeminal-neuralgia-post-herpetic-neuralgia"
+  },
+  {
+   "siteId": "neurofibromatosis-type-1-nf-1-von-recklinghausen",
+   "siteName": "Neurofibromatosis (Type 1/NF-1 von Recklinghausen",
+   "parsedId": "neurofibromatosis",
+   "ameSiteId": "neurofibromatosis-type-1-nf-1-von-recklinghausen-disease-and-type-2-nf-2-wishart"
+  },
+  {
+   "siteId": "neuropathy-peripheral-neuropathy-276",
+   "siteName": "Neuropathy (peripheral neuropathy)",
+   "parsedId": "neuropathy",
+   "ameSiteId": "neuropathy-peripheral-neuropathy"
+  },
+  {
+   "siteId": "parkinson-s-disease-or-parkinsonism-secondary",
+   "siteName": "Parkinson’s Disease or Parkinsonism (secondary)",
+   "parsedId": "parkinsons-disease-and-parkinsonism-secondary",
+   "ameSiteId": "parkinson-s-disease-and-parkinsonism-secondary"
+  },
+  {
+   "siteId": "polio-poliomyelitis-297",
+   "siteName": "Polio (poliomyelitis)",
+   "parsedId": "polio-poliomyelitis",
+   "ameSiteId": "polio-poliomyelitis"
+  },
+  {
+   "siteId": "pseudotumor-cerebri-idiopathic-intracranial",
+   "siteName": "Pseudotumor Cerebri (idiopathic intracranial",
+   "parsedId": "pseudotumor-cerebri",
+   "ameSiteId": "pseudotumor-cerebri"
+  },
+  {
+   "siteId": "stroke-or-cva-cerebrovascular-accident-or-tia",
+   "siteName": "Stroke or CVA (cerebrovascular accident) or TIA",
+   "parsedId": "stroke",
+   "ameSiteId": "cerebrovascular-accident-cva-or-transient-ischemic-attack-tia"
+  },
+  {
+   "siteId": "uloc-unexplained-loss-of-consciousness-or",
+   "siteName": "ULOC (unexplained loss of consciousness) or",
+   "parsedId": "unexplained-loss-of-consciousness-uloc",
+   "ameSiteId": "unexplained-loss-of-consciousness-uloc-unexplained-disturbance-of-consciousness-"
+  }
+ ],
+ "conflicts": []
+}

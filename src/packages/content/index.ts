@@ -19,10 +19,25 @@ export type {
 
 export type { NihConditionMapFile } from './nihMap';
 
+export type {
+  CaciWorksheet,
+  FaaSource,
+  ParsedConditionEntry,
+  ParsedConditionsFile,
+} from './types';
+
+export { applyParsedConditions } from './parsedConditions';
+
 export {
   adaptGuidanceFile,
   adaptGuidanceFiles,
+  CONDITION_CERTIFICATION_NOTE,
+  conditionSummary,
   dedupeNormalizedRecords,
+  firstSentence,
+  isDisplayableConditionName,
+  isDisplayableScenario,
+  pickPrimaryDisposition,
   humanizeCategory,
   humanizeConditionName,
   mapDisposition,

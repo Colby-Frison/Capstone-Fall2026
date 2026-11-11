@@ -162,7 +162,7 @@ function stripTrailingDisposition(text: string): string {
     .trim();
 }
 
-function firstSentence(text: string, max = 180): string {
+export function firstSentence(text: string, max = 180): string {
   const cleaned = cleanText(text);
   if (!cleaned) return '';
   const sentence = cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned;
@@ -390,7 +390,7 @@ function recordToSubCondition(record: NormalizedRecord): SubCondition {
   };
 }
 
-function pickPrimaryDisposition(subs: SubCondition[]): Disposition {
+export function pickPrimaryDisposition(subs: SubCondition[]): Disposition {
   if (subs.some((s) => s.disposition === 'denial')) return 'denial';
   if (subs.some((s) => s.disposition === 'deferral')) return 'deferral';
   if (subs.some((s) => s.disposition === 'special-issuance')) {
@@ -516,7 +516,7 @@ export function adaptGuidanceFiles(
   return adaptGuidanceFile(mergeGuidanceFiles(files));
 }
 
-function isDisplayableConditionName(name: string): boolean {
+export function isDisplayableConditionName(name: string): boolean {
   const value = cleanText(name);
   if (!value || value.toUpperCase() === 'UNKNOWN') return false;
   const key = value.toLowerCase();
@@ -560,7 +560,7 @@ function isDisplayableConditionName(name: string): boolean {
   return true;
 }
 
-function isDisplayableScenario(name: string): boolean {
+export function isDisplayableScenario(name: string): boolean {
   const value = cleanText(name);
   if (!value || value.length < 6) return false;
   const upper = value.toUpperCase();
@@ -580,6 +580,15 @@ function isDisplayableScenario(name: string): boolean {
   }
   if (/^[a-z]/.test(value)) return false;
   return true;
+}
+
+export const CONDITION_CERTIFICATION_NOTE =
+  'Notes for each situation appear after you select one. They follow the published guide only.';
+
+export function conditionSummary(pathwayCount: number): string {
+  return `${pathwayCount} situation${
+    pathwayCount === 1 ? '' : 's'
+  } in the FAA guide. Choose the one that matches you to see the result and what to bring.`;
 }
 
 export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
@@ -616,12 +625,8 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
       new Set(subConditions.flatMap((sub) => sub.medicationNotes ?? [])),
     );
     const disposition = pickPrimaryDisposition(subConditions);
-    const pathwayCount = subConditions.length;
-    const summary = `${pathwayCount} situation${
-      pathwayCount === 1 ? '' : 's'
-    } in the FAA guide. Choose the one that matches you to see the result and what to bring.`;
-    const certificationNote =
-      'Notes for each situation appear after you select one. They follow the published guide only.';
+    const summary = conditionSummary(subConditions.length);
+    const certificationNote = CONDITION_CERTIFICATION_NOTE;
 
     const pages = records
       .map((r) => r.source?.pdf_page)

@@ -13,14 +13,10 @@
  "updated": null,
  "order": 17,
  "decisions": [
-  "faa_decision",
-  "issue",
-  "defer",
-  "special_issuance"
+  "faa_decision"
  ],
  "what_to_bring": [
-  "Submit all pertinent medical information and current status report",
-  "A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include:"
+  "Submit all pertinent medical information and current status report"
  ],
  "rows": [
   {
@@ -56,67 +52,21 @@
    "disposition_html": "<p>Requires FAA Decision</p>",
    "pdf_page": 84,
    "disposition_shared_with_previous_row": false
-  },
-  {
-   "label": "A",
-   "condition": "Myringotomy, Ear tubes, Tympanostomy tubes, Pressure equalizing tubes (PE tubes) (single or bilateral) No matter how many sets",
-   "condition_html": "<p><strong>A. </strong>Myringotomy, Ear tubes, Tympanostomy tubes, Pressure equalizing tubes (PE tubes)</p>\n<p><strong>(single or bilateral)</strong></p>\n<p><strong>No matter how many sets</strong></p>",
-   "evaluation_data": "If the AME can determine the condition is under control and no symptoms that would interfere with flight or safety-related duties: Note: There is no mandatory recovery period after PE tubes are placed other than wait time for General anesthesia (if used).",
-   "evaluation_data_html": "<p>If the AME can determine the condition is under control and no symptoms that would interfere with flight or safety-related duties:</p>\n<p><strong>Note: </strong>There is no mandatory recovery period after PE tubes are placed other than wait time for General anesthesia (if used).</p>",
-   "what_to_bring": [],
-   "decisions": [
-    "issue"
-   ],
-   "disposition": "ISSUE Annotate this information in Block 60",
-   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>this information in Block 60</p>",
-   "pdf_page": 85,
-   "disposition_shared_with_previous_row": false
-  },
-  {
-   "label": "B",
-   "condition": "RESOLVED Otitis media/ ear infection Tympanic membrane perforation (dry) OR Serous Otitis Media",
-   "condition_html": "<p><strong>B. RESOLVED </strong>Otitis media/ ear infection</p>\n<p>Tympanic membrane perforation (dry)</p>\n<p>OR</p>\n<p>Serous Otitis Media</p>",
-   "evaluation_data": "If the AME can determine the condition has resolved without sequelae or no symptoms or current problems that would interfere with flight duties AND The individual can pass any of the acceptable hearing tests:",
-   "evaluation_data_html": "<p>If the AME can determine the condition has resolved without sequelae or no symptoms or current problems that would interfere with flight duties</p>\n<p>AND</p>\n<p>The individual can pass any of the acceptable hearing tests:</p>",
-   "what_to_bring": [],
-   "decisions": [
-    "issue"
-   ],
-   "disposition": "ISSUE Annotate this information in Block 60",
-   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p><strong>Annotate </strong>this information in Block 60</p>",
-   "pdf_page": 85,
-   "disposition_shared_with_previous_row": false
-  },
-  {
-   "label": "C",
-   "condition": "ALL OTHERS Active acute Otitis Media/ear infection Chronic Otitis Media Chronic tympanic membrane perforation Eustachian Tube Dysfunction (ETD) Recurrent Acute Otitis Media Wet tympanic membrane perforation Any of the above with associated pathology",
-   "condition_html": "<p><strong>C. ALL OTHERS</strong></p>\n<p>Active acute Otitis Media/ear infection</p>\n<p>Chronic Otitis Media</p>\n<p>Chronic tympanic membrane perforation</p>\n<p>Eustachian Tube Dysfunction (ETD)</p>\n<p>Recurrent Acute Otitis Media</p>\n<p>Wet tympanic membrane perforation</p>\n<p><strong>Any of the above with associated pathology</strong></p>",
-   "evaluation_data": "Submit the following for FAA review: 1. A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan (prognosis); and • Follow-up.",
-   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>1. A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with the otolaryngologist <strong>(ENT) or PCP </strong>no more than 90 days prior to the AME exam. It must include:</p>\n<p>• A detailed summary of the history of the condition;</p>\n<p>• Current medications, dosage, and side effects (if any);</p>\n<p>• Physical exam findings;</p>\n<p>• Results of any testing performed;</p>\n<p>• Diagnosis;</p>\n<p>• Assessment and plan (prognosis); and</p>\n<p>• Follow-up.</p>",
-   "what_to_bring": [
-    "A current, detailed Clinical Progress Note generated from a clinic visit with the otolaryngologist (ENT) or PCP no more than 90 days prior to the AME exam. It must include:"
-   ],
-   "decisions": [
-    "defer",
-    "special_issuance"
-   ],
-   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance",
-   "disposition_html": "<p><strong>DEFER</strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>",
-   "pdf_page": 85,
-   "disposition_shared_with_previous_row": false
   }
  ],
  "caci_worksheets": [],
  "status_summaries": [],
- "notes_html": "<p><strong>MIDDLE EAR ABNORMALITIES </strong></p>\n<p><strong>(Otitis Media, Serous Otitis Media, Eardrum Abnormalities, Tympanic Membrane Perforation, Myringotomy, Ear Tubes, PE Tubes, Eustachian Tube Dysfunction) </strong></p>\n<p>All Classes</p>\n<p>(Updated 01/31/2024)</p>",
+ "notes_html": "",
  "links": [],
- "aliases": [],
+ "aliases": [
+  "Mastoid fistula",
+  "Mastoiditis, acute or chronic DISEASE/CONDITION"
+ ],
  "source": {
   "section": "item-29-ears-general",
   "section_title": "ITEM 29. Ears, General",
   "pdf_pages": [
-   84,
-   85
+   84
   ],
   "faa_url": "https://www.faa.gov/ame_guide"
  }

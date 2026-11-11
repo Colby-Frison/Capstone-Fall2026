@@ -35,5 +35,7 @@ describe("isFreqConditionTests", () => {
 });
 
 it("should correctly count frequent conditions matched", () => {
-  expect(frequentConditionCount()).toBe(13);
+  // 13 → 14 in #56: "Hypertension (HTN)" was missing from the old parser output and is
+  // now added from the parsed AME Guide; it matches "hypertension" in freq_conditions.json.
+  expect(frequentConditionCount()).toBe(14);
 });

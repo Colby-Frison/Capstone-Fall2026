@@ -1,0 +1,110 @@
+{
+ "id": "lens-implant",
+ "name": "Lens Implant",
+ "subtitle": "Crystalline Lens Replacement (Cataract or Refractive). (Use for VISION surgery such as Lens Implantation, Intraocular Lens [IOL], or cataract surgery with Lens Implant.)",
+ "name_in_guide": "LENS IMPLANT Crystalline Lens Replacement (Cataract or Refractive). (Use for VISION surgery such as Lens Implantation, Intraocular Lens [IOL], or cataract surgery with Lens Implant.)",
+ "category": {
+  "id": "eye",
+  "name": "Eye",
+  "exam_item": "31-34",
+  "part": "AME Physical Examination Information and Disposition Tables"
+ },
+ "applies_to": "All Classes",
+ "updated": "08/27/2025",
+ "order": 28,
+ "decisions": [
+  "issue",
+  "defer",
+  "special_issuance"
+ ],
+ "what_to_bring": [
+  "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include:",
+  "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+  "Copies of any testing performed (visual fields, etc.)"
+ ],
+ "rows": [
+  {
+   "label": "A",
+   "condition": "Surgery three (3) or more months ago AND • Full recovery; • Released from post-operative care; and • Off all medications. The individual meets the vision standards for class applied:",
+   "condition_html": "<p><strong>A. </strong>Surgery three (3) or more months ago</p>\n<p>AND</p>\n<p>• Full recovery;</p>\n<p>• Released from post-operative care; and</p>\n<p>• Off all medications.</p>\n<p>The individual meets the vision standards for class applied:</p>",
+   "evaluation_data": "Generally, not of aeromedical concern. If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as • Glare • Halos • Loss of contrast sensitivity • Poor night vision AND the individual meets the vision standards for class applied Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.",
+   "evaluation_data_html": "<p>Generally, not of aeromedical concern.</p>\n<p>If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as</p>\n<p>• Glare</p>\n<p>• Halos</p>\n<p>• Loss of contrast sensitivity</p>\n<p>• Poor night vision</p>\n<p>AND the individual meets the vision standards for class applied</p>\n<p>Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate this information including the reason the surgery was performed (cataracts, visual acuity performance, etc.) in Block 60.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate this information <strong>including the reason the surgery was performed </strong>(cataracts, visual acuity performance, etc.) in Block 60.</p>",
+   "pdf_page": 104,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "B",
+   "condition": "Surgery within the past 3 months.",
+   "condition_html": "<p><strong>B. </strong>Surgery within the past 3 months.</p>",
+   "evaluation_data": "The AME should review a completed and signed Eyes - Lens Implant Status Summary from the ophthalmologist or optometrist. If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:",
+   "evaluation_data_html": "<p>The AME should review a completed and signed Eyes - Lens Implant Status Summary from the ophthalmologist or optometrist.</p>\n<p>If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:</p>",
+   "what_to_bring": [],
+   "decisions": [
+    "issue"
+   ],
+   "disposition": "ISSUE Annotate Block 60 and submit the evaluation to the FAA for retention in the file.",
+   "disposition_html": "<p><strong>ISSUE</strong></p>\n<p>Annotate Block 60 and submit the evaluation to the FAA for retention in the file.</p>",
+   "pdf_page": 104,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": "C",
+   "condition": "All others including: • Complications • Does not meet vision standards • Quality of vision affected",
+   "condition_html": "<p><strong>C. </strong>All others including:</p>\n<p>• Complications</p>\n<p>• Does not meet vision standards</p>\n<p>• Quality of vision affected</p>",
+   "evaluation_data": "Submit the following for FAA review: 2. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include: • A detailed summary of the history of the condition; • Current medications, dosage, and side effects (if any); • Physical exam findings; • Results of any testing performed; • Diagnosis; • Assessment and plan; • Prognosis; and 2. The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 3. Copies of any testing performed (visual fields, etc.)",
+   "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<p>2. A <strong>current, detailed Clinical Progress Note </strong>generated from a clinic visit with the treating <strong>ophthalmologist </strong>no more than <strong>90 days </strong>prior to the AME exam. It must include:</p>\n<p>• A detailed summary of the history of the condition;</p>\n<p>• Current medications, dosage, and side effects (if any);</p>\n<p>• Physical exam findings;</p>\n<p>• Results of any testing performed;</p>\n<p>• Diagnosis;</p>\n<p>• Assessment and plan;</p>\n<p>• Prognosis; and</p>\n<p>2. The Clinical Progress Note must specifically include the best corrected <strong>visual acuity </strong>for distant and near vision (intermediate - if age 50 or older and First or Second Class). <strong>If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</strong></p>\n<p>3. Copies of any testing performed (visual fields, etc.)</p>",
+   "what_to_bring": [
+    "A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include:",
+    "The Clinical Progress Note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.",
+    "Copies of any testing performed (visual fields, etc.)"
+   ],
+   "decisions": [
+    "defer",
+    "special_issuance"
+   ],
+   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
+   "disposition_html": "<p><strong>DEFER </strong>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block</p>\n<p>60.</p>",
+   "pdf_page": 104,
+   "disposition_shared_with_previous_row": false
+  }
+ ],
+ "caci_worksheets": [],
+ "status_summaries": [
+  "Use this table with the Eyes - Lens Implant Status Summary for:"
+ ],
+ "notes_html": "<p>Use this table with the <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Eyes - Lens Implant Status Summary</a> for:</p>\n<ul><li>1. <strong>Mono</strong>focal lens (standard implant). Toric or astigmatism correcting lens.</li><li>2. Light adjustable lens (LAL).</li><li><p>3. Presbyopic lens.</p>\n<ul><li><strong>Multi</strong>focal or extended depth of focus (EDOF) lens</li></ul></li></ul>\n<p>Also see <a href=\"https://www.faa.gov/ame_guide/media/FAQS-Cataracts_Lens_Implant.pdf\" target=\"_blank\" rel=\"noopener\">Cataracts and Intraocular lenses (IOL) Frequently Asked Questions (FAQS)</a></p>\n<p><strong>EYES - LENS IMPLANT STATUS SUMMARY </strong></p>\n<p>(Updated 08/27/2025)</p>\n<p>Surgery which replaced the natural crystalline lens of the eye. May be called Lens Implantation; Lens Replacement; Intraocular Lens (IOL); or Cataract surgery with Lens Implant</p>\n<p>Name _______________________________ Birthdate ________________</p>\n<p>Applicant ID#__________________________ PI# _____________________</p>\n<p>If the pilot or ATCS has an AASI/SI/SC for any other EYE condition, conductive keratoplasty (CK), INTACS, clear lens extraction, ICL or Phakic lenses, visual field loss or this is a non-FDA approved procedure: <strong>STOP. </strong> Do not use this summary, submit all clinical progress notes, or see the corresponding AME Guide page.</p>\n<p>Please have your <strong>ophthalmologist or optometrist </strong>complete, sign, and date this sheet or submit a <a href=\"http://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf\" target=\"_blank\" rel=\"noopener\">current, detailed Clinical Progress Note</a> that addresses ALL items below.</p>\n<p>Right Eye (OD) Left Eye (OS)</p>\n<p>DATE OF SURGERY _______/________/_____ _______/______/______</p>\n<ul><li>1. Has the<strong> MINIMUM RECOVERY PERIOD</strong> been met? (Circle type of lens)</li></ul>\n<table><thead><tr><th>YES</th><th>NO*</th></tr></thead><tbody></tbody></table>\n<ul><li><p> <strong>Two (2) weeks </strong></p>\n<ul><li>MONOfocal lens (standard implant)</li><li>Toric or astigmatism correcting lens</li></ul></li><li> If Light Adjustable Lens (LAL) - <strong>Six (6) weeks total t</strong>o include two (2) weeks after the final adjustment/lens lockdown and taken off UV avoidance.</li><li><p> <strong>Twelve (12) weeks </strong></p>\n<ul><li>Presbyopia correcting lenses</li><li>MULTIfocal or Extended Depth of Focus (EDOF) lens</li></ul></li></ul>\n<ul><li>2. Absent from surgical or post-operative complications (e.g., macular edema, elevated pressure, corneal edema, delayed healing), released from postoperative care, and NO clinical concerns*.</li></ul>\n<ul><li>3. Off all prescription eye medication or on surgeon’s usual medication taper.</li></ul>\n<ul><li>4. Without adverse visual symptoms which interfere with visual functioning: glare, halo, photophobia, multiple images, blurred vision, decreased quality of vision in low light conditions (dusk, dawn, night), no difficulty with nighttime driving.</li><li>5. Visual result has stabilized, received lens correction (if needed) and best corrected vision meets standards. Annotate VA below.</li></ul>\n<table><tbody><tr><td><p><strong>Visual Acuity [Medical Standards] </strong></p></td><td><p><strong>Right (OD) </strong></p></td><td><p><strong>Left (OS) </strong></p></td><td></td><td><p><strong>Correction used </strong></p></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td><p><strong>(yes or no) </strong></p></td><td></td></tr><tr><td><p><strong>Distant </strong>(1st and 2nd class <strong>20/20 </strong>or better; 3rd class 20/40 or better)</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td><td><p></p></td><td></td></tr><tr><td><p><strong>Near (16”) </strong>(All classes 20/40 or better)</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td><td><p></p></td><td></td></tr><tr><td><p><strong>Intermediate (32”): </strong>Age 50 and over, 1st or 2nd class (20/40 or better); 3rd class not required</p></td><td><p>20/</p></td><td><p>20/</p></td><td></td><td></td><td></td></tr></tbody></table>\n<p>*If any concerns, please describe below or attach a Clinical Progress Note.</p>\n<p>Ophthalmologist or Optometrist signature _______________________ Date _____________________________</p>\n<p>Printed name or office name __________________________________ Office phone number ________________</p>\n<ul><li>Pilots: Submit either this summary or all supporting documentation addressing each item to your AME for electronic upload to the FAA.</li></ul>\n<ul><li>ATCS: Submit the information to your Regional Flight Surgeon’s Office.</li></ul>\n<p><strong>AME: </strong> If<strong> ALL </strong>items fall into the clear “YES” column and the individual meets vision requirements for class, the AME may issue.</p>\n<p>If <strong>Any Single </strong>Item falls into the shaded “NO” column, the <strong>AME MUST DEFER. </strong>The AME should note what aspect caused the deferral and explain any “NO” answers. Attach the most recent detailed Clinical Progress Note(s) which addresses these items.</p>\n<p><strong>NOTE:</strong> This Status Summary is NOT required (clinical records may be submitted); however, it will help to streamline and significantly DECREASE FAA review time.</p>\n<p><strong>CATARACTS AND INTRAOCULAR LENSES (IOL) </strong></p>\n<p><strong>FREQUENTLY ASKED QUESTIONS (FAQS) </strong></p>\n<p>(Updated 08/27/2025)</p>\n<p><strong>1. What is a cataract? </strong></p>\n<p>A cataract is a condition where the lens can become progressively opaque, interfering with vision. It often presents as blurry vision, like viewing things through a cloudy piece of glass. It may also be noted at night and with reading fine print. Most cases occur in people over 60 but can occur at younger ages in patients with diabetes mellitus, chronic use of steroids, or with a history of eye trauma. It is the most common cause of blindness.</p>\n<p>In some cases, visual acuity may be 20/20 or better, but the individual still has poor quality of vision that could affect the ability to fly or control traffic.</p>\n<p><strong>2. What do I need to consider when choosing an implanted (intraocular) lens if I am a pilot or ATCS? </strong></p>\n<p>The type of lens implanted may result in adverse effects such glare, halos, loss of contrast sensitivity, or poor quality of vision, especially at night. These adverse effects can be disqualifying.</p>\n<p>The individual should discuss with the eye doctor that as a pilot or ATCS, night vision and the absence of halos or glare is very important.</p>\n<p>Simple lenses or <strong>mono</strong>focal lenses correct for only one vision distance (near, mid, or distant) and are less likely to result in adverse visual effects. However, the individual may still require reading glasses.</p>\n<p><strong>Multi</strong>focal and extended depth of focus (EDOF) lenses reduce the need for reading or intermediate (computer length) glasses but are more likely to have visual side effects.</p>\n<p><strong>3. What type of lenses are currently available? </strong></p>\n<p><strong>Monofocal lens:</strong> Correct an individual&#x27;s vision at only one distance (either near, intermediate, or distant). They tend to be less expensive and less likely to cause halos or night vision abnormalities. However, the individual may continue to need glasses to read or see instrument panels.</p>\n<p><strong>Multifocal lens</strong>: Are designed to correct vision at multiple distances—such as near, intermediate, and distant—similar to bifocal or trifocal contact lenses. There are multiple brand names available. Multifocal lenses are typically more expensive. They may not provide vision as sharp as monofocal lenses, and can sometimes worsen night vision, especially when driving. Some people may also notice glare or halos around lights, and may still need reading glasses.</p>\n<p><strong>Light Adjustable Lens (LAL)</strong>: LAL is not multifocal. It requires additional time after implant before returning to flight or safety-related duties as the lens must be locked in. Eyes must be protected from UV light until locked in.</p>\n<p><strong>Presbyopia* correcting lenses</strong>: This includes both multifocal and EDOF lenses.</p>\n<p><strong>*</strong>Presbyopia is a condition in which the individual loses the ability to see things up close as a normal part of aging.</p>\n<p><strong>4. How do I tell which lens type I have? </strong></p>\n<p>Check with the eye doctor.</p>\n<p><strong>5. How long do I have to wait after lens replacement surgery or cataract surgery? </strong></p>\n<p>It depends on the type of lens implanted. Before return to flight or safety-related duties, the individual must meet all criteria outlined in the <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">FAA Eyes - Lens Implant Status Summary sheet</a> AND meet the vision standards for the class of medical certificate held.</p>\n<p><strong>6. Is there a specific wait time between surgery on each eye? </strong></p>\n<p>The treating eye professional will make that determination. There is no FAA required wait time between left and right eye procedures. (Many institutions correct one eye first and then 2 weeks later, correct the other eye, while some use 1 week, and others do surgery on both eyes the same day.)</p>\n<p><strong>7. What if I have lens replacement and can no longer meet the FAA vision standards? </strong></p>\n<p>If no longer correctable to standards, the AME will need to defer. A medical flight test may be authorized for a possible SODA or Special Issuance.</p>\n<p><strong>8. My eye doctor has released me, what do I need to check before I fly or control traffic? </strong></p>\n<p>The individual should ask themselves the following questions and discuss any concerns with the eye doctor or AME:</p>\n<ul><li>“Has my night vision returned? “</li><li>“Can I drive at night without glare?”</li><li>“Does light bother my eyes less than before my surgery?”</li></ul>",
+ "links": [
+  {
+   "text": "Eyes - Lens Implant Status Summary",
+   "href": "https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf"
+  },
+  {
+   "text": "Cataracts and Intraocular lenses (IOL) Frequently Asked Questions (FAQS)",
+   "href": "https://www.faa.gov/ame_guide/media/FAQS-Cataracts_Lens_Implant.pdf"
+  },
+  {
+   "text": "current, detailed Clinical Progress Note",
+   "href": "http://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf"
+  }
+ ],
+ "aliases": [],
+ "source": {
+  "section": "diplopia-double-vision",
+  "section_title": "DIPLOPIA (DOUBLE VISION)",
+  "pdf_pages": [
+   104,
+   105,
+   106,
+   107,
+   108,
+   109
+  ],
+  "faa_url": "https://www.faa.gov/ame_guide"
+ }
+}
