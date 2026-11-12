@@ -102,7 +102,6 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                 <span style={{ background: '#e8f2fb', border: '1px solid #b8d4ef', borderRadius: 3, padding: '2px 10px', fontSize: '0.72rem', fontWeight: 700, color: '#1b2d4f', fontFamily: "'DM Sans', sans-serif", textTransform: 'uppercase', letterSpacing: '0.07em' }}>
                   {condition.category}
                 </span>
-                <DispositionBadge disposition={activeDisposition} size="sm" />
               </div>
               <h1 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 'clamp(1.5rem, 3vw, 2.25rem)', color: '#1b2d4f', margin: 0, letterSpacing: '-0.02em' }}>
                 {condition.name}
