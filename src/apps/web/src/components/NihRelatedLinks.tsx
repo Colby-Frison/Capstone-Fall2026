@@ -97,6 +97,9 @@ export default function NihRelatedLinks({ links, unmatched = false, query }: Pro
                   }}
                 >
                   {link.title}
+                  <span style={{ fontSize: '0.75rem', color: '#64748b', marginLeft: 6 }}>
+                    (opens educational resource)
+                  </span>
                 </a>
               </li>
             ))}
