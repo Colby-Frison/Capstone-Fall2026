@@ -21,11 +21,17 @@ GOLDENS = json.loads(
 
 requires_ame_pdf = pytest.mark.skipif(
     not AME_PDF.is_file(),
-    reason="Private ame_guide.pdf missing; run: node scripts/fetch-guidance.mjs --with-pdfs",
+    reason=(
+        "Private ame_guide.pdf missing; place it at "
+        "Documentation/Resources/ame_guide.pdf (gitignored — see Documentation/Guidance_Data_Privacy.md)"
+    ),
 )
 requires_oneguide_pdf = pytest.mark.skipif(
     not ONEGUIDE_PDF.is_file(),
-    reason="Private OneGuide_Neurology.pdf missing; run: node scripts/fetch-guidance.mjs --with-pdfs",
+    reason=(
+        "Private OneGuide_Neurology.pdf missing; place it at "
+        "Documentation/Resources/OneGuide_Neurology.pdf (gitignored — see Documentation/Guidance_Data_Privacy.md)"
+    ),
 )
 
 
