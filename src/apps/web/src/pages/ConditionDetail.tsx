@@ -300,6 +300,65 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
             </section>
           )}
 
+          {/* D2. CACI worksheets from the parsed AME Guide */}
+          {(condition.caciWorksheets ?? []).map((ws) => (
+            <section key={ws.title} style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
+              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
+                {ws.title}
+              </h2>
+              <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 12px', lineHeight: 1.5 }}>
+                CACI means the medical examiner can issue at the visit if every criterion below is met.
+                {ws.updated ? ` Worksheet updated ${ws.updated}.` : ''}
+              </p>
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#334155' }}>
+                  <thead>
+                    <tr>
+                      <th style={{ textAlign: 'left', padding: '8px 10px', borderBottom: '1px solid #e2e8f0', background: '#f8fafc', width: '38%' }}>The medical examiner reviews</th>
+                      <th style={{ textAlign: 'left', padding: '8px 10px', borderBottom: '1px solid #e2e8f0', background: '#f8fafc' }}>Acceptable for certification</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {ws.criteria.map((c, index) => (
+                      <tr key={`${index}-${c.ameMustReview.slice(0, 24)}`}>
+                        <td style={{ padding: '8px 10px', borderBottom: '1px solid #f0f4f8', verticalAlign: 'top' }}>{c.ameMustReview}</td>
+                        <td style={{ padding: '8px 10px', borderBottom: '1px solid #f0f4f8', verticalAlign: 'top' }}>{c.acceptableCertificationCriteria}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {ws.block60Options.length > 0 && (
+                <>
+                  <div style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.85rem', color: '#1b2d4f', margin: '16px 0 6px' }}>
+                    What the examiner notes in Block 60
+                  </div>
+                  <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#475569', lineHeight: 1.6 }}>
+                    {ws.block60Options.map((option) => (
+                      <li key={option} style={{ marginBottom: 4 }}>{option}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </section>
+          ))}
+
+          {/* D3. Notes printed under the condition table (sanitized to an allowlist when the data is built) */}
+          {condition.notesHtml && (
+            <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '20px 28px' }}>
+              <details>
+                <summary style={{ cursor: 'pointer', fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f' }}>
+                  Notes from the guide
+                </summary>
+                <div
+                  className="guide-notes"
+                  style={{ marginTop: 12, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.65 }}
+                  dangerouslySetInnerHTML={{ __html: condition.notesHtml }}
+                />
+              </details>
+            </section>
+          )}
+
           {/* E. Medication notes from source guidance */}
           {activeMedNotes.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
@@ -400,6 +459,25 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
               <div style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#334155', lineHeight: 1.55 }}>
                 <div><strong>{condition.source}</strong></div>
                 <div style={{ color: '#6b7a99', marginTop: 2 }}>{condition.sourceSection}</div>
+                {condition.faaSource && (
+                  <div style={{ marginTop: 8 }}>
+                    <a
+                      href={condition.faaSource.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: '#2563eb', textDecoration: 'none' }}
+                    >
+                      {condition.faaSource.guideTitle}
+                      {condition.faaSource.pdfPages.length > 0 &&
+                        (condition.faaSource.pdfPages.length > 1
+                          ? `, pp. ${condition.faaSource.pdfPages[0]}–${condition.faaSource.pdfPages[condition.faaSource.pdfPages.length - 1]}`
+                          : `, p. ${condition.faaSource.pdfPages[0]}`)}
+                    </a>
+                    {condition.faaSource.updated && (
+                      <span style={{ color: '#6b7a99' }}> · updated {condition.faaSource.updated}</span>
+                    )}
+                  </div>
+                )}
               </div>
             </div>
             <DisclaimerCallout variant="compact" />

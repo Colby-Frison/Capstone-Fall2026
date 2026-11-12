@@ -57,10 +57,7 @@
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated wit",
-   "- B. UNKNOWN (or uncertain) etiology For ANY duration."
-  ],
+  "aliases": [],
   "rows": 2,
   "updated": "06/29/2022"
  },
@@ -250,15 +247,30 @@
   "category": "ears-general",
   "category_name": "Ears, General",
   "decisions": [
-   "faa_decision",
+   "faa_decision"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Mastoid fistula",
+   "Mastoiditis, acute or chronic DISEASE/CONDITION"
+  ],
+  "rows": 2,
+  "updated": null
+ },
+ {
+  "id": "middle-ear-abnormalities",
+  "name": "Middle Ear Abnormalities",
+  "category": "ears-general",
+  "category_name": "Ears, General",
+  "decisions": [
    "issue",
    "defer",
    "special_issuance"
   ],
   "has_caci": false,
   "aliases": [],
-  "rows": 5,
-  "updated": null
+  "rows": 3,
+  "updated": "01/31/2024"
  },
  {
   "id": "outer-ear-abnormalities",
@@ -304,6 +316,21 @@
   "aliases": [],
   "rows": 2,
   "updated": "08/26/2026"
+ },
+ {
+  "id": "blepharitis-and-conjunctivitis",
+  "name": "Blepharitis and Conjunctivitis",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
+   "issue",
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 3,
+  "updated": "08/27/2025"
  },
  {
   "id": "cataract-s",
@@ -372,14 +399,30 @@
   "category": "eye",
   "category_name": "Eye",
   "decisions": [
-   "see_reference",
+   "see_reference"
+  ],
+  "has_caci": false,
+  "aliases": [
+   "Aphakia/Lens Implants Intraocular Devices",
+   "Conductive Keratoplasty (CK) - Farsightedness",
+   "Refractive Procedures other than CK"
+  ],
+  "rows": 3,
+  "updated": "08/27/2025"
+ },
+ {
+  "id": "lens-implant",
+  "name": "Lens Implant",
+  "category": "eye",
+  "category_name": "Eye",
+  "decisions": [
    "issue",
    "defer",
    "special_issuance"
   ],
   "has_caci": false,
   "aliases": [],
-  "rows": 6,
+  "rows": 3,
   "updated": "08/27/2025"
  },
  {
@@ -446,10 +489,7 @@
    "special_issuance"
   ],
   "has_caci": true,
-  "aliases": [
-   "- A. Isolated eyelid coloboma only Not associated with other eye pathology or sy",
-   "- B. Coloboma - All others Other structure affected Associated with syndrome Pro"
-  ],
+  "aliases": [],
   "rows": 2,
   "updated": "08/27/2025"
  },
@@ -604,8 +644,22 @@
   ],
   "has_caci": false,
   "aliases": [],
-  "rows": 4,
+  "rows": 2,
   "updated": "08/28/2024"
+ },
+ {
+  "id": "chronic-obstructive-pulmonary-disease-copd-emphysema-chronic-bronchitis",
+  "name": "Chronic Obstructive Pulmonary Disease (COPD); Emphysema; Chronic Bronchitis",
+  "category": "lungs-and-chest",
+  "category_name": "Lungs and Chest",
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
+  "has_caci": false,
+  "aliases": [],
+  "rows": 2,
+  "updated": "08/26/2026"
  },
  {
   "id": "disease-of-the-lungs-pleura-or-mediastinum",
@@ -1643,11 +1697,7 @@
    "special_issuance"
   ],
   "has_caci": true,
-  "aliases": [
-   "- - - - A. Osteoarthritis",
-   "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
-   "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause wit"
-  ],
+  "aliases": [],
   "rows": 3,
   "updated": "04/29/2026"
  },
@@ -1781,15 +1831,18 @@
   "updated": null
  },
  {
-  "id": "neurologic",
-  "name": "Neurologic",
+  "id": "alzheimers-disease-or-mild-cognitive-impairment-mci-or-dementia",
+  "name": "ALZHEIMER's Disease or Mild Cognitive Impairment (MCI) or Dementia",
   "category": "neurologic",
   "category_name": "Neurologic",
-  "decisions": [],
+  "decisions": [
+   "defer",
+   "special_issuance"
+  ],
   "has_caci": false,
   "aliases": [],
-  "rows": 1,
-  "updated": null
+  "rows": 3,
+  "updated": "02/22/2023"
  },
  {
   "id": "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
@@ -1824,15 +1877,13 @@
   "category": "neurologic",
   "category_name": "Neurologic",
   "decisions": [
+   "issue",
    "defer",
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "DISEASE/CONDITION",
-   "Any additional neurological condition, neurological symptoms, or concern"
-  ],
-  "rows": 2,
+  "aliases": [],
+  "rows": 4,
   "updated": "01/25/2023"
  },
  {
@@ -1918,10 +1969,7 @@
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "- A. Central Sleep Apnea Noted on sleep study results ONLY",
-   "- B. Central Sleep Apnea Diagnosis"
-  ],
+  "aliases": [],
   "rows": 2,
   "updated": "01/25/2023"
  },
@@ -1992,10 +2040,7 @@
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "- A. Epilepsy by history Seizure-free for ten (10) years AND Off medication for",
-   "- B. SeLECTS (Self-limited Epilepsy with Centrotemporal Spikes). Seizure-free fo"
-  ],
+  "aliases": [],
   "rows": 2,
   "updated": "05/31/2023"
  },
@@ -2269,10 +2314,7 @@
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "- A. TGA Single episode 5 or more years ago",
-   "- B. TGA Single episode less than 5 years ago OR If 2 or more lifetime episodes,"
-  ],
+  "aliases": [],
   "rows": 2,
   "updated": "01/25/2023"
  },
@@ -2403,17 +2445,23 @@
   "category": "psychiatric",
   "category_name": "Psychiatric",
   "decisions": [
-   "issue",
-   "faa_decision"
+   "faa_decision",
+   "issue"
   ],
   "has_caci": false,
   "aliases": [
+   "Substance Abuse",
+   "Bipolar Disorder",
+   "Dysthymic",
+   "Depression requiring the use of antidepressant medications",
+   "Personality Disorders",
+   "Psychosis",
    "Psychotropic medications for Smoking Cessation",
    "Substance Abuse",
    "Substance Dependence",
    "Suicide Attempt"
   ],
-  "rows": 4,
+  "rows": 10,
   "updated": null
  },
  {
@@ -2626,11 +2674,7 @@
    "special_issuance"
   ],
   "has_caci": false,
-  "aliases": [
-   "- A. Post-surgical hypoPARAthyroidism hypoPARAthyroidism treated with surgery si",
-   "- B. Post-surgical hypoPARAthyroidism treated with surgery less than six (6) mon",
-   "- C. Chronic hypoPARAthyroidism due to autoimmune or other cause (treated or unt"
-  ],
+  "aliases": [],
   "rows": 3,
   "updated": null
  },

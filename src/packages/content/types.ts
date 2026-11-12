@@ -33,6 +33,28 @@ export interface SubCondition {
   certificateClasses?: string[];
   sourcePage?: number;
   warnings?: string[];
+  /** Row letter in the FAA disposition table (A, B, …), when the guide prints one. */
+  label?: string;
+  /** Full text of the FAA "Disposition" cell, kept verbatim. */
+  dispositionText?: string;
+}
+
+/** CACI worksheet from the parsed AME Guide. */
+export interface CaciWorksheet {
+  title: string;
+  updated: string | null;
+  criteria: { ameMustReview: string; acceptableCertificationCriteria: string }[];
+  block60Options: string[];
+}
+
+/** Where a parsed condition sits in the FAA AME Guide. */
+export interface FaaSource {
+  guideTitle: string;
+  guideVersion: string | null;
+  url: string;
+  pdfPages: number[];
+  sectionTitle: string;
+  updated: string | null;
 }
 
 /** NIH identity attached from the committed FAA↔NIH sidecar (never overrides FAA disposition). */
@@ -63,6 +85,30 @@ export interface Condition {
   medicationNotes?: string[];
   /** Populated from `nih_condition_map.json` when present. */
   nih?: NihConditionIdentity;
+  /** From the parsed AME Guide (`parsed_conditions.json`). */
+  caciWorksheets?: CaciWorksheet[];
+  /** Notes printed under the condition table; sanitized to an allowlist of tags at build time. */
+  notesHtml?: string;
+  faaSource?: FaaSource;
+  /** Sub-condition names the parser found in group tables (kept for later search work). */
+  aliases?: string[];
+}
+
+/** One entry of `src/data/guidance/parsed_conditions.json`. */
+export interface ParsedConditionEntry {
+  /** Site condition id (= `?condition=` value). */
+  id: string;
+  parsedId: string;
+  status: 'matched' | 'added';
+  /** For `matched`: fields that replace the adapted condition's. For `added`: the full condition. */
+  fields: Partial<Condition>;
+}
+
+export interface ParsedConditionsFile {
+  version: number;
+  source: string;
+  guideVersion: string | null;
+  conditions: ParsedConditionEntry[];
 }
 
 export interface Medication {

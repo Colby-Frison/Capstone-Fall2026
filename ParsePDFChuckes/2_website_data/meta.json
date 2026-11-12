@@ -2,16 +2,16 @@
  "source": "FAA Guide for Aviation Medical Examiners",
  "source_url": "https://www.faa.gov/ame_guide",
  "guide_version": "08/26/2026",
- "generated": "2026-10-18",
+ "generated": "2026-11-10",
  "counts": {
-  "conditions": 181,
+  "conditions": 185,
   "categories": 21,
-  "disposition_rows": 497,
+  "disposition_rows": 510,
   "reference_pages": 195
  },
  "validation": {
-  "disposition_rows_in_guide": 497,
-  "disposition_rows_placed": 497,
+  "disposition_rows_in_guide": 510,
+  "disposition_rows_placed": 510,
   "rows_without_recognised_decision": 14,
   "issues": []
  }

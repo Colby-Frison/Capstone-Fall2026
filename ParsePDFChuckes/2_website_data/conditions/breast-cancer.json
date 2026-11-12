@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "09/27/2021",
- "order": 175,
+ "order": 179,
  "decisions": [
   "issue",
   "caci",
@@ -62,8 +62,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- C. All others Chemotherapy used Lymph node spread Metastatic disease Stage IA or higher",
+   "label": "C",
+   "condition": "All others Chemotherapy used Lymph node spread Metastatic disease Stage IA or higher",
    "condition_html": "<ul><li><strong>C. </strong></li></ul>\n<p>All others</p>\n<p>Chemotherapy used</p>\n<p>Lymph node spread</p>\n<p>Metastatic disease</p>\n<p>Stage IA or higher</p>",
    "evaluation_data": "Submit the following to the FAA for review: - Status report or treatment records from treating oncologist that provides the following information: - Initial staging, - Disease course including recurrence(s), - Location(s) of metastatic disease (if any), - Treatments used, - How long the condition has been stable, - If any upcoming treatment change is planned or expected and prognosis; - Medication list. Dates started and stopped. - Description of side effects, if any; - Operative notes and discharge summary (if applicable); - Copies of lab including pathology reports, tumor markers (if already performed by treating physician); Copies of imaging such as mammogram, MRI/CT or PET scan reports that have already been performed. (In some cases, the actual CDs will be required in DICOM format for FAA review).",
    "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> Status report or treatment records from treating oncologist that provides the following information:<ul><li>Initial staging,</li><li>Disease course including recurrence(s),</li><li>Location(s) of metastatic disease (if any),</li><li>Treatments used,</li><li>How long the condition has been stable,</li><li>If any upcoming treatment change is planned or expected and prognosis;</li></ul></li></ul>\n<ul><li> Medication list. Dates started and stopped.</li></ul>\n<ul><li>Description of side effects, if any;</li><li> Operative notes and discharge summary</li></ul>\n<p>(if applicable);</p>\n<ul><li> Copies of lab including pathology reports, tumor markers (if already performed by treating physician);</li></ul>\n<p>Copies of imaging such as mammogram, MRI/CT or PET scan reports that have already been performed.</p>\n<p>(In some cases, the actual CDs will be required in DICOM format for FAA review).</p>",

@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "09/24/2025",
- "order": 41,
+ "order": 45,
  "decisions": [
   "defer",
   "special_issuance"
@@ -36,8 +36,8 @@
  ],
  "rows": [
   {
-   "label": null,
-   "condition": "- A. Idiopathic Pulmonary Fibrosis",
+   "label": "A",
+   "condition": "Idiopathic Pulmonary Fibrosis",
    "condition_html": "<ul><li>A. <strong>Idiopathic</strong> Pulmonary Fibrosis</li></ul>",
    "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with a board-certified Pulmonologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; assessment and plan; - Prognosis; and follow-up. - 2. The Clinical Progress Note must specifically include: - Current disease severity, - GAP score, - History of acute exacerbations or other complications - 3. Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days - 4. Current 6-Minute Walk Test (6MWT) per FAA protocol - 5. Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas).",
    "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with a board-certified <strong>Pulmonologist</strong> no more than 90 days prior to the AME exam. It must include:</li><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis; assessment and plan;</li><li>Prognosis; and follow-up.</li></ul>\n<ul><li>2. The Clinical Progress Note <strong>must specifically include</strong>:</li><li>Current disease severity,</li><li>GAP score,</li><li>History of acute exacerbations or other complications</li></ul>\n<ul><li>3. Pulmonary Function Test (PFTs) with DLCO performed within the past 90 days</li></ul>\n<ul><li>4. Current <a href=\"https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6-Minute Walk Test</a> (6MWT) per FAA protocol</li></ul>\n<ul><li>5. Results of tests/ imaging already performed (such as High-Resolution CT or arterial blood gas).</li></ul>",

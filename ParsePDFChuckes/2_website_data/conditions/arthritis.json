@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "04/29/2026",
- "order": 103,
+ "order": 107,
  "decisions": [
   "issue",
   "caci",
@@ -29,8 +29,8 @@
  ],
  "rows": [
   {
-   "label": null,
-   "condition": "- - - - A. Osteoarthritis",
+   "label": "A",
+   "condition": "Osteoarthritis",
    "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>A. </strong>Osteoarthritis</li></ul></li></ul></li></ul></li></ul>",
    "evaluation_data": "- Well controlled, no persistent daily symptoms; - No functional limitations; and - Treatment is NSAIDS or anti-inflammatory medication only.",
    "evaluation_data_html": "<ul><li>Well controlled, no persistent daily symptoms;</li><li>No functional limitations; and</li><li>Treatment is NSAIDS or anti-inflammatory medication only.</li></ul>",
@@ -48,8 +48,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
+   "label": "B",
+   "condition": "Osteoarthritis on additional medication OR Autoimmune arthritis",
    "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>B. </strong>Osteoarthritis on additional medication</li></ul></li></ul></li></ul></li></ul>\n<p>OR</p>\n<p>Autoimmune arthritis</p>",
    "evaluation_data": "See CACI worksheet This will require a current, detailed clinical progress note and Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen) if taking plaquenil.",
    "evaluation_data_html": "<p>See CACI worksheet</p>\n<p>This will require a current, detailed clinical progress note</p>\n<p>and <a href=\"https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf\" target=\"_blank\" rel=\"noopener\">Hydroxychloroquine (HCQ)/ Chloroquine (CQ) Status Summary (Plaquenil/Aralen)</a> if taking plaquenil.</p>",
@@ -63,8 +63,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause with complications or systemic disease, etc.",
+   "label": "C",
+   "condition": "All others - Complications*; - Symptomatic; or - Underlying cause with complications or systemic disease, etc.",
    "condition_html": "<ul><li><ul><li><ul><li><ul><li><strong>C. All others </strong></li></ul></li></ul></li></ul></li><li>Complications*;</li><li>Symptomatic; or</li><li>Underlying cause with complications</li></ul>\n<p>or systemic disease, etc.</p>",
    "evaluation_data": "Submit the following to the FAA for review: - A current, detailed Clinical Progress Note generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up. - It should note if there are any functional limitations. - Operative notes (if applicable); and - Copies of imaging reports and lab (if already performed by treating physician)",
    "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li> A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating physician no more than 90 days before the AME exam. It must include a detailed summary of the history of the condition; current medications, dosage, and side effects (if any); physical exam findings; results of any testing performed; diagnosis; assessment; plan (prognosis); and follow-up.</li><li> It should note if there are any functional limitations.</li><li> Operative notes (if applicable); and</li><li> Copies of imaging reports and lab (if already performed by treating physician)</li></ul>",
@@ -129,11 +129,7 @@
    "href": "https://www.faa.gov/ame_guide/media/C-CACIArthritis.pdf"
   }
  ],
- "aliases": [
-  "- - - - A. Osteoarthritis",
-  "- - - - B. Osteoarthritis on additional medication OR Autoimmune arthritis",
-  "- - - - C. All others - Complications*; - Symptomatic; or - Underlying cause wit"
- ],
+ "aliases": [],
  "source": {
   "section": "osteomyelitis-bone-infection",
   "section_title": "OSTEOMYELITIS (BONE INFECTION)",

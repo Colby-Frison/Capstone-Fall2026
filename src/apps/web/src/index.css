@@ -436,3 +436,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-unknown-text);
   border-color: var(--color-unknown-border);
 }
+
+/* Notes from the parsed AME Guide (ConditionDetail "Notes from the guide"; HTML is allowlisted at build time) */
+.guide-notes p { margin: 0 0 8px; }
+.guide-notes ul,
+.guide-notes ol { margin: 0 0 8px; padding-left: 20px; }
+.guide-notes ul { list-style: disc; }
+.guide-notes ol { list-style: decimal; }
+.guide-notes li { margin-bottom: 4px; }
+.guide-notes h4 { margin: 12px 0 6px; font-weight: 600; color: #1b2d4f; }
+.guide-notes a { color: #2563eb; }
+.guide-notes table { display: block; overflow-x: auto; border-collapse: collapse; margin: 8px 0 12px; }
+.guide-notes th,
+.guide-notes td { border: 1px solid #e2e8f0; padding: 6px 8px; vertical-align: top; text-align: left; }
+.guide-notes th { background: #f8fafc; }
