@@ -15,13 +15,13 @@ Issue [#27](https://github.com/Colby-Frison/Capstone-Fall2026/issues/27) — sma
 | Combobox UI | `src/apps/web/src/components/ConditionSearchInput.tsx` |
 | Tests | API `node --test`, `nih.match.test.ts`, e2e `nih-autocomplete.spec.ts` |
 
-**Follow-up issues** (not part of the #27 autocomplete ship):
+**Related issues:**
 
-| Issue | Focus |
-| --- | --- |
-| [#32](https://github.com/Colby-Frison/Capstone-Fall2026/issues/32) | Map FAA parsed conditions to NIH medical identities (committed cache) |
-| [#31](https://github.com/Colby-Frison/Capstone-Fall2026/issues/31) | Scored synonym-aware search across condition content — see [Search_Scoring.md](./Search_Scoring.md) |
-| [#33](https://github.com/Colby-Frison/Capstone-Fall2026/issues/33) | Enrich condition detail with NIH context and external links (blocked by #32) |
+| Issue | Focus | Status |
+| --- | --- | --- |
+| [#32](https://github.com/Colby-Frison/Capstone-Fall2026/issues/32) | Map FAA parsed conditions to NIH medical identities (committed cache) | Shipped |
+| [#31](https://github.com/Colby-Frison/Capstone-Fall2026/issues/31) | Scored synonym-aware search across condition content — see [Search_Scoring.md](./Search_Scoring.md) | Shipped |
+| [#33](https://github.com/Colby-Frison/Capstone-Fall2026/issues/33) | Enrich condition detail with NIH context and external links | Shipped (below) |
 
 Related: [#18](https://github.com/Colby-Frison/Capstone-Fall2026/issues/18) (terminology lookup). Accuracy rule unchanged: FAA guidance remains the only source of certification dispositions; NIH is for discovery, identity, and educational context.
 
@@ -169,6 +169,27 @@ NIH never invents or overrides ISSUE/DEFER/DENY. Prefer `unmapped` / `low-confid
 4. CI and local Vite builds load the sidecar only — no live NIH required.
 
 The mapper expands compound FAA headings into shorter query terms, scores NIH candidates with containment + token coverage, and writes an explicit `unmapped` entry when nothing clears the threshold.
+
+## Condition detail enrichment (Issue #33)
+
+Condition detail reads the **committed sidecar** on `condition.nih` — it does **not** call Clinical Tables when the page loads. Live Clinical Tables remain the source for search autocomplete only.
+
+| Piece | Location |
+| --- | --- |
+| About panel | `src/apps/web/src/components/NihConditionAbout.tsx` |
+| Mode helper | `src/apps/web/src/components/nihAboutMode.ts` |
+| Links reuse | `NihRelatedLinks` with sidecar `infoLinks` |
+| Wiring | `ConditionDetail` — after header summary, before pathway / FAA sections |
+| Tests | `nihAboutMode.test.ts`; e2e `condition-nih-detail.spec.ts` (mapped + unmapped) |
+
+### Behavior
+
+| Sidecar state | UI |
+| --- | --- |
+| `mapped` / `low-confidence` with displayable fields | “About this condition”: common name, optional primary name, synonyms, ICD-10, NIH educational links |
+| `unmapped`, missing identity, or empty fields | Calm FAA-only notice + Search / Browse CTAs — no invented medical blurb |
+
+NIH copy is labeled educational. Disposition badges, pathway text, and checklists still come only from FAA guidance. The page disclaimer stays visible in the footer.
 
 ## Out of scope
 
