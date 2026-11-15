@@ -315,7 +315,7 @@ export default function Home({ onNavigate }: Props) {
               {
                 term: 'Deferral',
                 name: 'More FAA review is needed',
-                detail: 'The AME sends your application to the FAA for further review. A deferral is not a denial.',
+                detail: 'The FAA will send a letter possibly requesting records. Send requested information through your AME. Deferral is not denial.',
                 color: '#78350f',
                 background: '#fffbeb',
                 border: '#fde68a',

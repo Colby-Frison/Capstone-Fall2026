@@ -111,6 +111,7 @@ export default function About({ onNavigate }: Props) {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
             {[
               'FAA Medical Certification — faa.gov/pilots/medical_certification',
+              'FAA: How do I get a Medical Certificate and what to expect during the AME examination? — faa.gov/pilots/medical_certification/get',
               'FAA Guide for Aviation Medical Examiners (AME Guide) — faa.gov/ame_guide',
               'MedXPress Application System — medxpress.faa.gov',
               'AOPA Pilot Flight Medical Preflight (December 2025)',
