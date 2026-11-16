@@ -2,6 +2,8 @@ export type {
   Condition,
   Disposition,
   DocumentItem,
+  FormRef,
+  FormType,
   Medication,
   NihConditionIdentity,
   NihMappingStatus,
@@ -57,10 +59,25 @@ export {
   expandedTermsFromNihSuggestions,
   scoreCondition,
   scoreMedication,
+  scoreForm,
   searchCatalog,
   SEARCH_FIELD_WEIGHTS,
   type SearchHit,
   type SearchHitType,
 } from './search';
+
+export {
+  conditionLevelFormIds,
+  conditionsUsingForm,
+  FORM_TYPE_LABELS,
+  formForDocument,
+  formIdsForRecord,
+  formIdsInText,
+  formsByIds,
+  formsForCondition,
+  getFormById,
+  listForms,
+  normalizeFormText,
+} from './forms';
 
 export { listCanonicalCategories, resolveCategory } from './categories';

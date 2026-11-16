@@ -11,11 +11,14 @@ import type {
   NormalizedRecord,
   NormalizedRequirement,
   SubCondition,
-  FormLinksValue
 } from './types';
 import { resolveCategory } from './categories';
 import { searchCatalog } from './search';
-import linksForm from '@guidance/form_links.json'
+import {
+  collectConditionFormIds,
+  formForDocument,
+  formIdsForRecord,
+} from './forms';
 
 const DISPOSITION_MAP: Record<string, Disposition> = {
   ISSUE: 'issue',
@@ -293,6 +296,7 @@ export function requirementsToDocuments(
   const docs = expanded
     .filter((item) => isBringListItem(item.text, item.kind, item.role))
     .map((item, index) => {
+      const form = formForDocument(item.text, record.condition);
       const label =
         item.text.length <= 140 ? item.text : firstSentence(item.text, 120);
       return {
@@ -303,6 +307,8 @@ export function requirementsToDocuments(
         required: item.required !== false,
         kind: item.kind,
         role: 'bring_list' as const,
+        formId: form?.id,
+        url: form?.url,
       } satisfies DocumentItem;
     });
 
@@ -381,6 +387,7 @@ function recordToSubCondition(record: NormalizedRecord): SubCondition {
     summary,
     certificationNote: stripOrderingMarker(certificationNote),
     documents: requirementsToDocuments(record),
+    formIds: formIdsForRecord(record),
     ameReviewNotes: requirementsToAmeReviewNotes(record),
     medicationNotes: cleanMedicationNotes(record.medication_notes),
     timeConstraints: record.time_constraints ?? [],
@@ -650,6 +657,10 @@ export function adaptGuidanceFile(data: NormalizedGuidanceFile): Condition[] {
       source: `${first.source?.document || data.source_document}${pageRange ? ` (${pageRange})` : ''}`,
       sourceSection: first.source?.section || category,
       medicationNotes,
+      formIds: collectConditionFormIds(
+        conditionName,
+        subConditions.map((sub) => sub.formIds ?? []),
+      ),
     });
   }
 
@@ -666,16 +677,4 @@ export function searchAdaptedConditions(
   return searchCatalog(q, { conditions, expandedTerms })
     .filter((hit) => hit.type === 'condition' && hit.condition)
     .map((hit) => hit.condition!);
-}
-
-// accounts for case sensitivity between condition.name in ConditionDetail.tsx and key in form_links.json (solves issue with COPD condition)
-export function getConditionForms(conditionName: string): FormLinksValue[] {
-  const formLinksJson = linksForm as Record<string, FormLinksValue[]>;
-  const jsonKeys = Object.keys(formLinksJson) // array of keys 
-
-  // check if jsonKeys contains same condition name that is displayed on UI (case insensitive)
-  const matchedKey = jsonKeys.find((key) => (
-    key.toLowerCase() === conditionName.toLowerCase()
-  ))
-  return matchedKey ? formLinksJson[matchedKey] : []
 }

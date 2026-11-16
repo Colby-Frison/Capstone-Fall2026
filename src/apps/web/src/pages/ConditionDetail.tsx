@@ -6,7 +6,8 @@ import DispositionBadge, { DispositionBlock } from '../components/DispositionBad
 import DisclaimerCallout from '../components/DisclaimerCallout';
 import { DocumentChecklist } from '../components/DocumentChecklist';
 import NihConditionAbout from '../components/NihConditionAbout';
-import { getConditionForms } from '../../../../packages/content/adapt';
+import FormsPanel from '../components/FormsPanel';
+import { formsByIds, formsForCondition } from '@content/forms';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
 
@@ -73,7 +74,9 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
     });
   }
 
-  const relatedForms = getConditionForms(condition.name); 
+  const activeForms = formsByIds(selectedSub?.formIds);
+  const activeFormIds = new Set(activeForms.map((form) => form.id));
+  const otherForms = formsForCondition(condition).filter((form) => !activeFormIds.has(form.id));
   const relatedMeds = condition.relatedMedicationIds.map(getMedicationById).filter(Boolean);
 
   return (
@@ -283,6 +286,12 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
             </div>
           </section>
 
+          <FormsPanel
+            forms={activeForms}
+            otherForms={otherForms}
+            situationName={selectedSub?.name}
+          />
+
           {activeAmeReview.length > 0 && (
             <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
               <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
@@ -356,39 +365,6 @@ export default function ConditionDetail({ conditionId, onNavigate }: Props) {
                   </button>
                 ))}
               </div>
-            </section>
-          )}
-
-          {/* Related forms */}
-          {relatedForms.length > 0 && (
-            <section style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '24px 28px' }}>
-              <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.05rem', color: '#1b2d4f', margin: '0 0 8px' }}>
-                Related FAA Forms
-              </h2>
-              <p style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.825rem', color: '#64748b', margin: '0 0 12px', lineHeight: 1.5 }}>
-                Depending on your specific pathway and AME evaluation, you may be
-                required to submit the following forms:
-              </p>
-              <ul style={{ margin: 0, paddingLeft: 18, fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.6 }}>
-                {relatedForms.map((form, index) => (
-                  <li key={index} style={{ marginBottom: 6 }}>
-                    {form["Url"] ? (
-                      <a
-                        href={form["Url"]}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: '#2563eb', textDecoration: 'none' }}
-                      >
-                        {form["Form Type"]}
-                      </a>
-                    ) : (
-                      <span style={{ color: '#475569' }}>
-                        {form["Form Type"]} <span style={{ fontSize: '0.75rem', color: '#d97706', fontStyle: 'italic', marginLeft: '4px' }}>(URL Pending)</span>
-                      </span>
-                    )}
-                  </li>
-                ))}
-              </ul>
             </section>
           )}
 

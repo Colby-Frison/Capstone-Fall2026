@@ -9,6 +9,8 @@ import DispositionBadge from '../components/DispositionBadge';
 import DisclaimerCallout from '../components/DisclaimerCallout';
 import ConditionSearchInput from '../components/ConditionSearchInput';
 import NihRelatedLinks from '../components/NihRelatedLinks';
+import { DOWNLOAD_LABEL, DownloadIcon, downloadAriaLabel } from '../components/FormsPanel';
+import { FORM_TYPE_LABELS } from '@content/forms';
 import {
   collectInfoLinks,
   fetchNihConditionSuggestions,
@@ -16,7 +18,7 @@ import {
 } from '../data/nih';
 
 type Page = 'home' | 'search' | 'conditions' | 'condition-detail' | 'medication-detail' | 'how-it-works' | 'about';
-type Filter = 'all' | 'conditions' | 'medications';
+type Filter = 'all' | 'conditions' | 'medications' | 'forms';
 
 interface Props {
   query: string;
@@ -61,11 +63,13 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
   const visibleHits = rankedHits.filter((hit) => {
     if (filter === 'conditions') return hit.type === 'condition';
     if (filter === 'medications') return hit.type === 'medication';
+    if (filter === 'forms') return hit.type === 'form';
     return true;
   });
 
   const conditionCount = rankedHits.filter((h) => h.type === 'condition').length;
   const medicationCount = rankedHits.filter((h) => h.type === 'medication').length;
+  const formCount = rankedHits.filter((h) => h.type === 'form').length;
   const totalResults = rankedHits.length;
   const nihLinks = collectInfoLinks(nihSuggestions);
   const showUnmatchedNih =
@@ -98,7 +102,7 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
           </div>
 
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}>
-            {(['all', 'conditions', 'medications'] as Filter[]).map((f) => (
+            {(['all', 'conditions', 'medications', 'forms'] as Filter[]).map((f) => (
               <button
                 key={f}
                 onClick={() => setFilter(f)}
@@ -121,7 +125,9 @@ export default function SearchResults({ query, onNavigate, onSearch }: Props) {
                   ? `All (${totalResults})`
                   : f === 'conditions'
                     ? `Conditions (${conditionCount})`
-                    : `Medications (${medicationCount})`}
+                    : f === 'medications'
+                      ? `Medications (${medicationCount})`
+                      : `Forms (${formCount})`}
               </button>
             ))}
           </div>
@@ -285,6 +291,44 @@ function ResultRow({
           </div>
         </div>
       </button>
+    );
+  }
+
+  if (hit.type === 'form' && hit.form) {
+    const form = hit.form;
+    return (
+      <a
+        href={form.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={downloadAriaLabel(form.title)}
+        data-testid={`search-hit-form-${form.id}`}
+        style={{
+          background: '#ffffff',
+          border: '1px solid #e2e8f0',
+          borderRadius: 8,
+          padding: '20px 24px',
+          textDecoration: 'none',
+          display: 'block',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6, flexWrap: 'wrap' }}>
+          <span style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1rem', color: '#1b2d4f', overflowWrap: 'anywhere' }}>
+            {form.title}
+          </span>
+          <TypeBadge label="Form" tone="condition" />
+          <span style={{ fontSize: '0.75rem', color: '#6b7a99', fontFamily: "'Inter', sans-serif" }}>
+            {FORM_TYPE_LABELS[form.type]} · Filled in by: {form.completedBy}
+          </span>
+        </div>
+        <p style={{ margin: '0 0 10px', fontFamily: "'Inter', sans-serif", fontSize: '0.875rem', color: '#475569', lineHeight: 1.55 }}>
+          {form.summary}
+        </p>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: "'DM Sans', sans-serif", fontWeight: 600, fontSize: '0.825rem', color: '#2563eb' }}>
+          <DownloadIcon />
+          {DOWNLOAD_LABEL}
+        </span>
+      </a>
     );
   }
 
