@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "note": "One entry per official FAA form. `url` is filled in by `python src/scripts/capstone.py sync-form-links --write`, which finds each form's link in the AME guide's own hyperlinks and checks that it works; `urlSource` is `guide` when the URL came from the guide and `manual` when the guide does not link the form and a person entered it. To add a form, give it an id, title, summary, completedBy and `match` phrases, leave `url` empty, and run the sync. `match` holds the phrases the guide uses for the form, compared after lower-casing and normalising dashes and spacing (see normalizeFormText in src/packages/content/forms.ts). `conditions` attaches a form to a whole condition when no table row names it.",
+  "forms": [
+    {
+      "id": "refractive-surgery-status-summary",
+      "title": "Eyes – Refractive Surgery Status Summary",
+      "type": "status_summary",
+      "summary": "A two-page sheet about your LASIK, SMILE or PRK eye surgery: when it was done, how your eyes healed, and your vision now.",
+      "completedBy": "Your eye doctor (ophthalmologist or optometrist)",
+      "url": "https://www.faa.gov/ame_guide/media/Eyes_Refractive_Status_Summary.pdf",
+      "match": [
+        "refractive surgery status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "lens-implant-status-summary",
+      "title": "Eyes – Lens Implant Status Summary",
+      "type": "status_summary",
+      "summary": "A two-page sheet about surgery that replaced the lens of your eye, such as cataract surgery with a lens implant: when it was done, how your eyes healed, and your vision now.",
+      "completedBy": "Your eye doctor (ophthalmologist or optometrist)",
+      "url": "https://www.faa.gov/ame_guide/media/Eyes_Lens_Implant_Status_Summary.pdf",
+      "match": [
+        "lens implant status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "amblyopia-status-summary",
+      "title": "Amblyopia (Lazy Eye) Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your lazy eye and how well you see. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your eye doctor (ophthalmologist or optometrist)",
+      "url": "https://www.faa.gov/ame_guide/media/Amblyopia_Status_Summary.pdf",
+      "match": [
+        "amblyopia status summary"
+      ],
+      "conditionMatch": [
+        {
+          "condition": "amblyopia",
+          "phrase": "status summary"
+        }
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "chorioretinitis-status-summary",
+      "title": "Chorioretinitis Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about swelling at the back of your eye (chorioretinitis) and how it affects your vision. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your eye doctor (ophthalmologist)",
+      "url": "https://www.faa.gov/ame_guide/media/Chorioretinitis_Status_Summary.pdf",
+      "match": [
+        "chorioretinitis status summary"
+      ],
+      "conditionMatch": [
+        {
+          "condition": "chorioretinitis",
+          "phrase": "status summary"
+        }
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "copd-status-summary",
+      "title": "Chronic Obstructive Pulmonary Disease (COPD) Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your COPD, your treatment and your breathing test results. Hand it in together with a detailed progress note.",
+      "completedBy": "Your lung doctor, or the doctor who manages your COPD",
+      "url": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf",
+      "match": [
+        "copd status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "sarcoid-status-summary",
+      "title": "Sarcoid or Sarcoidosis Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your sarcoidosis and how it is being treated. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your lung doctor, or the doctor who treats your sarcoidosis",
+      "url": "https://www.faa.gov/ame_guide/media/Sarcoid_Status_Summary.pdf",
+      "match": [
+        "sarcoidosis status summary",
+        "sarcoid status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "afib-aflutter-status-summary",
+      "title": "Non-Valvular Atrial Fibrillation (AFib)/A-Flutter Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your irregular heartbeat (AFib or atrial flutter) and how it is being treated. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your heart doctor (cardiologist)",
+      "url": "https://www.faa.gov/ame_guide/media/nonvalvularAFIB_Status_summary.pdf",
+      "match": [
+        "a-flutter status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "atrial-flutter-ablation-status-summary",
+      "title": "Typical Atrial Flutter Treated with Ablation Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about the ablation procedure used to treat your atrial flutter and how your heart has been since. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your heart doctor (cardiologist)",
+      "url": "https://www.faa.gov/ame_guide/media/TypicalAtrialFlutterStatusSummary.pdf",
+      "match": [
+        "ablation status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "pacemaker-status-summary",
+      "title": "Pacemaker Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your pacemaker: the device, its settings and its latest check. You can hand in this sheet or records that cover the same points.",
+      "completedBy": "Your heart doctor (cardiologist)",
+      "url": "https://www.faa.gov/ame_guide/media/Pacemaker_Status_Summary.pdf",
+      "match": [
+        "pacemaker status summary"
+      ],
+      "conditionMatch": [
+        {
+          "condition": "pacemaker",
+          "phrase": "status summary"
+        }
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "dbs-status-summary",
+      "title": "Deep Brain Stimulator (DBS) Status Summary",
+      "type": "status_summary",
+      "summary": "A sheet about your deep brain stimulator and its current settings. It is the second page of this PDF; the first page is the FAA's table for the condition. If you have two devices, fill in one sheet for each.",
+      "completedBy": "Your brain and nerve doctor (neurologist)",
+      "url": "https://www.faa.gov/ame_guide/media/Deep-Brain-Stimulator.pdf",
+      "match": [
+        "dbs status summary",
+        "(dbs) status summary"
+      ],
+      "conditionMatch": [
+        {
+          "condition": "deep brain stimulator",
+          "phrase": "status summary"
+        }
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "osa-treated-status-report",
+      "title": "Obstructive Sleep Apnea (OSA) Treated Status Report",
+      "type": "status_summary",
+      "summary": "A one-page report on your sleep apnea treatment. You fill in the first two items and sign, then the provider who treats your sleep apnea finishes it.",
+      "completedBy": "You, then the provider who treats your sleep apnea",
+      "url": "https://www.faa.gov/ame_guide/media/OSA_Treated_Status_Report.pdf",
+      "match": [
+        "osa treated status report"
+      ],
+      "conditions": [
+        "Sleep Apnea"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "path-status-summary",
+      "title": "PATH Status Summary – Anxiety, Depression, and Related Conditions",
+      "type": "status_summary",
+      "summary": "A one-page sheet for pilots the FAA has placed in its PATH program. Use it only if you already have a special issuance or special consideration letter that says you are in PATH.",
+      "completedBy": "Your treating clinician",
+      "url": "https://www.faa.gov/ame_guide/media/PATH_Status_Summary_Anxiety_Depression_Related_Conditions.pdf",
+      "match": [
+        "path status summary"
+      ],
+      "conditions": [
+        "Anxiety, Depression, and Related Conditions"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "chd-cad-recertification-status-summary",
+      "title": "Coronary Heart Disease (CHD)/Coronary Artery Disease (CAD) Recertification Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet for renewing a medical certificate with heart artery disease. Use it only if you already have a special issuance for this condition.",
+      "completedBy": "Your heart doctor (cardiologist)",
+      "url": "https://www.faa.gov/ame_guide/media/CHD_CAD_Recert_Status_Summary.pdf",
+      "match": [
+        "recertification status summary"
+      ],
+      "conditions": [
+        "Coronary Heart Disease"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "diabetes-on-medications-status-report",
+      "title": "Diabetes or Hyperglycemia on Medications Status Report",
+      "type": "status_summary",
+      "summary": "A one-page report on diabetes or high blood sugar treated with medicine other than insulin. Do not use it if you take any type of insulin.",
+      "completedBy": "The provider who treats your diabetes",
+      "url": "https://www.faa.gov/ame_guide/media/diabetes_or_hyperglycemia_on_meds_report.pdf",
+      "match": [
+        "hyperglycemia on medications status report"
+      ],
+      "conditions": [
+        "Diabetes Mellitus"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "diabetes-on-insulin-recertification-status-report",
+      "title": "Diabetes on Insulin Re-Certification Status Report (Non-CGM, Third Class Option)",
+      "type": "status_summary",
+      "summary": "A two-page report on diabetes treated with insulin, for pilots who do not use a continuous glucose monitor and are applying for a third-class certificate.",
+      "completedBy": "The provider who treats your diabetes",
+      "url": "https://www.faa.gov/ame_guide/media/Diabetes_on_Insulin_Re-Certification_Status_Report_NON_CGM-Third_Class_Option.pdf",
+      "match": [
+        "diabetes on insulin re-certification status report"
+      ],
+      "conditions": [
+        "Diabetes Mellitus"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "cll-sll-status-summary",
+      "title": "Chronic Lymphocytic Leukemia (CLL)/Small Lymphocytic Lymphoma (SLL) Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your CLL or SLL and how it is being managed. Hand it in together with a detailed progress note and your lab results.",
+      "completedBy": "Your cancer doctor (oncologist)",
+      "url": "https://www.faa.gov/ame_guide/media/CLL_SLL_status_summary.pdf",
+      "match": [
+        "cll/sll status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "low-t-status-summary",
+      "title": "Low Testosterone (Low T) Hypogonadism Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about your low testosterone and its treatment. You can hand in this sheet or a detailed progress note that covers the same points.",
+      "completedBy": "Your urologist, endocrinologist, or treating doctor",
+      "url": "https://www.faa.gov/ame_guide/media/Low_T_Hypogonadism_Status_Summary.pdf",
+      "match": [
+        "hypogonadism status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "weight-loss-prediabetes-status-report",
+      "title": "Weight Loss Management or Prediabetes Status Report",
+      "type": "status_summary",
+      "summary": "A one-page report on medicine you take for weight loss or prediabetes.",
+      "completedBy": "The provider who prescribes the medicine",
+      "url": "https://www.faa.gov/ame_guide/media/Weight_loss_prediabetes_status_report.pdf",
+      "match": [
+        "prediabetes status report",
+        "weight loss management status report"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "hcq-cq-status-summary",
+      "title": "Hydroxychloroquine (HCQ)/Chloroquine (CQ) Status Summary",
+      "type": "status_summary",
+      "summary": "A one-page sheet about eye checks while you take hydroxychloroquine or chloroquine (Plaquenil or Aralen).",
+      "completedBy": "The eye doctor who monitors your medicine",
+      "url": "https://www.faa.gov/ame_guide/media/HydroxychloroquineChloroquineStatusReport.pdf",
+      "match": [
+        "chloroquine (cq) status report",
+        "chloroquine (cq) status summary"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "alcohol-event-status-report",
+      "title": "Alcohol Event Status Report for the AME",
+      "type": "status_summary",
+      "summary": "A one-page report your medical examiner fills in after an alcohol-related arrest or detainment, based on your exam and records. You do not fill it in, but it shows what the examiner will ask about.",
+      "completedBy": "Your medical examiner (AME)",
+      "url": "https://www.faa.gov/ame_guide/media/AlcoholStatusReportforAME.pdf",
+      "match": [
+        "alcohol event status report",
+        "alcohol status report"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "airman-seizure-questionnaire",
+      "title": "FAA Airman Seizure Questionnaire",
+      "type": "questionnaire",
+      "summary": "A three-page list of questions about any seizures you have had. If they happened when you were a child, a parent or guardian who saw them should answer.",
+      "completedBy": "You (the pilot)",
+      "url": "https://www.faa.gov/ame_guide/media/Airman_Seizure_Questionnaire.pdf",
+      "match": [
+        "seizure questionnaire"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "quality-of-vision-questionnaire",
+      "title": "Quality of Vision Questionnaire",
+      "type": "questionnaire",
+      "summary": "A one-page list of questions about vision problems such as glare, halos or blurred vision. Bring the finished page to your medical examiner.",
+      "completedBy": "You (the pilot)",
+      "url": "https://www.faa.gov/ame_guide/media/Quality_of_Vision_Questionnaire.pdf",
+      "match": [
+        "quality of vision questionnaire"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "berlin-questionnaire",
+      "title": "Berlin Questionnaire (Sleep Apnea)",
+      "type": "questionnaire",
+      "summary": "A short list of questions about snoring and daytime tiredness, used to judge your risk of sleep apnea. Your medical examiner may go through it with you.",
+      "completedBy": "You (the pilot)",
+      "url": "https://www.faa.gov/ame_guide/media/Berlin%20Questionnaire.pdf",
+      "match": [
+        "berlin questionnaire"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "stop-bang-questionnaire",
+      "title": "STOP BANG Questionnaire (Sleep Apnea)",
+      "type": "questionnaire",
+      "summary": "Eight yes-or-no questions used to judge your risk of sleep apnea. Your medical examiner may go through it with you.",
+      "completedBy": "You (the pilot)",
+      "url": "https://www.faa.gov/ame_guide/media/STOP_BANG_Questionnaire.pdf",
+      "match": [
+        "stop bang questionnaire",
+        "stop-bang questionnaire"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "faa-form-8500-7",
+      "title": "FAA Form 8500-7, Report of Eye Evaluation",
+      "type": "faa_form",
+      "summary": "The FAA's official eye exam report. Take it to your eye appointment and bring back the finished form.",
+      "completedBy": "Your eye doctor (ophthalmologist or optometrist)",
+      "url": "https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8500-7.pdf",
+      "match": [
+        "form 8500-7"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "manual"
+    },
+    {
+      "id": "six-minute-walk-test-result-sheet",
+      "title": "Six-Minute Walk Test (6MWT) – FAA Result Sheet",
+      "type": "result_sheet",
+      "summary": "A one-page sheet for recording the results of a six-minute walk test, which measures how far you can walk in six minutes.",
+      "completedBy": "The provider who treats your heart or lung condition",
+      "url": "https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf",
+      "match": [
+        "6-minute walk test",
+        "6 minute walk test",
+        "six-minute walk test",
+        "6mwt"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    },
+    {
+      "id": "clinical-progress-note-guide",
+      "title": "Pilot Information – Current, Detailed Clinical Progress Note",
+      "type": "progress_note",
+      "summary": "Not a form to fill in. It lists what your doctor's visit note must include for the FAA to accept it. A patient-portal printout or after-visit summary is usually not enough, so share this with your doctor.",
+      "completedBy": "Your treating doctor writes the note",
+      "url": "https://www.faa.gov/ame_guide/media/PilotInformation_DetailedClinicalProgressNote.pdf",
+      "match": [
+        "clinical progress note",
+        "status report"
+      ],
+      "lastVerified": "2026-11-15",
+      "urlSource": "guide"
+    }
+  ]
+}

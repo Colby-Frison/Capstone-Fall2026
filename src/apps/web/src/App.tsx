@@ -9,11 +9,13 @@ import MedicationDetail from './pages/MedicationDetail';
 import Browse from './pages/Browse';
 import HowItWorks from './pages/HowItWorks';
 import About from './pages/About';
+import Forms from './pages/Forms';
 
 type Page =
   | 'home'
   | 'search'
   | 'conditions'
+  | 'forms'
   | 'condition-detail'
   | 'medication-detail'
   | 'how-it-works'
@@ -34,6 +36,7 @@ const PAGE_ANALYTICS_PATH: Record<Page, string> = {
   home: '/',
   search: '/search',
   conditions: '/conditions',
+  forms: '/forms',
   'condition-detail': '/condition-detail',
   'medication-detail': '/medication-detail',
   'how-it-works': '/how-it-works',
@@ -44,6 +47,7 @@ function readNavFromLocation(): NavState {
   const params = new URLSearchParams(window.location.search);
   const condition = params.get('condition');
   if (condition) return { page: 'condition-detail', id: condition };
+  if (params.get('page') === 'forms') return { page: 'forms' };
   return { page: 'home' };
 }
 
@@ -54,6 +58,7 @@ function writeNavToLocation(next: NavState, replace = false) {
   if (next.page === 'condition-detail' && next.id) {
     url.searchParams.set('condition', next.id);
   }
+  if (next.page === 'forms') url.searchParams.set('page', 'forms');
   const method = replace ? 'replaceState' : 'pushState';
   window.history[method](next, '', `${url.pathname}${url.search}`);
 }
@@ -119,6 +124,7 @@ export default function App() {
               <MedicationDetail medicationId={nav.id} onNavigate={navigate} />
             )}
             {nav.page === 'conditions' && <Browse onNavigate={navigate} />}
+            {nav.page === 'forms' && <Forms onNavigate={navigate} />}
             {nav.page === 'how-it-works' && <HowItWorks onNavigate={navigate} />}
             {nav.page === 'about' && <About onNavigate={navigate} />}
           </main>
@@ -134,6 +140,7 @@ function HomeWithHeader({ onNavigate }: { onNavigate: (page: Page, id?: string) 
   const navItems: { label: string; page: Page }[] = [
     { label: 'Search', page: 'search' },
     { label: 'Conditions', page: 'conditions' },
+    { label: 'Forms', page: 'forms' },
     { label: 'How This Works', page: 'how-it-works' },
     { label: 'About', page: 'about' },
   ];

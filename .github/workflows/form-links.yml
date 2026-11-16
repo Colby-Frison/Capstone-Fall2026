@@ -1,0 +1,33 @@
+# CS 4273 – Capstone | Fall 2026 | GROUP F
+# @brief: Fails when an FAA form link in forms_catalog.json is dead.
+# Runs when the form registry changes, weekly (FAA renames files without notice), and on demand.
+# Kept separate from CI so an faa.gov outage does not block unrelated pull requests.
+
+name: Form links
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - src/data/guidance/forms_catalog.json
+      - src/scripts/check_form_links.py
+      - .github/workflows/form-links.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - src/data/guidance/forms_catalog.json
+      - src/scripts/check_form_links.py
+      - .github/workflows/form-links.yml
+  schedule:
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - run: python src/scripts/check_form_links.py

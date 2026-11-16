@@ -18,6 +18,10 @@ export interface DocumentItem {
   description?: string;
   kind?: string;
   role?: RequirementRole;
+  /** Registry id of the FAA form this item refers to, when the guide names one. */
+  formId?: string;
+  /** Direct link to that form's PDF on faa.gov. */
+  url?: string;
 }
 
 export interface SubCondition {
@@ -27,6 +31,8 @@ export interface SubCondition {
   summary: string;
   certificationNote: string;
   documents: DocumentItem[];
+  /** Registry ids of the FAA forms the guide names for this situation. */
+  formIds?: string[];
   ameReviewNotes?: string[];
   medicationNotes?: string[];
   timeConstraints?: string[];
@@ -83,6 +89,8 @@ export interface Condition {
   source: string;
   sourceSection: string;
   medicationNotes?: string[];
+  /** Registry ids of every FAA form this condition uses (all situations plus condition-level forms). */
+  formIds?: string[];
   /** Populated from `nih_condition_map.json` when present. */
   nih?: NihConditionIdentity;
   /** From the parsed AME Guide (`parsed_conditions.json`). */
@@ -165,7 +173,23 @@ export interface NormalizedGuidanceFile {
   summary: Record<string, number>;
 }
 
-export interface FormLinksValue {
-  "Form Type": string;
-  "Url": string;
+export type FormType =
+  | 'status_summary'
+  | 'questionnaire'
+  | 'faa_form'
+  | 'result_sheet'
+  | 'progress_note';
+
+/** One official FAA form from `forms_catalog.json`. */
+export interface FormRef {
+  id: string;
+  title: string;
+  type: FormType;
+  /** Plain-language description of what the form is and when it is used. */
+  summary: string;
+  /** Who fills it in, e.g. "Your cardiologist" or "You (the pilot)". */
+  completedBy: string;
+  url: string;
+  /** Other names the guide uses for the form, used by search. */
+  aliases?: string[];
 }

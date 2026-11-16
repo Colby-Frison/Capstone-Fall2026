@@ -1,5 +1,7 @@
 import type { DocumentItem } from '../data/types';
 import { checklistCounts, groupSubmitItems } from './groupSubmitItems';
+import { getFormById } from '@content/forms';
+import { DOWNLOAD_LABEL, DownloadIcon, downloadAriaLabel } from './FormsPanel';
 
 export function DocumentChecklist({
   documents,
@@ -173,91 +175,129 @@ function DocItem({
   onToggle: (id: string) => void;
 }) {
   return (
-    <button
-      type="button"
-      onClick={() => onToggle(doc.id)}
+    <div
       style={{
         display: 'flex',
-        alignItems: 'flex-start',
-        gap: 12,
-        padding: '12px 14px',
+        flexWrap: 'wrap',
+        alignItems: 'stretch',
         background: checked ? '#f0fdf4' : '#fafbfd',
         border: `1px solid ${checked ? '#bbf7d0' : '#e2e8f0'}`,
         borderRadius: 6,
-        cursor: 'pointer',
-        textAlign: 'left',
-        width: '100%',
-        minHeight: 44,
         transition: 'background 0.15s, border-color 0.15s',
       }}
     >
-      <div
+      <button
+        type="button"
+        aria-pressed={checked}
+        onClick={() => onToggle(doc.id)}
         style={{
-          width: 20,
-          height: 20,
-          borderRadius: 4,
-          border: `2px solid ${checked ? '#16a34a' : '#cbd5e1'}`,
-          background: checked ? '#16a34a' : '#ffffff',
           display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexShrink: 0,
-          marginTop: 1,
-          transition: 'all 0.15s',
+          alignItems: 'flex-start',
+          gap: 12,
+          padding: '12px 14px',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          textAlign: 'left',
+          flex: '1 1 240px',
+          minWidth: 0,
+          minHeight: 44,
         }}
-        aria-hidden
       >
-        {checked && (
-          <svg width="11" height="9" viewBox="0 0 11 9" fill="none">
-            <path
-              d="M1 4L4 7L10 1"
-              stroke="white"
-              strokeWidth="1.8"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        )}
-      </div>
-      <div style={{ flex: 1, minWidth: 0, overflowWrap: 'anywhere' }}>
         <div
           style={{
-            fontFamily: "'Inter', sans-serif",
-            fontSize: '0.875rem',
-            color: checked ? '#14532d' : '#334155',
-            lineHeight: 1.5,
-            textDecoration: checked ? 'line-through' : 'none',
-            transition: 'color 0.15s',
+            width: 20,
+            height: 20,
+            borderRadius: 4,
+            border: `2px solid ${checked ? '#16a34a' : '#cbd5e1'}`,
+            background: checked ? '#16a34a' : '#ffffff',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexShrink: 0,
+            marginTop: 1,
+            transition: 'all 0.15s',
+          }}
+          aria-hidden
+        >
+          {checked && (
+            <svg width="11" height="9" viewBox="0 0 11 9" fill="none">
+              <path
+                d="M1 4L4 7L10 1"
+                stroke="white"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          )}
+        </div>
+        <div style={{ flex: 1, minWidth: 0, overflowWrap: 'anywhere' }}>
+          <div
+            style={{
+              fontFamily: "'Inter', sans-serif",
+              fontSize: '0.875rem',
+              color: checked ? '#14532d' : '#334155',
+              lineHeight: 1.5,
+              textDecoration: checked ? 'line-through' : 'none',
+              transition: 'color 0.15s',
+            }}
+          >
+            {doc.label}
+          </div>
+          {!doc.required && (
+            <div
+              style={{
+                marginTop: 4,
+                fontFamily: "'Inter', sans-serif",
+                fontSize: '0.72rem',
+                color: '#64748b',
+              }}
+            >
+              Often requested
+            </div>
+          )}
+          {doc.description && (
+            <div
+              style={{
+                fontFamily: "'Inter', sans-serif",
+                fontSize: '0.78rem',
+                color: '#64748b',
+                lineHeight: 1.5,
+                marginTop: 6,
+              }}
+            >
+              {doc.description}
+            </div>
+          )}
+        </div>
+      </button>
+      {doc.url && (
+        <a
+          href={doc.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="checklist-form-link"
+          data-form-id={doc.formId}
+          aria-label={downloadAriaLabel(getFormById(doc.formId)?.title ?? doc.label)}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 6,
+            minHeight: 44,
+            padding: '0 14px',
+            fontFamily: "'DM Sans', sans-serif",
+            fontWeight: 600,
+            fontSize: '0.8rem',
+            color: '#2563eb',
+            textDecoration: 'none',
+            whiteSpace: 'nowrap',
           }}
         >
-          {doc.label}
-        </div>
-        {!doc.required && (
-          <div
-            style={{
-              marginTop: 4,
-              fontFamily: "'Inter', sans-serif",
-              fontSize: '0.72rem',
-              color: '#64748b',
-            }}
-          >
-            Often requested
-          </div>
-        )}
-        {doc.description && (
-          <div
-            style={{
-              fontFamily: "'Inter', sans-serif",
-              fontSize: '0.78rem',
-              color: '#64748b',
-              lineHeight: 1.5,
-              marginTop: 6,
-            }}
-          >
-            {doc.description}
-          </div>
-        )}
-      </div>
-    </button>
+          <DownloadIcon />
+          {DOWNLOAD_LABEL}
+        </a>
+      )}
+    </div>
   );
 }

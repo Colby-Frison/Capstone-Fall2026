@@ -3,7 +3,7 @@
  * See Documentation/Search_Scoring.md for weights and field list.
  */
 
-import type { Condition, Medication } from './types';
+import type { Condition, FormRef, Medication } from './types';
 
 /** Documented field weights (higher = stronger match). */
 export const SEARCH_FIELD_WEIGHTS = {
@@ -21,9 +21,10 @@ export const SEARCH_FIELD_WEIGHTS = {
   medGenericName: 800,
   medFlightNote: 200,
   medImpact: 150,
+  formSummary: 200,
 } as const;
 
-export type SearchHitType = 'condition' | 'medication';
+export type SearchHitType = 'condition' | 'medication' | 'form';
 
 export interface SearchHit {
   type: SearchHitType;
@@ -31,6 +32,7 @@ export interface SearchHit {
   score: number;
   condition?: Condition;
   medication?: Medication;
+  form?: FormRef;
 }
 
 function normalize(value: string): string {
@@ -269,6 +271,34 @@ export function scoreMedication(medication: Medication, needles: string[]): numb
   });
 }
 
+/** Forms match on their title, the other names the guide uses for them, and their summary. */
+export function scoreForm(form: FormRef, needles: string[]): number {
+  return bestAcrossNeedles(needles, (needle) => {
+    let score = 0;
+    for (const name of [form.title, ...(form.aliases ?? [])]) {
+      score = Math.max(
+        score,
+        scoreField(
+          name,
+          needle,
+          SEARCH_FIELD_WEIGHTS.nameExact,
+          SEARCH_FIELD_WEIGHTS.nameSubstring,
+        ),
+      );
+    }
+    score = Math.max(
+      score,
+      scoreField(
+        form.summary,
+        needle,
+        SEARCH_FIELD_WEIGHTS.formSummary,
+        SEARCH_FIELD_WEIGHTS.formSummary,
+      ),
+    );
+    return score;
+  });
+}
+
 /** Collect expansion terms from NIH suggestion DTOs (labels + synonyms). */
 export function expandedTermsFromNihSuggestions(
   suggestions: Array<{ label?: string; primaryName?: string; synonyms?: string[] }>,
@@ -283,13 +313,14 @@ export function expandedTermsFromNihSuggestions(
 }
 
 /**
- * Ranked catalog search. Ties break by type (condition before medication), then id.
+ * Ranked catalog search. Ties break by type (condition, then form, then medication), then id.
  */
 export function searchCatalog(
   query: string,
   options: {
     conditions: Condition[];
     medications?: Medication[];
+    forms?: FormRef[];
     expandedTerms?: string[];
   },
 ): SearchHit[] {
@@ -309,6 +340,13 @@ export function searchCatalog(
     const score = scoreMedication(medication, needles);
     if (score > 0) {
       hits.push({ type: 'medication', id: medication.id, score, medication });
+    }
+  }
+
+  for (const form of options.forms ?? []) {
+    const score = scoreForm(form, needles);
+    if (score > 0) {
+      hits.push({ type: 'form', id: form.id, score, form });
     }
   }
 
