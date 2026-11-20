@@ -228,7 +228,6 @@ function ResultRow({
             </p>
           </div>
           <div style={{ flexShrink: 0 }}>
-            <DispositionBadge disposition={c.disposition} size="sm" />
           </div>
         </div>
       </button>
