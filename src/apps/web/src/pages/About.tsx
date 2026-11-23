@@ -27,7 +27,7 @@ export default function About({ onNavigate }: Props) {
         </div>
       </div>
 
-      <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px', display: 'flex', flexDirection: 'column', gap: 20 }}>
+      <div style={{ maxWidth: 800, margin: '0 auto', padding: '40px 24px', display: 'flex', flexDirection: 'column', gap: 20, minWidth: 0 }}>
         {/* Project statement */}
         <div style={{ background: '#ffffff', border: '1px solid #e2e8f0', borderRadius: 10, padding: '28px 32px' }}>
           <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: '1.1rem', color: '#1b2d4f', margin: '0 0 14px' }}>
@@ -122,9 +122,9 @@ export default function About({ onNavigate }: Props) {
               'FAA Guide for Aviation Medical Examiners: Special Issuance — faa.gov/ame_guide/app_process/general/si',
               'FAA Guide for Aviation Medical Examiners: Most Common Medical Conditions — https://www.faa.gov/ame_guide/most-common-medical-conditions',
             ].map((ref, i) => (
-              <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start' }}>
+              <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', minWidth: 0 }}>
                 <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#3b7fc4', flexShrink: 0, marginTop: 7 }} />
-                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#475569', lineHeight: 1.5 }}>
+                <span style={{ fontFamily: "'Inter', sans-serif", fontSize: '0.85rem', color: '#475569', lineHeight: 1.5, minWidth: 0, overflowWrap: 'anywhere' }}>
                   {ref}
                 </span>
               </div>
@@ -132,7 +132,7 @@ export default function About({ onNavigate }: Props) {
           </div>
         </div>
 
-        <div style={{ textAlign: 'center', padding: '8px 0' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 12, padding: '8px 0' }}>
           <button
             onClick={() => onNavigate('how-it-works')}
             style={{
@@ -145,7 +145,6 @@ export default function About({ onNavigate }: Props) {
               fontWeight: 600,
               cursor: 'pointer',
               fontFamily: "'DM Sans', sans-serif",
-              marginRight: 12,
             }}
           >
             How this works

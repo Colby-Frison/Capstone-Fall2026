@@ -102,7 +102,6 @@ export default function App() {
           <Header
             currentPage={nav.page}
             onNavigate={navigate}
-            searchQuery={nav.query}
           />
           <main className="app-main">
             {nav.page === 'search' && (

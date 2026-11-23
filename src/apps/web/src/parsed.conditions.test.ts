@@ -28,9 +28,10 @@ const map = mapFile as Map;
 describe('parsed AME Guide → site conditions', () => {
   it('committed data matches a fresh run of the script', () => {
     const fresh = serializeOutputs(buildParsedConditions(inputs));
-    expect(readFileSync(PATHS.map, 'utf8')).toBe(fresh.map);
-    expect(readFileSync(PATHS.data, 'utf8')).toBe(fresh.data);
-    expect(readFileSync(PATHS.report, 'utf8')).toBe(fresh.report);
+    const lf = (text: string) => text.replace(/\r\n/g, '\n');
+    expect(lf(readFileSync(PATHS.map, 'utf8'))).toBe(lf(fresh.map));
+    expect(lf(readFileSync(PATHS.data, 'utf8'))).toBe(lf(fresh.data));
+    expect(lf(readFileSync(PATHS.report, 'utf8'))).toBe(lf(fresh.report));
   });
 
   it('every parsed condition appears on the site', () => {
