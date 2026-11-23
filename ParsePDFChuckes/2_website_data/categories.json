@@ -64,6 +64,7 @@
    "persistent-postural-perceptual-dizziness-pppd-or-3pd",
    "superior-semicircular-canal-dehiscence-syndrome-sscds",
    "mastoids",
+   "middle-ear-abnormalities",
    "outer-ear-abnormalities",
    "ear-drums"
   ]
@@ -77,11 +78,13 @@
   "intro_html": null,
   "conditions": [
    "amblyopia",
+   "blepharitis-and-conjunctivitis",
    "cataract-s",
    "diplopia-double-vision",
    "ocular-histoplasmosis",
    "eyes-general-other-conditions",
    "eyes-procedures",
+   "lens-implant",
    "eyes-refractive-surgery"
   ]
  },
@@ -136,6 +139,7 @@
    "alpha-gal-syndrome-meat-allergy",
    "asthma-reactive-airway-disease",
    "pectus-excavatum",
+   "chronic-obstructive-pulmonary-disease-copd-emphysema-chronic-bronchitis",
    "disease-of-the-lungs-pleura-or-mediastinum",
    "pulmonary-fibrosis",
    "pleura-and-pleural-cavity",
@@ -288,7 +292,7 @@
   "order": 18,
   "intro_html": null,
   "conditions": [
-   "neurologic",
+   "alzheimers-disease-or-mild-cognitive-impairment-mci-or-dementia",
    "amyotrophic-lateral-sclerosis-als-aka-lou-gehrigs-disease",
    "arteriovenous-malformation-avm-neurological-brain-or-spinal-cord",
    "bells-palsy",

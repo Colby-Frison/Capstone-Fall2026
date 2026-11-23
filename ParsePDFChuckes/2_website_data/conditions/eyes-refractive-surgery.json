@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "08/27/2025",
- "order": 26,
+ "order": 29,
  "decisions": [
   "issue",
   "defer",
@@ -36,8 +36,8 @@
  ],
  "rows": [
   {
-   "label": null,
-   "condition": "- A. Surgery three (3) or more months ago AND - Full recovery, - Released from post operative care, and - Off all medications. The individual meets the vision standards for class applied:",
+   "label": "A",
+   "condition": "Surgery three (3) or more months ago AND - Full recovery, - Released from post operative care, and - Off all medications. The individual meets the vision standards for class applied:",
    "condition_html": "<ul><li><strong>A. </strong>Surgery three (3) or more months ago</li></ul>\n<p>AND</p>\n<ul><li>Full recovery,</li><li>Released from post operative care, and</li><li>Off all medications.</li></ul>\n<p>The individual meets the <a href=\"https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf\" target=\"_blank\" rel=\"noopener\">vision standards</a> for class applied:</p>",
    "evaluation_data": "Generally, not of aeromedical concern. If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as - Glare - Halos - Loss of contrast sensitivity - Poor night vision AND the individual meets the vision standards for class applied Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.",
    "evaluation_data_html": "<p>Generally, not of aeromedical concern.</p>\n<p>If the AME can determine the condition is under control and vision meets standards with no symptoms that would interfere with flight or safety related duties such as</p>\n<ul><li>Glare</li><li>Halos</li><li>Loss of contrast sensitivity</li><li>Poor night vision</li></ul>\n<p>AND the individual meets the vision standards for class applied</p>\n<p>Reminder: Annotate if correction was needed to meet standards and if so, apply Limitation 102.</p>",
@@ -56,8 +56,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- B. Surgery within the past 3 months.",
+   "label": "B",
+   "condition": "Surgery within the past 3 months.",
    "condition_html": "<ul><li><strong>B. </strong>Surgery within the past 3 months.</li></ul>",
    "evaluation_data": "The AME should review a completed and signed Eyes - Refractive Surgery Status Summary from the ophthalmologist or optometrist. If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:",
    "evaluation_data_html": "<p>The AME should review a completed and signed <a href=\"https://www.faa.gov/ame_guide/media/Lens_Implant_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">Eyes - Refractive Surgery Status Summary</a> from the ophthalmologist or optometrist.</p>\n<p>If all items fall into the “YES” column, the individual meets vision standards, and the AME has no concerns:</p>",

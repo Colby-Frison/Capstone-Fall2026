@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "9/24/2025",
- "order": 40,
+ "order": 44,
  "decisions": [
   "faa_decision",
   "see_reference"

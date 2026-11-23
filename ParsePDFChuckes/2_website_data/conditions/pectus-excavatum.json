@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "08/28/2024",
- "order": 39,
+ "order": 42,
  "decisions": [
   "issue",
   "defer",
@@ -24,21 +24,7 @@
   "Diagnosis;",
   "Assessment and plan;",
   "Prognosis; and",
-  "Follow-up.",
-  "The COPD Status Summary (to expedite case processing);",
-  "A current, detailed Clinical Progress Note from the treating physician or a board-certified Pulmonologist no more than 90 days before the AME exam;",
-  "The progress note must specifically include:",
-  "Current disease severity utilizing GOLD multi-dimensional assessment;",
-  "History of acute exacerbations or other complications;",
-  "Medication list noting presence or absence of side effects and dates used;",
-  "Treatment plan; and",
-  "Prognosis;",
-  "Pulmonary Function Test (PFT) performed no more than 90 days before the AME exam. PFT must be both pre- and post-bronchodilator and include flow volume loops;",
-  "Current 6-minute walk test ;",
-  "Labs to include CBC within the past 90 days and any other tests deemed indicated or already performed; and",
-  "Results of any tests/ imaging already performed",
-  "The evaluation, and current, detailed Clinical Progress Note must be from a board-certified PULMONOLOGIST",
-  "Pulmonary Function Test (PFT) must include DLCO , both pre- and post-bronchodilator, and include flow volume loops"
+  "Follow-up."
  ],
  "rows": [
   {
@@ -79,84 +65,18 @@
    "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p>",
    "pdf_page": 133,
    "disposition_shared_with_previous_row": false
-  },
-  {
-   "label": null,
-   "condition": "- A. GOLD stage 1A or 2A on multi-dimensional assessment of COPD AND - Oxygen saturation (SpO2) is 96% or higher at rest, on room air (without supplemental oxygen) - Post-bronchodilator FEV1 is 61% or higher - 6-minute walk test findings: - o 1-3% drop in SpO2 from baseline AND - Walked 400 meters or more - Treated with 3 or fewer medications (excluding a rescue inhaler) - NOT taking daily oral steroid ALL OTHERS, see Row B",
-   "condition_html": "<ul><li><strong>A. GOLD stage 1A or 2A </strong></li></ul>\n<p>on multi-dimensional assessment of COPD</p>\n<p>AND</p>\n<ul><li>Oxygen saturation (SpO2) is 96% or higher<strong> at rest, on room air </strong>(without supplemental oxygen)</li></ul>\n<ul><li>Post-bronchodilator FEV1 is 61% or higher</li></ul>\n<ul><li>6-minute walk test findings:</li><li>o 1-3% drop in SpO2 from baseline <strong>AND </strong></li><li>Walked 400 meters or more</li></ul>\n<ul><li>Treated with 3 or fewer medications (<strong>excluding</strong> a rescue inhaler)</li></ul>\n<ul><li>NOT taking daily oral steroid</li></ul>\n<p><strong>ALL OTHERS, see Row B </strong></p>",
-   "evaluation_data": "Submit the following: - 1. The COPD Status Summary (to expedite case processing); - 2. A current, detailed Clinical Progress Note from the treating physician or a board-certified Pulmonologist no more than 90 days before the AME exam; - 3. The progress note must specifically include: - History of the condition (how it was diagnosed, past and current treatments); - Current disease severity utilizing GOLD multi-dimensional assessment; - History of acute exacerbations or other complications; - Medication list noting presence or absence of side effects and dates used; - Physical exam findings; - Treatment plan; and - Prognosis; - 4. Pulmonary Function Test (PFT) performed no more than 90 days before the AME exam. PFT must be both pre- and post-bronchodilator and include flow volume loops; - 5. Current 6-minute walk test ; - 6. Labs to include CBC within the past 90 days and any other tests deemed indicated or already performed; and - 7. Results of any tests/ imaging already performed",
-   "evaluation_data_html": "<p>Submit the following:</p>\n<ul><li><strong>1. </strong>The <a href=\"https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf\" target=\"_blank\" rel=\"noopener\">COPD Status Summary</a> (to expedite case processing);</li></ul>\n<ul><li><strong>2. </strong>A <strong>current, detailed Clinical Progress Note</strong> from the <strong>treating physician</strong> or a board-certified <strong>Pulmonologist no more than 90 days before the AME exam; </strong></li></ul>\n<ul><li><p><strong>3. </strong>The progress note must specifically include:</p>\n<ul><li>History of the condition (how it was diagnosed, past and current treatments);</li><li>Current disease severity utilizing GOLD multi-dimensional assessment;</li><li>History of acute exacerbations or other complications;</li><li>Medication list noting presence or absence of side effects and dates used;</li><li>Physical exam findings;</li><li>Treatment plan; and</li><li>Prognosis;</li></ul></li></ul>\n<ul><li><strong>4. </strong>Pulmonary Function Test (PFT) performed no more than 90 days before the AME exam. PFT must be both pre- and post-bronchodilator and include flow volume loops;</li></ul>\n<ul><li><strong>5. </strong>Current <a href=\"https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6-minute walk test</a> ;</li></ul>\n<ul><li><strong>6. </strong>Labs to include CBC within the past 90 days and any other tests deemed indicated or already performed; and</li></ul>\n<ul><li><strong>7. </strong>Results of any tests/ imaging already performed</li></ul>",
-   "what_to_bring": [
-    "The COPD Status Summary (to expedite case processing);",
-    "A current, detailed Clinical Progress Note from the treating physician or a board-certified Pulmonologist no more than 90 days before the AME exam;",
-    "The progress note must specifically include:",
-    "Current disease severity utilizing GOLD multi-dimensional assessment;",
-    "History of acute exacerbations or other complications;",
-    "Medication list noting presence or absence of side effects and dates used;",
-    "Physical exam findings;",
-    "Treatment plan; and",
-    "Prognosis;",
-    "Pulmonary Function Test (PFT) performed no more than 90 days before the AME exam. PFT must be both pre- and post-bronchodilator and include flow volume loops;",
-    "Current 6-minute walk test ;",
-    "Labs to include CBC within the past 90 days and any other tests deemed indicated or already performed; and",
-    "Results of any tests/ imaging already performed"
-   ],
-   "decisions": [
-    "defer",
-    "special_issuance"
-   ],
-   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
-   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
-   "pdf_page": 134,
-   "disposition_shared_with_previous_row": false
-  },
-  {
-   "label": null,
-   "condition": "- B. All others (or any of the following) Any GOLD stage other than 1A or 2A on multi-dimensional assessment of COPD OR - Oxygen saturation (SpO2) is 95% or less at rest, on room air (without supplemental oxygen) OR - Post-bronchodilator FEV1 is 60% predicted or less OR - 6-minute walk test findings: - Greater than 3% drop in SpO2 from baseline OR - Walked less than 400 meters OR - Treated with 4 or more medications, (excluding a rescue inhaler) OR - Daily oral steroid use",
-   "condition_html": "<ul><li><strong>B. All others (or any of the following) </strong></li></ul>\n<p>Any GOLD stage <strong>other than</strong> 1A or 2A on multi-dimensional assessment of COPD</p>\n<p>OR</p>\n<ul><li>Oxygen saturation (SpO2) is <strong>95% or less at rest, on room air </strong>(without supplemental oxygen)</li></ul>\n<p>OR</p>\n<ul><li>Post-bronchodilator FEV1 is 60% predicted or less</li></ul>\n<p>OR</p>\n<ul><li>6-minute walk test findings:</li><li>Greater than 3% drop in SpO2 from baseline <strong>OR </strong></li><li>Walked less than 400 meters</li></ul>\n<p>OR</p>\n<ul><li>Treated with 4 or more medications, (<strong>excluding</strong> a rescue inhaler)</li></ul>\n<p>OR</p>\n<ul><li>Daily oral steroid use</li></ul>",
-   "evaluation_data": "Submit the following: ALL items in Row A However: - The evaluation, and current, detailed Clinical Progress Note must be from a board-certified PULMONOLOGIST - Pulmonary Function Test (PFT) must include DLCO, both pre- and post-bronchodilator, and include flow volume loops",
-   "evaluation_data_html": "<p>Submit the following:</p>\n<p><strong>ALL items in Row A </strong></p>\n<p><strong>However: </strong></p>\n<ul><li>The evaluation, and current, detailed Clinical Progress Note must be from a <strong>board-certified PULMONOLOGIST</strong></li></ul>\n<ul><li>Pulmonary Function Test (PFT) <strong>must include DLCO</strong>, both pre- and post-bronchodilator, and include flow volume loops</li></ul>",
-   "what_to_bring": [
-    "The evaluation, and current, detailed Clinical Progress Note must be from a board-certified PULMONOLOGIST",
-    "Pulmonary Function Test (PFT) must include DLCO , both pre- and post-bronchodilator, and include flow volume loops"
-   ],
-   "decisions": [
-    "defer",
-    "special_issuance"
-   ],
-   "disposition": "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Item 60.",
-   "disposition_html": "<p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in</p>\n<p>Item 60.</p>",
-   "pdf_page": 134,
-   "disposition_shared_with_previous_row": false
   }
  ],
  "caci_worksheets": [],
- "status_summaries": [
-  "Chronic Obstructive Pulmonary Disease (COPD) Status Summary"
- ],
- "notes_html": "<p><strong>Chronic Obstructive Pulmonary Disease (COPD); </strong></p>\n<p><strong>Emphysema; Chronic Bronchitis </strong></p>\n<p>All Classes</p>\n<p>(Updated 08/26/2026)</p>\n<p><strong>Chronic Obstructive Pulmonary Disease (COPD) Status Summary </strong></p>\n<p>(Updated 06/28/2023)</p>\n<p>Name: _______________________________ Birthdate: ______________________</p>\n<p>Applicant ID: __________________________ PI#: ___________________________</p>\n<p>Please have your Pulmonologist or the physician who manages your COPD provide the requested information in the space provided. Submit this summary and a current, detailed Clinical Progress Note addressing each item. Attach a copy of Pulmonary Function Test (#3) and the 6-minute Walk Test results (#4) and submit to your AME or mail to the FAA:</p>\n<table><thead><tr><th>Federal Aviation Administration Civil Aerospace Medical Institute, Building 13 Aerospace Medical Certification Division, AAM-300, PO Box 25082 Oklahoma City, OK 73125-9867</th><th>For stage criteria, see the Global Initiative for Chronic Lung Disease (GOLD) pocket guide app.</th></tr></thead><tbody></tbody></table>\n<table><thead><tr><th>YES NO</th></tr></thead><tbody><tr><td><p>YES NO</p>\n<p>Attach test results.</p></td></tr><tr><td><p>YES NO</p>\n<p>Attach test results.</p></td></tr></tbody></table>\n<ul><li>1. Is the individual classified as <strong>GOLD stage 1 or 2a</strong> and stable with no hospitalizations and no moderate or severe exacerbations in the past year?</li></ul>\n<ul><li>2. Resting oxygen saturation is 96% or higher.</li></ul>\n<ul><li>3. Pulmonary Function Test (PFT), performed no more than 90 days ago: Is the Post-bronchodilator <strong>FEV1 greater than 60%</strong> predicted:</li></ul>\n<ul><li>4. <a href=\"http://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf\" target=\"_blank\" rel=\"noopener\">6-minute walk test</a> , (6MWT) performed no more than 90 days ago. Do the results verify:</li><li>a. Less than or equal to 3% drop in SpO2 from baseline AND</li><li>b. Walked 400 meters or more</li></ul>\n<ul><li>5. Medications.</li><li>a. Treated with three (3) or fewer medications, excluding a rescue inhaler (e.g., Trelegy plus albuterol) AND</li><li>b. Oral prednisone (or similar) not needed/ not used daily.</li></ul>\n<ul><li>6. Explain any “NO” answers or other concerns. (Attach a current, detailed Clinical Progress Note).</li></ul>\n<p>________________________________________________ __________________</p>\n<p>Treating Physician Signature (Circle: Pulmonologist; PCP; Other) Date of Evaluation</p>\n<p>________________________________________________ __________________</p>\n<p>Name or Office Stamp Phone Number</p>",
- "links": [
-  {
-   "text": "6-minute walk test",
-   "href": "http://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf"
-  },
-  {
-   "text": "COPD Status Summary",
-   "href": "https://www.faa.gov/ame_guide/media/COPD_Status_Summary.pdf"
-  },
-  {
-   "text": "6-minute walk test",
-   "href": "https://www.faa.gov/ame_guide/media/FAAResultSheet_6MWT.pdf"
-  }
- ],
+ "status_summaries": [],
+ "notes_html": "",
+ "links": [],
  "aliases": [],
  "source": {
   "section": "item-35-lungs-and-chest",
   "section_title": "ITEM 35. Lungs and Chest",
   "pdf_pages": [
-   133,
-   134,
-   136
+   133
   ],
   "faa_url": "https://www.faa.gov/ame_guide"
  }

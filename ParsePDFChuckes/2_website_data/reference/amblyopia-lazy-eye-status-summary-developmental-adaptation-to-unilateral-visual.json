@@ -127,54 +127,6 @@
    "page": 96,
    "text": "AME actions: DEFER for initial review. This status summary is NOT required; however, it will help to streamline and significantly DECREASE FAA review time.",
    "html": "<p><strong>AME actions</strong>: DEFER for initial review. This status summary is NOT required; however, it will help to streamline and significantly DECREASE FAA review time.</p>"
-  },
-  {
-   "type": "paragraph",
-   "page": 97,
-   "text": "BLEPHARITIS and CONJUNCTIVITIS",
-   "html": "<p><strong>BLEPHARITIS and CONJUNCTIVITIS </strong></p>"
-  },
-  {
-   "type": "paragraph",
-   "page": 97,
-   "text": "All Classes",
-   "html": "<p>All Classes</p>"
-  },
-  {
-   "type": "paragraph",
-   "page": 97,
-   "text": "(Updated 08/27/2025)",
-   "html": "<p>(Updated 08/27/2025)</p>"
-  },
-  {
-   "type": "table",
-   "page": 97,
-   "header": null,
-   "rows": [
-    [
-     "BLEPHARITIS and CONJUNCTIVITIS C. All others including: - Does not meet vision standards - Symptoms which would impair flight or safety sensitive duties For Keratoconjunctivitis---see that page",
-     "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating optometrist or ophthalmologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and - Follow-up. 2. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. 3. Copies of any testing performed (visual fields, etc.) EVALUATION DATA",
-     "DEFER Submit the information to the FAA for a possible Special Issuance Annotate (elements or findings) in Block 60.",
-     "DISEASE/CONDITION",
-     "DISPOSITION"
-    ],
-    [
-     "- A. Blepharitis Blepharoconjunctivitis Conjunctivitis (e.g., allergy eye) The individual meets the vision standards for class applied:",
-     "Generally, not of aeromedical concern. If the AME can determine the treatment is acceptable (cleansing washes, drops and/or eye ointment), with no visual impairment or symptoms that would interfere with flight or safety-related duties OR Condition has resolved:",
-     "ISSUE Annotate this information in Block 60. Warn the individual they must meet visual acuity standards when using drops or ointments."
-    ],
-    [
-     "- B. Conjunctivitis, active due to infectious cause",
-     "For active infection, should not fly in accordance with 61.53. Individuals should not resume duties until signs and symptoms have resolved (when discharge, excessive tearing, irritation, and redness have cleared). Once resolved, see Row A.",
-     "Once resolved, see Row A. Best practice is not measured in days held out from work, but until signs and symptoms have resolved. Should not return to flight or safety-related duties until discharge, excessive tearing, irritation, and redness have cleared."
-    ],
-    [
-     "DISEASE/CONDITION",
-     "EVALUATION DATA",
-     "DISPOSITION"
-    ]
-   ],
-   "html": "<table><tbody><tr><td><p><strong>BLEPHARITIS and CONJUNCTIVITIS </strong></p>\n<p><strong>C.</strong> All others including:</p>\n<ul><li>Does not meet vision standards</li><li>Symptoms which would impair flight or safety sensitive duties</li></ul>\n<p>For Keratoconjunctivitis---see that page</p></td><td><p>Submit the following for FAA review:</p>\n<ul><li><strong>1. </strong>A <strong>current, detailed Clinical Progress Note</strong> generated from a clinic visit with the treating <strong>optometrist or ophthalmologist </strong>no more than 90 days prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and</li><li>Follow-up.</li></ul>\n<p>2. The Clinical Progress note must specifically include the best corrected <strong>visual acuity</strong> for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</p>\n<p>3. Copies of any testing performed (visual fields, etc.) <strong>EVALUATION DATA</strong></p></td><td><p><strong>DEFER </strong></p>\n<p>Submit the information to the FAA for a possible Special Issuance</p>\n<p>Annotate (elements or findings) in Block 60.</p></td><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>DISPOSITION</strong></p></td></tr><tr><td><ul><li><strong>A. </strong>Blepharitis</li></ul>\n<p>Blepharoconjunctivitis</p>\n<p>Conjunctivitis</p>\n<p>(e.g., allergy eye)</p>\n<p>The individual meets the <a href=\"https://www.faa.gov/ame_guide/media/VisualAcuityStandards.pdf\" target=\"_blank\" rel=\"noopener\">vision standards</a> for class applied:</p></td><td><p>Generally, not of aeromedical concern.</p>\n<p>If the AME can determine the treatment is acceptable (cleansing washes, drops and/or eye ointment), with no visual impairment or symptoms that would interfere with flight or safety-related duties</p>\n<p>OR</p>\n<p>Condition has resolved:</p></td><td><p><strong>ISSUE </strong></p>\n<p>Annotate this information in</p>\n<p>Block 60.</p>\n<p>Warn the individual they must meet visual acuity standards when using drops or ointments.</p></td></tr><tr><td><ul><li><strong>B. </strong>Conjunctivitis, active due to infectious cause</li></ul></td><td><p>For active infection, should not fly in accordance with 61.53.</p>\n<p>Individuals should not resume duties until signs and symptoms have resolved (when discharge, excessive tearing, irritation, and redness have cleared).</p>\n<p>Once resolved, see Row A.</p></td><td><p>Once resolved, see Row A.</p>\n<p>Best practice is not measured in days held out from work, but <strong>until signs and symptoms have resolved</strong>. Should not return to flight or safety-related duties until discharge, excessive tearing, irritation, and redness have cleared.</p></td></tr><tr><td><p><strong>DISEASE/CONDITION</strong></p></td><td><p><strong>EVALUATION DATA</strong></p></td><td><p><strong>DISPOSITION</strong></p></td></tr></tbody></table>"
   }
  ]
 }

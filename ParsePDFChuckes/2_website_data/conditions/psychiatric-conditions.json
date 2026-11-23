@@ -11,15 +11,121 @@
  },
  "applies_to": "All Classes",
  "updated": null,
- "order": 154,
+ "order": 158,
  "decisions": [
-  "issue",
-  "faa_decision"
+  "faa_decision",
+  "issue"
  ],
  "what_to_bring": [
+  "Submit all pertinent medical information and clinical status report. Also see 3. below.",
+  "Submit all pertinent medical information and clinical status report.",
+  "Submit all pertinent medical information and clinical status report. See Use of Antidepressant Medication Policy and Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.",
+  "Submit all pertinent medical information and clinical status report. Also see 1. below.",
+  "Submit all pertinent medical information and clinical status report. Also see 2. below.",
   "Submit all pertinent medical information required."
  ],
  "rows": [
+  {
+   "label": null,
+   "condition": "Substance Abuse",
+   "condition_html": "<p>Substance Abuse</p>",
+   "evaluation_data": "See Substances of Dependence/Abuse",
+   "evaluation_data_html": "<p>See <a href=\"https://www.faa.gov/ame_guide/abuse_dep/amd/\" target=\"_blank\" rel=\"noopener\">Substances of Dependence/Abuse</a></p>",
+   "what_to_bring": [],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Bipolar Disorder",
+   "condition_html": "<p>Bipolar Disorder</p>",
+   "evaluation_data": "Submit all pertinent medical information and clinical status report. Also see 3. below.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and clinical status report.</p>\n<p>Also see 3. below.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and clinical status report. Also see 3. below."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Dysthymic",
+   "condition_html": "<p>Dysthymic</p>",
+   "evaluation_data": "Submit all pertinent medical information and clinical status report.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and clinical status report.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and clinical status report."
+   ],
+   "decisions": [
+    "issue",
+    "faa_decision"
+   ],
+   "disposition": "If stable, resolved, no associated disturbance of thought, no recurrent episodes, and; a). psychotropic medication(s) used for less than 6 months and discontinued for at least 3 months – Issue b). No use of psychotropic medication(s) - Issue Otherwise - Requires FAA Decision",
+   "disposition_html": "<p>If stable, resolved, no associated disturbance of thought, no recurrent episodes, and;</p>\n<p>a). psychotropic medication(s) used for less than 6 months and discontinued for at least 3 months – Issue</p>\n<p>b). No use of psychotropic medication(s) - Issue Otherwise - Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Depression requiring the use of antidepressant medications",
+   "condition_html": "<p>Depression requiring the use of antidepressant medications</p>",
+   "evaluation_data": "Submit all pertinent medical information and clinical status report. See Use of Antidepressant Medication Policy and Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and clinical status report.</p>\n<p><a href=\"https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants\" target=\"_blank\" rel=\"noopener\">See Use of Antidepressant Medication Policy</a> and <a href=\"https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf\" target=\"_blank\" rel=\"noopener\">Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.</a></p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and clinical status report. See Use of Antidepressant Medication Policy and Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Personality Disorders",
+   "condition_html": "<p>Personality Disorders</p>",
+   "evaluation_data": "Submit all pertinent medical information and clinical status report. Also see 1. below.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and clinical status report. Also see 1. below.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and clinical status report. Also see 1. below."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
+  {
+   "label": null,
+   "condition": "Psychosis",
+   "condition_html": "<p>Psychosis</p>",
+   "evaluation_data": "Submit all pertinent medical information and clinical status report. Also see 2. below.",
+   "evaluation_data_html": "<p>Submit all pertinent medical information and clinical status report. Also see 2. below.</p>",
+   "what_to_bring": [
+    "Submit all pertinent medical information and clinical status report. Also see 2. below."
+   ],
+   "decisions": [
+    "faa_decision"
+   ],
+   "disposition": "Requires FAA Decision",
+   "disposition_html": "<p>Requires FAA Decision</p>",
+   "pdf_page": 413,
+   "disposition_shared_with_previous_row": false
+  },
   {
    "label": null,
    "condition": "Psychotropic medications for Smoking Cessation",
@@ -89,11 +195,25 @@
  "notes_html": "<ul><li>1. The category of personality disorders severe enough to have repeatedly manifested itself by overt acts refers to diagnosed personality disorders that involve what is called &quot;acting out&quot; behavior. These personality problems relate to poor social judgment, impulsivity, and disregard or antagonism toward authority, especially rules and regulations. A history of long-standing behavioral problems, whether major (criminal) or relatively minor (truancy, military misbehavior, petty criminal and civil indiscretions, and social instability), usually occurs with these disorders. Driving infractions and previous failures to follow aviation regulations are critical examples of these acts. Certain personality disorders and other mental disorders that include conditions of limited duration and/or widely varying severity may be disqualifying. Under this category, the FAA is especially concerned with significant depressive episodes requiring treatment, even outpatient therapy. If these episodes have been severe enough to cause some disruption of vocational or educational activity, or if they have required medication or involved suicidal ideation, the application should be deferred or denied issuance. Some personality disorders and situational dysphorias may be considered disqualifying for a limited time. These include such conditions as gross immaturity and some personality disorders not involving or manifested by overt acts.</li><li>2. Psychotic Disorders are characterized by a loss of reality testing in the form of delusions, hallucinations, or disorganized thoughts. They may be chronic, intermittent, or occur in a single episode. They may also occur as accompanying symptoms in other psychiatric conditions including but not limited to bipolar disorder (e.g., bipolar disorder with psychotic features), major depression (e.g., major depression with psychotic features), borderline personality disorder, etc. <strong>All applicants with such a diagnosis must be denied or deferred.</strong></li></ul>\n<ul><li>3. Bipolar Disorders are considered on a continuum as part of a spectrum of disorders where there are significant alternations in mood. Generally, only one episode of manic or hypomanic behavior is necessary to make the diagnosis. Please note that cyclothymic disorder is part of this spectrum. Even if the bipolar disorder does not have accompanying symptoms that reach the level of psychosis, the disorder can be so disruptive of judgment and functioning (especially mania) as to pose a significant risk to aviation safety. Impaired judgment does occur even in the milder form of the disease. <strong>All applicants with a diagnosis of Bipolar Disorder must be denied or deferred. </strong></li></ul>\n<ul><li>4. Although they may be rare in occurrence, severe anxiety problems, especially anxiety and phobias associated with some aspect of flying, are considered significant. Organic mental disorders that cause a cognitive defect, even if the applicant is not psychotic, are considered disqualifying whether they are due to trauma, toxic exposure, or arteriosclerotic or other degenerative changes. (See <strong>Item 18.m</strong>.).</li></ul>",
  "links": [
   {
-   "text": "Substances of",
+   "text": "Substances of Dependence/Abuse",
    "href": "https://www.faa.gov/ame_guide/abuse_dep/amd/"
+  },
+  {
+   "text": "See Use of Antidepressant Medication Policy",
+   "href": "https://www.faa.gov/ame_guide/app_process/exam_tech/item47/amd/antidepressants"
+  },
+  {
+   "text": "Disease Protocols, Specifications for Neuropsychological Evaluations for Treatment with SSRI Medications.",
+   "href": "https://www.faa.gov/ame_guide/media/ssrimedsspecs.pdf"
   }
  ],
  "aliases": [
+  "Substance Abuse",
+  "Bipolar Disorder",
+  "Dysthymic",
+  "Depression requiring the use of antidepressant medications",
+  "Personality Disorders",
+  "Psychosis",
   "Psychotropic medications for Smoking Cessation",
   "Substance Abuse",
   "Substance Dependence",
@@ -103,6 +223,7 @@
   "section": "psychiatric-conditions",
   "section_title": "PSYCHIATRIC CONDITIONS",
   "pdf_pages": [
+   413,
    414
   ],
   "faa_url": "https://www.faa.gov/ame_guide"

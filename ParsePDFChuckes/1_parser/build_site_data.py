@@ -144,13 +144,18 @@ def upper_heavy(t):
     return len(letters) >= 3 and sum(c.isupper() for c in letters) >= 0.7 * len(letters)
 
 
+SUBTITLE_MAX = 300      # "(Otitis Media, Serous Otitis Media, ...)" subtitle lines can be long
+
+
 def heading_part(t):
     """A line that can belong to a (multi-line) condition heading."""
-    if not (1 <= len(t) <= 110) or t.upper() in NOT_HEADINGS:
+    limit = SUBTITLE_MAX if t.startswith("(") else 110
+    if not (1 <= len(t) <= limit) or t.upper() in NOT_HEADINGS:
         return False
     if t.startswith(("[", "-", "•", "*")) or re.match(r"^(\d+\.|[A-Z]\.|I+\.|IV\.|V\.)\s", t):
         return False
-    if t.endswith(".") and not t.endswith(".)"):
+    # "Crystalline Lens Replacement (Cataract or Refractive)." is a heading, not a sentence
+    if t.endswith(".") and not t.endswith(".)") and not (t.endswith(").") and len(t) <= 80):
         return False
     if re.match(r"^(NOTE|Notes?)\b", t):
         return False
@@ -217,7 +222,7 @@ def row_record(cells, header):
     else:  # unusual shape: keep everything
         cond_t, ev_t, dis_t = texts[0], " ".join(texts[1:-1]), texts[-1]
         cond_h, ev_h, dis_h = htmls[0], "\n".join(htmls[1:-1]), htmls[-1]
-    m = re.match(r"^([A-Z])\.\s*(.*)$", cond_t, re.S)
+    m = re.match(r"^[-•\s]*([A-Z])\.\s*(.*)$", cond_t, re.S)       # "A. …" and "- A. …"
     label, cond_plain = (m.group(1), m.group(2)) if m else (None, cond_t)
     return OrderedDict([
         ("label", label),
@@ -230,6 +235,70 @@ def row_record(cells, header):
         ("disposition", clean(dis_t)),
         ("disposition_html", dis_h),
     ])
+
+
+HEADER_LABELS = set(DISPO)
+ROW_LETTER_RE = re.compile(r"^[-•\s]*([A-Z])\.\s")
+HEADER_PREFIX_RE = re.compile(r"^(?:(?:DISEASE/CONDITION|EVALUATION DATA|DISPOSITION)\s+)+(?=\S)")
+
+
+def repair_scrambled_tables(sections):
+    """Some disposition tables come out of the layout fallback with their header
+    cells mixed into the body rows and rows glued together, e.g.
+        [cond C, eval C, disp C, 'DISEASE/CONDITION', 'DISPOSITION'], [A…], [B…], [header]
+    Without a header row they are not recognised as disposition tables, so the
+    condition disappears into the notes of the condition above it.
+    Repair: drop the header-label cells, regroup the rest into rows of three,
+    strip a heading glued onto the first cell, and restore A/B/C order.
+    Returns a list of (section slug, table index, what happened)."""
+    log = []
+    for s in sections:
+        blocks = s.get("blocks", [])
+        for ti, t in enumerate(s["tables"]):
+            cells = [c for r in t["rows"] for c in r]
+            has_dispo_header = [clean(h).upper() for h in (t.get("header") or [])] == list(DISPO)
+            if t.get("header") and not has_dispo_header:
+                continue
+            if has_dispo_header:
+                # only tables whose rows were flattened together (e.g. Bell's Palsy, p. 293)
+                if all(len(r) == 3 for r in t["rows"]):
+                    continue
+            elif not any(clean(c["text"]).upper() == "DISPOSITION" for c in cells):
+                continue
+            body, glued = [], []
+            for c in cells:
+                txt = clean(c["text"])
+                if txt.upper() in HEADER_LABELS:
+                    continue
+                m = HEADER_PREFIX_RE.match(txt)
+                if m:                                  # "DISPOSITION 3. MRI of the brain …"
+                    c = dict(c, text=txt[m.end():])
+                    glued.append(len(body))
+                body.append(dict(c))
+            note = ""
+            if len(body) % 3 and glued and (len(body) - len(glued)) % 3 == 0:
+                dropped = [body[i]["text"][:60] for i in glued]
+                body = [c for i, c in enumerate(body) if i not in glued]
+                note = f"; dropped fragment(s) glued to a header label: {dropped}"
+            if not body or len(body) % 3:
+                log.append((s["slug"], ti, f"left as-is: {len(body)} body cells is not a multiple of 3"))
+                continue
+            rows = [body[i:i + 3] for i in range(0, len(body), 3)]
+            # heading glued onto a condition cell ("BLEPHARITIS and CONJUNCTIVITIS C. All others")
+            bi = next((i for i, b in enumerate(blocks) if b["type"] == "table" and b["table_index"] == ti), None)
+            heads = [clean(b["text"]) for b in blocks[max(0, (bi or 0) - 4):bi or 0] if b["type"] != "table"]
+            for r in rows:
+                for h in heads:
+                    if h and r[0]["text"].startswith(h + " ") and ROW_LETTER_RE.match(r[0]["text"][len(h) + 1:]):
+                        r[0]["text"] = r[0]["text"][len(h) + 1:]
+                        r[0]["html"] = r[0]["html"].replace(htmlmod.escape(h, quote=False), "", 1).replace("<p> ", "<p>", 1)
+            letters = [ROW_LETTER_RE.match(r[0]["text"]) for r in rows]
+            if all(letters) and len({m.group(1) for m in letters}) == len(rows):
+                rows.sort(key=lambda r: ROW_LETTER_RE.match(r[0]["text"]).group(1))
+            t["header"] = list(DISPO)
+            t["rows"] = rows
+            log.append((s["slug"], ti, f"repaired into {len(rows)} rows{note}"))
+    return log
 
 
 # --------------------------------------------------------------------------
@@ -306,7 +375,7 @@ def build_conditions(sections):
                     start = j
                     j -= 1
                     continue
-                if not heading_part(res) or len(t) > 140:
+                if not heading_part(res) or len(t) > (SUBTITLE_MAX + 30 if res.startswith("(") else 140):
                     break                        # body text of the previous condition
                 parts.insert(0, (j, res))
                 start = j
@@ -321,9 +390,12 @@ def build_conditions(sections):
                     start = parts[0][0]
                 main = [parts[0][1]]
                 k = 1
-                while k < len(parts) and main[-1].rstrip().endswith(("/", ",", "-", "(")):
+                # "Chronic Obstructive Pulmonary Disease (COPD);" + "Emphysema; Chronic Bronchitis"
+                while k < len(parts) and main[-1].rstrip().endswith(("/", ",", "-", "(", ";")):
                     main.append(parts[k][1]); k += 1
                 name = clean(" ".join(main)).rstrip("*").strip()
+                if name.endswith(")."):
+                    name = name[:-1]
                 rest = clean(" ".join(r for _, r in parts[k:]))
                 subtitle = rest or None
                 if not looks_like_heading(name):
@@ -401,6 +473,10 @@ def build_conditions(sections):
                             texts = tuple(clean(c["text"]).upper() for c in cells)
                             if not any(texts) or texts == DISPO:
                                 continue                    # empty / repeated header row
+                            # a lone header label in a body cell ("DISPOSITION") is a page-break
+                            # artifact, not content: treat it as empty so a merged cell is shared
+                            cells = [dict(c, text="", html="") if clean(c["text"]).upper() in HEADER_LABELS else c
+                                     for c in cells]
                             r = row_record(cells, t["header"])
                             r["pdf_page"] = b.get("page")
                             r["disposition_shared_with_previous_row"] = False
@@ -491,9 +567,15 @@ def _table_html(t):
 # --------------------------------------------------------------------------
 def main(sections_path, out_dir):
     sections = json.load(open(sections_path, encoding="utf-8"))
+    table_repairs = repair_scrambled_tables(sections)
     conditions, refs, placed, total = build_conditions(sections)
-    os.makedirs(os.path.join(out_dir, "conditions"), exist_ok=True)
-    os.makedirs(os.path.join(out_dir, "reference"), exist_ok=True)
+    for sub in ("conditions", "reference"):            # drop files of headings that no longer exist
+        d = os.path.join(out_dir, sub)
+        if os.path.isdir(d):
+            for fn in os.listdir(d):
+                if fn.endswith(".json"):
+                    os.remove(os.path.join(d, fn))
+        os.makedirs(d, exist_ok=True)
 
     def dump(obj, *path):
         with open(os.path.join(out_dir, *path), "w", encoding="utf-8") as f:
@@ -573,6 +655,8 @@ def main(sections_path, out_dir):
            f"- Rows whose disposition has no ISSUE/DEFER/DENY/CACI/AASI keyword "
            f"(free-text dispositions, check by hand): {len(no_dec)}", ""]
     rep += [f"  - {cid}: {lab}" for cid, lab in no_dec]
+    rep += ["", "## Scrambled disposition tables (header cells mixed into rows)", ""]
+    rep += [f"- {slug} table {ti + 1}: {what}" for slug, ti, what in table_repairs] or ["- none"]
     rep += ["", "## Conditions by category", ""]
     for c in cats.values():
         rep.append(f"**{c['name']}** ({c['exam_item'] or c['part']}): " +

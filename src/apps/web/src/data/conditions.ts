@@ -6,12 +6,16 @@
 import {
   adaptGuidanceFiles,
   applyNihConditionMap,
+  applyParsedConditions,
   searchAdaptedConditions,
   type Condition,
   type NihConditionMapFile,
   type NormalizedGuidanceFile,
+  type ParsedConditionsFile,
 } from "@content/index";
 import nihConditionMap from "@guidance/nih_condition_map.json";
+// Generated from the parsed AME Guide by scripts/build-parsed-conditions.ts (#56).
+import parsedConditions from "@guidance/parsed_conditions.json";
 import freqCondArray from "@guidance/freq_conditions.json";
 
 export type { Condition } from '@content/types';
@@ -25,8 +29,12 @@ const guidanceFiles = Object.keys(guidanceModules)
   .sort()
   .map((path) => guidanceModules[path]);
 
+// Parsed AME Guide content replaces/extends the adapted records; NIH identity is keyed by id, so it is applied last.
 export const conditions: Condition[] = applyNihConditionMap(
-  adaptGuidanceFiles(guidanceFiles),
+  applyParsedConditions(
+    adaptGuidanceFiles(guidanceFiles),
+    parsedConditions as unknown as ParsedConditionsFile,
+  ),
   nihConditionMap as NihConditionMapFile,
 );
 

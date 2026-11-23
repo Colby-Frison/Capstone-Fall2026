@@ -27,8 +27,8 @@
  ],
  "rows": [
   {
-   "label": null,
-   "condition": "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.",
+   "label": "A",
+   "condition": "KNOWN etiology Including COVID-19 infection If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.",
    "condition_html": "<ul><li><strong>A. KNOWN etiology </strong></li></ul>\n<p>Including <strong>COVID-19 infection</strong></p>\n<p>If due to trauma associated with traumatic brain injury, tumor removal, etc., review that section for additional information or required recovery periods.</p>",
    "evaluation_data": "No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties: ***************************************** *** Discuss with the pilot: - This condition may cause an inability to receive early warning of fuel leaks, exhaust fumes, or a fire (prior to visible smoke). - Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine. - CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight.",
    "evaluation_data_html": "<p>No evaluations or follow-up needed if the AME can determine the condition is benign and the pilot has no other condition(s) that would interfere with flight duties:</p>\n<p>***************************************** ***</p>\n<p>Discuss with the pilot:</p>\n<ul><li>This condition may cause an inability to receive early warning of <strong>fuel </strong>leaks, exhaust fumes, or a <strong>fire</strong> (prior to visible smoke).</li><li>Importance of using of a carbon monoxide (CO) detector (not a spot detector) in all aircraft flown that have an internal combustion engine.</li><li>CO is odorless and tasteless; however, it is frequently accompanied by exhaust fumes that can be detected by smell. Encourage the pilot to ask someone else to verify the absence of fuel fumes in the cabin prior to flight.</li></ul>",
@@ -46,8 +46,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- B. UNKNOWN (or uncertain) etiology For ANY duration.",
+   "label": "B",
+   "condition": "UNKNOWN (or uncertain) etiology For ANY duration.",
    "condition_html": "<ul><li><strong>B. UNKNOWN </strong>(or uncertain)</li></ul>\n<p><strong>etiology </strong></p>\n<p>For <strong>ANY</strong> duration.</p>",
    "evaluation_data": "Submit the following to the FAA for review: - The most recent detailed Clinical Progress Note (actual clinical record) from an otolaryngologist (ENT). - It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up. - It must specifically include etiology, if found.",
    "evaluation_data_html": "<p>Submit the following to the FAA for review:</p>\n<ul><li>The most recent <strong>detailed Clinical Progress Note</strong> (actual clinical record) from an <strong>otolaryngologist (ENT)</strong>.</li><li>It should include a summary of the history of the condition or diagnosis, current medications, clinical exam findings, results of any testing performed, diagnosis, assessment, plan (prognosis), and follow-up.</li><li>It must specifically include etiology, if found.</li></ul>",
@@ -70,10 +70,7 @@
  "status_summaries": [],
  "notes_html": "<p>*Anosmia-partial or complete loss of smell.</p>\n<p>ENT evaluation required as some cases may be due to nasal polyps or nasal growth (tumor) which could be aeromedically significant.</p>",
  "links": [],
- "aliases": [
-  "- A. KNOWN etiology Including COVID-19 infection If due to trauma associated wit",
-  "- B. UNKNOWN (or uncertain) etiology For ANY duration."
- ],
+ "aliases": [],
  "source": {
   "section": "condition-not-listed",
   "section_title": "Condition Not Listed",

@@ -11,7 +11,7 @@
  },
  "applies_to": "All Classes",
  "updated": "08/27/2025",
- "order": 29,
+ "order": 32,
  "decisions": [
   "issue",
   "defer",
@@ -40,8 +40,8 @@
  ],
  "rows": [
   {
-   "label": null,
-   "condition": "- A. Isolated eyelid coloboma only Not associated with other eye pathology or syndrome (e.g., Treacher- Collins, Goldenhar)",
+   "label": "A",
+   "condition": "Isolated eyelid coloboma only Not associated with other eye pathology or syndrome (e.g., Treacher- Collins, Goldenhar)",
    "condition_html": "<ul><li><strong>A. </strong>Isolated eyelid coloboma only</li></ul>\n<p>Not associated with other eye pathology or syndrome (e.g., Treacher- Collins, Goldenhar)</p>",
    "evaluation_data": "The individual should bring the following to their AME exam: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. - 2. If must specifically describe this is lid condition only, - No functional problems due to exposure; - No other eye pathology; - No syndrome; - If lid reconstructed, please describe. If the Clinical Progress Note verifies stable condition with no functional concerns or other eye pathology, vision meets standards with no symptoms that would interfere with flight or safety-related duties, and AME has no concerns:",
    "evaluation_data_html": "<p>The individual should bring the following to their AME exam:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating <strong>ophthalmologist </strong> no more than <strong>90 days</strong> prior to the AME exam.</li></ul>\n<ul><li>2. <strong>If must specifically describe this is lid condition only,</strong></li><li>No functional problems due to exposure;</li><li>No other eye pathology;</li><li>No syndrome;</li><li>If lid reconstructed, please describe.</li></ul>\n<p>If the Clinical Progress Note verifies stable condition with no functional concerns or other eye pathology, vision meets standards with no symptoms that would interfere with flight or safety-related duties, and AME has no concerns:</p>",
@@ -62,8 +62,8 @@
    "disposition_shared_with_previous_row": false
   },
   {
-   "label": null,
-   "condition": "- B. Coloboma - All others Other structure affected Associated with syndrome Progression or symptomatic Visual field loss",
+   "label": "B",
+   "condition": "Coloboma - All others Other structure affected Associated with syndrome Progression or symptomatic Visual field loss",
    "condition_html": "<ul><li><strong>B. </strong>Coloboma - All others</li></ul>\n<p>Other structure affected</p>\n<p>Associated with syndrome</p>\n<p>Progression or symptomatic</p>\n<p>Visual field loss</p>",
    "evaluation_data": "Submit the following for FAA review: - 1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating ophthalmologist no more than 90 days prior to the AME exam. It must include: - A detailed summary of the history of the condition; - Current medications, dosage, and side effects (if any); - Physical exam findings; - Results of any testing performed; - Diagnosis; - Assessment and plan; - Prognosis; and Follow-up. - 2. If must specifically describe extent of defect - Eyelid and all ocular structures - Any associated conditions (e.g. micro-ophthalmia, cataract, glaucoma, nystagmus, retinal detachment, staphyloma) or syndromes (e.g. Frazier Syndrome) Any associated visual field loss/defect. - Functional implications - 3. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change. - 4. Visual field testing of both eyes (30-2 preferred).",
    "evaluation_data_html": "<p>Submit the following for FAA review:</p>\n<ul><li>1. A current, detailed Clinical Progress Note generated from a clinic visit with the treating <strong>ophthalmologist </strong> no more than 90 days prior to the AME exam. It must include:</li></ul>\n<ul><li>A detailed summary of the history of the condition;</li><li>Current medications, dosage, and side effects (if any);</li><li>Physical exam findings;</li><li>Results of any testing performed;</li><li>Diagnosis;</li><li>Assessment and plan;</li><li>Prognosis; and Follow-up.</li></ul>\n<ul><li><p><strong>2. If must specifically describe extent of defect </strong></p>\n<ul><li>Eyelid and all ocular structures</li><li>Any associated conditions (e.g. micro-ophthalmia, cataract, glaucoma, nystagmus, retinal detachment, staphyloma) or syndromes (e.g. Frazier Syndrome) Any associated visual field loss/defect.</li></ul></li><li>Functional implications</li></ul>\n<ul><li>3. The Clinical Progress note must specifically include the best corrected visual acuity for distant and near vision (intermediate - if age 50 or older and First or Second Class). If vision standards are not met, that should be discussed. Include if the visual acuity is expected to change.</li></ul>\n<ul><li>4. <strong>Visual field testing of both eyes</strong> (30-2 preferred).</li></ul>",
@@ -144,10 +144,7 @@
  "status_summaries": [],
  "notes_html": "",
  "links": [],
- "aliases": [
-  "- A. Isolated eyelid coloboma only Not associated with other eye pathology or sy",
-  "- B. Coloboma - All others Other structure affected Associated with syndrome Pro"
- ],
+ "aliases": [],
  "source": {
   "section": "chorioretinitis",
   "section_title": "CHORIORETINITIS",

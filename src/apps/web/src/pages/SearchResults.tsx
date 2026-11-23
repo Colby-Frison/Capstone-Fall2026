@@ -234,7 +234,6 @@ function ResultRow({
             </p>
           </div>
           <div style={{ flexShrink: 0 }}>
-            <DispositionBadge disposition={c.disposition} size="sm" />
           </div>
         </div>
       </button>
@@ -442,7 +441,6 @@ function EmptyPrompt({
                 {c.category}
               </span>
             </div>
-            <DispositionBadge disposition={c.disposition} size="sm" />
           </button>
         ))}
       </div>

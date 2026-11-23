@@ -15,3 +15,9 @@ dist/
 # Source PDFs stay private / local-only (normalized JSON is committed)
 /Documentation/Resources/ame_guide.pdf
 /Documentation/Resources/OneGuide_Neurology.pdf
+
+# Full combined condition file written by build_site_data.py (~3 MB); conditions/<id>.json is committed instead
+/ParsePDFChuckes/2_website_data/conditions.json
+
+# Local Python virtualenv (pip install -e ".[dev]")
+/.venv/
