@@ -35,6 +35,15 @@ FAA dispositions are never derived from NIH. Synonyms are discovery aids only.
 | `flightStatusNote` | Medium |
 | `certificationImpact` | Weaker body |
 
+### FAA forms
+
+Forms come from `src/data/guidance/forms_catalog.json` and appear as their own result type, so searching "COPD status summary" finds the form itself.
+
+| Field | Role |
+| --- | --- |
+| `title`, `aliases` (the phrases the guide uses for the form) | Strongest (exact / substring) |
+| `summary` | Medium (`formSummary`, 200) |
+
 ## Weights
 
 Implemented in `src/packages/content/search.ts` as `SEARCH_FIELD_WEIGHTS`:

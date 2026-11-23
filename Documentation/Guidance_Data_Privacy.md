@@ -8,7 +8,7 @@ Issue [#48](https://github.com/Colby-Frison/Capstone-Fall2026/issues/48) — kee
 | --- | --- | --- |
 | Source PDFs (`ame_guide.pdf`, `OneGuide_Neurology.pdf`) | Local `Documentation/Resources/` (gitignored) | **No** |
 | Normalized guidance JSON (`*.normalized.json`) | `src/data/guidance/` | **Yes** |
-| Curated sidecars (`category_dictionary.json`, `form_links.json`, `freq_conditions.json`, `nih_condition_map.json`) | `src/data/guidance/` | **Yes** |
+| Curated sidecars (`category_dictionary.json`, `form_links.json`, `forms_catalog.json`, `freq_conditions.json`, `nih_condition_map.json`) | `src/data/guidance/` | **Yes** |
 | Vite / Vercel build | Reads committed JSON via `import.meta.glob('@guidance/*.normalized.json')` | N/A — no token required |
 
 **Secrecy target:** source PDFs (and git history that once held them). Normalized JSON is treated as publishable product content for this Capstone prototype.

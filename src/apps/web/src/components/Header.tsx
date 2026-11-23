@@ -6,6 +6,7 @@ type Page =
   | 'home'
   | 'search'
   | 'conditions'
+  | 'forms'
   | 'condition-detail'
   | 'medication-detail'
   | 'how-it-works'
@@ -25,6 +26,7 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
     { label: 'Home', page: 'home' },
     { label: 'Search', page: 'search' },
     { label: 'Conditions', page: 'conditions' },
+    { label: 'Forms', page: 'forms' },
     { label: 'How This Works', page: 'how-it-works' },
     { label: 'About', page: 'about' },
   ];

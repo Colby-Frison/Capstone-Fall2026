@@ -83,6 +83,7 @@ def test_content() -> None:
             "vitest",
             "run",
             "src/content.adapter.test.ts",
+            "src/forms.test.ts",
             "src/freq.conditions.test.ts",
             "src/nih.match.test.ts",
             "src/nih.map.test.ts",
@@ -186,6 +187,21 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_check_links(args: argparse.Namespace) -> int:
+    """Request every URL in forms_catalog.json and report any that fail."""
+    banner("Checking FAA form links")
+    script = ROOT / "src" / "scripts" / "check_form_links.py"
+    return subprocess.call([sys.executable, str(script)], cwd=str(ROOT))
+
+
+def cmd_sync_form_links(args: argparse.Namespace) -> int:
+    """Fill in form URLs in forms_catalog.json from the guide's own hyperlinks."""
+    banner("Syncing FAA form links from the AME guide")
+    script = ROOT / "src" / "scripts" / "sync_form_links.py"
+    cmd = [sys.executable, str(script)] + (["--write"] if args.write else [])
+    return subprocess.call(cmd, cwd=str(ROOT))
+
+
 def cmd_parse(args: argparse.Namespace) -> int:
     banner("Parsing PDF into guidance data")
     GUIDANCE_DIR.mkdir(parents=True, exist_ok=True)
@@ -264,6 +280,23 @@ def build_parser() -> argparse.ArgumentParser:
         help="Production-build the web app under src/apps/web (Vite → dist/)",
     )
     build.set_defaults(func=cmd_build)
+
+    check_links = sub.add_parser(
+        "check-links",
+        help="Check that every FAA form link in forms_catalog.json still works",
+    )
+    check_links.set_defaults(func=cmd_check_links)
+
+    sync_links = sub.add_parser(
+        "sync-form-links",
+        help="Fill in form URLs in forms_catalog.json from the AME guide's hyperlinks",
+    )
+    sync_links.add_argument(
+        "--write",
+        action="store_true",
+        help="Save the resolved URLs (default is a dry run that only reports)",
+    )
+    sync_links.set_defaults(func=cmd_sync_form_links)
 
     parse = sub.add_parser("parse", help="Parse a PDF into src/data/guidance")
     parse.add_argument(

@@ -5,6 +5,8 @@ export type {
   Condition,
   Disposition,
   DocumentItem,
+  FormRef,
+  FormType,
   Medication,
   NihConditionIdentity,
   NihMappingStatus,
