@@ -150,13 +150,13 @@ test.describe('viewport layout', () => {
       await page.goto('/');
 
       const homeSearch = page.locator('main form.stack-form');
-      await homeSearch.getByRole('combobox').fill('valvular');
+      await homeSearch.getByRole('combobox').fill('migraine');
       await homeSearch.getByRole('button', { name: 'Search' }).click();
       await expect(page.getByText(/results for/i)).toBeVisible();
-      await page.getByRole('button', { name: /Valvular Disease/ }).click();
+      await page.getByRole('button', { name: /Headache or Migraine/ }).click();
       await expect(page.getByRole('heading', { name: 'What the guide says' })).toBeVisible();
 
-      const pathway = page.getByRole('button', { name: /Single Valve Replacement \(Tissue, Mechanical, or Valvuloplasty\)/ });
+      const pathway = page.getByRole('button', { name: /Stress Headache/ });
       await pathway.click();
       await expect(page.getByRole('heading', { name: 'What the guide says' })).toBeVisible();
 

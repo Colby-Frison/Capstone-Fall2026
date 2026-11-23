@@ -1,19 +1,23 @@
 import { expect, test } from '@playwright/test';
 
-/** Mixed NIH payload: one catalog match + one NIH-only term (client enrich fills matches). */
+/**
+ * Mixed NIH payload: one catalog match + one NIH-only term (client enrich fills matches).
+ * The NIH-only label must not be a substring of a catalog name. "Migraine" now matches
+ * "Headache or Migraine", so it is no longer a stand-in for an unmatched term.
+ */
 const mockResponse = {
   query: 'acou',
   suggestions: [
     {
       keyId: '9002',
-      label: 'Migraine',
-      primaryName: 'Migraine',
-      synonyms: ['sick headache'],
-      icd10: ['G43.909'],
+      label: 'Zzyzx fever',
+      primaryName: 'Zzyzx fever',
+      synonyms: [],
+      icd10: [],
       infoLinks: [
         {
-          url: 'https://medlineplus.gov/migraine.html',
-          title: 'Migraine — MedlinePlus',
+          url: 'https://medlineplus.gov/zzyzx.html',
+          title: 'Zzyzx fever — MedlinePlus',
         },
       ],
       matchedConditionIds: [],
@@ -56,7 +60,7 @@ test.describe('NIH condition autocomplete', () => {
     await expect(options.nth(0)).toContainText(/Acoustic Neuroma|Acoustic neuroma/i);
     await expect(options.nth(0)).toContainText('In this guide');
     await expect(listbox.getByText('Not in this guide', { exact: true })).toBeVisible();
-    await expect(options.nth(1)).toContainText('Migraine');
+    await expect(options.nth(1)).toContainText('Zzyzx fever');
     await expect(options.nth(1)).toContainText('not in this guide');
   });
 
