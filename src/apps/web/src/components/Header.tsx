@@ -14,11 +14,10 @@ type Page =
 interface Props {
   currentPage: Page;
   onNavigate: (page: Page, query?: string) => void;
-  searchQuery?: string;
 }
 
-export default function Header({ currentPage, onNavigate, searchQuery = '' }: Props) {
-  const [query, setQuery] = useState(searchQuery);
+export default function Header({ currentPage, onNavigate }: Props) {
+  const [query, setQuery] = useState('');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems: { label: string; page: Page }[] = [
@@ -29,25 +28,23 @@ export default function Header({ currentPage, onNavigate, searchQuery = '' }: Pr
     { label: 'About', page: 'about' },
   ];
 
-  useEffect(() => {
-    setQuery(searchQuery);
-  }, [searchQuery]);
+  function navigateFromHeader(page: Page, idOrQuery?: string) {
+    onNavigate(page, idOrQuery);
+    setQuery('');
+    setMobileMenuOpen(false);
+  }
 
   function handleSearch(q: string) {
-    if (q.trim()) {
-      onNavigate('search', q.trim());
-      setMobileMenuOpen(false);
-    }
+    const trimmed = q.trim();
+    if (trimmed) navigateFromHeader('search', trimmed);
   }
 
   function handleSelectCondition(conditionId: string, _suggestion: NihSuggestion) {
-    onNavigate('condition-detail', conditionId);
-    setMobileMenuOpen(false);
+    navigateFromHeader('condition-detail', conditionId);
   }
 
   function handleSelectUnmatched(suggestion: NihSuggestion) {
-    onNavigate('search', suggestion.label);
-    setMobileMenuOpen(false);
+    navigateFromHeader('search', suggestion.label);
   }
 
   const showSearch = currentPage !== 'home';
