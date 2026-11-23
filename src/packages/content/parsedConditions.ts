@@ -8,6 +8,7 @@
  *   id, name and category, so ?condition= URLs, NIH data and form links keep working.
  * - `added` entries are parsed conditions that were not on the site yet.
  */
+import { linkConditionForms } from './forms';
 import type { Condition, ParsedConditionsFile } from './types';
 
 export function applyParsedConditions(
@@ -23,20 +24,21 @@ export function applyParsedConditions(
   const updated = conditions.map((condition) => {
     const fields = matched.get(condition.id);
     if (!fields) return condition;
-    return {
+    // Parsed situations replace the adapted ones, so their form links are rebuilt here.
+    return linkConditionForms({
       ...condition,
       ...fields,
       id: condition.id,
       name: condition.name,
       category: condition.category,
       relatedMedicationIds: condition.relatedMedicationIds,
-    };
+    });
   });
 
   const existingIds = new Set(updated.map((c) => c.id));
   const added = entries
     .filter((e) => e.status === 'added' && !existingIds.has(e.id))
-    .map((e) => e.fields as Condition);
+    .map((e) => linkConditionForms(e.fields as Condition));
 
   return [...updated, ...added].sort((a, b) => a.name.localeCompare(b.name));
 }

@@ -163,6 +163,43 @@ export function collectConditionFormIds(
   ]);
 }
 
+/**
+ * Re-link forms on a condition whose situations were built without them (the
+ * parsed AME Guide in parsedConditions.ts). Each situation gets the forms named
+ * in its displayed text, each checklist item gets the form it names, and the
+ * condition keeps any form ids it already had.
+ */
+export function linkConditionForms(condition: Condition): Condition {
+  const subConditions = condition.subConditions.map((sub) => {
+    const documents = sub.documents.map((doc) => {
+      if (doc.formId) return doc;
+      const form = formForDocument(doc.description ?? doc.label, condition.name);
+      return form ? { ...doc, formId: form.id, url: form.url } : doc;
+    });
+    const text = [
+      sub.name,
+      sub.summary,
+      sub.certificationNote,
+      sub.dispositionText ?? '',
+      ...documents.map((doc) => doc.description ?? doc.label),
+      ...(sub.ameReviewNotes ?? []),
+    ].join(' ');
+    const formIds = orderIds([
+      ...(sub.formIds ?? []),
+      ...formIdsInText(text, condition.name),
+    ]);
+    return { ...sub, documents, formIds };
+  });
+  return {
+    ...condition,
+    subConditions,
+    formIds: collectConditionFormIds(condition.name, [
+      condition.formIds ?? [],
+      ...subConditions.map((sub) => sub.formIds),
+    ]),
+  };
+}
+
 /** Every form a condition uses, in display order. */
 export function formsForCondition(condition: Condition): FormRef[] {
   return formsByIds(condition.formIds);
